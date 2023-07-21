@@ -1,0 +1,13 @@
+[
+  {
+    "extension": "revapi.reporter.json",
+    "configuration": {
+      "minSeverity": "BREAKING",
+      "minCriticality": "documented",
+      "output" : "temp.json",
+      "indent": true,
+      "append": true,
+      "keepEmptyFile": true
+    }
+  }
+]
