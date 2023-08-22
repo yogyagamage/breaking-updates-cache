@@ -1,0 +1,987 @@
+[ {
+  "code" : "java.class.removed",
+  "old" : "class okio.AsyncTimeout",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "okio"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "okio.AsyncTimeout"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "AsyncTimeout"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "okio-2.1.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class okio.Buffer",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "okio"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "okio.Buffer"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "Buffer"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "okio-2.1.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "interface okio.BufferedSink",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "okio"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "okio.BufferedSink"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "BufferedSink"
+  }, {
+    "name" : "elementKind",
+    "value" : "interface"
+  }, {
+    "name" : "oldArchive",
+    "value" : "okio-2.1.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "interface okio.BufferedSource",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "okio"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "okio.BufferedSource"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "BufferedSource"
+  }, {
+    "name" : "elementKind",
+    "value" : "interface"
+  }, {
+    "name" : "oldArchive",
+    "value" : "okio-2.1.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class okio.ByteString",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "okio"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "okio.ByteString"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "ByteString"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "okio-2.1.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class okio.DeflaterSink",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "okio"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "okio.DeflaterSink"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "DeflaterSink"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "okio-2.1.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class okio.ForwardingSink",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "okio"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "okio.ForwardingSink"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "ForwardingSink"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "okio-2.1.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class okio.ForwardingSource",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "okio"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "okio.ForwardingSource"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "ForwardingSource"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "okio-2.1.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class okio.ForwardingTimeout",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "okio"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "okio.ForwardingTimeout"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "ForwardingTimeout"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "okio-2.1.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class okio.GzipSink",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "okio"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "okio.GzipSink"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "GzipSink"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "okio-2.1.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class okio.GzipSource",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "okio"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "okio.GzipSource"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "GzipSource"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "okio-2.1.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class okio.HashingSink",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "okio"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "okio.HashingSink"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "HashingSink"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "okio-2.1.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class okio.HashingSource",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "okio"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "okio.HashingSource"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "HashingSource"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "okio-2.1.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class okio.InflaterSource",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "okio"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "okio.InflaterSource"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "InflaterSource"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "okio-2.1.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class okio.Okio",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "okio"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "okio.Okio"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "Okio"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "okio-2.1.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class okio.Options",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "okio"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "okio.Options"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "Options"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "okio-2.1.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class okio.PeekSource",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "okio"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "okio.PeekSource"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "PeekSource"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "okio-2.1.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class okio.Pipe",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "okio"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "okio.Pipe"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "Pipe"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "okio-2.1.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class okio.RealBufferedSink",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "okio"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "okio.RealBufferedSink"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "RealBufferedSink"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "okio-2.1.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class okio.RealBufferedSource",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "okio"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "okio.RealBufferedSource"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "RealBufferedSource"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "okio-2.1.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class okio.Segment",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "okio"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "okio.Segment"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "Segment"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "okio-2.1.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class okio.SegmentPool",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "okio"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "okio.SegmentPool"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "SegmentPool"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "okio-2.1.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class okio.SegmentedByteString",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "okio"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "okio.SegmentedByteString"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "SegmentedByteString"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "okio-2.1.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "interface okio.Sink",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "okio"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "okio.Sink"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "Sink"
+  }, {
+    "name" : "elementKind",
+    "value" : "interface"
+  }, {
+    "name" : "oldArchive",
+    "value" : "okio-2.1.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "interface okio.Source",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "okio"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "okio.Source"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "Source"
+  }, {
+    "name" : "elementKind",
+    "value" : "interface"
+  }, {
+    "name" : "oldArchive",
+    "value" : "okio-2.1.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class okio.Timeout",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "okio"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "okio.Timeout"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "Timeout"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "okio-2.1.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class okio.Utf8",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "okio"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "okio.Utf8"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "Utf8"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "okio-2.1.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class okio.internal.ByteStringKt",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "okio.internal"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "okio.internal.ByteStringKt"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "ByteStringKt"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "okio-2.1.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class okio.internal._Utf8Kt",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "okio.internal"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "okio.internal._Utf8Kt"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "_Utf8Kt"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "okio-2.1.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+} ]

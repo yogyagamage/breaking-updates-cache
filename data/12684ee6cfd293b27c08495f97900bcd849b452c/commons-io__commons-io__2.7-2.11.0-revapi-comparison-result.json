@@ -1,0 +1,1423 @@
+[ {
+  "code" : "java.method.exception.checkedRemoved",
+  "old" : "method boolean org.apache.commons.io.FilenameUtils::directoryContains(java.lang.String, java.lang.String) throws java.io.IOException",
+  "new" : "method boolean org.apache.commons.io.FilenameUtils::directoryContains(java.lang.String, java.lang.String)",
+  "name" : "Method no longer throws checked exceptions",
+  "description" : "Method no longer throws checked exceptions: java.io.IOException.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "exception",
+    "value" : "java.io.IOException"
+  }, {
+    "name" : "package",
+    "value" : "org.apache.commons.io"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.commons.io.FilenameUtils"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "FilenameUtils"
+  }, {
+    "name" : "methodName",
+    "value" : "directoryContains"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "commons-io-2.7.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "commons-io-2.11.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.field.noLongerConstant",
+  "old" : "field org.apache.commons.io.IOUtils.LINE_SEPARATOR_UNIX",
+  "new" : "field org.apache.commons.io.IOUtils.LINE_SEPARATOR_UNIX",
+  "name" : "field no longer constant",
+  "description" : "Field no longer declares a constant value.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SEMANTIC",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "EQUIVALENT"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "EQUIVALENT"
+  } ],
+  "attachments" : [ {
+    "name" : "value",
+    "value" : "\n"
+  }, {
+    "name" : "package",
+    "value" : "org.apache.commons.io"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.commons.io.IOUtils"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "IOUtils"
+  }, {
+    "name" : "fieldName",
+    "value" : "LINE_SEPARATOR_UNIX"
+  }, {
+    "name" : "elementKind",
+    "value" : "field"
+  }, {
+    "name" : "oldArchive",
+    "value" : "commons-io-2.7.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "commons-io-2.11.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.field.noLongerConstant",
+  "old" : "field org.apache.commons.io.IOUtils.LINE_SEPARATOR_WINDOWS",
+  "new" : "field org.apache.commons.io.IOUtils.LINE_SEPARATOR_WINDOWS",
+  "name" : "field no longer constant",
+  "description" : "Field no longer declares a constant value.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SEMANTIC",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "EQUIVALENT"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "EQUIVALENT"
+  } ],
+  "attachments" : [ {
+    "name" : "value",
+    "value" : "\r\n"
+  }, {
+    "name" : "package",
+    "value" : "org.apache.commons.io"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.commons.io.IOUtils"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "IOUtils"
+  }, {
+    "name" : "fieldName",
+    "value" : "LINE_SEPARATOR_WINDOWS"
+  }, {
+    "name" : "elementKind",
+    "value" : "field"
+  }, {
+    "name" : "oldArchive",
+    "value" : "commons-io-2.7.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "commons-io-2.11.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.exception.checkedRemoved",
+  "old" : "method org.apache.commons.io.LineIterator org.apache.commons.io.IOUtils::lineIterator(java.io.InputStream, java.lang.String) throws java.io.IOException",
+  "new" : "method org.apache.commons.io.LineIterator org.apache.commons.io.IOUtils::lineIterator(java.io.InputStream, java.lang.String)",
+  "name" : "Method no longer throws checked exceptions",
+  "description" : "Method no longer throws checked exceptions: java.io.IOException.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "exception",
+    "value" : "java.io.IOException"
+  }, {
+    "name" : "package",
+    "value" : "org.apache.commons.io"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.commons.io.IOUtils"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "IOUtils"
+  }, {
+    "name" : "methodName",
+    "value" : "lineIterator"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "commons-io-2.7.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "commons-io-2.11.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.exception.checkedRemoved",
+  "old" : "method org.apache.commons.io.LineIterator org.apache.commons.io.IOUtils::lineIterator(java.io.InputStream, java.nio.charset.Charset) throws java.io.IOException",
+  "new" : "method org.apache.commons.io.LineIterator org.apache.commons.io.IOUtils::lineIterator(java.io.InputStream, java.nio.charset.Charset)",
+  "name" : "Method no longer throws checked exceptions",
+  "description" : "Method no longer throws checked exceptions: java.io.IOException.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "exception",
+    "value" : "java.io.IOException"
+  }, {
+    "name" : "package",
+    "value" : "org.apache.commons.io"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.commons.io.IOUtils"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "IOUtils"
+  }, {
+    "name" : "methodName",
+    "value" : "lineIterator"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "commons-io-2.7.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "commons-io-2.11.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.exception.checkedRemoved",
+  "old" : "method byte[] org.apache.commons.io.IOUtils::toByteArray(java.lang.String) throws java.io.IOException",
+  "new" : "method byte[] org.apache.commons.io.IOUtils::toByteArray(java.lang.String)",
+  "name" : "Method no longer throws checked exceptions",
+  "description" : "Method no longer throws checked exceptions: java.io.IOException.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "exception",
+    "value" : "java.io.IOException"
+  }, {
+    "name" : "package",
+    "value" : "org.apache.commons.io"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.commons.io.IOUtils"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "IOUtils"
+  }, {
+    "name" : "methodName",
+    "value" : "toByteArray"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "commons-io-2.7.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "commons-io-2.11.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.exception.checkedRemoved",
+  "old" : "method java.io.InputStream org.apache.commons.io.IOUtils::toInputStream(java.lang.CharSequence, java.lang.String) throws java.io.IOException",
+  "new" : "method java.io.InputStream org.apache.commons.io.IOUtils::toInputStream(java.lang.CharSequence, java.lang.String)",
+  "name" : "Method no longer throws checked exceptions",
+  "description" : "Method no longer throws checked exceptions: java.io.IOException.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "exception",
+    "value" : "java.io.IOException"
+  }, {
+    "name" : "package",
+    "value" : "org.apache.commons.io"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.commons.io.IOUtils"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "IOUtils"
+  }, {
+    "name" : "methodName",
+    "value" : "toInputStream"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "commons-io-2.7.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "commons-io-2.11.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.exception.checkedRemoved",
+  "old" : "method java.io.InputStream org.apache.commons.io.IOUtils::toInputStream(java.lang.String, java.lang.String) throws java.io.IOException",
+  "new" : "method java.io.InputStream org.apache.commons.io.IOUtils::toInputStream(java.lang.String, java.lang.String)",
+  "name" : "Method no longer throws checked exceptions",
+  "description" : "Method no longer throws checked exceptions: java.io.IOException.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "exception",
+    "value" : "java.io.IOException"
+  }, {
+    "name" : "package",
+    "value" : "org.apache.commons.io"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.commons.io.IOUtils"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "IOUtils"
+  }, {
+    "name" : "methodName",
+    "value" : "toInputStream"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "commons-io-2.7.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "commons-io-2.11.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.exception.checkedRemoved",
+  "old" : "method java.lang.String org.apache.commons.io.IOUtils::toString(byte[]) throws java.io.IOException",
+  "new" : "method java.lang.String org.apache.commons.io.IOUtils::toString(byte[])",
+  "name" : "Method no longer throws checked exceptions",
+  "description" : "Method no longer throws checked exceptions: java.io.IOException.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "exception",
+    "value" : "java.io.IOException"
+  }, {
+    "name" : "package",
+    "value" : "org.apache.commons.io"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.commons.io.IOUtils"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "IOUtils"
+  }, {
+    "name" : "methodName",
+    "value" : "toString"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "commons-io-2.7.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "commons-io-2.11.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.exception.checkedRemoved",
+  "old" : "method java.lang.String org.apache.commons.io.IOUtils::toString(byte[], java.lang.String) throws java.io.IOException",
+  "new" : "method java.lang.String org.apache.commons.io.IOUtils::toString(byte[], java.lang.String)",
+  "name" : "Method no longer throws checked exceptions",
+  "description" : "Method no longer throws checked exceptions: java.io.IOException.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "exception",
+    "value" : "java.io.IOException"
+  }, {
+    "name" : "package",
+    "value" : "org.apache.commons.io"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.commons.io.IOUtils"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "IOUtils"
+  }, {
+    "name" : "methodName",
+    "value" : "toString"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "commons-io-2.7.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "commons-io-2.11.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.parameterTypeErasureChanged",
+  "old" : "parameter java.nio.file.FileVisitResult java.nio.file.SimpleFileVisitor<T>::preVisitDirectory(===T===, java.nio.file.attribute.BasicFileAttributes) throws java.io.IOException @ org.apache.commons.io.file.AccumulatorPathVisitor",
+  "new" : "parameter java.nio.file.FileVisitResult org.apache.commons.io.file.CountingPathVisitor::preVisitDirectory(===java.nio.file.Path===, java.nio.file.attribute.BasicFileAttributes) throws java.io.IOException @ org.apache.commons.io.file.AccumulatorPathVisitor",
+  "name" : "parameter type erasure changed",
+  "description" : "The erasure of the type of the parameter changed from 'java.lang.Object' to 'java.nio.file.Path'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "java.lang.Object"
+  }, {
+    "name" : "newType",
+    "value" : "java.nio.file.Path"
+  }, {
+    "name" : "package",
+    "value" : "org.apache.commons.io.file"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.commons.io.file.AccumulatorPathVisitor"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "AccumulatorPathVisitor"
+  }, {
+    "name" : "methodName",
+    "value" : "preVisitDirectory"
+  }, {
+    "name" : "parameterIndex",
+    "value" : "0"
+  }, {
+    "name" : "elementKind",
+    "value" : "parameter"
+  }, {
+    "name" : "oldArchive",
+    "value" : "commons-io-2.7.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "commons-io-2.11.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.parameterTypeErasureChanged",
+  "old" : "parameter java.nio.file.FileVisitResult java.nio.file.SimpleFileVisitor<T>::preVisitDirectory(===T===, java.nio.file.attribute.BasicFileAttributes) throws java.io.IOException @ org.apache.commons.io.file.CountingPathVisitor",
+  "new" : "parameter java.nio.file.FileVisitResult org.apache.commons.io.file.CountingPathVisitor::preVisitDirectory(===java.nio.file.Path===, java.nio.file.attribute.BasicFileAttributes) throws java.io.IOException",
+  "name" : "parameter type erasure changed",
+  "description" : "The erasure of the type of the parameter changed from 'java.lang.Object' to 'java.nio.file.Path'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "java.lang.Object"
+  }, {
+    "name" : "newType",
+    "value" : "java.nio.file.Path"
+  }, {
+    "name" : "package",
+    "value" : "org.apache.commons.io.file"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.commons.io.file.CountingPathVisitor"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "CountingPathVisitor"
+  }, {
+    "name" : "methodName",
+    "value" : "preVisitDirectory"
+  }, {
+    "name" : "parameterIndex",
+    "value" : "0"
+  }, {
+    "name" : "elementKind",
+    "value" : "parameter"
+  }, {
+    "name" : "oldArchive",
+    "value" : "commons-io-2.7.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "commons-io-2.11.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.exception.checkedRemoved",
+  "old" : "method void org.apache.commons.io.input.BoundedReader::<init>(java.io.Reader, int) throws java.io.IOException",
+  "new" : "method void org.apache.commons.io.input.BoundedReader::<init>(java.io.Reader, int)",
+  "name" : "Method no longer throws checked exceptions",
+  "description" : "Method no longer throws checked exceptions: java.io.IOException.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "exception",
+    "value" : "java.io.IOException"
+  }, {
+    "name" : "package",
+    "value" : "org.apache.commons.io.input"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.commons.io.input.BoundedReader"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "BoundedReader"
+  }, {
+    "name" : "methodName",
+    "value" : "<init>"
+  }, {
+    "name" : "elementKind",
+    "value" : "constructor"
+  }, {
+    "name" : "oldArchive",
+    "value" : "commons-io-2.7.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "commons-io-2.11.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.exception.checkedRemoved",
+  "old" : "method boolean java.io.Reader::ready() throws java.io.IOException @ org.apache.commons.io.input.CharSequenceReader",
+  "new" : "method boolean org.apache.commons.io.input.CharSequenceReader::ready()",
+  "name" : "Method no longer throws checked exceptions",
+  "description" : "Method no longer throws checked exceptions: java.io.IOException.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "exception",
+    "value" : "java.io.IOException"
+  }, {
+    "name" : "package",
+    "value" : "org.apache.commons.io.input"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.commons.io.input.CharSequenceReader"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "CharSequenceReader"
+  }, {
+    "name" : "methodName",
+    "value" : "ready"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "commons-io-2.7.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "commons-io-2.11.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.inheritedMovedToClass",
+  "old" : "method boolean java.io.Reader::ready() throws java.io.IOException @ org.apache.commons.io.input.CharSequenceReader",
+  "new" : "method boolean org.apache.commons.io.input.CharSequenceReader::ready()",
+  "name" : "inherited method moved to class",
+  "description" : "The method was previously declared in superclass 'java.io.Reader' but is now declared in class 'org.apache.commons.io.input.CharSequenceReader'.",
+  "criticality" : "allowed",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "EQUIVALENT"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "EQUIVALENT"
+  } ],
+  "attachments" : [ {
+    "name" : "oldClass",
+    "value" : "java.io.Reader"
+  }, {
+    "name" : "newClass",
+    "value" : "org.apache.commons.io.input.CharSequenceReader"
+  }, {
+    "name" : "package",
+    "value" : "org.apache.commons.io.input"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.commons.io.input.CharSequenceReader"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "CharSequenceReader"
+  }, {
+    "name" : "methodName",
+    "value" : "ready"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "commons-io-2.7.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "commons-io-2.11.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+} ][ {
+  "code" : "java.method.exception.checkedRemoved",
+  "old" : "method boolean org.apache.commons.io.FilenameUtils::directoryContains(java.lang.String, java.lang.String) throws java.io.IOException",
+  "new" : "method boolean org.apache.commons.io.FilenameUtils::directoryContains(java.lang.String, java.lang.String)",
+  "name" : "Method no longer throws checked exceptions",
+  "description" : "Method no longer throws checked exceptions: java.io.IOException.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "exception",
+    "value" : "java.io.IOException"
+  }, {
+    "name" : "package",
+    "value" : "org.apache.commons.io"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.commons.io.FilenameUtils"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "FilenameUtils"
+  }, {
+    "name" : "methodName",
+    "value" : "directoryContains"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "commons-io-2.7.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "commons-io-2.11.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.field.noLongerConstant",
+  "old" : "field org.apache.commons.io.IOUtils.LINE_SEPARATOR_UNIX",
+  "new" : "field org.apache.commons.io.IOUtils.LINE_SEPARATOR_UNIX",
+  "name" : "field no longer constant",
+  "description" : "Field no longer declares a constant value.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "EQUIVALENT"
+  }, {
+    "compatibility" : "SEMANTIC",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "EQUIVALENT"
+  } ],
+  "attachments" : [ {
+    "name" : "value",
+    "value" : "\n"
+  }, {
+    "name" : "package",
+    "value" : "org.apache.commons.io"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.commons.io.IOUtils"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "IOUtils"
+  }, {
+    "name" : "fieldName",
+    "value" : "LINE_SEPARATOR_UNIX"
+  }, {
+    "name" : "elementKind",
+    "value" : "field"
+  }, {
+    "name" : "oldArchive",
+    "value" : "commons-io-2.7.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "commons-io-2.11.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.field.noLongerConstant",
+  "old" : "field org.apache.commons.io.IOUtils.LINE_SEPARATOR_WINDOWS",
+  "new" : "field org.apache.commons.io.IOUtils.LINE_SEPARATOR_WINDOWS",
+  "name" : "field no longer constant",
+  "description" : "Field no longer declares a constant value.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "EQUIVALENT"
+  }, {
+    "compatibility" : "SEMANTIC",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "EQUIVALENT"
+  } ],
+  "attachments" : [ {
+    "name" : "value",
+    "value" : "\r\n"
+  }, {
+    "name" : "package",
+    "value" : "org.apache.commons.io"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.commons.io.IOUtils"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "IOUtils"
+  }, {
+    "name" : "fieldName",
+    "value" : "LINE_SEPARATOR_WINDOWS"
+  }, {
+    "name" : "elementKind",
+    "value" : "field"
+  }, {
+    "name" : "oldArchive",
+    "value" : "commons-io-2.7.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "commons-io-2.11.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.exception.checkedRemoved",
+  "old" : "method org.apache.commons.io.LineIterator org.apache.commons.io.IOUtils::lineIterator(java.io.InputStream, java.lang.String) throws java.io.IOException",
+  "new" : "method org.apache.commons.io.LineIterator org.apache.commons.io.IOUtils::lineIterator(java.io.InputStream, java.lang.String)",
+  "name" : "Method no longer throws checked exceptions",
+  "description" : "Method no longer throws checked exceptions: java.io.IOException.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "exception",
+    "value" : "java.io.IOException"
+  }, {
+    "name" : "package",
+    "value" : "org.apache.commons.io"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.commons.io.IOUtils"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "IOUtils"
+  }, {
+    "name" : "methodName",
+    "value" : "lineIterator"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "commons-io-2.7.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "commons-io-2.11.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.exception.checkedRemoved",
+  "old" : "method org.apache.commons.io.LineIterator org.apache.commons.io.IOUtils::lineIterator(java.io.InputStream, java.nio.charset.Charset) throws java.io.IOException",
+  "new" : "method org.apache.commons.io.LineIterator org.apache.commons.io.IOUtils::lineIterator(java.io.InputStream, java.nio.charset.Charset)",
+  "name" : "Method no longer throws checked exceptions",
+  "description" : "Method no longer throws checked exceptions: java.io.IOException.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "exception",
+    "value" : "java.io.IOException"
+  }, {
+    "name" : "package",
+    "value" : "org.apache.commons.io"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.commons.io.IOUtils"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "IOUtils"
+  }, {
+    "name" : "methodName",
+    "value" : "lineIterator"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "commons-io-2.7.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "commons-io-2.11.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.exception.checkedRemoved",
+  "old" : "method byte[] org.apache.commons.io.IOUtils::toByteArray(java.lang.String) throws java.io.IOException",
+  "new" : "method byte[] org.apache.commons.io.IOUtils::toByteArray(java.lang.String)",
+  "name" : "Method no longer throws checked exceptions",
+  "description" : "Method no longer throws checked exceptions: java.io.IOException.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "exception",
+    "value" : "java.io.IOException"
+  }, {
+    "name" : "package",
+    "value" : "org.apache.commons.io"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.commons.io.IOUtils"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "IOUtils"
+  }, {
+    "name" : "methodName",
+    "value" : "toByteArray"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "commons-io-2.7.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "commons-io-2.11.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.exception.checkedRemoved",
+  "old" : "method java.io.InputStream org.apache.commons.io.IOUtils::toInputStream(java.lang.CharSequence, java.lang.String) throws java.io.IOException",
+  "new" : "method java.io.InputStream org.apache.commons.io.IOUtils::toInputStream(java.lang.CharSequence, java.lang.String)",
+  "name" : "Method no longer throws checked exceptions",
+  "description" : "Method no longer throws checked exceptions: java.io.IOException.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "exception",
+    "value" : "java.io.IOException"
+  }, {
+    "name" : "package",
+    "value" : "org.apache.commons.io"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.commons.io.IOUtils"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "IOUtils"
+  }, {
+    "name" : "methodName",
+    "value" : "toInputStream"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "commons-io-2.7.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "commons-io-2.11.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.exception.checkedRemoved",
+  "old" : "method java.io.InputStream org.apache.commons.io.IOUtils::toInputStream(java.lang.String, java.lang.String) throws java.io.IOException",
+  "new" : "method java.io.InputStream org.apache.commons.io.IOUtils::toInputStream(java.lang.String, java.lang.String)",
+  "name" : "Method no longer throws checked exceptions",
+  "description" : "Method no longer throws checked exceptions: java.io.IOException.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "exception",
+    "value" : "java.io.IOException"
+  }, {
+    "name" : "package",
+    "value" : "org.apache.commons.io"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.commons.io.IOUtils"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "IOUtils"
+  }, {
+    "name" : "methodName",
+    "value" : "toInputStream"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "commons-io-2.7.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "commons-io-2.11.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.exception.checkedRemoved",
+  "old" : "method java.lang.String org.apache.commons.io.IOUtils::toString(byte[]) throws java.io.IOException",
+  "new" : "method java.lang.String org.apache.commons.io.IOUtils::toString(byte[])",
+  "name" : "Method no longer throws checked exceptions",
+  "description" : "Method no longer throws checked exceptions: java.io.IOException.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "exception",
+    "value" : "java.io.IOException"
+  }, {
+    "name" : "package",
+    "value" : "org.apache.commons.io"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.commons.io.IOUtils"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "IOUtils"
+  }, {
+    "name" : "methodName",
+    "value" : "toString"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "commons-io-2.7.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "commons-io-2.11.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.exception.checkedRemoved",
+  "old" : "method java.lang.String org.apache.commons.io.IOUtils::toString(byte[], java.lang.String) throws java.io.IOException",
+  "new" : "method java.lang.String org.apache.commons.io.IOUtils::toString(byte[], java.lang.String)",
+  "name" : "Method no longer throws checked exceptions",
+  "description" : "Method no longer throws checked exceptions: java.io.IOException.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "exception",
+    "value" : "java.io.IOException"
+  }, {
+    "name" : "package",
+    "value" : "org.apache.commons.io"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.commons.io.IOUtils"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "IOUtils"
+  }, {
+    "name" : "methodName",
+    "value" : "toString"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "commons-io-2.7.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "commons-io-2.11.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.parameterTypeErasureChanged",
+  "old" : "parameter java.nio.file.FileVisitResult java.nio.file.SimpleFileVisitor<T>::preVisitDirectory(===T===, java.nio.file.attribute.BasicFileAttributes) throws java.io.IOException @ org.apache.commons.io.file.AccumulatorPathVisitor",
+  "new" : "parameter java.nio.file.FileVisitResult org.apache.commons.io.file.CountingPathVisitor::preVisitDirectory(===java.nio.file.Path===, java.nio.file.attribute.BasicFileAttributes) throws java.io.IOException @ org.apache.commons.io.file.AccumulatorPathVisitor",
+  "name" : "parameter type erasure changed",
+  "description" : "The erasure of the type of the parameter changed from 'java.lang.Object' to 'java.nio.file.Path'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "java.lang.Object"
+  }, {
+    "name" : "newType",
+    "value" : "java.nio.file.Path"
+  }, {
+    "name" : "package",
+    "value" : "org.apache.commons.io.file"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.commons.io.file.AccumulatorPathVisitor"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "AccumulatorPathVisitor"
+  }, {
+    "name" : "methodName",
+    "value" : "preVisitDirectory"
+  }, {
+    "name" : "parameterIndex",
+    "value" : "0"
+  }, {
+    "name" : "elementKind",
+    "value" : "parameter"
+  }, {
+    "name" : "oldArchive",
+    "value" : "commons-io-2.7.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "commons-io-2.11.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.parameterTypeErasureChanged",
+  "old" : "parameter java.nio.file.FileVisitResult java.nio.file.SimpleFileVisitor<T>::preVisitDirectory(===T===, java.nio.file.attribute.BasicFileAttributes) throws java.io.IOException @ org.apache.commons.io.file.CountingPathVisitor",
+  "new" : "parameter java.nio.file.FileVisitResult org.apache.commons.io.file.CountingPathVisitor::preVisitDirectory(===java.nio.file.Path===, java.nio.file.attribute.BasicFileAttributes) throws java.io.IOException",
+  "name" : "parameter type erasure changed",
+  "description" : "The erasure of the type of the parameter changed from 'java.lang.Object' to 'java.nio.file.Path'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "java.lang.Object"
+  }, {
+    "name" : "newType",
+    "value" : "java.nio.file.Path"
+  }, {
+    "name" : "package",
+    "value" : "org.apache.commons.io.file"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.commons.io.file.CountingPathVisitor"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "CountingPathVisitor"
+  }, {
+    "name" : "methodName",
+    "value" : "preVisitDirectory"
+  }, {
+    "name" : "parameterIndex",
+    "value" : "0"
+  }, {
+    "name" : "elementKind",
+    "value" : "parameter"
+  }, {
+    "name" : "oldArchive",
+    "value" : "commons-io-2.7.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "commons-io-2.11.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.exception.checkedRemoved",
+  "old" : "method void org.apache.commons.io.input.BoundedReader::<init>(java.io.Reader, int) throws java.io.IOException",
+  "new" : "method void org.apache.commons.io.input.BoundedReader::<init>(java.io.Reader, int)",
+  "name" : "Method no longer throws checked exceptions",
+  "description" : "Method no longer throws checked exceptions: java.io.IOException.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "exception",
+    "value" : "java.io.IOException"
+  }, {
+    "name" : "package",
+    "value" : "org.apache.commons.io.input"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.commons.io.input.BoundedReader"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "BoundedReader"
+  }, {
+    "name" : "methodName",
+    "value" : "<init>"
+  }, {
+    "name" : "elementKind",
+    "value" : "constructor"
+  }, {
+    "name" : "oldArchive",
+    "value" : "commons-io-2.7.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "commons-io-2.11.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.exception.checkedRemoved",
+  "old" : "method boolean java.io.Reader::ready() throws java.io.IOException @ org.apache.commons.io.input.CharSequenceReader",
+  "new" : "method boolean org.apache.commons.io.input.CharSequenceReader::ready()",
+  "name" : "Method no longer throws checked exceptions",
+  "description" : "Method no longer throws checked exceptions: java.io.IOException.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "exception",
+    "value" : "java.io.IOException"
+  }, {
+    "name" : "package",
+    "value" : "org.apache.commons.io.input"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.commons.io.input.CharSequenceReader"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "CharSequenceReader"
+  }, {
+    "name" : "methodName",
+    "value" : "ready"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "commons-io-2.7.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "commons-io-2.11.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.inheritedMovedToClass",
+  "old" : "method boolean java.io.Reader::ready() throws java.io.IOException @ org.apache.commons.io.input.CharSequenceReader",
+  "new" : "method boolean org.apache.commons.io.input.CharSequenceReader::ready()",
+  "name" : "inherited method moved to class",
+  "description" : "The method was previously declared in superclass 'java.io.Reader' but is now declared in class 'org.apache.commons.io.input.CharSequenceReader'.",
+  "criticality" : "allowed",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "EQUIVALENT"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "EQUIVALENT"
+  } ],
+  "attachments" : [ {
+    "name" : "oldClass",
+    "value" : "java.io.Reader"
+  }, {
+    "name" : "newClass",
+    "value" : "org.apache.commons.io.input.CharSequenceReader"
+  }, {
+    "name" : "package",
+    "value" : "org.apache.commons.io.input"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.commons.io.input.CharSequenceReader"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "CharSequenceReader"
+  }, {
+    "name" : "methodName",
+    "value" : "ready"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "commons-io-2.7.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "commons-io-2.11.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+} ]

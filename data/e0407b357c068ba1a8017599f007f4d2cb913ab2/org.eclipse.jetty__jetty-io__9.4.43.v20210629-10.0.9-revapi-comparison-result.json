@@ -1,0 +1,5265 @@
+[ {
+  "code" : "java.method.removed",
+  "old" : "method void org.eclipse.jetty.io.AbstractConnection::addListener(org.eclipse.jetty.io.Connection.Listener)",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.eclipse.jetty.io"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.eclipse.jetty.io.AbstractConnection"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "AbstractConnection"
+  }, {
+    "name" : "methodName",
+    "value" : "addListener"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jetty-io-9.4.43.v20210629.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.numberOfParametersChanged",
+  "old" : "method void org.eclipse.jetty.io.AbstractConnection::onClose()",
+  "new" : "method void org.eclipse.jetty.io.AbstractConnection::onClose(java.lang.Throwable)",
+  "name" : "number of parameters changed",
+  "description" : "The number of parameters of the method have changed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.eclipse.jetty.io"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.eclipse.jetty.io.AbstractConnection"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "AbstractConnection"
+  }, {
+    "name" : "methodName",
+    "value" : "onClose"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jetty-io-9.4.43.v20210629.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "jetty-io-10.0.9.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method void org.eclipse.jetty.io.AbstractConnection::removeListener(org.eclipse.jetty.io.Connection.Listener)",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.eclipse.jetty.io"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.eclipse.jetty.io.AbstractConnection"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "AbstractConnection"
+  }, {
+    "name" : "methodName",
+    "value" : "removeListener"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jetty-io-9.4.43.v20210629.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method void org.eclipse.jetty.io.AbstractEndPoint::checkFill() throws java.io.IOException",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.eclipse.jetty.io"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.eclipse.jetty.io.AbstractEndPoint"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "AbstractEndPoint"
+  }, {
+    "name" : "methodName",
+    "value" : "checkFill"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jetty-io-9.4.43.v20210629.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method void org.eclipse.jetty.io.AbstractEndPoint::checkFlush() throws java.io.IOException",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.eclipse.jetty.io"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.eclipse.jetty.io.AbstractEndPoint"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "AbstractEndPoint"
+  }, {
+    "name" : "methodName",
+    "value" : "checkFlush"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jetty-io-9.4.43.v20210629.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method boolean org.eclipse.jetty.io.AbstractEndPoint::isOptimizedForDirectBuffers()",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.eclipse.jetty.io"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.eclipse.jetty.io.AbstractEndPoint"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "AbstractEndPoint"
+  }, {
+    "name" : "methodName",
+    "value" : "isOptimizedForDirectBuffers"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jetty-io-9.4.43.v20210629.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.numberOfParametersChanged",
+  "old" : "method void org.eclipse.jetty.io.ByteBufferPool.Bucket::<init>(org.eclipse.jetty.io.ByteBufferPool, int, int)",
+  "new" : "method void org.eclipse.jetty.io.ByteBufferPool.Bucket::<init>(int, int)",
+  "name" : "number of parameters changed",
+  "description" : "The number of parameters of the method have changed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.eclipse.jetty.io"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.eclipse.jetty.io.ByteBufferPool.Bucket"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "Bucket"
+  }, {
+    "name" : "methodName",
+    "value" : "<init>"
+  }, {
+    "name" : "elementKind",
+    "value" : "constructor"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jetty-io-9.4.43.v20210629.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "jetty-io-10.0.9.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.element.nowDeprecated",
+  "old" : "method void org.eclipse.jetty.io.ByteBufferPool.Bucket::<init>(org.eclipse.jetty.io.ByteBufferPool, int, int)",
+  "new" : "method void org.eclipse.jetty.io.ByteBufferPool.Bucket::<init>(int, int)",
+  "name" : "element now deprecated",
+  "description" : "The element is now deprecated.",
+  "criticality" : "allowed",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "EQUIVALENT"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "EQUIVALENT"
+  } ],
+  "attachments" : [ {
+    "name" : "annotationType",
+    "value" : "java.lang.Deprecated"
+  }, {
+    "name" : "annotation",
+    "value" : "@java.lang.Deprecated"
+  }, {
+    "name" : "package",
+    "value" : "org.eclipse.jetty.io"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.eclipse.jetty.io.ByteBufferPool.Bucket"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "Bucket"
+  }, {
+    "name" : "methodName",
+    "value" : "<init>"
+  }, {
+    "name" : "elementKind",
+    "value" : "constructor"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jetty-io-9.4.43.v20210629.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "jetty-io-10.0.9.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method java.nio.ByteBuffer org.eclipse.jetty.io.ByteBufferPool.Bucket::acquire(boolean)",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.eclipse.jetty.io"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.eclipse.jetty.io.ByteBufferPool.Bucket"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "Bucket"
+  }, {
+    "name" : "methodName",
+    "value" : "acquire"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jetty-io-9.4.43.v20210629.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class org.eclipse.jetty.io.ChannelEndPoint",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.eclipse.jetty.io"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.eclipse.jetty.io.ChannelEndPoint"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "ChannelEndPoint"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jetty-io-9.4.43.v20210629.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.field.removedWithConstant",
+  "old" : "field org.eclipse.jetty.io.ClientConnectionFactory.CONNECTOR_CONTEXT_KEY",
+  "new" : null,
+  "name" : "field with constant removed",
+  "description" : "Field with constant value has been removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SEMANTIC",
+    "severity" : "POTENTIALLY_BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.eclipse.jetty.io"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.eclipse.jetty.io.ClientConnectionFactory"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "ClientConnectionFactory"
+  }, {
+    "name" : "fieldName",
+    "value" : "CONNECTOR_CONTEXT_KEY"
+  }, {
+    "name" : "elementKind",
+    "value" : "field"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jetty-io-9.4.43.v20210629.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.addedToInterface",
+  "old" : null,
+  "new" : "method void org.eclipse.jetty.io.Connection::addEventListener(java.util.EventListener)",
+  "name" : "method added to interface",
+  "description" : "Method was added to an interface.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SEMANTIC",
+    "severity" : "POTENTIALLY_BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.eclipse.jetty.io"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.eclipse.jetty.io.Connection"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "Connection"
+  }, {
+    "name" : "methodName",
+    "value" : "addEventListener"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "newArchive",
+    "value" : "jetty-io-10.0.9.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method void org.eclipse.jetty.io.Connection::addListener(org.eclipse.jetty.io.Connection.Listener)",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.eclipse.jetty.io"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.eclipse.jetty.io.Connection"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "Connection"
+  }, {
+    "name" : "methodName",
+    "value" : "addListener"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jetty-io-9.4.43.v20210629.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.numberOfParametersChanged",
+  "old" : "method void org.eclipse.jetty.io.Connection::onClose()",
+  "new" : "method void org.eclipse.jetty.io.Connection::onClose(java.lang.Throwable)",
+  "name" : "number of parameters changed",
+  "description" : "The number of parameters of the method have changed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.eclipse.jetty.io"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.eclipse.jetty.io.Connection"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "Connection"
+  }, {
+    "name" : "methodName",
+    "value" : "onClose"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jetty-io-9.4.43.v20210629.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "jetty-io-10.0.9.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.addedToInterface",
+  "old" : null,
+  "new" : "method void org.eclipse.jetty.io.Connection::removeEventListener(java.util.EventListener)",
+  "name" : "method added to interface",
+  "description" : "Method was added to an interface.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SEMANTIC",
+    "severity" : "POTENTIALLY_BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.eclipse.jetty.io"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.eclipse.jetty.io.Connection"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "Connection"
+  }, {
+    "name" : "methodName",
+    "value" : "removeEventListener"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "newArchive",
+    "value" : "jetty-io-10.0.9.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method void org.eclipse.jetty.io.Connection::removeListener(org.eclipse.jetty.io.Connection.Listener)",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.eclipse.jetty.io"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.eclipse.jetty.io.Connection"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "Connection"
+  }, {
+    "name" : "methodName",
+    "value" : "removeListener"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jetty-io-9.4.43.v20210629.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.field.noLongerConstant",
+  "old" : "field org.eclipse.jetty.util.component.AbstractLifeCycle.FAILED @ org.eclipse.jetty.io.ConnectionStatistics",
+  "new" : "field org.eclipse.jetty.util.component.AbstractLifeCycle.FAILED @ org.eclipse.jetty.io.ConnectionStatistics",
+  "name" : "field no longer constant",
+  "description" : "Field no longer declares a constant value.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "EQUIVALENT"
+  }, {
+    "compatibility" : "SEMANTIC",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "EQUIVALENT"
+  } ],
+  "attachments" : [ {
+    "name" : "value",
+    "value" : "FAILED"
+  }, {
+    "name" : "package",
+    "value" : "org.eclipse.jetty.io"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.eclipse.jetty.io.ConnectionStatistics"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "ConnectionStatistics"
+  }, {
+    "name" : "fieldName",
+    "value" : "FAILED"
+  }, {
+    "name" : "elementKind",
+    "value" : "field"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jetty-io-9.4.43.v20210629.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "jetty-io-10.0.9.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.field.removedWithConstant",
+  "old" : "field org.eclipse.jetty.util.component.AbstractLifeCycle.RUNNING @ org.eclipse.jetty.io.ConnectionStatistics",
+  "new" : null,
+  "name" : "field with constant removed",
+  "description" : "Field with constant value has been removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SEMANTIC",
+    "severity" : "POTENTIALLY_BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.eclipse.jetty.io"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.eclipse.jetty.io.ConnectionStatistics"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "ConnectionStatistics"
+  }, {
+    "name" : "fieldName",
+    "value" : "RUNNING"
+  }, {
+    "name" : "elementKind",
+    "value" : "field"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jetty-io-9.4.43.v20210629.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.field.noLongerConstant",
+  "old" : "field org.eclipse.jetty.util.component.AbstractLifeCycle.STARTED @ org.eclipse.jetty.io.ConnectionStatistics",
+  "new" : "field org.eclipse.jetty.util.component.AbstractLifeCycle.STARTED @ org.eclipse.jetty.io.ConnectionStatistics",
+  "name" : "field no longer constant",
+  "description" : "Field no longer declares a constant value.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "EQUIVALENT"
+  }, {
+    "compatibility" : "SEMANTIC",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "EQUIVALENT"
+  } ],
+  "attachments" : [ {
+    "name" : "value",
+    "value" : "STARTED"
+  }, {
+    "name" : "package",
+    "value" : "org.eclipse.jetty.io"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.eclipse.jetty.io.ConnectionStatistics"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "ConnectionStatistics"
+  }, {
+    "name" : "fieldName",
+    "value" : "STARTED"
+  }, {
+    "name" : "elementKind",
+    "value" : "field"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jetty-io-9.4.43.v20210629.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "jetty-io-10.0.9.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.field.noLongerConstant",
+  "old" : "field org.eclipse.jetty.util.component.AbstractLifeCycle.STARTING @ org.eclipse.jetty.io.ConnectionStatistics",
+  "new" : "field org.eclipse.jetty.util.component.AbstractLifeCycle.STARTING @ org.eclipse.jetty.io.ConnectionStatistics",
+  "name" : "field no longer constant",
+  "description" : "Field no longer declares a constant value.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "EQUIVALENT"
+  }, {
+    "compatibility" : "SEMANTIC",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "EQUIVALENT"
+  } ],
+  "attachments" : [ {
+    "name" : "value",
+    "value" : "STARTING"
+  }, {
+    "name" : "package",
+    "value" : "org.eclipse.jetty.io"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.eclipse.jetty.io.ConnectionStatistics"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "ConnectionStatistics"
+  }, {
+    "name" : "fieldName",
+    "value" : "STARTING"
+  }, {
+    "name" : "elementKind",
+    "value" : "field"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jetty-io-9.4.43.v20210629.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "jetty-io-10.0.9.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.field.noLongerConstant",
+  "old" : "field org.eclipse.jetty.util.component.AbstractLifeCycle.STOPPED @ org.eclipse.jetty.io.ConnectionStatistics",
+  "new" : "field org.eclipse.jetty.util.component.AbstractLifeCycle.STOPPED @ org.eclipse.jetty.io.ConnectionStatistics",
+  "name" : "field no longer constant",
+  "description" : "Field no longer declares a constant value.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "EQUIVALENT"
+  }, {
+    "compatibility" : "SEMANTIC",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "EQUIVALENT"
+  } ],
+  "attachments" : [ {
+    "name" : "value",
+    "value" : "STOPPED"
+  }, {
+    "name" : "package",
+    "value" : "org.eclipse.jetty.io"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.eclipse.jetty.io.ConnectionStatistics"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "ConnectionStatistics"
+  }, {
+    "name" : "fieldName",
+    "value" : "STOPPED"
+  }, {
+    "name" : "elementKind",
+    "value" : "field"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jetty-io-9.4.43.v20210629.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "jetty-io-10.0.9.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.field.noLongerConstant",
+  "old" : "field org.eclipse.jetty.util.component.AbstractLifeCycle.STOPPING @ org.eclipse.jetty.io.ConnectionStatistics",
+  "new" : "field org.eclipse.jetty.util.component.AbstractLifeCycle.STOPPING @ org.eclipse.jetty.io.ConnectionStatistics",
+  "name" : "field no longer constant",
+  "description" : "Field no longer declares a constant value.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "EQUIVALENT"
+  }, {
+    "compatibility" : "SEMANTIC",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "EQUIVALENT"
+  } ],
+  "attachments" : [ {
+    "name" : "value",
+    "value" : "STOPPING"
+  }, {
+    "name" : "package",
+    "value" : "org.eclipse.jetty.io"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.eclipse.jetty.io.ConnectionStatistics"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "ConnectionStatistics"
+  }, {
+    "name" : "fieldName",
+    "value" : "STOPPING"
+  }, {
+    "name" : "elementKind",
+    "value" : "field"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jetty-io-9.4.43.v20210629.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "jetty-io-10.0.9.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method void org.eclipse.jetty.util.component.AbstractLifeCycle::addLifeCycleListener(org.eclipse.jetty.util.component.LifeCycle.Listener) @ org.eclipse.jetty.io.ConnectionStatistics",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.eclipse.jetty.io"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.eclipse.jetty.io.ConnectionStatistics"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "ConnectionStatistics"
+  }, {
+    "name" : "methodName",
+    "value" : "addLifeCycleListener"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jetty-io-9.4.43.v20210629.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method long org.eclipse.jetty.util.component.AbstractLifeCycle::getStopTimeout() @ org.eclipse.jetty.io.ConnectionStatistics",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.eclipse.jetty.io"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.eclipse.jetty.io.ConnectionStatistics"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "ConnectionStatistics"
+  }, {
+    "name" : "methodName",
+    "value" : "getStopTimeout"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jetty-io-9.4.43.v20210629.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method void org.eclipse.jetty.util.component.AbstractLifeCycle::removeLifeCycleListener(org.eclipse.jetty.util.component.LifeCycle.Listener) @ org.eclipse.jetty.io.ConnectionStatistics",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.eclipse.jetty.io"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.eclipse.jetty.io.ConnectionStatistics"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "ConnectionStatistics"
+  }, {
+    "name" : "methodName",
+    "value" : "removeLifeCycleListener"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jetty-io-9.4.43.v20210629.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method void org.eclipse.jetty.util.component.AbstractLifeCycle::setStopTimeout(long) @ org.eclipse.jetty.io.ConnectionStatistics",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.eclipse.jetty.io"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.eclipse.jetty.io.ConnectionStatistics"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "ConnectionStatistics"
+  }, {
+    "name" : "methodName",
+    "value" : "setStopTimeout"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jetty-io-9.4.43.v20210629.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.addedToInterface",
+  "old" : null,
+  "new" : "method void org.eclipse.jetty.io.EndPoint::close(java.lang.Throwable)",
+  "name" : "method added to interface",
+  "description" : "Method was added to an interface.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SEMANTIC",
+    "severity" : "POTENTIALLY_BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.eclipse.jetty.io"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.eclipse.jetty.io.EndPoint"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "EndPoint"
+  }, {
+    "name" : "methodName",
+    "value" : "close"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "newArchive",
+    "value" : "jetty-io-10.0.9.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method boolean org.eclipse.jetty.io.EndPoint::isOptimizedForDirectBuffers()",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.eclipse.jetty.io"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.eclipse.jetty.io.EndPoint"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "EndPoint"
+  }, {
+    "name" : "methodName",
+    "value" : "isOptimizedForDirectBuffers"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jetty-io-9.4.43.v20210629.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.numberOfParametersChanged",
+  "old" : "method void org.eclipse.jetty.io.EndPoint::onClose()",
+  "new" : "method void org.eclipse.jetty.io.EndPoint::onClose(java.lang.Throwable)",
+  "name" : "number of parameters changed",
+  "description" : "The number of parameters of the method have changed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.eclipse.jetty.io"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.eclipse.jetty.io.EndPoint"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "EndPoint"
+  }, {
+    "name" : "methodName",
+    "value" : "onClose"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jetty-io-9.4.43.v20210629.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "jetty-io-10.0.9.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.field.noLongerConstant",
+  "old" : "field org.eclipse.jetty.util.component.AbstractLifeCycle.FAILED @ org.eclipse.jetty.io.IncludeExcludeConnectionStatistics",
+  "new" : "field org.eclipse.jetty.util.component.AbstractLifeCycle.FAILED @ org.eclipse.jetty.io.IncludeExcludeConnectionStatistics",
+  "name" : "field no longer constant",
+  "description" : "Field no longer declares a constant value.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "EQUIVALENT"
+  }, {
+    "compatibility" : "SEMANTIC",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "EQUIVALENT"
+  } ],
+  "attachments" : [ {
+    "name" : "value",
+    "value" : "FAILED"
+  }, {
+    "name" : "package",
+    "value" : "org.eclipse.jetty.io"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.eclipse.jetty.io.IncludeExcludeConnectionStatistics"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "IncludeExcludeConnectionStatistics"
+  }, {
+    "name" : "fieldName",
+    "value" : "FAILED"
+  }, {
+    "name" : "elementKind",
+    "value" : "field"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jetty-io-9.4.43.v20210629.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "jetty-io-10.0.9.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.field.removedWithConstant",
+  "old" : "field org.eclipse.jetty.util.component.AbstractLifeCycle.RUNNING @ org.eclipse.jetty.io.IncludeExcludeConnectionStatistics",
+  "new" : null,
+  "name" : "field with constant removed",
+  "description" : "Field with constant value has been removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SEMANTIC",
+    "severity" : "POTENTIALLY_BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.eclipse.jetty.io"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.eclipse.jetty.io.IncludeExcludeConnectionStatistics"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "IncludeExcludeConnectionStatistics"
+  }, {
+    "name" : "fieldName",
+    "value" : "RUNNING"
+  }, {
+    "name" : "elementKind",
+    "value" : "field"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jetty-io-9.4.43.v20210629.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.field.noLongerConstant",
+  "old" : "field org.eclipse.jetty.util.component.AbstractLifeCycle.STARTED @ org.eclipse.jetty.io.IncludeExcludeConnectionStatistics",
+  "new" : "field org.eclipse.jetty.util.component.AbstractLifeCycle.STARTED @ org.eclipse.jetty.io.IncludeExcludeConnectionStatistics",
+  "name" : "field no longer constant",
+  "description" : "Field no longer declares a constant value.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "EQUIVALENT"
+  }, {
+    "compatibility" : "SEMANTIC",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "EQUIVALENT"
+  } ],
+  "attachments" : [ {
+    "name" : "value",
+    "value" : "STARTED"
+  }, {
+    "name" : "package",
+    "value" : "org.eclipse.jetty.io"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.eclipse.jetty.io.IncludeExcludeConnectionStatistics"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "IncludeExcludeConnectionStatistics"
+  }, {
+    "name" : "fieldName",
+    "value" : "STARTED"
+  }, {
+    "name" : "elementKind",
+    "value" : "field"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jetty-io-9.4.43.v20210629.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "jetty-io-10.0.9.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.field.noLongerConstant",
+  "old" : "field org.eclipse.jetty.util.component.AbstractLifeCycle.STARTING @ org.eclipse.jetty.io.IncludeExcludeConnectionStatistics",
+  "new" : "field org.eclipse.jetty.util.component.AbstractLifeCycle.STARTING @ org.eclipse.jetty.io.IncludeExcludeConnectionStatistics",
+  "name" : "field no longer constant",
+  "description" : "Field no longer declares a constant value.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "EQUIVALENT"
+  }, {
+    "compatibility" : "SEMANTIC",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "EQUIVALENT"
+  } ],
+  "attachments" : [ {
+    "name" : "value",
+    "value" : "STARTING"
+  }, {
+    "name" : "package",
+    "value" : "org.eclipse.jetty.io"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.eclipse.jetty.io.IncludeExcludeConnectionStatistics"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "IncludeExcludeConnectionStatistics"
+  }, {
+    "name" : "fieldName",
+    "value" : "STARTING"
+  }, {
+    "name" : "elementKind",
+    "value" : "field"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jetty-io-9.4.43.v20210629.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "jetty-io-10.0.9.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.field.noLongerConstant",
+  "old" : "field org.eclipse.jetty.util.component.AbstractLifeCycle.STOPPED @ org.eclipse.jetty.io.IncludeExcludeConnectionStatistics",
+  "new" : "field org.eclipse.jetty.util.component.AbstractLifeCycle.STOPPED @ org.eclipse.jetty.io.IncludeExcludeConnectionStatistics",
+  "name" : "field no longer constant",
+  "description" : "Field no longer declares a constant value.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "EQUIVALENT"
+  }, {
+    "compatibility" : "SEMANTIC",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "EQUIVALENT"
+  } ],
+  "attachments" : [ {
+    "name" : "value",
+    "value" : "STOPPED"
+  }, {
+    "name" : "package",
+    "value" : "org.eclipse.jetty.io"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.eclipse.jetty.io.IncludeExcludeConnectionStatistics"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "IncludeExcludeConnectionStatistics"
+  }, {
+    "name" : "fieldName",
+    "value" : "STOPPED"
+  }, {
+    "name" : "elementKind",
+    "value" : "field"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jetty-io-9.4.43.v20210629.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "jetty-io-10.0.9.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.field.noLongerConstant",
+  "old" : "field org.eclipse.jetty.util.component.AbstractLifeCycle.STOPPING @ org.eclipse.jetty.io.IncludeExcludeConnectionStatistics",
+  "new" : "field org.eclipse.jetty.util.component.AbstractLifeCycle.STOPPING @ org.eclipse.jetty.io.IncludeExcludeConnectionStatistics",
+  "name" : "field no longer constant",
+  "description" : "Field no longer declares a constant value.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "EQUIVALENT"
+  }, {
+    "compatibility" : "SEMANTIC",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "EQUIVALENT"
+  } ],
+  "attachments" : [ {
+    "name" : "value",
+    "value" : "STOPPING"
+  }, {
+    "name" : "package",
+    "value" : "org.eclipse.jetty.io"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.eclipse.jetty.io.IncludeExcludeConnectionStatistics"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "IncludeExcludeConnectionStatistics"
+  }, {
+    "name" : "fieldName",
+    "value" : "STOPPING"
+  }, {
+    "name" : "elementKind",
+    "value" : "field"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jetty-io-9.4.43.v20210629.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "jetty-io-10.0.9.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method void org.eclipse.jetty.util.component.AbstractLifeCycle::addLifeCycleListener(org.eclipse.jetty.util.component.LifeCycle.Listener) @ org.eclipse.jetty.io.IncludeExcludeConnectionStatistics",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.eclipse.jetty.io"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.eclipse.jetty.io.IncludeExcludeConnectionStatistics"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "IncludeExcludeConnectionStatistics"
+  }, {
+    "name" : "methodName",
+    "value" : "addLifeCycleListener"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jetty-io-9.4.43.v20210629.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method long org.eclipse.jetty.util.component.AbstractLifeCycle::getStopTimeout() @ org.eclipse.jetty.io.IncludeExcludeConnectionStatistics",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.eclipse.jetty.io"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.eclipse.jetty.io.IncludeExcludeConnectionStatistics"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "IncludeExcludeConnectionStatistics"
+  }, {
+    "name" : "methodName",
+    "value" : "getStopTimeout"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jetty-io-9.4.43.v20210629.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method void org.eclipse.jetty.util.component.AbstractLifeCycle::removeLifeCycleListener(org.eclipse.jetty.util.component.LifeCycle.Listener) @ org.eclipse.jetty.io.IncludeExcludeConnectionStatistics",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.eclipse.jetty.io"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.eclipse.jetty.io.IncludeExcludeConnectionStatistics"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "IncludeExcludeConnectionStatistics"
+  }, {
+    "name" : "methodName",
+    "value" : "removeLifeCycleListener"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jetty-io-9.4.43.v20210629.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method void org.eclipse.jetty.util.component.AbstractLifeCycle::setStopTimeout(long) @ org.eclipse.jetty.io.IncludeExcludeConnectionStatistics",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.eclipse.jetty.io"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.eclipse.jetty.io.IncludeExcludeConnectionStatistics"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "IncludeExcludeConnectionStatistics"
+  }, {
+    "name" : "methodName",
+    "value" : "setStopTimeout"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jetty-io-9.4.43.v20210629.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.field.noLongerConstant",
+  "old" : "field org.eclipse.jetty.util.component.AbstractLifeCycle.FAILED @ org.eclipse.jetty.io.LeakTrackingByteBufferPool",
+  "new" : "field org.eclipse.jetty.util.component.AbstractLifeCycle.FAILED @ org.eclipse.jetty.io.LeakTrackingByteBufferPool",
+  "name" : "field no longer constant",
+  "description" : "Field no longer declares a constant value.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "EQUIVALENT"
+  }, {
+    "compatibility" : "SEMANTIC",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "EQUIVALENT"
+  } ],
+  "attachments" : [ {
+    "name" : "value",
+    "value" : "FAILED"
+  }, {
+    "name" : "package",
+    "value" : "org.eclipse.jetty.io"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.eclipse.jetty.io.LeakTrackingByteBufferPool"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "LeakTrackingByteBufferPool"
+  }, {
+    "name" : "fieldName",
+    "value" : "FAILED"
+  }, {
+    "name" : "elementKind",
+    "value" : "field"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jetty-io-9.4.43.v20210629.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "jetty-io-10.0.9.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.field.removedWithConstant",
+  "old" : "field org.eclipse.jetty.util.component.AbstractLifeCycle.RUNNING @ org.eclipse.jetty.io.LeakTrackingByteBufferPool",
+  "new" : null,
+  "name" : "field with constant removed",
+  "description" : "Field with constant value has been removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SEMANTIC",
+    "severity" : "POTENTIALLY_BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.eclipse.jetty.io"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.eclipse.jetty.io.LeakTrackingByteBufferPool"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "LeakTrackingByteBufferPool"
+  }, {
+    "name" : "fieldName",
+    "value" : "RUNNING"
+  }, {
+    "name" : "elementKind",
+    "value" : "field"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jetty-io-9.4.43.v20210629.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.field.noLongerConstant",
+  "old" : "field org.eclipse.jetty.util.component.AbstractLifeCycle.STARTED @ org.eclipse.jetty.io.LeakTrackingByteBufferPool",
+  "new" : "field org.eclipse.jetty.util.component.AbstractLifeCycle.STARTED @ org.eclipse.jetty.io.LeakTrackingByteBufferPool",
+  "name" : "field no longer constant",
+  "description" : "Field no longer declares a constant value.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "EQUIVALENT"
+  }, {
+    "compatibility" : "SEMANTIC",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "EQUIVALENT"
+  } ],
+  "attachments" : [ {
+    "name" : "value",
+    "value" : "STARTED"
+  }, {
+    "name" : "package",
+    "value" : "org.eclipse.jetty.io"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.eclipse.jetty.io.LeakTrackingByteBufferPool"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "LeakTrackingByteBufferPool"
+  }, {
+    "name" : "fieldName",
+    "value" : "STARTED"
+  }, {
+    "name" : "elementKind",
+    "value" : "field"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jetty-io-9.4.43.v20210629.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "jetty-io-10.0.9.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.field.noLongerConstant",
+  "old" : "field org.eclipse.jetty.util.component.AbstractLifeCycle.STARTING @ org.eclipse.jetty.io.LeakTrackingByteBufferPool",
+  "new" : "field org.eclipse.jetty.util.component.AbstractLifeCycle.STARTING @ org.eclipse.jetty.io.LeakTrackingByteBufferPool",
+  "name" : "field no longer constant",
+  "description" : "Field no longer declares a constant value.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "EQUIVALENT"
+  }, {
+    "compatibility" : "SEMANTIC",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "EQUIVALENT"
+  } ],
+  "attachments" : [ {
+    "name" : "value",
+    "value" : "STARTING"
+  }, {
+    "name" : "package",
+    "value" : "org.eclipse.jetty.io"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.eclipse.jetty.io.LeakTrackingByteBufferPool"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "LeakTrackingByteBufferPool"
+  }, {
+    "name" : "fieldName",
+    "value" : "STARTING"
+  }, {
+    "name" : "elementKind",
+    "value" : "field"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jetty-io-9.4.43.v20210629.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "jetty-io-10.0.9.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.field.noLongerConstant",
+  "old" : "field org.eclipse.jetty.util.component.AbstractLifeCycle.STOPPED @ org.eclipse.jetty.io.LeakTrackingByteBufferPool",
+  "new" : "field org.eclipse.jetty.util.component.AbstractLifeCycle.STOPPED @ org.eclipse.jetty.io.LeakTrackingByteBufferPool",
+  "name" : "field no longer constant",
+  "description" : "Field no longer declares a constant value.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "EQUIVALENT"
+  }, {
+    "compatibility" : "SEMANTIC",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "EQUIVALENT"
+  } ],
+  "attachments" : [ {
+    "name" : "value",
+    "value" : "STOPPED"
+  }, {
+    "name" : "package",
+    "value" : "org.eclipse.jetty.io"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.eclipse.jetty.io.LeakTrackingByteBufferPool"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "LeakTrackingByteBufferPool"
+  }, {
+    "name" : "fieldName",
+    "value" : "STOPPED"
+  }, {
+    "name" : "elementKind",
+    "value" : "field"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jetty-io-9.4.43.v20210629.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "jetty-io-10.0.9.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.field.noLongerConstant",
+  "old" : "field org.eclipse.jetty.util.component.AbstractLifeCycle.STOPPING @ org.eclipse.jetty.io.LeakTrackingByteBufferPool",
+  "new" : "field org.eclipse.jetty.util.component.AbstractLifeCycle.STOPPING @ org.eclipse.jetty.io.LeakTrackingByteBufferPool",
+  "name" : "field no longer constant",
+  "description" : "Field no longer declares a constant value.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "EQUIVALENT"
+  }, {
+    "compatibility" : "SEMANTIC",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "EQUIVALENT"
+  } ],
+  "attachments" : [ {
+    "name" : "value",
+    "value" : "STOPPING"
+  }, {
+    "name" : "package",
+    "value" : "org.eclipse.jetty.io"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.eclipse.jetty.io.LeakTrackingByteBufferPool"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "LeakTrackingByteBufferPool"
+  }, {
+    "name" : "fieldName",
+    "value" : "STOPPING"
+  }, {
+    "name" : "elementKind",
+    "value" : "field"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jetty-io-9.4.43.v20210629.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "jetty-io-10.0.9.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.returnTypeChanged",
+  "old" : "method void org.eclipse.jetty.util.component.ContainerLifeCycle::addEventListener(org.eclipse.jetty.util.component.Container.Listener) @ org.eclipse.jetty.io.LeakTrackingByteBufferPool",
+  "new" : "method boolean org.eclipse.jetty.util.component.ContainerLifeCycle::addEventListener(java.util.EventListener) @ org.eclipse.jetty.io.LeakTrackingByteBufferPool",
+  "name" : "return type changed",
+  "description" : "The return type changed from 'void' to  'boolean'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "POTENTIALLY_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "void"
+  }, {
+    "name" : "newType",
+    "value" : "boolean"
+  }, {
+    "name" : "package",
+    "value" : "org.eclipse.jetty.io"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.eclipse.jetty.io.LeakTrackingByteBufferPool"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "LeakTrackingByteBufferPool"
+  }, {
+    "name" : "methodName",
+    "value" : "addEventListener"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jetty-io-9.4.43.v20210629.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "jetty-io-10.0.9.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.parameterTypeChanged",
+  "old" : "parameter void org.eclipse.jetty.util.component.ContainerLifeCycle::addEventListener(===org.eclipse.jetty.util.component.Container.Listener===) @ org.eclipse.jetty.io.LeakTrackingByteBufferPool",
+  "new" : "parameter boolean org.eclipse.jetty.util.component.ContainerLifeCycle::addEventListener(===java.util.EventListener===) @ org.eclipse.jetty.io.LeakTrackingByteBufferPool",
+  "name" : "parameter type changed",
+  "description" : "The type of the parameter changed from 'org.eclipse.jetty.util.component.Container.Listener' to 'java.util.EventListener'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "POTENTIALLY_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "org.eclipse.jetty.util.component.Container.Listener"
+  }, {
+    "name" : "newType",
+    "value" : "java.util.EventListener"
+  }, {
+    "name" : "package",
+    "value" : "org.eclipse.jetty.io"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.eclipse.jetty.io.LeakTrackingByteBufferPool"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "LeakTrackingByteBufferPool"
+  }, {
+    "name" : "methodName",
+    "value" : "addEventListener"
+  }, {
+    "name" : "parameterIndex",
+    "value" : "0"
+  }, {
+    "name" : "elementKind",
+    "value" : "parameter"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jetty-io-9.4.43.v20210629.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "jetty-io-10.0.9.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method void org.eclipse.jetty.util.component.AbstractLifeCycle::addLifeCycleListener(org.eclipse.jetty.util.component.LifeCycle.Listener) @ org.eclipse.jetty.io.LeakTrackingByteBufferPool",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.eclipse.jetty.io"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.eclipse.jetty.io.LeakTrackingByteBufferPool"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "LeakTrackingByteBufferPool"
+  }, {
+    "name" : "methodName",
+    "value" : "addLifeCycleListener"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jetty-io-9.4.43.v20210629.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method void org.eclipse.jetty.util.component.ContainerLifeCycle::dump(java.lang.Appendable, java.lang.String, java.util.Collection<?>[]) throws java.io.IOException @ org.eclipse.jetty.io.LeakTrackingByteBufferPool",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.eclipse.jetty.io"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.eclipse.jetty.io.LeakTrackingByteBufferPool"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "LeakTrackingByteBufferPool"
+  }, {
+    "name" : "methodName",
+    "value" : "dump"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jetty-io-9.4.43.v20210629.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method void org.eclipse.jetty.util.component.ContainerLifeCycle::dumpBeans(java.lang.Appendable, java.lang.String, java.util.Collection<?>[]) throws java.io.IOException @ org.eclipse.jetty.io.LeakTrackingByteBufferPool",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.eclipse.jetty.io"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.eclipse.jetty.io.LeakTrackingByteBufferPool"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "LeakTrackingByteBufferPool"
+  }, {
+    "name" : "methodName",
+    "value" : "dumpBeans"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jetty-io-9.4.43.v20210629.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method void org.eclipse.jetty.util.component.ContainerLifeCycle::dumpThis(java.lang.Appendable) throws java.io.IOException @ org.eclipse.jetty.io.LeakTrackingByteBufferPool",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.eclipse.jetty.io"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.eclipse.jetty.io.LeakTrackingByteBufferPool"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "LeakTrackingByteBufferPool"
+  }, {
+    "name" : "methodName",
+    "value" : "dumpThis"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jetty-io-9.4.43.v20210629.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method long org.eclipse.jetty.util.component.AbstractLifeCycle::getStopTimeout() @ org.eclipse.jetty.io.LeakTrackingByteBufferPool",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.eclipse.jetty.io"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.eclipse.jetty.io.LeakTrackingByteBufferPool"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "LeakTrackingByteBufferPool"
+  }, {
+    "name" : "methodName",
+    "value" : "getStopTimeout"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jetty-io-9.4.43.v20210629.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.returnTypeChanged",
+  "old" : "method void org.eclipse.jetty.util.component.ContainerLifeCycle::removeEventListener(org.eclipse.jetty.util.component.Container.Listener) @ org.eclipse.jetty.io.LeakTrackingByteBufferPool",
+  "new" : "method boolean org.eclipse.jetty.util.component.ContainerLifeCycle::removeEventListener(java.util.EventListener) @ org.eclipse.jetty.io.LeakTrackingByteBufferPool",
+  "name" : "return type changed",
+  "description" : "The return type changed from 'void' to  'boolean'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "POTENTIALLY_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "void"
+  }, {
+    "name" : "newType",
+    "value" : "boolean"
+  }, {
+    "name" : "package",
+    "value" : "org.eclipse.jetty.io"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.eclipse.jetty.io.LeakTrackingByteBufferPool"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "LeakTrackingByteBufferPool"
+  }, {
+    "name" : "methodName",
+    "value" : "removeEventListener"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jetty-io-9.4.43.v20210629.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "jetty-io-10.0.9.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.parameterTypeChanged",
+  "old" : "parameter void org.eclipse.jetty.util.component.ContainerLifeCycle::removeEventListener(===org.eclipse.jetty.util.component.Container.Listener===) @ org.eclipse.jetty.io.LeakTrackingByteBufferPool",
+  "new" : "parameter boolean org.eclipse.jetty.util.component.ContainerLifeCycle::removeEventListener(===java.util.EventListener===) @ org.eclipse.jetty.io.LeakTrackingByteBufferPool",
+  "name" : "parameter type changed",
+  "description" : "The type of the parameter changed from 'org.eclipse.jetty.util.component.Container.Listener' to 'java.util.EventListener'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "POTENTIALLY_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "org.eclipse.jetty.util.component.Container.Listener"
+  }, {
+    "name" : "newType",
+    "value" : "java.util.EventListener"
+  }, {
+    "name" : "package",
+    "value" : "org.eclipse.jetty.io"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.eclipse.jetty.io.LeakTrackingByteBufferPool"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "LeakTrackingByteBufferPool"
+  }, {
+    "name" : "methodName",
+    "value" : "removeEventListener"
+  }, {
+    "name" : "parameterIndex",
+    "value" : "0"
+  }, {
+    "name" : "elementKind",
+    "value" : "parameter"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jetty-io-9.4.43.v20210629.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "jetty-io-10.0.9.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method void org.eclipse.jetty.util.component.AbstractLifeCycle::removeLifeCycleListener(org.eclipse.jetty.util.component.LifeCycle.Listener) @ org.eclipse.jetty.io.LeakTrackingByteBufferPool",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.eclipse.jetty.io"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.eclipse.jetty.io.LeakTrackingByteBufferPool"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "LeakTrackingByteBufferPool"
+  }, {
+    "name" : "methodName",
+    "value" : "removeLifeCycleListener"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jetty-io-9.4.43.v20210629.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method void org.eclipse.jetty.util.component.ContainerLifeCycle::setStopTimeout(long) @ org.eclipse.jetty.io.LeakTrackingByteBufferPool",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.eclipse.jetty.io"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.eclipse.jetty.io.LeakTrackingByteBufferPool"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "LeakTrackingByteBufferPool"
+  }, {
+    "name" : "methodName",
+    "value" : "setStopTimeout"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jetty-io-9.4.43.v20210629.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.field.noLongerConstant",
+  "old" : "field org.eclipse.jetty.util.component.AbstractLifeCycle.FAILED @ org.eclipse.jetty.io.ManagedSelector",
+  "new" : "field org.eclipse.jetty.util.component.AbstractLifeCycle.FAILED @ org.eclipse.jetty.io.ManagedSelector",
+  "name" : "field no longer constant",
+  "description" : "Field no longer declares a constant value.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "EQUIVALENT"
+  }, {
+    "compatibility" : "SEMANTIC",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "EQUIVALENT"
+  } ],
+  "attachments" : [ {
+    "name" : "value",
+    "value" : "FAILED"
+  }, {
+    "name" : "package",
+    "value" : "org.eclipse.jetty.io"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.eclipse.jetty.io.ManagedSelector"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "ManagedSelector"
+  }, {
+    "name" : "fieldName",
+    "value" : "FAILED"
+  }, {
+    "name" : "elementKind",
+    "value" : "field"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jetty-io-9.4.43.v20210629.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "jetty-io-10.0.9.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.field.removedWithConstant",
+  "old" : "field org.eclipse.jetty.util.component.AbstractLifeCycle.RUNNING @ org.eclipse.jetty.io.ManagedSelector",
+  "new" : null,
+  "name" : "field with constant removed",
+  "description" : "Field with constant value has been removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SEMANTIC",
+    "severity" : "POTENTIALLY_BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.eclipse.jetty.io"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.eclipse.jetty.io.ManagedSelector"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "ManagedSelector"
+  }, {
+    "name" : "fieldName",
+    "value" : "RUNNING"
+  }, {
+    "name" : "elementKind",
+    "value" : "field"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jetty-io-9.4.43.v20210629.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.field.noLongerConstant",
+  "old" : "field org.eclipse.jetty.util.component.AbstractLifeCycle.STARTED @ org.eclipse.jetty.io.ManagedSelector",
+  "new" : "field org.eclipse.jetty.util.component.AbstractLifeCycle.STARTED @ org.eclipse.jetty.io.ManagedSelector",
+  "name" : "field no longer constant",
+  "description" : "Field no longer declares a constant value.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "EQUIVALENT"
+  }, {
+    "compatibility" : "SEMANTIC",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "EQUIVALENT"
+  } ],
+  "attachments" : [ {
+    "name" : "value",
+    "value" : "STARTED"
+  }, {
+    "name" : "package",
+    "value" : "org.eclipse.jetty.io"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.eclipse.jetty.io.ManagedSelector"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "ManagedSelector"
+  }, {
+    "name" : "fieldName",
+    "value" : "STARTED"
+  }, {
+    "name" : "elementKind",
+    "value" : "field"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jetty-io-9.4.43.v20210629.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "jetty-io-10.0.9.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.field.noLongerConstant",
+  "old" : "field org.eclipse.jetty.util.component.AbstractLifeCycle.STARTING @ org.eclipse.jetty.io.ManagedSelector",
+  "new" : "field org.eclipse.jetty.util.component.AbstractLifeCycle.STARTING @ org.eclipse.jetty.io.ManagedSelector",
+  "name" : "field no longer constant",
+  "description" : "Field no longer declares a constant value.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "EQUIVALENT"
+  }, {
+    "compatibility" : "SEMANTIC",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "EQUIVALENT"
+  } ],
+  "attachments" : [ {
+    "name" : "value",
+    "value" : "STARTING"
+  }, {
+    "name" : "package",
+    "value" : "org.eclipse.jetty.io"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.eclipse.jetty.io.ManagedSelector"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "ManagedSelector"
+  }, {
+    "name" : "fieldName",
+    "value" : "STARTING"
+  }, {
+    "name" : "elementKind",
+    "value" : "field"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jetty-io-9.4.43.v20210629.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "jetty-io-10.0.9.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.field.noLongerConstant",
+  "old" : "field org.eclipse.jetty.util.component.AbstractLifeCycle.STOPPED @ org.eclipse.jetty.io.ManagedSelector",
+  "new" : "field org.eclipse.jetty.util.component.AbstractLifeCycle.STOPPED @ org.eclipse.jetty.io.ManagedSelector",
+  "name" : "field no longer constant",
+  "description" : "Field no longer declares a constant value.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "EQUIVALENT"
+  }, {
+    "compatibility" : "SEMANTIC",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "EQUIVALENT"
+  } ],
+  "attachments" : [ {
+    "name" : "value",
+    "value" : "STOPPED"
+  }, {
+    "name" : "package",
+    "value" : "org.eclipse.jetty.io"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.eclipse.jetty.io.ManagedSelector"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "ManagedSelector"
+  }, {
+    "name" : "fieldName",
+    "value" : "STOPPED"
+  }, {
+    "name" : "elementKind",
+    "value" : "field"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jetty-io-9.4.43.v20210629.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "jetty-io-10.0.9.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.field.noLongerConstant",
+  "old" : "field org.eclipse.jetty.util.component.AbstractLifeCycle.STOPPING @ org.eclipse.jetty.io.ManagedSelector",
+  "new" : "field org.eclipse.jetty.util.component.AbstractLifeCycle.STOPPING @ org.eclipse.jetty.io.ManagedSelector",
+  "name" : "field no longer constant",
+  "description" : "Field no longer declares a constant value.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "EQUIVALENT"
+  }, {
+    "compatibility" : "SEMANTIC",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "EQUIVALENT"
+  } ],
+  "attachments" : [ {
+    "name" : "value",
+    "value" : "STOPPING"
+  }, {
+    "name" : "package",
+    "value" : "org.eclipse.jetty.io"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.eclipse.jetty.io.ManagedSelector"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "ManagedSelector"
+  }, {
+    "name" : "fieldName",
+    "value" : "STOPPING"
+  }, {
+    "name" : "elementKind",
+    "value" : "field"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jetty-io-9.4.43.v20210629.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "jetty-io-10.0.9.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.returnTypeChanged",
+  "old" : "method void org.eclipse.jetty.util.component.ContainerLifeCycle::addEventListener(org.eclipse.jetty.util.component.Container.Listener) @ org.eclipse.jetty.io.ManagedSelector",
+  "new" : "method boolean org.eclipse.jetty.util.component.ContainerLifeCycle::addEventListener(java.util.EventListener) @ org.eclipse.jetty.io.ManagedSelector",
+  "name" : "return type changed",
+  "description" : "The return type changed from 'void' to  'boolean'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "POTENTIALLY_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "void"
+  }, {
+    "name" : "newType",
+    "value" : "boolean"
+  }, {
+    "name" : "package",
+    "value" : "org.eclipse.jetty.io"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.eclipse.jetty.io.ManagedSelector"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "ManagedSelector"
+  }, {
+    "name" : "methodName",
+    "value" : "addEventListener"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jetty-io-9.4.43.v20210629.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "jetty-io-10.0.9.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.parameterTypeChanged",
+  "old" : "parameter void org.eclipse.jetty.util.component.ContainerLifeCycle::addEventListener(===org.eclipse.jetty.util.component.Container.Listener===) @ org.eclipse.jetty.io.ManagedSelector",
+  "new" : "parameter boolean org.eclipse.jetty.util.component.ContainerLifeCycle::addEventListener(===java.util.EventListener===) @ org.eclipse.jetty.io.ManagedSelector",
+  "name" : "parameter type changed",
+  "description" : "The type of the parameter changed from 'org.eclipse.jetty.util.component.Container.Listener' to 'java.util.EventListener'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "POTENTIALLY_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "org.eclipse.jetty.util.component.Container.Listener"
+  }, {
+    "name" : "newType",
+    "value" : "java.util.EventListener"
+  }, {
+    "name" : "package",
+    "value" : "org.eclipse.jetty.io"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.eclipse.jetty.io.ManagedSelector"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "ManagedSelector"
+  }, {
+    "name" : "methodName",
+    "value" : "addEventListener"
+  }, {
+    "name" : "parameterIndex",
+    "value" : "0"
+  }, {
+    "name" : "elementKind",
+    "value" : "parameter"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jetty-io-9.4.43.v20210629.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "jetty-io-10.0.9.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method void org.eclipse.jetty.util.component.AbstractLifeCycle::addLifeCycleListener(org.eclipse.jetty.util.component.LifeCycle.Listener) @ org.eclipse.jetty.io.ManagedSelector",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.eclipse.jetty.io"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.eclipse.jetty.io.ManagedSelector"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "ManagedSelector"
+  }, {
+    "name" : "methodName",
+    "value" : "addLifeCycleListener"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jetty-io-9.4.43.v20210629.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method void org.eclipse.jetty.util.component.ContainerLifeCycle::dump(java.lang.Appendable, java.lang.String, java.util.Collection<?>[]) throws java.io.IOException @ org.eclipse.jetty.io.ManagedSelector",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.eclipse.jetty.io"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.eclipse.jetty.io.ManagedSelector"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "ManagedSelector"
+  }, {
+    "name" : "methodName",
+    "value" : "dump"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jetty-io-9.4.43.v20210629.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method void org.eclipse.jetty.util.component.ContainerLifeCycle::dumpBeans(java.lang.Appendable, java.lang.String, java.util.Collection<?>[]) throws java.io.IOException @ org.eclipse.jetty.io.ManagedSelector",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.eclipse.jetty.io"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.eclipse.jetty.io.ManagedSelector"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "ManagedSelector"
+  }, {
+    "name" : "methodName",
+    "value" : "dumpBeans"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jetty-io-9.4.43.v20210629.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method void org.eclipse.jetty.util.component.ContainerLifeCycle::dumpThis(java.lang.Appendable) throws java.io.IOException @ org.eclipse.jetty.io.ManagedSelector",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.eclipse.jetty.io"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.eclipse.jetty.io.ManagedSelector"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "ManagedSelector"
+  }, {
+    "name" : "methodName",
+    "value" : "dumpThis"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jetty-io-9.4.43.v20210629.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.returnTypeChanged",
+  "old" : "method double org.eclipse.jetty.io.ManagedSelector::getMaxSelectedKeys()",
+  "new" : "method long org.eclipse.jetty.io.ManagedSelector::getMaxSelectedKeys()",
+  "name" : "return type changed",
+  "description" : "The return type changed from 'double' to  'long'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "POTENTIALLY_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "double"
+  }, {
+    "name" : "newType",
+    "value" : "long"
+  }, {
+    "name" : "package",
+    "value" : "org.eclipse.jetty.io"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.eclipse.jetty.io.ManagedSelector"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "ManagedSelector"
+  }, {
+    "name" : "methodName",
+    "value" : "getMaxSelectedKeys"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jetty-io-9.4.43.v20210629.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "jetty-io-10.0.9.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method long org.eclipse.jetty.util.component.AbstractLifeCycle::getStopTimeout() @ org.eclipse.jetty.io.ManagedSelector",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.eclipse.jetty.io"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.eclipse.jetty.io.ManagedSelector"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "ManagedSelector"
+  }, {
+    "name" : "methodName",
+    "value" : "getStopTimeout"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jetty-io-9.4.43.v20210629.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.returnTypeChanged",
+  "old" : "method void org.eclipse.jetty.util.component.ContainerLifeCycle::removeEventListener(org.eclipse.jetty.util.component.Container.Listener) @ org.eclipse.jetty.io.ManagedSelector",
+  "new" : "method boolean org.eclipse.jetty.util.component.ContainerLifeCycle::removeEventListener(java.util.EventListener) @ org.eclipse.jetty.io.ManagedSelector",
+  "name" : "return type changed",
+  "description" : "The return type changed from 'void' to  'boolean'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "POTENTIALLY_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "void"
+  }, {
+    "name" : "newType",
+    "value" : "boolean"
+  }, {
+    "name" : "package",
+    "value" : "org.eclipse.jetty.io"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.eclipse.jetty.io.ManagedSelector"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "ManagedSelector"
+  }, {
+    "name" : "methodName",
+    "value" : "removeEventListener"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jetty-io-9.4.43.v20210629.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "jetty-io-10.0.9.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.parameterTypeChanged",
+  "old" : "parameter void org.eclipse.jetty.util.component.ContainerLifeCycle::removeEventListener(===org.eclipse.jetty.util.component.Container.Listener===) @ org.eclipse.jetty.io.ManagedSelector",
+  "new" : "parameter boolean org.eclipse.jetty.util.component.ContainerLifeCycle::removeEventListener(===java.util.EventListener===) @ org.eclipse.jetty.io.ManagedSelector",
+  "name" : "parameter type changed",
+  "description" : "The type of the parameter changed from 'org.eclipse.jetty.util.component.Container.Listener' to 'java.util.EventListener'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "POTENTIALLY_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "org.eclipse.jetty.util.component.Container.Listener"
+  }, {
+    "name" : "newType",
+    "value" : "java.util.EventListener"
+  }, {
+    "name" : "package",
+    "value" : "org.eclipse.jetty.io"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.eclipse.jetty.io.ManagedSelector"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "ManagedSelector"
+  }, {
+    "name" : "methodName",
+    "value" : "removeEventListener"
+  }, {
+    "name" : "parameterIndex",
+    "value" : "0"
+  }, {
+    "name" : "elementKind",
+    "value" : "parameter"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jetty-io-9.4.43.v20210629.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "jetty-io-10.0.9.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method void org.eclipse.jetty.util.component.AbstractLifeCycle::removeLifeCycleListener(org.eclipse.jetty.util.component.LifeCycle.Listener) @ org.eclipse.jetty.io.ManagedSelector",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.eclipse.jetty.io"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.eclipse.jetty.io.ManagedSelector"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "ManagedSelector"
+  }, {
+    "name" : "methodName",
+    "value" : "removeLifeCycleListener"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jetty-io-9.4.43.v20210629.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method void org.eclipse.jetty.util.component.ContainerLifeCycle::setStopTimeout(long) @ org.eclipse.jetty.io.ManagedSelector",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.eclipse.jetty.io"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.eclipse.jetty.io.ManagedSelector"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "ManagedSelector"
+  }, {
+    "name" : "methodName",
+    "value" : "setStopTimeout"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jetty-io-9.4.43.v20210629.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.numberOfParametersChanged",
+  "old" : "method void org.eclipse.jetty.io.NegotiatingClientConnection::completed()",
+  "new" : "method void org.eclipse.jetty.io.NegotiatingClientConnection::completed(java.lang.String)",
+  "name" : "number of parameters changed",
+  "description" : "The number of parameters of the method have changed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.eclipse.jetty.io"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.eclipse.jetty.io.NegotiatingClientConnection"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "NegotiatingClientConnection"
+  }, {
+    "name" : "methodName",
+    "value" : "completed"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jetty-io-9.4.43.v20210629.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "jetty-io-10.0.9.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class org.eclipse.jetty.io.NetworkTrafficListener.Adapter",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.eclipse.jetty.io"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.eclipse.jetty.io.NetworkTrafficListener.Adapter"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "Adapter"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jetty-io-9.4.43.v20210629.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class org.eclipse.jetty.io.NetworkTrafficSelectChannelEndPoint",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.eclipse.jetty.io"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.eclipse.jetty.io.NetworkTrafficSelectChannelEndPoint"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "NetworkTrafficSelectChannelEndPoint"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jetty-io-9.4.43.v20210629.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.noLongerInheritsFromClass",
+  "old" : "class org.eclipse.jetty.io.NetworkTrafficSocketChannelEndPoint",
+  "new" : "class org.eclipse.jetty.io.NetworkTrafficSocketChannelEndPoint",
+  "name" : "removed super class",
+  "description" : "Class no longer inherits from 'org.eclipse.jetty.io.ChannelEndPoint'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "superClass",
+    "value" : "org.eclipse.jetty.io.ChannelEndPoint"
+  }, {
+    "name" : "package",
+    "value" : "org.eclipse.jetty.io"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.eclipse.jetty.io.NetworkTrafficSocketChannelEndPoint"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "NetworkTrafficSocketChannelEndPoint"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jetty-io-9.4.43.v20210629.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "jetty-io-10.0.9.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.nonFinalClassInheritsFromNewClass",
+  "old" : "class org.eclipse.jetty.io.NetworkTrafficSocketChannelEndPoint",
+  "new" : "class org.eclipse.jetty.io.NetworkTrafficSocketChannelEndPoint",
+  "name" : "new super class of non-final class",
+  "description" : "Non-final class now inherits from 'org.eclipse.jetty.io.SelectableChannelEndPoint'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "POTENTIALLY_BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "POTENTIALLY_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "superClass",
+    "value" : "org.eclipse.jetty.io.SelectableChannelEndPoint"
+  }, {
+    "name" : "package",
+    "value" : "org.eclipse.jetty.io"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.eclipse.jetty.io.NetworkTrafficSocketChannelEndPoint"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "NetworkTrafficSocketChannelEndPoint"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jetty-io-9.4.43.v20210629.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "jetty-io-10.0.9.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.parameterTypeChanged",
+  "old" : "parameter void org.eclipse.jetty.io.NetworkTrafficSocketChannelEndPoint::<init>(===java.nio.channels.SelectableChannel===, org.eclipse.jetty.io.ManagedSelector, java.nio.channels.SelectionKey, org.eclipse.jetty.util.thread.Scheduler, long, java.util.List<org.eclipse.jetty.io.NetworkTrafficListener>)",
+  "new" : "parameter void org.eclipse.jetty.io.NetworkTrafficSocketChannelEndPoint::<init>(===java.nio.channels.SocketChannel===, org.eclipse.jetty.io.ManagedSelector, java.nio.channels.SelectionKey, org.eclipse.jetty.util.thread.Scheduler, long, org.eclipse.jetty.io.NetworkTrafficListener)",
+  "name" : "parameter type changed",
+  "description" : "The type of the parameter changed from 'java.nio.channels.SelectableChannel' to 'java.nio.channels.SocketChannel'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "POTENTIALLY_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "java.nio.channels.SelectableChannel"
+  }, {
+    "name" : "newType",
+    "value" : "java.nio.channels.SocketChannel"
+  }, {
+    "name" : "package",
+    "value" : "org.eclipse.jetty.io"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.eclipse.jetty.io.NetworkTrafficSocketChannelEndPoint"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "NetworkTrafficSocketChannelEndPoint"
+  }, {
+    "name" : "methodName",
+    "value" : "<init>"
+  }, {
+    "name" : "parameterIndex",
+    "value" : "0"
+  }, {
+    "name" : "elementKind",
+    "value" : "parameter"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jetty-io-9.4.43.v20210629.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "jetty-io-10.0.9.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.parameterTypeChanged",
+  "old" : "parameter void org.eclipse.jetty.io.NetworkTrafficSocketChannelEndPoint::<init>(java.nio.channels.SelectableChannel, org.eclipse.jetty.io.ManagedSelector, java.nio.channels.SelectionKey, org.eclipse.jetty.util.thread.Scheduler, long, ===java.util.List<org.eclipse.jetty.io.NetworkTrafficListener>===)",
+  "new" : "parameter void org.eclipse.jetty.io.NetworkTrafficSocketChannelEndPoint::<init>(java.nio.channels.SocketChannel, org.eclipse.jetty.io.ManagedSelector, java.nio.channels.SelectionKey, org.eclipse.jetty.util.thread.Scheduler, long, ===org.eclipse.jetty.io.NetworkTrafficListener===)",
+  "name" : "parameter type changed",
+  "description" : "The type of the parameter changed from 'java.util.List<org.eclipse.jetty.io.NetworkTrafficListener>' to 'org.eclipse.jetty.io.NetworkTrafficListener'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "POTENTIALLY_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "java.util.List<org.eclipse.jetty.io.NetworkTrafficListener>"
+  }, {
+    "name" : "newType",
+    "value" : "org.eclipse.jetty.io.NetworkTrafficListener"
+  }, {
+    "name" : "package",
+    "value" : "org.eclipse.jetty.io"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.eclipse.jetty.io.NetworkTrafficSocketChannelEndPoint"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "NetworkTrafficSocketChannelEndPoint"
+  }, {
+    "name" : "methodName",
+    "value" : "<init>"
+  }, {
+    "name" : "parameterIndex",
+    "value" : "5"
+  }, {
+    "name" : "elementKind",
+    "value" : "parameter"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jetty-io-9.4.43.v20210629.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "jetty-io-10.0.9.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.visibilityReduced",
+  "old" : "method void org.eclipse.jetty.io.RetainableByteBuffer::<init>(org.eclipse.jetty.io.ByteBufferPool, int)",
+  "new" : "method void org.eclipse.jetty.io.RetainableByteBuffer::<init>(java.nio.ByteBuffer, java.util.function.Consumer<java.nio.ByteBuffer>)",
+  "name" : "visibility reduced",
+  "description" : "visibility reduced",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldVisibility",
+    "value" : "public"
+  }, {
+    "name" : "newVisibility",
+    "value" : "package"
+  }, {
+    "name" : "package",
+    "value" : "org.eclipse.jetty.io"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.eclipse.jetty.io.RetainableByteBuffer"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "RetainableByteBuffer"
+  }, {
+    "name" : "methodName",
+    "value" : "<init>"
+  }, {
+    "name" : "elementKind",
+    "value" : "constructor"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jetty-io-9.4.43.v20210629.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "jetty-io-10.0.9.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method void org.eclipse.jetty.io.RetainableByteBuffer::<init>(org.eclipse.jetty.io.ByteBufferPool, int, boolean)",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.eclipse.jetty.io"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.eclipse.jetty.io.RetainableByteBuffer"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "RetainableByteBuffer"
+  }, {
+    "name" : "methodName",
+    "value" : "<init>"
+  }, {
+    "name" : "elementKind",
+    "value" : "constructor"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jetty-io-9.4.43.v20210629.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method int org.eclipse.jetty.io.RetainableByteBuffer::getReferences()",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.eclipse.jetty.io"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.eclipse.jetty.io.RetainableByteBuffer"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "RetainableByteBuffer"
+  }, {
+    "name" : "methodName",
+    "value" : "getReferences"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jetty-io-9.4.43.v20210629.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.returnTypeChanged",
+  "old" : "method int org.eclipse.jetty.io.RetainableByteBuffer::release()",
+  "new" : "method boolean org.eclipse.jetty.io.RetainableByteBuffer::release()",
+  "name" : "return type changed",
+  "description" : "The return type changed from 'int' to  'boolean'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "POTENTIALLY_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "int"
+  }, {
+    "name" : "newType",
+    "value" : "boolean"
+  }, {
+    "name" : "package",
+    "value" : "org.eclipse.jetty.io"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.eclipse.jetty.io.RetainableByteBuffer"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "RetainableByteBuffer"
+  }, {
+    "name" : "methodName",
+    "value" : "release"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jetty-io-9.4.43.v20210629.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "jetty-io-10.0.9.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class org.eclipse.jetty.io.SelectChannelEndPoint",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.eclipse.jetty.io"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.eclipse.jetty.io.SelectChannelEndPoint"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "SelectChannelEndPoint"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jetty-io-9.4.43.v20210629.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.field.noLongerConstant",
+  "old" : "field org.eclipse.jetty.util.component.AbstractLifeCycle.FAILED @ org.eclipse.jetty.io.SelectorManager",
+  "new" : "field org.eclipse.jetty.util.component.AbstractLifeCycle.FAILED @ org.eclipse.jetty.io.SelectorManager",
+  "name" : "field no longer constant",
+  "description" : "Field no longer declares a constant value.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "EQUIVALENT"
+  }, {
+    "compatibility" : "SEMANTIC",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "EQUIVALENT"
+  } ],
+  "attachments" : [ {
+    "name" : "value",
+    "value" : "FAILED"
+  }, {
+    "name" : "package",
+    "value" : "org.eclipse.jetty.io"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.eclipse.jetty.io.SelectorManager"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "SelectorManager"
+  }, {
+    "name" : "fieldName",
+    "value" : "FAILED"
+  }, {
+    "name" : "elementKind",
+    "value" : "field"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jetty-io-9.4.43.v20210629.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "jetty-io-10.0.9.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.field.typeChanged",
+  "old" : "field org.eclipse.jetty.io.SelectorManager.LOG",
+  "new" : "field org.eclipse.jetty.io.SelectorManager.LOG",
+  "name" : "field type changed",
+  "description" : "The type of the field changed from 'org.eclipse.jetty.util.log.Logger' to 'org.slf4j.Logger'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "org.eclipse.jetty.util.log.Logger"
+  }, {
+    "name" : "newType",
+    "value" : "org.slf4j.Logger"
+  }, {
+    "name" : "package",
+    "value" : "org.eclipse.jetty.io"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.eclipse.jetty.io.SelectorManager"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "SelectorManager"
+  }, {
+    "name" : "fieldName",
+    "value" : "LOG"
+  }, {
+    "name" : "elementKind",
+    "value" : "field"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jetty-io-9.4.43.v20210629.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "jetty-io-10.0.9.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.field.removedWithConstant",
+  "old" : "field org.eclipse.jetty.util.component.AbstractLifeCycle.RUNNING @ org.eclipse.jetty.io.SelectorManager",
+  "new" : null,
+  "name" : "field with constant removed",
+  "description" : "Field with constant value has been removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SEMANTIC",
+    "severity" : "POTENTIALLY_BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.eclipse.jetty.io"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.eclipse.jetty.io.SelectorManager"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "SelectorManager"
+  }, {
+    "name" : "fieldName",
+    "value" : "RUNNING"
+  }, {
+    "name" : "elementKind",
+    "value" : "field"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jetty-io-9.4.43.v20210629.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.field.noLongerConstant",
+  "old" : "field org.eclipse.jetty.util.component.AbstractLifeCycle.STARTED @ org.eclipse.jetty.io.SelectorManager",
+  "new" : "field org.eclipse.jetty.util.component.AbstractLifeCycle.STARTED @ org.eclipse.jetty.io.SelectorManager",
+  "name" : "field no longer constant",
+  "description" : "Field no longer declares a constant value.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "EQUIVALENT"
+  }, {
+    "compatibility" : "SEMANTIC",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "EQUIVALENT"
+  } ],
+  "attachments" : [ {
+    "name" : "value",
+    "value" : "STARTED"
+  }, {
+    "name" : "package",
+    "value" : "org.eclipse.jetty.io"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.eclipse.jetty.io.SelectorManager"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "SelectorManager"
+  }, {
+    "name" : "fieldName",
+    "value" : "STARTED"
+  }, {
+    "name" : "elementKind",
+    "value" : "field"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jetty-io-9.4.43.v20210629.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "jetty-io-10.0.9.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.field.noLongerConstant",
+  "old" : "field org.eclipse.jetty.util.component.AbstractLifeCycle.STARTING @ org.eclipse.jetty.io.SelectorManager",
+  "new" : "field org.eclipse.jetty.util.component.AbstractLifeCycle.STARTING @ org.eclipse.jetty.io.SelectorManager",
+  "name" : "field no longer constant",
+  "description" : "Field no longer declares a constant value.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "EQUIVALENT"
+  }, {
+    "compatibility" : "SEMANTIC",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "EQUIVALENT"
+  } ],
+  "attachments" : [ {
+    "name" : "value",
+    "value" : "STARTING"
+  }, {
+    "name" : "package",
+    "value" : "org.eclipse.jetty.io"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.eclipse.jetty.io.SelectorManager"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "SelectorManager"
+  }, {
+    "name" : "fieldName",
+    "value" : "STARTING"
+  }, {
+    "name" : "elementKind",
+    "value" : "field"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jetty-io-9.4.43.v20210629.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "jetty-io-10.0.9.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.field.noLongerConstant",
+  "old" : "field org.eclipse.jetty.util.component.AbstractLifeCycle.STOPPED @ org.eclipse.jetty.io.SelectorManager",
+  "new" : "field org.eclipse.jetty.util.component.AbstractLifeCycle.STOPPED @ org.eclipse.jetty.io.SelectorManager",
+  "name" : "field no longer constant",
+  "description" : "Field no longer declares a constant value.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "EQUIVALENT"
+  }, {
+    "compatibility" : "SEMANTIC",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "EQUIVALENT"
+  } ],
+  "attachments" : [ {
+    "name" : "value",
+    "value" : "STOPPED"
+  }, {
+    "name" : "package",
+    "value" : "org.eclipse.jetty.io"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.eclipse.jetty.io.SelectorManager"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "SelectorManager"
+  }, {
+    "name" : "fieldName",
+    "value" : "STOPPED"
+  }, {
+    "name" : "elementKind",
+    "value" : "field"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jetty-io-9.4.43.v20210629.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "jetty-io-10.0.9.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.field.noLongerConstant",
+  "old" : "field org.eclipse.jetty.util.component.AbstractLifeCycle.STOPPING @ org.eclipse.jetty.io.SelectorManager",
+  "new" : "field org.eclipse.jetty.util.component.AbstractLifeCycle.STOPPING @ org.eclipse.jetty.io.SelectorManager",
+  "name" : "field no longer constant",
+  "description" : "Field no longer declares a constant value.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "EQUIVALENT"
+  }, {
+    "compatibility" : "SEMANTIC",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "EQUIVALENT"
+  } ],
+  "attachments" : [ {
+    "name" : "value",
+    "value" : "STOPPING"
+  }, {
+    "name" : "package",
+    "value" : "org.eclipse.jetty.io"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.eclipse.jetty.io.SelectorManager"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "SelectorManager"
+  }, {
+    "name" : "fieldName",
+    "value" : "STOPPING"
+  }, {
+    "name" : "elementKind",
+    "value" : "field"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jetty-io-9.4.43.v20210629.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "jetty-io-10.0.9.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method void org.eclipse.jetty.io.SelectorManager::addAcceptListener(org.eclipse.jetty.io.SelectorManager.AcceptListener)",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.eclipse.jetty.io"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.eclipse.jetty.io.SelectorManager"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "SelectorManager"
+  }, {
+    "name" : "methodName",
+    "value" : "addAcceptListener"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jetty-io-9.4.43.v20210629.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.returnTypeChanged",
+  "old" : "method void org.eclipse.jetty.io.SelectorManager::addEventListener(java.util.EventListener)",
+  "new" : "method boolean org.eclipse.jetty.io.SelectorManager::addEventListener(java.util.EventListener)",
+  "name" : "return type changed",
+  "description" : "The return type changed from 'void' to  'boolean'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "POTENTIALLY_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "void"
+  }, {
+    "name" : "newType",
+    "value" : "boolean"
+  }, {
+    "name" : "package",
+    "value" : "org.eclipse.jetty.io"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.eclipse.jetty.io.SelectorManager"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "SelectorManager"
+  }, {
+    "name" : "methodName",
+    "value" : "addEventListener"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jetty-io-9.4.43.v20210629.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "jetty-io-10.0.9.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method void org.eclipse.jetty.util.component.ContainerLifeCycle::addEventListener(org.eclipse.jetty.util.component.Container.Listener) @ org.eclipse.jetty.io.SelectorManager",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.eclipse.jetty.io"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.eclipse.jetty.io.SelectorManager"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "SelectorManager"
+  }, {
+    "name" : "methodName",
+    "value" : "addEventListener"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jetty-io-9.4.43.v20210629.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method void org.eclipse.jetty.util.component.AbstractLifeCycle::addLifeCycleListener(org.eclipse.jetty.util.component.LifeCycle.Listener) @ org.eclipse.jetty.io.SelectorManager",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.eclipse.jetty.io"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.eclipse.jetty.io.SelectorManager"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "SelectorManager"
+  }, {
+    "name" : "methodName",
+    "value" : "addLifeCycleListener"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jetty-io-9.4.43.v20210629.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.numberOfParametersChanged",
+  "old" : "method void org.eclipse.jetty.io.SelectorManager::connectionClosed(org.eclipse.jetty.io.Connection)",
+  "new" : "method void org.eclipse.jetty.io.SelectorManager::connectionClosed(org.eclipse.jetty.io.Connection, java.lang.Throwable)",
+  "name" : "number of parameters changed",
+  "description" : "The number of parameters of the method have changed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.eclipse.jetty.io"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.eclipse.jetty.io.SelectorManager"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "SelectorManager"
+  }, {
+    "name" : "methodName",
+    "value" : "connectionClosed"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jetty-io-9.4.43.v20210629.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "jetty-io-10.0.9.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.numberOfParametersChanged",
+  "old" : "method void org.eclipse.jetty.io.SelectorManager::connectionOpened(org.eclipse.jetty.io.Connection)",
+  "new" : "method void org.eclipse.jetty.io.SelectorManager::connectionOpened(org.eclipse.jetty.io.Connection, java.lang.Object)",
+  "name" : "number of parameters changed",
+  "description" : "The number of parameters of the method have changed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.eclipse.jetty.io"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.eclipse.jetty.io.SelectorManager"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "SelectorManager"
+  }, {
+    "name" : "methodName",
+    "value" : "connectionOpened"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jetty-io-9.4.43.v20210629.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "jetty-io-10.0.9.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method void org.eclipse.jetty.util.component.ContainerLifeCycle::dump(java.lang.Appendable, java.lang.String, java.util.Collection<?>[]) throws java.io.IOException @ org.eclipse.jetty.io.SelectorManager",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.eclipse.jetty.io"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.eclipse.jetty.io.SelectorManager"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "SelectorManager"
+  }, {
+    "name" : "methodName",
+    "value" : "dump"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jetty-io-9.4.43.v20210629.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method void org.eclipse.jetty.util.component.ContainerLifeCycle::dumpBeans(java.lang.Appendable, java.lang.String, java.util.Collection<?>[]) throws java.io.IOException @ org.eclipse.jetty.io.SelectorManager",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.eclipse.jetty.io"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.eclipse.jetty.io.SelectorManager"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "SelectorManager"
+  }, {
+    "name" : "methodName",
+    "value" : "dumpBeans"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jetty-io-9.4.43.v20210629.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method void org.eclipse.jetty.util.component.ContainerLifeCycle::dumpThis(java.lang.Appendable) throws java.io.IOException @ org.eclipse.jetty.io.SelectorManager",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.eclipse.jetty.io"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.eclipse.jetty.io.SelectorManager"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "SelectorManager"
+  }, {
+    "name" : "methodName",
+    "value" : "dumpThis"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jetty-io-9.4.43.v20210629.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method int org.eclipse.jetty.io.SelectorManager::getReservedThreads()",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.eclipse.jetty.io"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.eclipse.jetty.io.SelectorManager"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "SelectorManager"
+  }, {
+    "name" : "methodName",
+    "value" : "getReservedThreads"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jetty-io-9.4.43.v20210629.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method long org.eclipse.jetty.util.component.AbstractLifeCycle::getStopTimeout() @ org.eclipse.jetty.io.SelectorManager",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.eclipse.jetty.io"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.eclipse.jetty.io.SelectorManager"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "SelectorManager"
+  }, {
+    "name" : "methodName",
+    "value" : "getStopTimeout"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jetty-io-9.4.43.v20210629.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method void org.eclipse.jetty.io.SelectorManager::removeAcceptListener(org.eclipse.jetty.io.SelectorManager.AcceptListener)",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.eclipse.jetty.io"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.eclipse.jetty.io.SelectorManager"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "SelectorManager"
+  }, {
+    "name" : "methodName",
+    "value" : "removeAcceptListener"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jetty-io-9.4.43.v20210629.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.returnTypeChanged",
+  "old" : "method void org.eclipse.jetty.io.SelectorManager::removeEventListener(java.util.EventListener)",
+  "new" : "method boolean org.eclipse.jetty.io.SelectorManager::removeEventListener(java.util.EventListener)",
+  "name" : "return type changed",
+  "description" : "The return type changed from 'void' to  'boolean'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "POTENTIALLY_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "void"
+  }, {
+    "name" : "newType",
+    "value" : "boolean"
+  }, {
+    "name" : "package",
+    "value" : "org.eclipse.jetty.io"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.eclipse.jetty.io.SelectorManager"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "SelectorManager"
+  }, {
+    "name" : "methodName",
+    "value" : "removeEventListener"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jetty-io-9.4.43.v20210629.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "jetty-io-10.0.9.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method void org.eclipse.jetty.util.component.ContainerLifeCycle::removeEventListener(org.eclipse.jetty.util.component.Container.Listener) @ org.eclipse.jetty.io.SelectorManager",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.eclipse.jetty.io"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.eclipse.jetty.io.SelectorManager"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "SelectorManager"
+  }, {
+    "name" : "methodName",
+    "value" : "removeEventListener"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jetty-io-9.4.43.v20210629.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method void org.eclipse.jetty.util.component.AbstractLifeCycle::removeLifeCycleListener(org.eclipse.jetty.util.component.LifeCycle.Listener) @ org.eclipse.jetty.io.SelectorManager",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.eclipse.jetty.io"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.eclipse.jetty.io.SelectorManager"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "SelectorManager"
+  }, {
+    "name" : "methodName",
+    "value" : "removeLifeCycleListener"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jetty-io-9.4.43.v20210629.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method void org.eclipse.jetty.io.SelectorManager::setReservedThreads(int)",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.eclipse.jetty.io"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.eclipse.jetty.io.SelectorManager"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "SelectorManager"
+  }, {
+    "name" : "methodName",
+    "value" : "setReservedThreads"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jetty-io-9.4.43.v20210629.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method void org.eclipse.jetty.util.component.ContainerLifeCycle::setStopTimeout(long) @ org.eclipse.jetty.io.SelectorManager",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.eclipse.jetty.io"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.eclipse.jetty.io.SelectorManager"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "SelectorManager"
+  }, {
+    "name" : "methodName",
+    "value" : "setStopTimeout"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jetty-io-9.4.43.v20210629.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.noLongerInheritsFromClass",
+  "old" : "class org.eclipse.jetty.io.SocketChannelEndPoint",
+  "new" : "class org.eclipse.jetty.io.SocketChannelEndPoint",
+  "name" : "removed super class",
+  "description" : "Class no longer inherits from 'org.eclipse.jetty.io.ChannelEndPoint'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "superClass",
+    "value" : "org.eclipse.jetty.io.ChannelEndPoint"
+  }, {
+    "name" : "package",
+    "value" : "org.eclipse.jetty.io"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.eclipse.jetty.io.SocketChannelEndPoint"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "SocketChannelEndPoint"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jetty-io-9.4.43.v20210629.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "jetty-io-10.0.9.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.nonFinalClassInheritsFromNewClass",
+  "old" : "class org.eclipse.jetty.io.SocketChannelEndPoint",
+  "new" : "class org.eclipse.jetty.io.SocketChannelEndPoint",
+  "name" : "new super class of non-final class",
+  "description" : "Non-final class now inherits from 'org.eclipse.jetty.io.SelectableChannelEndPoint'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "POTENTIALLY_BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "POTENTIALLY_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "superClass",
+    "value" : "org.eclipse.jetty.io.SelectableChannelEndPoint"
+  }, {
+    "name" : "package",
+    "value" : "org.eclipse.jetty.io"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.eclipse.jetty.io.SocketChannelEndPoint"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "SocketChannelEndPoint"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jetty-io-9.4.43.v20210629.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "jetty-io-10.0.9.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method void org.eclipse.jetty.io.SocketChannelEndPoint::<init>(java.nio.channels.SelectableChannel, org.eclipse.jetty.io.ManagedSelector, java.nio.channels.SelectionKey, org.eclipse.jetty.util.thread.Scheduler)",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.eclipse.jetty.io"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.eclipse.jetty.io.SocketChannelEndPoint"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "SocketChannelEndPoint"
+  }, {
+    "name" : "methodName",
+    "value" : "<init>"
+  }, {
+    "name" : "elementKind",
+    "value" : "constructor"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jetty-io-9.4.43.v20210629.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method java.net.Socket org.eclipse.jetty.io.SocketChannelEndPoint::getSocket()",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.eclipse.jetty.io"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.eclipse.jetty.io.SocketChannelEndPoint"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "SocketChannelEndPoint"
+  }, {
+    "name" : "methodName",
+    "value" : "getSocket"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jetty-io-9.4.43.v20210629.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.numberOfParametersChanged",
+  "old" : "method java.nio.ByteBuffer[] org.eclipse.jetty.io.WriteFlusher::flush(java.nio.ByteBuffer[]) throws java.io.IOException",
+  "new" : "method java.nio.ByteBuffer[] org.eclipse.jetty.io.WriteFlusher::flush(java.net.SocketAddress, java.nio.ByteBuffer[]) throws java.io.IOException",
+  "name" : "number of parameters changed",
+  "description" : "The number of parameters of the method have changed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.eclipse.jetty.io"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.eclipse.jetty.io.WriteFlusher"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "WriteFlusher"
+  }, {
+    "name" : "methodName",
+    "value" : "flush"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jetty-io-9.4.43.v20210629.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "jetty-io-10.0.9.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method java.lang.Object org.eclipse.jetty.jmx.ObjectMBean::mbeanFor(java.lang.Object) @ org.eclipse.jetty.io.jmx.ConnectionStatisticsMBean",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.eclipse.jetty.io.jmx"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.eclipse.jetty.io.jmx.ConnectionStatisticsMBean"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "ConnectionStatisticsMBean"
+  }, {
+    "name" : "methodName",
+    "value" : "mbeanFor"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jetty-io-9.4.43.v20210629.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.field.removedWithConstant",
+  "old" : "field org.eclipse.jetty.io.ssl.SslClientConnectionFactory.SSL_CONTEXT_FACTORY_CONTEXT_KEY",
+  "new" : null,
+  "name" : "field with constant removed",
+  "description" : "Field with constant value has been removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SEMANTIC",
+    "severity" : "POTENTIALLY_BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.eclipse.jetty.io.ssl"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.eclipse.jetty.io.ssl.SslClientConnectionFactory"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "SslClientConnectionFactory"
+  }, {
+    "name" : "fieldName",
+    "value" : "SSL_CONTEXT_FACTORY_CONTEXT_KEY"
+  }, {
+    "name" : "elementKind",
+    "value" : "field"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jetty-io-9.4.43.v20210629.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.field.constantValueChanged",
+  "old" : "field org.eclipse.jetty.io.ssl.SslClientConnectionFactory.SSL_ENGINE_CONTEXT_KEY",
+  "new" : "field org.eclipse.jetty.io.ssl.SslClientConnectionFactory.SSL_ENGINE_CONTEXT_KEY",
+  "name" : "constant field changed value",
+  "description" : "Constant field changed value from 'ssl.engine' to 'org.eclipse.jetty.client.ssl.engine'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SEMANTIC",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldValue",
+    "value" : "ssl.engine"
+  }, {
+    "name" : "newValue",
+    "value" : "org.eclipse.jetty.client.ssl.engine"
+  }, {
+    "name" : "package",
+    "value" : "org.eclipse.jetty.io.ssl"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.eclipse.jetty.io.ssl.SslClientConnectionFactory"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "SslClientConnectionFactory"
+  }, {
+    "name" : "fieldName",
+    "value" : "SSL_ENGINE_CONTEXT_KEY"
+  }, {
+    "name" : "elementKind",
+    "value" : "field"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jetty-io-9.4.43.v20210629.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "jetty-io-10.0.9.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.field.removedWithConstant",
+  "old" : "field org.eclipse.jetty.io.ssl.SslClientConnectionFactory.SSL_PEER_HOST_CONTEXT_KEY",
+  "new" : null,
+  "name" : "field with constant removed",
+  "description" : "Field with constant value has been removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SEMANTIC",
+    "severity" : "POTENTIALLY_BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.eclipse.jetty.io.ssl"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.eclipse.jetty.io.ssl.SslClientConnectionFactory"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "SslClientConnectionFactory"
+  }, {
+    "name" : "fieldName",
+    "value" : "SSL_PEER_HOST_CONTEXT_KEY"
+  }, {
+    "name" : "elementKind",
+    "value" : "field"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jetty-io-9.4.43.v20210629.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.field.removedWithConstant",
+  "old" : "field org.eclipse.jetty.io.ssl.SslClientConnectionFactory.SSL_PEER_PORT_CONTEXT_KEY",
+  "new" : null,
+  "name" : "field with constant removed",
+  "description" : "Field with constant value has been removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SEMANTIC",
+    "severity" : "POTENTIALLY_BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.eclipse.jetty.io.ssl"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.eclipse.jetty.io.ssl.SslClientConnectionFactory"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "SslClientConnectionFactory"
+  }, {
+    "name" : "fieldName",
+    "value" : "SSL_PEER_PORT_CONTEXT_KEY"
+  }, {
+    "name" : "elementKind",
+    "value" : "field"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jetty-io-9.4.43.v20210629.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method boolean org.eclipse.jetty.io.ssl.SslClientConnectionFactory::isAllowMissingCloseMessage()",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.eclipse.jetty.io.ssl"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.eclipse.jetty.io.ssl.SslClientConnectionFactory"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "SslClientConnectionFactory"
+  }, {
+    "name" : "methodName",
+    "value" : "isAllowMissingCloseMessage"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jetty-io-9.4.43.v20210629.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method void org.eclipse.jetty.io.ssl.SslClientConnectionFactory::setAllowMissingCloseMessage(boolean)",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.eclipse.jetty.io.ssl"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.eclipse.jetty.io.ssl.SslClientConnectionFactory"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "SslClientConnectionFactory"
+  }, {
+    "name" : "methodName",
+    "value" : "setAllowMissingCloseMessage"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jetty-io-9.4.43.v20210629.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method boolean org.eclipse.jetty.io.ssl.SslConnection::isAllowMissingCloseMessage()",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.eclipse.jetty.io.ssl"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.eclipse.jetty.io.ssl.SslConnection"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "SslConnection"
+  }, {
+    "name" : "methodName",
+    "value" : "isAllowMissingCloseMessage"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jetty-io-9.4.43.v20210629.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.numberOfParametersChanged",
+  "old" : "method void org.eclipse.jetty.io.ssl.SslConnection::onClose()",
+  "new" : "method void org.eclipse.jetty.io.ssl.SslConnection::onClose(java.lang.Throwable)",
+  "name" : "number of parameters changed",
+  "description" : "The number of parameters of the method have changed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.eclipse.jetty.io.ssl"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.eclipse.jetty.io.ssl.SslConnection"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "SslConnection"
+  }, {
+    "name" : "methodName",
+    "value" : "onClose"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jetty-io-9.4.43.v20210629.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "jetty-io-10.0.9.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method void org.eclipse.jetty.io.ssl.SslConnection::setAllowMissingCloseMessage(boolean)",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.eclipse.jetty.io.ssl"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.eclipse.jetty.io.ssl.SslConnection"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "SslConnection"
+  }, {
+    "name" : "methodName",
+    "value" : "setAllowMissingCloseMessage"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jetty-io-9.4.43.v20210629.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+} ]

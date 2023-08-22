@@ -1,0 +1,1747 @@
+[ {
+  "code" : "java.class.noLongerInheritsFromClass",
+  "old" : "class org.apache.maven.shared.dependency.graph.internal.DefaultDependencyCollectorBuilder",
+  "new" : "class org.apache.maven.shared.dependency.graph.internal.DefaultDependencyCollectorBuilder",
+  "name" : "removed super class",
+  "description" : "Class no longer inherits from 'org.codehaus.plexus.logging.AbstractLogEnabled'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "superClass",
+    "value" : "org.codehaus.plexus.logging.AbstractLogEnabled"
+  }, {
+    "name" : "package",
+    "value" : "org.apache.maven.shared.dependency.graph.internal"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.maven.shared.dependency.graph.internal.DefaultDependencyCollectorBuilder"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "DefaultDependencyCollectorBuilder"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "maven-dependency-tree-3.1.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "maven-dependency-tree-3.2.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.noLongerImplementsInterface",
+  "old" : "class org.apache.maven.shared.dependency.graph.internal.DefaultDependencyCollectorBuilder",
+  "new" : "class org.apache.maven.shared.dependency.graph.internal.DefaultDependencyCollectorBuilder",
+  "name" : "class no longer implements interface",
+  "description" : "Class no longer implements interface 'org.codehaus.plexus.logging.LogEnabled'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "interface",
+    "value" : "org.codehaus.plexus.logging.LogEnabled"
+  }, {
+    "name" : "package",
+    "value" : "org.apache.maven.shared.dependency.graph.internal"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.maven.shared.dependency.graph.internal.DefaultDependencyCollectorBuilder"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "DefaultDependencyCollectorBuilder"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "maven-dependency-tree-3.1.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "maven-dependency-tree-3.2.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.noLongerImplementsInterface",
+  "old" : "class org.apache.maven.shared.dependency.graph.internal.DefaultDependencyCollectorBuilder",
+  "new" : "class org.apache.maven.shared.dependency.graph.internal.DefaultDependencyCollectorBuilder",
+  "name" : "class no longer implements interface",
+  "description" : "Class no longer implements interface 'org.codehaus.plexus.personality.plexus.lifecycle.phase.Contextualizable'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "interface",
+    "value" : "org.codehaus.plexus.personality.plexus.lifecycle.phase.Contextualizable"
+  }, {
+    "name" : "package",
+    "value" : "org.apache.maven.shared.dependency.graph.internal"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.maven.shared.dependency.graph.internal.DefaultDependencyCollectorBuilder"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "DefaultDependencyCollectorBuilder"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "maven-dependency-tree-3.1.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "maven-dependency-tree-3.2.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.annotation.added",
+  "old" : "class org.apache.maven.shared.dependency.graph.internal.DefaultDependencyCollectorBuilder",
+  "new" : "class org.apache.maven.shared.dependency.graph.internal.DefaultDependencyCollectorBuilder",
+  "name" : "new annotation",
+  "description" : "Element newly annotated with 'javax.inject.Named'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "EQUIVALENT"
+  }, {
+    "compatibility" : "SEMANTIC",
+    "severity" : "POTENTIALLY_BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "EQUIVALENT"
+  } ],
+  "attachments" : [ {
+    "name" : "annotationType",
+    "value" : "javax.inject.Named"
+  }, {
+    "name" : "annotation",
+    "value" : "@javax.inject.Named"
+  }, {
+    "name" : "package",
+    "value" : "org.apache.maven.shared.dependency.graph.internal"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.maven.shared.dependency.graph.internal.DefaultDependencyCollectorBuilder"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "DefaultDependencyCollectorBuilder"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "maven-dependency-tree-3.1.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "maven-dependency-tree-3.2.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.annotation.removed",
+  "old" : "class org.apache.maven.shared.dependency.graph.internal.DefaultDependencyCollectorBuilder",
+  "new" : "class org.apache.maven.shared.dependency.graph.internal.DefaultDependencyCollectorBuilder",
+  "name" : "removed annotation",
+  "description" : "Element no longer annotated with 'org.codehaus.plexus.component.annotations.Component'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "EQUIVALENT"
+  }, {
+    "compatibility" : "SEMANTIC",
+    "severity" : "POTENTIALLY_BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "EQUIVALENT"
+  } ],
+  "attachments" : [ {
+    "name" : "annotationType",
+    "value" : "org.codehaus.plexus.component.annotations.Component"
+  }, {
+    "name" : "annotation",
+    "value" : "@org.codehaus.plexus.component.annotations.Component(role = org.apache.maven.shared.dependency.graph.DependencyCollectorBuilder.class)"
+  }, {
+    "name" : "package",
+    "value" : "org.apache.maven.shared.dependency.graph.internal"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.maven.shared.dependency.graph.internal.DefaultDependencyCollectorBuilder"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "DefaultDependencyCollectorBuilder"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "maven-dependency-tree-3.1.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "maven-dependency-tree-3.2.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.field.removed",
+  "old" : "field org.apache.maven.shared.dependency.graph.internal.DefaultDependencyCollectorBuilder.container",
+  "new" : null,
+  "name" : "field removed",
+  "description" : "Field removed from class.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.apache.maven.shared.dependency.graph.internal"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.maven.shared.dependency.graph.internal.DefaultDependencyCollectorBuilder"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "DefaultDependencyCollectorBuilder"
+  }, {
+    "name" : "fieldName",
+    "value" : "container"
+  }, {
+    "name" : "elementKind",
+    "value" : "field"
+  }, {
+    "name" : "oldArchive",
+    "value" : "maven-dependency-tree-3.1.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.numberOfParametersChanged",
+  "old" : "method void org.apache.maven.shared.dependency.graph.internal.DefaultDependencyCollectorBuilder::<init>()",
+  "new" : "method void org.apache.maven.shared.dependency.graph.internal.DefaultDependencyCollectorBuilder::<init>(org.eclipse.aether.RepositorySystem)",
+  "name" : "number of parameters changed",
+  "description" : "The number of parameters of the method have changed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.apache.maven.shared.dependency.graph.internal"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.maven.shared.dependency.graph.internal.DefaultDependencyCollectorBuilder"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "DefaultDependencyCollectorBuilder"
+  }, {
+    "name" : "methodName",
+    "value" : "<init>"
+  }, {
+    "name" : "elementKind",
+    "value" : "constructor"
+  }, {
+    "name" : "oldArchive",
+    "value" : "maven-dependency-tree-3.1.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "maven-dependency-tree-3.2.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.annotation.added",
+  "old" : "method void org.apache.maven.shared.dependency.graph.internal.DefaultDependencyCollectorBuilder::<init>()",
+  "new" : "method void org.apache.maven.shared.dependency.graph.internal.DefaultDependencyCollectorBuilder::<init>(org.eclipse.aether.RepositorySystem)",
+  "name" : "new annotation",
+  "description" : "Element newly annotated with 'javax.inject.Inject'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "EQUIVALENT"
+  }, {
+    "compatibility" : "SEMANTIC",
+    "severity" : "POTENTIALLY_BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "EQUIVALENT"
+  } ],
+  "attachments" : [ {
+    "name" : "annotationType",
+    "value" : "javax.inject.Inject"
+  }, {
+    "name" : "annotation",
+    "value" : "@javax.inject.Inject"
+  }, {
+    "name" : "package",
+    "value" : "org.apache.maven.shared.dependency.graph.internal"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.maven.shared.dependency.graph.internal.DefaultDependencyCollectorBuilder"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "DefaultDependencyCollectorBuilder"
+  }, {
+    "name" : "methodName",
+    "value" : "<init>"
+  }, {
+    "name" : "elementKind",
+    "value" : "constructor"
+  }, {
+    "name" : "oldArchive",
+    "value" : "maven-dependency-tree-3.1.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "maven-dependency-tree-3.2.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method void org.apache.maven.shared.dependency.graph.internal.DefaultDependencyCollectorBuilder::contextualize(org.codehaus.plexus.context.Context) throws org.codehaus.plexus.context.ContextException",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.apache.maven.shared.dependency.graph.internal"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.maven.shared.dependency.graph.internal.DefaultDependencyCollectorBuilder"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "DefaultDependencyCollectorBuilder"
+  }, {
+    "name" : "methodName",
+    "value" : "contextualize"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "maven-dependency-tree-3.1.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method void org.codehaus.plexus.logging.AbstractLogEnabled::enableLogging(org.codehaus.plexus.logging.Logger) @ org.apache.maven.shared.dependency.graph.internal.DefaultDependencyCollectorBuilder",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.apache.maven.shared.dependency.graph.internal"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.maven.shared.dependency.graph.internal.DefaultDependencyCollectorBuilder"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "DefaultDependencyCollectorBuilder"
+  }, {
+    "name" : "methodName",
+    "value" : "enableLogging"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "maven-dependency-tree-3.1.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method org.codehaus.plexus.logging.Logger org.codehaus.plexus.logging.AbstractLogEnabled::getLogger() @ org.apache.maven.shared.dependency.graph.internal.DefaultDependencyCollectorBuilder",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.apache.maven.shared.dependency.graph.internal"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.maven.shared.dependency.graph.internal.DefaultDependencyCollectorBuilder"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "DefaultDependencyCollectorBuilder"
+  }, {
+    "name" : "methodName",
+    "value" : "getLogger"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "maven-dependency-tree-3.1.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method boolean org.apache.maven.shared.dependency.graph.internal.DefaultDependencyCollectorBuilder::isMaven31()",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.apache.maven.shared.dependency.graph.internal"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.maven.shared.dependency.graph.internal.DefaultDependencyCollectorBuilder"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "DefaultDependencyCollectorBuilder"
+  }, {
+    "name" : "methodName",
+    "value" : "isMaven31"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "maven-dependency-tree-3.1.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method void org.codehaus.plexus.logging.AbstractLogEnabled::setupLogger(java.lang.Object) @ org.apache.maven.shared.dependency.graph.internal.DefaultDependencyCollectorBuilder",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.apache.maven.shared.dependency.graph.internal"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.maven.shared.dependency.graph.internal.DefaultDependencyCollectorBuilder"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "DefaultDependencyCollectorBuilder"
+  }, {
+    "name" : "methodName",
+    "value" : "setupLogger"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "maven-dependency-tree-3.1.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method void org.codehaus.plexus.logging.AbstractLogEnabled::setupLogger(java.lang.Object, java.lang.String) @ org.apache.maven.shared.dependency.graph.internal.DefaultDependencyCollectorBuilder",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.apache.maven.shared.dependency.graph.internal"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.maven.shared.dependency.graph.internal.DefaultDependencyCollectorBuilder"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "DefaultDependencyCollectorBuilder"
+  }, {
+    "name" : "methodName",
+    "value" : "setupLogger"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "maven-dependency-tree-3.1.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method void org.codehaus.plexus.logging.AbstractLogEnabled::setupLogger(java.lang.Object, org.codehaus.plexus.logging.Logger) @ org.apache.maven.shared.dependency.graph.internal.DefaultDependencyCollectorBuilder",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.apache.maven.shared.dependency.graph.internal"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.maven.shared.dependency.graph.internal.DefaultDependencyCollectorBuilder"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "DefaultDependencyCollectorBuilder"
+  }, {
+    "name" : "methodName",
+    "value" : "setupLogger"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "maven-dependency-tree-3.1.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.noLongerInheritsFromClass",
+  "old" : "class org.apache.maven.shared.dependency.graph.internal.DefaultDependencyGraphBuilder",
+  "new" : "class org.apache.maven.shared.dependency.graph.internal.DefaultDependencyGraphBuilder",
+  "name" : "removed super class",
+  "description" : "Class no longer inherits from 'org.codehaus.plexus.logging.AbstractLogEnabled'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "superClass",
+    "value" : "org.codehaus.plexus.logging.AbstractLogEnabled"
+  }, {
+    "name" : "package",
+    "value" : "org.apache.maven.shared.dependency.graph.internal"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.maven.shared.dependency.graph.internal.DefaultDependencyGraphBuilder"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "DefaultDependencyGraphBuilder"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "maven-dependency-tree-3.1.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "maven-dependency-tree-3.2.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.noLongerImplementsInterface",
+  "old" : "class org.apache.maven.shared.dependency.graph.internal.DefaultDependencyGraphBuilder",
+  "new" : "class org.apache.maven.shared.dependency.graph.internal.DefaultDependencyGraphBuilder",
+  "name" : "class no longer implements interface",
+  "description" : "Class no longer implements interface 'org.codehaus.plexus.logging.LogEnabled'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "interface",
+    "value" : "org.codehaus.plexus.logging.LogEnabled"
+  }, {
+    "name" : "package",
+    "value" : "org.apache.maven.shared.dependency.graph.internal"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.maven.shared.dependency.graph.internal.DefaultDependencyGraphBuilder"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "DefaultDependencyGraphBuilder"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "maven-dependency-tree-3.1.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "maven-dependency-tree-3.2.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.noLongerImplementsInterface",
+  "old" : "class org.apache.maven.shared.dependency.graph.internal.DefaultDependencyGraphBuilder",
+  "new" : "class org.apache.maven.shared.dependency.graph.internal.DefaultDependencyGraphBuilder",
+  "name" : "class no longer implements interface",
+  "description" : "Class no longer implements interface 'org.codehaus.plexus.personality.plexus.lifecycle.phase.Contextualizable'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "interface",
+    "value" : "org.codehaus.plexus.personality.plexus.lifecycle.phase.Contextualizable"
+  }, {
+    "name" : "package",
+    "value" : "org.apache.maven.shared.dependency.graph.internal"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.maven.shared.dependency.graph.internal.DefaultDependencyGraphBuilder"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "DefaultDependencyGraphBuilder"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "maven-dependency-tree-3.1.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "maven-dependency-tree-3.2.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.annotation.added",
+  "old" : "class org.apache.maven.shared.dependency.graph.internal.DefaultDependencyGraphBuilder",
+  "new" : "class org.apache.maven.shared.dependency.graph.internal.DefaultDependencyGraphBuilder",
+  "name" : "new annotation",
+  "description" : "Element newly annotated with 'javax.inject.Named'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "EQUIVALENT"
+  }, {
+    "compatibility" : "SEMANTIC",
+    "severity" : "POTENTIALLY_BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "EQUIVALENT"
+  } ],
+  "attachments" : [ {
+    "name" : "annotationType",
+    "value" : "javax.inject.Named"
+  }, {
+    "name" : "annotation",
+    "value" : "@javax.inject.Named"
+  }, {
+    "name" : "package",
+    "value" : "org.apache.maven.shared.dependency.graph.internal"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.maven.shared.dependency.graph.internal.DefaultDependencyGraphBuilder"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "DefaultDependencyGraphBuilder"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "maven-dependency-tree-3.1.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "maven-dependency-tree-3.2.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.annotation.removed",
+  "old" : "class org.apache.maven.shared.dependency.graph.internal.DefaultDependencyGraphBuilder",
+  "new" : "class org.apache.maven.shared.dependency.graph.internal.DefaultDependencyGraphBuilder",
+  "name" : "removed annotation",
+  "description" : "Element no longer annotated with 'org.codehaus.plexus.component.annotations.Component'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "EQUIVALENT"
+  }, {
+    "compatibility" : "SEMANTIC",
+    "severity" : "POTENTIALLY_BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "EQUIVALENT"
+  } ],
+  "attachments" : [ {
+    "name" : "annotationType",
+    "value" : "org.codehaus.plexus.component.annotations.Component"
+  }, {
+    "name" : "annotation",
+    "value" : "@org.codehaus.plexus.component.annotations.Component(role = org.apache.maven.shared.dependency.graph.DependencyGraphBuilder.class)"
+  }, {
+    "name" : "package",
+    "value" : "org.apache.maven.shared.dependency.graph.internal"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.maven.shared.dependency.graph.internal.DefaultDependencyGraphBuilder"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "DefaultDependencyGraphBuilder"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "maven-dependency-tree-3.1.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "maven-dependency-tree-3.2.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.field.removed",
+  "old" : "field org.apache.maven.shared.dependency.graph.internal.DefaultDependencyGraphBuilder.container",
+  "new" : null,
+  "name" : "field removed",
+  "description" : "Field removed from class.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.apache.maven.shared.dependency.graph.internal"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.maven.shared.dependency.graph.internal.DefaultDependencyGraphBuilder"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "DefaultDependencyGraphBuilder"
+  }, {
+    "name" : "fieldName",
+    "value" : "container"
+  }, {
+    "name" : "elementKind",
+    "value" : "field"
+  }, {
+    "name" : "oldArchive",
+    "value" : "maven-dependency-tree-3.1.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.numberOfParametersChanged",
+  "old" : "method void org.apache.maven.shared.dependency.graph.internal.DefaultDependencyGraphBuilder::<init>()",
+  "new" : "method void org.apache.maven.shared.dependency.graph.internal.DefaultDependencyGraphBuilder::<init>(org.apache.maven.project.ProjectDependenciesResolver)",
+  "name" : "number of parameters changed",
+  "description" : "The number of parameters of the method have changed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.apache.maven.shared.dependency.graph.internal"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.maven.shared.dependency.graph.internal.DefaultDependencyGraphBuilder"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "DefaultDependencyGraphBuilder"
+  }, {
+    "name" : "methodName",
+    "value" : "<init>"
+  }, {
+    "name" : "elementKind",
+    "value" : "constructor"
+  }, {
+    "name" : "oldArchive",
+    "value" : "maven-dependency-tree-3.1.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "maven-dependency-tree-3.2.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.annotation.added",
+  "old" : "method void org.apache.maven.shared.dependency.graph.internal.DefaultDependencyGraphBuilder::<init>()",
+  "new" : "method void org.apache.maven.shared.dependency.graph.internal.DefaultDependencyGraphBuilder::<init>(org.apache.maven.project.ProjectDependenciesResolver)",
+  "name" : "new annotation",
+  "description" : "Element newly annotated with 'javax.inject.Inject'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "EQUIVALENT"
+  }, {
+    "compatibility" : "SEMANTIC",
+    "severity" : "POTENTIALLY_BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "EQUIVALENT"
+  } ],
+  "attachments" : [ {
+    "name" : "annotationType",
+    "value" : "javax.inject.Inject"
+  }, {
+    "name" : "annotation",
+    "value" : "@javax.inject.Inject"
+  }, {
+    "name" : "package",
+    "value" : "org.apache.maven.shared.dependency.graph.internal"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.maven.shared.dependency.graph.internal.DefaultDependencyGraphBuilder"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "DefaultDependencyGraphBuilder"
+  }, {
+    "name" : "methodName",
+    "value" : "<init>"
+  }, {
+    "name" : "elementKind",
+    "value" : "constructor"
+  }, {
+    "name" : "oldArchive",
+    "value" : "maven-dependency-tree-3.1.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "maven-dependency-tree-3.2.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method void org.apache.maven.shared.dependency.graph.internal.DefaultDependencyGraphBuilder::contextualize(org.codehaus.plexus.context.Context) throws org.codehaus.plexus.context.ContextException",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.apache.maven.shared.dependency.graph.internal"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.maven.shared.dependency.graph.internal.DefaultDependencyGraphBuilder"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "DefaultDependencyGraphBuilder"
+  }, {
+    "name" : "methodName",
+    "value" : "contextualize"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "maven-dependency-tree-3.1.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method void org.codehaus.plexus.logging.AbstractLogEnabled::enableLogging(org.codehaus.plexus.logging.Logger) @ org.apache.maven.shared.dependency.graph.internal.DefaultDependencyGraphBuilder",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.apache.maven.shared.dependency.graph.internal"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.maven.shared.dependency.graph.internal.DefaultDependencyGraphBuilder"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "DefaultDependencyGraphBuilder"
+  }, {
+    "name" : "methodName",
+    "value" : "enableLogging"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "maven-dependency-tree-3.1.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method org.codehaus.plexus.logging.Logger org.codehaus.plexus.logging.AbstractLogEnabled::getLogger() @ org.apache.maven.shared.dependency.graph.internal.DefaultDependencyGraphBuilder",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.apache.maven.shared.dependency.graph.internal"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.maven.shared.dependency.graph.internal.DefaultDependencyGraphBuilder"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "DefaultDependencyGraphBuilder"
+  }, {
+    "name" : "methodName",
+    "value" : "getLogger"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "maven-dependency-tree-3.1.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method boolean org.apache.maven.shared.dependency.graph.internal.DefaultDependencyGraphBuilder::isMaven31()",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.apache.maven.shared.dependency.graph.internal"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.maven.shared.dependency.graph.internal.DefaultDependencyGraphBuilder"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "DefaultDependencyGraphBuilder"
+  }, {
+    "name" : "methodName",
+    "value" : "isMaven31"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "maven-dependency-tree-3.1.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method void org.codehaus.plexus.logging.AbstractLogEnabled::setupLogger(java.lang.Object) @ org.apache.maven.shared.dependency.graph.internal.DefaultDependencyGraphBuilder",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.apache.maven.shared.dependency.graph.internal"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.maven.shared.dependency.graph.internal.DefaultDependencyGraphBuilder"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "DefaultDependencyGraphBuilder"
+  }, {
+    "name" : "methodName",
+    "value" : "setupLogger"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "maven-dependency-tree-3.1.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method void org.codehaus.plexus.logging.AbstractLogEnabled::setupLogger(java.lang.Object, java.lang.String) @ org.apache.maven.shared.dependency.graph.internal.DefaultDependencyGraphBuilder",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.apache.maven.shared.dependency.graph.internal"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.maven.shared.dependency.graph.internal.DefaultDependencyGraphBuilder"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "DefaultDependencyGraphBuilder"
+  }, {
+    "name" : "methodName",
+    "value" : "setupLogger"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "maven-dependency-tree-3.1.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method void org.codehaus.plexus.logging.AbstractLogEnabled::setupLogger(java.lang.Object, org.codehaus.plexus.logging.Logger) @ org.apache.maven.shared.dependency.graph.internal.DefaultDependencyGraphBuilder",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.apache.maven.shared.dependency.graph.internal"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.maven.shared.dependency.graph.internal.DefaultDependencyGraphBuilder"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "DefaultDependencyGraphBuilder"
+  }, {
+    "name" : "methodName",
+    "value" : "setupLogger"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "maven-dependency-tree-3.1.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class org.apache.maven.shared.dependency.graph.internal.Maven31DependencyCollectorBuilder",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.apache.maven.shared.dependency.graph.internal"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.maven.shared.dependency.graph.internal.Maven31DependencyCollectorBuilder"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "Maven31DependencyCollectorBuilder"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "maven-dependency-tree-3.1.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class org.apache.maven.shared.dependency.graph.internal.Maven31DependencyGraphBuilder",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.apache.maven.shared.dependency.graph.internal"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.maven.shared.dependency.graph.internal.Maven31DependencyGraphBuilder"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "Maven31DependencyGraphBuilder"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "maven-dependency-tree-3.1.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class org.apache.maven.shared.dependency.graph.internal.Maven3DependencyCollectorBuilder",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.apache.maven.shared.dependency.graph.internal"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.maven.shared.dependency.graph.internal.Maven3DependencyCollectorBuilder"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "Maven3DependencyCollectorBuilder"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "maven-dependency-tree-3.1.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class org.apache.maven.shared.dependency.graph.internal.Maven3DependencyGraphBuilder",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.apache.maven.shared.dependency.graph.internal"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.maven.shared.dependency.graph.internal.Maven3DependencyGraphBuilder"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "Maven3DependencyGraphBuilder"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "maven-dependency-tree-3.1.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class org.apache.maven.shared.dependency.graph.internal.maven30.ConflictIdSorter",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.apache.maven.shared.dependency.graph.internal.maven30"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.maven.shared.dependency.graph.internal.maven30.ConflictIdSorter"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "ConflictIdSorter"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "maven-dependency-tree-3.1.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class org.apache.maven.shared.dependency.graph.internal.maven30.ConflictResolver",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.apache.maven.shared.dependency.graph.internal.maven30"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.maven.shared.dependency.graph.internal.maven30.ConflictResolver"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "ConflictResolver"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "maven-dependency-tree-3.1.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class org.apache.maven.shared.dependency.graph.internal.maven30.ExclusionDependencySelector",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.apache.maven.shared.dependency.graph.internal.maven30"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.maven.shared.dependency.graph.internal.maven30.ExclusionDependencySelector"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "ExclusionDependencySelector"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "maven-dependency-tree-3.1.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class org.apache.maven.shared.dependency.graph.internal.maven30.JavaScopeDeriver",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.apache.maven.shared.dependency.graph.internal.maven30"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.maven.shared.dependency.graph.internal.maven30.JavaScopeDeriver"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "JavaScopeDeriver"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "maven-dependency-tree-3.1.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class org.apache.maven.shared.dependency.graph.internal.maven30.JavaScopeSelector",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.apache.maven.shared.dependency.graph.internal.maven30"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.maven.shared.dependency.graph.internal.maven30.JavaScopeSelector"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "JavaScopeSelector"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "maven-dependency-tree-3.1.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class org.apache.maven.shared.dependency.graph.internal.maven30.Maven3DirectScopeDependencySelector",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.apache.maven.shared.dependency.graph.internal.maven30"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.maven.shared.dependency.graph.internal.maven30.Maven3DirectScopeDependencySelector"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "Maven3DirectScopeDependencySelector"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "maven-dependency-tree-3.1.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class org.apache.maven.shared.dependency.graph.internal.maven30.NearestVersionSelector",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.apache.maven.shared.dependency.graph.internal.maven30"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.maven.shared.dependency.graph.internal.maven30.NearestVersionSelector"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "NearestVersionSelector"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "maven-dependency-tree-3.1.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class org.apache.maven.shared.dependency.graph.internal.maven30.SimpleOptionalitySelector",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.apache.maven.shared.dependency.graph.internal.maven30"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.maven.shared.dependency.graph.internal.maven30.SimpleOptionalitySelector"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "SimpleOptionalitySelector"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "maven-dependency-tree-3.1.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class org.apache.maven.shared.dependency.graph.internal.maven30.VerboseJavaScopeSelector",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.apache.maven.shared.dependency.graph.internal.maven30"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.maven.shared.dependency.graph.internal.maven30.VerboseJavaScopeSelector"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "VerboseJavaScopeSelector"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "maven-dependency-tree-3.1.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class org.apache.maven.shared.dependency.graph.internal.maven31.Maven31DirectScopeDependencySelector",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.apache.maven.shared.dependency.graph.internal.maven31"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.maven.shared.dependency.graph.internal.maven31.Maven31DirectScopeDependencySelector"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "Maven31DirectScopeDependencySelector"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "maven-dependency-tree-3.1.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class org.apache.maven.shared.dependency.graph.internal.maven31.VerboseJavaScopeSelector",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.apache.maven.shared.dependency.graph.internal.maven31"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.maven.shared.dependency.graph.internal.maven31.VerboseJavaScopeSelector"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "VerboseJavaScopeSelector"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "maven-dependency-tree-3.1.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+} ]

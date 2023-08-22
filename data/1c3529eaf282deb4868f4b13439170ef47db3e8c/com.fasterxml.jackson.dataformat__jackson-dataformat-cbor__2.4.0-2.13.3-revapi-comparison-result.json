@@ -1,0 +1,1192 @@
+[ {
+  "code" : "java.field.removed",
+  "old" : "field com.fasterxml.jackson.core.JsonFactory._recyclerRef @ com.fasterxml.jackson.dataformat.cbor.CBORFactory",
+  "new" : null,
+  "name" : "field removed",
+  "description" : "Field removed from class.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.fasterxml.jackson.dataformat.cbor"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.fasterxml.jackson.dataformat.cbor.CBORFactory"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "CBORFactory"
+  }, {
+    "name" : "fieldName",
+    "value" : "_recyclerRef"
+  }, {
+    "name" : "elementKind",
+    "value" : "field"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jackson-dataformat-cbor-2.4.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.field.removed",
+  "old" : "field com.fasterxml.jackson.core.JsonFactory._rootByteSymbols @ com.fasterxml.jackson.dataformat.cbor.CBORFactory",
+  "new" : null,
+  "name" : "field removed",
+  "description" : "Field removed from class.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.fasterxml.jackson.dataformat.cbor"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.fasterxml.jackson.dataformat.cbor.CBORFactory"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "CBORFactory"
+  }, {
+    "name" : "fieldName",
+    "value" : "_rootByteSymbols"
+  }, {
+    "name" : "elementKind",
+    "value" : "field"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jackson-dataformat-cbor-2.4.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method com.fasterxml.jackson.core.JsonGenerator com.fasterxml.jackson.dataformat.cbor.CBORFactory::_createGenerator(java.io.Writer, com.fasterxml.jackson.core.io.IOContext) throws java.io.IOException",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.fasterxml.jackson.dataformat.cbor"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.fasterxml.jackson.dataformat.cbor.CBORFactory"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "CBORFactory"
+  }, {
+    "name" : "methodName",
+    "value" : "_createGenerator"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jackson-dataformat-cbor-2.4.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.parameterTypeChanged",
+  "old" : "parameter com.fasterxml.jackson.dataformat.cbor.CBORGenerator com.fasterxml.jackson.dataformat.cbor.CBORFactory::_createGenerator(===java.io.OutputStream===, com.fasterxml.jackson.core.io.IOContext) throws java.io.IOException",
+  "new" : "parameter com.fasterxml.jackson.dataformat.cbor.CBORGenerator com.fasterxml.jackson.dataformat.cbor.CBORFactory::_createGenerator(===java.io.Writer===, com.fasterxml.jackson.core.io.IOContext) throws java.io.IOException",
+  "name" : "parameter type changed",
+  "description" : "The type of the parameter changed from 'java.io.OutputStream' to 'java.io.Writer'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "POTENTIALLY_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "java.io.OutputStream"
+  }, {
+    "name" : "newType",
+    "value" : "java.io.Writer"
+  }, {
+    "name" : "package",
+    "value" : "com.fasterxml.jackson.dataformat.cbor"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.fasterxml.jackson.dataformat.cbor.CBORFactory"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "CBORFactory"
+  }, {
+    "name" : "methodName",
+    "value" : "_createGenerator"
+  }, {
+    "name" : "parameterIndex",
+    "value" : "0"
+  }, {
+    "name" : "elementKind",
+    "value" : "parameter"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jackson-dataformat-cbor-2.4.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "jackson-dataformat-cbor-2.13.3.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.exception.checkedRemoved",
+  "old" : "method com.fasterxml.jackson.dataformat.cbor.CBORParser com.fasterxml.jackson.dataformat.cbor.CBORFactory::_createParser(byte[], int, int, com.fasterxml.jackson.core.io.IOContext) throws java.io.IOException, com.fasterxml.jackson.core.JsonParseException",
+  "new" : "method com.fasterxml.jackson.dataformat.cbor.CBORParser com.fasterxml.jackson.dataformat.cbor.CBORFactory::_createParser(byte[], int, int, com.fasterxml.jackson.core.io.IOContext) throws java.io.IOException",
+  "name" : "Method no longer throws checked exceptions",
+  "description" : "Method no longer throws checked exceptions: com.fasterxml.jackson.core.JsonParseException.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "exception",
+    "value" : "com.fasterxml.jackson.core.JsonParseException"
+  }, {
+    "name" : "package",
+    "value" : "com.fasterxml.jackson.dataformat.cbor"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.fasterxml.jackson.dataformat.cbor.CBORFactory"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "CBORFactory"
+  }, {
+    "name" : "methodName",
+    "value" : "_createParser"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jackson-dataformat-cbor-2.4.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "jackson-dataformat-cbor-2.13.3.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.returnTypeChangedCovariantly",
+  "old" : "method com.fasterxml.jackson.core.JsonGenerator com.fasterxml.jackson.dataformat.cbor.CBORFactory::_createUTF8Generator(java.io.OutputStream, com.fasterxml.jackson.core.io.IOContext) throws java.io.IOException",
+  "new" : "method com.fasterxml.jackson.dataformat.cbor.CBORGenerator com.fasterxml.jackson.dataformat.cbor.CBORFactory::_createUTF8Generator(java.io.OutputStream, com.fasterxml.jackson.core.io.IOContext) throws java.io.IOException",
+  "name" : "return type changed covariantly",
+  "description" : "The return type changed covariantly from 'com.fasterxml.jackson.core.JsonGenerator' to 'com.fasterxml.jackson.dataformat.cbor.CBORGenerator'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "com.fasterxml.jackson.core.JsonGenerator"
+  }, {
+    "name" : "newType",
+    "value" : "com.fasterxml.jackson.dataformat.cbor.CBORGenerator"
+  }, {
+    "name" : "package",
+    "value" : "com.fasterxml.jackson.dataformat.cbor"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.fasterxml.jackson.dataformat.cbor.CBORFactory"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "CBORFactory"
+  }, {
+    "name" : "methodName",
+    "value" : "_createUTF8Generator"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jackson-dataformat-cbor-2.4.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "jackson-dataformat-cbor-2.13.3.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method com.fasterxml.jackson.core.JsonGenerator com.fasterxml.jackson.core.JsonFactory::createJsonGenerator(java.io.File, com.fasterxml.jackson.core.JsonEncoding) throws java.io.IOException @ com.fasterxml.jackson.dataformat.cbor.CBORFactory",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.fasterxml.jackson.dataformat.cbor"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.fasterxml.jackson.dataformat.cbor.CBORFactory"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "CBORFactory"
+  }, {
+    "name" : "methodName",
+    "value" : "createJsonGenerator"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jackson-dataformat-cbor-2.4.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.noLongerFinal",
+  "old" : "method com.fasterxml.jackson.core.json.JsonWriteContext com.fasterxml.jackson.core.base.GeneratorBase::getOutputContext() @ com.fasterxml.jackson.dataformat.cbor.CBORGenerator",
+  "new" : "method com.fasterxml.jackson.core.JsonStreamContext com.fasterxml.jackson.dataformat.cbor.CBORGenerator::getOutputContext()",
+  "name" : "method no longer final",
+  "description" : "Method is no longer final.",
+  "criticality" : "documented",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldModifiers",
+    "value" : "public final"
+  }, {
+    "name" : "newModifiers",
+    "value" : "public"
+  }, {
+    "name" : "package",
+    "value" : "com.fasterxml.jackson.dataformat.cbor"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.fasterxml.jackson.dataformat.cbor.CBORGenerator"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "CBORGenerator"
+  }, {
+    "name" : "methodName",
+    "value" : "getOutputContext"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jackson-dataformat-cbor-2.4.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "jackson-dataformat-cbor-2.13.3.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.returnTypeChanged",
+  "old" : "method com.fasterxml.jackson.core.json.JsonWriteContext com.fasterxml.jackson.core.base.GeneratorBase::getOutputContext() @ com.fasterxml.jackson.dataformat.cbor.CBORGenerator",
+  "new" : "method com.fasterxml.jackson.core.JsonStreamContext com.fasterxml.jackson.dataformat.cbor.CBORGenerator::getOutputContext()",
+  "name" : "return type changed",
+  "description" : "The return type changed from 'com.fasterxml.jackson.core.json.JsonWriteContext' to  'com.fasterxml.jackson.core.JsonStreamContext'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "POTENTIALLY_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "com.fasterxml.jackson.core.json.JsonWriteContext"
+  }, {
+    "name" : "newType",
+    "value" : "com.fasterxml.jackson.core.JsonStreamContext"
+  }, {
+    "name" : "package",
+    "value" : "com.fasterxml.jackson.dataformat.cbor"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.fasterxml.jackson.dataformat.cbor.CBORGenerator"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "CBORGenerator"
+  }, {
+    "name" : "methodName",
+    "value" : "getOutputContext"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jackson-dataformat-cbor-2.4.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "jackson-dataformat-cbor-2.13.3.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.inheritedMovedToClass",
+  "old" : "method com.fasterxml.jackson.core.json.JsonWriteContext com.fasterxml.jackson.core.base.GeneratorBase::getOutputContext() @ com.fasterxml.jackson.dataformat.cbor.CBORGenerator",
+  "new" : "method com.fasterxml.jackson.core.JsonStreamContext com.fasterxml.jackson.dataformat.cbor.CBORGenerator::getOutputContext()",
+  "name" : "inherited method moved to class",
+  "description" : "The method was previously declared in superclass 'com.fasterxml.jackson.core.base.GeneratorBase' but is now declared in class 'com.fasterxml.jackson.dataformat.cbor.CBORGenerator'.",
+  "criticality" : "allowed",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "EQUIVALENT"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "EQUIVALENT"
+  } ],
+  "attachments" : [ {
+    "name" : "oldClass",
+    "value" : "com.fasterxml.jackson.core.base.GeneratorBase"
+  }, {
+    "name" : "newClass",
+    "value" : "com.fasterxml.jackson.dataformat.cbor.CBORGenerator"
+  }, {
+    "name" : "package",
+    "value" : "com.fasterxml.jackson.dataformat.cbor"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.fasterxml.jackson.dataformat.cbor.CBORGenerator"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "CBORGenerator"
+  }, {
+    "name" : "methodName",
+    "value" : "getOutputContext"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jackson-dataformat-cbor-2.4.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "jackson-dataformat-cbor-2.13.3.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.exception.checkedRemoved",
+  "old" : "method void com.fasterxml.jackson.dataformat.cbor.CBORGenerator::writeString(java.lang.String) throws java.io.IOException, com.fasterxml.jackson.core.JsonGenerationException",
+  "new" : "method void com.fasterxml.jackson.dataformat.cbor.CBORGenerator::writeString(java.lang.String) throws java.io.IOException",
+  "name" : "Method no longer throws checked exceptions",
+  "description" : "Method no longer throws checked exceptions: com.fasterxml.jackson.core.JsonGenerationException.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "exception",
+    "value" : "com.fasterxml.jackson.core.JsonGenerationException"
+  }, {
+    "name" : "package",
+    "value" : "com.fasterxml.jackson.dataformat.cbor"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.fasterxml.jackson.dataformat.cbor.CBORGenerator"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "CBORGenerator"
+  }, {
+    "name" : "methodName",
+    "value" : "writeString"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jackson-dataformat-cbor-2.4.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "jackson-dataformat-cbor-2.13.3.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.field.removed",
+  "old" : "field com.fasterxml.jackson.dataformat.cbor.CBORParser.Feature.BOGUS",
+  "new" : null,
+  "name" : "field removed",
+  "description" : "Field removed from class.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.fasterxml.jackson.dataformat.cbor"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.fasterxml.jackson.dataformat.cbor.CBORParser.Feature"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "Feature"
+  }, {
+    "name" : "fieldName",
+    "value" : "BOGUS"
+  }, {
+    "name" : "elementKind",
+    "value" : "enumConstant"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jackson-dataformat-cbor-2.4.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.field.removed",
+  "old" : "field com.fasterxml.jackson.dataformat.cbor.CBORParser._parsingContext",
+  "new" : null,
+  "name" : "field removed",
+  "description" : "Field removed from class.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.fasterxml.jackson.dataformat.cbor"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.fasterxml.jackson.dataformat.cbor.CBORParser"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "CBORParser"
+  }, {
+    "name" : "fieldName",
+    "value" : "_parsingContext"
+  }, {
+    "name" : "elementKind",
+    "value" : "field"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jackson-dataformat-cbor-2.4.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.field.typeChanged",
+  "old" : "field com.fasterxml.jackson.dataformat.cbor.CBORParser._symbols",
+  "new" : "field com.fasterxml.jackson.dataformat.cbor.CBORParser._symbols",
+  "name" : "field type changed",
+  "description" : "The type of the field changed from 'com.fasterxml.jackson.core.sym.BytesToNameCanonicalizer' to 'com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "com.fasterxml.jackson.core.sym.BytesToNameCanonicalizer"
+  }, {
+    "name" : "newType",
+    "value" : "com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer"
+  }, {
+    "name" : "package",
+    "value" : "com.fasterxml.jackson.dataformat.cbor"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.fasterxml.jackson.dataformat.cbor.CBORParser"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "CBORParser"
+  }, {
+    "name" : "fieldName",
+    "value" : "_symbols"
+  }, {
+    "name" : "elementKind",
+    "value" : "field"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jackson-dataformat-cbor-2.4.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "jackson-dataformat-cbor-2.13.3.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.parameterTypeChanged",
+  "old" : "parameter void com.fasterxml.jackson.dataformat.cbor.CBORParser::<init>(com.fasterxml.jackson.core.io.IOContext, int, int, com.fasterxml.jackson.core.ObjectCodec, ===com.fasterxml.jackson.core.sym.BytesToNameCanonicalizer===, java.io.InputStream, byte[], int, int, boolean)",
+  "new" : "parameter void com.fasterxml.jackson.dataformat.cbor.CBORParser::<init>(com.fasterxml.jackson.core.io.IOContext, int, int, com.fasterxml.jackson.core.ObjectCodec, ===com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer===, java.io.InputStream, byte[], int, int, boolean)",
+  "name" : "parameter type changed",
+  "description" : "The type of the parameter changed from 'com.fasterxml.jackson.core.sym.BytesToNameCanonicalizer' to 'com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "POTENTIALLY_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "com.fasterxml.jackson.core.sym.BytesToNameCanonicalizer"
+  }, {
+    "name" : "newType",
+    "value" : "com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer"
+  }, {
+    "name" : "package",
+    "value" : "com.fasterxml.jackson.dataformat.cbor"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.fasterxml.jackson.dataformat.cbor.CBORParser"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "CBORParser"
+  }, {
+    "name" : "methodName",
+    "value" : "<init>"
+  }, {
+    "name" : "parameterIndex",
+    "value" : "4"
+  }, {
+    "name" : "elementKind",
+    "value" : "parameter"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jackson-dataformat-cbor-2.4.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "jackson-dataformat-cbor-2.13.3.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method com.fasterxml.jackson.core.JsonToken com.fasterxml.jackson.dataformat.cbor.CBORParser::_decodeFieldName() throws java.io.IOException",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.fasterxml.jackson.dataformat.cbor"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.fasterxml.jackson.dataformat.cbor.CBORParser"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "CBORParser"
+  }, {
+    "name" : "methodName",
+    "value" : "_decodeFieldName"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jackson-dataformat-cbor-2.4.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.returnTypeChanged",
+  "old" : "method void com.fasterxml.jackson.dataformat.cbor.CBORParser::_finishBytes(int) throws java.io.IOException",
+  "new" : "method byte[] com.fasterxml.jackson.dataformat.cbor.CBORParser::_finishBytes(int) throws java.io.IOException",
+  "name" : "return type changed",
+  "description" : "The return type changed from 'void' to  'byte[]'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "POTENTIALLY_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "void"
+  }, {
+    "name" : "newType",
+    "value" : "byte[]"
+  }, {
+    "name" : "package",
+    "value" : "com.fasterxml.jackson.dataformat.cbor"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.fasterxml.jackson.dataformat.cbor.CBORParser"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "CBORParser"
+  }, {
+    "name" : "methodName",
+    "value" : "_finishBytes"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jackson-dataformat-cbor-2.4.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "jackson-dataformat-cbor-2.13.3.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method char com.fasterxml.jackson.core.base.ParserMinimalBase::_handleUnrecognizedCharacterEscape(char) throws com.fasterxml.jackson.core.JsonProcessingException @ com.fasterxml.jackson.dataformat.cbor.CBORParser",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.fasterxml.jackson.dataformat.cbor"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.fasterxml.jackson.dataformat.cbor.CBORParser"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "CBORParser"
+  }, {
+    "name" : "methodName",
+    "value" : "_handleUnrecognizedCharacterEscape"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jackson-dataformat-cbor-2.4.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method void com.fasterxml.jackson.core.base.ParserMinimalBase::_reportBase64EOF() throws com.fasterxml.jackson.core.JsonParseException @ com.fasterxml.jackson.dataformat.cbor.CBORParser",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.fasterxml.jackson.dataformat.cbor"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.fasterxml.jackson.dataformat.cbor.CBORParser"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "CBORParser"
+  }, {
+    "name" : "methodName",
+    "value" : "_reportBase64EOF"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jackson-dataformat-cbor-2.4.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method void com.fasterxml.jackson.core.base.ParserMinimalBase::_reportInvalidBase64(com.fasterxml.jackson.core.Base64Variant, char, int, java.lang.String) throws com.fasterxml.jackson.core.JsonParseException @ com.fasterxml.jackson.dataformat.cbor.CBORParser",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.fasterxml.jackson.dataformat.cbor"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.fasterxml.jackson.dataformat.cbor.CBORParser"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "CBORParser"
+  }, {
+    "name" : "methodName",
+    "value" : "_reportInvalidBase64"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jackson-dataformat-cbor-2.4.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method void com.fasterxml.jackson.core.base.ParserMinimalBase::_throwUnquotedSpace(int, java.lang.String) throws com.fasterxml.jackson.core.JsonParseException @ com.fasterxml.jackson.dataformat.cbor.CBORParser",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.fasterxml.jackson.dataformat.cbor"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.fasterxml.jackson.dataformat.cbor.CBORParser"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "CBORParser"
+  }, {
+    "name" : "methodName",
+    "value" : "_throwUnquotedSpace"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jackson-dataformat-cbor-2.4.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.exception.checkedRemoved",
+  "old" : "method boolean com.fasterxml.jackson.core.JsonParser::nextFieldName(com.fasterxml.jackson.core.SerializableString) throws java.io.IOException, com.fasterxml.jackson.core.JsonParseException @ com.fasterxml.jackson.dataformat.cbor.CBORParser",
+  "new" : "method boolean com.fasterxml.jackson.dataformat.cbor.CBORParser::nextFieldName(com.fasterxml.jackson.core.SerializableString) throws java.io.IOException",
+  "name" : "Method no longer throws checked exceptions",
+  "description" : "Method no longer throws checked exceptions: com.fasterxml.jackson.core.JsonParseException.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "exception",
+    "value" : "com.fasterxml.jackson.core.JsonParseException"
+  }, {
+    "name" : "package",
+    "value" : "com.fasterxml.jackson.dataformat.cbor"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.fasterxml.jackson.dataformat.cbor.CBORParser"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "CBORParser"
+  }, {
+    "name" : "methodName",
+    "value" : "nextFieldName"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jackson-dataformat-cbor-2.4.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "jackson-dataformat-cbor-2.13.3.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.inheritedMovedToClass",
+  "old" : "method boolean com.fasterxml.jackson.core.JsonParser::nextFieldName(com.fasterxml.jackson.core.SerializableString) throws java.io.IOException, com.fasterxml.jackson.core.JsonParseException @ com.fasterxml.jackson.dataformat.cbor.CBORParser",
+  "new" : "method boolean com.fasterxml.jackson.dataformat.cbor.CBORParser::nextFieldName(com.fasterxml.jackson.core.SerializableString) throws java.io.IOException",
+  "name" : "inherited method moved to class",
+  "description" : "The method was previously declared in superclass 'com.fasterxml.jackson.core.JsonParser' but is now declared in class 'com.fasterxml.jackson.dataformat.cbor.CBORParser'.",
+  "criticality" : "allowed",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "EQUIVALENT"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "EQUIVALENT"
+  } ],
+  "attachments" : [ {
+    "name" : "oldClass",
+    "value" : "com.fasterxml.jackson.core.JsonParser"
+  }, {
+    "name" : "newClass",
+    "value" : "com.fasterxml.jackson.dataformat.cbor.CBORParser"
+  }, {
+    "name" : "package",
+    "value" : "com.fasterxml.jackson.dataformat.cbor"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.fasterxml.jackson.dataformat.cbor.CBORParser"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "CBORParser"
+  }, {
+    "name" : "methodName",
+    "value" : "nextFieldName"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jackson-dataformat-cbor-2.4.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "jackson-dataformat-cbor-2.13.3.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.exception.checkedRemoved",
+  "old" : "method java.lang.String com.fasterxml.jackson.core.JsonParser::nextTextValue() throws java.io.IOException, com.fasterxml.jackson.core.JsonParseException @ com.fasterxml.jackson.dataformat.cbor.CBORParser",
+  "new" : "method java.lang.String com.fasterxml.jackson.dataformat.cbor.CBORParser::nextTextValue() throws java.io.IOException",
+  "name" : "Method no longer throws checked exceptions",
+  "description" : "Method no longer throws checked exceptions: com.fasterxml.jackson.core.JsonParseException.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "exception",
+    "value" : "com.fasterxml.jackson.core.JsonParseException"
+  }, {
+    "name" : "package",
+    "value" : "com.fasterxml.jackson.dataformat.cbor"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.fasterxml.jackson.dataformat.cbor.CBORParser"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "CBORParser"
+  }, {
+    "name" : "methodName",
+    "value" : "nextTextValue"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jackson-dataformat-cbor-2.4.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "jackson-dataformat-cbor-2.13.3.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.inheritedMovedToClass",
+  "old" : "method java.lang.String com.fasterxml.jackson.core.JsonParser::nextTextValue() throws java.io.IOException, com.fasterxml.jackson.core.JsonParseException @ com.fasterxml.jackson.dataformat.cbor.CBORParser",
+  "new" : "method java.lang.String com.fasterxml.jackson.dataformat.cbor.CBORParser::nextTextValue() throws java.io.IOException",
+  "name" : "inherited method moved to class",
+  "description" : "The method was previously declared in superclass 'com.fasterxml.jackson.core.JsonParser' but is now declared in class 'com.fasterxml.jackson.dataformat.cbor.CBORParser'.",
+  "criticality" : "allowed",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "EQUIVALENT"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "EQUIVALENT"
+  } ],
+  "attachments" : [ {
+    "name" : "oldClass",
+    "value" : "com.fasterxml.jackson.core.JsonParser"
+  }, {
+    "name" : "newClass",
+    "value" : "com.fasterxml.jackson.dataformat.cbor.CBORParser"
+  }, {
+    "name" : "package",
+    "value" : "com.fasterxml.jackson.dataformat.cbor"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.fasterxml.jackson.dataformat.cbor.CBORParser"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "CBORParser"
+  }, {
+    "name" : "methodName",
+    "value" : "nextTextValue"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jackson-dataformat-cbor-2.4.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "jackson-dataformat-cbor-2.13.3.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.parameterTypeChanged",
+  "old" : "parameter com.fasterxml.jackson.dataformat.cbor.CBORParser com.fasterxml.jackson.dataformat.cbor.CBORParserBootstrapper::constructParser(int, int, ===boolean===, com.fasterxml.jackson.core.ObjectCodec, com.fasterxml.jackson.core.sym.BytesToNameCanonicalizer) throws java.io.IOException, com.fasterxml.jackson.core.JsonParseException",
+  "new" : "parameter com.fasterxml.jackson.dataformat.cbor.CBORParser com.fasterxml.jackson.dataformat.cbor.CBORParserBootstrapper::constructParser(int, int, ===int===, com.fasterxml.jackson.core.ObjectCodec, com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer) throws java.io.IOException, com.fasterxml.jackson.core.JsonParseException",
+  "name" : "parameter type changed",
+  "description" : "The type of the parameter changed from 'boolean' to 'int'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "POTENTIALLY_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "boolean"
+  }, {
+    "name" : "newType",
+    "value" : "int"
+  }, {
+    "name" : "package",
+    "value" : "com.fasterxml.jackson.dataformat.cbor"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.fasterxml.jackson.dataformat.cbor.CBORParserBootstrapper"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "CBORParserBootstrapper"
+  }, {
+    "name" : "methodName",
+    "value" : "constructParser"
+  }, {
+    "name" : "parameterIndex",
+    "value" : "2"
+  }, {
+    "name" : "elementKind",
+    "value" : "parameter"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jackson-dataformat-cbor-2.4.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "jackson-dataformat-cbor-2.13.3.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.parameterTypeChanged",
+  "old" : "parameter com.fasterxml.jackson.dataformat.cbor.CBORParser com.fasterxml.jackson.dataformat.cbor.CBORParserBootstrapper::constructParser(int, int, boolean, com.fasterxml.jackson.core.ObjectCodec, ===com.fasterxml.jackson.core.sym.BytesToNameCanonicalizer===) throws java.io.IOException, com.fasterxml.jackson.core.JsonParseException",
+  "new" : "parameter com.fasterxml.jackson.dataformat.cbor.CBORParser com.fasterxml.jackson.dataformat.cbor.CBORParserBootstrapper::constructParser(int, int, int, com.fasterxml.jackson.core.ObjectCodec, ===com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer===) throws java.io.IOException, com.fasterxml.jackson.core.JsonParseException",
+  "name" : "parameter type changed",
+  "description" : "The type of the parameter changed from 'com.fasterxml.jackson.core.sym.BytesToNameCanonicalizer' to 'com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "POTENTIALLY_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "com.fasterxml.jackson.core.sym.BytesToNameCanonicalizer"
+  }, {
+    "name" : "newType",
+    "value" : "com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer"
+  }, {
+    "name" : "package",
+    "value" : "com.fasterxml.jackson.dataformat.cbor"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.fasterxml.jackson.dataformat.cbor.CBORParserBootstrapper"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "CBORParserBootstrapper"
+  }, {
+    "name" : "methodName",
+    "value" : "constructParser"
+  }, {
+    "name" : "parameterIndex",
+    "value" : "4"
+  }, {
+    "name" : "elementKind",
+    "value" : "parameter"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jackson-dataformat-cbor-2.4.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "jackson-dataformat-cbor-2.13.3.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+} ]

@@ -1,0 +1,1949 @@
+[ {
+  "code" : "java.method.numberOfParametersChanged",
+  "old" : "method void com.google.cloud.bigquery.storage.v1.Exceptions.SchemaMismatchedException::<init>(java.lang.String, java.lang.String, java.lang.Throwable)",
+  "new" : "method void com.google.cloud.bigquery.storage.v1.Exceptions.SchemaMismatchedException::<init>(io.grpc.Status, java.lang.String)",
+  "name" : "number of parameters changed",
+  "description" : "The number of parameters of the method have changed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.google.cloud.bigquery.storage.v1"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.google.cloud.bigquery.storage.v1.Exceptions.SchemaMismatchedException"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "SchemaMismatchedException"
+  }, {
+    "name" : "methodName",
+    "value" : "<init>"
+  }, {
+    "name" : "elementKind",
+    "value" : "constructor"
+  }, {
+    "name" : "oldArchive",
+    "value" : "google-cloud-bigquerystorage-2.8.3.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "google-cloud-bigquerystorage-2.13.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.numberOfParametersChanged",
+  "old" : "method void com.google.cloud.bigquery.storage.v1.Exceptions.StreamFinalizedException::<init>(java.lang.String, java.lang.String, java.lang.Throwable)",
+  "new" : "method void com.google.cloud.bigquery.storage.v1.Exceptions.StreamFinalizedException::<init>(io.grpc.Status, java.lang.String)",
+  "name" : "number of parameters changed",
+  "description" : "The number of parameters of the method have changed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.google.cloud.bigquery.storage.v1"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.google.cloud.bigquery.storage.v1.Exceptions.StreamFinalizedException"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "StreamFinalizedException"
+  }, {
+    "name" : "methodName",
+    "value" : "<init>"
+  }, {
+    "name" : "elementKind",
+    "value" : "constructor"
+  }, {
+    "name" : "oldArchive",
+    "value" : "google-cloud-bigquerystorage-2.8.3.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "google-cloud-bigquerystorage-2.13.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method java.lang.String com.google.api.gax.rpc.StubSettings.Builder<SettingsT extends com.google.api.gax.rpc.StubSettings<SettingsT>, B extends com.google.api.gax.rpc.StubSettings.Builder<SettingsT, B>>::getApiKey() @ com.google.cloud.bigquery.storage.v1.stub.BigQueryReadStubSettings.Builder",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.google.cloud.bigquery.storage.v1.stub"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.google.cloud.bigquery.storage.v1.stub.BigQueryReadStubSettings.Builder"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "Builder"
+  }, {
+    "name" : "methodName",
+    "value" : "getApiKey"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "google-cloud-bigquerystorage-2.8.3.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method B com.google.api.gax.rpc.StubSettings.Builder<SettingsT extends com.google.api.gax.rpc.StubSettings<SettingsT>, B extends com.google.api.gax.rpc.StubSettings.Builder<SettingsT, B>>::setApiKey(java.lang.String) @ com.google.cloud.bigquery.storage.v1.stub.BigQueryReadStubSettings.Builder",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.google.cloud.bigquery.storage.v1.stub"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.google.cloud.bigquery.storage.v1.stub.BigQueryReadStubSettings.Builder"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "Builder"
+  }, {
+    "name" : "methodName",
+    "value" : "setApiKey"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "google-cloud-bigquerystorage-2.8.3.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method java.lang.String com.google.api.gax.rpc.StubSettings<SettingsT extends com.google.api.gax.rpc.StubSettings<SettingsT>>::getApiKey() @ com.google.cloud.bigquery.storage.v1.stub.BigQueryReadStubSettings",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.google.cloud.bigquery.storage.v1.stub"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.google.cloud.bigquery.storage.v1.stub.BigQueryReadStubSettings"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "BigQueryReadStubSettings"
+  }, {
+    "name" : "methodName",
+    "value" : "getApiKey"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "google-cloud-bigquerystorage-2.8.3.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method java.lang.String com.google.api.gax.rpc.StubSettings.Builder<SettingsT extends com.google.api.gax.rpc.StubSettings<SettingsT>, B extends com.google.api.gax.rpc.StubSettings.Builder<SettingsT, B>>::getApiKey() @ com.google.cloud.bigquery.storage.v1.stub.BigQueryWriteStubSettings.Builder",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.google.cloud.bigquery.storage.v1.stub"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.google.cloud.bigquery.storage.v1.stub.BigQueryWriteStubSettings.Builder"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "Builder"
+  }, {
+    "name" : "methodName",
+    "value" : "getApiKey"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "google-cloud-bigquerystorage-2.8.3.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method B com.google.api.gax.rpc.StubSettings.Builder<SettingsT extends com.google.api.gax.rpc.StubSettings<SettingsT>, B extends com.google.api.gax.rpc.StubSettings.Builder<SettingsT, B>>::setApiKey(java.lang.String) @ com.google.cloud.bigquery.storage.v1.stub.BigQueryWriteStubSettings.Builder",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.google.cloud.bigquery.storage.v1.stub"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.google.cloud.bigquery.storage.v1.stub.BigQueryWriteStubSettings.Builder"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "Builder"
+  }, {
+    "name" : "methodName",
+    "value" : "setApiKey"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "google-cloud-bigquerystorage-2.8.3.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method java.lang.String com.google.api.gax.rpc.StubSettings<SettingsT extends com.google.api.gax.rpc.StubSettings<SettingsT>>::getApiKey() @ com.google.cloud.bigquery.storage.v1.stub.BigQueryWriteStubSettings",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.google.cloud.bigquery.storage.v1.stub"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.google.cloud.bigquery.storage.v1.stub.BigQueryWriteStubSettings"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "BigQueryWriteStubSettings"
+  }, {
+    "name" : "methodName",
+    "value" : "getApiKey"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "google-cloud-bigquerystorage-2.8.3.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method java.lang.String com.google.api.gax.rpc.StubSettings.Builder<SettingsT extends com.google.api.gax.rpc.StubSettings<SettingsT>, B extends com.google.api.gax.rpc.StubSettings.Builder<SettingsT, B>>::getApiKey() @ com.google.cloud.bigquery.storage.v1.stub.EnhancedBigQueryReadStubSettings.Builder",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.google.cloud.bigquery.storage.v1.stub"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.google.cloud.bigquery.storage.v1.stub.EnhancedBigQueryReadStubSettings.Builder"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "Builder"
+  }, {
+    "name" : "methodName",
+    "value" : "getApiKey"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "google-cloud-bigquerystorage-2.8.3.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method B com.google.api.gax.rpc.StubSettings.Builder<SettingsT extends com.google.api.gax.rpc.StubSettings<SettingsT>, B extends com.google.api.gax.rpc.StubSettings.Builder<SettingsT, B>>::setApiKey(java.lang.String) @ com.google.cloud.bigquery.storage.v1.stub.EnhancedBigQueryReadStubSettings.Builder",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.google.cloud.bigquery.storage.v1.stub"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.google.cloud.bigquery.storage.v1.stub.EnhancedBigQueryReadStubSettings.Builder"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "Builder"
+  }, {
+    "name" : "methodName",
+    "value" : "setApiKey"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "google-cloud-bigquerystorage-2.8.3.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method java.lang.String com.google.api.gax.rpc.StubSettings<SettingsT extends com.google.api.gax.rpc.StubSettings<SettingsT>>::getApiKey() @ com.google.cloud.bigquery.storage.v1.stub.EnhancedBigQueryReadStubSettings",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.google.cloud.bigquery.storage.v1.stub"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.google.cloud.bigquery.storage.v1.stub.EnhancedBigQueryReadStubSettings"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "EnhancedBigQueryReadStubSettings"
+  }, {
+    "name" : "methodName",
+    "value" : "getApiKey"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "google-cloud-bigquerystorage-2.8.3.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method java.lang.String com.google.api.gax.rpc.StubSettings.Builder<SettingsT extends com.google.api.gax.rpc.StubSettings<SettingsT>, B extends com.google.api.gax.rpc.StubSettings.Builder<SettingsT, B>>::getApiKey() @ com.google.cloud.bigquery.storage.v1beta1.stub.BigQueryStorageStubSettings.Builder",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.google.cloud.bigquery.storage.v1beta1.stub"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.google.cloud.bigquery.storage.v1beta1.stub.BigQueryStorageStubSettings.Builder"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "Builder"
+  }, {
+    "name" : "methodName",
+    "value" : "getApiKey"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "google-cloud-bigquerystorage-2.8.3.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method B com.google.api.gax.rpc.StubSettings.Builder<SettingsT extends com.google.api.gax.rpc.StubSettings<SettingsT>, B extends com.google.api.gax.rpc.StubSettings.Builder<SettingsT, B>>::setApiKey(java.lang.String) @ com.google.cloud.bigquery.storage.v1beta1.stub.BigQueryStorageStubSettings.Builder",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.google.cloud.bigquery.storage.v1beta1.stub"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.google.cloud.bigquery.storage.v1beta1.stub.BigQueryStorageStubSettings.Builder"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "Builder"
+  }, {
+    "name" : "methodName",
+    "value" : "setApiKey"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "google-cloud-bigquerystorage-2.8.3.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method java.lang.String com.google.api.gax.rpc.StubSettings<SettingsT extends com.google.api.gax.rpc.StubSettings<SettingsT>>::getApiKey() @ com.google.cloud.bigquery.storage.v1beta1.stub.BigQueryStorageStubSettings",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.google.cloud.bigquery.storage.v1beta1.stub"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.google.cloud.bigquery.storage.v1beta1.stub.BigQueryStorageStubSettings"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "BigQueryStorageStubSettings"
+  }, {
+    "name" : "methodName",
+    "value" : "getApiKey"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "google-cloud-bigquerystorage-2.8.3.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method java.lang.String com.google.api.gax.rpc.StubSettings.Builder<SettingsT extends com.google.api.gax.rpc.StubSettings<SettingsT>, B extends com.google.api.gax.rpc.StubSettings.Builder<SettingsT, B>>::getApiKey() @ com.google.cloud.bigquery.storage.v1beta1.stub.EnhancedBigQueryStorageStubSettings.Builder",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.google.cloud.bigquery.storage.v1beta1.stub"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.google.cloud.bigquery.storage.v1beta1.stub.EnhancedBigQueryStorageStubSettings.Builder"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "Builder"
+  }, {
+    "name" : "methodName",
+    "value" : "getApiKey"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "google-cloud-bigquerystorage-2.8.3.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method B com.google.api.gax.rpc.StubSettings.Builder<SettingsT extends com.google.api.gax.rpc.StubSettings<SettingsT>, B extends com.google.api.gax.rpc.StubSettings.Builder<SettingsT, B>>::setApiKey(java.lang.String) @ com.google.cloud.bigquery.storage.v1beta1.stub.EnhancedBigQueryStorageStubSettings.Builder",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.google.cloud.bigquery.storage.v1beta1.stub"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.google.cloud.bigquery.storage.v1beta1.stub.EnhancedBigQueryStorageStubSettings.Builder"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "Builder"
+  }, {
+    "name" : "methodName",
+    "value" : "setApiKey"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "google-cloud-bigquerystorage-2.8.3.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method java.lang.String com.google.api.gax.rpc.StubSettings<SettingsT extends com.google.api.gax.rpc.StubSettings<SettingsT>>::getApiKey() @ com.google.cloud.bigquery.storage.v1beta1.stub.EnhancedBigQueryStorageStubSettings",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.google.cloud.bigquery.storage.v1beta1.stub"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.google.cloud.bigquery.storage.v1beta1.stub.EnhancedBigQueryStorageStubSettings"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "EnhancedBigQueryStorageStubSettings"
+  }, {
+    "name" : "methodName",
+    "value" : "getApiKey"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "google-cloud-bigquerystorage-2.8.3.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method java.lang.String com.google.api.gax.rpc.StubSettings.Builder<SettingsT extends com.google.api.gax.rpc.StubSettings<SettingsT>, B extends com.google.api.gax.rpc.StubSettings.Builder<SettingsT, B>>::getApiKey() @ com.google.cloud.bigquery.storage.v1beta2.stub.BigQueryReadStubSettings.Builder",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.google.cloud.bigquery.storage.v1beta2.stub"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.google.cloud.bigquery.storage.v1beta2.stub.BigQueryReadStubSettings.Builder"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "Builder"
+  }, {
+    "name" : "methodName",
+    "value" : "getApiKey"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "google-cloud-bigquerystorage-2.8.3.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method B com.google.api.gax.rpc.StubSettings.Builder<SettingsT extends com.google.api.gax.rpc.StubSettings<SettingsT>, B extends com.google.api.gax.rpc.StubSettings.Builder<SettingsT, B>>::setApiKey(java.lang.String) @ com.google.cloud.bigquery.storage.v1beta2.stub.BigQueryReadStubSettings.Builder",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.google.cloud.bigquery.storage.v1beta2.stub"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.google.cloud.bigquery.storage.v1beta2.stub.BigQueryReadStubSettings.Builder"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "Builder"
+  }, {
+    "name" : "methodName",
+    "value" : "setApiKey"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "google-cloud-bigquerystorage-2.8.3.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method java.lang.String com.google.api.gax.rpc.StubSettings<SettingsT extends com.google.api.gax.rpc.StubSettings<SettingsT>>::getApiKey() @ com.google.cloud.bigquery.storage.v1beta2.stub.BigQueryReadStubSettings",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.google.cloud.bigquery.storage.v1beta2.stub"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.google.cloud.bigquery.storage.v1beta2.stub.BigQueryReadStubSettings"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "BigQueryReadStubSettings"
+  }, {
+    "name" : "methodName",
+    "value" : "getApiKey"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "google-cloud-bigquerystorage-2.8.3.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method java.lang.String com.google.api.gax.rpc.StubSettings.Builder<SettingsT extends com.google.api.gax.rpc.StubSettings<SettingsT>, B extends com.google.api.gax.rpc.StubSettings.Builder<SettingsT, B>>::getApiKey() @ com.google.cloud.bigquery.storage.v1beta2.stub.BigQueryWriteStubSettings.Builder",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.google.cloud.bigquery.storage.v1beta2.stub"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.google.cloud.bigquery.storage.v1beta2.stub.BigQueryWriteStubSettings.Builder"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "Builder"
+  }, {
+    "name" : "methodName",
+    "value" : "getApiKey"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "google-cloud-bigquerystorage-2.8.3.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method B com.google.api.gax.rpc.StubSettings.Builder<SettingsT extends com.google.api.gax.rpc.StubSettings<SettingsT>, B extends com.google.api.gax.rpc.StubSettings.Builder<SettingsT, B>>::setApiKey(java.lang.String) @ com.google.cloud.bigquery.storage.v1beta2.stub.BigQueryWriteStubSettings.Builder",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.google.cloud.bigquery.storage.v1beta2.stub"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.google.cloud.bigquery.storage.v1beta2.stub.BigQueryWriteStubSettings.Builder"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "Builder"
+  }, {
+    "name" : "methodName",
+    "value" : "setApiKey"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "google-cloud-bigquerystorage-2.8.3.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method java.lang.String com.google.api.gax.rpc.StubSettings<SettingsT extends com.google.api.gax.rpc.StubSettings<SettingsT>>::getApiKey() @ com.google.cloud.bigquery.storage.v1beta2.stub.BigQueryWriteStubSettings",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.google.cloud.bigquery.storage.v1beta2.stub"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.google.cloud.bigquery.storage.v1beta2.stub.BigQueryWriteStubSettings"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "BigQueryWriteStubSettings"
+  }, {
+    "name" : "methodName",
+    "value" : "getApiKey"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "google-cloud-bigquerystorage-2.8.3.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method java.lang.String com.google.api.gax.rpc.StubSettings.Builder<SettingsT extends com.google.api.gax.rpc.StubSettings<SettingsT>, B extends com.google.api.gax.rpc.StubSettings.Builder<SettingsT, B>>::getApiKey() @ com.google.cloud.bigquery.storage.v1beta2.stub.EnhancedBigQueryReadStubSettings.Builder",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.google.cloud.bigquery.storage.v1beta2.stub"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.google.cloud.bigquery.storage.v1beta2.stub.EnhancedBigQueryReadStubSettings.Builder"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "Builder"
+  }, {
+    "name" : "methodName",
+    "value" : "getApiKey"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "google-cloud-bigquerystorage-2.8.3.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method B com.google.api.gax.rpc.StubSettings.Builder<SettingsT extends com.google.api.gax.rpc.StubSettings<SettingsT>, B extends com.google.api.gax.rpc.StubSettings.Builder<SettingsT, B>>::setApiKey(java.lang.String) @ com.google.cloud.bigquery.storage.v1beta2.stub.EnhancedBigQueryReadStubSettings.Builder",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.google.cloud.bigquery.storage.v1beta2.stub"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.google.cloud.bigquery.storage.v1beta2.stub.EnhancedBigQueryReadStubSettings.Builder"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "Builder"
+  }, {
+    "name" : "methodName",
+    "value" : "setApiKey"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "google-cloud-bigquerystorage-2.8.3.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method java.lang.String com.google.api.gax.rpc.StubSettings<SettingsT extends com.google.api.gax.rpc.StubSettings<SettingsT>>::getApiKey() @ com.google.cloud.bigquery.storage.v1beta2.stub.EnhancedBigQueryReadStubSettings",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.google.cloud.bigquery.storage.v1beta2.stub"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.google.cloud.bigquery.storage.v1beta2.stub.EnhancedBigQueryReadStubSettings"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "EnhancedBigQueryReadStubSettings"
+  }, {
+    "name" : "methodName",
+    "value" : "getApiKey"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "google-cloud-bigquerystorage-2.8.3.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+} ][ {
+  "code" : "java.method.numberOfParametersChanged",
+  "old" : "method void com.google.cloud.bigquery.storage.v1.Exceptions.SchemaMismatchedException::<init>(java.lang.String, java.lang.String, java.lang.Throwable)",
+  "new" : "method void com.google.cloud.bigquery.storage.v1.Exceptions.SchemaMismatchedException::<init>(io.grpc.Status, java.lang.String)",
+  "name" : "number of parameters changed",
+  "description" : "The number of parameters of the method have changed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.google.cloud.bigquery.storage.v1"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.google.cloud.bigquery.storage.v1.Exceptions.SchemaMismatchedException"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "SchemaMismatchedException"
+  }, {
+    "name" : "methodName",
+    "value" : "<init>"
+  }, {
+    "name" : "elementKind",
+    "value" : "constructor"
+  }, {
+    "name" : "oldArchive",
+    "value" : "google-cloud-bigquerystorage-2.8.3.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "google-cloud-bigquerystorage-2.13.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.numberOfParametersChanged",
+  "old" : "method void com.google.cloud.bigquery.storage.v1.Exceptions.StreamFinalizedException::<init>(java.lang.String, java.lang.String, java.lang.Throwable)",
+  "new" : "method void com.google.cloud.bigquery.storage.v1.Exceptions.StreamFinalizedException::<init>(io.grpc.Status, java.lang.String)",
+  "name" : "number of parameters changed",
+  "description" : "The number of parameters of the method have changed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.google.cloud.bigquery.storage.v1"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.google.cloud.bigquery.storage.v1.Exceptions.StreamFinalizedException"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "StreamFinalizedException"
+  }, {
+    "name" : "methodName",
+    "value" : "<init>"
+  }, {
+    "name" : "elementKind",
+    "value" : "constructor"
+  }, {
+    "name" : "oldArchive",
+    "value" : "google-cloud-bigquerystorage-2.8.3.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "google-cloud-bigquerystorage-2.13.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method java.lang.String com.google.api.gax.rpc.StubSettings.Builder<SettingsT extends com.google.api.gax.rpc.StubSettings<SettingsT>, B extends com.google.api.gax.rpc.StubSettings.Builder<SettingsT, B>>::getApiKey() @ com.google.cloud.bigquery.storage.v1.stub.BigQueryReadStubSettings.Builder",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.google.cloud.bigquery.storage.v1.stub"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.google.cloud.bigquery.storage.v1.stub.BigQueryReadStubSettings.Builder"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "Builder"
+  }, {
+    "name" : "methodName",
+    "value" : "getApiKey"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "google-cloud-bigquerystorage-2.8.3.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method B com.google.api.gax.rpc.StubSettings.Builder<SettingsT extends com.google.api.gax.rpc.StubSettings<SettingsT>, B extends com.google.api.gax.rpc.StubSettings.Builder<SettingsT, B>>::setApiKey(java.lang.String) @ com.google.cloud.bigquery.storage.v1.stub.BigQueryReadStubSettings.Builder",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.google.cloud.bigquery.storage.v1.stub"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.google.cloud.bigquery.storage.v1.stub.BigQueryReadStubSettings.Builder"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "Builder"
+  }, {
+    "name" : "methodName",
+    "value" : "setApiKey"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "google-cloud-bigquerystorage-2.8.3.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method java.lang.String com.google.api.gax.rpc.StubSettings<SettingsT extends com.google.api.gax.rpc.StubSettings<SettingsT>>::getApiKey() @ com.google.cloud.bigquery.storage.v1.stub.BigQueryReadStubSettings",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.google.cloud.bigquery.storage.v1.stub"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.google.cloud.bigquery.storage.v1.stub.BigQueryReadStubSettings"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "BigQueryReadStubSettings"
+  }, {
+    "name" : "methodName",
+    "value" : "getApiKey"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "google-cloud-bigquerystorage-2.8.3.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method java.lang.String com.google.api.gax.rpc.StubSettings.Builder<SettingsT extends com.google.api.gax.rpc.StubSettings<SettingsT>, B extends com.google.api.gax.rpc.StubSettings.Builder<SettingsT, B>>::getApiKey() @ com.google.cloud.bigquery.storage.v1.stub.BigQueryWriteStubSettings.Builder",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.google.cloud.bigquery.storage.v1.stub"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.google.cloud.bigquery.storage.v1.stub.BigQueryWriteStubSettings.Builder"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "Builder"
+  }, {
+    "name" : "methodName",
+    "value" : "getApiKey"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "google-cloud-bigquerystorage-2.8.3.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method B com.google.api.gax.rpc.StubSettings.Builder<SettingsT extends com.google.api.gax.rpc.StubSettings<SettingsT>, B extends com.google.api.gax.rpc.StubSettings.Builder<SettingsT, B>>::setApiKey(java.lang.String) @ com.google.cloud.bigquery.storage.v1.stub.BigQueryWriteStubSettings.Builder",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.google.cloud.bigquery.storage.v1.stub"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.google.cloud.bigquery.storage.v1.stub.BigQueryWriteStubSettings.Builder"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "Builder"
+  }, {
+    "name" : "methodName",
+    "value" : "setApiKey"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "google-cloud-bigquerystorage-2.8.3.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method java.lang.String com.google.api.gax.rpc.StubSettings<SettingsT extends com.google.api.gax.rpc.StubSettings<SettingsT>>::getApiKey() @ com.google.cloud.bigquery.storage.v1.stub.BigQueryWriteStubSettings",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.google.cloud.bigquery.storage.v1.stub"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.google.cloud.bigquery.storage.v1.stub.BigQueryWriteStubSettings"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "BigQueryWriteStubSettings"
+  }, {
+    "name" : "methodName",
+    "value" : "getApiKey"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "google-cloud-bigquerystorage-2.8.3.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method java.lang.String com.google.api.gax.rpc.StubSettings.Builder<SettingsT extends com.google.api.gax.rpc.StubSettings<SettingsT>, B extends com.google.api.gax.rpc.StubSettings.Builder<SettingsT, B>>::getApiKey() @ com.google.cloud.bigquery.storage.v1.stub.EnhancedBigQueryReadStubSettings.Builder",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.google.cloud.bigquery.storage.v1.stub"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.google.cloud.bigquery.storage.v1.stub.EnhancedBigQueryReadStubSettings.Builder"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "Builder"
+  }, {
+    "name" : "methodName",
+    "value" : "getApiKey"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "google-cloud-bigquerystorage-2.8.3.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method B com.google.api.gax.rpc.StubSettings.Builder<SettingsT extends com.google.api.gax.rpc.StubSettings<SettingsT>, B extends com.google.api.gax.rpc.StubSettings.Builder<SettingsT, B>>::setApiKey(java.lang.String) @ com.google.cloud.bigquery.storage.v1.stub.EnhancedBigQueryReadStubSettings.Builder",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.google.cloud.bigquery.storage.v1.stub"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.google.cloud.bigquery.storage.v1.stub.EnhancedBigQueryReadStubSettings.Builder"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "Builder"
+  }, {
+    "name" : "methodName",
+    "value" : "setApiKey"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "google-cloud-bigquerystorage-2.8.3.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method java.lang.String com.google.api.gax.rpc.StubSettings<SettingsT extends com.google.api.gax.rpc.StubSettings<SettingsT>>::getApiKey() @ com.google.cloud.bigquery.storage.v1.stub.EnhancedBigQueryReadStubSettings",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.google.cloud.bigquery.storage.v1.stub"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.google.cloud.bigquery.storage.v1.stub.EnhancedBigQueryReadStubSettings"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "EnhancedBigQueryReadStubSettings"
+  }, {
+    "name" : "methodName",
+    "value" : "getApiKey"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "google-cloud-bigquerystorage-2.8.3.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method java.lang.String com.google.api.gax.rpc.StubSettings.Builder<SettingsT extends com.google.api.gax.rpc.StubSettings<SettingsT>, B extends com.google.api.gax.rpc.StubSettings.Builder<SettingsT, B>>::getApiKey() @ com.google.cloud.bigquery.storage.v1beta1.stub.BigQueryStorageStubSettings.Builder",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.google.cloud.bigquery.storage.v1beta1.stub"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.google.cloud.bigquery.storage.v1beta1.stub.BigQueryStorageStubSettings.Builder"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "Builder"
+  }, {
+    "name" : "methodName",
+    "value" : "getApiKey"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "google-cloud-bigquerystorage-2.8.3.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method B com.google.api.gax.rpc.StubSettings.Builder<SettingsT extends com.google.api.gax.rpc.StubSettings<SettingsT>, B extends com.google.api.gax.rpc.StubSettings.Builder<SettingsT, B>>::setApiKey(java.lang.String) @ com.google.cloud.bigquery.storage.v1beta1.stub.BigQueryStorageStubSettings.Builder",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.google.cloud.bigquery.storage.v1beta1.stub"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.google.cloud.bigquery.storage.v1beta1.stub.BigQueryStorageStubSettings.Builder"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "Builder"
+  }, {
+    "name" : "methodName",
+    "value" : "setApiKey"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "google-cloud-bigquerystorage-2.8.3.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method java.lang.String com.google.api.gax.rpc.StubSettings<SettingsT extends com.google.api.gax.rpc.StubSettings<SettingsT>>::getApiKey() @ com.google.cloud.bigquery.storage.v1beta1.stub.BigQueryStorageStubSettings",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.google.cloud.bigquery.storage.v1beta1.stub"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.google.cloud.bigquery.storage.v1beta1.stub.BigQueryStorageStubSettings"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "BigQueryStorageStubSettings"
+  }, {
+    "name" : "methodName",
+    "value" : "getApiKey"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "google-cloud-bigquerystorage-2.8.3.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method java.lang.String com.google.api.gax.rpc.StubSettings.Builder<SettingsT extends com.google.api.gax.rpc.StubSettings<SettingsT>, B extends com.google.api.gax.rpc.StubSettings.Builder<SettingsT, B>>::getApiKey() @ com.google.cloud.bigquery.storage.v1beta1.stub.EnhancedBigQueryStorageStubSettings.Builder",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.google.cloud.bigquery.storage.v1beta1.stub"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.google.cloud.bigquery.storage.v1beta1.stub.EnhancedBigQueryStorageStubSettings.Builder"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "Builder"
+  }, {
+    "name" : "methodName",
+    "value" : "getApiKey"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "google-cloud-bigquerystorage-2.8.3.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method B com.google.api.gax.rpc.StubSettings.Builder<SettingsT extends com.google.api.gax.rpc.StubSettings<SettingsT>, B extends com.google.api.gax.rpc.StubSettings.Builder<SettingsT, B>>::setApiKey(java.lang.String) @ com.google.cloud.bigquery.storage.v1beta1.stub.EnhancedBigQueryStorageStubSettings.Builder",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.google.cloud.bigquery.storage.v1beta1.stub"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.google.cloud.bigquery.storage.v1beta1.stub.EnhancedBigQueryStorageStubSettings.Builder"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "Builder"
+  }, {
+    "name" : "methodName",
+    "value" : "setApiKey"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "google-cloud-bigquerystorage-2.8.3.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method java.lang.String com.google.api.gax.rpc.StubSettings<SettingsT extends com.google.api.gax.rpc.StubSettings<SettingsT>>::getApiKey() @ com.google.cloud.bigquery.storage.v1beta1.stub.EnhancedBigQueryStorageStubSettings",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.google.cloud.bigquery.storage.v1beta1.stub"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.google.cloud.bigquery.storage.v1beta1.stub.EnhancedBigQueryStorageStubSettings"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "EnhancedBigQueryStorageStubSettings"
+  }, {
+    "name" : "methodName",
+    "value" : "getApiKey"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "google-cloud-bigquerystorage-2.8.3.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method java.lang.String com.google.api.gax.rpc.StubSettings.Builder<SettingsT extends com.google.api.gax.rpc.StubSettings<SettingsT>, B extends com.google.api.gax.rpc.StubSettings.Builder<SettingsT, B>>::getApiKey() @ com.google.cloud.bigquery.storage.v1beta2.stub.BigQueryReadStubSettings.Builder",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.google.cloud.bigquery.storage.v1beta2.stub"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.google.cloud.bigquery.storage.v1beta2.stub.BigQueryReadStubSettings.Builder"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "Builder"
+  }, {
+    "name" : "methodName",
+    "value" : "getApiKey"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "google-cloud-bigquerystorage-2.8.3.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method B com.google.api.gax.rpc.StubSettings.Builder<SettingsT extends com.google.api.gax.rpc.StubSettings<SettingsT>, B extends com.google.api.gax.rpc.StubSettings.Builder<SettingsT, B>>::setApiKey(java.lang.String) @ com.google.cloud.bigquery.storage.v1beta2.stub.BigQueryReadStubSettings.Builder",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.google.cloud.bigquery.storage.v1beta2.stub"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.google.cloud.bigquery.storage.v1beta2.stub.BigQueryReadStubSettings.Builder"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "Builder"
+  }, {
+    "name" : "methodName",
+    "value" : "setApiKey"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "google-cloud-bigquerystorage-2.8.3.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method java.lang.String com.google.api.gax.rpc.StubSettings<SettingsT extends com.google.api.gax.rpc.StubSettings<SettingsT>>::getApiKey() @ com.google.cloud.bigquery.storage.v1beta2.stub.BigQueryReadStubSettings",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.google.cloud.bigquery.storage.v1beta2.stub"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.google.cloud.bigquery.storage.v1beta2.stub.BigQueryReadStubSettings"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "BigQueryReadStubSettings"
+  }, {
+    "name" : "methodName",
+    "value" : "getApiKey"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "google-cloud-bigquerystorage-2.8.3.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method java.lang.String com.google.api.gax.rpc.StubSettings.Builder<SettingsT extends com.google.api.gax.rpc.StubSettings<SettingsT>, B extends com.google.api.gax.rpc.StubSettings.Builder<SettingsT, B>>::getApiKey() @ com.google.cloud.bigquery.storage.v1beta2.stub.BigQueryWriteStubSettings.Builder",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.google.cloud.bigquery.storage.v1beta2.stub"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.google.cloud.bigquery.storage.v1beta2.stub.BigQueryWriteStubSettings.Builder"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "Builder"
+  }, {
+    "name" : "methodName",
+    "value" : "getApiKey"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "google-cloud-bigquerystorage-2.8.3.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method B com.google.api.gax.rpc.StubSettings.Builder<SettingsT extends com.google.api.gax.rpc.StubSettings<SettingsT>, B extends com.google.api.gax.rpc.StubSettings.Builder<SettingsT, B>>::setApiKey(java.lang.String) @ com.google.cloud.bigquery.storage.v1beta2.stub.BigQueryWriteStubSettings.Builder",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.google.cloud.bigquery.storage.v1beta2.stub"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.google.cloud.bigquery.storage.v1beta2.stub.BigQueryWriteStubSettings.Builder"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "Builder"
+  }, {
+    "name" : "methodName",
+    "value" : "setApiKey"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "google-cloud-bigquerystorage-2.8.3.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method java.lang.String com.google.api.gax.rpc.StubSettings<SettingsT extends com.google.api.gax.rpc.StubSettings<SettingsT>>::getApiKey() @ com.google.cloud.bigquery.storage.v1beta2.stub.BigQueryWriteStubSettings",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.google.cloud.bigquery.storage.v1beta2.stub"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.google.cloud.bigquery.storage.v1beta2.stub.BigQueryWriteStubSettings"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "BigQueryWriteStubSettings"
+  }, {
+    "name" : "methodName",
+    "value" : "getApiKey"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "google-cloud-bigquerystorage-2.8.3.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method java.lang.String com.google.api.gax.rpc.StubSettings.Builder<SettingsT extends com.google.api.gax.rpc.StubSettings<SettingsT>, B extends com.google.api.gax.rpc.StubSettings.Builder<SettingsT, B>>::getApiKey() @ com.google.cloud.bigquery.storage.v1beta2.stub.EnhancedBigQueryReadStubSettings.Builder",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.google.cloud.bigquery.storage.v1beta2.stub"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.google.cloud.bigquery.storage.v1beta2.stub.EnhancedBigQueryReadStubSettings.Builder"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "Builder"
+  }, {
+    "name" : "methodName",
+    "value" : "getApiKey"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "google-cloud-bigquerystorage-2.8.3.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method B com.google.api.gax.rpc.StubSettings.Builder<SettingsT extends com.google.api.gax.rpc.StubSettings<SettingsT>, B extends com.google.api.gax.rpc.StubSettings.Builder<SettingsT, B>>::setApiKey(java.lang.String) @ com.google.cloud.bigquery.storage.v1beta2.stub.EnhancedBigQueryReadStubSettings.Builder",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.google.cloud.bigquery.storage.v1beta2.stub"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.google.cloud.bigquery.storage.v1beta2.stub.EnhancedBigQueryReadStubSettings.Builder"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "Builder"
+  }, {
+    "name" : "methodName",
+    "value" : "setApiKey"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "google-cloud-bigquerystorage-2.8.3.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method java.lang.String com.google.api.gax.rpc.StubSettings<SettingsT extends com.google.api.gax.rpc.StubSettings<SettingsT>>::getApiKey() @ com.google.cloud.bigquery.storage.v1beta2.stub.EnhancedBigQueryReadStubSettings",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.google.cloud.bigquery.storage.v1beta2.stub"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.google.cloud.bigquery.storage.v1beta2.stub.EnhancedBigQueryReadStubSettings"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "EnhancedBigQueryReadStubSettings"
+  }, {
+    "name" : "methodName",
+    "value" : "getApiKey"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "google-cloud-bigquerystorage-2.8.3.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+} ]

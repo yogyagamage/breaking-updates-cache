@@ -1,0 +1,321 @@
+[ {
+  "code" : "java.method.addedToInterface",
+  "old" : null,
+  "new" : "method API com.google.common.flogger.LoggingApi<API extends com.google.common.flogger.LoggingApi<API>>::per(com.google.common.flogger.LoggingScopeProvider) @ com.google.common.flogger.GoogleLogger.Api",
+  "name" : "method added to interface",
+  "description" : "Method was added to an interface.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SEMANTIC",
+    "severity" : "POTENTIALLY_BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.google.common.flogger"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.google.common.flogger.GoogleLogger.Api"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "Api"
+  }, {
+    "name" : "methodName",
+    "value" : "per"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "newArchive",
+    "value" : "google-extensions-0.7.1.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.addedToInterface",
+  "old" : null,
+  "new" : "method API com.google.common.flogger.LoggingApi<API extends com.google.common.flogger.LoggingApi<API>>::per(java.lang.Enum<?>) @ com.google.common.flogger.GoogleLogger.Api",
+  "name" : "method added to interface",
+  "description" : "Method was added to an interface.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SEMANTIC",
+    "severity" : "POTENTIALLY_BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.google.common.flogger"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.google.common.flogger.GoogleLogger.Api"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "Api"
+  }, {
+    "name" : "methodName",
+    "value" : "per"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "newArchive",
+    "value" : "google-extensions-0.7.1.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.addedToInterface",
+  "old" : null,
+  "new" : "method API com.google.common.flogger.LoggingApi<API extends com.google.common.flogger.LoggingApi<API>>::per(com.google.common.flogger.LoggingScopeProvider) @ com.google.common.flogger.GoogleLoggingApi<API extends com.google.common.flogger.GoogleLoggingApi<API>>",
+  "name" : "method added to interface",
+  "description" : "Method was added to an interface.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SEMANTIC",
+    "severity" : "POTENTIALLY_BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.google.common.flogger"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.google.common.flogger.GoogleLoggingApi"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "GoogleLoggingApi"
+  }, {
+    "name" : "methodName",
+    "value" : "per"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "newArchive",
+    "value" : "google-extensions-0.7.1.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.addedToInterface",
+  "old" : null,
+  "new" : "method API com.google.common.flogger.LoggingApi<API extends com.google.common.flogger.LoggingApi<API>>::per(java.lang.Enum<?>) @ com.google.common.flogger.GoogleLoggingApi<API extends com.google.common.flogger.GoogleLoggingApi<API>>",
+  "name" : "method added to interface",
+  "description" : "Method was added to an interface.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SEMANTIC",
+    "severity" : "POTENTIALLY_BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.google.common.flogger"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.google.common.flogger.GoogleLoggingApi"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "GoogleLoggingApi"
+  }, {
+    "name" : "methodName",
+    "value" : "per"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "newArchive",
+    "value" : "google-extensions-0.7.1.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+} ][ {
+  "code" : "java.method.addedToInterface",
+  "old" : null,
+  "new" : "method API com.google.common.flogger.LoggingApi<API extends com.google.common.flogger.LoggingApi<API>>::per(com.google.common.flogger.LoggingScopeProvider) @ com.google.common.flogger.GoogleLogger.Api",
+  "name" : "method added to interface",
+  "description" : "Method was added to an interface.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SEMANTIC",
+    "severity" : "POTENTIALLY_BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.google.common.flogger"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.google.common.flogger.GoogleLogger.Api"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "Api"
+  }, {
+    "name" : "methodName",
+    "value" : "per"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "newArchive",
+    "value" : "google-extensions-0.7.1.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.addedToInterface",
+  "old" : null,
+  "new" : "method API com.google.common.flogger.LoggingApi<API extends com.google.common.flogger.LoggingApi<API>>::per(java.lang.Enum<?>) @ com.google.common.flogger.GoogleLogger.Api",
+  "name" : "method added to interface",
+  "description" : "Method was added to an interface.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SEMANTIC",
+    "severity" : "POTENTIALLY_BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.google.common.flogger"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.google.common.flogger.GoogleLogger.Api"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "Api"
+  }, {
+    "name" : "methodName",
+    "value" : "per"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "newArchive",
+    "value" : "google-extensions-0.7.1.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.addedToInterface",
+  "old" : null,
+  "new" : "method API com.google.common.flogger.LoggingApi<API extends com.google.common.flogger.LoggingApi<API>>::per(com.google.common.flogger.LoggingScopeProvider) @ com.google.common.flogger.GoogleLoggingApi<API extends com.google.common.flogger.GoogleLoggingApi<API>>",
+  "name" : "method added to interface",
+  "description" : "Method was added to an interface.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SEMANTIC",
+    "severity" : "POTENTIALLY_BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.google.common.flogger"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.google.common.flogger.GoogleLoggingApi"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "GoogleLoggingApi"
+  }, {
+    "name" : "methodName",
+    "value" : "per"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "newArchive",
+    "value" : "google-extensions-0.7.1.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.addedToInterface",
+  "old" : null,
+  "new" : "method API com.google.common.flogger.LoggingApi<API extends com.google.common.flogger.LoggingApi<API>>::per(java.lang.Enum<?>) @ com.google.common.flogger.GoogleLoggingApi<API extends com.google.common.flogger.GoogleLoggingApi<API>>",
+  "name" : "method added to interface",
+  "description" : "Method was added to an interface.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SEMANTIC",
+    "severity" : "POTENTIALLY_BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.google.common.flogger"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.google.common.flogger.GoogleLoggingApi"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "GoogleLoggingApi"
+  }, {
+    "name" : "methodName",
+    "value" : "per"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "newArchive",
+    "value" : "google-extensions-0.7.1.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+} ]

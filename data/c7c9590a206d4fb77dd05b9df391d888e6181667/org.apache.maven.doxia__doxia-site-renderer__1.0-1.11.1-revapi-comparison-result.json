@@ -1,0 +1,2293 @@
+[ {
+  "code" : "java.method.exception.checkedAdded",
+  "old" : "method org.apache.maven.doxia.siterenderer.SiteRenderingContext org.apache.maven.doxia.siterenderer.DefaultSiteRenderer::createContextForSkin(java.io.File, java.util.Map, org.apache.maven.doxia.site.decoration.DecorationModel, java.lang.String, java.util.Locale) throws java.io.IOException",
+  "new" : "method org.apache.maven.doxia.siterenderer.SiteRenderingContext org.apache.maven.doxia.siterenderer.DefaultSiteRenderer::createContextForSkin(org.apache.maven.artifact.Artifact, java.util.Map<java.lang.String, ?>, org.apache.maven.doxia.site.decoration.DecorationModel, java.lang.String, java.util.Locale) throws java.io.IOException, org.apache.maven.doxia.siterenderer.RendererException",
+  "name" : "Method newly throws checked exceptions",
+  "description" : "Method newly throws checked exceptions: org.apache.maven.doxia.siterenderer.RendererException.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "exception",
+    "value" : "org.apache.maven.doxia.siterenderer.RendererException"
+  }, {
+    "name" : "package",
+    "value" : "org.apache.maven.doxia.siterenderer"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.maven.doxia.siterenderer.DefaultSiteRenderer"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "DefaultSiteRenderer"
+  }, {
+    "name" : "methodName",
+    "value" : "createContextForSkin"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "doxia-site-renderer-1.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "doxia-site-renderer-1.11.1.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.parameterTypeChanged",
+  "old" : "parameter org.apache.maven.doxia.siterenderer.SiteRenderingContext org.apache.maven.doxia.siterenderer.DefaultSiteRenderer::createContextForSkin(===java.io.File===, java.util.Map, org.apache.maven.doxia.site.decoration.DecorationModel, java.lang.String, java.util.Locale) throws java.io.IOException",
+  "new" : "parameter org.apache.maven.doxia.siterenderer.SiteRenderingContext org.apache.maven.doxia.siterenderer.DefaultSiteRenderer::createContextForSkin(===org.apache.maven.artifact.Artifact===, java.util.Map<java.lang.String, ?>, org.apache.maven.doxia.site.decoration.DecorationModel, java.lang.String, java.util.Locale) throws java.io.IOException, org.apache.maven.doxia.siterenderer.RendererException",
+  "name" : "parameter type changed",
+  "description" : "The type of the parameter changed from 'java.io.File' to 'org.apache.maven.artifact.Artifact'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "POTENTIALLY_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "java.io.File"
+  }, {
+    "name" : "newType",
+    "value" : "org.apache.maven.artifact.Artifact"
+  }, {
+    "name" : "package",
+    "value" : "org.apache.maven.doxia.siterenderer"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.maven.doxia.siterenderer.DefaultSiteRenderer"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "DefaultSiteRenderer"
+  }, {
+    "name" : "methodName",
+    "value" : "createContextForSkin"
+  }, {
+    "name" : "parameterIndex",
+    "value" : "0"
+  }, {
+    "name" : "elementKind",
+    "value" : "parameter"
+  }, {
+    "name" : "oldArchive",
+    "value" : "doxia-site-renderer-1.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "doxia-site-renderer-1.11.1.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.numberOfParametersChanged",
+  "old" : "method org.apache.maven.doxia.siterenderer.SiteRenderingContext org.apache.maven.doxia.siterenderer.DefaultSiteRenderer::createContextForTemplate(java.io.File, java.io.File, java.util.Map, org.apache.maven.doxia.site.decoration.DecorationModel, java.lang.String, java.util.Locale) throws java.net.MalformedURLException",
+  "new" : "method org.apache.maven.doxia.siterenderer.SiteRenderingContext org.apache.maven.doxia.siterenderer.DefaultSiteRenderer::createContextForTemplate(java.io.File, java.util.Map<java.lang.String, ?>, org.apache.maven.doxia.site.decoration.DecorationModel, java.lang.String, java.util.Locale) throws java.net.MalformedURLException",
+  "name" : "number of parameters changed",
+  "description" : "The number of parameters of the method have changed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.apache.maven.doxia.siterenderer"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.maven.doxia.siterenderer.DefaultSiteRenderer"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "DefaultSiteRenderer"
+  }, {
+    "name" : "methodName",
+    "value" : "createContextForTemplate"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "doxia-site-renderer-1.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "doxia-site-renderer-1.11.1.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.element.nowDeprecated",
+  "old" : "method org.apache.maven.doxia.siterenderer.SiteRenderingContext org.apache.maven.doxia.siterenderer.DefaultSiteRenderer::createContextForTemplate(java.io.File, java.io.File, java.util.Map, org.apache.maven.doxia.site.decoration.DecorationModel, java.lang.String, java.util.Locale) throws java.net.MalformedURLException",
+  "new" : "method org.apache.maven.doxia.siterenderer.SiteRenderingContext org.apache.maven.doxia.siterenderer.DefaultSiteRenderer::createContextForTemplate(java.io.File, java.util.Map<java.lang.String, ?>, org.apache.maven.doxia.site.decoration.DecorationModel, java.lang.String, java.util.Locale) throws java.net.MalformedURLException",
+  "name" : "element now deprecated",
+  "description" : "The element is now deprecated.",
+  "criticality" : "allowed",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "EQUIVALENT"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "EQUIVALENT"
+  } ],
+  "attachments" : [ {
+    "name" : "annotationType",
+    "value" : "java.lang.Deprecated"
+  }, {
+    "name" : "annotation",
+    "value" : "@java.lang.Deprecated"
+  }, {
+    "name" : "package",
+    "value" : "org.apache.maven.doxia.siterenderer"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.maven.doxia.siterenderer.DefaultSiteRenderer"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "DefaultSiteRenderer"
+  }, {
+    "name" : "methodName",
+    "value" : "createContextForTemplate"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "doxia-site-renderer-1.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "doxia-site-renderer-1.11.1.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.returnTypeTypeParametersChanged",
+  "old" : "method java.util.Map org.apache.maven.doxia.siterenderer.DefaultSiteRenderer::locateDocumentFiles(org.apache.maven.doxia.siterenderer.SiteRenderingContext) throws java.io.IOException, org.apache.maven.doxia.siterenderer.RendererException",
+  "new" : "method java.util.Map<java.lang.String, org.apache.maven.doxia.siterenderer.DocumentRenderer> org.apache.maven.doxia.siterenderer.DefaultSiteRenderer::locateDocumentFiles(org.apache.maven.doxia.siterenderer.SiteRenderingContext) throws java.io.IOException, org.apache.maven.doxia.siterenderer.RendererException",
+  "name" : "return type changed type parameter",
+  "description" : "The return type changed from 'java.util.Map' to 'java.util.Map<java.lang.String, org.apache.maven.doxia.siterenderer.DocumentRenderer>'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "java.util.Map"
+  }, {
+    "name" : "newType",
+    "value" : "java.util.Map<java.lang.String, org.apache.maven.doxia.siterenderer.DocumentRenderer>"
+  }, {
+    "name" : "package",
+    "value" : "org.apache.maven.doxia.siterenderer"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.maven.doxia.siterenderer.DefaultSiteRenderer"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "DefaultSiteRenderer"
+  }, {
+    "name" : "methodName",
+    "value" : "locateDocumentFiles"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "doxia-site-renderer-1.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "doxia-site-renderer-1.11.1.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.parameterTypeChanged",
+  "old" : "parameter void org.apache.maven.doxia.siterenderer.DefaultSiteRenderer::renderDocument(java.io.Writer, ===org.apache.maven.doxia.module.xhtml.decoration.render.RenderingContext===, org.apache.maven.doxia.siterenderer.SiteRenderingContext) throws org.apache.maven.doxia.siterenderer.RendererException, java.io.FileNotFoundException, java.io.UnsupportedEncodingException",
+  "new" : "parameter void org.apache.maven.doxia.siterenderer.DefaultSiteRenderer::renderDocument(java.io.Writer, ===org.apache.maven.doxia.siterenderer.RenderingContext===, org.apache.maven.doxia.siterenderer.SiteRenderingContext) throws org.apache.maven.doxia.siterenderer.RendererException, java.io.FileNotFoundException, java.io.UnsupportedEncodingException",
+  "name" : "parameter type changed",
+  "description" : "The type of the parameter changed from 'org.apache.maven.doxia.module.xhtml.decoration.render.RenderingContext' to 'org.apache.maven.doxia.siterenderer.RenderingContext'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "POTENTIALLY_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "org.apache.maven.doxia.module.xhtml.decoration.render.RenderingContext"
+  }, {
+    "name" : "newType",
+    "value" : "org.apache.maven.doxia.siterenderer.RenderingContext"
+  }, {
+    "name" : "package",
+    "value" : "org.apache.maven.doxia.siterenderer"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.maven.doxia.siterenderer.DefaultSiteRenderer"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "DefaultSiteRenderer"
+  }, {
+    "name" : "methodName",
+    "value" : "renderDocument"
+  }, {
+    "name" : "parameterIndex",
+    "value" : "1"
+  }, {
+    "name" : "elementKind",
+    "value" : "parameter"
+  }, {
+    "name" : "oldArchive",
+    "value" : "doxia-site-renderer-1.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "doxia-site-renderer-1.11.1.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.returnTypeChanged",
+  "old" : "method org.apache.maven.doxia.module.xhtml.decoration.render.RenderingContext org.apache.maven.doxia.siterenderer.DocumentRenderer::getRenderingContext()",
+  "new" : "method org.apache.maven.doxia.siterenderer.RenderingContext org.apache.maven.doxia.siterenderer.DocumentRenderer::getRenderingContext()",
+  "name" : "return type changed",
+  "description" : "The return type changed from 'org.apache.maven.doxia.module.xhtml.decoration.render.RenderingContext' to  'org.apache.maven.doxia.siterenderer.RenderingContext'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "POTENTIALLY_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "org.apache.maven.doxia.module.xhtml.decoration.render.RenderingContext"
+  }, {
+    "name" : "newType",
+    "value" : "org.apache.maven.doxia.siterenderer.RenderingContext"
+  }, {
+    "name" : "package",
+    "value" : "org.apache.maven.doxia.siterenderer"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.maven.doxia.siterenderer.DocumentRenderer"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "DocumentRenderer"
+  }, {
+    "name" : "methodName",
+    "value" : "getRenderingContext"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "doxia-site-renderer-1.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "doxia-site-renderer-1.11.1.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.addedToInterface",
+  "old" : null,
+  "new" : "method boolean org.apache.maven.doxia.siterenderer.DocumentRenderer::isExternalReport()",
+  "name" : "method added to interface",
+  "description" : "Method was added to an interface.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SEMANTIC",
+    "severity" : "POTENTIALLY_BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.apache.maven.doxia.siterenderer"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.maven.doxia.siterenderer.DocumentRenderer"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "DocumentRenderer"
+  }, {
+    "name" : "methodName",
+    "value" : "isExternalReport"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "newArchive",
+    "value" : "doxia-site-renderer-1.11.1.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.parameterTypeChanged",
+  "old" : "parameter void org.apache.maven.doxia.siterenderer.DoxiaDocumentRenderer::<init>(===org.apache.maven.doxia.module.xhtml.decoration.render.RenderingContext===)",
+  "new" : "parameter void org.apache.maven.doxia.siterenderer.DoxiaDocumentRenderer::<init>(===org.apache.maven.doxia.siterenderer.RenderingContext===)",
+  "name" : "parameter type changed",
+  "description" : "The type of the parameter changed from 'org.apache.maven.doxia.module.xhtml.decoration.render.RenderingContext' to 'org.apache.maven.doxia.siterenderer.RenderingContext'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "POTENTIALLY_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "org.apache.maven.doxia.module.xhtml.decoration.render.RenderingContext"
+  }, {
+    "name" : "newType",
+    "value" : "org.apache.maven.doxia.siterenderer.RenderingContext"
+  }, {
+    "name" : "package",
+    "value" : "org.apache.maven.doxia.siterenderer"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.maven.doxia.siterenderer.DoxiaDocumentRenderer"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "DoxiaDocumentRenderer"
+  }, {
+    "name" : "methodName",
+    "value" : "<init>"
+  }, {
+    "name" : "parameterIndex",
+    "value" : "0"
+  }, {
+    "name" : "elementKind",
+    "value" : "parameter"
+  }, {
+    "name" : "oldArchive",
+    "value" : "doxia-site-renderer-1.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "doxia-site-renderer-1.11.1.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.returnTypeChanged",
+  "old" : "method org.apache.maven.doxia.module.xhtml.decoration.render.RenderingContext org.apache.maven.doxia.siterenderer.DoxiaDocumentRenderer::getRenderingContext()",
+  "new" : "method org.apache.maven.doxia.siterenderer.RenderingContext org.apache.maven.doxia.siterenderer.DoxiaDocumentRenderer::getRenderingContext()",
+  "name" : "return type changed",
+  "description" : "The return type changed from 'org.apache.maven.doxia.module.xhtml.decoration.render.RenderingContext' to  'org.apache.maven.doxia.siterenderer.RenderingContext'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "POTENTIALLY_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "org.apache.maven.doxia.module.xhtml.decoration.render.RenderingContext"
+  }, {
+    "name" : "newType",
+    "value" : "org.apache.maven.doxia.siterenderer.RenderingContext"
+  }, {
+    "name" : "package",
+    "value" : "org.apache.maven.doxia.siterenderer"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.maven.doxia.siterenderer.DoxiaDocumentRenderer"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "DoxiaDocumentRenderer"
+  }, {
+    "name" : "methodName",
+    "value" : "getRenderingContext"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "doxia-site-renderer-1.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "doxia-site-renderer-1.11.1.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.nonPublicPartOfAPI",
+  "old" : null,
+  "new" : "class org.apache.maven.doxia.siterenderer.ExtraDoxiaModuleReference",
+  "name" : "non-public class in API",
+  "description" : "Class 'org.apache.maven.doxia.siterenderer.ExtraDoxiaModuleReference' is indirectly included in the API (by the means of method return type for example) but the class is not accessible (neither public nor protected).",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SEMANTIC",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "classSimpleName",
+    "value" : "ExtraDoxiaModuleReference"
+  }, {
+    "name" : "exampleUseChainInNewApi",
+    "value" : "org.apache.maven.doxia.siterenderer.ExtraDoxiaModuleReference is used as a type parameter or type variable bound on method java.util.List<org.apache.maven.doxia.siterenderer.ExtraDoxiaModuleReference> org.apache.maven.doxia.siterenderer.SiteRenderingContext::getModules() (method java.util.List<org.apache.maven.doxia.siterenderer.ExtraDoxiaModuleReference> org.apache.maven.doxia.siterenderer.SiteRenderingContext::getModules() is part of the API)"
+  }, {
+    "name" : "package",
+    "value" : "org.apache.maven.doxia.siterenderer"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.maven.doxia.siterenderer.ExtraDoxiaModuleReference"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "newArchive",
+    "value" : "doxia-site-renderer-1.11.1.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.addedToInterface",
+  "old" : null,
+  "new" : "method void org.apache.maven.doxia.siterenderer.Renderer::copyResources(org.apache.maven.doxia.siterenderer.SiteRenderingContext, java.io.File) throws java.io.IOException",
+  "name" : "method added to interface",
+  "description" : "Method was added to an interface.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SEMANTIC",
+    "severity" : "POTENTIALLY_BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.apache.maven.doxia.siterenderer"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.maven.doxia.siterenderer.Renderer"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "Renderer"
+  }, {
+    "name" : "methodName",
+    "value" : "copyResources"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "newArchive",
+    "value" : "doxia-site-renderer-1.11.1.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.exception.checkedAdded",
+  "old" : "method org.apache.maven.doxia.siterenderer.SiteRenderingContext org.apache.maven.doxia.siterenderer.Renderer::createContextForSkin(java.io.File, java.util.Map, org.apache.maven.doxia.site.decoration.DecorationModel, java.lang.String, java.util.Locale) throws java.io.IOException",
+  "new" : "method org.apache.maven.doxia.siterenderer.SiteRenderingContext org.apache.maven.doxia.siterenderer.Renderer::createContextForSkin(org.apache.maven.artifact.Artifact, java.util.Map<java.lang.String, ?>, org.apache.maven.doxia.site.decoration.DecorationModel, java.lang.String, java.util.Locale) throws org.apache.maven.doxia.siterenderer.RendererException, java.io.IOException",
+  "name" : "Method newly throws checked exceptions",
+  "description" : "Method newly throws checked exceptions: org.apache.maven.doxia.siterenderer.RendererException.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "exception",
+    "value" : "org.apache.maven.doxia.siterenderer.RendererException"
+  }, {
+    "name" : "package",
+    "value" : "org.apache.maven.doxia.siterenderer"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.maven.doxia.siterenderer.Renderer"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "Renderer"
+  }, {
+    "name" : "methodName",
+    "value" : "createContextForSkin"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "doxia-site-renderer-1.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "doxia-site-renderer-1.11.1.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.parameterTypeChanged",
+  "old" : "parameter org.apache.maven.doxia.siterenderer.SiteRenderingContext org.apache.maven.doxia.siterenderer.Renderer::createContextForSkin(===java.io.File===, java.util.Map, org.apache.maven.doxia.site.decoration.DecorationModel, java.lang.String, java.util.Locale) throws java.io.IOException",
+  "new" : "parameter org.apache.maven.doxia.siterenderer.SiteRenderingContext org.apache.maven.doxia.siterenderer.Renderer::createContextForSkin(===org.apache.maven.artifact.Artifact===, java.util.Map<java.lang.String, ?>, org.apache.maven.doxia.site.decoration.DecorationModel, java.lang.String, java.util.Locale) throws org.apache.maven.doxia.siterenderer.RendererException, java.io.IOException",
+  "name" : "parameter type changed",
+  "description" : "The type of the parameter changed from 'java.io.File' to 'org.apache.maven.artifact.Artifact'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "POTENTIALLY_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "java.io.File"
+  }, {
+    "name" : "newType",
+    "value" : "org.apache.maven.artifact.Artifact"
+  }, {
+    "name" : "package",
+    "value" : "org.apache.maven.doxia.siterenderer"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.maven.doxia.siterenderer.Renderer"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "Renderer"
+  }, {
+    "name" : "methodName",
+    "value" : "createContextForSkin"
+  }, {
+    "name" : "parameterIndex",
+    "value" : "0"
+  }, {
+    "name" : "elementKind",
+    "value" : "parameter"
+  }, {
+    "name" : "oldArchive",
+    "value" : "doxia-site-renderer-1.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "doxia-site-renderer-1.11.1.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.numberOfParametersChanged",
+  "old" : "method org.apache.maven.doxia.siterenderer.SiteRenderingContext org.apache.maven.doxia.siterenderer.Renderer::createContextForTemplate(java.io.File, java.io.File, java.util.Map, org.apache.maven.doxia.site.decoration.DecorationModel, java.lang.String, java.util.Locale) throws java.net.MalformedURLException",
+  "new" : "method org.apache.maven.doxia.siterenderer.SiteRenderingContext org.apache.maven.doxia.siterenderer.Renderer::createContextForTemplate(java.io.File, java.util.Map<java.lang.String, ?>, org.apache.maven.doxia.site.decoration.DecorationModel, java.lang.String, java.util.Locale) throws java.net.MalformedURLException",
+  "name" : "number of parameters changed",
+  "description" : "The number of parameters of the method have changed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.apache.maven.doxia.siterenderer"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.maven.doxia.siterenderer.Renderer"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "Renderer"
+  }, {
+    "name" : "methodName",
+    "value" : "createContextForTemplate"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "doxia-site-renderer-1.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "doxia-site-renderer-1.11.1.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.element.nowDeprecated",
+  "old" : "method org.apache.maven.doxia.siterenderer.SiteRenderingContext org.apache.maven.doxia.siterenderer.Renderer::createContextForTemplate(java.io.File, java.io.File, java.util.Map, org.apache.maven.doxia.site.decoration.DecorationModel, java.lang.String, java.util.Locale) throws java.net.MalformedURLException",
+  "new" : "method org.apache.maven.doxia.siterenderer.SiteRenderingContext org.apache.maven.doxia.siterenderer.Renderer::createContextForTemplate(java.io.File, java.util.Map<java.lang.String, ?>, org.apache.maven.doxia.site.decoration.DecorationModel, java.lang.String, java.util.Locale) throws java.net.MalformedURLException",
+  "name" : "element now deprecated",
+  "description" : "The element is now deprecated.",
+  "criticality" : "allowed",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "EQUIVALENT"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "EQUIVALENT"
+  } ],
+  "attachments" : [ {
+    "name" : "annotationType",
+    "value" : "java.lang.Deprecated"
+  }, {
+    "name" : "annotation",
+    "value" : "@java.lang.Deprecated"
+  }, {
+    "name" : "package",
+    "value" : "org.apache.maven.doxia.siterenderer"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.maven.doxia.siterenderer.Renderer"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "Renderer"
+  }, {
+    "name" : "methodName",
+    "value" : "createContextForTemplate"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "doxia-site-renderer-1.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "doxia-site-renderer-1.11.1.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.returnTypeTypeParametersChanged",
+  "old" : "method java.util.Map org.apache.maven.doxia.siterenderer.Renderer::locateDocumentFiles(org.apache.maven.doxia.siterenderer.SiteRenderingContext) throws java.io.IOException, org.apache.maven.doxia.siterenderer.RendererException",
+  "new" : "method java.util.Map<java.lang.String, org.apache.maven.doxia.siterenderer.DocumentRenderer> org.apache.maven.doxia.siterenderer.Renderer::locateDocumentFiles(org.apache.maven.doxia.siterenderer.SiteRenderingContext) throws java.io.IOException, org.apache.maven.doxia.siterenderer.RendererException",
+  "name" : "return type changed type parameter",
+  "description" : "The return type changed from 'java.util.Map' to 'java.util.Map<java.lang.String, org.apache.maven.doxia.siterenderer.DocumentRenderer>'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "java.util.Map"
+  }, {
+    "name" : "newType",
+    "value" : "java.util.Map<java.lang.String, org.apache.maven.doxia.siterenderer.DocumentRenderer>"
+  }, {
+    "name" : "package",
+    "value" : "org.apache.maven.doxia.siterenderer"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.maven.doxia.siterenderer.Renderer"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "Renderer"
+  }, {
+    "name" : "methodName",
+    "value" : "locateDocumentFiles"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "doxia-site-renderer-1.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "doxia-site-renderer-1.11.1.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.addedToInterface",
+  "old" : null,
+  "new" : "method java.util.Map<java.lang.String, org.apache.maven.doxia.siterenderer.DocumentRenderer> org.apache.maven.doxia.siterenderer.Renderer::locateDocumentFiles(org.apache.maven.doxia.siterenderer.SiteRenderingContext, boolean) throws java.io.IOException, org.apache.maven.doxia.siterenderer.RendererException",
+  "name" : "method added to interface",
+  "description" : "Method was added to an interface.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SEMANTIC",
+    "severity" : "POTENTIALLY_BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.apache.maven.doxia.siterenderer"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.maven.doxia.siterenderer.Renderer"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "Renderer"
+  }, {
+    "name" : "methodName",
+    "value" : "locateDocumentFiles"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "newArchive",
+    "value" : "doxia-site-renderer-1.11.1.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.addedToInterface",
+  "old" : null,
+  "new" : "method void org.apache.maven.doxia.siterenderer.Renderer::mergeDocumentIntoSite(java.io.Writer, org.apache.maven.doxia.siterenderer.DocumentContent, org.apache.maven.doxia.siterenderer.SiteRenderingContext) throws org.apache.maven.doxia.siterenderer.RendererException",
+  "name" : "method added to interface",
+  "description" : "Method was added to an interface.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SEMANTIC",
+    "severity" : "POTENTIALLY_BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.apache.maven.doxia.siterenderer"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.maven.doxia.siterenderer.Renderer"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "Renderer"
+  }, {
+    "name" : "methodName",
+    "value" : "mergeDocumentIntoSite"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "newArchive",
+    "value" : "doxia-site-renderer-1.11.1.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.parameterTypeChanged",
+  "old" : "parameter void org.apache.maven.doxia.siterenderer.Renderer::renderDocument(java.io.Writer, ===org.apache.maven.doxia.module.xhtml.decoration.render.RenderingContext===, org.apache.maven.doxia.siterenderer.SiteRenderingContext) throws org.apache.maven.doxia.siterenderer.RendererException, java.io.FileNotFoundException, java.io.UnsupportedEncodingException",
+  "new" : "parameter void org.apache.maven.doxia.siterenderer.Renderer::renderDocument(java.io.Writer, ===org.apache.maven.doxia.siterenderer.RenderingContext===, org.apache.maven.doxia.siterenderer.SiteRenderingContext) throws org.apache.maven.doxia.siterenderer.RendererException, java.io.FileNotFoundException, java.io.UnsupportedEncodingException",
+  "name" : "parameter type changed",
+  "description" : "The type of the parameter changed from 'org.apache.maven.doxia.module.xhtml.decoration.render.RenderingContext' to 'org.apache.maven.doxia.siterenderer.RenderingContext'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "POTENTIALLY_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "org.apache.maven.doxia.module.xhtml.decoration.render.RenderingContext"
+  }, {
+    "name" : "newType",
+    "value" : "org.apache.maven.doxia.siterenderer.RenderingContext"
+  }, {
+    "name" : "package",
+    "value" : "org.apache.maven.doxia.siterenderer"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.maven.doxia.siterenderer.Renderer"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "Renderer"
+  }, {
+    "name" : "methodName",
+    "value" : "renderDocument"
+  }, {
+    "name" : "parameterIndex",
+    "value" : "1"
+  }, {
+    "name" : "elementKind",
+    "value" : "parameter"
+  }, {
+    "name" : "oldArchive",
+    "value" : "doxia-site-renderer-1.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "doxia-site-renderer-1.11.1.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.returnTypeTypeParametersChanged",
+  "old" : "method java.util.Map org.apache.maven.doxia.siterenderer.SiteRenderingContext::getModuleExcludes()",
+  "new" : "method java.util.Map<java.lang.String, java.lang.String> org.apache.maven.doxia.siterenderer.SiteRenderingContext::getModuleExcludes()",
+  "name" : "return type changed type parameter",
+  "description" : "The return type changed from 'java.util.Map' to 'java.util.Map<java.lang.String, java.lang.String>'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "java.util.Map"
+  }, {
+    "name" : "newType",
+    "value" : "java.util.Map<java.lang.String, java.lang.String>"
+  }, {
+    "name" : "package",
+    "value" : "org.apache.maven.doxia.siterenderer"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.maven.doxia.siterenderer.SiteRenderingContext"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "SiteRenderingContext"
+  }, {
+    "name" : "methodName",
+    "value" : "getModuleExcludes"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "doxia-site-renderer-1.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "doxia-site-renderer-1.11.1.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.returnTypeTypeParametersChanged",
+  "old" : "method java.util.List org.apache.maven.doxia.siterenderer.SiteRenderingContext::getModules()",
+  "new" : "method java.util.List<org.apache.maven.doxia.siterenderer.ExtraDoxiaModuleReference> org.apache.maven.doxia.siterenderer.SiteRenderingContext::getModules()",
+  "name" : "return type changed type parameter",
+  "description" : "The return type changed from 'java.util.List' to 'java.util.List<org.apache.maven.doxia.siterenderer.ExtraDoxiaModuleReference>'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "java.util.List"
+  }, {
+    "name" : "newType",
+    "value" : "java.util.List<org.apache.maven.doxia.siterenderer.ExtraDoxiaModuleReference>"
+  }, {
+    "name" : "package",
+    "value" : "org.apache.maven.doxia.siterenderer"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.maven.doxia.siterenderer.SiteRenderingContext"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "SiteRenderingContext"
+  }, {
+    "name" : "methodName",
+    "value" : "getModules"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "doxia-site-renderer-1.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "doxia-site-renderer-1.11.1.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.returnTypeTypeParametersChanged",
+  "old" : "method java.util.List org.apache.maven.doxia.siterenderer.SiteRenderingContext::getSiteDirectories()",
+  "new" : "method java.util.List<java.io.File> org.apache.maven.doxia.siterenderer.SiteRenderingContext::getSiteDirectories()",
+  "name" : "return type changed type parameter",
+  "description" : "The return type changed from 'java.util.List' to 'java.util.List<java.io.File>'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "java.util.List"
+  }, {
+    "name" : "newType",
+    "value" : "java.util.List<java.io.File>"
+  }, {
+    "name" : "package",
+    "value" : "org.apache.maven.doxia.siterenderer"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.maven.doxia.siterenderer.SiteRenderingContext"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "SiteRenderingContext"
+  }, {
+    "name" : "methodName",
+    "value" : "getSiteDirectories"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "doxia-site-renderer-1.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "doxia-site-renderer-1.11.1.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method java.io.File org.apache.maven.doxia.siterenderer.SiteRenderingContext::getSkinJarFile()",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.apache.maven.doxia.siterenderer"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.maven.doxia.siterenderer.SiteRenderingContext"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "SiteRenderingContext"
+  }, {
+    "name" : "methodName",
+    "value" : "getSkinJarFile"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "doxia-site-renderer-1.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.returnTypeTypeParametersChanged",
+  "old" : "method java.util.Map org.apache.maven.doxia.siterenderer.SiteRenderingContext::getTemplateProperties()",
+  "new" : "method java.util.Map<java.lang.String, ?> org.apache.maven.doxia.siterenderer.SiteRenderingContext::getTemplateProperties()",
+  "name" : "return type changed type parameter",
+  "description" : "The return type changed from 'java.util.Map' to 'java.util.Map<java.lang.String, ?>'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "java.util.Map"
+  }, {
+    "name" : "newType",
+    "value" : "java.util.Map<java.lang.String, ?>"
+  }, {
+    "name" : "package",
+    "value" : "org.apache.maven.doxia.siterenderer"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.maven.doxia.siterenderer.SiteRenderingContext"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "SiteRenderingContext"
+  }, {
+    "name" : "methodName",
+    "value" : "getTemplateProperties"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "doxia-site-renderer-1.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "doxia-site-renderer-1.11.1.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method void org.apache.maven.doxia.siterenderer.SiteRenderingContext::setSkinJarFile(java.io.File)",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.apache.maven.doxia.siterenderer"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.maven.doxia.siterenderer.SiteRenderingContext"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "SiteRenderingContext"
+  }, {
+    "name" : "methodName",
+    "value" : "setSkinJarFile"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "doxia-site-renderer-1.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.noLongerInheritsFromClass",
+  "old" : "class org.apache.maven.doxia.siterenderer.sink.SiteRendererSink",
+  "new" : "class org.apache.maven.doxia.siterenderer.sink.SiteRendererSink",
+  "name" : "removed super class",
+  "description" : "Class no longer inherits from 'org.apache.maven.doxia.module.xhtml.XhtmlSink'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "superClass",
+    "value" : "org.apache.maven.doxia.module.xhtml.XhtmlSink"
+  }, {
+    "name" : "package",
+    "value" : "org.apache.maven.doxia.siterenderer.sink"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.maven.doxia.siterenderer.sink.SiteRendererSink"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "SiteRendererSink"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "doxia-site-renderer-1.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "doxia-site-renderer-1.11.1.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.noLongerInheritsFromClass",
+  "old" : "class org.apache.maven.doxia.siterenderer.sink.SiteRendererSink",
+  "new" : "class org.apache.maven.doxia.siterenderer.sink.SiteRendererSink",
+  "name" : "removed super class",
+  "description" : "Class no longer inherits from 'org.apache.maven.doxia.sink.AbstractXmlSink'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "superClass",
+    "value" : "org.apache.maven.doxia.sink.AbstractXmlSink"
+  }, {
+    "name" : "package",
+    "value" : "org.apache.maven.doxia.siterenderer.sink"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.maven.doxia.siterenderer.sink.SiteRendererSink"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "SiteRendererSink"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "doxia-site-renderer-1.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "doxia-site-renderer-1.11.1.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.noLongerInheritsFromClass",
+  "old" : "class org.apache.maven.doxia.siterenderer.sink.SiteRendererSink",
+  "new" : "class org.apache.maven.doxia.siterenderer.sink.SiteRendererSink",
+  "name" : "removed super class",
+  "description" : "Class no longer inherits from 'org.apache.maven.doxia.sink.SinkAdapter'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "superClass",
+    "value" : "org.apache.maven.doxia.sink.SinkAdapter"
+  }, {
+    "name" : "package",
+    "value" : "org.apache.maven.doxia.siterenderer.sink"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.maven.doxia.siterenderer.sink.SiteRendererSink"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "SiteRendererSink"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "doxia-site-renderer-1.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "doxia-site-renderer-1.11.1.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.nonFinalClassInheritsFromNewClass",
+  "old" : "class org.apache.maven.doxia.siterenderer.sink.SiteRendererSink",
+  "new" : "class org.apache.maven.doxia.siterenderer.sink.SiteRendererSink",
+  "name" : "new super class of non-final class",
+  "description" : "Non-final class now inherits from 'org.apache.maven.doxia.module.xhtml5.Xhtml5Sink'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "POTENTIALLY_BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "POTENTIALLY_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "superClass",
+    "value" : "org.apache.maven.doxia.module.xhtml5.Xhtml5Sink"
+  }, {
+    "name" : "package",
+    "value" : "org.apache.maven.doxia.siterenderer.sink"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.maven.doxia.siterenderer.sink.SiteRendererSink"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "SiteRendererSink"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "doxia-site-renderer-1.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "doxia-site-renderer-1.11.1.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.nonFinalClassInheritsFromNewClass",
+  "old" : "class org.apache.maven.doxia.siterenderer.sink.SiteRendererSink",
+  "new" : "class org.apache.maven.doxia.siterenderer.sink.SiteRendererSink",
+  "name" : "new super class of non-final class",
+  "description" : "Non-final class now inherits from 'org.apache.maven.doxia.sink.impl.AbstractSink'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "POTENTIALLY_BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "POTENTIALLY_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "superClass",
+    "value" : "org.apache.maven.doxia.sink.impl.AbstractSink"
+  }, {
+    "name" : "package",
+    "value" : "org.apache.maven.doxia.siterenderer.sink"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.maven.doxia.siterenderer.sink.SiteRendererSink"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "SiteRendererSink"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "doxia-site-renderer-1.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "doxia-site-renderer-1.11.1.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.nonFinalClassInheritsFromNewClass",
+  "old" : "class org.apache.maven.doxia.siterenderer.sink.SiteRendererSink",
+  "new" : "class org.apache.maven.doxia.siterenderer.sink.SiteRendererSink",
+  "name" : "new super class of non-final class",
+  "description" : "Non-final class now inherits from 'org.apache.maven.doxia.sink.impl.AbstractXmlSink'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "POTENTIALLY_BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "POTENTIALLY_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "superClass",
+    "value" : "org.apache.maven.doxia.sink.impl.AbstractXmlSink"
+  }, {
+    "name" : "package",
+    "value" : "org.apache.maven.doxia.siterenderer.sink"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.maven.doxia.siterenderer.sink.SiteRendererSink"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "SiteRendererSink"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "doxia-site-renderer-1.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "doxia-site-renderer-1.11.1.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.nonFinalClassInheritsFromNewClass",
+  "old" : "class org.apache.maven.doxia.siterenderer.sink.SiteRendererSink",
+  "new" : "class org.apache.maven.doxia.siterenderer.sink.SiteRendererSink",
+  "name" : "new super class of non-final class",
+  "description" : "Non-final class now inherits from 'org.apache.maven.doxia.sink.impl.SinkAdapter'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "POTENTIALLY_BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "POTENTIALLY_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "superClass",
+    "value" : "org.apache.maven.doxia.sink.impl.SinkAdapter"
+  }, {
+    "name" : "package",
+    "value" : "org.apache.maven.doxia.siterenderer.sink"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.maven.doxia.siterenderer.sink.SiteRendererSink"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "SiteRendererSink"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "doxia-site-renderer-1.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "doxia-site-renderer-1.11.1.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.nonFinalClassInheritsFromNewClass",
+  "old" : "class org.apache.maven.doxia.siterenderer.sink.SiteRendererSink",
+  "new" : "class org.apache.maven.doxia.siterenderer.sink.SiteRendererSink",
+  "name" : "new super class of non-final class",
+  "description" : "Non-final class now inherits from 'org.apache.maven.doxia.sink.impl.Xhtml5BaseSink'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "POTENTIALLY_BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "POTENTIALLY_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "superClass",
+    "value" : "org.apache.maven.doxia.sink.impl.Xhtml5BaseSink"
+  }, {
+    "name" : "package",
+    "value" : "org.apache.maven.doxia.siterenderer.sink"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.maven.doxia.siterenderer.sink.SiteRendererSink"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "SiteRendererSink"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "doxia-site-renderer-1.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "doxia-site-renderer-1.11.1.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.nowImplementsInterface",
+  "old" : "class org.apache.maven.doxia.siterenderer.sink.SiteRendererSink",
+  "new" : "class org.apache.maven.doxia.siterenderer.sink.SiteRendererSink",
+  "name" : "class implements interface",
+  "description" : "Class now implements interface 'org.apache.maven.doxia.sink.Sink'.",
+  "criticality" : "documented",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "interface",
+    "value" : "org.apache.maven.doxia.sink.Sink"
+  }, {
+    "name" : "package",
+    "value" : "org.apache.maven.doxia.siterenderer.sink"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.maven.doxia.siterenderer.sink.SiteRendererSink"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "SiteRendererSink"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "doxia-site-renderer-1.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "doxia-site-renderer-1.11.1.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.nowImplementsInterface",
+  "old" : "class org.apache.maven.doxia.siterenderer.sink.SiteRendererSink",
+  "new" : "class org.apache.maven.doxia.siterenderer.sink.SiteRendererSink",
+  "name" : "class implements interface",
+  "description" : "Class now implements interface 'org.apache.maven.doxia.siterenderer.DocumentContent'.",
+  "criticality" : "documented",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "interface",
+    "value" : "org.apache.maven.doxia.siterenderer.DocumentContent"
+  }, {
+    "name" : "package",
+    "value" : "org.apache.maven.doxia.siterenderer.sink"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.maven.doxia.siterenderer.sink.SiteRendererSink"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "SiteRendererSink"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "doxia-site-renderer-1.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "doxia-site-renderer-1.11.1.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.field.removed",
+  "old" : "field org.apache.maven.doxia.module.xhtml.XhtmlMarkup.TBODY_TAG @ org.apache.maven.doxia.siterenderer.sink.SiteRendererSink",
+  "new" : null,
+  "name" : "field removed",
+  "description" : "Field removed from class.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.apache.maven.doxia.siterenderer.sink"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.maven.doxia.siterenderer.sink.SiteRendererSink"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "SiteRendererSink"
+  }, {
+    "name" : "fieldName",
+    "value" : "TBODY_TAG"
+  }, {
+    "name" : "elementKind",
+    "value" : "field"
+  }, {
+    "name" : "oldArchive",
+    "value" : "doxia-site-renderer-1.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.parameterTypeChanged",
+  "old" : "parameter void org.apache.maven.doxia.siterenderer.sink.SiteRendererSink::<init>(===org.apache.maven.doxia.module.xhtml.decoration.render.RenderingContext===)",
+  "new" : "parameter void org.apache.maven.doxia.siterenderer.sink.SiteRendererSink::<init>(===org.apache.maven.doxia.siterenderer.RenderingContext===)",
+  "name" : "parameter type changed",
+  "description" : "The type of the parameter changed from 'org.apache.maven.doxia.module.xhtml.decoration.render.RenderingContext' to 'org.apache.maven.doxia.siterenderer.RenderingContext'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "POTENTIALLY_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "org.apache.maven.doxia.module.xhtml.decoration.render.RenderingContext"
+  }, {
+    "name" : "newType",
+    "value" : "org.apache.maven.doxia.siterenderer.RenderingContext"
+  }, {
+    "name" : "package",
+    "value" : "org.apache.maven.doxia.siterenderer.sink"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.maven.doxia.siterenderer.sink.SiteRendererSink"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "SiteRendererSink"
+  }, {
+    "name" : "methodName",
+    "value" : "<init>"
+  }, {
+    "name" : "parameterIndex",
+    "value" : "0"
+  }, {
+    "name" : "elementKind",
+    "value" : "parameter"
+  }, {
+    "name" : "oldArchive",
+    "value" : "doxia-site-renderer-1.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "doxia-site-renderer-1.11.1.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method java.lang.String org.apache.maven.doxia.module.xhtml.XhtmlSink::encodeFragment(java.lang.String) @ org.apache.maven.doxia.siterenderer.sink.SiteRendererSink",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.apache.maven.doxia.siterenderer.sink"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.maven.doxia.siterenderer.sink.SiteRendererSink"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "SiteRendererSink"
+  }, {
+    "name" : "methodName",
+    "value" : "encodeFragment"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "doxia-site-renderer-1.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.visibilityReduced",
+  "old" : "method java.lang.String org.apache.maven.doxia.module.xhtml.XhtmlSink::encodeURL(java.lang.String) @ org.apache.maven.doxia.siterenderer.sink.SiteRendererSink",
+  "new" : "method java.lang.String org.apache.maven.doxia.sink.impl.Xhtml5BaseSink::encodeURL(java.lang.String) @ org.apache.maven.doxia.siterenderer.sink.SiteRendererSink",
+  "name" : "visibility reduced",
+  "description" : "visibility reduced",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldVisibility",
+    "value" : "public"
+  }, {
+    "name" : "newVisibility",
+    "value" : "protected"
+  }, {
+    "name" : "package",
+    "value" : "org.apache.maven.doxia.siterenderer.sink"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.maven.doxia.siterenderer.sink.SiteRendererSink"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "SiteRendererSink"
+  }, {
+    "name" : "methodName",
+    "value" : "encodeURL"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "doxia-site-renderer-1.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "doxia-site-renderer-1.11.1.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.visibilityReduced",
+  "old" : "method java.lang.String org.apache.maven.doxia.module.xhtml.XhtmlSink::escapeHTML(java.lang.String) @ org.apache.maven.doxia.siterenderer.sink.SiteRendererSink",
+  "new" : "method java.lang.String org.apache.maven.doxia.sink.impl.Xhtml5BaseSink::escapeHTML(java.lang.String) @ org.apache.maven.doxia.siterenderer.sink.SiteRendererSink",
+  "name" : "visibility reduced",
+  "description" : "visibility reduced",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldVisibility",
+    "value" : "public"
+  }, {
+    "name" : "newVisibility",
+    "value" : "protected"
+  }, {
+    "name" : "package",
+    "value" : "org.apache.maven.doxia.siterenderer.sink"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.maven.doxia.siterenderer.sink.SiteRendererSink"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "SiteRendererSink"
+  }, {
+    "name" : "methodName",
+    "value" : "escapeHTML"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "doxia-site-renderer-1.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "doxia-site-renderer-1.11.1.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.returnTypeTypeParametersChanged",
+  "old" : "method java.util.List org.apache.maven.doxia.siterenderer.sink.SiteRendererSink::getAuthors()",
+  "new" : "method java.util.List<java.lang.String> org.apache.maven.doxia.siterenderer.sink.SiteRendererSink::getAuthors()",
+  "name" : "return type changed type parameter",
+  "description" : "The return type changed from 'java.util.List' to 'java.util.List<java.lang.String>'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "java.util.List"
+  }, {
+    "name" : "newType",
+    "value" : "java.util.List<java.lang.String>"
+  }, {
+    "name" : "package",
+    "value" : "org.apache.maven.doxia.siterenderer.sink"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.maven.doxia.siterenderer.sink.SiteRendererSink"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "SiteRendererSink"
+  }, {
+    "name" : "methodName",
+    "value" : "getAuthors"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "doxia-site-renderer-1.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "doxia-site-renderer-1.11.1.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method java.lang.StringBuffer org.apache.maven.doxia.module.xhtml.XhtmlSink::getBuffer() @ org.apache.maven.doxia.siterenderer.sink.SiteRendererSink",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.apache.maven.doxia.siterenderer.sink"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.maven.doxia.siterenderer.sink.SiteRendererSink"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "SiteRendererSink"
+  }, {
+    "name" : "methodName",
+    "value" : "getBuffer"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "doxia-site-renderer-1.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.returnTypeChanged",
+  "old" : "method org.apache.maven.doxia.module.xhtml.decoration.render.RenderingContext org.apache.maven.doxia.module.xhtml.XhtmlSink::getRenderingContext() @ org.apache.maven.doxia.siterenderer.sink.SiteRendererSink",
+  "new" : "method org.apache.maven.doxia.siterenderer.RenderingContext org.apache.maven.doxia.siterenderer.sink.SiteRendererSink::getRenderingContext()",
+  "name" : "return type changed",
+  "description" : "The return type changed from 'org.apache.maven.doxia.module.xhtml.decoration.render.RenderingContext' to  'org.apache.maven.doxia.siterenderer.RenderingContext'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "POTENTIALLY_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "org.apache.maven.doxia.module.xhtml.decoration.render.RenderingContext"
+  }, {
+    "name" : "newType",
+    "value" : "org.apache.maven.doxia.siterenderer.RenderingContext"
+  }, {
+    "name" : "package",
+    "value" : "org.apache.maven.doxia.siterenderer.sink"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.maven.doxia.siterenderer.sink.SiteRendererSink"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "SiteRendererSink"
+  }, {
+    "name" : "methodName",
+    "value" : "getRenderingContext"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "doxia-site-renderer-1.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "doxia-site-renderer-1.11.1.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.inheritedMovedToClass",
+  "old" : "method org.apache.maven.doxia.module.xhtml.decoration.render.RenderingContext org.apache.maven.doxia.module.xhtml.XhtmlSink::getRenderingContext() @ org.apache.maven.doxia.siterenderer.sink.SiteRendererSink",
+  "new" : "method org.apache.maven.doxia.siterenderer.RenderingContext org.apache.maven.doxia.siterenderer.sink.SiteRendererSink::getRenderingContext()",
+  "name" : "inherited method moved to class",
+  "description" : "The method was previously declared in superclass 'org.apache.maven.doxia.module.xhtml.XhtmlSink' but is now declared in class 'org.apache.maven.doxia.siterenderer.sink.SiteRendererSink'.",
+  "criticality" : "allowed",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "EQUIVALENT"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "EQUIVALENT"
+  } ],
+  "attachments" : [ {
+    "name" : "oldClass",
+    "value" : "org.apache.maven.doxia.module.xhtml.XhtmlSink"
+  }, {
+    "name" : "newClass",
+    "value" : "org.apache.maven.doxia.siterenderer.sink.SiteRendererSink"
+  }, {
+    "name" : "package",
+    "value" : "org.apache.maven.doxia.siterenderer.sink"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.maven.doxia.siterenderer.sink.SiteRendererSink"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "SiteRendererSink"
+  }, {
+    "name" : "methodName",
+    "value" : "getRenderingContext"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "doxia-site-renderer-1.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "doxia-site-renderer-1.11.1.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.parameterTypeChanged",
+  "old" : "parameter void org.apache.maven.doxia.module.xhtml.XhtmlSink::link(java.lang.String, ===java.lang.String===) @ org.apache.maven.doxia.siterenderer.sink.SiteRendererSink",
+  "new" : "parameter void org.apache.maven.doxia.sink.impl.Xhtml5BaseSink::link(java.lang.String, ===org.apache.maven.doxia.sink.SinkEventAttributes===) @ org.apache.maven.doxia.siterenderer.sink.SiteRendererSink",
+  "name" : "parameter type changed",
+  "description" : "The type of the parameter changed from 'java.lang.String' to 'org.apache.maven.doxia.sink.SinkEventAttributes'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "POTENTIALLY_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "java.lang.String"
+  }, {
+    "name" : "newType",
+    "value" : "org.apache.maven.doxia.sink.SinkEventAttributes"
+  }, {
+    "name" : "package",
+    "value" : "org.apache.maven.doxia.siterenderer.sink"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.maven.doxia.siterenderer.sink.SiteRendererSink"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "SiteRendererSink"
+  }, {
+    "name" : "methodName",
+    "value" : "link"
+  }, {
+    "name" : "parameterIndex",
+    "value" : "1"
+  }, {
+    "name" : "elementKind",
+    "value" : "parameter"
+  }, {
+    "name" : "oldArchive",
+    "value" : "doxia-site-renderer-1.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "doxia-site-renderer-1.11.1.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method void org.apache.maven.doxia.module.xhtml.XhtmlSink::resetBuffer() @ org.apache.maven.doxia.siterenderer.sink.SiteRendererSink",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.apache.maven.doxia.siterenderer.sink"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.maven.doxia.siterenderer.sink.SiteRendererSink"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "SiteRendererSink"
+  }, {
+    "name" : "methodName",
+    "value" : "resetBuffer"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "doxia-site-renderer-1.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method void org.apache.maven.doxia.module.xhtml.XhtmlSink::tableCell(boolean, java.lang.String) @ org.apache.maven.doxia.siterenderer.sink.SiteRendererSink",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.apache.maven.doxia.siterenderer.sink"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.maven.doxia.siterenderer.sink.SiteRendererSink"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "SiteRendererSink"
+  }, {
+    "name" : "methodName",
+    "value" : "tableCell"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "doxia-site-renderer-1.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.parameterTypeChanged",
+  "old" : "parameter void org.apache.maven.doxia.module.xhtml.XhtmlSink::tableCell(===boolean===) @ org.apache.maven.doxia.siterenderer.sink.SiteRendererSink",
+  "new" : "parameter void org.apache.maven.doxia.sink.impl.Xhtml5BaseSink::tableCell(===org.apache.maven.doxia.sink.SinkEventAttributes===) @ org.apache.maven.doxia.siterenderer.sink.SiteRendererSink",
+  "name" : "parameter type changed",
+  "description" : "The type of the parameter changed from 'boolean' to 'org.apache.maven.doxia.sink.SinkEventAttributes'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "POTENTIALLY_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "boolean"
+  }, {
+    "name" : "newType",
+    "value" : "org.apache.maven.doxia.sink.SinkEventAttributes"
+  }, {
+    "name" : "package",
+    "value" : "org.apache.maven.doxia.siterenderer.sink"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.maven.doxia.siterenderer.sink.SiteRendererSink"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "SiteRendererSink"
+  }, {
+    "name" : "methodName",
+    "value" : "tableCell"
+  }, {
+    "name" : "parameterIndex",
+    "value" : "0"
+  }, {
+    "name" : "elementKind",
+    "value" : "parameter"
+  }, {
+    "name" : "oldArchive",
+    "value" : "doxia-site-renderer-1.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "doxia-site-renderer-1.11.1.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method void org.apache.maven.doxia.module.xhtml.XhtmlSink::tableCell_(boolean) @ org.apache.maven.doxia.siterenderer.sink.SiteRendererSink",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.apache.maven.doxia.siterenderer.sink"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.maven.doxia.siterenderer.sink.SiteRendererSink"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "SiteRendererSink"
+  }, {
+    "name" : "methodName",
+    "value" : "tableCell_"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "doxia-site-renderer-1.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method void org.apache.maven.doxia.sink.AbstractXmlSink::writeEndTagWithoutEOL(javax.swing.text.html.HTML.Tag) @ org.apache.maven.doxia.siterenderer.sink.SiteRendererSink",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.apache.maven.doxia.siterenderer.sink"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.maven.doxia.siterenderer.sink.SiteRendererSink"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "SiteRendererSink"
+  }, {
+    "name" : "methodName",
+    "value" : "writeEndTagWithoutEOL"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "doxia-site-renderer-1.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+} ]

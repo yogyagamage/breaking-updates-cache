@@ -1,0 +1,2619 @@
+[ {
+  "code" : "java.class.removed",
+  "old" : "interface javax.servlet.AsyncContext",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "javax.servlet"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "javax.servlet.AsyncContext"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "AsyncContext"
+  }, {
+    "name" : "elementKind",
+    "value" : "interface"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jakarta.servlet-api-4.0.4.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class javax.servlet.AsyncEvent",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "javax.servlet"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "javax.servlet.AsyncEvent"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "AsyncEvent"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jakarta.servlet-api-4.0.4.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "interface javax.servlet.AsyncListener",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "javax.servlet"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "javax.servlet.AsyncListener"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "AsyncListener"
+  }, {
+    "name" : "elementKind",
+    "value" : "interface"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jakarta.servlet-api-4.0.4.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "enum javax.servlet.DispatcherType",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "javax.servlet"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "javax.servlet.DispatcherType"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "DispatcherType"
+  }, {
+    "name" : "elementKind",
+    "value" : "enum"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jakarta.servlet-api-4.0.4.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "interface javax.servlet.Filter",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "javax.servlet"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "javax.servlet.Filter"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "Filter"
+  }, {
+    "name" : "elementKind",
+    "value" : "interface"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jakarta.servlet-api-4.0.4.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "interface javax.servlet.FilterChain",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "javax.servlet"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "javax.servlet.FilterChain"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "FilterChain"
+  }, {
+    "name" : "elementKind",
+    "value" : "interface"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jakarta.servlet-api-4.0.4.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "interface javax.servlet.FilterConfig",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "javax.servlet"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "javax.servlet.FilterConfig"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "FilterConfig"
+  }, {
+    "name" : "elementKind",
+    "value" : "interface"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jakarta.servlet-api-4.0.4.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "interface javax.servlet.FilterRegistration",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "javax.servlet"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "javax.servlet.FilterRegistration"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "FilterRegistration"
+  }, {
+    "name" : "elementKind",
+    "value" : "interface"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jakarta.servlet-api-4.0.4.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class javax.servlet.GenericFilter",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "javax.servlet"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "javax.servlet.GenericFilter"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "GenericFilter"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jakarta.servlet-api-4.0.4.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class javax.servlet.GenericServlet",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "javax.servlet"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "javax.servlet.GenericServlet"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "GenericServlet"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jakarta.servlet-api-4.0.4.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class javax.servlet.HttpConstraintElement",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "javax.servlet"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "javax.servlet.HttpConstraintElement"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "HttpConstraintElement"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jakarta.servlet-api-4.0.4.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class javax.servlet.HttpMethodConstraintElement",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "javax.servlet"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "javax.servlet.HttpMethodConstraintElement"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "HttpMethodConstraintElement"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jakarta.servlet-api-4.0.4.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class javax.servlet.MultipartConfigElement",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "javax.servlet"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "javax.servlet.MultipartConfigElement"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "MultipartConfigElement"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jakarta.servlet-api-4.0.4.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "interface javax.servlet.ReadListener",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "javax.servlet"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "javax.servlet.ReadListener"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "ReadListener"
+  }, {
+    "name" : "elementKind",
+    "value" : "interface"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jakarta.servlet-api-4.0.4.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "interface javax.servlet.Registration",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "javax.servlet"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "javax.servlet.Registration"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "Registration"
+  }, {
+    "name" : "elementKind",
+    "value" : "interface"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jakarta.servlet-api-4.0.4.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "interface javax.servlet.RequestDispatcher",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "javax.servlet"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "javax.servlet.RequestDispatcher"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "RequestDispatcher"
+  }, {
+    "name" : "elementKind",
+    "value" : "interface"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jakarta.servlet-api-4.0.4.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "interface javax.servlet.Servlet",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "javax.servlet"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "javax.servlet.Servlet"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "Servlet"
+  }, {
+    "name" : "elementKind",
+    "value" : "interface"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jakarta.servlet-api-4.0.4.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "interface javax.servlet.ServletConfig",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "javax.servlet"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "javax.servlet.ServletConfig"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "ServletConfig"
+  }, {
+    "name" : "elementKind",
+    "value" : "interface"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jakarta.servlet-api-4.0.4.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "interface javax.servlet.ServletContainerInitializer",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "javax.servlet"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "javax.servlet.ServletContainerInitializer"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "ServletContainerInitializer"
+  }, {
+    "name" : "elementKind",
+    "value" : "interface"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jakarta.servlet-api-4.0.4.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "interface javax.servlet.ServletContext",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "javax.servlet"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "javax.servlet.ServletContext"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "ServletContext"
+  }, {
+    "name" : "elementKind",
+    "value" : "interface"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jakarta.servlet-api-4.0.4.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class javax.servlet.ServletContextAttributeEvent",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "javax.servlet"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "javax.servlet.ServletContextAttributeEvent"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "ServletContextAttributeEvent"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jakarta.servlet-api-4.0.4.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "interface javax.servlet.ServletContextAttributeListener",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "javax.servlet"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "javax.servlet.ServletContextAttributeListener"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "ServletContextAttributeListener"
+  }, {
+    "name" : "elementKind",
+    "value" : "interface"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jakarta.servlet-api-4.0.4.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class javax.servlet.ServletContextEvent",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "javax.servlet"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "javax.servlet.ServletContextEvent"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "ServletContextEvent"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jakarta.servlet-api-4.0.4.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "interface javax.servlet.ServletContextListener",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "javax.servlet"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "javax.servlet.ServletContextListener"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "ServletContextListener"
+  }, {
+    "name" : "elementKind",
+    "value" : "interface"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jakarta.servlet-api-4.0.4.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class javax.servlet.ServletException",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "javax.servlet"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "javax.servlet.ServletException"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "ServletException"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jakarta.servlet-api-4.0.4.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class javax.servlet.ServletInputStream",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "javax.servlet"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "javax.servlet.ServletInputStream"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "ServletInputStream"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jakarta.servlet-api-4.0.4.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class javax.servlet.ServletOutputStream",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "javax.servlet"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "javax.servlet.ServletOutputStream"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "ServletOutputStream"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jakarta.servlet-api-4.0.4.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "interface javax.servlet.ServletRegistration",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "javax.servlet"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "javax.servlet.ServletRegistration"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "ServletRegistration"
+  }, {
+    "name" : "elementKind",
+    "value" : "interface"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jakarta.servlet-api-4.0.4.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "interface javax.servlet.ServletRequest",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "javax.servlet"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "javax.servlet.ServletRequest"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "ServletRequest"
+  }, {
+    "name" : "elementKind",
+    "value" : "interface"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jakarta.servlet-api-4.0.4.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class javax.servlet.ServletRequestAttributeEvent",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "javax.servlet"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "javax.servlet.ServletRequestAttributeEvent"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "ServletRequestAttributeEvent"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jakarta.servlet-api-4.0.4.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "interface javax.servlet.ServletRequestAttributeListener",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "javax.servlet"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "javax.servlet.ServletRequestAttributeListener"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "ServletRequestAttributeListener"
+  }, {
+    "name" : "elementKind",
+    "value" : "interface"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jakarta.servlet-api-4.0.4.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class javax.servlet.ServletRequestEvent",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "javax.servlet"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "javax.servlet.ServletRequestEvent"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "ServletRequestEvent"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jakarta.servlet-api-4.0.4.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "interface javax.servlet.ServletRequestListener",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "javax.servlet"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "javax.servlet.ServletRequestListener"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "ServletRequestListener"
+  }, {
+    "name" : "elementKind",
+    "value" : "interface"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jakarta.servlet-api-4.0.4.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class javax.servlet.ServletRequestWrapper",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "javax.servlet"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "javax.servlet.ServletRequestWrapper"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "ServletRequestWrapper"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jakarta.servlet-api-4.0.4.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "interface javax.servlet.ServletResponse",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "javax.servlet"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "javax.servlet.ServletResponse"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "ServletResponse"
+  }, {
+    "name" : "elementKind",
+    "value" : "interface"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jakarta.servlet-api-4.0.4.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class javax.servlet.ServletResponseWrapper",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "javax.servlet"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "javax.servlet.ServletResponseWrapper"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "ServletResponseWrapper"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jakarta.servlet-api-4.0.4.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class javax.servlet.ServletSecurityElement",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "javax.servlet"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "javax.servlet.ServletSecurityElement"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "ServletSecurityElement"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jakarta.servlet-api-4.0.4.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "interface javax.servlet.SessionCookieConfig",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "javax.servlet"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "javax.servlet.SessionCookieConfig"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "SessionCookieConfig"
+  }, {
+    "name" : "elementKind",
+    "value" : "interface"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jakarta.servlet-api-4.0.4.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "enum javax.servlet.SessionTrackingMode",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "javax.servlet"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "javax.servlet.SessionTrackingMode"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "SessionTrackingMode"
+  }, {
+    "name" : "elementKind",
+    "value" : "enum"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jakarta.servlet-api-4.0.4.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "interface javax.servlet.SingleThreadModel",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "javax.servlet"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "javax.servlet.SingleThreadModel"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "SingleThreadModel"
+  }, {
+    "name" : "elementKind",
+    "value" : "interface"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jakarta.servlet-api-4.0.4.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class javax.servlet.UnavailableException",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "javax.servlet"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "javax.servlet.UnavailableException"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "UnavailableException"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jakarta.servlet-api-4.0.4.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "interface javax.servlet.WriteListener",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "javax.servlet"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "javax.servlet.WriteListener"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "WriteListener"
+  }, {
+    "name" : "elementKind",
+    "value" : "interface"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jakarta.servlet-api-4.0.4.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "@interface javax.servlet.annotation.HandlesTypes",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "javax.servlet.annotation"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "javax.servlet.annotation.HandlesTypes"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "HandlesTypes"
+  }, {
+    "name" : "elementKind",
+    "value" : "@interface"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jakarta.servlet-api-4.0.4.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "@interface javax.servlet.annotation.HttpConstraint",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "javax.servlet.annotation"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "javax.servlet.annotation.HttpConstraint"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "HttpConstraint"
+  }, {
+    "name" : "elementKind",
+    "value" : "@interface"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jakarta.servlet-api-4.0.4.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "@interface javax.servlet.annotation.HttpMethodConstraint",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "javax.servlet.annotation"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "javax.servlet.annotation.HttpMethodConstraint"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "HttpMethodConstraint"
+  }, {
+    "name" : "elementKind",
+    "value" : "@interface"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jakarta.servlet-api-4.0.4.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "@interface javax.servlet.annotation.MultipartConfig",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "javax.servlet.annotation"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "javax.servlet.annotation.MultipartConfig"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "MultipartConfig"
+  }, {
+    "name" : "elementKind",
+    "value" : "@interface"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jakarta.servlet-api-4.0.4.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "@interface javax.servlet.annotation.ServletSecurity",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "javax.servlet.annotation"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "javax.servlet.annotation.ServletSecurity"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "ServletSecurity"
+  }, {
+    "name" : "elementKind",
+    "value" : "@interface"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jakarta.servlet-api-4.0.4.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "@interface javax.servlet.annotation.WebFilter",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "javax.servlet.annotation"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "javax.servlet.annotation.WebFilter"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "WebFilter"
+  }, {
+    "name" : "elementKind",
+    "value" : "@interface"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jakarta.servlet-api-4.0.4.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "@interface javax.servlet.annotation.WebInitParam",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "javax.servlet.annotation"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "javax.servlet.annotation.WebInitParam"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "WebInitParam"
+  }, {
+    "name" : "elementKind",
+    "value" : "@interface"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jakarta.servlet-api-4.0.4.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "@interface javax.servlet.annotation.WebListener",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "javax.servlet.annotation"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "javax.servlet.annotation.WebListener"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "WebListener"
+  }, {
+    "name" : "elementKind",
+    "value" : "@interface"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jakarta.servlet-api-4.0.4.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "@interface javax.servlet.annotation.WebServlet",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "javax.servlet.annotation"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "javax.servlet.annotation.WebServlet"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "WebServlet"
+  }, {
+    "name" : "elementKind",
+    "value" : "@interface"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jakarta.servlet-api-4.0.4.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "interface javax.servlet.descriptor.JspConfigDescriptor",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "javax.servlet.descriptor"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "javax.servlet.descriptor.JspConfigDescriptor"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "JspConfigDescriptor"
+  }, {
+    "name" : "elementKind",
+    "value" : "interface"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jakarta.servlet-api-4.0.4.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "interface javax.servlet.descriptor.JspPropertyGroupDescriptor",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "javax.servlet.descriptor"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "javax.servlet.descriptor.JspPropertyGroupDescriptor"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "JspPropertyGroupDescriptor"
+  }, {
+    "name" : "elementKind",
+    "value" : "interface"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jakarta.servlet-api-4.0.4.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "interface javax.servlet.descriptor.TaglibDescriptor",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "javax.servlet.descriptor"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "javax.servlet.descriptor.TaglibDescriptor"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "TaglibDescriptor"
+  }, {
+    "name" : "elementKind",
+    "value" : "interface"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jakarta.servlet-api-4.0.4.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class javax.servlet.http.Cookie",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "javax.servlet.http"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "javax.servlet.http.Cookie"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "Cookie"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jakarta.servlet-api-4.0.4.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class javax.servlet.http.HttpFilter",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "javax.servlet.http"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "javax.servlet.http.HttpFilter"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "HttpFilter"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jakarta.servlet-api-4.0.4.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class javax.servlet.http.HttpServlet",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "javax.servlet.http"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "javax.servlet.http.HttpServlet"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "HttpServlet"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jakarta.servlet-api-4.0.4.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "interface javax.servlet.http.HttpServletMapping",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "javax.servlet.http"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "javax.servlet.http.HttpServletMapping"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "HttpServletMapping"
+  }, {
+    "name" : "elementKind",
+    "value" : "interface"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jakarta.servlet-api-4.0.4.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "interface javax.servlet.http.HttpServletRequest",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "javax.servlet.http"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "javax.servlet.http.HttpServletRequest"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "HttpServletRequest"
+  }, {
+    "name" : "elementKind",
+    "value" : "interface"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jakarta.servlet-api-4.0.4.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class javax.servlet.http.HttpServletRequestWrapper",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "javax.servlet.http"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "javax.servlet.http.HttpServletRequestWrapper"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "HttpServletRequestWrapper"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jakarta.servlet-api-4.0.4.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "interface javax.servlet.http.HttpServletResponse",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "javax.servlet.http"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "javax.servlet.http.HttpServletResponse"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "HttpServletResponse"
+  }, {
+    "name" : "elementKind",
+    "value" : "interface"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jakarta.servlet-api-4.0.4.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class javax.servlet.http.HttpServletResponseWrapper",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "javax.servlet.http"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "javax.servlet.http.HttpServletResponseWrapper"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "HttpServletResponseWrapper"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jakarta.servlet-api-4.0.4.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "interface javax.servlet.http.HttpSession",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "javax.servlet.http"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "javax.servlet.http.HttpSession"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "HttpSession"
+  }, {
+    "name" : "elementKind",
+    "value" : "interface"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jakarta.servlet-api-4.0.4.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "interface javax.servlet.http.HttpSessionActivationListener",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "javax.servlet.http"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "javax.servlet.http.HttpSessionActivationListener"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "HttpSessionActivationListener"
+  }, {
+    "name" : "elementKind",
+    "value" : "interface"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jakarta.servlet-api-4.0.4.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "interface javax.servlet.http.HttpSessionAttributeListener",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "javax.servlet.http"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "javax.servlet.http.HttpSessionAttributeListener"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "HttpSessionAttributeListener"
+  }, {
+    "name" : "elementKind",
+    "value" : "interface"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jakarta.servlet-api-4.0.4.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class javax.servlet.http.HttpSessionBindingEvent",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "javax.servlet.http"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "javax.servlet.http.HttpSessionBindingEvent"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "HttpSessionBindingEvent"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jakarta.servlet-api-4.0.4.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "interface javax.servlet.http.HttpSessionBindingListener",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "javax.servlet.http"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "javax.servlet.http.HttpSessionBindingListener"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "HttpSessionBindingListener"
+  }, {
+    "name" : "elementKind",
+    "value" : "interface"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jakarta.servlet-api-4.0.4.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "interface javax.servlet.http.HttpSessionContext",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "javax.servlet.http"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "javax.servlet.http.HttpSessionContext"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "HttpSessionContext"
+  }, {
+    "name" : "elementKind",
+    "value" : "interface"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jakarta.servlet-api-4.0.4.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class javax.servlet.http.HttpSessionEvent",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "javax.servlet.http"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "javax.servlet.http.HttpSessionEvent"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "HttpSessionEvent"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jakarta.servlet-api-4.0.4.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "interface javax.servlet.http.HttpSessionIdListener",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "javax.servlet.http"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "javax.servlet.http.HttpSessionIdListener"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "HttpSessionIdListener"
+  }, {
+    "name" : "elementKind",
+    "value" : "interface"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jakarta.servlet-api-4.0.4.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "interface javax.servlet.http.HttpSessionListener",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "javax.servlet.http"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "javax.servlet.http.HttpSessionListener"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "HttpSessionListener"
+  }, {
+    "name" : "elementKind",
+    "value" : "interface"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jakarta.servlet-api-4.0.4.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "interface javax.servlet.http.HttpUpgradeHandler",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "javax.servlet.http"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "javax.servlet.http.HttpUpgradeHandler"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "HttpUpgradeHandler"
+  }, {
+    "name" : "elementKind",
+    "value" : "interface"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jakarta.servlet-api-4.0.4.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class javax.servlet.http.HttpUtils",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "javax.servlet.http"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "javax.servlet.http.HttpUtils"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "HttpUtils"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jakarta.servlet-api-4.0.4.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "enum javax.servlet.http.MappingMatch",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "javax.servlet.http"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "javax.servlet.http.MappingMatch"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "MappingMatch"
+  }, {
+    "name" : "elementKind",
+    "value" : "enum"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jakarta.servlet-api-4.0.4.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "interface javax.servlet.http.Part",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "javax.servlet.http"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "javax.servlet.http.Part"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "Part"
+  }, {
+    "name" : "elementKind",
+    "value" : "interface"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jakarta.servlet-api-4.0.4.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "interface javax.servlet.http.PushBuilder",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "javax.servlet.http"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "javax.servlet.http.PushBuilder"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "PushBuilder"
+  }, {
+    "name" : "elementKind",
+    "value" : "interface"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jakarta.servlet-api-4.0.4.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "interface javax.servlet.http.WebConnection",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "javax.servlet.http"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "javax.servlet.http.WebConnection"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "WebConnection"
+  }, {
+    "name" : "elementKind",
+    "value" : "interface"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jakarta.servlet-api-4.0.4.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+} ]

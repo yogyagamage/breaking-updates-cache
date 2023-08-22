@@ -117,8 +117,8 @@ public class RevapiRunner {
         File localRepo = new File("cache");
         final List<RemoteRepository> remoteRepositories = Collections.unmodifiableList(remoteRepositories(new String[]{
                 "https://repo1.maven.org/maven2/", "https://packages.atlassian.com/mvn/maven-atlassian-external/",
-                "https://oss.sonatype.org/content/repositories/releases/", "https://plugins.jenkins.io/",
-                "https://repo.spring.io/plugins-release/", "https://repo.spring.io/libs-milestone/"
+                "https://oss.sonatype.org/content/repositories/releases/", "https://repo.jenkins-ci.org",
+                "https://plugins.jenkins.io/", "https://repo.spring.io/plugins-release/", "https://repo.spring.io/libs-milestone/"
         }));
         RepositorySystem repositorySystem = MavenBootstrap.newRepositorySystem();
         DefaultRepositorySystemSession session = MavenBootstrap.newRepositorySystemSession(repositorySystem,

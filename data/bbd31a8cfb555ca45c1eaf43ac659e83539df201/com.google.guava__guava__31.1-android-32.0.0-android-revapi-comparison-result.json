@@ -1,0 +1,443 @@
+[ {
+  "code" : "java.class.defaultSerializationChanged",
+  "old" : "class com.google.common.collect.MutableClassToInstanceMap<B>",
+  "new" : "class com.google.common.collect.MutableClassToInstanceMap<B>",
+  "name" : "default serialization changed",
+  "description" : "The default serialization ID for the class has changed. This means that the new version of the class is not deserializable from the byte stream of a serialized old class.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SEMANTIC",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "EQUIVALENT"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "EQUIVALENT"
+  } ],
+  "attachments" : [ {
+    "name" : "oldSerialVersionUID",
+    "value" : "-7552231618554695426"
+  }, {
+    "name" : "newSerialVersionUID",
+    "value" : "-6465115567550291858"
+  }, {
+    "name" : "package",
+    "value" : "com.google.common.collect"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.google.common.collect.MutableClassToInstanceMap"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "MutableClassToInstanceMap"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "guava-31.1-android.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "guava-32.0.0-android.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.annotation.added",
+  "old" : "class com.google.common.collect.MutableClassToInstanceMap<B>",
+  "new" : "class com.google.common.collect.MutableClassToInstanceMap<B>",
+  "name" : "new annotation",
+  "description" : "Element newly annotated with 'com.google.common.annotations.J2ktIncompatible'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SEMANTIC",
+    "severity" : "POTENTIALLY_BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "EQUIVALENT"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "EQUIVALENT"
+  } ],
+  "attachments" : [ {
+    "name" : "annotationType",
+    "value" : "com.google.common.annotations.J2ktIncompatible"
+  }, {
+    "name" : "annotation",
+    "value" : "@com.google.common.annotations.J2ktIncompatible"
+  }, {
+    "name" : "package",
+    "value" : "com.google.common.collect"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.google.common.collect.MutableClassToInstanceMap"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "MutableClassToInstanceMap"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "guava-31.1-android.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "guava-32.0.0-android.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.abstractMethodAdded",
+  "old" : null,
+  "new" : "method com.google.common.io.BaseEncoding com.google.common.io.BaseEncoding::ignoreCase()",
+  "name" : "abstract method added",
+  "description" : "Abstract method was added.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.google.common.io"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.google.common.io.BaseEncoding"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "BaseEncoding"
+  }, {
+    "name" : "methodName",
+    "value" : "ignoreCase"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "newArchive",
+    "value" : "guava-32.0.0-android.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.abstractMethodAdded",
+  "old" : null,
+  "new" : "method java.lang.reflect.AnnotatedType com.google.common.reflect.Invokable<T, R>::getAnnotatedReturnType()",
+  "name" : "abstract method added",
+  "description" : "Abstract method was added.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.google.common.reflect"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.google.common.reflect.Invokable"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "Invokable"
+  }, {
+    "name" : "methodName",
+    "value" : "getAnnotatedReturnType"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "newArchive",
+    "value" : "guava-32.0.0-android.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.nonPublicPartOfAPI",
+  "old" : "class com.google.common.util.concurrent.CycleDetectingLockFactory.ExampleStackTrace",
+  "new" : "class com.google.common.util.concurrent.CycleDetectingLockFactory.ExampleStackTrace",
+  "name" : "non-public class in API",
+  "description" : "Class 'com.google.common.util.concurrent.CycleDetectingLockFactory.ExampleStackTrace' is indirectly included in the API (by the means of method return type for example) but the class is not accessible (neither public nor protected).",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SEMANTIC",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "classSimpleName",
+    "value" : "ExampleStackTrace"
+  }, {
+    "name" : "exampleUseChainInNewApi",
+    "value" : "com.google.common.util.concurrent.CycleDetectingLockFactory.ExampleStackTrace is returned from method com.google.common.util.concurrent.CycleDetectingLockFactory.ExampleStackTrace com.google.common.util.concurrent.CycleDetectingLockFactory.PotentialDeadlockException::getConflictingStackTrace() (method com.google.common.util.concurrent.CycleDetectingLockFactory.ExampleStackTrace com.google.common.util.concurrent.CycleDetectingLockFactory.PotentialDeadlockException::getConflictingStackTrace() is part of the API)"
+  }, {
+    "name" : "package",
+    "value" : "com.google.common.util.concurrent"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.google.common.util.concurrent.CycleDetectingLockFactory.ExampleStackTrace"
+  }, {
+    "name" : "exampleUseChainInOldApi",
+    "value" : "com.google.common.util.concurrent.CycleDetectingLockFactory.ExampleStackTrace is returned from method com.google.common.util.concurrent.CycleDetectingLockFactory.ExampleStackTrace com.google.common.util.concurrent.CycleDetectingLockFactory.PotentialDeadlockException::getConflictingStackTrace() (method com.google.common.util.concurrent.CycleDetectingLockFactory.ExampleStackTrace com.google.common.util.concurrent.CycleDetectingLockFactory.PotentialDeadlockException::getConflictingStackTrace() is part of the API)"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "guava-31.1-android.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "guava-32.0.0-android.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+} ][ {
+  "code" : "java.class.defaultSerializationChanged",
+  "old" : "class com.google.common.collect.MutableClassToInstanceMap<B>",
+  "new" : "class com.google.common.collect.MutableClassToInstanceMap<B>",
+  "name" : "default serialization changed",
+  "description" : "The default serialization ID for the class has changed. This means that the new version of the class is not deserializable from the byte stream of a serialized old class.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "EQUIVALENT"
+  }, {
+    "compatibility" : "SEMANTIC",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "EQUIVALENT"
+  } ],
+  "attachments" : [ {
+    "name" : "oldSerialVersionUID",
+    "value" : "-7552231618554695426"
+  }, {
+    "name" : "newSerialVersionUID",
+    "value" : "-6465115567550291858"
+  }, {
+    "name" : "package",
+    "value" : "com.google.common.collect"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.google.common.collect.MutableClassToInstanceMap"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "MutableClassToInstanceMap"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "guava-31.1-android.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "guava-32.0.0-android.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.annotation.added",
+  "old" : "class com.google.common.collect.MutableClassToInstanceMap<B>",
+  "new" : "class com.google.common.collect.MutableClassToInstanceMap<B>",
+  "name" : "new annotation",
+  "description" : "Element newly annotated with 'com.google.common.annotations.J2ktIncompatible'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "EQUIVALENT"
+  }, {
+    "compatibility" : "SEMANTIC",
+    "severity" : "POTENTIALLY_BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "EQUIVALENT"
+  } ],
+  "attachments" : [ {
+    "name" : "annotationType",
+    "value" : "com.google.common.annotations.J2ktIncompatible"
+  }, {
+    "name" : "annotation",
+    "value" : "@com.google.common.annotations.J2ktIncompatible"
+  }, {
+    "name" : "package",
+    "value" : "com.google.common.collect"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.google.common.collect.MutableClassToInstanceMap"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "MutableClassToInstanceMap"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "guava-31.1-android.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "guava-32.0.0-android.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.abstractMethodAdded",
+  "old" : null,
+  "new" : "method com.google.common.io.BaseEncoding com.google.common.io.BaseEncoding::ignoreCase()",
+  "name" : "abstract method added",
+  "description" : "Abstract method was added.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.google.common.io"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.google.common.io.BaseEncoding"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "BaseEncoding"
+  }, {
+    "name" : "methodName",
+    "value" : "ignoreCase"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "newArchive",
+    "value" : "guava-32.0.0-android.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.abstractMethodAdded",
+  "old" : null,
+  "new" : "method java.lang.reflect.AnnotatedType com.google.common.reflect.Invokable<T, R>::getAnnotatedReturnType()",
+  "name" : "abstract method added",
+  "description" : "Abstract method was added.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.google.common.reflect"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.google.common.reflect.Invokable"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "Invokable"
+  }, {
+    "name" : "methodName",
+    "value" : "getAnnotatedReturnType"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "newArchive",
+    "value" : "guava-32.0.0-android.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.nonPublicPartOfAPI",
+  "old" : "class com.google.common.util.concurrent.CycleDetectingLockFactory.ExampleStackTrace",
+  "new" : "class com.google.common.util.concurrent.CycleDetectingLockFactory.ExampleStackTrace",
+  "name" : "non-public class in API",
+  "description" : "Class 'com.google.common.util.concurrent.CycleDetectingLockFactory.ExampleStackTrace' is indirectly included in the API (by the means of method return type for example) but the class is not accessible (neither public nor protected).",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SEMANTIC",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "classSimpleName",
+    "value" : "ExampleStackTrace"
+  }, {
+    "name" : "exampleUseChainInNewApi",
+    "value" : "com.google.common.util.concurrent.CycleDetectingLockFactory.ExampleStackTrace is returned from method com.google.common.util.concurrent.CycleDetectingLockFactory.ExampleStackTrace com.google.common.util.concurrent.CycleDetectingLockFactory.PotentialDeadlockException::getConflictingStackTrace() (method com.google.common.util.concurrent.CycleDetectingLockFactory.ExampleStackTrace com.google.common.util.concurrent.CycleDetectingLockFactory.PotentialDeadlockException::getConflictingStackTrace() is part of the API)"
+  }, {
+    "name" : "package",
+    "value" : "com.google.common.util.concurrent"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.google.common.util.concurrent.CycleDetectingLockFactory.ExampleStackTrace"
+  }, {
+    "name" : "exampleUseChainInOldApi",
+    "value" : "com.google.common.util.concurrent.CycleDetectingLockFactory.ExampleStackTrace is returned from method com.google.common.util.concurrent.CycleDetectingLockFactory.ExampleStackTrace com.google.common.util.concurrent.CycleDetectingLockFactory.PotentialDeadlockException::getConflictingStackTrace() (method com.google.common.util.concurrent.CycleDetectingLockFactory.ExampleStackTrace com.google.common.util.concurrent.CycleDetectingLockFactory.PotentialDeadlockException::getConflictingStackTrace() is part of the API)"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "guava-31.1-android.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "guava-32.0.0-android.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+} ]

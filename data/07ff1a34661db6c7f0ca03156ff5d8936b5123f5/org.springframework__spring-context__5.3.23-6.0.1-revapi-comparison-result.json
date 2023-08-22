@@ -1,0 +1,5200 @@
+[ {
+  "code" : "java.class.defaultSerializationChanged",
+  "old" : "class org.springframework.cache.interceptor.NameMatchCacheOperationSource",
+  "new" : "class org.springframework.cache.interceptor.NameMatchCacheOperationSource",
+  "name" : "default serialization changed",
+  "description" : "The default serialization ID for the class has changed. This means that the new version of the class is not deserializable from the byte stream of a serialized old class.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "EQUIVALENT"
+  }, {
+    "compatibility" : "SEMANTIC",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "EQUIVALENT"
+  } ],
+  "attachments" : [ {
+    "name" : "oldSerialVersionUID",
+    "value" : "4549146278316454739"
+  }, {
+    "name" : "newSerialVersionUID",
+    "value" : "-4840503855290107151"
+  }, {
+    "name" : "package",
+    "value" : "org.springframework.cache.interceptor"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.springframework.cache.interceptor.NameMatchCacheOperationSource"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "NameMatchCacheOperationSource"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "spring-context-5.3.23.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "spring-context-6.0.1.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method void org.springframework.cache.support.AbstractCacheManager::addCache(org.springframework.cache.Cache)",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.springframework.cache.support"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.springframework.cache.support.AbstractCacheManager"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "AbstractCacheManager"
+  }, {
+    "name" : "methodName",
+    "value" : "addCache"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "spring-context-5.3.23.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.addedToInterface",
+  "old" : null,
+  "new" : "method <A extends java.lang.annotation.Annotation> java.util.Set<A> org.springframework.beans.factory.ListableBeanFactory::findAllAnnotationsOnBean(java.lang.String, java.lang.Class<A>, boolean) throws org.springframework.beans.factory.NoSuchBeanDefinitionException @ org.springframework.context.ApplicationContext",
+  "name" : "method added to interface",
+  "description" : "Method was added to an interface.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SEMANTIC",
+    "severity" : "POTENTIALLY_BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.springframework.context"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.springframework.context.ApplicationContext"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "ApplicationContext"
+  }, {
+    "name" : "methodName",
+    "value" : "findAllAnnotationsOnBean"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "newArchive",
+    "value" : "spring-context-6.0.1.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.addedToInterface",
+  "old" : null,
+  "new" : "method <A extends java.lang.annotation.Annotation> java.util.Set<A> org.springframework.beans.factory.ListableBeanFactory::findAllAnnotationsOnBean(java.lang.String, java.lang.Class<A>, boolean) throws org.springframework.beans.factory.NoSuchBeanDefinitionException @ org.springframework.context.ConfigurableApplicationContext",
+  "name" : "method added to interface",
+  "description" : "Method was added to an interface.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SEMANTIC",
+    "severity" : "POTENTIALLY_BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.springframework.context"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.springframework.context.ConfigurableApplicationContext"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "ConfigurableApplicationContext"
+  }, {
+    "name" : "methodName",
+    "value" : "findAllAnnotationsOnBean"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "newArchive",
+    "value" : "spring-context-6.0.1.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.addedToInterface",
+  "old" : null,
+  "new" : "method void org.springframework.context.ConfigurableApplicationContext::removeApplicationListener(org.springframework.context.ApplicationListener<?>)",
+  "name" : "method added to interface",
+  "description" : "Method was added to an interface.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SEMANTIC",
+    "severity" : "POTENTIALLY_BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.springframework.context"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.springframework.context.ConfigurableApplicationContext"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "ConfigurableApplicationContext"
+  }, {
+    "name" : "methodName",
+    "value" : "removeApplicationListener"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "newArchive",
+    "value" : "spring-context-6.0.1.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.field.removedWithConstant",
+  "old" : "field org.springframework.context.annotation.AnnotationConfigUtils.REQUIRED_ANNOTATION_PROCESSOR_BEAN_NAME",
+  "new" : null,
+  "name" : "field with constant removed",
+  "description" : "Field with constant value has been removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SEMANTIC",
+    "severity" : "POTENTIALLY_BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.springframework.context.annotation"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.springframework.context.annotation.AnnotationConfigUtils"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "AnnotationConfigUtils"
+  }, {
+    "name" : "fieldName",
+    "value" : "REQUIRED_ANNOTATION_PROCESSOR_BEAN_NAME"
+  }, {
+    "name" : "elementKind",
+    "value" : "field"
+  }, {
+    "name" : "oldArchive",
+    "value" : "spring-context-5.3.23.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.attributeRemovedFromAnnotationType",
+  "old" : "method org.springframework.beans.factory.annotation.Autowire org.springframework.context.annotation.Bean::autowire()",
+  "new" : null,
+  "name" : "removed attribute",
+  "description" : "The annotation no longer has an attribute.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.springframework.context.annotation"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.springframework.context.annotation.Bean"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "Bean"
+  }, {
+    "name" : "methodName",
+    "value" : "autowire"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "spring-context-5.3.23.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.defaultSerializationChanged",
+  "old" : "class org.springframework.context.annotation.CommonAnnotationBeanPostProcessor",
+  "new" : "class org.springframework.context.annotation.CommonAnnotationBeanPostProcessor",
+  "name" : "default serialization changed",
+  "description" : "The default serialization ID for the class has changed. This means that the new version of the class is not deserializable from the byte stream of a serialized old class.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "EQUIVALENT"
+  }, {
+    "compatibility" : "SEMANTIC",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "EQUIVALENT"
+  } ],
+  "attachments" : [ {
+    "name" : "oldSerialVersionUID",
+    "value" : "-2611234294893264157"
+  }, {
+    "name" : "newSerialVersionUID",
+    "value" : "2818286745361426780"
+  }, {
+    "name" : "package",
+    "value" : "org.springframework.context.annotation"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.springframework.context.annotation.CommonAnnotationBeanPostProcessor"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "CommonAnnotationBeanPostProcessor"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "spring-context-5.3.23.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "spring-context-6.0.1.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method org.springframework.beans.PropertyValues org.springframework.context.annotation.CommonAnnotationBeanPostProcessor::postProcessPropertyValues(org.springframework.beans.PropertyValues, java.beans.PropertyDescriptor[], java.lang.Object, java.lang.String)",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.springframework.context.annotation"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.springframework.context.annotation.CommonAnnotationBeanPostProcessor"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "CommonAnnotationBeanPostProcessor"
+  }, {
+    "name" : "methodName",
+    "value" : "postProcessPropertyValues"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "spring-context-5.3.23.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "enum org.springframework.context.annotation.MBeanExportConfiguration.SpecificPlatform",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.springframework.context.annotation"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.springframework.context.annotation.MBeanExportConfiguration.SpecificPlatform"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "SpecificPlatform"
+  }, {
+    "name" : "elementKind",
+    "value" : "enum"
+  }, {
+    "name" : "oldArchive",
+    "value" : "spring-context-5.3.23.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method void org.springframework.context.support.AbstractApplicationContext::destroy()",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.springframework.context.support"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.springframework.context.support.AbstractApplicationContext"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "AbstractApplicationContext"
+  }, {
+    "name" : "methodName",
+    "value" : "destroy"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "spring-context-5.3.23.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class org.springframework.context.support.LiveBeansView",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.springframework.context.support"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.springframework.context.support.LiveBeansView"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "LiveBeansView"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "spring-context-5.3.23.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "interface org.springframework.context.support.LiveBeansViewMBean",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.springframework.context.support"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.springframework.context.support.LiveBeansViewMBean"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "LiveBeansViewMBean"
+  }, {
+    "name" : "elementKind",
+    "value" : "interface"
+  }, {
+    "name" : "oldArchive",
+    "value" : "spring-context-5.3.23.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class org.springframework.ejb.access.AbstractRemoteSlsbInvokerInterceptor",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.springframework.ejb.access"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.springframework.ejb.access.AbstractRemoteSlsbInvokerInterceptor"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "AbstractRemoteSlsbInvokerInterceptor"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "spring-context-5.3.23.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class org.springframework.ejb.access.AbstractSlsbInvokerInterceptor",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.springframework.ejb.access"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.springframework.ejb.access.AbstractSlsbInvokerInterceptor"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "AbstractSlsbInvokerInterceptor"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "spring-context-5.3.23.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class org.springframework.ejb.access.EjbAccessException",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.springframework.ejb.access"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.springframework.ejb.access.EjbAccessException"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "EjbAccessException"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "spring-context-5.3.23.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class org.springframework.ejb.access.LocalSlsbInvokerInterceptor",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.springframework.ejb.access"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.springframework.ejb.access.LocalSlsbInvokerInterceptor"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "LocalSlsbInvokerInterceptor"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "spring-context-5.3.23.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class org.springframework.ejb.access.LocalStatelessSessionProxyFactoryBean",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.springframework.ejb.access"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.springframework.ejb.access.LocalStatelessSessionProxyFactoryBean"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "LocalStatelessSessionProxyFactoryBean"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "spring-context-5.3.23.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class org.springframework.ejb.access.SimpleRemoteSlsbInvokerInterceptor",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.springframework.ejb.access"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.springframework.ejb.access.SimpleRemoteSlsbInvokerInterceptor"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "SimpleRemoteSlsbInvokerInterceptor"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "spring-context-5.3.23.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class org.springframework.ejb.access.SimpleRemoteStatelessSessionProxyFactoryBean",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.springframework.ejb.access"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.springframework.ejb.access.SimpleRemoteStatelessSessionProxyFactoryBean"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "SimpleRemoteStatelessSessionProxyFactoryBean"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "spring-context-5.3.23.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class org.springframework.format.datetime.joda.DateTimeFormatterFactory",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.springframework.format.datetime.joda"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.springframework.format.datetime.joda.DateTimeFormatterFactory"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "DateTimeFormatterFactory"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "spring-context-5.3.23.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class org.springframework.format.datetime.joda.DateTimeFormatterFactoryBean",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.springframework.format.datetime.joda"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.springframework.format.datetime.joda.DateTimeFormatterFactoryBean"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "DateTimeFormatterFactoryBean"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "spring-context-5.3.23.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class org.springframework.format.datetime.joda.DateTimeParser",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.springframework.format.datetime.joda"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.springframework.format.datetime.joda.DateTimeParser"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "DateTimeParser"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "spring-context-5.3.23.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class org.springframework.format.datetime.joda.JodaDateTimeFormatAnnotationFormatterFactory",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.springframework.format.datetime.joda"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.springframework.format.datetime.joda.JodaDateTimeFormatAnnotationFormatterFactory"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "JodaDateTimeFormatAnnotationFormatterFactory"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "spring-context-5.3.23.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class org.springframework.format.datetime.joda.JodaTimeContext",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.springframework.format.datetime.joda"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.springframework.format.datetime.joda.JodaTimeContext"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "JodaTimeContext"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "spring-context-5.3.23.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class org.springframework.format.datetime.joda.JodaTimeContextHolder",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.springframework.format.datetime.joda"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.springframework.format.datetime.joda.JodaTimeContextHolder"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "JodaTimeContextHolder"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "spring-context-5.3.23.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class org.springframework.format.datetime.joda.JodaTimeFormatterRegistrar",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.springframework.format.datetime.joda"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.springframework.format.datetime.joda.JodaTimeFormatterRegistrar"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "JodaTimeFormatterRegistrar"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "spring-context-5.3.23.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class org.springframework.format.datetime.joda.LocalDateParser",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.springframework.format.datetime.joda"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.springframework.format.datetime.joda.LocalDateParser"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "LocalDateParser"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "spring-context-5.3.23.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class org.springframework.format.datetime.joda.LocalDateTimeParser",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.springframework.format.datetime.joda"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.springframework.format.datetime.joda.LocalDateTimeParser"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "LocalDateTimeParser"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "spring-context-5.3.23.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class org.springframework.format.datetime.joda.LocalTimeParser",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.springframework.format.datetime.joda"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.springframework.format.datetime.joda.LocalTimeParser"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "LocalTimeParser"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "spring-context-5.3.23.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class org.springframework.format.datetime.joda.MillisecondInstantPrinter",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.springframework.format.datetime.joda"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.springframework.format.datetime.joda.MillisecondInstantPrinter"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "MillisecondInstantPrinter"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "spring-context-5.3.23.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class org.springframework.format.datetime.joda.ReadableInstantPrinter",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.springframework.format.datetime.joda"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.springframework.format.datetime.joda.ReadableInstantPrinter"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "ReadableInstantPrinter"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "spring-context-5.3.23.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class org.springframework.format.datetime.joda.ReadablePartialPrinter",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.springframework.format.datetime.joda"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.springframework.format.datetime.joda.ReadablePartialPrinter"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "ReadablePartialPrinter"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "spring-context-5.3.23.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class org.springframework.instrument.classloading.weblogic.WebLogicLoadTimeWeaver",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.springframework.instrument.classloading.weblogic"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.springframework.instrument.classloading.weblogic.WebLogicLoadTimeWeaver"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "WebLogicLoadTimeWeaver"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "spring-context-5.3.23.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class org.springframework.instrument.classloading.websphere.WebSphereLoadTimeWeaver",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.springframework.instrument.classloading.websphere"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.springframework.instrument.classloading.websphere.WebSphereLoadTimeWeaver"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "WebSphereLoadTimeWeaver"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "spring-context-5.3.23.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class org.springframework.jmx.support.WebSphereMBeanServerFactoryBean",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.springframework.jmx.support"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.springframework.jmx.support.WebSphereMBeanServerFactoryBean"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "WebSphereMBeanServerFactoryBean"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "spring-context-5.3.23.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class org.springframework.remoting.RemoteAccessException",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.springframework.remoting"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.springframework.remoting.RemoteAccessException"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "RemoteAccessException"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "spring-context-5.3.23.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class org.springframework.remoting.RemoteConnectFailureException",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.springframework.remoting"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.springframework.remoting.RemoteConnectFailureException"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "RemoteConnectFailureException"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "spring-context-5.3.23.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class org.springframework.remoting.RemoteInvocationFailureException",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.springframework.remoting"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.springframework.remoting.RemoteInvocationFailureException"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "RemoteInvocationFailureException"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "spring-context-5.3.23.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class org.springframework.remoting.RemoteLookupFailureException",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.springframework.remoting"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.springframework.remoting.RemoteLookupFailureException"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "RemoteLookupFailureException"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "spring-context-5.3.23.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class org.springframework.remoting.RemoteProxyFailureException",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.springframework.remoting"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.springframework.remoting.RemoteProxyFailureException"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "RemoteProxyFailureException"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "spring-context-5.3.23.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class org.springframework.remoting.RemoteTimeoutException",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.springframework.remoting"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.springframework.remoting.RemoteTimeoutException"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "RemoteTimeoutException"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "spring-context-5.3.23.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class org.springframework.remoting.rmi.CodebaseAwareObjectInputStream",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.springframework.remoting.rmi"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.springframework.remoting.rmi.CodebaseAwareObjectInputStream"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "CodebaseAwareObjectInputStream"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "spring-context-5.3.23.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class org.springframework.remoting.rmi.JndiRmiClientInterceptor",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.springframework.remoting.rmi"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.springframework.remoting.rmi.JndiRmiClientInterceptor"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "JndiRmiClientInterceptor"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "spring-context-5.3.23.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class org.springframework.remoting.rmi.JndiRmiProxyFactoryBean",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.springframework.remoting.rmi"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.springframework.remoting.rmi.JndiRmiProxyFactoryBean"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "JndiRmiProxyFactoryBean"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "spring-context-5.3.23.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class org.springframework.remoting.rmi.JndiRmiServiceExporter",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.springframework.remoting.rmi"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.springframework.remoting.rmi.JndiRmiServiceExporter"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "JndiRmiServiceExporter"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "spring-context-5.3.23.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class org.springframework.remoting.rmi.RemoteInvocationSerializingExporter",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.springframework.remoting.rmi"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.springframework.remoting.rmi.RemoteInvocationSerializingExporter"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "RemoteInvocationSerializingExporter"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "spring-context-5.3.23.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class org.springframework.remoting.rmi.RmiBasedExporter",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.springframework.remoting.rmi"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.springframework.remoting.rmi.RmiBasedExporter"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "RmiBasedExporter"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "spring-context-5.3.23.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class org.springframework.remoting.rmi.RmiClientInterceptor",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.springframework.remoting.rmi"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.springframework.remoting.rmi.RmiClientInterceptor"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "RmiClientInterceptor"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "spring-context-5.3.23.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class org.springframework.remoting.rmi.RmiClientInterceptorUtils",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.springframework.remoting.rmi"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.springframework.remoting.rmi.RmiClientInterceptorUtils"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "RmiClientInterceptorUtils"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "spring-context-5.3.23.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "interface org.springframework.remoting.rmi.RmiInvocationHandler",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.springframework.remoting.rmi"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.springframework.remoting.rmi.RmiInvocationHandler"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "RmiInvocationHandler"
+  }, {
+    "name" : "elementKind",
+    "value" : "interface"
+  }, {
+    "name" : "oldArchive",
+    "value" : "spring-context-5.3.23.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class org.springframework.remoting.rmi.RmiProxyFactoryBean",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.springframework.remoting.rmi"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.springframework.remoting.rmi.RmiProxyFactoryBean"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "RmiProxyFactoryBean"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "spring-context-5.3.23.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class org.springframework.remoting.rmi.RmiRegistryFactoryBean",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.springframework.remoting.rmi"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.springframework.remoting.rmi.RmiRegistryFactoryBean"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "RmiRegistryFactoryBean"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "spring-context-5.3.23.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class org.springframework.remoting.rmi.RmiServiceExporter",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.springframework.remoting.rmi"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.springframework.remoting.rmi.RmiServiceExporter"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "RmiServiceExporter"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "spring-context-5.3.23.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class org.springframework.remoting.soap.SoapFaultException",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.springframework.remoting.soap"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.springframework.remoting.soap.SoapFaultException"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "SoapFaultException"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "spring-context-5.3.23.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class org.springframework.remoting.support.DefaultRemoteInvocationExecutor",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.springframework.remoting.support"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.springframework.remoting.support.DefaultRemoteInvocationExecutor"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "DefaultRemoteInvocationExecutor"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "spring-context-5.3.23.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class org.springframework.remoting.support.DefaultRemoteInvocationFactory",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.springframework.remoting.support"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.springframework.remoting.support.DefaultRemoteInvocationFactory"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "DefaultRemoteInvocationFactory"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "spring-context-5.3.23.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class org.springframework.remoting.support.RemoteAccessor",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.springframework.remoting.support"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.springframework.remoting.support.RemoteAccessor"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "RemoteAccessor"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "spring-context-5.3.23.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class org.springframework.remoting.support.RemoteExporter",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.springframework.remoting.support"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.springframework.remoting.support.RemoteExporter"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "RemoteExporter"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "spring-context-5.3.23.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class org.springframework.remoting.support.RemoteInvocation",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.springframework.remoting.support"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.springframework.remoting.support.RemoteInvocation"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "RemoteInvocation"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "spring-context-5.3.23.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class org.springframework.remoting.support.RemoteInvocationBasedAccessor",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.springframework.remoting.support"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.springframework.remoting.support.RemoteInvocationBasedAccessor"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "RemoteInvocationBasedAccessor"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "spring-context-5.3.23.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class org.springframework.remoting.support.RemoteInvocationBasedExporter",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.springframework.remoting.support"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.springframework.remoting.support.RemoteInvocationBasedExporter"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "RemoteInvocationBasedExporter"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "spring-context-5.3.23.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "interface org.springframework.remoting.support.RemoteInvocationExecutor",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.springframework.remoting.support"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.springframework.remoting.support.RemoteInvocationExecutor"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "RemoteInvocationExecutor"
+  }, {
+    "name" : "elementKind",
+    "value" : "interface"
+  }, {
+    "name" : "oldArchive",
+    "value" : "spring-context-5.3.23.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "interface org.springframework.remoting.support.RemoteInvocationFactory",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.springframework.remoting.support"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.springframework.remoting.support.RemoteInvocationFactory"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "RemoteInvocationFactory"
+  }, {
+    "name" : "elementKind",
+    "value" : "interface"
+  }, {
+    "name" : "oldArchive",
+    "value" : "spring-context-5.3.23.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class org.springframework.remoting.support.RemoteInvocationResult",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.springframework.remoting.support"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.springframework.remoting.support.RemoteInvocationResult"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "RemoteInvocationResult"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "spring-context-5.3.23.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class org.springframework.remoting.support.RemoteInvocationTraceInterceptor",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.springframework.remoting.support"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.springframework.remoting.support.RemoteInvocationTraceInterceptor"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "RemoteInvocationTraceInterceptor"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "spring-context-5.3.23.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class org.springframework.remoting.support.RemoteInvocationUtils",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.springframework.remoting.support"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.springframework.remoting.support.RemoteInvocationUtils"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "RemoteInvocationUtils"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "spring-context-5.3.23.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class org.springframework.remoting.support.RemotingSupport",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.springframework.remoting.support"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.springframework.remoting.support.RemotingSupport"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "RemotingSupport"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "spring-context-5.3.23.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class org.springframework.remoting.support.SimpleHttpServerFactoryBean",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.springframework.remoting.support"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.springframework.remoting.support.SimpleHttpServerFactoryBean"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "SimpleHttpServerFactoryBean"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "spring-context-5.3.23.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class org.springframework.remoting.support.UrlBasedRemoteAccessor",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.springframework.remoting.support"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.springframework.remoting.support.UrlBasedRemoteAccessor"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "UrlBasedRemoteAccessor"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "spring-context-5.3.23.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.noLongerDefault",
+  "old" : "method java.util.concurrent.ScheduledFuture<?> org.springframework.scheduling.TaskScheduler::schedule(java.lang.Runnable, java.time.Instant)",
+  "new" : "method java.util.concurrent.ScheduledFuture<?> org.springframework.scheduling.TaskScheduler::schedule(java.lang.Runnable, java.time.Instant)",
+  "name" : "method no longer default",
+  "description" : "The interface no longer has the default implementation of the method.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldModifiers",
+    "value" : "public default"
+  }, {
+    "name" : "newModifiers",
+    "value" : "public abstract"
+  }, {
+    "name" : "package",
+    "value" : "org.springframework.scheduling"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.springframework.scheduling.TaskScheduler"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "TaskScheduler"
+  }, {
+    "name" : "methodName",
+    "value" : "schedule"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "spring-context-5.3.23.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "spring-context-6.0.1.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.nowAbstract",
+  "old" : "method java.util.concurrent.ScheduledFuture<?> org.springframework.scheduling.TaskScheduler::schedule(java.lang.Runnable, java.time.Instant)",
+  "new" : "method java.util.concurrent.ScheduledFuture<?> org.springframework.scheduling.TaskScheduler::schedule(java.lang.Runnable, java.time.Instant)",
+  "name" : "Method now abstract",
+  "description" : "Method now abstract",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldModifiers",
+    "value" : "public default"
+  }, {
+    "name" : "newModifiers",
+    "value" : "public abstract"
+  }, {
+    "name" : "package",
+    "value" : "org.springframework.scheduling"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.springframework.scheduling.TaskScheduler"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "TaskScheduler"
+  }, {
+    "name" : "methodName",
+    "value" : "schedule"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "spring-context-5.3.23.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "spring-context-6.0.1.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.noLongerDefault",
+  "old" : "method java.util.concurrent.ScheduledFuture<?> org.springframework.scheduling.TaskScheduler::scheduleAtFixedRate(java.lang.Runnable, java.time.Duration)",
+  "new" : "method java.util.concurrent.ScheduledFuture<?> org.springframework.scheduling.TaskScheduler::scheduleAtFixedRate(java.lang.Runnable, java.time.Duration)",
+  "name" : "method no longer default",
+  "description" : "The interface no longer has the default implementation of the method.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldModifiers",
+    "value" : "public default"
+  }, {
+    "name" : "newModifiers",
+    "value" : "public abstract"
+  }, {
+    "name" : "package",
+    "value" : "org.springframework.scheduling"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.springframework.scheduling.TaskScheduler"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "TaskScheduler"
+  }, {
+    "name" : "methodName",
+    "value" : "scheduleAtFixedRate"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "spring-context-5.3.23.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "spring-context-6.0.1.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.nowAbstract",
+  "old" : "method java.util.concurrent.ScheduledFuture<?> org.springframework.scheduling.TaskScheduler::scheduleAtFixedRate(java.lang.Runnable, java.time.Duration)",
+  "new" : "method java.util.concurrent.ScheduledFuture<?> org.springframework.scheduling.TaskScheduler::scheduleAtFixedRate(java.lang.Runnable, java.time.Duration)",
+  "name" : "Method now abstract",
+  "description" : "Method now abstract",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldModifiers",
+    "value" : "public default"
+  }, {
+    "name" : "newModifiers",
+    "value" : "public abstract"
+  }, {
+    "name" : "package",
+    "value" : "org.springframework.scheduling"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.springframework.scheduling.TaskScheduler"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "TaskScheduler"
+  }, {
+    "name" : "methodName",
+    "value" : "scheduleAtFixedRate"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "spring-context-5.3.23.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "spring-context-6.0.1.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.noLongerDefault",
+  "old" : "method java.util.concurrent.ScheduledFuture<?> org.springframework.scheduling.TaskScheduler::scheduleAtFixedRate(java.lang.Runnable, java.time.Instant, java.time.Duration)",
+  "new" : "method java.util.concurrent.ScheduledFuture<?> org.springframework.scheduling.TaskScheduler::scheduleAtFixedRate(java.lang.Runnable, java.time.Instant, java.time.Duration)",
+  "name" : "method no longer default",
+  "description" : "The interface no longer has the default implementation of the method.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldModifiers",
+    "value" : "public default"
+  }, {
+    "name" : "newModifiers",
+    "value" : "public abstract"
+  }, {
+    "name" : "package",
+    "value" : "org.springframework.scheduling"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.springframework.scheduling.TaskScheduler"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "TaskScheduler"
+  }, {
+    "name" : "methodName",
+    "value" : "scheduleAtFixedRate"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "spring-context-5.3.23.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "spring-context-6.0.1.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.nowAbstract",
+  "old" : "method java.util.concurrent.ScheduledFuture<?> org.springframework.scheduling.TaskScheduler::scheduleAtFixedRate(java.lang.Runnable, java.time.Instant, java.time.Duration)",
+  "new" : "method java.util.concurrent.ScheduledFuture<?> org.springframework.scheduling.TaskScheduler::scheduleAtFixedRate(java.lang.Runnable, java.time.Instant, java.time.Duration)",
+  "name" : "Method now abstract",
+  "description" : "Method now abstract",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldModifiers",
+    "value" : "public default"
+  }, {
+    "name" : "newModifiers",
+    "value" : "public abstract"
+  }, {
+    "name" : "package",
+    "value" : "org.springframework.scheduling"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.springframework.scheduling.TaskScheduler"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "TaskScheduler"
+  }, {
+    "name" : "methodName",
+    "value" : "scheduleAtFixedRate"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "spring-context-5.3.23.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "spring-context-6.0.1.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.noLongerDefault",
+  "old" : "method java.util.concurrent.ScheduledFuture<?> org.springframework.scheduling.TaskScheduler::scheduleWithFixedDelay(java.lang.Runnable, java.time.Duration)",
+  "new" : "method java.util.concurrent.ScheduledFuture<?> org.springframework.scheduling.TaskScheduler::scheduleWithFixedDelay(java.lang.Runnable, java.time.Duration)",
+  "name" : "method no longer default",
+  "description" : "The interface no longer has the default implementation of the method.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldModifiers",
+    "value" : "public default"
+  }, {
+    "name" : "newModifiers",
+    "value" : "public abstract"
+  }, {
+    "name" : "package",
+    "value" : "org.springframework.scheduling"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.springframework.scheduling.TaskScheduler"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "TaskScheduler"
+  }, {
+    "name" : "methodName",
+    "value" : "scheduleWithFixedDelay"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "spring-context-5.3.23.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "spring-context-6.0.1.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.nowAbstract",
+  "old" : "method java.util.concurrent.ScheduledFuture<?> org.springframework.scheduling.TaskScheduler::scheduleWithFixedDelay(java.lang.Runnable, java.time.Duration)",
+  "new" : "method java.util.concurrent.ScheduledFuture<?> org.springframework.scheduling.TaskScheduler::scheduleWithFixedDelay(java.lang.Runnable, java.time.Duration)",
+  "name" : "Method now abstract",
+  "description" : "Method now abstract",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldModifiers",
+    "value" : "public default"
+  }, {
+    "name" : "newModifiers",
+    "value" : "public abstract"
+  }, {
+    "name" : "package",
+    "value" : "org.springframework.scheduling"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.springframework.scheduling.TaskScheduler"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "TaskScheduler"
+  }, {
+    "name" : "methodName",
+    "value" : "scheduleWithFixedDelay"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "spring-context-5.3.23.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "spring-context-6.0.1.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.noLongerDefault",
+  "old" : "method java.util.concurrent.ScheduledFuture<?> org.springframework.scheduling.TaskScheduler::scheduleWithFixedDelay(java.lang.Runnable, java.time.Instant, java.time.Duration)",
+  "new" : "method java.util.concurrent.ScheduledFuture<?> org.springframework.scheduling.TaskScheduler::scheduleWithFixedDelay(java.lang.Runnable, java.time.Instant, java.time.Duration)",
+  "name" : "method no longer default",
+  "description" : "The interface no longer has the default implementation of the method.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldModifiers",
+    "value" : "public default"
+  }, {
+    "name" : "newModifiers",
+    "value" : "public abstract"
+  }, {
+    "name" : "package",
+    "value" : "org.springframework.scheduling"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.springframework.scheduling.TaskScheduler"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "TaskScheduler"
+  }, {
+    "name" : "methodName",
+    "value" : "scheduleWithFixedDelay"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "spring-context-5.3.23.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "spring-context-6.0.1.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.nowAbstract",
+  "old" : "method java.util.concurrent.ScheduledFuture<?> org.springframework.scheduling.TaskScheduler::scheduleWithFixedDelay(java.lang.Runnable, java.time.Instant, java.time.Duration)",
+  "new" : "method java.util.concurrent.ScheduledFuture<?> org.springframework.scheduling.TaskScheduler::scheduleWithFixedDelay(java.lang.Runnable, java.time.Instant, java.time.Duration)",
+  "name" : "Method now abstract",
+  "description" : "Method now abstract",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldModifiers",
+    "value" : "public default"
+  }, {
+    "name" : "newModifiers",
+    "value" : "public abstract"
+  }, {
+    "name" : "package",
+    "value" : "org.springframework.scheduling"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.springframework.scheduling.TaskScheduler"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "TaskScheduler"
+  }, {
+    "name" : "methodName",
+    "value" : "scheduleWithFixedDelay"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "spring-context-5.3.23.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "spring-context-6.0.1.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.addedToInterface",
+  "old" : null,
+  "new" : "method java.time.Instant org.springframework.scheduling.Trigger::nextExecution(org.springframework.scheduling.TriggerContext)",
+  "name" : "method added to interface",
+  "description" : "Method was added to an interface.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SEMANTIC",
+    "severity" : "POTENTIALLY_BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.springframework.scheduling"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.springframework.scheduling.Trigger"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "Trigger"
+  }, {
+    "name" : "methodName",
+    "value" : "nextExecution"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "newArchive",
+    "value" : "spring-context-6.0.1.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.addedToInterface",
+  "old" : null,
+  "new" : "method java.time.Instant org.springframework.scheduling.TriggerContext::lastActualExecution()",
+  "name" : "method added to interface",
+  "description" : "Method was added to an interface.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SEMANTIC",
+    "severity" : "POTENTIALLY_BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.springframework.scheduling"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.springframework.scheduling.TriggerContext"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "TriggerContext"
+  }, {
+    "name" : "methodName",
+    "value" : "lastActualExecution"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "newArchive",
+    "value" : "spring-context-6.0.1.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.addedToInterface",
+  "old" : null,
+  "new" : "method java.time.Instant org.springframework.scheduling.TriggerContext::lastCompletion()",
+  "name" : "method added to interface",
+  "description" : "Method was added to an interface.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SEMANTIC",
+    "severity" : "POTENTIALLY_BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.springframework.scheduling"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.springframework.scheduling.TriggerContext"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "TriggerContext"
+  }, {
+    "name" : "methodName",
+    "value" : "lastCompletion"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "newArchive",
+    "value" : "spring-context-6.0.1.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.addedToInterface",
+  "old" : null,
+  "new" : "method java.time.Instant org.springframework.scheduling.TriggerContext::lastScheduledExecution()",
+  "name" : "method added to interface",
+  "description" : "Method was added to an interface.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SEMANTIC",
+    "severity" : "POTENTIALLY_BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.springframework.scheduling"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.springframework.scheduling.TriggerContext"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "TriggerContext"
+  }, {
+    "name" : "methodName",
+    "value" : "lastScheduledExecution"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "newArchive",
+    "value" : "spring-context-6.0.1.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method org.springframework.scheduling.config.ScheduledTask org.springframework.scheduling.config.ScheduledTaskRegistrar::scheduleFixedDelayTask(org.springframework.scheduling.config.IntervalTask)",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.springframework.scheduling.config"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.springframework.scheduling.config.ScheduledTaskRegistrar"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "ScheduledTaskRegistrar"
+  }, {
+    "name" : "methodName",
+    "value" : "scheduleFixedDelayTask"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "spring-context-5.3.23.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method org.springframework.scheduling.config.ScheduledTask org.springframework.scheduling.config.ScheduledTaskRegistrar::scheduleFixedRateTask(org.springframework.scheduling.config.IntervalTask)",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.springframework.scheduling.config"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.springframework.scheduling.config.ScheduledTaskRegistrar"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "ScheduledTaskRegistrar"
+  }, {
+    "name" : "methodName",
+    "value" : "scheduleFixedRateTask"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "spring-context-5.3.23.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method org.springframework.beans.PropertyValues org.springframework.beans.factory.config.InstantiationAwareBeanPostProcessor::postProcessPropertyValues(org.springframework.beans.PropertyValues, java.beans.PropertyDescriptor[], java.lang.Object, java.lang.String) throws org.springframework.beans.BeansException @ org.springframework.scripting.support.ScriptFactoryPostProcessor",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.springframework.scripting.support"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.springframework.scripting.support.ScriptFactoryPostProcessor"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "ScriptFactoryPostProcessor"
+  }, {
+    "name" : "methodName",
+    "value" : "postProcessPropertyValues"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "spring-context-5.3.23.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.parameterTypeChanged",
+  "old" : "parameter void org.springframework.validation.beanvalidation.BeanValidationPostProcessor::setValidator(===javax.validation.Validator===)",
+  "new" : "parameter void org.springframework.validation.beanvalidation.BeanValidationPostProcessor::setValidator(===jakarta.validation.Validator===)",
+  "name" : "parameter type changed",
+  "description" : "The type of the parameter changed from 'javax.validation.Validator' to 'jakarta.validation.Validator'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "POTENTIALLY_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "javax.validation.Validator"
+  }, {
+    "name" : "newType",
+    "value" : "jakarta.validation.Validator"
+  }, {
+    "name" : "package",
+    "value" : "org.springframework.validation.beanvalidation"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.springframework.validation.beanvalidation.BeanValidationPostProcessor"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "BeanValidationPostProcessor"
+  }, {
+    "name" : "methodName",
+    "value" : "setValidator"
+  }, {
+    "name" : "parameterIndex",
+    "value" : "0"
+  }, {
+    "name" : "elementKind",
+    "value" : "parameter"
+  }, {
+    "name" : "oldArchive",
+    "value" : "spring-context-5.3.23.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "spring-context-6.0.1.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.parameterTypeChanged",
+  "old" : "parameter void org.springframework.validation.beanvalidation.BeanValidationPostProcessor::setValidatorFactory(===javax.validation.ValidatorFactory===)",
+  "new" : "parameter void org.springframework.validation.beanvalidation.BeanValidationPostProcessor::setValidatorFactory(===jakarta.validation.ValidatorFactory===)",
+  "name" : "parameter type changed",
+  "description" : "The type of the parameter changed from 'javax.validation.ValidatorFactory' to 'jakarta.validation.ValidatorFactory'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "POTENTIALLY_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "javax.validation.ValidatorFactory"
+  }, {
+    "name" : "newType",
+    "value" : "jakarta.validation.ValidatorFactory"
+  }, {
+    "name" : "package",
+    "value" : "org.springframework.validation.beanvalidation"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.springframework.validation.beanvalidation.BeanValidationPostProcessor"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "BeanValidationPostProcessor"
+  }, {
+    "name" : "methodName",
+    "value" : "setValidatorFactory"
+  }, {
+    "name" : "parameterIndex",
+    "value" : "0"
+  }, {
+    "name" : "elementKind",
+    "value" : "parameter"
+  }, {
+    "name" : "oldArchive",
+    "value" : "spring-context-5.3.23.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "spring-context-6.0.1.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.parameterTypeChanged",
+  "old" : "parameter void org.springframework.validation.beanvalidation.CustomValidatorBean::setMessageInterpolator(===javax.validation.MessageInterpolator===)",
+  "new" : "parameter void org.springframework.validation.beanvalidation.CustomValidatorBean::setMessageInterpolator(===jakarta.validation.MessageInterpolator===)",
+  "name" : "parameter type changed",
+  "description" : "The type of the parameter changed from 'javax.validation.MessageInterpolator' to 'jakarta.validation.MessageInterpolator'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "POTENTIALLY_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "javax.validation.MessageInterpolator"
+  }, {
+    "name" : "newType",
+    "value" : "jakarta.validation.MessageInterpolator"
+  }, {
+    "name" : "package",
+    "value" : "org.springframework.validation.beanvalidation"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.springframework.validation.beanvalidation.CustomValidatorBean"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "CustomValidatorBean"
+  }, {
+    "name" : "methodName",
+    "value" : "setMessageInterpolator"
+  }, {
+    "name" : "parameterIndex",
+    "value" : "0"
+  }, {
+    "name" : "elementKind",
+    "value" : "parameter"
+  }, {
+    "name" : "oldArchive",
+    "value" : "spring-context-5.3.23.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "spring-context-6.0.1.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.parameterTypeChanged",
+  "old" : "parameter void org.springframework.validation.beanvalidation.CustomValidatorBean::setTraversableResolver(===javax.validation.TraversableResolver===)",
+  "new" : "parameter void org.springframework.validation.beanvalidation.CustomValidatorBean::setTraversableResolver(===jakarta.validation.TraversableResolver===)",
+  "name" : "parameter type changed",
+  "description" : "The type of the parameter changed from 'javax.validation.TraversableResolver' to 'jakarta.validation.TraversableResolver'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "POTENTIALLY_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "javax.validation.TraversableResolver"
+  }, {
+    "name" : "newType",
+    "value" : "jakarta.validation.TraversableResolver"
+  }, {
+    "name" : "package",
+    "value" : "org.springframework.validation.beanvalidation"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.springframework.validation.beanvalidation.CustomValidatorBean"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "CustomValidatorBean"
+  }, {
+    "name" : "methodName",
+    "value" : "setTraversableResolver"
+  }, {
+    "name" : "parameterIndex",
+    "value" : "0"
+  }, {
+    "name" : "elementKind",
+    "value" : "parameter"
+  }, {
+    "name" : "oldArchive",
+    "value" : "spring-context-5.3.23.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "spring-context-6.0.1.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.parameterTypeChanged",
+  "old" : "parameter void org.springframework.validation.beanvalidation.CustomValidatorBean::setValidatorFactory(===javax.validation.ValidatorFactory===)",
+  "new" : "parameter void org.springframework.validation.beanvalidation.CustomValidatorBean::setValidatorFactory(===jakarta.validation.ValidatorFactory===)",
+  "name" : "parameter type changed",
+  "description" : "The type of the parameter changed from 'javax.validation.ValidatorFactory' to 'jakarta.validation.ValidatorFactory'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "POTENTIALLY_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "javax.validation.ValidatorFactory"
+  }, {
+    "name" : "newType",
+    "value" : "jakarta.validation.ValidatorFactory"
+  }, {
+    "name" : "package",
+    "value" : "org.springframework.validation.beanvalidation"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.springframework.validation.beanvalidation.CustomValidatorBean"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "CustomValidatorBean"
+  }, {
+    "name" : "methodName",
+    "value" : "setValidatorFactory"
+  }, {
+    "name" : "parameterIndex",
+    "value" : "0"
+  }, {
+    "name" : "elementKind",
+    "value" : "parameter"
+  }, {
+    "name" : "oldArchive",
+    "value" : "spring-context-5.3.23.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "spring-context-6.0.1.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.returnTypeChanged",
+  "old" : "method javax.validation.ConstraintValidatorFactory org.springframework.validation.beanvalidation.LocalValidatorFactoryBean::getConstraintValidatorFactory()",
+  "new" : "method jakarta.validation.ConstraintValidatorFactory org.springframework.validation.beanvalidation.LocalValidatorFactoryBean::getConstraintValidatorFactory()",
+  "name" : "return type changed",
+  "description" : "The return type changed from 'javax.validation.ConstraintValidatorFactory' to  'jakarta.validation.ConstraintValidatorFactory'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "POTENTIALLY_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "javax.validation.ConstraintValidatorFactory"
+  }, {
+    "name" : "newType",
+    "value" : "jakarta.validation.ConstraintValidatorFactory"
+  }, {
+    "name" : "package",
+    "value" : "org.springframework.validation.beanvalidation"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.springframework.validation.beanvalidation.LocalValidatorFactoryBean"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "LocalValidatorFactoryBean"
+  }, {
+    "name" : "methodName",
+    "value" : "getConstraintValidatorFactory"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "spring-context-5.3.23.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "spring-context-6.0.1.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.returnTypeChanged",
+  "old" : "method javax.validation.MessageInterpolator org.springframework.validation.beanvalidation.LocalValidatorFactoryBean::getMessageInterpolator()",
+  "new" : "method jakarta.validation.MessageInterpolator org.springframework.validation.beanvalidation.LocalValidatorFactoryBean::getMessageInterpolator()",
+  "name" : "return type changed",
+  "description" : "The return type changed from 'javax.validation.MessageInterpolator' to  'jakarta.validation.MessageInterpolator'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "POTENTIALLY_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "javax.validation.MessageInterpolator"
+  }, {
+    "name" : "newType",
+    "value" : "jakarta.validation.MessageInterpolator"
+  }, {
+    "name" : "package",
+    "value" : "org.springframework.validation.beanvalidation"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.springframework.validation.beanvalidation.LocalValidatorFactoryBean"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "LocalValidatorFactoryBean"
+  }, {
+    "name" : "methodName",
+    "value" : "getMessageInterpolator"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "spring-context-5.3.23.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "spring-context-6.0.1.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.returnTypeChanged",
+  "old" : "method javax.validation.ParameterNameProvider org.springframework.validation.beanvalidation.LocalValidatorFactoryBean::getParameterNameProvider()",
+  "new" : "method jakarta.validation.ParameterNameProvider org.springframework.validation.beanvalidation.LocalValidatorFactoryBean::getParameterNameProvider()",
+  "name" : "return type changed",
+  "description" : "The return type changed from 'javax.validation.ParameterNameProvider' to  'jakarta.validation.ParameterNameProvider'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "POTENTIALLY_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "javax.validation.ParameterNameProvider"
+  }, {
+    "name" : "newType",
+    "value" : "jakarta.validation.ParameterNameProvider"
+  }, {
+    "name" : "package",
+    "value" : "org.springframework.validation.beanvalidation"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.springframework.validation.beanvalidation.LocalValidatorFactoryBean"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "LocalValidatorFactoryBean"
+  }, {
+    "name" : "methodName",
+    "value" : "getParameterNameProvider"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "spring-context-5.3.23.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "spring-context-6.0.1.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.returnTypeChanged",
+  "old" : "method javax.validation.TraversableResolver org.springframework.validation.beanvalidation.LocalValidatorFactoryBean::getTraversableResolver()",
+  "new" : "method jakarta.validation.TraversableResolver org.springframework.validation.beanvalidation.LocalValidatorFactoryBean::getTraversableResolver()",
+  "name" : "return type changed",
+  "description" : "The return type changed from 'javax.validation.TraversableResolver' to  'jakarta.validation.TraversableResolver'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "POTENTIALLY_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "javax.validation.TraversableResolver"
+  }, {
+    "name" : "newType",
+    "value" : "jakarta.validation.TraversableResolver"
+  }, {
+    "name" : "package",
+    "value" : "org.springframework.validation.beanvalidation"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.springframework.validation.beanvalidation.LocalValidatorFactoryBean"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "LocalValidatorFactoryBean"
+  }, {
+    "name" : "methodName",
+    "value" : "getTraversableResolver"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "spring-context-5.3.23.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "spring-context-6.0.1.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.returnTypeChanged",
+  "old" : "method javax.validation.Validator org.springframework.validation.beanvalidation.LocalValidatorFactoryBean::getValidator()",
+  "new" : "method jakarta.validation.Validator org.springframework.validation.beanvalidation.LocalValidatorFactoryBean::getValidator()",
+  "name" : "return type changed",
+  "description" : "The return type changed from 'javax.validation.Validator' to  'jakarta.validation.Validator'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "POTENTIALLY_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "javax.validation.Validator"
+  }, {
+    "name" : "newType",
+    "value" : "jakarta.validation.Validator"
+  }, {
+    "name" : "package",
+    "value" : "org.springframework.validation.beanvalidation"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.springframework.validation.beanvalidation.LocalValidatorFactoryBean"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "LocalValidatorFactoryBean"
+  }, {
+    "name" : "methodName",
+    "value" : "getValidator"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "spring-context-5.3.23.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "spring-context-6.0.1.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.parameterTypeChanged",
+  "old" : "parameter void org.springframework.validation.beanvalidation.LocalValidatorFactoryBean::postProcessConfiguration(===javax.validation.Configuration<?>===)",
+  "new" : "parameter void org.springframework.validation.beanvalidation.LocalValidatorFactoryBean::postProcessConfiguration(===jakarta.validation.Configuration<?>===)",
+  "name" : "parameter type changed",
+  "description" : "The type of the parameter changed from 'javax.validation.Configuration<?>' to 'jakarta.validation.Configuration<?>'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "POTENTIALLY_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "javax.validation.Configuration<?>"
+  }, {
+    "name" : "newType",
+    "value" : "jakarta.validation.Configuration<?>"
+  }, {
+    "name" : "package",
+    "value" : "org.springframework.validation.beanvalidation"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.springframework.validation.beanvalidation.LocalValidatorFactoryBean"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "LocalValidatorFactoryBean"
+  }, {
+    "name" : "methodName",
+    "value" : "postProcessConfiguration"
+  }, {
+    "name" : "parameterIndex",
+    "value" : "0"
+  }, {
+    "name" : "elementKind",
+    "value" : "parameter"
+  }, {
+    "name" : "oldArchive",
+    "value" : "spring-context-5.3.23.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "spring-context-6.0.1.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.parameterTypeChanged",
+  "old" : "parameter void org.springframework.validation.beanvalidation.LocalValidatorFactoryBean::setConstraintValidatorFactory(===javax.validation.ConstraintValidatorFactory===)",
+  "new" : "parameter void org.springframework.validation.beanvalidation.LocalValidatorFactoryBean::setConstraintValidatorFactory(===jakarta.validation.ConstraintValidatorFactory===)",
+  "name" : "parameter type changed",
+  "description" : "The type of the parameter changed from 'javax.validation.ConstraintValidatorFactory' to 'jakarta.validation.ConstraintValidatorFactory'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "POTENTIALLY_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "javax.validation.ConstraintValidatorFactory"
+  }, {
+    "name" : "newType",
+    "value" : "jakarta.validation.ConstraintValidatorFactory"
+  }, {
+    "name" : "package",
+    "value" : "org.springframework.validation.beanvalidation"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.springframework.validation.beanvalidation.LocalValidatorFactoryBean"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "LocalValidatorFactoryBean"
+  }, {
+    "name" : "methodName",
+    "value" : "setConstraintValidatorFactory"
+  }, {
+    "name" : "parameterIndex",
+    "value" : "0"
+  }, {
+    "name" : "elementKind",
+    "value" : "parameter"
+  }, {
+    "name" : "oldArchive",
+    "value" : "spring-context-5.3.23.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "spring-context-6.0.1.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.parameterTypeChanged",
+  "old" : "parameter void org.springframework.validation.beanvalidation.LocalValidatorFactoryBean::setMessageInterpolator(===javax.validation.MessageInterpolator===)",
+  "new" : "parameter void org.springframework.validation.beanvalidation.LocalValidatorFactoryBean::setMessageInterpolator(===jakarta.validation.MessageInterpolator===)",
+  "name" : "parameter type changed",
+  "description" : "The type of the parameter changed from 'javax.validation.MessageInterpolator' to 'jakarta.validation.MessageInterpolator'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "POTENTIALLY_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "javax.validation.MessageInterpolator"
+  }, {
+    "name" : "newType",
+    "value" : "jakarta.validation.MessageInterpolator"
+  }, {
+    "name" : "package",
+    "value" : "org.springframework.validation.beanvalidation"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.springframework.validation.beanvalidation.LocalValidatorFactoryBean"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "LocalValidatorFactoryBean"
+  }, {
+    "name" : "methodName",
+    "value" : "setMessageInterpolator"
+  }, {
+    "name" : "parameterIndex",
+    "value" : "0"
+  }, {
+    "name" : "elementKind",
+    "value" : "parameter"
+  }, {
+    "name" : "oldArchive",
+    "value" : "spring-context-5.3.23.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "spring-context-6.0.1.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.parameterTypeChanged",
+  "old" : "parameter void org.springframework.validation.beanvalidation.LocalValidatorFactoryBean::setTraversableResolver(===javax.validation.TraversableResolver===)",
+  "new" : "parameter void org.springframework.validation.beanvalidation.LocalValidatorFactoryBean::setTraversableResolver(===jakarta.validation.TraversableResolver===)",
+  "name" : "parameter type changed",
+  "description" : "The type of the parameter changed from 'javax.validation.TraversableResolver' to 'jakarta.validation.TraversableResolver'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "POTENTIALLY_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "javax.validation.TraversableResolver"
+  }, {
+    "name" : "newType",
+    "value" : "jakarta.validation.TraversableResolver"
+  }, {
+    "name" : "package",
+    "value" : "org.springframework.validation.beanvalidation"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.springframework.validation.beanvalidation.LocalValidatorFactoryBean"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "LocalValidatorFactoryBean"
+  }, {
+    "name" : "methodName",
+    "value" : "setTraversableResolver"
+  }, {
+    "name" : "parameterIndex",
+    "value" : "0"
+  }, {
+    "name" : "elementKind",
+    "value" : "parameter"
+  }, {
+    "name" : "oldArchive",
+    "value" : "spring-context-5.3.23.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "spring-context-6.0.1.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.parameterTypeChanged",
+  "old" : "parameter void org.springframework.validation.beanvalidation.LocalValidatorFactoryBean::setValidationProviderResolver(===javax.validation.ValidationProviderResolver===)",
+  "new" : "parameter void org.springframework.validation.beanvalidation.LocalValidatorFactoryBean::setValidationProviderResolver(===jakarta.validation.ValidationProviderResolver===)",
+  "name" : "parameter type changed",
+  "description" : "The type of the parameter changed from 'javax.validation.ValidationProviderResolver' to 'jakarta.validation.ValidationProviderResolver'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "POTENTIALLY_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "javax.validation.ValidationProviderResolver"
+  }, {
+    "name" : "newType",
+    "value" : "jakarta.validation.ValidationProviderResolver"
+  }, {
+    "name" : "package",
+    "value" : "org.springframework.validation.beanvalidation"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.springframework.validation.beanvalidation.LocalValidatorFactoryBean"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "LocalValidatorFactoryBean"
+  }, {
+    "name" : "methodName",
+    "value" : "setValidationProviderResolver"
+  }, {
+    "name" : "parameterIndex",
+    "value" : "0"
+  }, {
+    "name" : "elementKind",
+    "value" : "parameter"
+  }, {
+    "name" : "oldArchive",
+    "value" : "spring-context-5.3.23.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "spring-context-6.0.1.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.returnTypeChanged",
+  "old" : "method javax.validation.ValidatorContext org.springframework.validation.beanvalidation.LocalValidatorFactoryBean::usingContext()",
+  "new" : "method jakarta.validation.ValidatorContext org.springframework.validation.beanvalidation.LocalValidatorFactoryBean::usingContext()",
+  "name" : "return type changed",
+  "description" : "The return type changed from 'javax.validation.ValidatorContext' to  'jakarta.validation.ValidatorContext'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "POTENTIALLY_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "javax.validation.ValidatorContext"
+  }, {
+    "name" : "newType",
+    "value" : "jakarta.validation.ValidatorContext"
+  }, {
+    "name" : "package",
+    "value" : "org.springframework.validation.beanvalidation"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.springframework.validation.beanvalidation.LocalValidatorFactoryBean"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "LocalValidatorFactoryBean"
+  }, {
+    "name" : "methodName",
+    "value" : "usingContext"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "spring-context-5.3.23.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "spring-context-6.0.1.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.parameterTypeChanged",
+  "old" : "parameter void org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator::<init>(===javax.validation.MessageInterpolator===)",
+  "new" : "parameter void org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator::<init>(===jakarta.validation.MessageInterpolator===)",
+  "name" : "parameter type changed",
+  "description" : "The type of the parameter changed from 'javax.validation.MessageInterpolator' to 'jakarta.validation.MessageInterpolator'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "POTENTIALLY_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "javax.validation.MessageInterpolator"
+  }, {
+    "name" : "newType",
+    "value" : "jakarta.validation.MessageInterpolator"
+  }, {
+    "name" : "package",
+    "value" : "org.springframework.validation.beanvalidation"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "LocaleContextMessageInterpolator"
+  }, {
+    "name" : "methodName",
+    "value" : "<init>"
+  }, {
+    "name" : "parameterIndex",
+    "value" : "0"
+  }, {
+    "name" : "elementKind",
+    "value" : "parameter"
+  }, {
+    "name" : "oldArchive",
+    "value" : "spring-context-5.3.23.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "spring-context-6.0.1.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.parameterTypeChanged",
+  "old" : "parameter java.lang.String org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator::interpolate(java.lang.String, ===javax.validation.MessageInterpolator.Context===)",
+  "new" : "parameter java.lang.String org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator::interpolate(java.lang.String, ===jakarta.validation.MessageInterpolator.Context===)",
+  "name" : "parameter type changed",
+  "description" : "The type of the parameter changed from 'javax.validation.MessageInterpolator.Context' to 'jakarta.validation.MessageInterpolator.Context'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "POTENTIALLY_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "javax.validation.MessageInterpolator.Context"
+  }, {
+    "name" : "newType",
+    "value" : "jakarta.validation.MessageInterpolator.Context"
+  }, {
+    "name" : "package",
+    "value" : "org.springframework.validation.beanvalidation"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "LocaleContextMessageInterpolator"
+  }, {
+    "name" : "methodName",
+    "value" : "interpolate"
+  }, {
+    "name" : "parameterIndex",
+    "value" : "1"
+  }, {
+    "name" : "elementKind",
+    "value" : "parameter"
+  }, {
+    "name" : "oldArchive",
+    "value" : "spring-context-5.3.23.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "spring-context-6.0.1.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.parameterTypeChanged",
+  "old" : "parameter java.lang.String org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator::interpolate(java.lang.String, ===javax.validation.MessageInterpolator.Context===, java.util.Locale)",
+  "new" : "parameter java.lang.String org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator::interpolate(java.lang.String, ===jakarta.validation.MessageInterpolator.Context===, java.util.Locale)",
+  "name" : "parameter type changed",
+  "description" : "The type of the parameter changed from 'javax.validation.MessageInterpolator.Context' to 'jakarta.validation.MessageInterpolator.Context'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "POTENTIALLY_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "javax.validation.MessageInterpolator.Context"
+  }, {
+    "name" : "newType",
+    "value" : "jakarta.validation.MessageInterpolator.Context"
+  }, {
+    "name" : "package",
+    "value" : "org.springframework.validation.beanvalidation"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "LocaleContextMessageInterpolator"
+  }, {
+    "name" : "methodName",
+    "value" : "interpolate"
+  }, {
+    "name" : "parameterIndex",
+    "value" : "1"
+  }, {
+    "name" : "elementKind",
+    "value" : "parameter"
+  }, {
+    "name" : "oldArchive",
+    "value" : "spring-context-5.3.23.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "spring-context-6.0.1.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.parameterTypeChanged",
+  "old" : "parameter void org.springframework.validation.beanvalidation.MethodValidationInterceptor::<init>(===javax.validation.Validator===)",
+  "new" : "parameter void org.springframework.validation.beanvalidation.MethodValidationInterceptor::<init>(===jakarta.validation.Validator===)",
+  "name" : "parameter type changed",
+  "description" : "The type of the parameter changed from 'javax.validation.Validator' to 'jakarta.validation.Validator'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "POTENTIALLY_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "javax.validation.Validator"
+  }, {
+    "name" : "newType",
+    "value" : "jakarta.validation.Validator"
+  }, {
+    "name" : "package",
+    "value" : "org.springframework.validation.beanvalidation"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.springframework.validation.beanvalidation.MethodValidationInterceptor"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "MethodValidationInterceptor"
+  }, {
+    "name" : "methodName",
+    "value" : "<init>"
+  }, {
+    "name" : "parameterIndex",
+    "value" : "0"
+  }, {
+    "name" : "elementKind",
+    "value" : "parameter"
+  }, {
+    "name" : "oldArchive",
+    "value" : "spring-context-5.3.23.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "spring-context-6.0.1.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.parameterTypeChanged",
+  "old" : "parameter void org.springframework.validation.beanvalidation.MethodValidationInterceptor::<init>(===javax.validation.ValidatorFactory===)",
+  "new" : "parameter void org.springframework.validation.beanvalidation.MethodValidationInterceptor::<init>(===jakarta.validation.ValidatorFactory===)",
+  "name" : "parameter type changed",
+  "description" : "The type of the parameter changed from 'javax.validation.ValidatorFactory' to 'jakarta.validation.ValidatorFactory'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "POTENTIALLY_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "javax.validation.ValidatorFactory"
+  }, {
+    "name" : "newType",
+    "value" : "jakarta.validation.ValidatorFactory"
+  }, {
+    "name" : "package",
+    "value" : "org.springframework.validation.beanvalidation"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.springframework.validation.beanvalidation.MethodValidationInterceptor"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "MethodValidationInterceptor"
+  }, {
+    "name" : "methodName",
+    "value" : "<init>"
+  }, {
+    "name" : "parameterIndex",
+    "value" : "0"
+  }, {
+    "name" : "elementKind",
+    "value" : "parameter"
+  }, {
+    "name" : "oldArchive",
+    "value" : "spring-context-5.3.23.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "spring-context-6.0.1.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.parameterTypeChanged",
+  "old" : "parameter org.aopalliance.aop.Advice org.springframework.validation.beanvalidation.MethodValidationPostProcessor::createMethodValidationAdvice(===javax.validation.Validator===)",
+  "new" : "parameter org.aopalliance.aop.Advice org.springframework.validation.beanvalidation.MethodValidationPostProcessor::createMethodValidationAdvice(===java.util.function.Supplier<jakarta.validation.Validator>===)",
+  "name" : "parameter type changed",
+  "description" : "The type of the parameter changed from 'javax.validation.Validator' to 'java.util.function.Supplier<jakarta.validation.Validator>'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "POTENTIALLY_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "javax.validation.Validator"
+  }, {
+    "name" : "newType",
+    "value" : "java.util.function.Supplier<jakarta.validation.Validator>"
+  }, {
+    "name" : "package",
+    "value" : "org.springframework.validation.beanvalidation"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.springframework.validation.beanvalidation.MethodValidationPostProcessor"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "MethodValidationPostProcessor"
+  }, {
+    "name" : "methodName",
+    "value" : "createMethodValidationAdvice"
+  }, {
+    "name" : "parameterIndex",
+    "value" : "0"
+  }, {
+    "name" : "elementKind",
+    "value" : "parameter"
+  }, {
+    "name" : "oldArchive",
+    "value" : "spring-context-5.3.23.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "spring-context-6.0.1.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.annotation.removed",
+  "old" : "parameter org.aopalliance.aop.Advice org.springframework.validation.beanvalidation.MethodValidationPostProcessor::createMethodValidationAdvice(===javax.validation.Validator===)",
+  "new" : "parameter org.aopalliance.aop.Advice org.springframework.validation.beanvalidation.MethodValidationPostProcessor::createMethodValidationAdvice(===java.util.function.Supplier<jakarta.validation.Validator>===)",
+  "name" : "removed annotation",
+  "description" : "Element no longer annotated with 'org.springframework.lang.Nullable'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "EQUIVALENT"
+  }, {
+    "compatibility" : "SEMANTIC",
+    "severity" : "POTENTIALLY_BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "EQUIVALENT"
+  } ],
+  "attachments" : [ {
+    "name" : "annotationType",
+    "value" : "org.springframework.lang.Nullable"
+  }, {
+    "name" : "annotation",
+    "value" : "@org.springframework.lang.Nullable"
+  }, {
+    "name" : "package",
+    "value" : "org.springframework.validation.beanvalidation"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.springframework.validation.beanvalidation.MethodValidationPostProcessor"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "MethodValidationPostProcessor"
+  }, {
+    "name" : "methodName",
+    "value" : "createMethodValidationAdvice"
+  }, {
+    "name" : "parameterIndex",
+    "value" : "0"
+  }, {
+    "name" : "elementKind",
+    "value" : "parameter"
+  }, {
+    "name" : "oldArchive",
+    "value" : "spring-context-5.3.23.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "spring-context-6.0.1.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.parameterTypeChanged",
+  "old" : "parameter void org.springframework.validation.beanvalidation.MethodValidationPostProcessor::setValidator(===javax.validation.Validator===)",
+  "new" : "parameter void org.springframework.validation.beanvalidation.MethodValidationPostProcessor::setValidator(===jakarta.validation.Validator===)",
+  "name" : "parameter type changed",
+  "description" : "The type of the parameter changed from 'javax.validation.Validator' to 'jakarta.validation.Validator'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "POTENTIALLY_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "javax.validation.Validator"
+  }, {
+    "name" : "newType",
+    "value" : "jakarta.validation.Validator"
+  }, {
+    "name" : "package",
+    "value" : "org.springframework.validation.beanvalidation"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.springframework.validation.beanvalidation.MethodValidationPostProcessor"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "MethodValidationPostProcessor"
+  }, {
+    "name" : "methodName",
+    "value" : "setValidator"
+  }, {
+    "name" : "parameterIndex",
+    "value" : "0"
+  }, {
+    "name" : "elementKind",
+    "value" : "parameter"
+  }, {
+    "name" : "oldArchive",
+    "value" : "spring-context-5.3.23.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "spring-context-6.0.1.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.parameterTypeChanged",
+  "old" : "parameter void org.springframework.validation.beanvalidation.MethodValidationPostProcessor::setValidatorFactory(===javax.validation.ValidatorFactory===)",
+  "new" : "parameter void org.springframework.validation.beanvalidation.MethodValidationPostProcessor::setValidatorFactory(===jakarta.validation.ValidatorFactory===)",
+  "name" : "parameter type changed",
+  "description" : "The type of the parameter changed from 'javax.validation.ValidatorFactory' to 'jakarta.validation.ValidatorFactory'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "POTENTIALLY_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "javax.validation.ValidatorFactory"
+  }, {
+    "name" : "newType",
+    "value" : "jakarta.validation.ValidatorFactory"
+  }, {
+    "name" : "package",
+    "value" : "org.springframework.validation.beanvalidation"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.springframework.validation.beanvalidation.MethodValidationPostProcessor"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "MethodValidationPostProcessor"
+  }, {
+    "name" : "methodName",
+    "value" : "setValidatorFactory"
+  }, {
+    "name" : "parameterIndex",
+    "value" : "0"
+  }, {
+    "name" : "elementKind",
+    "value" : "parameter"
+  }, {
+    "name" : "oldArchive",
+    "value" : "spring-context-5.3.23.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "spring-context-6.0.1.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.returnTypeChanged",
+  "old" : "method <T extends javax.validation.ConstraintValidator<?, ?>> T org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory::getInstance(java.lang.Class<T>)",
+  "new" : "method <T extends jakarta.validation.ConstraintValidator<?, ?>> T org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory::getInstance(java.lang.Class<T>)",
+  "name" : "return type changed",
+  "description" : "The return type changed from 'T extends javax.validation.ConstraintValidator<?, ?>' to  'T extends jakarta.validation.ConstraintValidator<?, ?>'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "POTENTIALLY_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "T extends javax.validation.ConstraintValidator<?, ?>"
+  }, {
+    "name" : "newType",
+    "value" : "T extends jakarta.validation.ConstraintValidator<?, ?>"
+  }, {
+    "name" : "package",
+    "value" : "org.springframework.validation.beanvalidation"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "SpringConstraintValidatorFactory"
+  }, {
+    "name" : "methodName",
+    "value" : "getInstance"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "spring-context-5.3.23.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "spring-context-6.0.1.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.generics.formalTypeParameterChanged",
+  "old" : "method <T extends javax.validation.ConstraintValidator<?, ?>> T org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory::getInstance(java.lang.Class<T>)",
+  "new" : "method <T extends jakarta.validation.ConstraintValidator<?, ?>> T org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory::getInstance(java.lang.Class<T>)",
+  "name" : "formal type parameter changed",
+  "description" : "The formal type parameter changed from 'T extends javax.validation.ConstraintValidator<?, ?>' to 'T extends jakarta.validation.ConstraintValidator<?, ?>'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldTypeParameter",
+    "value" : "T extends javax.validation.ConstraintValidator<?, ?>"
+  }, {
+    "name" : "newTypeParameter",
+    "value" : "T extends jakarta.validation.ConstraintValidator<?, ?>"
+  }, {
+    "name" : "package",
+    "value" : "org.springframework.validation.beanvalidation"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "SpringConstraintValidatorFactory"
+  }, {
+    "name" : "methodName",
+    "value" : "getInstance"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "spring-context-5.3.23.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "spring-context-6.0.1.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.parameterTypeChanged",
+  "old" : "parameter void org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory::releaseInstance(===javax.validation.ConstraintValidator<?, ?>===)",
+  "new" : "parameter void org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory::releaseInstance(===jakarta.validation.ConstraintValidator<?, ?>===)",
+  "name" : "parameter type changed",
+  "description" : "The type of the parameter changed from 'javax.validation.ConstraintValidator<?, ?>' to 'jakarta.validation.ConstraintValidator<?, ?>'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "POTENTIALLY_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "javax.validation.ConstraintValidator<?, ?>"
+  }, {
+    "name" : "newType",
+    "value" : "jakarta.validation.ConstraintValidator<?, ?>"
+  }, {
+    "name" : "package",
+    "value" : "org.springframework.validation.beanvalidation"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "SpringConstraintValidatorFactory"
+  }, {
+    "name" : "methodName",
+    "value" : "releaseInstance"
+  }, {
+    "name" : "parameterIndex",
+    "value" : "0"
+  }, {
+    "name" : "elementKind",
+    "value" : "parameter"
+  }, {
+    "name" : "oldArchive",
+    "value" : "spring-context-5.3.23.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "spring-context-6.0.1.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.parameterTypeChanged",
+  "old" : "parameter void org.springframework.validation.beanvalidation.SpringValidatorAdapter::<init>(===javax.validation.Validator===)",
+  "new" : "parameter void org.springframework.validation.beanvalidation.SpringValidatorAdapter::<init>(===jakarta.validation.Validator===)",
+  "name" : "parameter type changed",
+  "description" : "The type of the parameter changed from 'javax.validation.Validator' to 'jakarta.validation.Validator'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "POTENTIALLY_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "javax.validation.Validator"
+  }, {
+    "name" : "newType",
+    "value" : "jakarta.validation.Validator"
+  }, {
+    "name" : "package",
+    "value" : "org.springframework.validation.beanvalidation"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.springframework.validation.beanvalidation.SpringValidatorAdapter"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "SpringValidatorAdapter"
+  }, {
+    "name" : "methodName",
+    "value" : "<init>"
+  }, {
+    "name" : "parameterIndex",
+    "value" : "0"
+  }, {
+    "name" : "elementKind",
+    "value" : "parameter"
+  }, {
+    "name" : "oldArchive",
+    "value" : "spring-context-5.3.23.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "spring-context-6.0.1.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.parameterTypeChanged",
+  "old" : "parameter java.lang.String org.springframework.validation.beanvalidation.SpringValidatorAdapter::determineErrorCode(===javax.validation.metadata.ConstraintDescriptor<?>===)",
+  "new" : "parameter java.lang.String org.springframework.validation.beanvalidation.SpringValidatorAdapter::determineErrorCode(===jakarta.validation.metadata.ConstraintDescriptor<?>===)",
+  "name" : "parameter type changed",
+  "description" : "The type of the parameter changed from 'javax.validation.metadata.ConstraintDescriptor<?>' to 'jakarta.validation.metadata.ConstraintDescriptor<?>'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "POTENTIALLY_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "javax.validation.metadata.ConstraintDescriptor<?>"
+  }, {
+    "name" : "newType",
+    "value" : "jakarta.validation.metadata.ConstraintDescriptor<?>"
+  }, {
+    "name" : "package",
+    "value" : "org.springframework.validation.beanvalidation"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.springframework.validation.beanvalidation.SpringValidatorAdapter"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "SpringValidatorAdapter"
+  }, {
+    "name" : "methodName",
+    "value" : "determineErrorCode"
+  }, {
+    "name" : "parameterIndex",
+    "value" : "0"
+  }, {
+    "name" : "elementKind",
+    "value" : "parameter"
+  }, {
+    "name" : "oldArchive",
+    "value" : "spring-context-5.3.23.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "spring-context-6.0.1.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.parameterTypeChanged",
+  "old" : "parameter java.lang.String org.springframework.validation.beanvalidation.SpringValidatorAdapter::determineField(===javax.validation.ConstraintViolation<java.lang.Object>===)",
+  "new" : "parameter java.lang.String org.springframework.validation.beanvalidation.SpringValidatorAdapter::determineField(===jakarta.validation.ConstraintViolation<java.lang.Object>===)",
+  "name" : "parameter type changed",
+  "description" : "The type of the parameter changed from 'javax.validation.ConstraintViolation<java.lang.Object>' to 'jakarta.validation.ConstraintViolation<java.lang.Object>'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "POTENTIALLY_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "javax.validation.ConstraintViolation<java.lang.Object>"
+  }, {
+    "name" : "newType",
+    "value" : "jakarta.validation.ConstraintViolation<java.lang.Object>"
+  }, {
+    "name" : "package",
+    "value" : "org.springframework.validation.beanvalidation"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.springframework.validation.beanvalidation.SpringValidatorAdapter"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "SpringValidatorAdapter"
+  }, {
+    "name" : "methodName",
+    "value" : "determineField"
+  }, {
+    "name" : "parameterIndex",
+    "value" : "0"
+  }, {
+    "name" : "elementKind",
+    "value" : "parameter"
+  }, {
+    "name" : "oldArchive",
+    "value" : "spring-context-5.3.23.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "spring-context-6.0.1.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.returnTypeChanged",
+  "old" : "method javax.validation.executable.ExecutableValidator org.springframework.validation.beanvalidation.SpringValidatorAdapter::forExecutables()",
+  "new" : "method jakarta.validation.executable.ExecutableValidator org.springframework.validation.beanvalidation.SpringValidatorAdapter::forExecutables()",
+  "name" : "return type changed",
+  "description" : "The return type changed from 'javax.validation.executable.ExecutableValidator' to  'jakarta.validation.executable.ExecutableValidator'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "POTENTIALLY_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "javax.validation.executable.ExecutableValidator"
+  }, {
+    "name" : "newType",
+    "value" : "jakarta.validation.executable.ExecutableValidator"
+  }, {
+    "name" : "package",
+    "value" : "org.springframework.validation.beanvalidation"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.springframework.validation.beanvalidation.SpringValidatorAdapter"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "SpringValidatorAdapter"
+  }, {
+    "name" : "methodName",
+    "value" : "forExecutables"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "spring-context-5.3.23.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "spring-context-6.0.1.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.parameterTypeChanged",
+  "old" : "parameter java.lang.Object[] org.springframework.validation.beanvalidation.SpringValidatorAdapter::getArgumentsForConstraint(java.lang.String, java.lang.String, ===javax.validation.metadata.ConstraintDescriptor<?>===)",
+  "new" : "parameter java.lang.Object[] org.springframework.validation.beanvalidation.SpringValidatorAdapter::getArgumentsForConstraint(java.lang.String, java.lang.String, ===jakarta.validation.metadata.ConstraintDescriptor<?>===)",
+  "name" : "parameter type changed",
+  "description" : "The type of the parameter changed from 'javax.validation.metadata.ConstraintDescriptor<?>' to 'jakarta.validation.metadata.ConstraintDescriptor<?>'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "POTENTIALLY_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "javax.validation.metadata.ConstraintDescriptor<?>"
+  }, {
+    "name" : "newType",
+    "value" : "jakarta.validation.metadata.ConstraintDescriptor<?>"
+  }, {
+    "name" : "package",
+    "value" : "org.springframework.validation.beanvalidation"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.springframework.validation.beanvalidation.SpringValidatorAdapter"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "SpringValidatorAdapter"
+  }, {
+    "name" : "methodName",
+    "value" : "getArgumentsForConstraint"
+  }, {
+    "name" : "parameterIndex",
+    "value" : "2"
+  }, {
+    "name" : "elementKind",
+    "value" : "parameter"
+  }, {
+    "name" : "oldArchive",
+    "value" : "spring-context-5.3.23.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "spring-context-6.0.1.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.returnTypeChanged",
+  "old" : "method javax.validation.metadata.BeanDescriptor org.springframework.validation.beanvalidation.SpringValidatorAdapter::getConstraintsForClass(java.lang.Class<?>)",
+  "new" : "method jakarta.validation.metadata.BeanDescriptor org.springframework.validation.beanvalidation.SpringValidatorAdapter::getConstraintsForClass(java.lang.Class<?>)",
+  "name" : "return type changed",
+  "description" : "The return type changed from 'javax.validation.metadata.BeanDescriptor' to  'jakarta.validation.metadata.BeanDescriptor'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "POTENTIALLY_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "javax.validation.metadata.BeanDescriptor"
+  }, {
+    "name" : "newType",
+    "value" : "jakarta.validation.metadata.BeanDescriptor"
+  }, {
+    "name" : "package",
+    "value" : "org.springframework.validation.beanvalidation"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.springframework.validation.beanvalidation.SpringValidatorAdapter"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "SpringValidatorAdapter"
+  }, {
+    "name" : "methodName",
+    "value" : "getConstraintsForClass"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "spring-context-5.3.23.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "spring-context-6.0.1.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.parameterTypeChanged",
+  "old" : "parameter java.lang.Object org.springframework.validation.beanvalidation.SpringValidatorAdapter::getRejectedValue(java.lang.String, ===javax.validation.ConstraintViolation<java.lang.Object>===, org.springframework.validation.BindingResult)",
+  "new" : "parameter java.lang.Object org.springframework.validation.beanvalidation.SpringValidatorAdapter::getRejectedValue(java.lang.String, ===jakarta.validation.ConstraintViolation<java.lang.Object>===, org.springframework.validation.BindingResult)",
+  "name" : "parameter type changed",
+  "description" : "The type of the parameter changed from 'javax.validation.ConstraintViolation<java.lang.Object>' to 'jakarta.validation.ConstraintViolation<java.lang.Object>'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "POTENTIALLY_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "javax.validation.ConstraintViolation<java.lang.Object>"
+  }, {
+    "name" : "newType",
+    "value" : "jakarta.validation.ConstraintViolation<java.lang.Object>"
+  }, {
+    "name" : "package",
+    "value" : "org.springframework.validation.beanvalidation"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.springframework.validation.beanvalidation.SpringValidatorAdapter"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "SpringValidatorAdapter"
+  }, {
+    "name" : "methodName",
+    "value" : "getRejectedValue"
+  }, {
+    "name" : "parameterIndex",
+    "value" : "1"
+  }, {
+    "name" : "elementKind",
+    "value" : "parameter"
+  }, {
+    "name" : "oldArchive",
+    "value" : "spring-context-5.3.23.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "spring-context-6.0.1.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.parameterTypeChanged",
+  "old" : "parameter boolean org.springframework.validation.beanvalidation.SpringValidatorAdapter::requiresMessageFormat(===javax.validation.ConstraintViolation<?>===)",
+  "new" : "parameter boolean org.springframework.validation.beanvalidation.SpringValidatorAdapter::requiresMessageFormat(===jakarta.validation.ConstraintViolation<?>===)",
+  "name" : "parameter type changed",
+  "description" : "The type of the parameter changed from 'javax.validation.ConstraintViolation<?>' to 'jakarta.validation.ConstraintViolation<?>'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "POTENTIALLY_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "javax.validation.ConstraintViolation<?>"
+  }, {
+    "name" : "newType",
+    "value" : "jakarta.validation.ConstraintViolation<?>"
+  }, {
+    "name" : "package",
+    "value" : "org.springframework.validation.beanvalidation"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.springframework.validation.beanvalidation.SpringValidatorAdapter"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "SpringValidatorAdapter"
+  }, {
+    "name" : "methodName",
+    "value" : "requiresMessageFormat"
+  }, {
+    "name" : "parameterIndex",
+    "value" : "0"
+  }, {
+    "name" : "elementKind",
+    "value" : "parameter"
+  }, {
+    "name" : "oldArchive",
+    "value" : "spring-context-5.3.23.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "spring-context-6.0.1.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.returnTypeTypeParametersChanged",
+  "old" : "method <T> java.util.Set<javax.validation.ConstraintViolation<T>> org.springframework.validation.beanvalidation.SpringValidatorAdapter::validate(T, java.lang.Class<?>[])",
+  "new" : "method <T> java.util.Set<jakarta.validation.ConstraintViolation<T>> org.springframework.validation.beanvalidation.SpringValidatorAdapter::validate(T, java.lang.Class<?>[])",
+  "name" : "return type changed type parameter",
+  "description" : "The return type changed from 'java.util.Set<javax.validation.ConstraintViolation<T>>' to 'java.util.Set<jakarta.validation.ConstraintViolation<T>>'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "java.util.Set<javax.validation.ConstraintViolation<T>>"
+  }, {
+    "name" : "newType",
+    "value" : "java.util.Set<jakarta.validation.ConstraintViolation<T>>"
+  }, {
+    "name" : "package",
+    "value" : "org.springframework.validation.beanvalidation"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.springframework.validation.beanvalidation.SpringValidatorAdapter"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "SpringValidatorAdapter"
+  }, {
+    "name" : "methodName",
+    "value" : "validate"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "spring-context-5.3.23.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "spring-context-6.0.1.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.returnTypeTypeParametersChanged",
+  "old" : "method <T> java.util.Set<javax.validation.ConstraintViolation<T>> org.springframework.validation.beanvalidation.SpringValidatorAdapter::validateProperty(T, java.lang.String, java.lang.Class<?>[])",
+  "new" : "method <T> java.util.Set<jakarta.validation.ConstraintViolation<T>> org.springframework.validation.beanvalidation.SpringValidatorAdapter::validateProperty(T, java.lang.String, java.lang.Class<?>[])",
+  "name" : "return type changed type parameter",
+  "description" : "The return type changed from 'java.util.Set<javax.validation.ConstraintViolation<T>>' to 'java.util.Set<jakarta.validation.ConstraintViolation<T>>'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "java.util.Set<javax.validation.ConstraintViolation<T>>"
+  }, {
+    "name" : "newType",
+    "value" : "java.util.Set<jakarta.validation.ConstraintViolation<T>>"
+  }, {
+    "name" : "package",
+    "value" : "org.springframework.validation.beanvalidation"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.springframework.validation.beanvalidation.SpringValidatorAdapter"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "SpringValidatorAdapter"
+  }, {
+    "name" : "methodName",
+    "value" : "validateProperty"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "spring-context-5.3.23.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "spring-context-6.0.1.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.returnTypeTypeParametersChanged",
+  "old" : "method <T> java.util.Set<javax.validation.ConstraintViolation<T>> org.springframework.validation.beanvalidation.SpringValidatorAdapter::validateValue(java.lang.Class<T>, java.lang.String, java.lang.Object, java.lang.Class<?>[])",
+  "new" : "method <T> java.util.Set<jakarta.validation.ConstraintViolation<T>> org.springframework.validation.beanvalidation.SpringValidatorAdapter::validateValue(java.lang.Class<T>, java.lang.String, java.lang.Object, java.lang.Class<?>[])",
+  "name" : "return type changed type parameter",
+  "description" : "The return type changed from 'java.util.Set<javax.validation.ConstraintViolation<T>>' to 'java.util.Set<jakarta.validation.ConstraintViolation<T>>'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "java.util.Set<javax.validation.ConstraintViolation<T>>"
+  }, {
+    "name" : "newType",
+    "value" : "java.util.Set<jakarta.validation.ConstraintViolation<T>>"
+  }, {
+    "name" : "package",
+    "value" : "org.springframework.validation.beanvalidation"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.springframework.validation.beanvalidation.SpringValidatorAdapter"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "SpringValidatorAdapter"
+  }, {
+    "name" : "methodName",
+    "value" : "validateValue"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "spring-context-5.3.23.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "spring-context-6.0.1.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+} ]

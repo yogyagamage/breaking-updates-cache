@@ -1,0 +1,499 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<japicmp xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" accessModifier="PROTECTED" creationTimestamp="2023-08-21T16:10:06.936+0200" ignoreMissingClasses="true" ignoreMissingClassesByRegularExpressions="" newJar="n.a." newVersion="n.a." oldJar="n.a." oldVersion="n.a." onlyBinaryIncompatibleModifications="false" onlyModifications="true" packagesExclude="(*.)?tests(.*)?;(*.)?tests(.*)?;(*.)?test(.*)?;(*.)?test(.*)?;@org.junit.After;@org.junit.After;@org.junit.After;@org.junit.After;@org.junit.After;@org.junit.AfterClass;@org.junit.AfterClass;@org.junit.AfterClass;@org.junit.AfterClass;@org.junit.AfterClass;@org.junit.Before;@org.junit.Before;@org.junit.Before;@org.junit.Before;@org.junit.Before;@org.junit.BeforeClass;@org.junit.BeforeClass;@org.junit.BeforeClass;@org.junit.BeforeClass;@org.junit.BeforeClass;@org.junit.Ignore;@org.junit.Ignore;@org.junit.Ignore;@org.junit.Ignore;@org.junit.Ignore;@org.junit.Test;@org.junit.Test;@org.junit.Test;@org.junit.Test;@org.junit.Test;@org.junit.runner.RunWith;@org.junit.runner.RunWith;@org.junit.runner.RunWith;@org.junit.runner.RunWith;@org.junit.runner.RunWith" packagesInclude="all" semanticVersioning="1.0.0" title="JApiCmp-Report" xsi:noNamespaceSchemaLocation="japicmp.xsd">
+    <classes>
+        <class binaryCompatible="true" changeStatus="MODIFIED" fullyQualifiedName="org.jenkinsci.plugins.workflow.actions.ErrorAction" javaObjectSerializationCompatible="NOT_SERIALIZABLE" javaObjectSerializationCompatibleAsString="not serializable" sourceCompatible="true">
+            <annotations/>
+            <attributes>
+                <attribute changeStatus="UNCHANGED" newValue="NON_SYNTHETIC" oldValue="NON_SYNTHETIC"/>
+            </attributes>
+            <classFileFormatVersion changeStatus="UNCHANGED" majorVersionNew="52" majorVersionOld="52" minorVersionNew="0" minorVersionOld="0"/>
+            <classType changeStatus="UNCHANGED" newType="CLASS" oldType="CLASS"/>
+            <compatibilityChanges/>
+            <constructors/>
+            <fields/>
+            <genericTemplates/>
+            <interfaces/>
+            <methods>
+                <method binaryCompatible="true" changeStatus="NEW" name="findOrigin" newLineNumber="132" oldLineNumber="n.a." sourceCompatible="true">
+                    <annotations/>
+                    <attributes>
+                        <attribute changeStatus="NEW" newValue="NON_SYNTHETIC" oldValue="n.a."/>
+                    </attributes>
+                    <compatibilityChanges>
+                        <compatibilityChange>METHOD_ADDED_TO_PUBLIC_CLASS</compatibilityChange>
+                    </compatibilityChanges>
+                    <exceptions/>
+                    <genericTemplates/>
+                    <modifiers>
+                        <modifier changeStatus="NEW" newValue="NON_FINAL" oldValue="n.a."/>
+                        <modifier changeStatus="NEW" newValue="STATIC" oldValue="n.a."/>
+                        <modifier changeStatus="NEW" newValue="PUBLIC" oldValue="n.a."/>
+                        <modifier changeStatus="NEW" newValue="NON_ABSTRACT" oldValue="n.a."/>
+                        <modifier changeStatus="NEW" newValue="NON_BRIDGE" oldValue="n.a."/>
+                        <modifier changeStatus="NEW" newValue="NON_SYNTHETIC" oldValue="n.a."/>
+                    </modifiers>
+                    <parameters>
+                        <parameter binaryCompatible="true" changeStatus="UNCHANGED" sourceCompatible="true" templateName="N/A" type="java.lang.Throwable">
+                            <compatibilityChanges/>
+                            <newGenericTypes/>
+                            <oldGenericTypes/>
+                        </parameter>
+                        <parameter binaryCompatible="true" changeStatus="UNCHANGED" sourceCompatible="true" templateName="N/A" type="org.jenkinsci.plugins.workflow.flow.FlowExecution">
+                            <compatibilityChanges/>
+                            <newGenericTypes/>
+                            <oldGenericTypes/>
+                        </parameter>
+                    </parameters>
+                    <returnType binaryCompatible="true" changeStatus="NEW" newValue="org.jenkinsci.plugins.workflow.graph.FlowNode" oldValue="n.a." sourceCompatible="true">
+                        <compatibilityChanges/>
+                        <newGenericTypes/>
+                        <oldGenericTypes/>
+                    </returnType>
+                </method>
+            </methods>
+            <modifiers>
+                <modifier changeStatus="UNCHANGED" newValue="NON_FINAL" oldValue="NON_FINAL"/>
+                <modifier changeStatus="UNCHANGED" newValue="NON_STATIC" oldValue="NON_STATIC"/>
+                <modifier changeStatus="UNCHANGED" newValue="PUBLIC" oldValue="PUBLIC"/>
+                <modifier changeStatus="UNCHANGED" newValue="NON_ABSTRACT" oldValue="NON_ABSTRACT"/>
+                <modifier changeStatus="UNCHANGED" newValue="NON_SYNTHETIC" oldValue="NON_SYNTHETIC"/>
+            </modifiers>
+            <serialVersionUid serialVersionUidDefaultNew="n.a." serialVersionUidDefaultOld="n.a." serialVersionUidInClassNew="n.a." serialVersionUidInClassOld="n.a." serializableNew="false" serializableOld="false"/>
+            <superclass binaryCompatible="true" changeStatus="UNCHANGED" sourceCompatible="true" superclassNew="java.lang.Object" superclassOld="java.lang.Object">
+                <compatibilityChanges/>
+            </superclass>
+        </class>
+        <class binaryCompatible="true" changeStatus="NEW" fullyQualifiedName="org.jenkinsci.plugins.workflow.flow.ErrorCondition" javaObjectSerializationCompatible="SERIALIZABLE_COMPATIBLE" javaObjectSerializationCompatibleAsString="compatible" sourceCompatible="true">
+            <annotations>
+                <annotation binaryCompatible="true" changeStatus="NEW" fullyQualifiedName="org.kohsuke.accmod.Restricted" sourceCompatible="true">
+                    <compatibilityChanges/>
+                    <elements>
+                        <element binaryCompatible="true" changeStatus="NEW" name="value" sourceCompatible="true">
+                            <compatibilityChanges/>
+                            <newElementValues>
+<newElementValue fullyQualifiedName="org.kohsuke.accmod.restrictions.Beta" name="n.a." type="Class" value="org.kohsuke.accmod.restrictions.Beta">
+    <values/>
+</newElementValue>
+                            </newElementValues>
+                            <oldElementValues/>
+                        </element>
+                    </elements>
+                </annotation>
+            </annotations>
+            <attributes>
+                <attribute changeStatus="NEW" newValue="NON_SYNTHETIC" oldValue="n.a."/>
+            </attributes>
+            <classFileFormatVersion changeStatus="NEW" majorVersionNew="52" majorVersionOld="-1" minorVersionNew="0" minorVersionOld="-1"/>
+            <classType changeStatus="NEW" newType="CLASS" oldType="n.a."/>
+            <compatibilityChanges/>
+            <constructors>
+                <constructor binaryCompatible="true" changeStatus="NEW" name="ErrorCondition" newLineNumber="45" oldLineNumber="n.a." sourceCompatible="true">
+                    <annotations/>
+                    <attributes>
+                        <attribute changeStatus="NEW" newValue="NON_SYNTHETIC" oldValue="n.a."/>
+                    </attributes>
+                    <compatibilityChanges/>
+                    <exceptions/>
+                    <genericTemplates/>
+                    <modifiers>
+                        <modifier changeStatus="NEW" newValue="NON_FINAL" oldValue="n.a."/>
+                        <modifier changeStatus="NEW" newValue="NON_STATIC" oldValue="n.a."/>
+                        <modifier changeStatus="NEW" newValue="PUBLIC" oldValue="n.a."/>
+                        <modifier changeStatus="NEW" newValue="NON_ABSTRACT" oldValue="n.a."/>
+                        <modifier changeStatus="NEW" newValue="NON_BRIDGE" oldValue="n.a."/>
+                        <modifier changeStatus="NEW" newValue="NON_SYNTHETIC" oldValue="n.a."/>
+                    </modifiers>
+                    <parameters/>
+                </constructor>
+            </constructors>
+            <fields/>
+            <genericTemplates/>
+            <interfaces/>
+            <methods>
+                <method binaryCompatible="true" changeStatus="NEW" name="getDescriptor" newLineNumber="59" oldLineNumber="n.a." sourceCompatible="true">
+                    <annotations/>
+                    <attributes>
+                        <attribute changeStatus="NEW" newValue="NON_SYNTHETIC" oldValue="n.a."/>
+                    </attributes>
+                    <compatibilityChanges>
+                        <compatibilityChange>METHOD_ADDED_TO_PUBLIC_CLASS</compatibilityChange>
+                    </compatibilityChanges>
+                    <exceptions/>
+                    <genericTemplates/>
+                    <modifiers>
+                        <modifier changeStatus="NEW" newValue="NON_FINAL" oldValue="n.a."/>
+                        <modifier changeStatus="NEW" newValue="NON_STATIC" oldValue="n.a."/>
+                        <modifier changeStatus="NEW" newValue="PUBLIC" oldValue="n.a."/>
+                        <modifier changeStatus="NEW" newValue="NON_ABSTRACT" oldValue="n.a."/>
+                        <modifier changeStatus="NEW" newValue="NON_BRIDGE" oldValue="n.a."/>
+                        <modifier changeStatus="NEW" newValue="NON_SYNTHETIC" oldValue="n.a."/>
+                    </modifiers>
+                    <parameters/>
+                    <returnType binaryCompatible="true" changeStatus="NEW" newValue="org.jenkinsci.plugins.workflow.flow.ErrorCondition$ErrorConditionDescriptor" oldValue="n.a." sourceCompatible="true">
+                        <compatibilityChanges/>
+                        <newGenericTypes/>
+                        <oldGenericTypes/>
+                    </returnType>
+                </method>
+                <method binaryCompatible="true" changeStatus="NEW" name="test" newLineNumber="n.a." oldLineNumber="n.a." sourceCompatible="true">
+                    <annotations/>
+                    <attributes>
+                        <attribute changeStatus="NEW" newValue="NON_SYNTHETIC" oldValue="n.a."/>
+                    </attributes>
+                    <compatibilityChanges>
+                        <compatibilityChange>METHOD_ADDED_TO_PUBLIC_CLASS</compatibilityChange>
+                    </compatibilityChanges>
+                    <exceptions>
+                        <exception changeStatus="NEW" name="java.io.IOException"/>
+                        <exception changeStatus="NEW" name="java.lang.InterruptedException"/>
+                    </exceptions>
+                    <genericTemplates/>
+                    <modifiers>
+                        <modifier changeStatus="NEW" newValue="NON_FINAL" oldValue="n.a."/>
+                        <modifier changeStatus="NEW" newValue="NON_STATIC" oldValue="n.a."/>
+                        <modifier changeStatus="NEW" newValue="PUBLIC" oldValue="n.a."/>
+                        <modifier changeStatus="NEW" newValue="ABSTRACT" oldValue="n.a."/>
+                        <modifier changeStatus="NEW" newValue="NON_BRIDGE" oldValue="n.a."/>
+                        <modifier changeStatus="NEW" newValue="NON_SYNTHETIC" oldValue="n.a."/>
+                    </modifiers>
+                    <parameters>
+                        <parameter binaryCompatible="true" changeStatus="UNCHANGED" sourceCompatible="true" templateName="N/A" type="java.lang.Throwable">
+                            <compatibilityChanges/>
+                            <newGenericTypes/>
+                            <oldGenericTypes/>
+                        </parameter>
+                        <parameter binaryCompatible="true" changeStatus="UNCHANGED" sourceCompatible="true" templateName="N/A" type="org.jenkinsci.plugins.workflow.steps.StepContext">
+                            <compatibilityChanges/>
+                            <newGenericTypes/>
+                            <oldGenericTypes/>
+                        </parameter>
+                    </parameters>
+                    <returnType binaryCompatible="true" changeStatus="NEW" newValue="boolean" oldValue="n.a." sourceCompatible="true">
+                        <compatibilityChanges/>
+                        <newGenericTypes/>
+                        <oldGenericTypes/>
+                    </returnType>
+                </method>
+            </methods>
+            <modifiers>
+                <modifier changeStatus="NEW" newValue="NON_FINAL" oldValue="n.a."/>
+                <modifier changeStatus="NEW" newValue="NON_STATIC" oldValue="n.a."/>
+                <modifier changeStatus="NEW" newValue="PUBLIC" oldValue="n.a."/>
+                <modifier changeStatus="NEW" newValue="ABSTRACT" oldValue="n.a."/>
+                <modifier changeStatus="NEW" newValue="NON_SYNTHETIC" oldValue="n.a."/>
+            </modifiers>
+            <serialVersionUid serialVersionUidDefaultNew="-1942488352762233315" serialVersionUidDefaultOld="n.a." serialVersionUidInClassNew="n.a." serialVersionUidInClassOld="n.a." serializableNew="true" serializableOld="false"/>
+            <superclass binaryCompatible="true" changeStatus="UNCHANGED" sourceCompatible="true" superclassNew="n.a." superclassOld="n.a.">
+                <compatibilityChanges/>
+            </superclass>
+        </class>
+        <class binaryCompatible="true" changeStatus="NEW" fullyQualifiedName="org.jenkinsci.plugins.workflow.flow.ErrorCondition$ErrorConditionDescriptor" javaObjectSerializationCompatible="NOT_SERIALIZABLE" javaObjectSerializationCompatibleAsString="not serializable" sourceCompatible="true">
+            <annotations/>
+            <attributes>
+                <attribute changeStatus="NEW" newValue="NON_SYNTHETIC" oldValue="n.a."/>
+            </attributes>
+            <classFileFormatVersion changeStatus="NEW" majorVersionNew="52" majorVersionOld="-1" minorVersionNew="0" minorVersionOld="-1"/>
+            <classType changeStatus="NEW" newType="CLASS" oldType="n.a."/>
+            <compatibilityChanges/>
+            <constructors>
+                <constructor binaryCompatible="true" changeStatus="NEW" name="ErrorCondition$ErrorConditionDescriptor" newLineNumber="62" oldLineNumber="n.a." sourceCompatible="true">
+                    <annotations/>
+                    <attributes>
+                        <attribute changeStatus="NEW" newValue="NON_SYNTHETIC" oldValue="n.a."/>
+                    </attributes>
+                    <compatibilityChanges/>
+                    <exceptions/>
+                    <genericTemplates/>
+                    <modifiers>
+                        <modifier changeStatus="NEW" newValue="NON_FINAL" oldValue="n.a."/>
+                        <modifier changeStatus="NEW" newValue="NON_STATIC" oldValue="n.a."/>
+                        <modifier changeStatus="NEW" newValue="PUBLIC" oldValue="n.a."/>
+                        <modifier changeStatus="NEW" newValue="NON_ABSTRACT" oldValue="n.a."/>
+                        <modifier changeStatus="NEW" newValue="NON_BRIDGE" oldValue="n.a."/>
+                        <modifier changeStatus="NEW" newValue="NON_SYNTHETIC" oldValue="n.a."/>
+                    </modifiers>
+                    <parameters/>
+                </constructor>
+            </constructors>
+            <fields/>
+            <genericTemplates/>
+            <interfaces/>
+            <methods/>
+            <modifiers>
+                <modifier changeStatus="NEW" newValue="NON_FINAL" oldValue="n.a."/>
+                <modifier changeStatus="NEW" newValue="STATIC" oldValue="n.a."/>
+                <modifier changeStatus="NEW" newValue="PUBLIC" oldValue="n.a."/>
+                <modifier changeStatus="NEW" newValue="ABSTRACT" oldValue="n.a."/>
+                <modifier changeStatus="NEW" newValue="NON_SYNTHETIC" oldValue="n.a."/>
+            </modifiers>
+            <serialVersionUid serialVersionUidDefaultNew="n.a." serialVersionUidDefaultOld="n.a." serialVersionUidInClassNew="n.a." serialVersionUidInClassOld="n.a." serializableNew="false" serializableOld="false"/>
+            <superclass binaryCompatible="true" changeStatus="UNCHANGED" sourceCompatible="true" superclassNew="n.a." superclassOld="n.a.">
+                <compatibilityChanges/>
+            </superclass>
+        </class>
+        <class binaryCompatible="true" changeStatus="MODIFIED" fullyQualifiedName="org.jenkinsci.plugins.workflow.flow.FlowExecution" javaObjectSerializationCompatible="NOT_SERIALIZABLE" javaObjectSerializationCompatibleAsString="not serializable" sourceCompatible="true">
+            <annotations/>
+            <attributes>
+                <attribute changeStatus="UNCHANGED" newValue="NON_SYNTHETIC" oldValue="NON_SYNTHETIC"/>
+            </attributes>
+            <classFileFormatVersion changeStatus="UNCHANGED" majorVersionNew="52" majorVersionOld="52" minorVersionNew="0" minorVersionOld="0"/>
+            <classType changeStatus="UNCHANGED" newType="CLASS" oldType="CLASS"/>
+            <compatibilityChanges/>
+            <constructors/>
+            <fields/>
+            <genericTemplates/>
+            <interfaces/>
+            <methods>
+                <method binaryCompatible="true" changeStatus="NEW" name="afterStepExecutionsResumed" newLineNumber="331" oldLineNumber="n.a." sourceCompatible="true">
+                    <annotations/>
+                    <attributes>
+                        <attribute changeStatus="NEW" newValue="NON_SYNTHETIC" oldValue="n.a."/>
+                    </attributes>
+                    <compatibilityChanges/>
+                    <exceptions/>
+                    <genericTemplates/>
+                    <modifiers>
+                        <modifier changeStatus="NEW" newValue="NON_FINAL" oldValue="n.a."/>
+                        <modifier changeStatus="NEW" newValue="NON_STATIC" oldValue="n.a."/>
+                        <modifier changeStatus="NEW" newValue="PROTECTED" oldValue="n.a."/>
+                        <modifier changeStatus="NEW" newValue="NON_ABSTRACT" oldValue="n.a."/>
+                        <modifier changeStatus="NEW" newValue="NON_BRIDGE" oldValue="n.a."/>
+                        <modifier changeStatus="NEW" newValue="NON_SYNTHETIC" oldValue="n.a."/>
+                    </modifiers>
+                    <parameters/>
+                    <returnType binaryCompatible="true" changeStatus="NEW" newValue="void" oldValue="n.a." sourceCompatible="true">
+                        <compatibilityChanges/>
+                        <newGenericTypes/>
+                        <oldGenericTypes/>
+                    </returnType>
+                </method>
+            </methods>
+            <modifiers>
+                <modifier changeStatus="UNCHANGED" newValue="NON_FINAL" oldValue="NON_FINAL"/>
+                <modifier changeStatus="UNCHANGED" newValue="NON_STATIC" oldValue="NON_STATIC"/>
+                <modifier changeStatus="UNCHANGED" newValue="PUBLIC" oldValue="PUBLIC"/>
+                <modifier changeStatus="UNCHANGED" newValue="ABSTRACT" oldValue="ABSTRACT"/>
+                <modifier changeStatus="UNCHANGED" newValue="NON_SYNTHETIC" oldValue="NON_SYNTHETIC"/>
+            </modifiers>
+            <serialVersionUid serialVersionUidDefaultNew="n.a." serialVersionUidDefaultOld="n.a." serialVersionUidInClassNew="n.a." serialVersionUidInClassOld="n.a." serializableNew="false" serializableOld="false"/>
+            <superclass binaryCompatible="true" changeStatus="UNCHANGED" sourceCompatible="true" superclassNew="java.lang.Object" superclassOld="java.lang.Object">
+                <compatibilityChanges/>
+            </superclass>
+        </class>
+        <class binaryCompatible="true" changeStatus="UNCHANGED" fullyQualifiedName="org.jenkinsci.plugins.workflow.flow.FlowExecutionList" javaObjectSerializationCompatible="NOT_SERIALIZABLE" javaObjectSerializationCompatibleAsString="not serializable" sourceCompatible="true">
+            <annotations/>
+            <attributes>
+                <attribute changeStatus="UNCHANGED" newValue="NON_SYNTHETIC" oldValue="NON_SYNTHETIC"/>
+            </attributes>
+            <classFileFormatVersion changeStatus="UNCHANGED" majorVersionNew="52" majorVersionOld="52" minorVersionNew="0" minorVersionOld="0"/>
+            <classType changeStatus="UNCHANGED" newType="CLASS" oldType="CLASS"/>
+            <compatibilityChanges/>
+            <constructors/>
+            <fields/>
+            <genericTemplates/>
+            <interfaces/>
+            <methods>
+                <method binaryCompatible="true" changeStatus="UNCHANGED" name="isResumptionComplete" newLineNumber="185" oldLineNumber="167" sourceCompatible="true">
+                    <annotations>
+                        <annotation binaryCompatible="true" changeStatus="REMOVED" fullyQualifiedName="java.lang.Deprecated" sourceCompatible="true">
+                            <compatibilityChanges/>
+                            <elements/>
+                        </annotation>
+                        <annotation binaryCompatible="true" changeStatus="NEW" fullyQualifiedName="org.kohsuke.accmod.Restricted" sourceCompatible="true">
+                            <compatibilityChanges/>
+                            <elements>
+<element binaryCompatible="true" changeStatus="NEW" name="value" sourceCompatible="true">
+    <compatibilityChanges/>
+    <newElementValues>
+        <newElementValue fullyQualifiedName="org.kohsuke.accmod.restrictions.Beta" name="n.a." type="Class" value="org.kohsuke.accmod.restrictions.Beta">
+            <values/>
+        </newElementValue>
+    </newElementValues>
+    <oldElementValues/>
+</element>
+                            </elements>
+                        </annotation>
+                    </annotations>
+                    <attributes>
+                        <attribute changeStatus="UNCHANGED" newValue="NON_SYNTHETIC" oldValue="NON_SYNTHETIC"/>
+                    </attributes>
+                    <compatibilityChanges/>
+                    <exceptions/>
+                    <genericTemplates/>
+                    <modifiers>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_FINAL" oldValue="NON_FINAL"/>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_STATIC" oldValue="NON_STATIC"/>
+                        <modifier changeStatus="UNCHANGED" newValue="PUBLIC" oldValue="PUBLIC"/>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_ABSTRACT" oldValue="NON_ABSTRACT"/>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_BRIDGE" oldValue="NON_BRIDGE"/>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_SYNTHETIC" oldValue="NON_SYNTHETIC"/>
+                    </modifiers>
+                    <parameters/>
+                    <returnType binaryCompatible="true" changeStatus="UNCHANGED" newValue="boolean" oldValue="boolean" sourceCompatible="true">
+                        <compatibilityChanges/>
+                        <newGenericTypes/>
+                        <oldGenericTypes/>
+                    </returnType>
+                </method>
+            </methods>
+            <modifiers>
+                <modifier changeStatus="UNCHANGED" newValue="NON_FINAL" oldValue="NON_FINAL"/>
+                <modifier changeStatus="UNCHANGED" newValue="NON_STATIC" oldValue="NON_STATIC"/>
+                <modifier changeStatus="UNCHANGED" newValue="PUBLIC" oldValue="PUBLIC"/>
+                <modifier changeStatus="UNCHANGED" newValue="NON_ABSTRACT" oldValue="NON_ABSTRACT"/>
+                <modifier changeStatus="UNCHANGED" newValue="NON_SYNTHETIC" oldValue="NON_SYNTHETIC"/>
+            </modifiers>
+            <serialVersionUid serialVersionUidDefaultNew="n.a." serialVersionUidDefaultOld="n.a." serialVersionUidInClassNew="n.a." serialVersionUidInClassOld="n.a." serializableNew="false" serializableOld="false"/>
+            <superclass binaryCompatible="true" changeStatus="UNCHANGED" sourceCompatible="true" superclassNew="java.lang.Object" superclassOld="java.lang.Object">
+                <compatibilityChanges/>
+            </superclass>
+        </class>
+        <class binaryCompatible="true" changeStatus="NEW" fullyQualifiedName="org.jenkinsci.plugins.workflow.flow.FlowExecutionList$ResumeStepExecutionListener" javaObjectSerializationCompatible="NOT_SERIALIZABLE" javaObjectSerializationCompatibleAsString="not serializable" sourceCompatible="true">
+            <annotations>
+                <annotation binaryCompatible="true" changeStatus="NEW" fullyQualifiedName="hudson.Extension" sourceCompatible="true">
+                    <compatibilityChanges/>
+                    <elements/>
+                </annotation>
+            </annotations>
+            <attributes>
+                <attribute changeStatus="NEW" newValue="NON_SYNTHETIC" oldValue="n.a."/>
+            </attributes>
+            <classFileFormatVersion changeStatus="NEW" majorVersionNew="52" majorVersionOld="-1" minorVersionNew="0" minorVersionOld="-1"/>
+            <classType changeStatus="NEW" newType="CLASS" oldType="n.a."/>
+            <compatibilityChanges/>
+            <constructors>
+                <constructor binaryCompatible="true" changeStatus="NEW" name="FlowExecutionList$ResumeStepExecutionListener" newLineNumber="264" oldLineNumber="n.a." sourceCompatible="true">
+                    <annotations/>
+                    <attributes>
+                        <attribute changeStatus="NEW" newValue="NON_SYNTHETIC" oldValue="n.a."/>
+                    </attributes>
+                    <compatibilityChanges/>
+                    <exceptions/>
+                    <genericTemplates/>
+                    <modifiers>
+                        <modifier changeStatus="NEW" newValue="NON_FINAL" oldValue="n.a."/>
+                        <modifier changeStatus="NEW" newValue="NON_STATIC" oldValue="n.a."/>
+                        <modifier changeStatus="NEW" newValue="PUBLIC" oldValue="n.a."/>
+                        <modifier changeStatus="NEW" newValue="NON_ABSTRACT" oldValue="n.a."/>
+                        <modifier changeStatus="NEW" newValue="NON_BRIDGE" oldValue="n.a."/>
+                        <modifier changeStatus="NEW" newValue="NON_SYNTHETIC" oldValue="n.a."/>
+                    </modifiers>
+                    <parameters/>
+                </constructor>
+            </constructors>
+            <fields/>
+            <genericTemplates/>
+            <interfaces/>
+            <methods>
+                <method binaryCompatible="true" changeStatus="NEW" name="onResumed" newLineNumber="267" oldLineNumber="n.a." sourceCompatible="true">
+                    <annotations/>
+                    <attributes>
+                        <attribute changeStatus="NEW" newValue="NON_SYNTHETIC" oldValue="n.a."/>
+                    </attributes>
+                    <compatibilityChanges>
+                        <compatibilityChange>METHOD_ADDED_TO_PUBLIC_CLASS</compatibilityChange>
+                    </compatibilityChanges>
+                    <exceptions/>
+                    <genericTemplates/>
+                    <modifiers>
+                        <modifier changeStatus="NEW" newValue="NON_FINAL" oldValue="n.a."/>
+                        <modifier changeStatus="NEW" newValue="NON_STATIC" oldValue="n.a."/>
+                        <modifier changeStatus="NEW" newValue="PUBLIC" oldValue="n.a."/>
+                        <modifier changeStatus="NEW" newValue="NON_ABSTRACT" oldValue="n.a."/>
+                        <modifier changeStatus="NEW" newValue="NON_BRIDGE" oldValue="n.a."/>
+                        <modifier changeStatus="NEW" newValue="NON_SYNTHETIC" oldValue="n.a."/>
+                    </modifiers>
+                    <parameters>
+                        <parameter binaryCompatible="true" changeStatus="UNCHANGED" sourceCompatible="true" templateName="N/A" type="org.jenkinsci.plugins.workflow.flow.FlowExecution">
+                            <compatibilityChanges/>
+                            <newGenericTypes/>
+                            <oldGenericTypes/>
+                        </parameter>
+                    </parameters>
+                    <returnType binaryCompatible="true" changeStatus="NEW" newValue="void" oldValue="n.a." sourceCompatible="true">
+                        <compatibilityChanges/>
+                        <newGenericTypes/>
+                        <oldGenericTypes/>
+                    </returnType>
+                </method>
+            </methods>
+            <modifiers>
+                <modifier changeStatus="NEW" newValue="NON_FINAL" oldValue="n.a."/>
+                <modifier changeStatus="NEW" newValue="STATIC" oldValue="n.a."/>
+                <modifier changeStatus="NEW" newValue="PUBLIC" oldValue="n.a."/>
+                <modifier changeStatus="NEW" newValue="NON_ABSTRACT" oldValue="n.a."/>
+                <modifier changeStatus="NEW" newValue="NON_SYNTHETIC" oldValue="n.a."/>
+            </modifiers>
+            <serialVersionUid serialVersionUidDefaultNew="n.a." serialVersionUidDefaultOld="n.a." serialVersionUidInClassNew="n.a." serialVersionUidInClassOld="n.a." serializableNew="false" serializableOld="false"/>
+            <superclass binaryCompatible="true" changeStatus="NEW" sourceCompatible="true" superclassNew="org.jenkinsci.plugins.workflow.flow.FlowExecutionListener" superclassOld="n.a.">
+                <compatibilityChanges/>
+            </superclass>
+        </class>
+        <class binaryCompatible="false" changeStatus="MODIFIED" fullyQualifiedName="org.jenkinsci.plugins.workflow.log.TaskListenerDecorator$Factory" javaObjectSerializationCompatible="NOT_SERIALIZABLE" javaObjectSerializationCompatibleAsString="not serializable" sourceCompatible="false">
+            <annotations/>
+            <attributes>
+                <attribute changeStatus="UNCHANGED" newValue="NON_SYNTHETIC" oldValue="NON_SYNTHETIC"/>
+            </attributes>
+            <classFileFormatVersion changeStatus="UNCHANGED" majorVersionNew="52" majorVersionOld="52" minorVersionNew="0" minorVersionOld="0"/>
+            <classType changeStatus="UNCHANGED" newType="INTERFACE" oldType="INTERFACE"/>
+            <compatibilityChanges/>
+            <constructors/>
+            <fields/>
+            <genericTemplates/>
+            <interfaces/>
+            <methods>
+                <method binaryCompatible="false" changeStatus="NEW" name="isAppliedBeforeMainDecorator" newLineNumber="143" oldLineNumber="n.a." sourceCompatible="false">
+                    <annotations>
+                        <annotation binaryCompatible="true" changeStatus="NEW" fullyQualifiedName="org.kohsuke.accmod.Restricted" sourceCompatible="true">
+                            <compatibilityChanges/>
+                            <elements>
+<element binaryCompatible="true" changeStatus="NEW" name="value" sourceCompatible="true">
+    <compatibilityChanges/>
+    <newElementValues>
+        <newElementValue fullyQualifiedName="org.kohsuke.accmod.restrictions.Beta" name="n.a." type="Class" value="org.kohsuke.accmod.restrictions.Beta">
+            <values/>
+        </newElementValue>
+    </newElementValues>
+    <oldElementValues/>
+</element>
+                            </elements>
+                        </annotation>
+                    </annotations>
+                    <attributes>
+                        <attribute changeStatus="NEW" newValue="NON_SYNTHETIC" oldValue="n.a."/>
+                    </attributes>
+                    <compatibilityChanges>
+                        <compatibilityChange>METHOD_NEW_DEFAULT</compatibilityChange>
+                    </compatibilityChanges>
+                    <exceptions/>
+                    <genericTemplates/>
+                    <modifiers>
+                        <modifier changeStatus="NEW" newValue="NON_FINAL" oldValue="n.a."/>
+                        <modifier changeStatus="NEW" newValue="NON_STATIC" oldValue="n.a."/>
+                        <modifier changeStatus="NEW" newValue="PUBLIC" oldValue="n.a."/>
+                        <modifier changeStatus="NEW" newValue="NON_ABSTRACT" oldValue="n.a."/>
+                        <modifier changeStatus="NEW" newValue="NON_BRIDGE" oldValue="n.a."/>
+                        <modifier changeStatus="NEW" newValue="NON_SYNTHETIC" oldValue="n.a."/>
+                    </modifiers>
+                    <parameters/>
+                    <returnType binaryCompatible="true" changeStatus="NEW" newValue="boolean" oldValue="n.a." sourceCompatible="true">
+                        <compatibilityChanges/>
+                        <newGenericTypes/>
+                        <oldGenericTypes/>
+                    </returnType>
+                </method>
+            </methods>
+            <modifiers>
+                <modifier changeStatus="UNCHANGED" newValue="NON_FINAL" oldValue="NON_FINAL"/>
+                <modifier changeStatus="UNCHANGED" newValue="STATIC" oldValue="STATIC"/>
+                <modifier changeStatus="UNCHANGED" newValue="PUBLIC" oldValue="PUBLIC"/>
+                <modifier changeStatus="UNCHANGED" newValue="ABSTRACT" oldValue="ABSTRACT"/>
+                <modifier changeStatus="UNCHANGED" newValue="NON_SYNTHETIC" oldValue="NON_SYNTHETIC"/>
+            </modifiers>
+            <serialVersionUid serialVersionUidDefaultNew="n.a." serialVersionUidDefaultOld="n.a." serialVersionUidInClassNew="n.a." serialVersionUidInClassOld="n.a." serializableNew="false" serializableOld="false"/>
+            <superclass binaryCompatible="true" changeStatus="UNCHANGED" sourceCompatible="true" superclassNew="java.lang.Object" superclassOld="java.lang.Object">
+                <compatibilityChanges/>
+            </superclass>
+        </class>
+    </classes>
+</japicmp>

@@ -1,0 +1,1973 @@
+[ {
+  "code" : "java.class.removed",
+  "old" : "class org.hamcrest.Matchers",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.hamcrest"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.hamcrest.Matchers"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "Matchers"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "hamcrest-library-1.3.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class org.hamcrest.beans.HasProperty<T>",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.hamcrest.beans"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.hamcrest.beans.HasProperty"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "HasProperty"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "hamcrest-library-1.3.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class org.hamcrest.beans.HasPropertyWithValue<T>",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.hamcrest.beans"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.hamcrest.beans.HasPropertyWithValue"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "HasPropertyWithValue"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "hamcrest-library-1.3.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class org.hamcrest.beans.PropertyUtil",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.hamcrest.beans"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.hamcrest.beans.PropertyUtil"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "PropertyUtil"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "hamcrest-library-1.3.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class org.hamcrest.beans.SamePropertyValuesAs<T>",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.hamcrest.beans"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.hamcrest.beans.SamePropertyValuesAs"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "SamePropertyValuesAs"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "hamcrest-library-1.3.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class org.hamcrest.collection.IsArray<T>",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.hamcrest.collection"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.hamcrest.collection.IsArray"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "IsArray"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "hamcrest-library-1.3.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class org.hamcrest.collection.IsArrayContaining<T>",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.hamcrest.collection"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.hamcrest.collection.IsArrayContaining"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "IsArrayContaining"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "hamcrest-library-1.3.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class org.hamcrest.collection.IsArrayContainingInAnyOrder<E>",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.hamcrest.collection"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.hamcrest.collection.IsArrayContainingInAnyOrder"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "IsArrayContainingInAnyOrder"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "hamcrest-library-1.3.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class org.hamcrest.collection.IsArrayContainingInOrder<E>",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.hamcrest.collection"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.hamcrest.collection.IsArrayContainingInOrder"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "IsArrayContainingInOrder"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "hamcrest-library-1.3.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class org.hamcrest.collection.IsArrayWithSize<E>",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.hamcrest.collection"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.hamcrest.collection.IsArrayWithSize"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "IsArrayWithSize"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "hamcrest-library-1.3.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class org.hamcrest.collection.IsCollectionWithSize<E>",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.hamcrest.collection"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.hamcrest.collection.IsCollectionWithSize"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "IsCollectionWithSize"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "hamcrest-library-1.3.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class org.hamcrest.collection.IsEmptyCollection<E>",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.hamcrest.collection"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.hamcrest.collection.IsEmptyCollection"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "IsEmptyCollection"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "hamcrest-library-1.3.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class org.hamcrest.collection.IsEmptyIterable<E>",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.hamcrest.collection"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.hamcrest.collection.IsEmptyIterable"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "IsEmptyIterable"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "hamcrest-library-1.3.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class org.hamcrest.collection.IsIn<T>",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.hamcrest.collection"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.hamcrest.collection.IsIn"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "IsIn"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "hamcrest-library-1.3.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class org.hamcrest.collection.IsIterableContainingInAnyOrder<T>",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.hamcrest.collection"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.hamcrest.collection.IsIterableContainingInAnyOrder"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "IsIterableContainingInAnyOrder"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "hamcrest-library-1.3.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class org.hamcrest.collection.IsIterableContainingInOrder<E>",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.hamcrest.collection"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.hamcrest.collection.IsIterableContainingInOrder"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "IsIterableContainingInOrder"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "hamcrest-library-1.3.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class org.hamcrest.collection.IsIterableWithSize<E>",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.hamcrest.collection"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.hamcrest.collection.IsIterableWithSize"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "IsIterableWithSize"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "hamcrest-library-1.3.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class org.hamcrest.collection.IsMapContaining<K, V>",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.hamcrest.collection"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.hamcrest.collection.IsMapContaining"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "IsMapContaining"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "hamcrest-library-1.3.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class org.hamcrest.number.BigDecimalCloseTo",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.hamcrest.number"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.hamcrest.number.BigDecimalCloseTo"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "BigDecimalCloseTo"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "hamcrest-library-1.3.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class org.hamcrest.number.IsCloseTo",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.hamcrest.number"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.hamcrest.number.IsCloseTo"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "IsCloseTo"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "hamcrest-library-1.3.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class org.hamcrest.number.OrderingComparison<T extends java.lang.Comparable<T>>",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.hamcrest.number"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.hamcrest.number.OrderingComparison"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "OrderingComparison"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "hamcrest-library-1.3.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class org.hamcrest.object.HasToString<T>",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.hamcrest.object"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.hamcrest.object.HasToString"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "HasToString"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "hamcrest-library-1.3.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class org.hamcrest.object.IsCompatibleType<T>",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.hamcrest.object"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.hamcrest.object.IsCompatibleType"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "IsCompatibleType"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "hamcrest-library-1.3.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class org.hamcrest.object.IsEventFrom",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.hamcrest.object"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.hamcrest.object.IsEventFrom"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "IsEventFrom"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "hamcrest-library-1.3.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class org.hamcrest.text.IsEmptyString",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.hamcrest.text"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.hamcrest.text.IsEmptyString"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "IsEmptyString"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "hamcrest-library-1.3.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class org.hamcrest.text.IsEqualIgnoringCase",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.hamcrest.text"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.hamcrest.text.IsEqualIgnoringCase"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "IsEqualIgnoringCase"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "hamcrest-library-1.3.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class org.hamcrest.text.IsEqualIgnoringWhiteSpace",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.hamcrest.text"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.hamcrest.text.IsEqualIgnoringWhiteSpace"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "IsEqualIgnoringWhiteSpace"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "hamcrest-library-1.3.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class org.hamcrest.text.StringContainsInOrder",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.hamcrest.text"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.hamcrest.text.StringContainsInOrder"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "StringContainsInOrder"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "hamcrest-library-1.3.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class org.hamcrest.xml.HasXPath",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.hamcrest.xml"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.hamcrest.xml.HasXPath"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "HasXPath"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "hamcrest-library-1.3.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+} ][ {
+  "code" : "java.class.removed",
+  "old" : "class org.hamcrest.Matchers",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.hamcrest"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.hamcrest.Matchers"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "Matchers"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "hamcrest-library-1.3.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class org.hamcrest.beans.HasProperty<T>",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.hamcrest.beans"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.hamcrest.beans.HasProperty"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "HasProperty"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "hamcrest-library-1.3.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class org.hamcrest.beans.HasPropertyWithValue<T>",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.hamcrest.beans"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.hamcrest.beans.HasPropertyWithValue"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "HasPropertyWithValue"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "hamcrest-library-1.3.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class org.hamcrest.beans.PropertyUtil",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.hamcrest.beans"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.hamcrest.beans.PropertyUtil"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "PropertyUtil"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "hamcrest-library-1.3.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class org.hamcrest.beans.SamePropertyValuesAs<T>",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.hamcrest.beans"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.hamcrest.beans.SamePropertyValuesAs"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "SamePropertyValuesAs"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "hamcrest-library-1.3.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class org.hamcrest.collection.IsArray<T>",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.hamcrest.collection"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.hamcrest.collection.IsArray"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "IsArray"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "hamcrest-library-1.3.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class org.hamcrest.collection.IsArrayContaining<T>",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.hamcrest.collection"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.hamcrest.collection.IsArrayContaining"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "IsArrayContaining"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "hamcrest-library-1.3.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class org.hamcrest.collection.IsArrayContainingInAnyOrder<E>",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.hamcrest.collection"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.hamcrest.collection.IsArrayContainingInAnyOrder"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "IsArrayContainingInAnyOrder"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "hamcrest-library-1.3.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class org.hamcrest.collection.IsArrayContainingInOrder<E>",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.hamcrest.collection"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.hamcrest.collection.IsArrayContainingInOrder"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "IsArrayContainingInOrder"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "hamcrest-library-1.3.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class org.hamcrest.collection.IsArrayWithSize<E>",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.hamcrest.collection"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.hamcrest.collection.IsArrayWithSize"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "IsArrayWithSize"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "hamcrest-library-1.3.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class org.hamcrest.collection.IsCollectionWithSize<E>",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.hamcrest.collection"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.hamcrest.collection.IsCollectionWithSize"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "IsCollectionWithSize"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "hamcrest-library-1.3.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class org.hamcrest.collection.IsEmptyCollection<E>",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.hamcrest.collection"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.hamcrest.collection.IsEmptyCollection"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "IsEmptyCollection"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "hamcrest-library-1.3.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class org.hamcrest.collection.IsEmptyIterable<E>",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.hamcrest.collection"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.hamcrest.collection.IsEmptyIterable"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "IsEmptyIterable"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "hamcrest-library-1.3.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class org.hamcrest.collection.IsIn<T>",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.hamcrest.collection"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.hamcrest.collection.IsIn"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "IsIn"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "hamcrest-library-1.3.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class org.hamcrest.collection.IsIterableContainingInAnyOrder<T>",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.hamcrest.collection"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.hamcrest.collection.IsIterableContainingInAnyOrder"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "IsIterableContainingInAnyOrder"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "hamcrest-library-1.3.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class org.hamcrest.collection.IsIterableContainingInOrder<E>",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.hamcrest.collection"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.hamcrest.collection.IsIterableContainingInOrder"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "IsIterableContainingInOrder"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "hamcrest-library-1.3.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class org.hamcrest.collection.IsIterableWithSize<E>",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.hamcrest.collection"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.hamcrest.collection.IsIterableWithSize"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "IsIterableWithSize"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "hamcrest-library-1.3.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class org.hamcrest.collection.IsMapContaining<K, V>",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.hamcrest.collection"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.hamcrest.collection.IsMapContaining"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "IsMapContaining"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "hamcrest-library-1.3.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class org.hamcrest.number.BigDecimalCloseTo",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.hamcrest.number"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.hamcrest.number.BigDecimalCloseTo"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "BigDecimalCloseTo"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "hamcrest-library-1.3.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class org.hamcrest.number.IsCloseTo",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.hamcrest.number"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.hamcrest.number.IsCloseTo"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "IsCloseTo"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "hamcrest-library-1.3.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class org.hamcrest.number.OrderingComparison<T extends java.lang.Comparable<T>>",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.hamcrest.number"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.hamcrest.number.OrderingComparison"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "OrderingComparison"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "hamcrest-library-1.3.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class org.hamcrest.object.HasToString<T>",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.hamcrest.object"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.hamcrest.object.HasToString"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "HasToString"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "hamcrest-library-1.3.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class org.hamcrest.object.IsCompatibleType<T>",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.hamcrest.object"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.hamcrest.object.IsCompatibleType"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "IsCompatibleType"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "hamcrest-library-1.3.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class org.hamcrest.object.IsEventFrom",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.hamcrest.object"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.hamcrest.object.IsEventFrom"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "IsEventFrom"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "hamcrest-library-1.3.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class org.hamcrest.text.IsEmptyString",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.hamcrest.text"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.hamcrest.text.IsEmptyString"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "IsEmptyString"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "hamcrest-library-1.3.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class org.hamcrest.text.IsEqualIgnoringCase",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.hamcrest.text"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.hamcrest.text.IsEqualIgnoringCase"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "IsEqualIgnoringCase"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "hamcrest-library-1.3.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class org.hamcrest.text.IsEqualIgnoringWhiteSpace",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.hamcrest.text"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.hamcrest.text.IsEqualIgnoringWhiteSpace"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "IsEqualIgnoringWhiteSpace"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "hamcrest-library-1.3.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class org.hamcrest.text.StringContainsInOrder",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.hamcrest.text"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.hamcrest.text.StringContainsInOrder"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "StringContainsInOrder"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "hamcrest-library-1.3.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class org.hamcrest.xml.HasXPath",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.hamcrest.xml"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.hamcrest.xml.HasXPath"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "HasXPath"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "hamcrest-library-1.3.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+} ]

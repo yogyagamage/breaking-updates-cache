@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<japicmp xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" accessModifier="PROTECTED" creationTimestamp="2023-08-21T16:09:55.725+0200" ignoreMissingClasses="true" ignoreMissingClassesByRegularExpressions="" newJar="n.a." newVersion="n.a." oldJar="n.a." oldVersion="n.a." onlyBinaryIncompatibleModifications="false" onlyModifications="true" packagesExclude="(*.)?tests(.*)?;(*.)?tests(.*)?;(*.)?test(.*)?;(*.)?test(.*)?;@org.junit.After;@org.junit.After;@org.junit.After;@org.junit.After;@org.junit.After;@org.junit.AfterClass;@org.junit.AfterClass;@org.junit.AfterClass;@org.junit.AfterClass;@org.junit.AfterClass;@org.junit.Before;@org.junit.Before;@org.junit.Before;@org.junit.Before;@org.junit.Before;@org.junit.BeforeClass;@org.junit.BeforeClass;@org.junit.BeforeClass;@org.junit.BeforeClass;@org.junit.BeforeClass;@org.junit.Ignore;@org.junit.Ignore;@org.junit.Ignore;@org.junit.Ignore;@org.junit.Ignore;@org.junit.Test;@org.junit.Test;@org.junit.Test;@org.junit.Test;@org.junit.Test;@org.junit.runner.RunWith;@org.junit.runner.RunWith;@org.junit.runner.RunWith;@org.junit.runner.RunWith;@org.junit.runner.RunWith" packagesInclude="all" semanticVersioning="1.0.0" title="JApiCmp-Report" xsi:noNamespaceSchemaLocation="japicmp.xsd">
+    <classes>
+        <class binaryCompatible="true" changeStatus="MODIFIED" fullyQualifiedName="ch.qos.logback.classic.joran.ReconfigureOnChangeTask" javaObjectSerializationCompatible="NOT_SERIALIZABLE" javaObjectSerializationCompatibleAsString="not serializable" sourceCompatible="true">
+            <annotations/>
+            <attributes>
+                <attribute changeStatus="UNCHANGED" newValue="NON_SYNTHETIC" oldValue="NON_SYNTHETIC"/>
+            </attributes>
+            <classFileFormatVersion changeStatus="UNCHANGED" majorVersionNew="55" majorVersionOld="55" minorVersionNew="0" minorVersionOld="0"/>
+            <classType changeStatus="UNCHANGED" newType="CLASS" oldType="CLASS"/>
+            <compatibilityChanges/>
+            <constructors/>
+            <fields/>
+            <genericTemplates/>
+            <interfaces/>
+            <methods>
+                <method binaryCompatible="true" changeStatus="NEW" name="setScheduredFuture" newLineNumber="147" oldLineNumber="n.a." sourceCompatible="true">
+                    <annotations/>
+                    <attributes>
+                        <attribute changeStatus="NEW" newValue="NON_SYNTHETIC" oldValue="n.a."/>
+                    </attributes>
+                    <compatibilityChanges>
+                        <compatibilityChange>METHOD_ADDED_TO_PUBLIC_CLASS</compatibilityChange>
+                    </compatibilityChanges>
+                    <exceptions/>
+                    <genericTemplates/>
+                    <modifiers>
+                        <modifier changeStatus="NEW" newValue="NON_FINAL" oldValue="n.a."/>
+                        <modifier changeStatus="NEW" newValue="NON_STATIC" oldValue="n.a."/>
+                        <modifier changeStatus="NEW" newValue="PUBLIC" oldValue="n.a."/>
+                        <modifier changeStatus="NEW" newValue="NON_ABSTRACT" oldValue="n.a."/>
+                        <modifier changeStatus="NEW" newValue="NON_BRIDGE" oldValue="n.a."/>
+                        <modifier changeStatus="NEW" newValue="NON_SYNTHETIC" oldValue="n.a."/>
+                    </modifiers>
+                    <parameters>
+                        <parameter binaryCompatible="true" changeStatus="UNCHANGED" sourceCompatible="true" templateName="N/A" type="java.util.concurrent.ScheduledFuture">
+                            <compatibilityChanges/>
+                            <newGenericTypes>
+<newGenericType genericWildCard="UNBOUNDED" type="?">
+    <genericTypes/>
+</newGenericType>
+                            </newGenericTypes>
+                            <oldGenericTypes/>
+                        </parameter>
+                    </parameters>
+                    <returnType binaryCompatible="true" changeStatus="NEW" newValue="void" oldValue="n.a." sourceCompatible="true">
+                        <compatibilityChanges/>
+                        <newGenericTypes/>
+                        <oldGenericTypes/>
+                    </returnType>
+                </method>
+            </methods>
+            <modifiers>
+                <modifier changeStatus="UNCHANGED" newValue="NON_FINAL" oldValue="NON_FINAL"/>
+                <modifier changeStatus="UNCHANGED" newValue="NON_STATIC" oldValue="NON_STATIC"/>
+                <modifier changeStatus="UNCHANGED" newValue="PUBLIC" oldValue="PUBLIC"/>
+                <modifier changeStatus="UNCHANGED" newValue="NON_ABSTRACT" oldValue="NON_ABSTRACT"/>
+                <modifier changeStatus="UNCHANGED" newValue="NON_SYNTHETIC" oldValue="NON_SYNTHETIC"/>
+            </modifiers>
+            <serialVersionUid serialVersionUidDefaultNew="n.a." serialVersionUidDefaultOld="n.a." serialVersionUidInClassNew="n.a." serialVersionUidInClassOld="n.a." serializableNew="false" serializableOld="false"/>
+            <superclass binaryCompatible="true" changeStatus="UNCHANGED" sourceCompatible="true" superclassNew="ch.qos.logback.core.spi.ContextAwareBase" superclassOld="ch.qos.logback.core.spi.ContextAwareBase">
+                <compatibilityChanges/>
+            </superclass>
+        </class>
+        <class binaryCompatible="false" changeStatus="MODIFIED" fullyQualifiedName="ch.qos.logback.classic.joran.ReconfigureOnChangeTaskListener" javaObjectSerializationCompatible="NOT_SERIALIZABLE" javaObjectSerializationCompatibleAsString="not serializable" sourceCompatible="false">
+            <annotations/>
+            <attributes>
+                <attribute changeStatus="UNCHANGED" newValue="NON_SYNTHETIC" oldValue="NON_SYNTHETIC"/>
+            </attributes>
+            <classFileFormatVersion changeStatus="UNCHANGED" majorVersionNew="55" majorVersionOld="55" minorVersionNew="0" minorVersionOld="0"/>
+            <classType changeStatus="UNCHANGED" newType="CLASS" oldType="CLASS"/>
+            <compatibilityChanges>
+                <compatibilityChange>CLASS_NO_LONGER_PUBLIC</compatibilityChange>
+                <compatibilityChange>CLASS_LESS_ACCESSIBLE</compatibilityChange>
+            </compatibilityChanges>
+            <constructors>
+                <constructor binaryCompatible="false" changeStatus="MODIFIED" name="ReconfigureOnChangeTaskListener" newLineNumber="16" oldLineNumber="16" sourceCompatible="false">
+                    <annotations/>
+                    <attributes>
+                        <attribute changeStatus="UNCHANGED" newValue="NON_SYNTHETIC" oldValue="NON_SYNTHETIC"/>
+                    </attributes>
+                    <compatibilityChanges>
+                        <compatibilityChange>CONSTRUCTOR_LESS_ACCESSIBLE</compatibilityChange>
+                    </compatibilityChanges>
+                    <exceptions/>
+                    <genericTemplates/>
+                    <modifiers>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_FINAL" oldValue="NON_FINAL"/>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_STATIC" oldValue="NON_STATIC"/>
+                        <modifier changeStatus="MODIFIED" newValue="PACKAGE_PROTECTED" oldValue="PUBLIC"/>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_ABSTRACT" oldValue="NON_ABSTRACT"/>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_BRIDGE" oldValue="NON_BRIDGE"/>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_SYNTHETIC" oldValue="NON_SYNTHETIC"/>
+                    </modifiers>
+                    <parameters/>
+                </constructor>
+            </constructors>
+            <fields/>
+            <genericTemplates/>
+            <interfaces/>
+            <methods/>
+            <modifiers>
+                <modifier changeStatus="UNCHANGED" newValue="NON_FINAL" oldValue="NON_FINAL"/>
+                <modifier changeStatus="UNCHANGED" newValue="NON_STATIC" oldValue="NON_STATIC"/>
+                <modifier changeStatus="MODIFIED" newValue="PACKAGE_PROTECTED" oldValue="PUBLIC"/>
+                <modifier changeStatus="UNCHANGED" newValue="NON_ABSTRACT" oldValue="NON_ABSTRACT"/>
+                <modifier changeStatus="UNCHANGED" newValue="NON_SYNTHETIC" oldValue="NON_SYNTHETIC"/>
+            </modifiers>
+            <serialVersionUid serialVersionUidDefaultNew="n.a." serialVersionUidDefaultOld="n.a." serialVersionUidInClassNew="n.a." serialVersionUidInClassOld="n.a." serializableNew="false" serializableOld="false"/>
+            <superclass binaryCompatible="true" changeStatus="UNCHANGED" sourceCompatible="true" superclassNew="java.lang.Object" superclassOld="java.lang.Object">
+                <compatibilityChanges/>
+            </superclass>
+        </class>
+        <class binaryCompatible="true" changeStatus="UNCHANGED" fullyQualifiedName="ch.qos.logback.classic.util.ContextInitializer" javaObjectSerializationCompatible="NOT_SERIALIZABLE" javaObjectSerializationCompatibleAsString="not serializable" sourceCompatible="true">
+            <annotations/>
+            <attributes>
+                <attribute changeStatus="UNCHANGED" newValue="NON_SYNTHETIC" oldValue="NON_SYNTHETIC"/>
+            </attributes>
+            <classFileFormatVersion changeStatus="UNCHANGED" majorVersionNew="55" majorVersionOld="55" minorVersionNew="0" minorVersionOld="0"/>
+            <classType changeStatus="UNCHANGED" newType="CLASS" oldType="CLASS"/>
+            <compatibilityChanges/>
+            <constructors/>
+            <fields/>
+            <genericTemplates/>
+            <interfaces/>
+            <methods>
+                <method binaryCompatible="true" changeStatus="UNCHANGED" name="configureByResource" newLineNumber="62" oldLineNumber="56" sourceCompatible="true">
+                    <annotations>
+                        <annotation binaryCompatible="true" changeStatus="NEW" fullyQualifiedName="java.lang.Deprecated" sourceCompatible="true">
+                            <compatibilityChanges/>
+                            <elements/>
+                        </annotation>
+                    </annotations>
+                    <attributes>
+                        <attribute changeStatus="UNCHANGED" newValue="NON_SYNTHETIC" oldValue="NON_SYNTHETIC"/>
+                    </attributes>
+                    <compatibilityChanges>
+                        <compatibilityChange>ANNOTATION_DEPRECATED_ADDED</compatibilityChange>
+                    </compatibilityChanges>
+                    <exceptions>
+                        <exception changeStatus="UNCHANGED" name="ch.qos.logback.core.joran.spi.JoranException"/>
+                    </exceptions>
+                    <genericTemplates/>
+                    <modifiers>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_FINAL" oldValue="NON_FINAL"/>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_STATIC" oldValue="NON_STATIC"/>
+                        <modifier changeStatus="UNCHANGED" newValue="PUBLIC" oldValue="PUBLIC"/>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_ABSTRACT" oldValue="NON_ABSTRACT"/>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_BRIDGE" oldValue="NON_BRIDGE"/>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_SYNTHETIC" oldValue="NON_SYNTHETIC"/>
+                    </modifiers>
+                    <parameters>
+                        <parameter binaryCompatible="true" changeStatus="UNCHANGED" sourceCompatible="true" templateName="N/A" type="java.net.URL">
+                            <compatibilityChanges/>
+                            <newGenericTypes/>
+                            <oldGenericTypes/>
+                        </parameter>
+                    </parameters>
+                    <returnType binaryCompatible="true" changeStatus="UNCHANGED" newValue="void" oldValue="void" sourceCompatible="true">
+                        <compatibilityChanges/>
+                        <newGenericTypes/>
+                        <oldGenericTypes/>
+                    </returnType>
+                </method>
+            </methods>
+            <modifiers>
+                <modifier changeStatus="UNCHANGED" newValue="NON_FINAL" oldValue="NON_FINAL"/>
+                <modifier changeStatus="UNCHANGED" newValue="NON_STATIC" oldValue="NON_STATIC"/>
+                <modifier changeStatus="UNCHANGED" newValue="PUBLIC" oldValue="PUBLIC"/>
+                <modifier changeStatus="UNCHANGED" newValue="NON_ABSTRACT" oldValue="NON_ABSTRACT"/>
+                <modifier changeStatus="UNCHANGED" newValue="NON_SYNTHETIC" oldValue="NON_SYNTHETIC"/>
+            </modifiers>
+            <serialVersionUid serialVersionUidDefaultNew="n.a." serialVersionUidDefaultOld="n.a." serialVersionUidInClassNew="n.a." serialVersionUidInClassOld="n.a." serializableNew="false" serializableOld="false"/>
+            <superclass binaryCompatible="true" changeStatus="UNCHANGED" sourceCompatible="true" superclassNew="java.lang.Object" superclassOld="java.lang.Object">
+                <compatibilityChanges/>
+            </superclass>
+        </class>
+    </classes>
+</japicmp>

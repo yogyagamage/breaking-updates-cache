@@ -1,0 +1,99 @@
+[ {
+  "code" : "java.class.defaultSerializationChanged",
+  "old" : "class com.google.common.collect.ImmutableMap<K, V>",
+  "new" : "class com.google.common.collect.ImmutableMap<K, V>",
+  "name" : "default serialization changed",
+  "description" : "The default serialization ID for the class has changed. This means that the new version of the class is not deserializable from the byte stream of a serialized old class.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "EQUIVALENT"
+  }, {
+    "compatibility" : "SEMANTIC",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "EQUIVALENT"
+  } ],
+  "attachments" : [ {
+    "name" : "oldSerialVersionUID",
+    "value" : "-660172160766755439"
+  }, {
+    "name" : "newSerialVersionUID",
+    "value" : "-3644036933860164380"
+  }, {
+    "name" : "package",
+    "value" : "com.google.common.collect"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.google.common.collect.ImmutableMap"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "ImmutableMap"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "guava-31.0.1-jre.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "guava-31.1-jre.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.nonPublicPartOfAPI",
+  "old" : "class com.google.common.util.concurrent.CycleDetectingLockFactory.ExampleStackTrace",
+  "new" : "class com.google.common.util.concurrent.CycleDetectingLockFactory.ExampleStackTrace",
+  "name" : "non-public class in API",
+  "description" : "Class 'com.google.common.util.concurrent.CycleDetectingLockFactory.ExampleStackTrace' is indirectly included in the API (by the means of method return type for example) but the class is not accessible (neither public nor protected).",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SEMANTIC",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "classSimpleName",
+    "value" : "ExampleStackTrace"
+  }, {
+    "name" : "exampleUseChainInNewApi",
+    "value" : "com.google.common.util.concurrent.CycleDetectingLockFactory.ExampleStackTrace is returned from method com.google.common.util.concurrent.CycleDetectingLockFactory.ExampleStackTrace com.google.common.util.concurrent.CycleDetectingLockFactory.PotentialDeadlockException::getConflictingStackTrace() (method com.google.common.util.concurrent.CycleDetectingLockFactory.ExampleStackTrace com.google.common.util.concurrent.CycleDetectingLockFactory.PotentialDeadlockException::getConflictingStackTrace() is part of the API)"
+  }, {
+    "name" : "package",
+    "value" : "com.google.common.util.concurrent"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.google.common.util.concurrent.CycleDetectingLockFactory.ExampleStackTrace"
+  }, {
+    "name" : "exampleUseChainInOldApi",
+    "value" : "com.google.common.util.concurrent.CycleDetectingLockFactory.ExampleStackTrace is returned from method com.google.common.util.concurrent.CycleDetectingLockFactory.ExampleStackTrace com.google.common.util.concurrent.CycleDetectingLockFactory.PotentialDeadlockException::getConflictingStackTrace() (method com.google.common.util.concurrent.CycleDetectingLockFactory.ExampleStackTrace com.google.common.util.concurrent.CycleDetectingLockFactory.PotentialDeadlockException::getConflictingStackTrace() is part of the API)"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "guava-31.0.1-jre.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "guava-31.1-jre.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+} ]

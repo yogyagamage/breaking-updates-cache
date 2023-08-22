@@ -129,7 +129,7 @@ public class Main {
         @CommandLine.Option(
                 names = {"-o", "--old-jar"},
                 paramLabel = "OLD-JAR",
-                description = "The maven coordinates of the old jar file. If not provided, revapi will be run on all " +
+                description = "The path of the old jar file. If not provided, revapi will be run on all " +
                         "the breaking updates in the jar-dir."
         )
         String oldJar;
@@ -137,7 +137,7 @@ public class Main {
         @CommandLine.Option(
                 names = {"-n", "--new-jar"},
                 paramLabel = "NEW-JAR",
-                description = "The maven coordinates of the new jar file. If not provided, revapi will be run on all " +
+                description = "The path of the new jar file. If not provided, revapi will be run on all " +
                         "the breaking updates in the jar-dir."
         )
         String newJar;

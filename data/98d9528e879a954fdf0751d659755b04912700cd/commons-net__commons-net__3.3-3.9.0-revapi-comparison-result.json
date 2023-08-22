@@ -1,0 +1,305 @@
+[ {
+  "code" : "java.method.addedToInterface",
+  "old" : null,
+  "new" : "method void org.apache.commons.net.ntp.NtpV3Packet::setPrecision(int)",
+  "name" : "method added to interface",
+  "description" : "Method was added to an interface.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SEMANTIC",
+    "severity" : "POTENTIALLY_BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.apache.commons.net.ntp"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.commons.net.ntp.NtpV3Packet"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "NtpV3Packet"
+  }, {
+    "name" : "methodName",
+    "value" : "setPrecision"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "newArchive",
+    "value" : "commons-net-3.9.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.addedToInterface",
+  "old" : null,
+  "new" : "method void org.apache.commons.net.ntp.NtpV3Packet::setRootDelay(int)",
+  "name" : "method added to interface",
+  "description" : "Method was added to an interface.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SEMANTIC",
+    "severity" : "POTENTIALLY_BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.apache.commons.net.ntp"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.commons.net.ntp.NtpV3Packet"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "NtpV3Packet"
+  }, {
+    "name" : "methodName",
+    "value" : "setRootDelay"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "newArchive",
+    "value" : "commons-net-3.9.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.addedToInterface",
+  "old" : null,
+  "new" : "method void org.apache.commons.net.ntp.NtpV3Packet::setRootDispersion(int)",
+  "name" : "method added to interface",
+  "description" : "Method was added to an interface.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SEMANTIC",
+    "severity" : "POTENTIALLY_BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.apache.commons.net.ntp"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.commons.net.ntp.NtpV3Packet"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "NtpV3Packet"
+  }, {
+    "name" : "methodName",
+    "value" : "setRootDispersion"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "newArchive",
+    "value" : "commons-net-3.9.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.exception.checkedRemoved",
+  "old" : "method void org.apache.commons.net.smtp.AuthenticatingSMTPClient::<init>() throws java.security.NoSuchAlgorithmException",
+  "new" : "method void org.apache.commons.net.smtp.AuthenticatingSMTPClient::<init>()",
+  "name" : "Method no longer throws checked exceptions",
+  "description" : "Method no longer throws checked exceptions: java.security.NoSuchAlgorithmException.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "exception",
+    "value" : "java.security.NoSuchAlgorithmException"
+  }, {
+    "name" : "package",
+    "value" : "org.apache.commons.net.smtp"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.commons.net.smtp.AuthenticatingSMTPClient"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "AuthenticatingSMTPClient"
+  }, {
+    "name" : "methodName",
+    "value" : "<init>"
+  }, {
+    "name" : "elementKind",
+    "value" : "constructor"
+  }, {
+    "name" : "oldArchive",
+    "value" : "commons-net-3.3.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "commons-net-3.9.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.exception.checkedRemoved",
+  "old" : "method void org.apache.commons.net.smtp.AuthenticatingSMTPClient::<init>(java.lang.String) throws java.security.NoSuchAlgorithmException",
+  "new" : "method void org.apache.commons.net.smtp.AuthenticatingSMTPClient::<init>(java.lang.String)",
+  "name" : "Method no longer throws checked exceptions",
+  "description" : "Method no longer throws checked exceptions: java.security.NoSuchAlgorithmException.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "exception",
+    "value" : "java.security.NoSuchAlgorithmException"
+  }, {
+    "name" : "package",
+    "value" : "org.apache.commons.net.smtp"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.commons.net.smtp.AuthenticatingSMTPClient"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "AuthenticatingSMTPClient"
+  }, {
+    "name" : "methodName",
+    "value" : "<init>"
+  }, {
+    "name" : "elementKind",
+    "value" : "constructor"
+  }, {
+    "name" : "oldArchive",
+    "value" : "commons-net-3.3.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "commons-net-3.9.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.exception.checkedRemoved",
+  "old" : "method void org.apache.commons.net.smtp.AuthenticatingSMTPClient::<init>(java.lang.String, java.lang.String) throws java.security.NoSuchAlgorithmException",
+  "new" : "method void org.apache.commons.net.smtp.AuthenticatingSMTPClient::<init>(java.lang.String, java.lang.String)",
+  "name" : "Method no longer throws checked exceptions",
+  "description" : "Method no longer throws checked exceptions: java.security.NoSuchAlgorithmException.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "exception",
+    "value" : "java.security.NoSuchAlgorithmException"
+  }, {
+    "name" : "package",
+    "value" : "org.apache.commons.net.smtp"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.commons.net.smtp.AuthenticatingSMTPClient"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "AuthenticatingSMTPClient"
+  }, {
+    "name" : "methodName",
+    "value" : "<init>"
+  }, {
+    "name" : "elementKind",
+    "value" : "constructor"
+  }, {
+    "name" : "oldArchive",
+    "value" : "commons-net-3.3.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "commons-net-3.9.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.exception.checkedRemoved",
+  "old" : "method boolean org.apache.commons.net.smtp.SMTPSClient::execTLS() throws javax.net.ssl.SSLException, java.io.IOException",
+  "new" : "method boolean org.apache.commons.net.smtp.SMTPSClient::execTLS() throws java.io.IOException",
+  "name" : "Method no longer throws checked exceptions",
+  "description" : "Method no longer throws checked exceptions: javax.net.ssl.SSLException.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "exception",
+    "value" : "javax.net.ssl.SSLException"
+  }, {
+    "name" : "package",
+    "value" : "org.apache.commons.net.smtp"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.commons.net.smtp.SMTPSClient"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "SMTPSClient"
+  }, {
+    "name" : "methodName",
+    "value" : "execTLS"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "commons-net-3.3.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "commons-net-3.9.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+} ]

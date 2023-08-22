@@ -1,0 +1,87 @@
+[ {
+  "code" : "java.class.nonPublicPartOfAPI",
+  "old" : "class com.puppycrawl.tools.checkstyle.checks.imports.PkgImportControl",
+  "new" : "class com.puppycrawl.tools.checkstyle.checks.imports.PkgImportControl",
+  "name" : "non-public class in API",
+  "description" : "Class 'com.puppycrawl.tools.checkstyle.checks.imports.PkgImportControl' is indirectly included in the API (by the means of method return type for example) but the class is not accessible (neither public nor protected).",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SEMANTIC",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "classSimpleName",
+    "value" : "PkgImportControl"
+  }, {
+    "name" : "exampleUseChainInNewApi",
+    "value" : "com.puppycrawl.tools.checkstyle.checks.imports.PkgImportControl is returned from method com.puppycrawl.tools.checkstyle.checks.imports.PkgImportControl com.puppycrawl.tools.checkstyle.checks.imports.ImportControlLoader::load(java.net.URI) throws com.puppycrawl.tools.checkstyle.api.CheckstyleException (method com.puppycrawl.tools.checkstyle.checks.imports.PkgImportControl com.puppycrawl.tools.checkstyle.checks.imports.ImportControlLoader::load(java.net.URI) throws com.puppycrawl.tools.checkstyle.api.CheckstyleException is part of the API)"
+  }, {
+    "name" : "package",
+    "value" : "com.puppycrawl.tools.checkstyle.checks.imports"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.puppycrawl.tools.checkstyle.checks.imports.PkgImportControl"
+  }, {
+    "name" : "exampleUseChainInOldApi",
+    "value" : "com.puppycrawl.tools.checkstyle.checks.imports.PkgImportControl is returned from method com.puppycrawl.tools.checkstyle.checks.imports.PkgImportControl com.puppycrawl.tools.checkstyle.checks.imports.ImportControlLoader::load(java.net.URI) throws com.puppycrawl.tools.checkstyle.api.CheckstyleException (method com.puppycrawl.tools.checkstyle.checks.imports.PkgImportControl com.puppycrawl.tools.checkstyle.checks.imports.ImportControlLoader::load(java.net.URI) throws com.puppycrawl.tools.checkstyle.api.CheckstyleException is part of the API)"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "checkstyle-10.12.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "checkstyle-10.12.2.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method boolean com.puppycrawl.tools.checkstyle.utils.JavadocUtil::containsInBranch(com.puppycrawl.tools.checkstyle.api.DetailNode, int)",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.puppycrawl.tools.checkstyle.utils"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.puppycrawl.tools.checkstyle.utils.JavadocUtil"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "JavadocUtil"
+  }, {
+    "name" : "methodName",
+    "value" : "containsInBranch"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "checkstyle-10.12.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+} ]

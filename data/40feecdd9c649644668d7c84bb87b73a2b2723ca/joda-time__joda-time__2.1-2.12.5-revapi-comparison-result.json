@@ -1,0 +1,81 @@
+[ {
+  "code" : "java.method.numberOfParametersChanged",
+  "old" : "method void org.joda.time.tz.ZoneInfoCompiler::parseDataFile(java.io.BufferedReader) throws java.io.IOException",
+  "new" : "method void org.joda.time.tz.ZoneInfoCompiler::parseDataFile(java.io.BufferedReader, boolean) throws java.io.IOException",
+  "name" : "number of parameters changed",
+  "description" : "The number of parameters of the method have changed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.joda.time.tz"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.joda.time.tz.ZoneInfoCompiler"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "ZoneInfoCompiler"
+  }, {
+    "name" : "methodName",
+    "value" : "parseDataFile"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "joda-time-2.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "joda-time-2.12.5.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method boolean org.joda.time.tz.ZoneInfoCompiler::verbose()",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.joda.time.tz"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.joda.time.tz.ZoneInfoCompiler"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "ZoneInfoCompiler"
+  }, {
+    "name" : "methodName",
+    "value" : "verbose"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "joda-time-2.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+} ]

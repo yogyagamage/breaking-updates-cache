@@ -1,0 +1,1987 @@
+[ {
+  "code" : "java.class.noLongerImplementsInterface",
+  "old" : "class org.apache.derby.diag.ErrorMessages",
+  "new" : "class org.apache.derby.diag.ErrorMessages",
+  "name" : "class no longer implements interface",
+  "description" : "Class no longer implements interface 'java.security.PrivilegedAction<java.io.InputStream>'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "interface",
+    "value" : "java.security.PrivilegedAction<java.io.InputStream>"
+  }, {
+    "name" : "package",
+    "value" : "org.apache.derby.diag"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.derby.diag.ErrorMessages"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "ErrorMessages"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "derby-10.15.2.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "derby-10.16.1.1.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.nonPublicPartOfAPI",
+  "old" : "class org.apache.derby.iapi.services.classfile.Attributes",
+  "new" : "class org.apache.derby.iapi.services.classfile.Attributes",
+  "name" : "non-public class in API",
+  "description" : "Class 'org.apache.derby.iapi.services.classfile.Attributes' is indirectly included in the API (by the means of method return type for example) but the class is not accessible (neither public nor protected).",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SEMANTIC",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "classSimpleName",
+    "value" : "Attributes"
+  }, {
+    "name" : "exampleUseChainInNewApi",
+    "value" : "field org.apache.derby.iapi.services.classfile.ClassHolder.attribute_info has the type org.apache.derby.iapi.services.classfile.Attributes (field org.apache.derby.iapi.services.classfile.ClassHolder.attribute_info is part of the API)"
+  }, {
+    "name" : "package",
+    "value" : "org.apache.derby.iapi.services.classfile"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.derby.iapi.services.classfile.Attributes"
+  }, {
+    "name" : "exampleUseChainInOldApi",
+    "value" : "field org.apache.derby.iapi.services.classfile.ClassHolder.attribute_info has the type org.apache.derby.iapi.services.classfile.Attributes (field org.apache.derby.iapi.services.classfile.ClassHolder.attribute_info is part of the API)"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "derby-10.15.2.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "derby-10.16.1.1.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.nonPublicPartOfAPI",
+  "old" : "class org.apache.derby.iapi.services.classfile.MemberTable",
+  "new" : "class org.apache.derby.iapi.services.classfile.MemberTable",
+  "name" : "non-public class in API",
+  "description" : "Class 'org.apache.derby.iapi.services.classfile.MemberTable' is indirectly included in the API (by the means of method return type for example) but the class is not accessible (neither public nor protected).",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SEMANTIC",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "classSimpleName",
+    "value" : "MemberTable"
+  }, {
+    "name" : "exampleUseChainInNewApi",
+    "value" : "field org.apache.derby.iapi.services.classfile.ClassHolder.method_info @ org.apache.derby.iapi.services.classfile.ClassInvestigator has the type org.apache.derby.iapi.services.classfile.MemberTable (field org.apache.derby.iapi.services.classfile.ClassHolder.method_info @ org.apache.derby.iapi.services.classfile.ClassInvestigator is part of the API)"
+  }, {
+    "name" : "package",
+    "value" : "org.apache.derby.iapi.services.classfile"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.derby.iapi.services.classfile.MemberTable"
+  }, {
+    "name" : "exampleUseChainInOldApi",
+    "value" : "field org.apache.derby.iapi.services.classfile.ClassHolder.method_info has the type org.apache.derby.iapi.services.classfile.MemberTable (field org.apache.derby.iapi.services.classfile.ClassHolder.method_info is part of the API)"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "derby-10.15.2.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "derby-10.16.1.1.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.nonPublicPartOfAPI",
+  "old" : "class org.apache.derby.impl.jdbc.ConnectionChild",
+  "new" : "class org.apache.derby.impl.jdbc.ConnectionChild",
+  "name" : "non-public class in API",
+  "description" : "Class 'org.apache.derby.impl.jdbc.ConnectionChild' is indirectly included in the API (by the means of method return type for example) but the class is not accessible (neither public nor protected).",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SEMANTIC",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "classSimpleName",
+    "value" : "ConnectionChild"
+  }, {
+    "name" : "exampleUseChainInNewApi",
+    "value" : "org.apache.derby.impl.jdbc.ConnectionChild is used as parameter in method void org.apache.derby.impl.jdbc.UTF8Reader::<init>(org.apache.derby.iapi.jdbc.CharacterStreamDescriptor, org.apache.derby.impl.jdbc.ConnectionChild, java.lang.Object) throws java.io.IOException (method void org.apache.derby.impl.jdbc.UTF8Reader::<init>(org.apache.derby.iapi.jdbc.CharacterStreamDescriptor, org.apache.derby.impl.jdbc.ConnectionChild, java.lang.Object) throws java.io.IOException is part of the API)"
+  }, {
+    "name" : "package",
+    "value" : "org.apache.derby.impl.jdbc"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.derby.impl.jdbc.ConnectionChild"
+  }, {
+    "name" : "exampleUseChainInOldApi",
+    "value" : "org.apache.derby.impl.jdbc.ConnectionChild is used as parameter in method void org.apache.derby.impl.jdbc.UTF8Reader::<init>(org.apache.derby.iapi.jdbc.CharacterStreamDescriptor, org.apache.derby.impl.jdbc.ConnectionChild, java.lang.Object) throws java.io.IOException (method void org.apache.derby.impl.jdbc.UTF8Reader::<init>(org.apache.derby.iapi.jdbc.CharacterStreamDescriptor, org.apache.derby.impl.jdbc.ConnectionChild, java.lang.Object) throws java.io.IOException is part of the API)"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "derby-10.15.2.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "derby-10.16.1.1.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.noLongerImplementsInterface",
+  "old" : "class org.apache.derby.impl.jdbc.EmbedDatabaseMetaData",
+  "new" : "class org.apache.derby.impl.jdbc.EmbedDatabaseMetaData",
+  "name" : "class no longer implements interface",
+  "description" : "Class no longer implements interface 'java.security.PrivilegedAction<java.lang.Object>'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "interface",
+    "value" : "java.security.PrivilegedAction<java.lang.Object>"
+  }, {
+    "name" : "package",
+    "value" : "org.apache.derby.impl.jdbc"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.derby.impl.jdbc.EmbedDatabaseMetaData"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "EmbedDatabaseMetaData"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "derby-10.15.2.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "derby-10.16.1.1.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method java.sql.SQLException org.apache.derby.impl.jdbc.Util::policyNotReloaded(java.lang.Throwable)",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.apache.derby.impl.jdbc"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.derby.impl.jdbc.Util"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "Util"
+  }, {
+    "name" : "methodName",
+    "value" : "policyNotReloaded"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "derby-10.15.2.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.nonPublicPartOfAPI",
+  "old" : "class org.apache.derby.impl.load.ControlInfo",
+  "new" : "class org.apache.derby.impl.load.ControlInfo",
+  "name" : "non-public class in API",
+  "description" : "Class 'org.apache.derby.impl.load.ControlInfo' is indirectly included in the API (by the means of method return type for example) but the class is not accessible (neither public nor protected).",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SEMANTIC",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "classSimpleName",
+    "value" : "ControlInfo"
+  }, {
+    "name" : "exampleUseChainInNewApi",
+    "value" : "field org.apache.derby.impl.load.ExportWriteDataAbstract.controlFileReader has the type org.apache.derby.impl.load.ControlInfo <- field org.apache.derby.impl.load.ExportAbstract.exportWriteData @ org.apache.derby.impl.load.Export has the type org.apache.derby.impl.load.ExportWriteDataAbstract (field org.apache.derby.impl.load.ExportAbstract.exportWriteData @ org.apache.derby.impl.load.Export is part of the API)"
+  }, {
+    "name" : "package",
+    "value" : "org.apache.derby.impl.load"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.derby.impl.load.ControlInfo"
+  }, {
+    "name" : "exampleUseChainInOldApi",
+    "value" : "org.apache.derby.impl.load.ControlInfo is returned from method org.apache.derby.impl.load.ControlInfo org.apache.derby.impl.load.ExportAbstract::getControlFileReader() @ org.apache.derby.impl.load.Export (method org.apache.derby.impl.load.ControlInfo org.apache.derby.impl.load.ExportAbstract::getControlFileReader() @ org.apache.derby.impl.load.Export is part of the API)"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "derby-10.15.2.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "derby-10.16.1.1.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.nonPublicPartOfAPI",
+  "old" : "class org.apache.derby.impl.load.ExportResultSetForObject",
+  "new" : "class org.apache.derby.impl.load.ExportResultSetForObject",
+  "name" : "non-public class in API",
+  "description" : "Class 'org.apache.derby.impl.load.ExportResultSetForObject' is indirectly included in the API (by the means of method return type for example) but the class is not accessible (neither public nor protected).",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SEMANTIC",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "classSimpleName",
+    "value" : "ExportResultSetForObject"
+  }, {
+    "name" : "exampleUseChainInNewApi",
+    "value" : "field org.apache.derby.impl.load.ExportAbstract.exportResultSetForObject @ org.apache.derby.impl.load.Export has the type org.apache.derby.impl.load.ExportResultSetForObject (field org.apache.derby.impl.load.ExportAbstract.exportResultSetForObject @ org.apache.derby.impl.load.Export is part of the API)"
+  }, {
+    "name" : "package",
+    "value" : "org.apache.derby.impl.load"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.derby.impl.load.ExportResultSetForObject"
+  }, {
+    "name" : "exampleUseChainInOldApi",
+    "value" : "field org.apache.derby.impl.load.ExportAbstract.exportResultSetForObject @ org.apache.derby.impl.load.Export has the type org.apache.derby.impl.load.ExportResultSetForObject (field org.apache.derby.impl.load.ExportAbstract.exportResultSetForObject @ org.apache.derby.impl.load.Export is part of the API)"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "derby-10.15.2.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "derby-10.16.1.1.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.nonPublicPartOfAPI",
+  "old" : "class org.apache.derby.impl.load.ExportWriteDataAbstract",
+  "new" : "class org.apache.derby.impl.load.ExportWriteDataAbstract",
+  "name" : "non-public class in API",
+  "description" : "Class 'org.apache.derby.impl.load.ExportWriteDataAbstract' is indirectly included in the API (by the means of method return type for example) but the class is not accessible (neither public nor protected).",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SEMANTIC",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "classSimpleName",
+    "value" : "ExportWriteDataAbstract"
+  }, {
+    "name" : "exampleUseChainInNewApi",
+    "value" : "field org.apache.derby.impl.load.ExportAbstract.exportWriteData @ org.apache.derby.impl.load.Export has the type org.apache.derby.impl.load.ExportWriteDataAbstract (field org.apache.derby.impl.load.ExportAbstract.exportWriteData @ org.apache.derby.impl.load.Export is part of the API)"
+  }, {
+    "name" : "package",
+    "value" : "org.apache.derby.impl.load"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.derby.impl.load.ExportWriteDataAbstract"
+  }, {
+    "name" : "exampleUseChainInOldApi",
+    "value" : "org.apache.derby.impl.load.ExportWriteDataAbstract is returned from method org.apache.derby.impl.load.ExportWriteDataAbstract org.apache.derby.impl.load.Export::getExportWriteData() throws java.lang.Exception (method org.apache.derby.impl.load.ExportWriteDataAbstract org.apache.derby.impl.load.Export::getExportWriteData() throws java.lang.Exception is part of the API)"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "derby-10.15.2.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "derby-10.16.1.1.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.nonPublicPartOfAPI",
+  "old" : "class org.apache.derby.impl.services.daemon.ServiceRecord",
+  "new" : "class org.apache.derby.impl.services.daemon.ServiceRecord",
+  "name" : "non-public class in API",
+  "description" : "Class 'org.apache.derby.impl.services.daemon.ServiceRecord' is indirectly included in the API (by the means of method return type for example) but the class is not accessible (neither public nor protected).",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SEMANTIC",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "classSimpleName",
+    "value" : "ServiceRecord"
+  }, {
+    "name" : "exampleUseChainInNewApi",
+    "value" : "org.apache.derby.impl.services.daemon.ServiceRecord is used as parameter in method void org.apache.derby.impl.services.daemon.BasicDaemon::serviceClient(org.apache.derby.impl.services.daemon.ServiceRecord) (method void org.apache.derby.impl.services.daemon.BasicDaemon::serviceClient(org.apache.derby.impl.services.daemon.ServiceRecord) is part of the API)"
+  }, {
+    "name" : "package",
+    "value" : "org.apache.derby.impl.services.daemon"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.derby.impl.services.daemon.ServiceRecord"
+  }, {
+    "name" : "exampleUseChainInOldApi",
+    "value" : "org.apache.derby.impl.services.daemon.ServiceRecord is returned from method org.apache.derby.impl.services.daemon.ServiceRecord org.apache.derby.impl.services.daemon.BasicDaemon::nextAssignment(boolean) (method org.apache.derby.impl.services.daemon.ServiceRecord org.apache.derby.impl.services.daemon.BasicDaemon::nextAssignment(boolean) is part of the API)"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "derby-10.15.2.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "derby-10.16.1.1.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.nonPublicPartOfAPI",
+  "old" : "class org.apache.derby.impl.services.locks.Lock",
+  "new" : "class org.apache.derby.impl.services.locks.Lock",
+  "name" : "non-public class in API",
+  "description" : "Class 'org.apache.derby.impl.services.locks.Lock' is indirectly included in the API (by the means of method return type for example) but the class is not accessible (neither public nor protected).",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SEMANTIC",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "classSimpleName",
+    "value" : "Lock"
+  }, {
+    "name" : "exampleUseChainInNewApi",
+    "value" : "org.apache.derby.impl.services.locks.Lock is used as a type parameter or type variable bound on method java.util.List<org.apache.derby.impl.services.locks.Lock> org.apache.derby.impl.services.locks.LockControl::getGranted() <- org.apache.derby.impl.services.locks.LockControl is returned from method org.apache.derby.impl.services.locks.LockControl org.apache.derby.impl.services.locks.Lock::getLockControl() <- org.apache.derby.impl.services.locks.Lock is returned from method org.apache.derby.impl.services.locks.Lock org.apache.derby.impl.services.locks.Control::getLock(org.apache.derby.iapi.services.locks.CompatibilitySpace, java.lang.Object) (method org.apache.derby.impl.services.locks.Lock org.apache.derby.impl.services.locks.Control::getLock(org.apache.derby.iapi.services.locks.CompatibilitySpace, java.lang.Object) is part of the API)"
+  }, {
+    "name" : "package",
+    "value" : "org.apache.derby.impl.services.locks"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.derby.impl.services.locks.Lock"
+  }, {
+    "name" : "exampleUseChainInOldApi",
+    "value" : "org.apache.derby.impl.services.locks.Lock is returned from method org.apache.derby.impl.services.locks.Lock org.apache.derby.impl.services.locks.LockControl::addLock(org.apache.derby.impl.services.locks.LockTable, org.apache.derby.iapi.services.locks.CompatibilitySpace, java.lang.Object) <- org.apache.derby.impl.services.locks.LockControl is returned from method org.apache.derby.impl.services.locks.LockControl org.apache.derby.impl.services.locks.Lock::getLockControl() @ org.apache.derby.impl.services.locks.ActiveLock (method org.apache.derby.impl.services.locks.LockControl org.apache.derby.impl.services.locks.Lock::getLockControl() @ org.apache.derby.impl.services.locks.ActiveLock is part of the API)"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "derby-10.15.2.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "derby-10.16.1.1.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.nonPublicPartOfAPI",
+  "old" : "class org.apache.derby.impl.services.locks.LockControl",
+  "new" : "class org.apache.derby.impl.services.locks.LockControl",
+  "name" : "non-public class in API",
+  "description" : "Class 'org.apache.derby.impl.services.locks.LockControl' is indirectly included in the API (by the means of method return type for example) but the class is not accessible (neither public nor protected).",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SEMANTIC",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "classSimpleName",
+    "value" : "LockControl"
+  }, {
+    "name" : "exampleUseChainInNewApi",
+    "value" : "org.apache.derby.impl.services.locks.LockControl is returned from method org.apache.derby.impl.services.locks.LockControl org.apache.derby.impl.services.locks.Lock::getLockControl() <- org.apache.derby.impl.services.locks.Lock is used as a type parameter or type variable bound on method java.util.List<org.apache.derby.impl.services.locks.Lock> org.apache.derby.impl.services.locks.LockControl::getGranted() <- org.apache.derby.impl.services.locks.LockControl is returned from method org.apache.derby.impl.services.locks.LockControl org.apache.derby.impl.services.locks.Lock::getLockControl() @ org.apache.derby.impl.services.locks.ActiveLock (method org.apache.derby.impl.services.locks.LockControl org.apache.derby.impl.services.locks.Lock::getLockControl() @ org.apache.derby.impl.services.locks.ActiveLock is part of the API)"
+  }, {
+    "name" : "package",
+    "value" : "org.apache.derby.impl.services.locks"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.derby.impl.services.locks.LockControl"
+  }, {
+    "name" : "exampleUseChainInOldApi",
+    "value" : "org.apache.derby.impl.services.locks.LockControl is returned from method org.apache.derby.impl.services.locks.LockControl org.apache.derby.impl.services.locks.LockControl::getLockControl() <- org.apache.derby.impl.services.locks.LockControl is returned from method org.apache.derby.impl.services.locks.LockControl org.apache.derby.impl.services.locks.Lock::getLockControl() @ org.apache.derby.impl.services.locks.ActiveLock (method org.apache.derby.impl.services.locks.LockControl org.apache.derby.impl.services.locks.Lock::getLockControl() @ org.apache.derby.impl.services.locks.ActiveLock is part of the API)"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "derby-10.15.2.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "derby-10.16.1.1.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.nonPublicPartOfAPI",
+  "old" : "class org.apache.derby.impl.services.reflect.DatabaseClasses",
+  "new" : "class org.apache.derby.impl.services.reflect.DatabaseClasses",
+  "name" : "non-public class in API",
+  "description" : "Class 'org.apache.derby.impl.services.reflect.DatabaseClasses' is indirectly included in the API (by the means of method return type for example) but the class is not accessible (neither public nor protected).",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SEMANTIC",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "classSimpleName",
+    "value" : "DatabaseClasses"
+  }, {
+    "name" : "exampleUseChainInNewApi",
+    "value" : "org.apache.derby.impl.services.reflect.DatabaseClasses is used as parameter in method org.apache.derby.iapi.services.loader.ClassInspector org.apache.derby.impl.services.reflect.DatabaseClasses::makeClassInspector(org.apache.derby.impl.services.reflect.DatabaseClasses) <- org.apache.derby.impl.services.reflect.DatabaseClasses is used as parameter in method org.apache.derby.iapi.services.loader.ClassInspector org.apache.derby.impl.services.reflect.DatabaseClasses::makeClassInspector(org.apache.derby.impl.services.reflect.DatabaseClasses) @ org.apache.derby.impl.services.reflect.ReflectClassesJava2 (method org.apache.derby.iapi.services.loader.ClassInspector org.apache.derby.impl.services.reflect.DatabaseClasses::makeClassInspector(org.apache.derby.impl.services.reflect.DatabaseClasses) @ org.apache.derby.impl.services.reflect.ReflectClassesJava2 is part of the API)"
+  }, {
+    "name" : "package",
+    "value" : "org.apache.derby.impl.services.reflect"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.derby.impl.services.reflect.DatabaseClasses"
+  }, {
+    "name" : "exampleUseChainInOldApi",
+    "value" : "org.apache.derby.impl.services.reflect.DatabaseClasses is used as parameter in method org.apache.derby.iapi.services.loader.ClassInspector org.apache.derby.impl.services.reflect.DatabaseClasses::makeClassInspector(org.apache.derby.impl.services.reflect.DatabaseClasses) <- org.apache.derby.impl.services.reflect.DatabaseClasses is used as parameter in method org.apache.derby.iapi.services.loader.ClassInspector org.apache.derby.impl.services.reflect.DatabaseClasses::makeClassInspector(org.apache.derby.impl.services.reflect.DatabaseClasses) @ org.apache.derby.impl.services.reflect.ReflectClassesJava2 (method org.apache.derby.iapi.services.loader.ClassInspector org.apache.derby.impl.services.reflect.DatabaseClasses::makeClassInspector(org.apache.derby.impl.services.reflect.DatabaseClasses) @ org.apache.derby.impl.services.reflect.ReflectClassesJava2 is part of the API)"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "derby-10.15.2.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "derby-10.16.1.1.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.noLongerImplementsInterface",
+  "old" : "class org.apache.derby.impl.services.reflect.ReflectClassesJava2",
+  "new" : "class org.apache.derby.impl.services.reflect.ReflectClassesJava2",
+  "name" : "class no longer implements interface",
+  "description" : "Class no longer implements interface 'java.security.PrivilegedAction<java.lang.Object>'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "interface",
+    "value" : "java.security.PrivilegedAction<java.lang.Object>"
+  }, {
+    "name" : "package",
+    "value" : "org.apache.derby.impl.services.reflect"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.derby.impl.services.reflect.ReflectClassesJava2"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "ReflectClassesJava2"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "derby-10.15.2.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "derby-10.16.1.1.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.noLongerImplementsInterface",
+  "old" : "class org.apache.derby.impl.services.stream.SingleStream",
+  "new" : "class org.apache.derby.impl.services.stream.SingleStream",
+  "name" : "class no longer implements interface",
+  "description" : "Class no longer implements interface 'java.security.PrivilegedAction<org.apache.derby.shared.common.stream.HeaderPrintWriter>'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "interface",
+    "value" : "java.security.PrivilegedAction<org.apache.derby.shared.common.stream.HeaderPrintWriter>"
+  }, {
+    "name" : "package",
+    "value" : "org.apache.derby.impl.services.stream"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.derby.impl.services.stream.SingleStream"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "SingleStream"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "derby-10.15.2.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "derby-10.16.1.1.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.noLongerImplementsInterface",
+  "old" : "class org.apache.derby.impl.sql.catalog.DataDictionaryImpl",
+  "new" : "class org.apache.derby.impl.sql.catalog.DataDictionaryImpl",
+  "name" : "class no longer implements interface",
+  "description" : "Class no longer implements interface 'java.security.PrivilegedAction<java.util.Properties>'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "interface",
+    "value" : "java.security.PrivilegedAction<java.util.Properties>"
+  }, {
+    "name" : "package",
+    "value" : "org.apache.derby.impl.sql.catalog"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.derby.impl.sql.catalog.DataDictionaryImpl"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "DataDictionaryImpl"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "derby-10.15.2.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "derby-10.16.1.1.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.nonPublicPartOfAPI",
+  "old" : "class org.apache.derby.impl.sql.compile.AggregateNode",
+  "new" : "class org.apache.derby.impl.sql.compile.AggregateNode",
+  "name" : "non-public class in API",
+  "description" : "Class 'org.apache.derby.impl.sql.compile.AggregateNode' is indirectly included in the API (by the means of method return type for example) but the class is not accessible (neither public nor protected).",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SEMANTIC",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "classSimpleName",
+    "value" : "AggregateNode"
+  }, {
+    "name" : "exampleUseChainInNewApi",
+    "value" : "org.apache.derby.impl.sql.compile.AggregateNode is used as a type parameter or type variable bound on method void org.apache.derby.impl.sql.compile.UnaryOperatorNode::bindOperand(org.apache.derby.impl.sql.compile.FromList, org.apache.derby.impl.sql.compile.SubqueryList, java.util.List<org.apache.derby.impl.sql.compile.AggregateNode>) throws org.apache.derby.shared.common.error.StandardException @ org.apache.derby.impl.sql.compile.UnaryComparisonOperatorNode (method void org.apache.derby.impl.sql.compile.UnaryOperatorNode::bindOperand(org.apache.derby.impl.sql.compile.FromList, org.apache.derby.impl.sql.compile.SubqueryList, java.util.List<org.apache.derby.impl.sql.compile.AggregateNode>) throws org.apache.derby.shared.common.error.StandardException @ org.apache.derby.impl.sql.compile.UnaryComparisonOperatorNode is part of the API)"
+  }, {
+    "name" : "package",
+    "value" : "org.apache.derby.impl.sql.compile"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.derby.impl.sql.compile.AggregateNode"
+  }, {
+    "name" : "exampleUseChainInOldApi",
+    "value" : "org.apache.derby.impl.sql.compile.AggregateNode is used as a type parameter or type variable bound on method void org.apache.derby.impl.sql.compile.UnaryOperatorNode::bindOperand(org.apache.derby.impl.sql.compile.FromList, org.apache.derby.impl.sql.compile.SubqueryList, java.util.List<org.apache.derby.impl.sql.compile.AggregateNode>) throws org.apache.derby.shared.common.error.StandardException @ org.apache.derby.impl.sql.compile.LengthOperatorNode (method void org.apache.derby.impl.sql.compile.UnaryOperatorNode::bindOperand(org.apache.derby.impl.sql.compile.FromList, org.apache.derby.impl.sql.compile.SubqueryList, java.util.List<org.apache.derby.impl.sql.compile.AggregateNode>) throws org.apache.derby.shared.common.error.StandardException @ org.apache.derby.impl.sql.compile.LengthOperatorNode is part of the API)"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "derby-10.15.2.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "derby-10.16.1.1.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.nonPublicPartOfAPI",
+  "old" : "class org.apache.derby.impl.sql.compile.ExpressionClassBuilder",
+  "new" : "class org.apache.derby.impl.sql.compile.ExpressionClassBuilder",
+  "name" : "non-public class in API",
+  "description" : "Class 'org.apache.derby.impl.sql.compile.ExpressionClassBuilder' is indirectly included in the API (by the means of method return type for example) but the class is not accessible (neither public nor protected).",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SEMANTIC",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "classSimpleName",
+    "value" : "ExpressionClassBuilder"
+  }, {
+    "name" : "exampleUseChainInNewApi",
+    "value" : "org.apache.derby.impl.sql.compile.ExpressionClassBuilder is used as parameter in method org.apache.derby.iapi.services.compiler.LocalField org.apache.derby.impl.sql.compile.InListOperatorNode::generateListAsArray(org.apache.derby.impl.sql.compile.ExpressionClassBuilder, org.apache.derby.iapi.services.compiler.MethodBuilder) throws org.apache.derby.shared.common.error.StandardException (method org.apache.derby.iapi.services.compiler.LocalField org.apache.derby.impl.sql.compile.InListOperatorNode::generateListAsArray(org.apache.derby.impl.sql.compile.ExpressionClassBuilder, org.apache.derby.iapi.services.compiler.MethodBuilder) throws org.apache.derby.shared.common.error.StandardException is part of the API)"
+  }, {
+    "name" : "package",
+    "value" : "org.apache.derby.impl.sql.compile"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.derby.impl.sql.compile.ExpressionClassBuilder"
+  }, {
+    "name" : "exampleUseChainInOldApi",
+    "value" : "org.apache.derby.impl.sql.compile.ExpressionClassBuilder is used as parameter in method void org.apache.derby.impl.sql.compile.DMLModStatementNode::generateCheckConstraints(org.apache.derby.impl.sql.compile.ValueNode, org.apache.derby.impl.sql.compile.ExpressionClassBuilder, org.apache.derby.iapi.services.compiler.MethodBuilder) throws org.apache.derby.shared.common.error.StandardException @ org.apache.derby.impl.sql.compile.UpdateNode (method void org.apache.derby.impl.sql.compile.DMLModStatementNode::generateCheckConstraints(org.apache.derby.impl.sql.compile.ValueNode, org.apache.derby.impl.sql.compile.ExpressionClassBuilder, org.apache.derby.iapi.services.compiler.MethodBuilder) throws org.apache.derby.shared.common.error.StandardException @ org.apache.derby.impl.sql.compile.UpdateNode is part of the API)"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "derby-10.15.2.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "derby-10.16.1.1.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.nonPublicPartOfAPI",
+  "old" : "class org.apache.derby.impl.sql.compile.FromList",
+  "new" : "class org.apache.derby.impl.sql.compile.FromList",
+  "name" : "non-public class in API",
+  "description" : "Class 'org.apache.derby.impl.sql.compile.FromList' is indirectly included in the API (by the means of method return type for example) but the class is not accessible (neither public nor protected).",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SEMANTIC",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "classSimpleName",
+    "value" : "FromList"
+  }, {
+    "name" : "exampleUseChainInNewApi",
+    "value" : "org.apache.derby.impl.sql.compile.FromList is used as parameter in method void org.apache.derby.impl.sql.compile.SetOperatorNode::bindExpressions(org.apache.derby.impl.sql.compile.FromList) throws org.apache.derby.shared.common.error.StandardException @ org.apache.derby.impl.sql.compile.IntersectOrExceptNode (method void org.apache.derby.impl.sql.compile.SetOperatorNode::bindExpressions(org.apache.derby.impl.sql.compile.FromList) throws org.apache.derby.shared.common.error.StandardException @ org.apache.derby.impl.sql.compile.IntersectOrExceptNode is part of the API)"
+  }, {
+    "name" : "package",
+    "value" : "org.apache.derby.impl.sql.compile"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.derby.impl.sql.compile.FromList"
+  }, {
+    "name" : "exampleUseChainInOldApi",
+    "value" : "org.apache.derby.impl.sql.compile.FromList is used as parameter in method void org.apache.derby.impl.sql.compile.UnaryOperatorNode::bindOperand(org.apache.derby.impl.sql.compile.FromList, org.apache.derby.impl.sql.compile.SubqueryList, java.util.List<org.apache.derby.impl.sql.compile.AggregateNode>) throws org.apache.derby.shared.common.error.StandardException @ org.apache.derby.impl.sql.compile.NotNode (method void org.apache.derby.impl.sql.compile.UnaryOperatorNode::bindOperand(org.apache.derby.impl.sql.compile.FromList, org.apache.derby.impl.sql.compile.SubqueryList, java.util.List<org.apache.derby.impl.sql.compile.AggregateNode>) throws org.apache.derby.shared.common.error.StandardException @ org.apache.derby.impl.sql.compile.NotNode is part of the API)"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "derby-10.15.2.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "derby-10.16.1.1.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.nonPublicPartOfAPI",
+  "old" : "class org.apache.derby.impl.sql.compile.FromTable",
+  "new" : "class org.apache.derby.impl.sql.compile.FromTable",
+  "name" : "non-public class in API",
+  "description" : "Class 'org.apache.derby.impl.sql.compile.FromTable' is indirectly included in the API (by the means of method return type for example) but the class is not accessible (neither public nor protected).",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SEMANTIC",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "classSimpleName",
+    "value" : "FromTable"
+  }, {
+    "name" : "exampleUseChainInNewApi",
+    "value" : "field org.apache.derby.impl.sql.compile.UpdateNode.targetTable has the type org.apache.derby.impl.sql.compile.FromTable (field org.apache.derby.impl.sql.compile.UpdateNode.targetTable is part of the API)"
+  }, {
+    "name" : "package",
+    "value" : "org.apache.derby.impl.sql.compile"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.derby.impl.sql.compile.FromTable"
+  }, {
+    "name" : "exampleUseChainInOldApi",
+    "value" : "field org.apache.derby.impl.sql.compile.UpdateNode.targetTable has the type org.apache.derby.impl.sql.compile.FromTable (field org.apache.derby.impl.sql.compile.UpdateNode.targetTable is part of the API)"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "derby-10.15.2.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "derby-10.16.1.1.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.nonPublicPartOfAPI",
+  "old" : "class org.apache.derby.impl.sql.compile.OptimizerImpl",
+  "new" : "class org.apache.derby.impl.sql.compile.OptimizerImpl",
+  "name" : "non-public class in API",
+  "description" : "Class 'org.apache.derby.impl.sql.compile.OptimizerImpl' is indirectly included in the API (by the means of method return type for example) but the class is not accessible (neither public nor protected).",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SEMANTIC",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "classSimpleName",
+    "value" : "OptimizerImpl"
+  }, {
+    "name" : "exampleUseChainInNewApi",
+    "value" : "org.apache.derby.impl.sql.compile.OptimizerImpl is returned from method org.apache.derby.impl.sql.compile.OptimizerImpl org.apache.derby.impl.sql.compile.ResultSetNode::getOptimizerImpl() (method org.apache.derby.impl.sql.compile.OptimizerImpl org.apache.derby.impl.sql.compile.ResultSetNode::getOptimizerImpl() is part of the API)"
+  }, {
+    "name" : "package",
+    "value" : "org.apache.derby.impl.sql.compile"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.derby.impl.sql.compile.OptimizerImpl"
+  }, {
+    "name" : "exampleUseChainInOldApi",
+    "value" : "org.apache.derby.impl.sql.compile.OptimizerImpl is returned from method org.apache.derby.impl.sql.compile.OptimizerImpl org.apache.derby.impl.sql.compile.ResultSetNode::getOptimizerImpl() (method org.apache.derby.impl.sql.compile.OptimizerImpl org.apache.derby.impl.sql.compile.ResultSetNode::getOptimizerImpl() is part of the API)"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "derby-10.15.2.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "derby-10.16.1.1.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.nonPublicPartOfAPI",
+  "old" : "class org.apache.derby.impl.sql.compile.PredicateList",
+  "new" : "class org.apache.derby.impl.sql.compile.PredicateList",
+  "name" : "non-public class in API",
+  "description" : "Class 'org.apache.derby.impl.sql.compile.PredicateList' is indirectly included in the API (by the means of method return type for example) but the class is not accessible (neither public nor protected).",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SEMANTIC",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "classSimpleName",
+    "value" : "PredicateList"
+  }, {
+    "name" : "exampleUseChainInNewApi",
+    "value" : "org.apache.derby.impl.sql.compile.PredicateList is used as parameter in method org.apache.derby.iapi.sql.compile.Optimizable org.apache.derby.impl.sql.compile.SetOperatorNode::modifyAccessPath(org.apache.derby.iapi.util.JBitSet, org.apache.derby.impl.sql.compile.PredicateList) throws org.apache.derby.shared.common.error.StandardException @ org.apache.derby.impl.sql.compile.IntersectOrExceptNode (method org.apache.derby.iapi.sql.compile.Optimizable org.apache.derby.impl.sql.compile.SetOperatorNode::modifyAccessPath(org.apache.derby.iapi.util.JBitSet, org.apache.derby.impl.sql.compile.PredicateList) throws org.apache.derby.shared.common.error.StandardException @ org.apache.derby.impl.sql.compile.IntersectOrExceptNode is part of the API)"
+  }, {
+    "name" : "package",
+    "value" : "org.apache.derby.impl.sql.compile"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.derby.impl.sql.compile.PredicateList"
+  }, {
+    "name" : "exampleUseChainInOldApi",
+    "value" : "org.apache.derby.impl.sql.compile.PredicateList is used as parameter in method void org.apache.derby.impl.sql.compile.PredicateList::transferNonQualifiers(org.apache.derby.iapi.sql.compile.Optimizable, org.apache.derby.impl.sql.compile.PredicateList) throws org.apache.derby.shared.common.error.StandardException <- org.apache.derby.impl.sql.compile.PredicateList is used as parameter in method org.apache.derby.iapi.sql.compile.Optimizable org.apache.derby.impl.sql.compile.SetOperatorNode::modifyAccessPath(org.apache.derby.iapi.util.JBitSet, org.apache.derby.impl.sql.compile.PredicateList) throws org.apache.derby.shared.common.error.StandardException @ org.apache.derby.impl.sql.compile.IntersectOrExceptNode (method org.apache.derby.iapi.sql.compile.Optimizable org.apache.derby.impl.sql.compile.SetOperatorNode::modifyAccessPath(org.apache.derby.iapi.util.JBitSet, org.apache.derby.impl.sql.compile.PredicateList) throws org.apache.derby.shared.common.error.StandardException @ org.apache.derby.impl.sql.compile.IntersectOrExceptNode is part of the API)"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "derby-10.15.2.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "derby-10.16.1.1.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.nonPublicPartOfAPI",
+  "old" : "class org.apache.derby.impl.sql.compile.QueryTreeNodeVector<E extends org.apache.derby.impl.sql.compile.QueryTreeNode>",
+  "new" : "class org.apache.derby.impl.sql.compile.QueryTreeNodeVector<E extends org.apache.derby.impl.sql.compile.QueryTreeNode>",
+  "name" : "non-public class in API",
+  "description" : "Class 'org.apache.derby.impl.sql.compile.QueryTreeNodeVector<E extends org.apache.derby.impl.sql.compile.QueryTreeNode>' is indirectly included in the API (by the means of method return type for example) but the class is not accessible (neither public nor protected).",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SEMANTIC",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "classSimpleName",
+    "value" : "QueryTreeNodeVector"
+  }, {
+    "name" : "exampleUseChainInNewApi",
+    "value" : "org.apache.derby.impl.sql.compile.QueryTreeNodeVector<E extends org.apache.derby.impl.sql.compile.QueryTreeNode> is used as parameter in method void org.apache.derby.impl.sql.compile.MergeNode::<init>(org.apache.derby.impl.sql.compile.FromTable, org.apache.derby.impl.sql.compile.FromTable, org.apache.derby.impl.sql.compile.ValueNode, org.apache.derby.impl.sql.compile.QueryTreeNodeVector<org.apache.derby.impl.sql.compile.MatchingClauseNode>, org.apache.derby.iapi.services.context.ContextManager) throws org.apache.derby.shared.common.error.StandardException (method void org.apache.derby.impl.sql.compile.MergeNode::<init>(org.apache.derby.impl.sql.compile.FromTable, org.apache.derby.impl.sql.compile.FromTable, org.apache.derby.impl.sql.compile.ValueNode, org.apache.derby.impl.sql.compile.QueryTreeNodeVector<org.apache.derby.impl.sql.compile.MatchingClauseNode>, org.apache.derby.iapi.services.context.ContextManager) throws org.apache.derby.shared.common.error.StandardException is part of the API)"
+  }, {
+    "name" : "package",
+    "value" : "org.apache.derby.impl.sql.compile"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.derby.impl.sql.compile.QueryTreeNodeVector"
+  }, {
+    "name" : "exampleUseChainInOldApi",
+    "value" : "org.apache.derby.impl.sql.compile.QueryTreeNodeVector<E extends org.apache.derby.impl.sql.compile.QueryTreeNode> is used as parameter in method void org.apache.derby.impl.sql.compile.MergeNode::<init>(org.apache.derby.impl.sql.compile.FromTable, org.apache.derby.impl.sql.compile.FromTable, org.apache.derby.impl.sql.compile.ValueNode, org.apache.derby.impl.sql.compile.QueryTreeNodeVector<org.apache.derby.impl.sql.compile.MatchingClauseNode>, org.apache.derby.iapi.services.context.ContextManager) throws org.apache.derby.shared.common.error.StandardException (method void org.apache.derby.impl.sql.compile.MergeNode::<init>(org.apache.derby.impl.sql.compile.FromTable, org.apache.derby.impl.sql.compile.FromTable, org.apache.derby.impl.sql.compile.ValueNode, org.apache.derby.impl.sql.compile.QueryTreeNodeVector<org.apache.derby.impl.sql.compile.MatchingClauseNode>, org.apache.derby.iapi.services.context.ContextManager) throws org.apache.derby.shared.common.error.StandardException is part of the API)"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "derby-10.15.2.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "derby-10.16.1.1.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.nonPublicPartOfAPI",
+  "old" : "interface org.apache.derby.impl.sql.compile.RelationalOperator",
+  "new" : "interface org.apache.derby.impl.sql.compile.RelationalOperator",
+  "name" : "non-public class in API",
+  "description" : "Class 'org.apache.derby.impl.sql.compile.RelationalOperator' is indirectly included in the API (by the means of method return type for example) but the class is not accessible (neither public nor protected).",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SEMANTIC",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "classSimpleName",
+    "value" : "RelationalOperator"
+  }, {
+    "name" : "exampleUseChainInNewApi",
+    "value" : "org.apache.derby.impl.sql.compile.RelationalOperator is returned from method org.apache.derby.impl.sql.compile.RelationalOperator org.apache.derby.impl.sql.compile.IsNullNode::getTransitiveSearchClause(org.apache.derby.impl.sql.compile.ColumnReference) throws org.apache.derby.shared.common.error.StandardException (method org.apache.derby.impl.sql.compile.RelationalOperator org.apache.derby.impl.sql.compile.IsNullNode::getTransitiveSearchClause(org.apache.derby.impl.sql.compile.ColumnReference) throws org.apache.derby.shared.common.error.StandardException is part of the API)"
+  }, {
+    "name" : "package",
+    "value" : "org.apache.derby.impl.sql.compile"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.derby.impl.sql.compile.RelationalOperator"
+  }, {
+    "name" : "exampleUseChainInOldApi",
+    "value" : "org.apache.derby.impl.sql.compile.RelationalOperator is returned from method org.apache.derby.impl.sql.compile.RelationalOperator org.apache.derby.impl.sql.compile.IsNullNode::getTransitiveSearchClause(org.apache.derby.impl.sql.compile.ColumnReference) throws org.apache.derby.shared.common.error.StandardException (method org.apache.derby.impl.sql.compile.RelationalOperator org.apache.derby.impl.sql.compile.IsNullNode::getTransitiveSearchClause(org.apache.derby.impl.sql.compile.ColumnReference) throws org.apache.derby.shared.common.error.StandardException is part of the API)"
+  }, {
+    "name" : "elementKind",
+    "value" : "interface"
+  }, {
+    "name" : "oldArchive",
+    "value" : "derby-10.15.2.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "derby-10.16.1.1.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.nonPublicPartOfAPI",
+  "old" : "class org.apache.derby.impl.sql.compile.ResultColumnList",
+  "new" : "class org.apache.derby.impl.sql.compile.ResultColumnList",
+  "name" : "non-public class in API",
+  "description" : "Class 'org.apache.derby.impl.sql.compile.ResultColumnList' is indirectly included in the API (by the means of method return type for example) but the class is not accessible (neither public nor protected).",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SEMANTIC",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "classSimpleName",
+    "value" : "ResultColumnList"
+  }, {
+    "name" : "exampleUseChainInNewApi",
+    "value" : "org.apache.derby.impl.sql.compile.ResultColumnList is used as parameter in method void org.apache.derby.impl.sql.compile.DMLModStatementNode::getAffectedIndexes(org.apache.derby.iapi.sql.dictionary.TableDescriptor, org.apache.derby.impl.sql.compile.ResultColumnList, org.apache.derby.iapi.services.io.FormatableBitSet) throws org.apache.derby.shared.common.error.StandardException @ org.apache.derby.impl.sql.compile.UpdateNode (method void org.apache.derby.impl.sql.compile.DMLModStatementNode::getAffectedIndexes(org.apache.derby.iapi.sql.dictionary.TableDescriptor, org.apache.derby.impl.sql.compile.ResultColumnList, org.apache.derby.iapi.services.io.FormatableBitSet) throws org.apache.derby.shared.common.error.StandardException @ org.apache.derby.impl.sql.compile.UpdateNode is part of the API)"
+  }, {
+    "name" : "package",
+    "value" : "org.apache.derby.impl.sql.compile"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.derby.impl.sql.compile.ResultColumnList"
+  }, {
+    "name" : "exampleUseChainInOldApi",
+    "value" : "field org.apache.derby.impl.sql.compile.DMLModStatementNode.resultColumnList @ org.apache.derby.impl.sql.compile.MergeNode has the type org.apache.derby.impl.sql.compile.ResultColumnList (field org.apache.derby.impl.sql.compile.DMLModStatementNode.resultColumnList @ org.apache.derby.impl.sql.compile.MergeNode is part of the API)"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "derby-10.15.2.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "derby-10.16.1.1.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.nonPublicPartOfAPI",
+  "old" : "class org.apache.derby.impl.sql.compile.SubqueryList",
+  "new" : "class org.apache.derby.impl.sql.compile.SubqueryList",
+  "name" : "non-public class in API",
+  "description" : "Class 'org.apache.derby.impl.sql.compile.SubqueryList' is indirectly included in the API (by the means of method return type for example) but the class is not accessible (neither public nor protected).",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SEMANTIC",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "classSimpleName",
+    "value" : "SubqueryList"
+  }, {
+    "name" : "exampleUseChainInNewApi",
+    "value" : "org.apache.derby.impl.sql.compile.SubqueryList is used as parameter in method void org.apache.derby.impl.sql.compile.UnaryOperatorNode::bindOperand(org.apache.derby.impl.sql.compile.FromList, org.apache.derby.impl.sql.compile.SubqueryList, java.util.List<org.apache.derby.impl.sql.compile.AggregateNode>) throws org.apache.derby.shared.common.error.StandardException @ org.apache.derby.impl.sql.compile.WindowFunctionNode (method void org.apache.derby.impl.sql.compile.UnaryOperatorNode::bindOperand(org.apache.derby.impl.sql.compile.FromList, org.apache.derby.impl.sql.compile.SubqueryList, java.util.List<org.apache.derby.impl.sql.compile.AggregateNode>) throws org.apache.derby.shared.common.error.StandardException @ org.apache.derby.impl.sql.compile.WindowFunctionNode is part of the API)"
+  }, {
+    "name" : "package",
+    "value" : "org.apache.derby.impl.sql.compile"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.derby.impl.sql.compile.SubqueryList"
+  }, {
+    "name" : "exampleUseChainInOldApi",
+    "value" : "org.apache.derby.impl.sql.compile.SubqueryList is used as parameter in method void org.apache.derby.impl.sql.compile.UnaryOperatorNode::bindOperand(org.apache.derby.impl.sql.compile.FromList, org.apache.derby.impl.sql.compile.SubqueryList, java.util.List<org.apache.derby.impl.sql.compile.AggregateNode>) throws org.apache.derby.shared.common.error.StandardException @ org.apache.derby.impl.sql.compile.RowNumberFunctionNode (method void org.apache.derby.impl.sql.compile.UnaryOperatorNode::bindOperand(org.apache.derby.impl.sql.compile.FromList, org.apache.derby.impl.sql.compile.SubqueryList, java.util.List<org.apache.derby.impl.sql.compile.AggregateNode>) throws org.apache.derby.shared.common.error.StandardException @ org.apache.derby.impl.sql.compile.RowNumberFunctionNode is part of the API)"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "derby-10.15.2.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "derby-10.16.1.1.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.nonPublicPartOfAPI",
+  "old" : "class org.apache.derby.impl.sql.execute.TemporaryRowHolderImpl",
+  "new" : "class org.apache.derby.impl.sql.execute.TemporaryRowHolderImpl",
+  "name" : "non-public class in API",
+  "description" : "Class 'org.apache.derby.impl.sql.execute.TemporaryRowHolderImpl' is indirectly included in the API (by the means of method return type for example) but the class is not accessible (neither public nor protected).",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SEMANTIC",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "classSimpleName",
+    "value" : "TemporaryRowHolderImpl"
+  }, {
+    "name" : "exampleUseChainInNewApi",
+    "value" : "field org.apache.derby.impl.sql.execute.DMLWriteGeneratedColumnsResultSet.autoGeneratedKeysRowsHolder has the type org.apache.derby.impl.sql.execute.TemporaryRowHolderImpl (field org.apache.derby.impl.sql.execute.DMLWriteGeneratedColumnsResultSet.autoGeneratedKeysRowsHolder is part of the API)"
+  }, {
+    "name" : "package",
+    "value" : "org.apache.derby.impl.sql.execute"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.derby.impl.sql.execute.TemporaryRowHolderImpl"
+  }, {
+    "name" : "exampleUseChainInOldApi",
+    "value" : "org.apache.derby.impl.sql.execute.TemporaryRowHolderImpl is used as parameter in method void org.apache.derby.impl.sql.execute.MatchingClauseConstantAction::executeConstantAction(org.apache.derby.iapi.sql.Activation, org.apache.derby.impl.sql.execute.TemporaryRowHolderImpl) throws org.apache.derby.shared.common.error.StandardException (method void org.apache.derby.impl.sql.execute.MatchingClauseConstantAction::executeConstantAction(org.apache.derby.iapi.sql.Activation, org.apache.derby.impl.sql.execute.TemporaryRowHolderImpl) throws org.apache.derby.shared.common.error.StandardException is part of the API)"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "derby-10.15.2.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "derby-10.16.1.1.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.nonPublicPartOfAPI",
+  "old" : "class org.apache.derby.impl.sql.execute.WriteCursorConstantAction",
+  "new" : "class org.apache.derby.impl.sql.execute.WriteCursorConstantAction",
+  "name" : "non-public class in API",
+  "description" : "Class 'org.apache.derby.impl.sql.execute.WriteCursorConstantAction' is indirectly included in the API (by the means of method return type for example) but the class is not accessible (neither public nor protected).",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SEMANTIC",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "classSimpleName",
+    "value" : "WriteCursorConstantAction"
+  }, {
+    "name" : "exampleUseChainInNewApi",
+    "value" : "field org.apache.derby.impl.sql.execute.DMLWriteResultSet.constantAction @ org.apache.derby.impl.sql.execute.DMLWriteGeneratedColumnsResultSet has the type org.apache.derby.impl.sql.execute.WriteCursorConstantAction (field org.apache.derby.impl.sql.execute.DMLWriteResultSet.constantAction @ org.apache.derby.impl.sql.execute.DMLWriteGeneratedColumnsResultSet is part of the API)"
+  }, {
+    "name" : "package",
+    "value" : "org.apache.derby.impl.sql.execute"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.derby.impl.sql.execute.WriteCursorConstantAction"
+  }, {
+    "name" : "exampleUseChainInOldApi",
+    "value" : "field org.apache.derby.impl.sql.execute.DMLWriteResultSet.constantAction has the type org.apache.derby.impl.sql.execute.WriteCursorConstantAction (field org.apache.derby.impl.sql.execute.DMLWriteResultSet.constantAction is part of the API)"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "derby-10.15.2.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "derby-10.16.1.1.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.nonPublicPartOfAPI",
+  "old" : "class org.apache.derby.impl.store.access.PropertyConglomerate",
+  "new" : "class org.apache.derby.impl.store.access.PropertyConglomerate",
+  "name" : "non-public class in API",
+  "description" : "Class 'org.apache.derby.impl.store.access.PropertyConglomerate' is indirectly included in the API (by the means of method return type for example) but the class is not accessible (neither public nor protected).",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SEMANTIC",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "classSimpleName",
+    "value" : "PropertyConglomerate"
+  }, {
+    "name" : "exampleUseChainInNewApi",
+    "value" : "org.apache.derby.impl.store.access.PropertyConglomerate is used as parameter in method void org.apache.derby.impl.store.access.PC_XenaVersion::upgradeIfNeeded(org.apache.derby.iapi.store.access.TransactionController, org.apache.derby.impl.store.access.PropertyConglomerate, java.util.Properties) throws org.apache.derby.shared.common.error.StandardException (method void org.apache.derby.impl.store.access.PC_XenaVersion::upgradeIfNeeded(org.apache.derby.iapi.store.access.TransactionController, org.apache.derby.impl.store.access.PropertyConglomerate, java.util.Properties) throws org.apache.derby.shared.common.error.StandardException is part of the API)"
+  }, {
+    "name" : "package",
+    "value" : "org.apache.derby.impl.store.access"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.derby.impl.store.access.PropertyConglomerate"
+  }, {
+    "name" : "exampleUseChainInOldApi",
+    "value" : "org.apache.derby.impl.store.access.PropertyConglomerate is used as parameter in method void org.apache.derby.impl.store.access.PC_XenaVersion::upgradeIfNeeded(org.apache.derby.iapi.store.access.TransactionController, org.apache.derby.impl.store.access.PropertyConglomerate, java.util.Properties) throws org.apache.derby.shared.common.error.StandardException (method void org.apache.derby.impl.store.access.PC_XenaVersion::upgradeIfNeeded(org.apache.derby.iapi.store.access.TransactionController, org.apache.derby.impl.store.access.PropertyConglomerate, java.util.Properties) throws org.apache.derby.shared.common.error.StandardException is part of the API)"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "derby-10.15.2.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "derby-10.16.1.1.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.nonPublicPartOfAPI",
+  "old" : "class org.apache.derby.impl.store.access.RAMTransactionContext",
+  "new" : "class org.apache.derby.impl.store.access.RAMTransactionContext",
+  "name" : "non-public class in API",
+  "description" : "Class 'org.apache.derby.impl.store.access.RAMTransactionContext' is indirectly included in the API (by the means of method return type for example) but the class is not accessible (neither public nor protected).",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SEMANTIC",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "classSimpleName",
+    "value" : "RAMTransactionContext"
+  }, {
+    "name" : "exampleUseChainInNewApi",
+    "value" : "field org.apache.derby.impl.store.access.RAMTransaction.context has the type org.apache.derby.impl.store.access.RAMTransactionContext (field org.apache.derby.impl.store.access.RAMTransaction.context is part of the API)"
+  }, {
+    "name" : "package",
+    "value" : "org.apache.derby.impl.store.access"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.derby.impl.store.access.RAMTransactionContext"
+  }, {
+    "name" : "exampleUseChainInOldApi",
+    "value" : "field org.apache.derby.impl.store.access.RAMTransaction.context has the type org.apache.derby.impl.store.access.RAMTransactionContext (field org.apache.derby.impl.store.access.RAMTransaction.context is part of the API)"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "derby-10.15.2.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "derby-10.16.1.1.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.nonPublicPartOfAPI",
+  "old" : "class org.apache.derby.impl.store.access.sort.MergeSort",
+  "new" : "class org.apache.derby.impl.store.access.sort.MergeSort",
+  "name" : "non-public class in API",
+  "description" : "Class 'org.apache.derby.impl.store.access.sort.MergeSort' is indirectly included in the API (by the means of method return type for example) but the class is not accessible (neither public nor protected).",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SEMANTIC",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "classSimpleName",
+    "value" : "MergeSort"
+  }, {
+    "name" : "exampleUseChainInNewApi",
+    "value" : "org.apache.derby.impl.store.access.sort.MergeSort is returned from method org.apache.derby.impl.store.access.sort.MergeSort org.apache.derby.impl.store.access.sort.UniqueWithDuplicateNullsExternalSortFactory::getMergeSort() (method org.apache.derby.impl.store.access.sort.MergeSort org.apache.derby.impl.store.access.sort.UniqueWithDuplicateNullsExternalSortFactory::getMergeSort() is part of the API)"
+  }, {
+    "name" : "package",
+    "value" : "org.apache.derby.impl.store.access.sort"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.derby.impl.store.access.sort.MergeSort"
+  }, {
+    "name" : "exampleUseChainInOldApi",
+    "value" : "org.apache.derby.impl.store.access.sort.MergeSort is returned from method org.apache.derby.impl.store.access.sort.MergeSort org.apache.derby.impl.store.access.sort.UniqueWithDuplicateNullsExternalSortFactory::getMergeSort() (method org.apache.derby.impl.store.access.sort.MergeSort org.apache.derby.impl.store.access.sort.UniqueWithDuplicateNullsExternalSortFactory::getMergeSort() is part of the API)"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "derby-10.15.2.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "derby-10.16.1.1.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.nonPublicPartOfAPI",
+  "old" : "class org.apache.derby.impl.store.access.sort.SortBuffer",
+  "new" : "class org.apache.derby.impl.store.access.sort.SortBuffer",
+  "name" : "non-public class in API",
+  "description" : "Class 'org.apache.derby.impl.store.access.sort.SortBuffer' is indirectly included in the API (by the means of method return type for example) but the class is not accessible (neither public nor protected).",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SEMANTIC",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "classSimpleName",
+    "value" : "SortBuffer"
+  }, {
+    "name" : "exampleUseChainInNewApi",
+    "value" : "field org.apache.derby.impl.store.access.sort.SortBufferScan.sortBuffer has the type org.apache.derby.impl.store.access.sort.SortBuffer (field org.apache.derby.impl.store.access.sort.SortBufferScan.sortBuffer is part of the API)"
+  }, {
+    "name" : "package",
+    "value" : "org.apache.derby.impl.store.access.sort"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.derby.impl.store.access.sort.SortBuffer"
+  }, {
+    "name" : "exampleUseChainInOldApi",
+    "value" : "field org.apache.derby.impl.store.access.sort.SortBufferScan.sortBuffer has the type org.apache.derby.impl.store.access.sort.SortBuffer (field org.apache.derby.impl.store.access.sort.SortBufferScan.sortBuffer is part of the API)"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "derby-10.15.2.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "derby-10.16.1.1.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.noLongerImplementsInterface",
+  "old" : "class org.apache.derby.impl.store.raw.RawStore",
+  "new" : "class org.apache.derby.impl.store.raw.RawStore",
+  "name" : "class no longer implements interface",
+  "description" : "Class no longer implements interface 'java.security.PrivilegedExceptionAction<java.lang.Object>'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "interface",
+    "value" : "java.security.PrivilegedExceptionAction<java.lang.Object>"
+  }, {
+    "name" : "package",
+    "value" : "org.apache.derby.impl.store.raw"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.derby.impl.store.raw.RawStore"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "RawStore"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "derby-10.15.2.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "derby-10.16.1.1.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.nonPublicPartOfAPI",
+  "old" : "class org.apache.derby.impl.store.raw.data.BaseContainer",
+  "new" : "class org.apache.derby.impl.store.raw.data.BaseContainer",
+  "name" : "non-public class in API",
+  "description" : "Class 'org.apache.derby.impl.store.raw.data.BaseContainer' is indirectly included in the API (by the means of method return type for example) but the class is not accessible (neither public nor protected).",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SEMANTIC",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "classSimpleName",
+    "value" : "BaseContainer"
+  }, {
+    "name" : "exampleUseChainInNewApi",
+    "value" : "field org.apache.derby.impl.store.raw.data.BaseContainerHandle.container has the type org.apache.derby.impl.store.raw.data.BaseContainer (field org.apache.derby.impl.store.raw.data.BaseContainerHandle.container is part of the API)"
+  }, {
+    "name" : "package",
+    "value" : "org.apache.derby.impl.store.raw.data"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.derby.impl.store.raw.data.BaseContainer"
+  }, {
+    "name" : "exampleUseChainInOldApi",
+    "value" : "org.apache.derby.impl.store.raw.data.BaseContainer is used as parameter in method void org.apache.derby.impl.store.raw.data.BaseContainerHandle::<init>(org.apache.derby.catalog.UUID, org.apache.derby.iapi.store.raw.xact.RawTransaction, org.apache.derby.impl.store.raw.data.PageActions, org.apache.derby.impl.store.raw.data.AllocationActions, org.apache.derby.iapi.store.raw.LockingPolicy, org.apache.derby.impl.store.raw.data.BaseContainer, int) (method void org.apache.derby.impl.store.raw.data.BaseContainerHandle::<init>(org.apache.derby.catalog.UUID, org.apache.derby.iapi.store.raw.xact.RawTransaction, org.apache.derby.impl.store.raw.data.PageActions, org.apache.derby.impl.store.raw.data.AllocationActions, org.apache.derby.iapi.store.raw.LockingPolicy, org.apache.derby.impl.store.raw.data.BaseContainer, int) is part of the API)"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "derby-10.15.2.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "derby-10.16.1.1.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.noLongerImplementsInterface",
+  "old" : "class org.apache.derby.impl.store.raw.data.BaseDataFileFactory",
+  "new" : "class org.apache.derby.impl.store.raw.data.BaseDataFileFactory",
+  "name" : "class no longer implements interface",
+  "description" : "Class no longer implements interface 'java.security.PrivilegedExceptionAction<java.lang.Object>'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "interface",
+    "value" : "java.security.PrivilegedExceptionAction<java.lang.Object>"
+  }, {
+    "name" : "package",
+    "value" : "org.apache.derby.impl.store.raw.data"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.derby.impl.store.raw.data.BaseDataFileFactory"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "BaseDataFileFactory"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "derby-10.15.2.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "derby-10.16.1.1.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.noLongerImplementsInterface",
+  "old" : "class org.apache.derby.impl.store.raw.data.BaseDataFileFactoryJ4",
+  "new" : "class org.apache.derby.impl.store.raw.data.BaseDataFileFactoryJ4",
+  "name" : "class no longer implements interface",
+  "description" : "Class no longer implements interface 'java.security.PrivilegedExceptionAction<java.lang.Object>'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "interface",
+    "value" : "java.security.PrivilegedExceptionAction<java.lang.Object>"
+  }, {
+    "name" : "package",
+    "value" : "org.apache.derby.impl.store.raw.data"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.derby.impl.store.raw.data.BaseDataFileFactoryJ4"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "BaseDataFileFactoryJ4"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "derby-10.15.2.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "derby-10.16.1.1.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.nonPublicPartOfAPI",
+  "old" : "class org.apache.derby.impl.store.raw.data.BasePage",
+  "new" : "class org.apache.derby.impl.store.raw.data.BasePage",
+  "name" : "non-public class in API",
+  "description" : "Class 'org.apache.derby.impl.store.raw.data.BasePage' is indirectly included in the API (by the means of method return type for example) but the class is not accessible (neither public nor protected).",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SEMANTIC",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "classSimpleName",
+    "value" : "BasePage"
+  }, {
+    "name" : "exampleUseChainInNewApi",
+    "value" : "org.apache.derby.impl.store.raw.data.BasePage is returned from method org.apache.derby.impl.store.raw.data.BasePage org.apache.derby.impl.store.raw.data.BasePage::getOverflowPageForInsert(int, java.lang.Object[], org.apache.derby.iapi.services.io.FormatableBitSet, int) throws org.apache.derby.shared.common.error.StandardException <- org.apache.derby.impl.store.raw.data.BasePage is returned from method org.apache.derby.impl.store.raw.data.BasePage org.apache.derby.impl.store.raw.data.BasePage::getOverflowPageForInsert(int, java.lang.Object[], org.apache.derby.iapi.services.io.FormatableBitSet, int) throws org.apache.derby.shared.common.error.StandardException @ org.apache.derby.impl.store.raw.data.CachedPage (method org.apache.derby.impl.store.raw.data.BasePage org.apache.derby.impl.store.raw.data.BasePage::getOverflowPageForInsert(int, java.lang.Object[], org.apache.derby.iapi.services.io.FormatableBitSet, int) throws org.apache.derby.shared.common.error.StandardException @ org.apache.derby.impl.store.raw.data.CachedPage is part of the API)"
+  }, {
+    "name" : "package",
+    "value" : "org.apache.derby.impl.store.raw.data"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.derby.impl.store.raw.data.BasePage"
+  }, {
+    "name" : "exampleUseChainInOldApi",
+    "value" : "org.apache.derby.impl.store.raw.data.BasePage is used as parameter in method void org.apache.derby.impl.store.raw.data.PurgeOperation::restoreMe(org.apache.derby.iapi.store.raw.Transaction, org.apache.derby.impl.store.raw.data.BasePage, org.apache.derby.iapi.store.raw.log.LogInstant, org.apache.derby.iapi.services.io.LimitObjectInput) throws org.apache.derby.shared.common.error.StandardException, java.io.IOException (method void org.apache.derby.impl.store.raw.data.PurgeOperation::restoreMe(org.apache.derby.iapi.store.raw.Transaction, org.apache.derby.impl.store.raw.data.BasePage, org.apache.derby.iapi.store.raw.log.LogInstant, org.apache.derby.iapi.services.io.LimitObjectInput) throws org.apache.derby.shared.common.error.StandardException, java.io.IOException is part of the API)"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "derby-10.15.2.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "derby-10.16.1.1.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.noLongerImplementsInterface",
+  "old" : "class org.apache.derby.impl.store.raw.data.EncryptOrDecryptData",
+  "new" : "class org.apache.derby.impl.store.raw.data.EncryptOrDecryptData",
+  "name" : "class no longer implements interface",
+  "description" : "Class no longer implements interface 'java.security.PrivilegedAction<java.lang.Boolean>'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "interface",
+    "value" : "java.security.PrivilegedAction<java.lang.Boolean>"
+  }, {
+    "name" : "package",
+    "value" : "org.apache.derby.impl.store.raw.data"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.derby.impl.store.raw.data.EncryptOrDecryptData"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "EncryptOrDecryptData"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "derby-10.15.2.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "derby-10.16.1.1.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.nonPublicPartOfAPI",
+  "old" : "class org.apache.derby.impl.store.raw.data.FileContainer",
+  "new" : "class org.apache.derby.impl.store.raw.data.FileContainer",
+  "name" : "non-public class in API",
+  "description" : "Class 'org.apache.derby.impl.store.raw.data.FileContainer' is indirectly included in the API (by the means of method return type for example) but the class is not accessible (neither public nor protected).",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SEMANTIC",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "classSimpleName",
+    "value" : "FileContainer"
+  }, {
+    "name" : "exampleUseChainInNewApi",
+    "value" : "org.apache.derby.impl.store.raw.data.FileContainer is used as parameter in method void org.apache.derby.impl.store.raw.data.StoredPage::initFromData(org.apache.derby.impl.store.raw.data.FileContainer, org.apache.derby.iapi.store.raw.PageKey) throws org.apache.derby.shared.common.error.StandardException (method void org.apache.derby.impl.store.raw.data.StoredPage::initFromData(org.apache.derby.impl.store.raw.data.FileContainer, org.apache.derby.iapi.store.raw.PageKey) throws org.apache.derby.shared.common.error.StandardException is part of the API)"
+  }, {
+    "name" : "package",
+    "value" : "org.apache.derby.impl.store.raw.data"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.derby.impl.store.raw.data.FileContainer"
+  }, {
+    "name" : "exampleUseChainInOldApi",
+    "value" : "org.apache.derby.impl.store.raw.data.FileContainer is used as parameter in method boolean org.apache.derby.impl.store.raw.data.AllocPage::compress(org.apache.derby.iapi.store.raw.xact.RawTransaction, org.apache.derby.impl.store.raw.data.FileContainer) throws org.apache.derby.shared.common.error.StandardException (method boolean org.apache.derby.impl.store.raw.data.AllocPage::compress(org.apache.derby.iapi.store.raw.xact.RawTransaction, org.apache.derby.impl.store.raw.data.FileContainer) throws org.apache.derby.shared.common.error.StandardException is part of the API)"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "derby-10.15.2.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "derby-10.16.1.1.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.nonPublicPartOfAPI",
+  "old" : "class org.apache.derby.impl.store.raw.data.PageCreationArgs",
+  "new" : "class org.apache.derby.impl.store.raw.data.PageCreationArgs",
+  "name" : "non-public class in API",
+  "description" : "Class 'org.apache.derby.impl.store.raw.data.PageCreationArgs' is indirectly included in the API (by the means of method return type for example) but the class is not accessible (neither public nor protected).",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SEMANTIC",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "classSimpleName",
+    "value" : "PageCreationArgs"
+  }, {
+    "name" : "exampleUseChainInNewApi",
+    "value" : "org.apache.derby.impl.store.raw.data.PageCreationArgs is used as parameter in method void org.apache.derby.impl.store.raw.data.AllocPage::createPage(org.apache.derby.iapi.store.raw.PageKey, org.apache.derby.impl.store.raw.data.PageCreationArgs) throws org.apache.derby.shared.common.error.StandardException (method void org.apache.derby.impl.store.raw.data.AllocPage::createPage(org.apache.derby.iapi.store.raw.PageKey, org.apache.derby.impl.store.raw.data.PageCreationArgs) throws org.apache.derby.shared.common.error.StandardException is part of the API)"
+  }, {
+    "name" : "package",
+    "value" : "org.apache.derby.impl.store.raw.data"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.derby.impl.store.raw.data.PageCreationArgs"
+  }, {
+    "name" : "exampleUseChainInOldApi",
+    "value" : "org.apache.derby.impl.store.raw.data.PageCreationArgs is used as parameter in method void org.apache.derby.impl.store.raw.data.CachedPage::createPage(org.apache.derby.iapi.store.raw.PageKey, org.apache.derby.impl.store.raw.data.PageCreationArgs) throws org.apache.derby.shared.common.error.StandardException (method void org.apache.derby.impl.store.raw.data.CachedPage::createPage(org.apache.derby.iapi.store.raw.PageKey, org.apache.derby.impl.store.raw.data.PageCreationArgs) throws org.apache.derby.shared.common.error.StandardException is part of the API)"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "derby-10.15.2.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "derby-10.16.1.1.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.noLongerImplementsInterface",
+  "old" : "class org.apache.derby.impl.store.raw.log.LogToFile",
+  "new" : "class org.apache.derby.impl.store.raw.log.LogToFile",
+  "name" : "class no longer implements interface",
+  "description" : "Class no longer implements interface 'java.security.PrivilegedExceptionAction<java.lang.Object>'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "interface",
+    "value" : "java.security.PrivilegedExceptionAction<java.lang.Object>"
+  }, {
+    "name" : "package",
+    "value" : "org.apache.derby.impl.store.raw.log"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.derby.impl.store.raw.log.LogToFile"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "LogToFile"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "derby-10.15.2.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "derby-10.16.1.1.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.nonPublicPartOfAPI",
+  "old" : "class org.apache.derby.impl.store.raw.xact.XactContext",
+  "new" : "class org.apache.derby.impl.store.raw.xact.XactContext",
+  "name" : "non-public class in API",
+  "description" : "Class 'org.apache.derby.impl.store.raw.xact.XactContext' is indirectly included in the API (by the means of method return type for example) but the class is not accessible (neither public nor protected).",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SEMANTIC",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "classSimpleName",
+    "value" : "XactContext"
+  }, {
+    "name" : "exampleUseChainInNewApi",
+    "value" : "field org.apache.derby.impl.store.raw.xact.Xact.xc has the type org.apache.derby.impl.store.raw.xact.XactContext (field org.apache.derby.impl.store.raw.xact.Xact.xc is part of the API)"
+  }, {
+    "name" : "package",
+    "value" : "org.apache.derby.impl.store.raw.xact"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.derby.impl.store.raw.xact.XactContext"
+  }, {
+    "name" : "exampleUseChainInOldApi",
+    "value" : "field org.apache.derby.impl.store.raw.xact.Xact.xc has the type org.apache.derby.impl.store.raw.xact.XactContext (field org.apache.derby.impl.store.raw.xact.Xact.xc is part of the API)"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "derby-10.15.2.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "derby-10.16.1.1.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+} ]

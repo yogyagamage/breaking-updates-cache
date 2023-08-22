@@ -1,0 +1,360 @@
+[ {
+  "code" : "java.method.removed",
+  "old" : "method void jersey.repackaged.org.objectweb.asm.ClassVisitor::visitPermittedSubtypeExperimental(java.lang.String)",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "jersey.repackaged.org.objectweb.asm"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "jersey.repackaged.org.objectweb.asm.ClassVisitor"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "ClassVisitor"
+  }, {
+    "name" : "methodName",
+    "value" : "visitPermittedSubtypeExperimental"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jersey-server-2.32.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method void jersey.repackaged.org.objectweb.asm.ClassWriter::visitPermittedSubtypeExperimental(java.lang.String)",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "jersey.repackaged.org.objectweb.asm"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "jersey.repackaged.org.objectweb.asm.ClassWriter"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "ClassWriter"
+  }, {
+    "name" : "methodName",
+    "value" : "visitPermittedSubtypeExperimental"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jersey-server-2.32.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.field.removedWithConstant",
+  "old" : "field jersey.repackaged.org.objectweb.asm.Opcodes.ASM9_EXPERIMENTAL",
+  "new" : null,
+  "name" : "field with constant removed",
+  "description" : "Field with constant value has been removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SEMANTIC",
+    "severity" : "POTENTIALLY_BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "jersey.repackaged.org.objectweb.asm"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "jersey.repackaged.org.objectweb.asm.Opcodes"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "Opcodes"
+  }, {
+    "name" : "fieldName",
+    "value" : "ASM9_EXPERIMENTAL"
+  }, {
+    "name" : "elementKind",
+    "value" : "field"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jersey-server-2.32.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.nonPublicPartOfAPI",
+  "old" : "class org.glassfish.jersey.server.ResourceBag",
+  "new" : "class org.glassfish.jersey.server.ResourceBag",
+  "name" : "non-public class in API",
+  "description" : "Class 'org.glassfish.jersey.server.ResourceBag' is indirectly included in the API (by the means of method return type for example) but the class is not accessible (neither public nor protected).",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SEMANTIC",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "classSimpleName",
+    "value" : "ResourceBag"
+  }, {
+    "name" : "exampleUseChainInNewApi",
+    "value" : "org.glassfish.jersey.server.ResourceBag is returned from method org.glassfish.jersey.server.ResourceBag org.glassfish.jersey.server.ServerBootstrapBag::getResourceBag() (method org.glassfish.jersey.server.ResourceBag org.glassfish.jersey.server.ServerBootstrapBag::getResourceBag() is part of the API)"
+  }, {
+    "name" : "package",
+    "value" : "org.glassfish.jersey.server"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.glassfish.jersey.server.ResourceBag"
+  }, {
+    "name" : "exampleUseChainInOldApi",
+    "value" : "org.glassfish.jersey.server.ResourceBag is used as parameter in method void org.glassfish.jersey.server.ServerBootstrapBag::setResourceBag(org.glassfish.jersey.server.ResourceBag) (method void org.glassfish.jersey.server.ServerBootstrapBag::setResourceBag(org.glassfish.jersey.server.ResourceBag) is part of the API)"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jersey-server-2.32.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "jersey-server-2.39.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.visibilityReduced",
+  "old" : "method void org.glassfish.jersey.server.internal.LocalizationMessages::<init>()",
+  "new" : "method void org.glassfish.jersey.server.internal.LocalizationMessages::<init>()",
+  "name" : "visibility reduced",
+  "description" : "visibility reduced",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldVisibility",
+    "value" : "public"
+  }, {
+    "name" : "newVisibility",
+    "value" : "private"
+  }, {
+    "name" : "package",
+    "value" : "org.glassfish.jersey.server.internal"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.glassfish.jersey.server.internal.LocalizationMessages"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "LocalizationMessages"
+  }, {
+    "name" : "methodName",
+    "value" : "<init>"
+  }, {
+    "name" : "elementKind",
+    "value" : "constructor"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jersey-server-2.32.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "jersey-server-2.39.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.nonPublicPartOfAPI",
+  "old" : "class org.glassfish.jersey.server.internal.monitoring.MonitoringEventListener.ReqEventListener",
+  "new" : "class org.glassfish.jersey.server.internal.monitoring.MonitoringEventListener.ReqEventListener",
+  "name" : "non-public class in API",
+  "description" : "Class 'org.glassfish.jersey.server.internal.monitoring.MonitoringEventListener.ReqEventListener' is indirectly included in the API (by the means of method return type for example) but the class is not accessible (neither public nor protected).",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SEMANTIC",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "classSimpleName",
+    "value" : "ReqEventListener"
+  }, {
+    "name" : "exampleUseChainInNewApi",
+    "value" : "org.glassfish.jersey.server.internal.monitoring.MonitoringEventListener.ReqEventListener is returned from method org.glassfish.jersey.server.internal.monitoring.MonitoringEventListener.ReqEventListener org.glassfish.jersey.server.internal.monitoring.MonitoringEventListener::onRequest(org.glassfish.jersey.server.monitoring.RequestEvent) (method org.glassfish.jersey.server.internal.monitoring.MonitoringEventListener.ReqEventListener org.glassfish.jersey.server.internal.monitoring.MonitoringEventListener::onRequest(org.glassfish.jersey.server.monitoring.RequestEvent) is part of the API)"
+  }, {
+    "name" : "package",
+    "value" : "org.glassfish.jersey.server.internal.monitoring"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.glassfish.jersey.server.internal.monitoring.MonitoringEventListener.ReqEventListener"
+  }, {
+    "name" : "exampleUseChainInOldApi",
+    "value" : "org.glassfish.jersey.server.internal.monitoring.MonitoringEventListener.ReqEventListener is returned from method org.glassfish.jersey.server.internal.monitoring.MonitoringEventListener.ReqEventListener org.glassfish.jersey.server.internal.monitoring.MonitoringEventListener::onRequest(org.glassfish.jersey.server.monitoring.RequestEvent) (method org.glassfish.jersey.server.internal.monitoring.MonitoringEventListener.ReqEventListener org.glassfish.jersey.server.internal.monitoring.MonitoringEventListener::onRequest(org.glassfish.jersey.server.monitoring.RequestEvent) is part of the API)"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jersey-server-2.32.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "jersey-server-2.39.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.field.noLongerConstant",
+  "old" : "field org.glassfish.jersey.server.internal.monitoring.core.ReservoirConstants.COLLISION_BUFFER",
+  "new" : "field org.glassfish.jersey.server.internal.monitoring.core.ReservoirConstants.COLLISION_BUFFER",
+  "name" : "field no longer constant",
+  "description" : "Field no longer declares a constant value.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "EQUIVALENT"
+  }, {
+    "compatibility" : "SEMANTIC",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "EQUIVALENT"
+  } ],
+  "attachments" : [ {
+    "name" : "value",
+    "value" : "256"
+  }, {
+    "name" : "package",
+    "value" : "org.glassfish.jersey.server.internal.monitoring.core"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.glassfish.jersey.server.internal.monitoring.core.ReservoirConstants"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "ReservoirConstants"
+  }, {
+    "name" : "fieldName",
+    "value" : "COLLISION_BUFFER"
+  }, {
+    "name" : "elementKind",
+    "value" : "field"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jersey-server-2.32.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "jersey-server-2.39.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.field.noLongerConstant",
+  "old" : "field org.glassfish.jersey.server.internal.monitoring.core.ReservoirConstants.COLLISION_BUFFER_POWER",
+  "new" : "field org.glassfish.jersey.server.internal.monitoring.core.ReservoirConstants.COLLISION_BUFFER_POWER",
+  "name" : "field no longer constant",
+  "description" : "Field no longer declares a constant value.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "EQUIVALENT"
+  }, {
+    "compatibility" : "SEMANTIC",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "EQUIVALENT"
+  } ],
+  "attachments" : [ {
+    "name" : "value",
+    "value" : "8"
+  }, {
+    "name" : "package",
+    "value" : "org.glassfish.jersey.server.internal.monitoring.core"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.glassfish.jersey.server.internal.monitoring.core.ReservoirConstants"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "ReservoirConstants"
+  }, {
+    "name" : "fieldName",
+    "value" : "COLLISION_BUFFER_POWER"
+  }, {
+    "name" : "elementKind",
+    "value" : "field"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jersey-server-2.32.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "jersey-server-2.39.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+} ]

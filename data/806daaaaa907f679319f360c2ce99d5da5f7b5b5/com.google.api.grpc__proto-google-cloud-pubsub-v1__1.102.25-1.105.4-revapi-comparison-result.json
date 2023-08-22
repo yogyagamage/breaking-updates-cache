@@ -1,0 +1,721 @@
+[ {
+  "code" : "java.method.addedToInterface",
+  "old" : null,
+  "new" : "method com.google.protobuf.Timestamp com.google.pubsub.v1.SchemaOrBuilder::getRevisionCreateTime()",
+  "name" : "method added to interface",
+  "description" : "Method was added to an interface.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SEMANTIC",
+    "severity" : "POTENTIALLY_BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.google.pubsub.v1"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.google.pubsub.v1.SchemaOrBuilder"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "SchemaOrBuilder"
+  }, {
+    "name" : "methodName",
+    "value" : "getRevisionCreateTime"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "newArchive",
+    "value" : "proto-google-cloud-pubsub-v1-1.105.4.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.addedToInterface",
+  "old" : null,
+  "new" : "method com.google.protobuf.TimestampOrBuilder com.google.pubsub.v1.SchemaOrBuilder::getRevisionCreateTimeOrBuilder()",
+  "name" : "method added to interface",
+  "description" : "Method was added to an interface.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SEMANTIC",
+    "severity" : "POTENTIALLY_BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.google.pubsub.v1"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.google.pubsub.v1.SchemaOrBuilder"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "SchemaOrBuilder"
+  }, {
+    "name" : "methodName",
+    "value" : "getRevisionCreateTimeOrBuilder"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "newArchive",
+    "value" : "proto-google-cloud-pubsub-v1-1.105.4.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.addedToInterface",
+  "old" : null,
+  "new" : "method java.lang.String com.google.pubsub.v1.SchemaOrBuilder::getRevisionId()",
+  "name" : "method added to interface",
+  "description" : "Method was added to an interface.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SEMANTIC",
+    "severity" : "POTENTIALLY_BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.google.pubsub.v1"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.google.pubsub.v1.SchemaOrBuilder"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "SchemaOrBuilder"
+  }, {
+    "name" : "methodName",
+    "value" : "getRevisionId"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "newArchive",
+    "value" : "proto-google-cloud-pubsub-v1-1.105.4.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.addedToInterface",
+  "old" : null,
+  "new" : "method com.google.protobuf.ByteString com.google.pubsub.v1.SchemaOrBuilder::getRevisionIdBytes()",
+  "name" : "method added to interface",
+  "description" : "Method was added to an interface.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SEMANTIC",
+    "severity" : "POTENTIALLY_BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.google.pubsub.v1"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.google.pubsub.v1.SchemaOrBuilder"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "SchemaOrBuilder"
+  }, {
+    "name" : "methodName",
+    "value" : "getRevisionIdBytes"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "newArchive",
+    "value" : "proto-google-cloud-pubsub-v1-1.105.4.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.addedToInterface",
+  "old" : null,
+  "new" : "method boolean com.google.pubsub.v1.SchemaOrBuilder::hasRevisionCreateTime()",
+  "name" : "method added to interface",
+  "description" : "Method was added to an interface.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SEMANTIC",
+    "severity" : "POTENTIALLY_BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.google.pubsub.v1"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.google.pubsub.v1.SchemaOrBuilder"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "SchemaOrBuilder"
+  }, {
+    "name" : "methodName",
+    "value" : "hasRevisionCreateTime"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "newArchive",
+    "value" : "proto-google-cloud-pubsub-v1-1.105.4.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.addedToInterface",
+  "old" : null,
+  "new" : "method java.lang.String com.google.pubsub.v1.SchemaSettingsOrBuilder::getFirstRevisionId()",
+  "name" : "method added to interface",
+  "description" : "Method was added to an interface.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SEMANTIC",
+    "severity" : "POTENTIALLY_BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.google.pubsub.v1"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.google.pubsub.v1.SchemaSettingsOrBuilder"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "SchemaSettingsOrBuilder"
+  }, {
+    "name" : "methodName",
+    "value" : "getFirstRevisionId"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "newArchive",
+    "value" : "proto-google-cloud-pubsub-v1-1.105.4.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.addedToInterface",
+  "old" : null,
+  "new" : "method com.google.protobuf.ByteString com.google.pubsub.v1.SchemaSettingsOrBuilder::getFirstRevisionIdBytes()",
+  "name" : "method added to interface",
+  "description" : "Method was added to an interface.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SEMANTIC",
+    "severity" : "POTENTIALLY_BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.google.pubsub.v1"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.google.pubsub.v1.SchemaSettingsOrBuilder"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "SchemaSettingsOrBuilder"
+  }, {
+    "name" : "methodName",
+    "value" : "getFirstRevisionIdBytes"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "newArchive",
+    "value" : "proto-google-cloud-pubsub-v1-1.105.4.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.addedToInterface",
+  "old" : null,
+  "new" : "method java.lang.String com.google.pubsub.v1.SchemaSettingsOrBuilder::getLastRevisionId()",
+  "name" : "method added to interface",
+  "description" : "Method was added to an interface.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SEMANTIC",
+    "severity" : "POTENTIALLY_BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.google.pubsub.v1"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.google.pubsub.v1.SchemaSettingsOrBuilder"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "SchemaSettingsOrBuilder"
+  }, {
+    "name" : "methodName",
+    "value" : "getLastRevisionId"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "newArchive",
+    "value" : "proto-google-cloud-pubsub-v1-1.105.4.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.addedToInterface",
+  "old" : null,
+  "new" : "method com.google.protobuf.ByteString com.google.pubsub.v1.SchemaSettingsOrBuilder::getLastRevisionIdBytes()",
+  "name" : "method added to interface",
+  "description" : "Method was added to an interface.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SEMANTIC",
+    "severity" : "POTENTIALLY_BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.google.pubsub.v1"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.google.pubsub.v1.SchemaSettingsOrBuilder"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "SchemaSettingsOrBuilder"
+  }, {
+    "name" : "methodName",
+    "value" : "getLastRevisionIdBytes"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "newArchive",
+    "value" : "proto-google-cloud-pubsub-v1-1.105.4.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+} ][ {
+  "code" : "java.method.addedToInterface",
+  "old" : null,
+  "new" : "method com.google.protobuf.Timestamp com.google.pubsub.v1.SchemaOrBuilder::getRevisionCreateTime()",
+  "name" : "method added to interface",
+  "description" : "Method was added to an interface.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SEMANTIC",
+    "severity" : "POTENTIALLY_BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.google.pubsub.v1"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.google.pubsub.v1.SchemaOrBuilder"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "SchemaOrBuilder"
+  }, {
+    "name" : "methodName",
+    "value" : "getRevisionCreateTime"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "newArchive",
+    "value" : "proto-google-cloud-pubsub-v1-1.105.4.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.addedToInterface",
+  "old" : null,
+  "new" : "method com.google.protobuf.TimestampOrBuilder com.google.pubsub.v1.SchemaOrBuilder::getRevisionCreateTimeOrBuilder()",
+  "name" : "method added to interface",
+  "description" : "Method was added to an interface.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SEMANTIC",
+    "severity" : "POTENTIALLY_BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.google.pubsub.v1"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.google.pubsub.v1.SchemaOrBuilder"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "SchemaOrBuilder"
+  }, {
+    "name" : "methodName",
+    "value" : "getRevisionCreateTimeOrBuilder"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "newArchive",
+    "value" : "proto-google-cloud-pubsub-v1-1.105.4.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.addedToInterface",
+  "old" : null,
+  "new" : "method java.lang.String com.google.pubsub.v1.SchemaOrBuilder::getRevisionId()",
+  "name" : "method added to interface",
+  "description" : "Method was added to an interface.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SEMANTIC",
+    "severity" : "POTENTIALLY_BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.google.pubsub.v1"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.google.pubsub.v1.SchemaOrBuilder"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "SchemaOrBuilder"
+  }, {
+    "name" : "methodName",
+    "value" : "getRevisionId"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "newArchive",
+    "value" : "proto-google-cloud-pubsub-v1-1.105.4.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.addedToInterface",
+  "old" : null,
+  "new" : "method com.google.protobuf.ByteString com.google.pubsub.v1.SchemaOrBuilder::getRevisionIdBytes()",
+  "name" : "method added to interface",
+  "description" : "Method was added to an interface.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SEMANTIC",
+    "severity" : "POTENTIALLY_BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.google.pubsub.v1"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.google.pubsub.v1.SchemaOrBuilder"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "SchemaOrBuilder"
+  }, {
+    "name" : "methodName",
+    "value" : "getRevisionIdBytes"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "newArchive",
+    "value" : "proto-google-cloud-pubsub-v1-1.105.4.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.addedToInterface",
+  "old" : null,
+  "new" : "method boolean com.google.pubsub.v1.SchemaOrBuilder::hasRevisionCreateTime()",
+  "name" : "method added to interface",
+  "description" : "Method was added to an interface.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SEMANTIC",
+    "severity" : "POTENTIALLY_BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.google.pubsub.v1"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.google.pubsub.v1.SchemaOrBuilder"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "SchemaOrBuilder"
+  }, {
+    "name" : "methodName",
+    "value" : "hasRevisionCreateTime"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "newArchive",
+    "value" : "proto-google-cloud-pubsub-v1-1.105.4.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.addedToInterface",
+  "old" : null,
+  "new" : "method java.lang.String com.google.pubsub.v1.SchemaSettingsOrBuilder::getFirstRevisionId()",
+  "name" : "method added to interface",
+  "description" : "Method was added to an interface.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SEMANTIC",
+    "severity" : "POTENTIALLY_BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.google.pubsub.v1"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.google.pubsub.v1.SchemaSettingsOrBuilder"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "SchemaSettingsOrBuilder"
+  }, {
+    "name" : "methodName",
+    "value" : "getFirstRevisionId"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "newArchive",
+    "value" : "proto-google-cloud-pubsub-v1-1.105.4.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.addedToInterface",
+  "old" : null,
+  "new" : "method com.google.protobuf.ByteString com.google.pubsub.v1.SchemaSettingsOrBuilder::getFirstRevisionIdBytes()",
+  "name" : "method added to interface",
+  "description" : "Method was added to an interface.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SEMANTIC",
+    "severity" : "POTENTIALLY_BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.google.pubsub.v1"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.google.pubsub.v1.SchemaSettingsOrBuilder"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "SchemaSettingsOrBuilder"
+  }, {
+    "name" : "methodName",
+    "value" : "getFirstRevisionIdBytes"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "newArchive",
+    "value" : "proto-google-cloud-pubsub-v1-1.105.4.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.addedToInterface",
+  "old" : null,
+  "new" : "method java.lang.String com.google.pubsub.v1.SchemaSettingsOrBuilder::getLastRevisionId()",
+  "name" : "method added to interface",
+  "description" : "Method was added to an interface.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SEMANTIC",
+    "severity" : "POTENTIALLY_BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.google.pubsub.v1"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.google.pubsub.v1.SchemaSettingsOrBuilder"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "SchemaSettingsOrBuilder"
+  }, {
+    "name" : "methodName",
+    "value" : "getLastRevisionId"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "newArchive",
+    "value" : "proto-google-cloud-pubsub-v1-1.105.4.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.addedToInterface",
+  "old" : null,
+  "new" : "method com.google.protobuf.ByteString com.google.pubsub.v1.SchemaSettingsOrBuilder::getLastRevisionIdBytes()",
+  "name" : "method added to interface",
+  "description" : "Method was added to an interface.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SEMANTIC",
+    "severity" : "POTENTIALLY_BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.google.pubsub.v1"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.google.pubsub.v1.SchemaSettingsOrBuilder"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "SchemaSettingsOrBuilder"
+  }, {
+    "name" : "methodName",
+    "value" : "getLastRevisionIdBytes"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "newArchive",
+    "value" : "proto-google-cloud-pubsub-v1-1.105.4.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+} ]

@@ -1,0 +1,99 @@
+[ {
+  "code" : "java.class.nonPublicPartOfAPI",
+  "old" : "enum com.google.cloud.storage.Storage.SignUrlOption.SignatureVersion",
+  "new" : "enum com.google.cloud.storage.Storage.SignUrlOption.SignatureVersion",
+  "name" : "non-public class in API",
+  "description" : "Class 'com.google.cloud.storage.Storage.SignUrlOption.SignatureVersion' is indirectly included in the API (by the means of method return type for example) but the class is not accessible (neither public nor protected).",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SEMANTIC",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "classSimpleName",
+    "value" : "SignatureVersion"
+  }, {
+    "name" : "exampleUseChainInNewApi",
+    "value" : "com.google.cloud.storage.Storage.SignUrlOption.SignatureVersion is used as a type parameter or type variable bound on method com.google.cloud.storage.Storage.SignUrlOption.SignatureVersion[] com.google.cloud.storage.Storage.SignUrlOption.SignatureVersion::values() <- com.google.cloud.storage.Storage.SignUrlOption.SignatureVersion is used as parameter in method void com.google.cloud.storage.CanonicalExtensionHeadersSerializer::<init>(com.google.cloud.storage.Storage.SignUrlOption.SignatureVersion) (method void com.google.cloud.storage.CanonicalExtensionHeadersSerializer::<init>(com.google.cloud.storage.Storage.SignUrlOption.SignatureVersion) is part of the API)"
+  }, {
+    "name" : "package",
+    "value" : "com.google.cloud.storage"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.google.cloud.storage.Storage.SignUrlOption.SignatureVersion"
+  }, {
+    "name" : "exampleUseChainInOldApi",
+    "value" : "com.google.cloud.storage.Storage.SignUrlOption.SignatureVersion is used as parameter in method com.google.cloud.storage.SignatureInfo.Builder com.google.cloud.storage.SignatureInfo.Builder::setSignatureVersion(com.google.cloud.storage.Storage.SignUrlOption.SignatureVersion) (method com.google.cloud.storage.SignatureInfo.Builder com.google.cloud.storage.SignatureInfo.Builder::setSignatureVersion(com.google.cloud.storage.Storage.SignUrlOption.SignatureVersion) is part of the API)"
+  }, {
+    "name" : "elementKind",
+    "value" : "enum"
+  }, {
+    "name" : "oldArchive",
+    "value" : "google-cloud-storage-2.10.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "google-cloud-storage-2.11.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+} ][ {
+  "code" : "java.class.nonPublicPartOfAPI",
+  "old" : "enum com.google.cloud.storage.Storage.SignUrlOption.SignatureVersion",
+  "new" : "enum com.google.cloud.storage.Storage.SignUrlOption.SignatureVersion",
+  "name" : "non-public class in API",
+  "description" : "Class 'com.google.cloud.storage.Storage.SignUrlOption.SignatureVersion' is indirectly included in the API (by the means of method return type for example) but the class is not accessible (neither public nor protected).",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SEMANTIC",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "classSimpleName",
+    "value" : "SignatureVersion"
+  }, {
+    "name" : "exampleUseChainInNewApi",
+    "value" : "com.google.cloud.storage.Storage.SignUrlOption.SignatureVersion is used as a type parameter or type variable bound on method java.lang.Class<E> java.lang.Enum<E extends java.lang.Enum<E>>::getDeclaringClass() @ com.google.cloud.storage.Storage.SignUrlOption.SignatureVersion <- com.google.cloud.storage.Storage.SignUrlOption.SignatureVersion is used as parameter in method com.google.cloud.storage.SignatureInfo.Builder com.google.cloud.storage.SignatureInfo.Builder::setSignatureVersion(com.google.cloud.storage.Storage.SignUrlOption.SignatureVersion) (method com.google.cloud.storage.SignatureInfo.Builder com.google.cloud.storage.SignatureInfo.Builder::setSignatureVersion(com.google.cloud.storage.Storage.SignUrlOption.SignatureVersion) is part of the API)"
+  }, {
+    "name" : "package",
+    "value" : "com.google.cloud.storage"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.google.cloud.storage.Storage.SignUrlOption.SignatureVersion"
+  }, {
+    "name" : "exampleUseChainInOldApi",
+    "value" : "field com.google.cloud.storage.Storage.SignUrlOption.SignatureVersion.V2 has the type com.google.cloud.storage.Storage.SignUrlOption.SignatureVersion <- com.google.cloud.storage.Storage.SignUrlOption.SignatureVersion is used as parameter in method void com.google.cloud.storage.CanonicalExtensionHeadersSerializer::<init>(com.google.cloud.storage.Storage.SignUrlOption.SignatureVersion) (method void com.google.cloud.storage.CanonicalExtensionHeadersSerializer::<init>(com.google.cloud.storage.Storage.SignUrlOption.SignatureVersion) is part of the API)"
+  }, {
+    "name" : "elementKind",
+    "value" : "enum"
+  }, {
+    "name" : "oldArchive",
+    "value" : "google-cloud-storage-2.10.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "google-cloud-storage-2.11.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+} ]

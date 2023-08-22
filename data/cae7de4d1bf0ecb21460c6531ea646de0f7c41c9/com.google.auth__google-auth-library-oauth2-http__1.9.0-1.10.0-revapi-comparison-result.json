@@ -1,0 +1,491 @@
+[ {
+  "code" : "java.class.nonPublicPartOfAPI",
+  "old" : "class com.google.auth.oauth2.DefaultCredentialsProvider",
+  "new" : "class com.google.auth.oauth2.DefaultCredentialsProvider",
+  "name" : "non-public class in API",
+  "description" : "Class 'com.google.auth.oauth2.DefaultCredentialsProvider' is indirectly included in the API (by the means of method return type for example) but the class is not accessible (neither public nor protected).",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SEMANTIC",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "classSimpleName",
+    "value" : "DefaultCredentialsProvider"
+  }, {
+    "name" : "exampleUseChainInNewApi",
+    "value" : "com.google.auth.oauth2.DefaultCredentialsProvider is used as parameter in method java.lang.String com.google.auth.oauth2.ComputeEngineCredentials::getMetadataServerUrl(com.google.auth.oauth2.DefaultCredentialsProvider) (method java.lang.String com.google.auth.oauth2.ComputeEngineCredentials::getMetadataServerUrl(com.google.auth.oauth2.DefaultCredentialsProvider) is part of the API)"
+  }, {
+    "name" : "package",
+    "value" : "com.google.auth.oauth2"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.google.auth.oauth2.DefaultCredentialsProvider"
+  }, {
+    "name" : "exampleUseChainInOldApi",
+    "value" : "com.google.auth.oauth2.DefaultCredentialsProvider is used as parameter in method java.lang.String com.google.auth.oauth2.ComputeEngineCredentials::getTokenServerEncodedUrl(com.google.auth.oauth2.DefaultCredentialsProvider) (method java.lang.String com.google.auth.oauth2.ComputeEngineCredentials::getTokenServerEncodedUrl(com.google.auth.oauth2.DefaultCredentialsProvider) is part of the API)"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "google-auth-library-oauth2-http-1.9.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "google-auth-library-oauth2-http-1.10.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.nonPublicPartOfAPI",
+  "old" : "interface com.google.auth.oauth2.EnvironmentProvider",
+  "new" : "interface com.google.auth.oauth2.EnvironmentProvider",
+  "name" : "non-public class in API",
+  "description" : "Class 'com.google.auth.oauth2.EnvironmentProvider' is indirectly included in the API (by the means of method return type for example) but the class is not accessible (neither public nor protected).",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SEMANTIC",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "classSimpleName",
+    "value" : "EnvironmentProvider"
+  }, {
+    "name" : "exampleUseChainInNewApi",
+    "value" : "com.google.auth.oauth2.EnvironmentProvider is used as parameter in method void com.google.auth.oauth2.ExternalAccountCredentials::<init>(com.google.auth.http.HttpTransportFactory, java.lang.String, java.lang.String, java.lang.String, com.google.auth.oauth2.ExternalAccountCredentials.CredentialSource, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.util.Collection<java.lang.String>, com.google.auth.oauth2.EnvironmentProvider) (method void com.google.auth.oauth2.ExternalAccountCredentials::<init>(com.google.auth.http.HttpTransportFactory, java.lang.String, java.lang.String, java.lang.String, com.google.auth.oauth2.ExternalAccountCredentials.CredentialSource, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.util.Collection<java.lang.String>, com.google.auth.oauth2.EnvironmentProvider) is part of the API)"
+  }, {
+    "name" : "package",
+    "value" : "com.google.auth.oauth2"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.google.auth.oauth2.EnvironmentProvider"
+  }, {
+    "name" : "exampleUseChainInOldApi",
+    "value" : "com.google.auth.oauth2.EnvironmentProvider is used as parameter in method void com.google.auth.oauth2.ExternalAccountCredentials::<init>(com.google.auth.http.HttpTransportFactory, java.lang.String, java.lang.String, java.lang.String, com.google.auth.oauth2.ExternalAccountCredentials.CredentialSource, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.util.Collection<java.lang.String>, com.google.auth.oauth2.EnvironmentProvider) (method void com.google.auth.oauth2.ExternalAccountCredentials::<init>(com.google.auth.http.HttpTransportFactory, java.lang.String, java.lang.String, java.lang.String, com.google.auth.oauth2.ExternalAccountCredentials.CredentialSource, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.util.Collection<java.lang.String>, com.google.auth.oauth2.EnvironmentProvider) is part of the API)"
+  }, {
+    "name" : "elementKind",
+    "value" : "interface"
+  }, {
+    "name" : "oldArchive",
+    "value" : "google-auth-library-oauth2-http-1.9.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "google-auth-library-oauth2-http-1.10.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.nonPublicPartOfAPI",
+  "old" : "interface com.google.auth.oauth2.ExecutableHandler",
+  "new" : "interface com.google.auth.oauth2.ExecutableHandler",
+  "name" : "non-public class in API",
+  "description" : "Class 'com.google.auth.oauth2.ExecutableHandler' is indirectly included in the API (by the means of method return type for example) but the class is not accessible (neither public nor protected).",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SEMANTIC",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "classSimpleName",
+    "value" : "ExecutableHandler"
+  }, {
+    "name" : "exampleUseChainInNewApi",
+    "value" : "com.google.auth.oauth2.ExecutableHandler is used as parameter in method com.google.auth.oauth2.PluggableAuthCredentials.Builder com.google.auth.oauth2.PluggableAuthCredentials.Builder::setExecutableHandler(com.google.auth.oauth2.ExecutableHandler) (method com.google.auth.oauth2.PluggableAuthCredentials.Builder com.google.auth.oauth2.PluggableAuthCredentials.Builder::setExecutableHandler(com.google.auth.oauth2.ExecutableHandler) is part of the API)"
+  }, {
+    "name" : "package",
+    "value" : "com.google.auth.oauth2"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.google.auth.oauth2.ExecutableHandler"
+  }, {
+    "name" : "exampleUseChainInOldApi",
+    "value" : "com.google.auth.oauth2.ExecutableHandler is used as parameter in method com.google.auth.oauth2.PluggableAuthCredentials.Builder com.google.auth.oauth2.PluggableAuthCredentials.Builder::setExecutableHandler(com.google.auth.oauth2.ExecutableHandler) (method com.google.auth.oauth2.PluggableAuthCredentials.Builder com.google.auth.oauth2.PluggableAuthCredentials.Builder::setExecutableHandler(com.google.auth.oauth2.ExecutableHandler) is part of the API)"
+  }, {
+    "name" : "elementKind",
+    "value" : "interface"
+  }, {
+    "name" : "oldArchive",
+    "value" : "google-auth-library-oauth2-http-1.9.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "google-auth-library-oauth2-http-1.10.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.nonPublicPartOfAPI",
+  "old" : "class com.google.auth.oauth2.ExternalAccountCredentials.CredentialSource",
+  "new" : "class com.google.auth.oauth2.ExternalAccountCredentials.CredentialSource",
+  "name" : "non-public class in API",
+  "description" : "Class 'com.google.auth.oauth2.ExternalAccountCredentials.CredentialSource' is indirectly included in the API (by the means of method return type for example) but the class is not accessible (neither public nor protected).",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SEMANTIC",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "classSimpleName",
+    "value" : "CredentialSource"
+  }, {
+    "name" : "exampleUseChainInNewApi",
+    "value" : "field com.google.auth.oauth2.ExternalAccountCredentials.Builder.credentialSource @ com.google.auth.oauth2.PluggableAuthCredentials.Builder has the type com.google.auth.oauth2.ExternalAccountCredentials.CredentialSource (field com.google.auth.oauth2.ExternalAccountCredentials.Builder.credentialSource @ com.google.auth.oauth2.PluggableAuthCredentials.Builder is part of the API)"
+  }, {
+    "name" : "package",
+    "value" : "com.google.auth.oauth2"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.google.auth.oauth2.ExternalAccountCredentials.CredentialSource"
+  }, {
+    "name" : "exampleUseChainInOldApi",
+    "value" : "com.google.auth.oauth2.ExternalAccountCredentials.CredentialSource is used as parameter in method void com.google.auth.oauth2.ExternalAccountCredentials::<init>(com.google.auth.http.HttpTransportFactory, java.lang.String, java.lang.String, java.lang.String, com.google.auth.oauth2.ExternalAccountCredentials.CredentialSource, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.util.Collection<java.lang.String>, com.google.auth.oauth2.EnvironmentProvider) (method void com.google.auth.oauth2.ExternalAccountCredentials::<init>(com.google.auth.http.HttpTransportFactory, java.lang.String, java.lang.String, java.lang.String, com.google.auth.oauth2.ExternalAccountCredentials.CredentialSource, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.util.Collection<java.lang.String>, com.google.auth.oauth2.EnvironmentProvider) is part of the API)"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "google-auth-library-oauth2-http-1.9.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "google-auth-library-oauth2-http-1.10.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.nonPublicPartOfAPI",
+  "old" : "class com.google.auth.oauth2.StsTokenExchangeRequest",
+  "new" : "class com.google.auth.oauth2.StsTokenExchangeRequest",
+  "name" : "non-public class in API",
+  "description" : "Class 'com.google.auth.oauth2.StsTokenExchangeRequest' is indirectly included in the API (by the means of method return type for example) but the class is not accessible (neither public nor protected).",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SEMANTIC",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "classSimpleName",
+    "value" : "StsTokenExchangeRequest"
+  }, {
+    "name" : "exampleUseChainInNewApi",
+    "value" : "com.google.auth.oauth2.StsTokenExchangeRequest is used as parameter in method com.google.auth.oauth2.AccessToken com.google.auth.oauth2.ExternalAccountCredentials::exchangeExternalCredentialForAccessToken(com.google.auth.oauth2.StsTokenExchangeRequest) throws java.io.IOException @ com.google.auth.oauth2.IdentityPoolCredentials (method com.google.auth.oauth2.AccessToken com.google.auth.oauth2.ExternalAccountCredentials::exchangeExternalCredentialForAccessToken(com.google.auth.oauth2.StsTokenExchangeRequest) throws java.io.IOException @ com.google.auth.oauth2.IdentityPoolCredentials is part of the API)"
+  }, {
+    "name" : "package",
+    "value" : "com.google.auth.oauth2"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.google.auth.oauth2.StsTokenExchangeRequest"
+  }, {
+    "name" : "exampleUseChainInOldApi",
+    "value" : "com.google.auth.oauth2.StsTokenExchangeRequest is used as parameter in method com.google.auth.oauth2.AccessToken com.google.auth.oauth2.ExternalAccountCredentials::exchangeExternalCredentialForAccessToken(com.google.auth.oauth2.StsTokenExchangeRequest) throws java.io.IOException @ com.google.auth.oauth2.AwsCredentials (method com.google.auth.oauth2.AccessToken com.google.auth.oauth2.ExternalAccountCredentials::exchangeExternalCredentialForAccessToken(com.google.auth.oauth2.StsTokenExchangeRequest) throws java.io.IOException @ com.google.auth.oauth2.AwsCredentials is part of the API)"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "google-auth-library-oauth2-http-1.9.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "google-auth-library-oauth2-http-1.10.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+} ][ {
+  "code" : "java.class.nonPublicPartOfAPI",
+  "old" : "class com.google.auth.oauth2.DefaultCredentialsProvider",
+  "new" : "class com.google.auth.oauth2.DefaultCredentialsProvider",
+  "name" : "non-public class in API",
+  "description" : "Class 'com.google.auth.oauth2.DefaultCredentialsProvider' is indirectly included in the API (by the means of method return type for example) but the class is not accessible (neither public nor protected).",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SEMANTIC",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "classSimpleName",
+    "value" : "DefaultCredentialsProvider"
+  }, {
+    "name" : "exampleUseChainInNewApi",
+    "value" : "com.google.auth.oauth2.DefaultCredentialsProvider is used as parameter in method java.lang.String com.google.auth.oauth2.ComputeEngineCredentials::getMetadataServerUrl(com.google.auth.oauth2.DefaultCredentialsProvider) (method java.lang.String com.google.auth.oauth2.ComputeEngineCredentials::getMetadataServerUrl(com.google.auth.oauth2.DefaultCredentialsProvider) is part of the API)"
+  }, {
+    "name" : "package",
+    "value" : "com.google.auth.oauth2"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.google.auth.oauth2.DefaultCredentialsProvider"
+  }, {
+    "name" : "exampleUseChainInOldApi",
+    "value" : "com.google.auth.oauth2.DefaultCredentialsProvider is used as parameter in method java.lang.String com.google.auth.oauth2.ComputeEngineCredentials::getTokenServerEncodedUrl(com.google.auth.oauth2.DefaultCredentialsProvider) (method java.lang.String com.google.auth.oauth2.ComputeEngineCredentials::getTokenServerEncodedUrl(com.google.auth.oauth2.DefaultCredentialsProvider) is part of the API)"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "google-auth-library-oauth2-http-1.9.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "google-auth-library-oauth2-http-1.10.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.nonPublicPartOfAPI",
+  "old" : "interface com.google.auth.oauth2.EnvironmentProvider",
+  "new" : "interface com.google.auth.oauth2.EnvironmentProvider",
+  "name" : "non-public class in API",
+  "description" : "Class 'com.google.auth.oauth2.EnvironmentProvider' is indirectly included in the API (by the means of method return type for example) but the class is not accessible (neither public nor protected).",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SEMANTIC",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "classSimpleName",
+    "value" : "EnvironmentProvider"
+  }, {
+    "name" : "exampleUseChainInNewApi",
+    "value" : "com.google.auth.oauth2.EnvironmentProvider is used as parameter in method void com.google.auth.oauth2.ExternalAccountCredentials::<init>(com.google.auth.http.HttpTransportFactory, java.lang.String, java.lang.String, java.lang.String, com.google.auth.oauth2.ExternalAccountCredentials.CredentialSource, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.util.Collection<java.lang.String>, com.google.auth.oauth2.EnvironmentProvider) (method void com.google.auth.oauth2.ExternalAccountCredentials::<init>(com.google.auth.http.HttpTransportFactory, java.lang.String, java.lang.String, java.lang.String, com.google.auth.oauth2.ExternalAccountCredentials.CredentialSource, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.util.Collection<java.lang.String>, com.google.auth.oauth2.EnvironmentProvider) is part of the API)"
+  }, {
+    "name" : "package",
+    "value" : "com.google.auth.oauth2"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.google.auth.oauth2.EnvironmentProvider"
+  }, {
+    "name" : "exampleUseChainInOldApi",
+    "value" : "com.google.auth.oauth2.EnvironmentProvider is used as parameter in method void com.google.auth.oauth2.ExternalAccountCredentials::<init>(com.google.auth.http.HttpTransportFactory, java.lang.String, java.lang.String, java.lang.String, com.google.auth.oauth2.ExternalAccountCredentials.CredentialSource, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.util.Collection<java.lang.String>, com.google.auth.oauth2.EnvironmentProvider) (method void com.google.auth.oauth2.ExternalAccountCredentials::<init>(com.google.auth.http.HttpTransportFactory, java.lang.String, java.lang.String, java.lang.String, com.google.auth.oauth2.ExternalAccountCredentials.CredentialSource, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.util.Collection<java.lang.String>, com.google.auth.oauth2.EnvironmentProvider) is part of the API)"
+  }, {
+    "name" : "elementKind",
+    "value" : "interface"
+  }, {
+    "name" : "oldArchive",
+    "value" : "google-auth-library-oauth2-http-1.9.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "google-auth-library-oauth2-http-1.10.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.nonPublicPartOfAPI",
+  "old" : "interface com.google.auth.oauth2.ExecutableHandler",
+  "new" : "interface com.google.auth.oauth2.ExecutableHandler",
+  "name" : "non-public class in API",
+  "description" : "Class 'com.google.auth.oauth2.ExecutableHandler' is indirectly included in the API (by the means of method return type for example) but the class is not accessible (neither public nor protected).",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SEMANTIC",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "classSimpleName",
+    "value" : "ExecutableHandler"
+  }, {
+    "name" : "exampleUseChainInNewApi",
+    "value" : "com.google.auth.oauth2.ExecutableHandler is used as parameter in method com.google.auth.oauth2.PluggableAuthCredentials.Builder com.google.auth.oauth2.PluggableAuthCredentials.Builder::setExecutableHandler(com.google.auth.oauth2.ExecutableHandler) (method com.google.auth.oauth2.PluggableAuthCredentials.Builder com.google.auth.oauth2.PluggableAuthCredentials.Builder::setExecutableHandler(com.google.auth.oauth2.ExecutableHandler) is part of the API)"
+  }, {
+    "name" : "package",
+    "value" : "com.google.auth.oauth2"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.google.auth.oauth2.ExecutableHandler"
+  }, {
+    "name" : "exampleUseChainInOldApi",
+    "value" : "com.google.auth.oauth2.ExecutableHandler is used as parameter in method com.google.auth.oauth2.PluggableAuthCredentials.Builder com.google.auth.oauth2.PluggableAuthCredentials.Builder::setExecutableHandler(com.google.auth.oauth2.ExecutableHandler) (method com.google.auth.oauth2.PluggableAuthCredentials.Builder com.google.auth.oauth2.PluggableAuthCredentials.Builder::setExecutableHandler(com.google.auth.oauth2.ExecutableHandler) is part of the API)"
+  }, {
+    "name" : "elementKind",
+    "value" : "interface"
+  }, {
+    "name" : "oldArchive",
+    "value" : "google-auth-library-oauth2-http-1.9.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "google-auth-library-oauth2-http-1.10.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.nonPublicPartOfAPI",
+  "old" : "class com.google.auth.oauth2.ExternalAccountCredentials.CredentialSource",
+  "new" : "class com.google.auth.oauth2.ExternalAccountCredentials.CredentialSource",
+  "name" : "non-public class in API",
+  "description" : "Class 'com.google.auth.oauth2.ExternalAccountCredentials.CredentialSource' is indirectly included in the API (by the means of method return type for example) but the class is not accessible (neither public nor protected).",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SEMANTIC",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "classSimpleName",
+    "value" : "CredentialSource"
+  }, {
+    "name" : "exampleUseChainInNewApi",
+    "value" : "com.google.auth.oauth2.ExternalAccountCredentials.CredentialSource is returned from method com.google.auth.oauth2.ExternalAccountCredentials.CredentialSource com.google.auth.oauth2.ExternalAccountCredentials::getCredentialSource() @ com.google.auth.oauth2.AwsCredentials (method com.google.auth.oauth2.ExternalAccountCredentials.CredentialSource com.google.auth.oauth2.ExternalAccountCredentials::getCredentialSource() @ com.google.auth.oauth2.AwsCredentials is part of the API)"
+  }, {
+    "name" : "package",
+    "value" : "com.google.auth.oauth2"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.google.auth.oauth2.ExternalAccountCredentials.CredentialSource"
+  }, {
+    "name" : "exampleUseChainInOldApi",
+    "value" : "com.google.auth.oauth2.ExternalAccountCredentials.CredentialSource is used as parameter in method void com.google.auth.oauth2.ExternalAccountCredentials::<init>(com.google.auth.http.HttpTransportFactory, java.lang.String, java.lang.String, java.lang.String, com.google.auth.oauth2.ExternalAccountCredentials.CredentialSource, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.util.Collection<java.lang.String>, com.google.auth.oauth2.EnvironmentProvider) (method void com.google.auth.oauth2.ExternalAccountCredentials::<init>(com.google.auth.http.HttpTransportFactory, java.lang.String, java.lang.String, java.lang.String, com.google.auth.oauth2.ExternalAccountCredentials.CredentialSource, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.util.Collection<java.lang.String>, com.google.auth.oauth2.EnvironmentProvider) is part of the API)"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "google-auth-library-oauth2-http-1.9.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "google-auth-library-oauth2-http-1.10.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.nonPublicPartOfAPI",
+  "old" : "class com.google.auth.oauth2.StsTokenExchangeRequest",
+  "new" : "class com.google.auth.oauth2.StsTokenExchangeRequest",
+  "name" : "non-public class in API",
+  "description" : "Class 'com.google.auth.oauth2.StsTokenExchangeRequest' is indirectly included in the API (by the means of method return type for example) but the class is not accessible (neither public nor protected).",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SEMANTIC",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "classSimpleName",
+    "value" : "StsTokenExchangeRequest"
+  }, {
+    "name" : "exampleUseChainInNewApi",
+    "value" : "com.google.auth.oauth2.StsTokenExchangeRequest is used as parameter in method com.google.auth.oauth2.AccessToken com.google.auth.oauth2.ExternalAccountCredentials::exchangeExternalCredentialForAccessToken(com.google.auth.oauth2.StsTokenExchangeRequest) throws java.io.IOException @ com.google.auth.oauth2.IdentityPoolCredentials (method com.google.auth.oauth2.AccessToken com.google.auth.oauth2.ExternalAccountCredentials::exchangeExternalCredentialForAccessToken(com.google.auth.oauth2.StsTokenExchangeRequest) throws java.io.IOException @ com.google.auth.oauth2.IdentityPoolCredentials is part of the API)"
+  }, {
+    "name" : "package",
+    "value" : "com.google.auth.oauth2"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.google.auth.oauth2.StsTokenExchangeRequest"
+  }, {
+    "name" : "exampleUseChainInOldApi",
+    "value" : "com.google.auth.oauth2.StsTokenExchangeRequest is used as parameter in method com.google.auth.oauth2.AccessToken com.google.auth.oauth2.ExternalAccountCredentials::exchangeExternalCredentialForAccessToken(com.google.auth.oauth2.StsTokenExchangeRequest) throws java.io.IOException @ com.google.auth.oauth2.PluggableAuthCredentials (method com.google.auth.oauth2.AccessToken com.google.auth.oauth2.ExternalAccountCredentials::exchangeExternalCredentialForAccessToken(com.google.auth.oauth2.StsTokenExchangeRequest) throws java.io.IOException @ com.google.auth.oauth2.PluggableAuthCredentials is part of the API)"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "google-auth-library-oauth2-http-1.9.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "google-auth-library-oauth2-http-1.10.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+} ]

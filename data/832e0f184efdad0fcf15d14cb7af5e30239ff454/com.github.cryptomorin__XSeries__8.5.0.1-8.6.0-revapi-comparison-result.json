@@ -1,0 +1,371 @@
+[ {
+  "code" : "java.method.removed",
+  "old" : "method org.bukkit.enchantments.Enchantment com.cryptomorin.xseries.XEnchantment::parseEnchantment()",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.cryptomorin.xseries"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.cryptomorin.xseries.XEnchantment"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "XEnchantment"
+  }, {
+    "name" : "methodName",
+    "value" : "parseEnchantment"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "XSeries-8.5.0.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method void com.cryptomorin.xseries.XPotion::addPotionEffectsFromString(org.bukkit.entity.Player, java.util.List<java.lang.String>)",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.cryptomorin.xseries"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.cryptomorin.xseries.XPotion"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "XPotion"
+  }, {
+    "name" : "methodName",
+    "value" : "addPotionEffectsFromString"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "XSeries-8.5.0.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method org.bukkit.potion.PotionEffect com.cryptomorin.xseries.XPotion::parsePotion(int, int)",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.cryptomorin.xseries"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.cryptomorin.xseries.XPotion"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "XPotion"
+  }, {
+    "name" : "methodName",
+    "value" : "parsePotion"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "XSeries-8.5.0.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method org.bukkit.potion.PotionEffect com.cryptomorin.xseries.XPotion::parsePotionEffectFromString(java.lang.String)",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.cryptomorin.xseries"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.cryptomorin.xseries.XPotion"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "XPotion"
+  }, {
+    "name" : "methodName",
+    "value" : "parsePotionEffectFromString"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "XSeries-8.5.0.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method org.bukkit.potion.PotionEffectType com.cryptomorin.xseries.XPotion::parsePotionEffectType()",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.cryptomorin.xseries"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.cryptomorin.xseries.XPotion"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "XPotion"
+  }, {
+    "name" : "methodName",
+    "value" : "parsePotionEffectType"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "XSeries-8.5.0.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+} ][ {
+  "code" : "java.method.removed",
+  "old" : "method org.bukkit.enchantments.Enchantment com.cryptomorin.xseries.XEnchantment::parseEnchantment()",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.cryptomorin.xseries"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.cryptomorin.xseries.XEnchantment"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "XEnchantment"
+  }, {
+    "name" : "methodName",
+    "value" : "parseEnchantment"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "XSeries-8.5.0.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method void com.cryptomorin.xseries.XPotion::addPotionEffectsFromString(org.bukkit.entity.Player, java.util.List<java.lang.String>)",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.cryptomorin.xseries"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.cryptomorin.xseries.XPotion"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "XPotion"
+  }, {
+    "name" : "methodName",
+    "value" : "addPotionEffectsFromString"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "XSeries-8.5.0.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method org.bukkit.potion.PotionEffect com.cryptomorin.xseries.XPotion::parsePotion(int, int)",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.cryptomorin.xseries"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.cryptomorin.xseries.XPotion"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "XPotion"
+  }, {
+    "name" : "methodName",
+    "value" : "parsePotion"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "XSeries-8.5.0.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method org.bukkit.potion.PotionEffect com.cryptomorin.xseries.XPotion::parsePotionEffectFromString(java.lang.String)",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.cryptomorin.xseries"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.cryptomorin.xseries.XPotion"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "XPotion"
+  }, {
+    "name" : "methodName",
+    "value" : "parsePotionEffectFromString"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "XSeries-8.5.0.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method org.bukkit.potion.PotionEffectType com.cryptomorin.xseries.XPotion::parsePotionEffectType()",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.cryptomorin.xseries"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.cryptomorin.xseries.XPotion"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "XPotion"
+  }, {
+    "name" : "methodName",
+    "value" : "parsePotionEffectType"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "XSeries-8.5.0.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+} ]

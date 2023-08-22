@@ -1,0 +1,512 @@
+[ {
+  "code" : "java.class.removed",
+  "old" : "class org.slf4j.event.EventRecodingLogger",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.slf4j.event"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.slf4j.event.EventRecodingLogger"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "EventRecodingLogger"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "slf4j-api-1.7.36.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.addedToInterface",
+  "old" : null,
+  "new" : "method java.util.List<java.lang.Object> org.slf4j.event.LoggingEvent::getArguments()",
+  "name" : "method added to interface",
+  "description" : "Method was added to an interface.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SEMANTIC",
+    "severity" : "POTENTIALLY_BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.slf4j.event"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.slf4j.event.LoggingEvent"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "LoggingEvent"
+  }, {
+    "name" : "methodName",
+    "value" : "getArguments"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "newArchive",
+    "value" : "slf4j-api-2.0.3.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.addedToInterface",
+  "old" : null,
+  "new" : "method java.util.List<org.slf4j.event.KeyValuePair> org.slf4j.event.LoggingEvent::getKeyValuePairs()",
+  "name" : "method added to interface",
+  "description" : "Method was added to an interface.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SEMANTIC",
+    "severity" : "POTENTIALLY_BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.slf4j.event"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.slf4j.event.LoggingEvent"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "LoggingEvent"
+  }, {
+    "name" : "methodName",
+    "value" : "getKeyValuePairs"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "newArchive",
+    "value" : "slf4j-api-2.0.3.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method org.slf4j.Marker org.slf4j.event.LoggingEvent::getMarker()",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.slf4j.event"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.slf4j.event.LoggingEvent"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "LoggingEvent"
+  }, {
+    "name" : "methodName",
+    "value" : "getMarker"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "slf4j-api-1.7.36.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.addedToInterface",
+  "old" : null,
+  "new" : "method java.util.List<org.slf4j.Marker> org.slf4j.event.LoggingEvent::getMarkers()",
+  "name" : "method added to interface",
+  "description" : "Method was added to an interface.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SEMANTIC",
+    "severity" : "POTENTIALLY_BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.slf4j.event"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.slf4j.event.LoggingEvent"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "LoggingEvent"
+  }, {
+    "name" : "methodName",
+    "value" : "getMarkers"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "newArchive",
+    "value" : "slf4j-api-2.0.3.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method org.slf4j.Marker org.slf4j.event.SubstituteLoggingEvent::getMarker()",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.slf4j.event"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.slf4j.event.SubstituteLoggingEvent"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "SubstituteLoggingEvent"
+  }, {
+    "name" : "methodName",
+    "value" : "getMarker"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "slf4j-api-1.7.36.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method void org.slf4j.event.SubstituteLoggingEvent::setMarker(org.slf4j.Marker)",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.slf4j.event"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.slf4j.event.SubstituteLoggingEvent"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "SubstituteLoggingEvent"
+  }, {
+    "name" : "methodName",
+    "value" : "setMarker"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "slf4j-api-1.7.36.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.noLongerInheritsFromClass",
+  "old" : "class org.slf4j.helpers.NOPLogger",
+  "new" : "class org.slf4j.helpers.NOPLogger",
+  "name" : "removed super class",
+  "description" : "Class no longer inherits from 'org.slf4j.helpers.MarkerIgnoringBase'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "superClass",
+    "value" : "org.slf4j.helpers.MarkerIgnoringBase"
+  }, {
+    "name" : "package",
+    "value" : "org.slf4j.helpers"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.slf4j.helpers.NOPLogger"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "NOPLogger"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "slf4j-api-1.7.36.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "slf4j-api-2.0.3.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.nowImplementsInterface",
+  "old" : "class org.slf4j.helpers.NOPLogger",
+  "new" : "class org.slf4j.helpers.NOPLogger",
+  "name" : "class implements interface",
+  "description" : "Class now implements interface 'org.slf4j.Logger'.",
+  "criticality" : "documented",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "interface",
+    "value" : "org.slf4j.Logger"
+  }, {
+    "name" : "package",
+    "value" : "org.slf4j.helpers"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.slf4j.helpers.NOPLogger"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "NOPLogger"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "slf4j-api-1.7.36.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "slf4j-api-2.0.3.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.addedToInterface",
+  "old" : null,
+  "new" : "method void org.slf4j.spi.MDCAdapter::clearDequeByKey(java.lang.String)",
+  "name" : "method added to interface",
+  "description" : "Method was added to an interface.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SEMANTIC",
+    "severity" : "POTENTIALLY_BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.slf4j.spi"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.slf4j.spi.MDCAdapter"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "MDCAdapter"
+  }, {
+    "name" : "methodName",
+    "value" : "clearDequeByKey"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "newArchive",
+    "value" : "slf4j-api-2.0.3.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.addedToInterface",
+  "old" : null,
+  "new" : "method java.util.Deque<java.lang.String> org.slf4j.spi.MDCAdapter::getCopyOfDequeByKey(java.lang.String)",
+  "name" : "method added to interface",
+  "description" : "Method was added to an interface.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SEMANTIC",
+    "severity" : "POTENTIALLY_BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.slf4j.spi"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.slf4j.spi.MDCAdapter"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "MDCAdapter"
+  }, {
+    "name" : "methodName",
+    "value" : "getCopyOfDequeByKey"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "newArchive",
+    "value" : "slf4j-api-2.0.3.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.addedToInterface",
+  "old" : null,
+  "new" : "method java.lang.String org.slf4j.spi.MDCAdapter::popByKey(java.lang.String)",
+  "name" : "method added to interface",
+  "description" : "Method was added to an interface.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SEMANTIC",
+    "severity" : "POTENTIALLY_BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.slf4j.spi"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.slf4j.spi.MDCAdapter"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "MDCAdapter"
+  }, {
+    "name" : "methodName",
+    "value" : "popByKey"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "newArchive",
+    "value" : "slf4j-api-2.0.3.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.addedToInterface",
+  "old" : null,
+  "new" : "method void org.slf4j.spi.MDCAdapter::pushByKey(java.lang.String, java.lang.String)",
+  "name" : "method added to interface",
+  "description" : "Method was added to an interface.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SEMANTIC",
+    "severity" : "POTENTIALLY_BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.slf4j.spi"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.slf4j.spi.MDCAdapter"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "MDCAdapter"
+  }, {
+    "name" : "methodName",
+    "value" : "pushByKey"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "newArchive",
+    "value" : "slf4j-api-2.0.3.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+} ]

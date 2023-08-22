@@ -1,0 +1,789 @@
+[ {
+  "code" : "java.class.nonPublicPartOfAPI",
+  "old" : "class com.github.javafaker.shaded.snakeyaml.resolver.ResolverTuple",
+  "new" : "class com.github.javafaker.shaded.snakeyaml.resolver.ResolverTuple",
+  "name" : "non-public class in API",
+  "description" : "Class 'com.github.javafaker.shaded.snakeyaml.resolver.ResolverTuple' is indirectly included in the API (by the means of method return type for example) but the class is not accessible (neither public nor protected).",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SEMANTIC",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "classSimpleName",
+    "value" : "ResolverTuple"
+  }, {
+    "name" : "exampleUseChainInNewApi",
+    "value" : "com.github.javafaker.shaded.snakeyaml.resolver.ResolverTuple is used as a type parameter or type variable bound on field com.github.javafaker.shaded.snakeyaml.resolver.Resolver.yamlImplicitResolvers (field com.github.javafaker.shaded.snakeyaml.resolver.Resolver.yamlImplicitResolvers is part of the API)"
+  }, {
+    "name" : "package",
+    "value" : "com.github.javafaker.shaded.snakeyaml.resolver"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.github.javafaker.shaded.snakeyaml.resolver.ResolverTuple"
+  }, {
+    "name" : "exampleUseChainInOldApi",
+    "value" : "com.github.javafaker.shaded.snakeyaml.resolver.ResolverTuple is used as a type parameter or type variable bound on field com.github.javafaker.shaded.snakeyaml.resolver.Resolver.yamlImplicitResolvers (field com.github.javafaker.shaded.snakeyaml.resolver.Resolver.yamlImplicitResolvers is part of the API)"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "datafaker-1.4.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "datafaker-1.5.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method java.lang.String net.datafaker.BloodType::abo_types()",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "net.datafaker"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "net.datafaker.BloodType"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "BloodType"
+  }, {
+    "name" : "methodName",
+    "value" : "abo_types"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "datafaker-1.4.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method java.lang.String net.datafaker.BloodType::p_types()",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "net.datafaker"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "net.datafaker.BloodType"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "BloodType"
+  }, {
+    "name" : "methodName",
+    "value" : "p_types"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "datafaker-1.4.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method java.lang.String net.datafaker.BloodType::rh_types()",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "net.datafaker"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "net.datafaker.BloodType"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "BloodType"
+  }, {
+    "name" : "methodName",
+    "value" : "rh_types"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "datafaker-1.4.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.nonPublicPartOfAPI",
+  "old" : null,
+  "new" : "class net.datafaker.Cannabis",
+  "name" : "non-public class in API",
+  "description" : "Class 'net.datafaker.Cannabis' is indirectly included in the API (by the means of method return type for example) but the class is not accessible (neither public nor protected).",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SEMANTIC",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "classSimpleName",
+    "value" : "Cannabis"
+  }, {
+    "name" : "exampleUseChainInNewApi",
+    "value" : "net.datafaker.Cannabis is returned from method net.datafaker.Cannabis net.datafaker.Faker::cannabis() (method net.datafaker.Cannabis net.datafaker.Faker::cannabis() is part of the API)"
+  }, {
+    "name" : "package",
+    "value" : "net.datafaker"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "net.datafaker.Cannabis"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "newArchive",
+    "value" : "datafaker-1.5.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.nonPublicPartOfAPI",
+  "old" : null,
+  "new" : "class net.datafaker.Coffee",
+  "name" : "non-public class in API",
+  "description" : "Class 'net.datafaker.Coffee' is indirectly included in the API (by the means of method return type for example) but the class is not accessible (neither public nor protected).",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SEMANTIC",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "classSimpleName",
+    "value" : "Coffee"
+  }, {
+    "name" : "exampleUseChainInNewApi",
+    "value" : "net.datafaker.Coffee is returned from method net.datafaker.Coffee net.datafaker.Faker::coffee() (method net.datafaker.Coffee net.datafaker.Faker::coffee() is part of the API)"
+  }, {
+    "name" : "package",
+    "value" : "net.datafaker"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "net.datafaker.Coffee"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "newArchive",
+    "value" : "datafaker-1.5.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.nonPublicPartOfAPI",
+  "old" : null,
+  "new" : "class net.datafaker.Construction",
+  "name" : "non-public class in API",
+  "description" : "Class 'net.datafaker.Construction' is indirectly included in the API (by the means of method return type for example) but the class is not accessible (neither public nor protected).",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SEMANTIC",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "classSimpleName",
+    "value" : "Construction"
+  }, {
+    "name" : "exampleUseChainInNewApi",
+    "value" : "net.datafaker.Construction is returned from method net.datafaker.Construction net.datafaker.Faker::construction() (method net.datafaker.Construction net.datafaker.Faker::construction() is part of the API)"
+  }, {
+    "name" : "package",
+    "value" : "net.datafaker"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "net.datafaker.Construction"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "newArchive",
+    "value" : "datafaker-1.5.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.field.removed",
+  "old" : "field net.datafaker.Dune.Quote.GUILD_NAIVGATOR",
+  "new" : null,
+  "name" : "field removed",
+  "description" : "Field removed from class.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "net.datafaker"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "net.datafaker.Dune.Quote"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "Quote"
+  }, {
+    "name" : "fieldName",
+    "value" : "GUILD_NAIVGATOR"
+  }, {
+    "name" : "elementKind",
+    "value" : "enumConstant"
+  }, {
+    "name" : "oldArchive",
+    "value" : "datafaker-1.4.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.nonPublicPartOfAPI",
+  "old" : null,
+  "new" : "class net.datafaker.Football",
+  "name" : "non-public class in API",
+  "description" : "Class 'net.datafaker.Football' is indirectly included in the API (by the means of method return type for example) but the class is not accessible (neither public nor protected).",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SEMANTIC",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "classSimpleName",
+    "value" : "Football"
+  }, {
+    "name" : "exampleUseChainInNewApi",
+    "value" : "net.datafaker.Football is returned from method net.datafaker.Football net.datafaker.Faker::football() (method net.datafaker.Football net.datafaker.Faker::football() is part of the API)"
+  }, {
+    "name" : "package",
+    "value" : "net.datafaker"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "net.datafaker.Football"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "newArchive",
+    "value" : "datafaker-1.5.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method java.lang.String net.datafaker.Name::bloodGroup()",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "net.datafaker"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "net.datafaker.Name"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "Name"
+  }, {
+    "name" : "methodName",
+    "value" : "bloodGroup"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "datafaker-1.4.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+} ][ {
+  "code" : "java.class.nonPublicPartOfAPI",
+  "old" : "class com.github.javafaker.shaded.snakeyaml.resolver.ResolverTuple",
+  "new" : "class com.github.javafaker.shaded.snakeyaml.resolver.ResolverTuple",
+  "name" : "non-public class in API",
+  "description" : "Class 'com.github.javafaker.shaded.snakeyaml.resolver.ResolverTuple' is indirectly included in the API (by the means of method return type for example) but the class is not accessible (neither public nor protected).",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SEMANTIC",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "classSimpleName",
+    "value" : "ResolverTuple"
+  }, {
+    "name" : "exampleUseChainInNewApi",
+    "value" : "com.github.javafaker.shaded.snakeyaml.resolver.ResolverTuple is used as a type parameter or type variable bound on field com.github.javafaker.shaded.snakeyaml.resolver.Resolver.yamlImplicitResolvers (field com.github.javafaker.shaded.snakeyaml.resolver.Resolver.yamlImplicitResolvers is part of the API)"
+  }, {
+    "name" : "package",
+    "value" : "com.github.javafaker.shaded.snakeyaml.resolver"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.github.javafaker.shaded.snakeyaml.resolver.ResolverTuple"
+  }, {
+    "name" : "exampleUseChainInOldApi",
+    "value" : "com.github.javafaker.shaded.snakeyaml.resolver.ResolverTuple is used as a type parameter or type variable bound on field com.github.javafaker.shaded.snakeyaml.resolver.Resolver.yamlImplicitResolvers (field com.github.javafaker.shaded.snakeyaml.resolver.Resolver.yamlImplicitResolvers is part of the API)"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "datafaker-1.4.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "datafaker-1.5.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method java.lang.String net.datafaker.BloodType::abo_types()",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "net.datafaker"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "net.datafaker.BloodType"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "BloodType"
+  }, {
+    "name" : "methodName",
+    "value" : "abo_types"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "datafaker-1.4.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method java.lang.String net.datafaker.BloodType::p_types()",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "net.datafaker"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "net.datafaker.BloodType"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "BloodType"
+  }, {
+    "name" : "methodName",
+    "value" : "p_types"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "datafaker-1.4.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method java.lang.String net.datafaker.BloodType::rh_types()",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "net.datafaker"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "net.datafaker.BloodType"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "BloodType"
+  }, {
+    "name" : "methodName",
+    "value" : "rh_types"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "datafaker-1.4.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.nonPublicPartOfAPI",
+  "old" : null,
+  "new" : "class net.datafaker.Cannabis",
+  "name" : "non-public class in API",
+  "description" : "Class 'net.datafaker.Cannabis' is indirectly included in the API (by the means of method return type for example) but the class is not accessible (neither public nor protected).",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SEMANTIC",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "classSimpleName",
+    "value" : "Cannabis"
+  }, {
+    "name" : "exampleUseChainInNewApi",
+    "value" : "net.datafaker.Cannabis is returned from method net.datafaker.Cannabis net.datafaker.Faker::cannabis() (method net.datafaker.Cannabis net.datafaker.Faker::cannabis() is part of the API)"
+  }, {
+    "name" : "package",
+    "value" : "net.datafaker"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "net.datafaker.Cannabis"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "newArchive",
+    "value" : "datafaker-1.5.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.nonPublicPartOfAPI",
+  "old" : null,
+  "new" : "class net.datafaker.Coffee",
+  "name" : "non-public class in API",
+  "description" : "Class 'net.datafaker.Coffee' is indirectly included in the API (by the means of method return type for example) but the class is not accessible (neither public nor protected).",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SEMANTIC",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "classSimpleName",
+    "value" : "Coffee"
+  }, {
+    "name" : "exampleUseChainInNewApi",
+    "value" : "net.datafaker.Coffee is returned from method net.datafaker.Coffee net.datafaker.Faker::coffee() (method net.datafaker.Coffee net.datafaker.Faker::coffee() is part of the API)"
+  }, {
+    "name" : "package",
+    "value" : "net.datafaker"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "net.datafaker.Coffee"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "newArchive",
+    "value" : "datafaker-1.5.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.nonPublicPartOfAPI",
+  "old" : null,
+  "new" : "class net.datafaker.Construction",
+  "name" : "non-public class in API",
+  "description" : "Class 'net.datafaker.Construction' is indirectly included in the API (by the means of method return type for example) but the class is not accessible (neither public nor protected).",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SEMANTIC",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "classSimpleName",
+    "value" : "Construction"
+  }, {
+    "name" : "exampleUseChainInNewApi",
+    "value" : "net.datafaker.Construction is returned from method net.datafaker.Construction net.datafaker.Faker::construction() (method net.datafaker.Construction net.datafaker.Faker::construction() is part of the API)"
+  }, {
+    "name" : "package",
+    "value" : "net.datafaker"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "net.datafaker.Construction"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "newArchive",
+    "value" : "datafaker-1.5.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.field.removed",
+  "old" : "field net.datafaker.Dune.Quote.GUILD_NAIVGATOR",
+  "new" : null,
+  "name" : "field removed",
+  "description" : "Field removed from class.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "net.datafaker"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "net.datafaker.Dune.Quote"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "Quote"
+  }, {
+    "name" : "fieldName",
+    "value" : "GUILD_NAIVGATOR"
+  }, {
+    "name" : "elementKind",
+    "value" : "enumConstant"
+  }, {
+    "name" : "oldArchive",
+    "value" : "datafaker-1.4.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.nonPublicPartOfAPI",
+  "old" : null,
+  "new" : "class net.datafaker.Football",
+  "name" : "non-public class in API",
+  "description" : "Class 'net.datafaker.Football' is indirectly included in the API (by the means of method return type for example) but the class is not accessible (neither public nor protected).",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SEMANTIC",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "classSimpleName",
+    "value" : "Football"
+  }, {
+    "name" : "exampleUseChainInNewApi",
+    "value" : "net.datafaker.Football is returned from method net.datafaker.Football net.datafaker.Faker::football() (method net.datafaker.Football net.datafaker.Faker::football() is part of the API)"
+  }, {
+    "name" : "package",
+    "value" : "net.datafaker"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "net.datafaker.Football"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "newArchive",
+    "value" : "datafaker-1.5.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method java.lang.String net.datafaker.Name::bloodGroup()",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "net.datafaker"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "net.datafaker.Name"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "Name"
+  }, {
+    "name" : "methodName",
+    "value" : "bloodGroup"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "datafaker-1.4.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+} ]

@@ -1,0 +1,50 @@
+[ {
+  "code" : "java.class.nonPublicPartOfAPI",
+  "old" : "class org.junit.jupiter.params.shadow.com.univocity.parsers.common.record.RecordMetaDataImpl<C extends org.junit.jupiter.params.shadow.com.univocity.parsers.common.Context>",
+  "new" : "class org.junit.jupiter.params.shadow.com.univocity.parsers.common.record.RecordMetaDataImpl<C extends org.junit.jupiter.params.shadow.com.univocity.parsers.common.Context>",
+  "name" : "non-public class in API",
+  "description" : "Class 'org.junit.jupiter.params.shadow.com.univocity.parsers.common.record.RecordMetaDataImpl<C extends org.junit.jupiter.params.shadow.com.univocity.parsers.common.Context>' is indirectly included in the API (by the means of method return type for example) but the class is not accessible (neither public nor protected).",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SEMANTIC",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "classSimpleName",
+    "value" : "RecordMetaDataImpl"
+  }, {
+    "name" : "exampleUseChainInNewApi",
+    "value" : "org.junit.jupiter.params.shadow.com.univocity.parsers.common.record.RecordMetaDataImpl<C extends org.junit.jupiter.params.shadow.com.univocity.parsers.common.Context> is returned from method M org.junit.jupiter.params.shadow.com.univocity.parsers.common.record.AbstractRecordFactory<R extends org.junit.jupiter.params.shadow.com.univocity.parsers.common.record.Record, M extends org.junit.jupiter.params.shadow.com.univocity.parsers.common.record.RecordMetaData>::getRecordMetaData() @ org.junit.jupiter.params.shadow.com.univocity.parsers.common.record.RecordFactory (method M org.junit.jupiter.params.shadow.com.univocity.parsers.common.record.AbstractRecordFactory<R extends org.junit.jupiter.params.shadow.com.univocity.parsers.common.record.Record, M extends org.junit.jupiter.params.shadow.com.univocity.parsers.common.record.RecordMetaData>::getRecordMetaData() @ org.junit.jupiter.params.shadow.com.univocity.parsers.common.record.RecordFactory is part of the API)"
+  }, {
+    "name" : "package",
+    "value" : "org.junit.jupiter.params.shadow.com.univocity.parsers.common.record"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.junit.jupiter.params.shadow.com.univocity.parsers.common.record.RecordMetaDataImpl"
+  }, {
+    "name" : "exampleUseChainInOldApi",
+    "value" : "field org.junit.jupiter.params.shadow.com.univocity.parsers.common.record.AbstractRecordFactory<R extends org.junit.jupiter.params.shadow.com.univocity.parsers.common.record.Record, M extends org.junit.jupiter.params.shadow.com.univocity.parsers.common.record.RecordMetaData>.metaData @ org.junit.jupiter.params.shadow.com.univocity.parsers.common.record.RecordFactory has the type org.junit.jupiter.params.shadow.com.univocity.parsers.common.record.RecordMetaDataImpl<C extends org.junit.jupiter.params.shadow.com.univocity.parsers.common.Context> (field org.junit.jupiter.params.shadow.com.univocity.parsers.common.record.AbstractRecordFactory<R extends org.junit.jupiter.params.shadow.com.univocity.parsers.common.record.Record, M extends org.junit.jupiter.params.shadow.com.univocity.parsers.common.record.RecordMetaData>.metaData @ org.junit.jupiter.params.shadow.com.univocity.parsers.common.record.RecordFactory is part of the API)"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "junit-jupiter-params-5.9.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "junit-jupiter-params-5.9.2.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+} ]

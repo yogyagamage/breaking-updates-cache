@@ -1,0 +1,1376 @@
+[ {
+  "code" : "java.method.returnTypeTypeParametersChanged",
+  "old" : "method java.util.Optional<com.artipie.http.auth.Authentication.User> com.artipie.http.auth.AuthScheme.Result::user()",
+  "new" : "method java.util.Optional<com.artipie.http.auth.AuthUser> com.artipie.http.auth.AuthScheme.Result::user()",
+  "name" : "return type changed type parameter",
+  "description" : "The return type changed from 'java.util.Optional<com.artipie.http.auth.Authentication.User>' to 'java.util.Optional<com.artipie.http.auth.AuthUser>'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "java.util.Optional<com.artipie.http.auth.Authentication.User>"
+  }, {
+    "name" : "newType",
+    "value" : "java.util.Optional<com.artipie.http.auth.AuthUser>"
+  }, {
+    "name" : "package",
+    "value" : "com.artipie.http.auth"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.artipie.http.auth.AuthScheme.Result"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "Result"
+  }, {
+    "name" : "methodName",
+    "value" : "user"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "http-v1.1.4.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "http-v1.2.1.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.returnTypeTypeParametersChanged",
+  "old" : "method java.util.Optional<com.artipie.http.auth.Authentication.User> com.artipie.http.auth.Authentication.Joined::user(java.lang.String, java.lang.String)",
+  "new" : "method java.util.Optional<com.artipie.http.auth.AuthUser> com.artipie.http.auth.Authentication.Joined::user(java.lang.String, java.lang.String)",
+  "name" : "return type changed type parameter",
+  "description" : "The return type changed from 'java.util.Optional<com.artipie.http.auth.Authentication.User>' to 'java.util.Optional<com.artipie.http.auth.AuthUser>'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "java.util.Optional<com.artipie.http.auth.Authentication.User>"
+  }, {
+    "name" : "newType",
+    "value" : "java.util.Optional<com.artipie.http.auth.AuthUser>"
+  }, {
+    "name" : "package",
+    "value" : "com.artipie.http.auth"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.artipie.http.auth.Authentication.Joined"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "Joined"
+  }, {
+    "name" : "methodName",
+    "value" : "user"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "http-v1.1.4.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "http-v1.2.1.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.parameterTypeChanged",
+  "old" : "parameter void com.artipie.http.auth.Authentication.Single::<init>(===com.artipie.http.auth.Authentication.User===, java.lang.String)",
+  "new" : "parameter void com.artipie.http.auth.Authentication.Single::<init>(===com.artipie.http.auth.AuthUser===, java.lang.String)",
+  "name" : "parameter type changed",
+  "description" : "The type of the parameter changed from 'com.artipie.http.auth.Authentication.User' to 'com.artipie.http.auth.AuthUser'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "POTENTIALLY_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "com.artipie.http.auth.Authentication.User"
+  }, {
+    "name" : "newType",
+    "value" : "com.artipie.http.auth.AuthUser"
+  }, {
+    "name" : "package",
+    "value" : "com.artipie.http.auth"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.artipie.http.auth.Authentication.Single"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "Single"
+  }, {
+    "name" : "methodName",
+    "value" : "<init>"
+  }, {
+    "name" : "parameterIndex",
+    "value" : "0"
+  }, {
+    "name" : "elementKind",
+    "value" : "parameter"
+  }, {
+    "name" : "oldArchive",
+    "value" : "http-v1.1.4.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "http-v1.2.1.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.returnTypeTypeParametersChanged",
+  "old" : "method java.util.Optional<com.artipie.http.auth.Authentication.User> com.artipie.http.auth.Authentication.Single::user(java.lang.String, java.lang.String)",
+  "new" : "method java.util.Optional<com.artipie.http.auth.AuthUser> com.artipie.http.auth.Authentication.Single::user(java.lang.String, java.lang.String)",
+  "name" : "return type changed type parameter",
+  "description" : "The return type changed from 'java.util.Optional<com.artipie.http.auth.Authentication.User>' to 'java.util.Optional<com.artipie.http.auth.AuthUser>'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "java.util.Optional<com.artipie.http.auth.Authentication.User>"
+  }, {
+    "name" : "newType",
+    "value" : "java.util.Optional<com.artipie.http.auth.AuthUser>"
+  }, {
+    "name" : "package",
+    "value" : "com.artipie.http.auth"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.artipie.http.auth.Authentication.Single"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "Single"
+  }, {
+    "name" : "methodName",
+    "value" : "user"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "http-v1.1.4.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "http-v1.2.1.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class com.artipie.http.auth.Authentication.User",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.artipie.http.auth"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.artipie.http.auth.Authentication.User"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "User"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "http-v1.1.4.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.returnTypeTypeParametersChanged",
+  "old" : "method java.util.Optional<com.artipie.http.auth.Authentication.User> com.artipie.http.auth.Authentication.Wrap::user(java.lang.String, java.lang.String)",
+  "new" : "method java.util.Optional<com.artipie.http.auth.AuthUser> com.artipie.http.auth.Authentication.Wrap::user(java.lang.String, java.lang.String)",
+  "name" : "return type changed type parameter",
+  "description" : "The return type changed from 'java.util.Optional<com.artipie.http.auth.Authentication.User>' to 'java.util.Optional<com.artipie.http.auth.AuthUser>'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "java.util.Optional<com.artipie.http.auth.Authentication.User>"
+  }, {
+    "name" : "newType",
+    "value" : "java.util.Optional<com.artipie.http.auth.AuthUser>"
+  }, {
+    "name" : "package",
+    "value" : "com.artipie.http.auth"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.artipie.http.auth.Authentication.Wrap"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "Wrap"
+  }, {
+    "name" : "methodName",
+    "value" : "user"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "http-v1.1.4.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "http-v1.2.1.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.returnTypeTypeParametersChanged",
+  "old" : "method java.util.Optional<com.artipie.http.auth.Authentication.User> com.artipie.http.auth.Authentication::user(java.lang.String, java.lang.String)",
+  "new" : "method java.util.Optional<com.artipie.http.auth.AuthUser> com.artipie.http.auth.Authentication::user(java.lang.String, java.lang.String)",
+  "name" : "return type changed type parameter",
+  "description" : "The return type changed from 'java.util.Optional<com.artipie.http.auth.Authentication.User>' to 'java.util.Optional<com.artipie.http.auth.AuthUser>'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "java.util.Optional<com.artipie.http.auth.Authentication.User>"
+  }, {
+    "name" : "newType",
+    "value" : "java.util.Optional<com.artipie.http.auth.AuthUser>"
+  }, {
+    "name" : "package",
+    "value" : "com.artipie.http.auth"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.artipie.http.auth.Authentication"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "Authentication"
+  }, {
+    "name" : "methodName",
+    "value" : "user"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "http-v1.1.4.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "http-v1.2.1.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.returnTypeTypeParametersChanged",
+  "old" : "method java.util.Optional<com.artipie.http.auth.Authentication.User> com.artipie.http.auth.BasicIdentities::user(java.lang.String, java.lang.Iterable<java.util.Map.Entry<java.lang.String, java.lang.String>>)",
+  "new" : "method java.util.Optional<com.artipie.http.auth.AuthUser> com.artipie.http.auth.BasicIdentities::user(java.lang.String, java.lang.Iterable<java.util.Map.Entry<java.lang.String, java.lang.String>>)",
+  "name" : "return type changed type parameter",
+  "description" : "The return type changed from 'java.util.Optional<com.artipie.http.auth.Authentication.User>' to 'java.util.Optional<com.artipie.http.auth.AuthUser>'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "java.util.Optional<com.artipie.http.auth.Authentication.User>"
+  }, {
+    "name" : "newType",
+    "value" : "java.util.Optional<com.artipie.http.auth.AuthUser>"
+  }, {
+    "name" : "package",
+    "value" : "com.artipie.http.auth"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.artipie.http.auth.BasicIdentities"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "BasicIdentities"
+  }, {
+    "name" : "methodName",
+    "value" : "user"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "http-v1.1.4.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "http-v1.2.1.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.returnTypeTypeParametersChanged",
+  "old" : "method java.util.Optional<com.artipie.http.auth.Authentication.User> com.artipie.http.auth.Identities::user(java.lang.String, java.lang.Iterable<java.util.Map.Entry<java.lang.String, java.lang.String>>)",
+  "new" : "method java.util.Optional<com.artipie.http.auth.AuthUser> com.artipie.http.auth.Identities::user(java.lang.String, java.lang.Iterable<java.util.Map.Entry<java.lang.String, java.lang.String>>)",
+  "name" : "return type changed type parameter",
+  "description" : "The return type changed from 'java.util.Optional<com.artipie.http.auth.Authentication.User>' to 'java.util.Optional<com.artipie.http.auth.AuthUser>'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "java.util.Optional<com.artipie.http.auth.Authentication.User>"
+  }, {
+    "name" : "newType",
+    "value" : "java.util.Optional<com.artipie.http.auth.AuthUser>"
+  }, {
+    "name" : "package",
+    "value" : "com.artipie.http.auth"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.artipie.http.auth.Identities"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "Identities"
+  }, {
+    "name" : "methodName",
+    "value" : "user"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "http-v1.1.4.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "http-v1.2.1.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.parameterTypeChanged",
+  "old" : "parameter boolean com.artipie.http.auth.JoinedPermissions::allowed(===com.artipie.http.auth.Authentication.User===, java.lang.String)",
+  "new" : "parameter boolean com.artipie.http.auth.JoinedPermissions::allowed(===com.artipie.http.auth.AuthUser===, java.lang.String)",
+  "name" : "parameter type changed",
+  "description" : "The type of the parameter changed from 'com.artipie.http.auth.Authentication.User' to 'com.artipie.http.auth.AuthUser'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "POTENTIALLY_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "com.artipie.http.auth.Authentication.User"
+  }, {
+    "name" : "newType",
+    "value" : "com.artipie.http.auth.AuthUser"
+  }, {
+    "name" : "package",
+    "value" : "com.artipie.http.auth"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.artipie.http.auth.JoinedPermissions"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "JoinedPermissions"
+  }, {
+    "name" : "methodName",
+    "value" : "allowed"
+  }, {
+    "name" : "parameterIndex",
+    "value" : "0"
+  }, {
+    "name" : "elementKind",
+    "value" : "parameter"
+  }, {
+    "name" : "oldArchive",
+    "value" : "http-v1.1.4.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "http-v1.2.1.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.parameterTypeChanged",
+  "old" : "parameter boolean com.artipie.http.auth.Permission.All::allowed(===com.artipie.http.auth.Authentication.User===)",
+  "new" : "parameter boolean com.artipie.http.auth.Permission.All::allowed(===com.artipie.http.auth.AuthUser===)",
+  "name" : "parameter type changed",
+  "description" : "The type of the parameter changed from 'com.artipie.http.auth.Authentication.User' to 'com.artipie.http.auth.AuthUser'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "POTENTIALLY_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "com.artipie.http.auth.Authentication.User"
+  }, {
+    "name" : "newType",
+    "value" : "com.artipie.http.auth.AuthUser"
+  }, {
+    "name" : "package",
+    "value" : "com.artipie.http.auth"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.artipie.http.auth.Permission.All"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "All"
+  }, {
+    "name" : "methodName",
+    "value" : "allowed"
+  }, {
+    "name" : "parameterIndex",
+    "value" : "0"
+  }, {
+    "name" : "elementKind",
+    "value" : "parameter"
+  }, {
+    "name" : "oldArchive",
+    "value" : "http-v1.1.4.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "http-v1.2.1.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.parameterTypeChanged",
+  "old" : "parameter boolean com.artipie.http.auth.Permission.Any::allowed(===com.artipie.http.auth.Authentication.User===)",
+  "new" : "parameter boolean com.artipie.http.auth.Permission.Any::allowed(===com.artipie.http.auth.AuthUser===)",
+  "name" : "parameter type changed",
+  "description" : "The type of the parameter changed from 'com.artipie.http.auth.Authentication.User' to 'com.artipie.http.auth.AuthUser'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "POTENTIALLY_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "com.artipie.http.auth.Authentication.User"
+  }, {
+    "name" : "newType",
+    "value" : "com.artipie.http.auth.AuthUser"
+  }, {
+    "name" : "package",
+    "value" : "com.artipie.http.auth"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.artipie.http.auth.Permission.Any"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "Any"
+  }, {
+    "name" : "methodName",
+    "value" : "allowed"
+  }, {
+    "name" : "parameterIndex",
+    "value" : "0"
+  }, {
+    "name" : "elementKind",
+    "value" : "parameter"
+  }, {
+    "name" : "oldArchive",
+    "value" : "http-v1.1.4.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "http-v1.2.1.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.parameterTypeChanged",
+  "old" : "parameter boolean com.artipie.http.auth.Permission.ByName::allowed(===com.artipie.http.auth.Authentication.User===)",
+  "new" : "parameter boolean com.artipie.http.auth.Permission.ByName::allowed(===com.artipie.http.auth.AuthUser===)",
+  "name" : "parameter type changed",
+  "description" : "The type of the parameter changed from 'com.artipie.http.auth.Authentication.User' to 'com.artipie.http.auth.AuthUser'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "POTENTIALLY_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "com.artipie.http.auth.Authentication.User"
+  }, {
+    "name" : "newType",
+    "value" : "com.artipie.http.auth.AuthUser"
+  }, {
+    "name" : "package",
+    "value" : "com.artipie.http.auth"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.artipie.http.auth.Permission.ByName"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "ByName"
+  }, {
+    "name" : "methodName",
+    "value" : "allowed"
+  }, {
+    "name" : "parameterIndex",
+    "value" : "0"
+  }, {
+    "name" : "elementKind",
+    "value" : "parameter"
+  }, {
+    "name" : "oldArchive",
+    "value" : "http-v1.1.4.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "http-v1.2.1.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.parameterTypeChanged",
+  "old" : "parameter boolean com.artipie.http.auth.Permission::allowed(===com.artipie.http.auth.Authentication.User===)",
+  "new" : "parameter boolean com.artipie.http.auth.Permission::allowed(===com.artipie.http.auth.AuthUser===)",
+  "name" : "parameter type changed",
+  "description" : "The type of the parameter changed from 'com.artipie.http.auth.Authentication.User' to 'com.artipie.http.auth.AuthUser'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "POTENTIALLY_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "com.artipie.http.auth.Authentication.User"
+  }, {
+    "name" : "newType",
+    "value" : "com.artipie.http.auth.AuthUser"
+  }, {
+    "name" : "package",
+    "value" : "com.artipie.http.auth"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.artipie.http.auth.Permission"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "Permission"
+  }, {
+    "name" : "methodName",
+    "value" : "allowed"
+  }, {
+    "name" : "parameterIndex",
+    "value" : "0"
+  }, {
+    "name" : "elementKind",
+    "value" : "parameter"
+  }, {
+    "name" : "oldArchive",
+    "value" : "http-v1.1.4.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "http-v1.2.1.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.parameterTypeChanged",
+  "old" : "parameter boolean com.artipie.http.auth.Permissions.Single::allowed(===com.artipie.http.auth.Authentication.User===, java.lang.String)",
+  "new" : "parameter boolean com.artipie.http.auth.Permissions.Single::allowed(===com.artipie.http.auth.AuthUser===, java.lang.String)",
+  "name" : "parameter type changed",
+  "description" : "The type of the parameter changed from 'com.artipie.http.auth.Authentication.User' to 'com.artipie.http.auth.AuthUser'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "POTENTIALLY_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "com.artipie.http.auth.Authentication.User"
+  }, {
+    "name" : "newType",
+    "value" : "com.artipie.http.auth.AuthUser"
+  }, {
+    "name" : "package",
+    "value" : "com.artipie.http.auth"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.artipie.http.auth.Permissions.Single"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "Single"
+  }, {
+    "name" : "methodName",
+    "value" : "allowed"
+  }, {
+    "name" : "parameterIndex",
+    "value" : "0"
+  }, {
+    "name" : "elementKind",
+    "value" : "parameter"
+  }, {
+    "name" : "oldArchive",
+    "value" : "http-v1.1.4.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "http-v1.2.1.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.parameterTypeChanged",
+  "old" : "parameter boolean com.artipie.http.auth.Permissions.Wrap::allowed(===com.artipie.http.auth.Authentication.User===, java.lang.String)",
+  "new" : "parameter boolean com.artipie.http.auth.Permissions.Wrap::allowed(===com.artipie.http.auth.AuthUser===, java.lang.String)",
+  "name" : "parameter type changed",
+  "description" : "The type of the parameter changed from 'com.artipie.http.auth.Authentication.User' to 'com.artipie.http.auth.AuthUser'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "POTENTIALLY_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "com.artipie.http.auth.Authentication.User"
+  }, {
+    "name" : "newType",
+    "value" : "com.artipie.http.auth.AuthUser"
+  }, {
+    "name" : "package",
+    "value" : "com.artipie.http.auth"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.artipie.http.auth.Permissions.Wrap"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "Wrap"
+  }, {
+    "name" : "methodName",
+    "value" : "allowed"
+  }, {
+    "name" : "parameterIndex",
+    "value" : "0"
+  }, {
+    "name" : "elementKind",
+    "value" : "parameter"
+  }, {
+    "name" : "oldArchive",
+    "value" : "http-v1.1.4.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "http-v1.2.1.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.field.removed",
+  "old" : "field com.artipie.http.auth.Permissions.ANY_USER",
+  "new" : null,
+  "name" : "field removed",
+  "description" : "Field removed from class.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.artipie.http.auth"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.artipie.http.auth.Permissions"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "Permissions"
+  }, {
+    "name" : "fieldName",
+    "value" : "ANY_USER"
+  }, {
+    "name" : "elementKind",
+    "value" : "field"
+  }, {
+    "name" : "oldArchive",
+    "value" : "http-v1.1.4.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.parameterTypeChanged",
+  "old" : "parameter boolean com.artipie.http.auth.Permissions::allowed(===com.artipie.http.auth.Authentication.User===, java.lang.String)",
+  "new" : "parameter boolean com.artipie.http.auth.Permissions::allowed(===com.artipie.http.auth.AuthUser===, java.lang.String)",
+  "name" : "parameter type changed",
+  "description" : "The type of the parameter changed from 'com.artipie.http.auth.Authentication.User' to 'com.artipie.http.auth.AuthUser'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "POTENTIALLY_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "com.artipie.http.auth.Authentication.User"
+  }, {
+    "name" : "newType",
+    "value" : "com.artipie.http.auth.AuthUser"
+  }, {
+    "name" : "package",
+    "value" : "com.artipie.http.auth"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.artipie.http.auth.Permissions"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "Permissions"
+  }, {
+    "name" : "methodName",
+    "value" : "allowed"
+  }, {
+    "name" : "parameterIndex",
+    "value" : "0"
+  }, {
+    "name" : "elementKind",
+    "value" : "parameter"
+  }, {
+    "name" : "oldArchive",
+    "value" : "http-v1.1.4.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "http-v1.2.1.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.returnTypeTypeParametersChanged",
+  "old" : "method java.util.concurrent.CompletionStage<java.util.Optional<com.artipie.http.auth.Authentication.User>> com.artipie.http.auth.TokenAuthentication::user(java.lang.String)",
+  "new" : "method java.util.concurrent.CompletionStage<java.util.Optional<com.artipie.http.auth.AuthUser>> com.artipie.http.auth.TokenAuthentication::user(java.lang.String)",
+  "name" : "return type changed type parameter",
+  "description" : "The return type changed from 'java.util.concurrent.CompletionStage<java.util.Optional<com.artipie.http.auth.Authentication.User>>' to 'java.util.concurrent.CompletionStage<java.util.Optional<com.artipie.http.auth.AuthUser>>'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "java.util.concurrent.CompletionStage<java.util.Optional<com.artipie.http.auth.Authentication.User>>"
+  }, {
+    "name" : "newType",
+    "value" : "java.util.concurrent.CompletionStage<java.util.Optional<com.artipie.http.auth.AuthUser>>"
+  }, {
+    "name" : "package",
+    "value" : "com.artipie.http.auth"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.artipie.http.auth.TokenAuthentication"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "TokenAuthentication"
+  }, {
+    "name" : "methodName",
+    "value" : "user"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "http-v1.1.4.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "http-v1.2.1.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method boolean org.hamcrest.BaseMatcher<T>::isNotNull(java.lang.Object, org.hamcrest.Description) @ com.artipie.http.hm.IsHeader",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.artipie.http.hm"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.artipie.http.hm.IsHeader"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "IsHeader"
+  }, {
+    "name" : "methodName",
+    "value" : "isNotNull"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "http-v1.1.4.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method boolean org.hamcrest.BaseMatcher<T>::isNotNull(java.lang.Object, org.hamcrest.Description) @ com.artipie.http.hm.IsJson",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.artipie.http.hm"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.artipie.http.hm.IsJson"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "IsJson"
+  }, {
+    "name" : "methodName",
+    "value" : "isNotNull"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "http-v1.1.4.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method boolean org.hamcrest.BaseMatcher<T>::isNotNull(java.lang.Object, org.hamcrest.Description) @ com.artipie.http.hm.IsString",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.artipie.http.hm"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.artipie.http.hm.IsString"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "IsString"
+  }, {
+    "name" : "methodName",
+    "value" : "isNotNull"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "http-v1.1.4.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method boolean org.hamcrest.BaseMatcher<T>::isNotNull(java.lang.Object, org.hamcrest.Description) @ com.artipie.http.hm.ResponseMatcher",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.artipie.http.hm"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.artipie.http.hm.ResponseMatcher"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "ResponseMatcher"
+  }, {
+    "name" : "methodName",
+    "value" : "isNotNull"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "http-v1.1.4.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method boolean org.hamcrest.BaseMatcher<T>::isNotNull(java.lang.Object, org.hamcrest.Description) @ com.artipie.http.hm.RqHasHeader.Single",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.artipie.http.hm"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.artipie.http.hm.RqHasHeader.Single"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "Single"
+  }, {
+    "name" : "methodName",
+    "value" : "isNotNull"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "http-v1.1.4.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method boolean org.hamcrest.BaseMatcher<T>::isNotNull(java.lang.Object, org.hamcrest.Description) @ com.artipie.http.hm.RqHasHeader",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.artipie.http.hm"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.artipie.http.hm.RqHasHeader"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "RqHasHeader"
+  }, {
+    "name" : "methodName",
+    "value" : "isNotNull"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "http-v1.1.4.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method boolean org.hamcrest.BaseMatcher<T>::isNotNull(java.lang.Object, org.hamcrest.Description) @ com.artipie.http.hm.RqLineHasUri.HasPath",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.artipie.http.hm"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.artipie.http.hm.RqLineHasUri.HasPath"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "HasPath"
+  }, {
+    "name" : "methodName",
+    "value" : "isNotNull"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "http-v1.1.4.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method boolean org.hamcrest.BaseMatcher<T>::isNotNull(java.lang.Object, org.hamcrest.Description) @ com.artipie.http.hm.RqLineHasUri",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.artipie.http.hm"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.artipie.http.hm.RqLineHasUri"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "RqLineHasUri"
+  }, {
+    "name" : "methodName",
+    "value" : "isNotNull"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "http-v1.1.4.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method boolean org.hamcrest.BaseMatcher<T>::isNotNull(java.lang.Object, org.hamcrest.Description) @ com.artipie.http.hm.RsHasBody",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.artipie.http.hm"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.artipie.http.hm.RsHasBody"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "RsHasBody"
+  }, {
+    "name" : "methodName",
+    "value" : "isNotNull"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "http-v1.1.4.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method boolean org.hamcrest.BaseMatcher<T>::isNotNull(java.lang.Object, org.hamcrest.Description) @ com.artipie.http.hm.RsHasHeaders",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.artipie.http.hm"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.artipie.http.hm.RsHasHeaders"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "RsHasHeaders"
+  }, {
+    "name" : "methodName",
+    "value" : "isNotNull"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "http-v1.1.4.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method boolean org.hamcrest.BaseMatcher<T>::isNotNull(java.lang.Object, org.hamcrest.Description) @ com.artipie.http.hm.RsHasStatus",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.artipie.http.hm"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.artipie.http.hm.RsHasStatus"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "RsHasStatus"
+  }, {
+    "name" : "methodName",
+    "value" : "isNotNull"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "http-v1.1.4.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method boolean org.hamcrest.BaseMatcher<T>::isNotNull(java.lang.Object, org.hamcrest.Description) @ com.artipie.http.hm.SliceHasResponse",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.artipie.http.hm"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.artipie.http.hm.SliceHasResponse"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "SliceHasResponse"
+  }, {
+    "name" : "methodName",
+    "value" : "isNotNull"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "http-v1.1.4.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+} ]

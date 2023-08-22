@@ -1,0 +1,2861 @@
+[ {
+  "code" : "java.class.nonPublicPartOfAPI",
+  "old" : "class org.apache.felix.resolver.ResolverImpl.Blame",
+  "new" : "class org.apache.felix.resolver.ResolverImpl.Blame",
+  "name" : "non-public class in API",
+  "description" : "Class 'org.apache.felix.resolver.ResolverImpl.Blame' is indirectly included in the API (by the means of method return type for example) but the class is not accessible (neither public nor protected).",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SEMANTIC",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "classSimpleName",
+    "value" : "Blame"
+  }, {
+    "name" : "exampleUseChainInNewApi",
+    "value" : "org.apache.felix.resolver.ResolverImpl.Blame is used as a type parameter or type variable bound on field org.apache.felix.resolver.ResolverImpl.Packages.m_importedPkgs (field org.apache.felix.resolver.ResolverImpl.Packages.m_importedPkgs is part of the API)"
+  }, {
+    "name" : "package",
+    "value" : "org.apache.felix.resolver"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.felix.resolver.ResolverImpl.Blame"
+  }, {
+    "name" : "exampleUseChainInOldApi",
+    "value" : "org.apache.felix.resolver.ResolverImpl.Blame is used as a type parameter or type variable bound on field org.apache.felix.resolver.ResolverImpl.UsedBlames.m_blames <- org.apache.felix.resolver.ResolverImpl.UsedBlames is used as a type parameter or type variable bound on field org.apache.felix.resolver.ResolverImpl.Packages.m_usedPkgs (field org.apache.felix.resolver.ResolverImpl.Packages.m_usedPkgs is part of the API)"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "org.eclipse.osgi-3.15.200.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "org.eclipse.osgi-3.17.100.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.nonPublicPartOfAPI",
+  "old" : "class org.apache.felix.resolver.ResolverImpl.UsedBlames",
+  "new" : "class org.apache.felix.resolver.ResolverImpl.UsedBlames",
+  "name" : "non-public class in API",
+  "description" : "Class 'org.apache.felix.resolver.ResolverImpl.UsedBlames' is indirectly included in the API (by the means of method return type for example) but the class is not accessible (neither public nor protected).",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SEMANTIC",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "classSimpleName",
+    "value" : "UsedBlames"
+  }, {
+    "name" : "exampleUseChainInNewApi",
+    "value" : "org.apache.felix.resolver.ResolverImpl.UsedBlames is used as a type parameter or type variable bound on field org.apache.felix.resolver.ResolverImpl.Packages.m_usedPkgs (field org.apache.felix.resolver.ResolverImpl.Packages.m_usedPkgs is part of the API)"
+  }, {
+    "name" : "package",
+    "value" : "org.apache.felix.resolver"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.felix.resolver.ResolverImpl.UsedBlames"
+  }, {
+    "name" : "exampleUseChainInOldApi",
+    "value" : "org.apache.felix.resolver.ResolverImpl.UsedBlames is used as a type parameter or type variable bound on field org.apache.felix.resolver.ResolverImpl.Packages.m_usedPkgs (field org.apache.felix.resolver.ResolverImpl.Packages.m_usedPkgs is part of the API)"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "org.eclipse.osgi-3.15.200.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "org.eclipse.osgi-3.17.100.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.nonPublicPartOfAPI",
+  "old" : "class org.eclipse.osgi.framework.util.CaseInsensitiveDictionaryMap.CaseInsensitiveKey",
+  "new" : "class org.eclipse.osgi.framework.util.CaseInsensitiveDictionaryMap.CaseInsensitiveKey",
+  "name" : "non-public class in API",
+  "description" : "Class 'org.eclipse.osgi.framework.util.CaseInsensitiveDictionaryMap.CaseInsensitiveKey' is indirectly included in the API (by the means of method return type for example) but the class is not accessible (neither public nor protected).",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SEMANTIC",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "classSimpleName",
+    "value" : "CaseInsensitiveKey"
+  }, {
+    "name" : "exampleUseChainInNewApi",
+    "value" : "org.eclipse.osgi.framework.util.CaseInsensitiveDictionaryMap.CaseInsensitiveKey is returned from method org.eclipse.osgi.framework.util.CaseInsensitiveDictionaryMap.CaseInsensitiveKey org.eclipse.osgi.framework.util.CaseInsensitiveDictionaryMap<K, V>::findCommonKeyIndex(java.lang.String) (method org.eclipse.osgi.framework.util.CaseInsensitiveDictionaryMap.CaseInsensitiveKey org.eclipse.osgi.framework.util.CaseInsensitiveDictionaryMap<K, V>::findCommonKeyIndex(java.lang.String) is part of the API)"
+  }, {
+    "name" : "package",
+    "value" : "org.eclipse.osgi.framework.util"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.eclipse.osgi.framework.util.CaseInsensitiveDictionaryMap.CaseInsensitiveKey"
+  }, {
+    "name" : "exampleUseChainInOldApi",
+    "value" : "org.eclipse.osgi.framework.util.CaseInsensitiveDictionaryMap.CaseInsensitiveKey is returned from method org.eclipse.osgi.framework.util.CaseInsensitiveDictionaryMap.CaseInsensitiveKey org.eclipse.osgi.framework.util.CaseInsensitiveDictionaryMap<K, V>::findCommonKeyIndex(java.lang.String) (method org.eclipse.osgi.framework.util.CaseInsensitiveDictionaryMap.CaseInsensitiveKey org.eclipse.osgi.framework.util.CaseInsensitiveDictionaryMap<K, V>::findCommonKeyIndex(java.lang.String) is part of the API)"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "org.eclipse.osgi-3.15.200.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "org.eclipse.osgi-3.17.100.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.numberOfParametersChanged",
+  "old" : "method java.util.zip.ZipFile org.eclipse.osgi.framework.util.SecureAction::getZipFile(java.io.File) throws java.io.IOException",
+  "new" : "method java.util.zip.ZipFile org.eclipse.osgi.framework.util.SecureAction::getZipFile(java.io.File, boolean) throws java.io.IOException",
+  "name" : "number of parameters changed",
+  "description" : "The number of parameters of the method have changed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.eclipse.osgi.framework.util"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.eclipse.osgi.framework.util.SecureAction"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "SecureAction"
+  }, {
+    "name" : "methodName",
+    "value" : "getZipFile"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "org.eclipse.osgi-3.15.200.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "org.eclipse.osgi-3.17.100.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method java.util.Collection<org.osgi.framework.wiring.BundleWiring> org.eclipse.osgi.internal.container.InternalUtils::asCollectionBundleWiring(java.util.Collection<? extends org.osgi.framework.wiring.BundleWiring>)",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.eclipse.osgi.internal.container"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.eclipse.osgi.internal.container.InternalUtils"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "InternalUtils"
+  }, {
+    "name" : "methodName",
+    "value" : "asCollectionBundleWiring"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "org.eclipse.osgi-3.15.200.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method java.util.Collection<org.osgi.resource.Resource> org.eclipse.osgi.internal.container.InternalUtils::asCollectionResource(java.util.Collection<? extends org.osgi.resource.Resource>)",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.eclipse.osgi.internal.container"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.eclipse.osgi.internal.container.InternalUtils"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "InternalUtils"
+  }, {
+    "name" : "methodName",
+    "value" : "asCollectionResource"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "org.eclipse.osgi-3.15.200.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method java.util.List<org.osgi.framework.wiring.BundleCapability> org.eclipse.osgi.internal.container.InternalUtils::asListBundleCapability(java.util.List<? extends org.osgi.framework.wiring.BundleCapability>)",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.eclipse.osgi.internal.container"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.eclipse.osgi.internal.container.InternalUtils"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "InternalUtils"
+  }, {
+    "name" : "methodName",
+    "value" : "asListBundleCapability"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "org.eclipse.osgi-3.15.200.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method java.util.List<org.osgi.framework.wiring.BundleRequirement> org.eclipse.osgi.internal.container.InternalUtils::asListBundleRequirement(java.util.List<? extends org.osgi.framework.wiring.BundleRequirement>)",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.eclipse.osgi.internal.container"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.eclipse.osgi.internal.container.InternalUtils"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "InternalUtils"
+  }, {
+    "name" : "methodName",
+    "value" : "asListBundleRequirement"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "org.eclipse.osgi-3.15.200.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method java.util.List<org.osgi.framework.wiring.BundleRevision> org.eclipse.osgi.internal.container.InternalUtils::asListBundleRevision(java.util.List<? extends org.osgi.framework.wiring.BundleRevision>)",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.eclipse.osgi.internal.container"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.eclipse.osgi.internal.container.InternalUtils"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "InternalUtils"
+  }, {
+    "name" : "methodName",
+    "value" : "asListBundleRevision"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "org.eclipse.osgi-3.15.200.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method java.util.List<org.osgi.framework.wiring.BundleWire> org.eclipse.osgi.internal.container.InternalUtils::asListBundleWire(java.util.List<? extends org.osgi.framework.wiring.BundleWire>)",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.eclipse.osgi.internal.container"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.eclipse.osgi.internal.container.InternalUtils"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "InternalUtils"
+  }, {
+    "name" : "methodName",
+    "value" : "asListBundleWire"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "org.eclipse.osgi-3.15.200.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method java.util.List<org.osgi.resource.Capability> org.eclipse.osgi.internal.container.InternalUtils::asListCapability(java.util.List<? extends org.osgi.resource.Capability>)",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.eclipse.osgi.internal.container"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.eclipse.osgi.internal.container.InternalUtils"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "InternalUtils"
+  }, {
+    "name" : "methodName",
+    "value" : "asListCapability"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "org.eclipse.osgi-3.15.200.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method java.util.List<org.osgi.resource.Requirement> org.eclipse.osgi.internal.container.InternalUtils::asListRequirement(java.util.List<? extends org.osgi.resource.Requirement>)",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.eclipse.osgi.internal.container"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.eclipse.osgi.internal.container.InternalUtils"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "InternalUtils"
+  }, {
+    "name" : "methodName",
+    "value" : "asListRequirement"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "org.eclipse.osgi-3.15.200.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method java.util.List<org.osgi.resource.Wire> org.eclipse.osgi.internal.container.InternalUtils::asListWire(java.util.List<? extends org.osgi.resource.Wire>)",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.eclipse.osgi.internal.container"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.eclipse.osgi.internal.container.InternalUtils"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "InternalUtils"
+  }, {
+    "name" : "methodName",
+    "value" : "asListWire"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "org.eclipse.osgi-3.15.200.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.numberOfParametersChanged",
+  "old" : "method void org.eclipse.osgi.internal.framework.EquinoxContainer::<init>(java.util.Map<java.lang.String, ?>)",
+  "new" : "method void org.eclipse.osgi.internal.framework.EquinoxContainer::<init>(java.util.Map<java.lang.String, ?>, org.osgi.framework.connect.ModuleConnector)",
+  "name" : "number of parameters changed",
+  "description" : "The number of parameters of the method have changed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.eclipse.osgi.internal.framework"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.eclipse.osgi.internal.framework.EquinoxContainer"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "EquinoxContainer"
+  }, {
+    "name" : "methodName",
+    "value" : "<init>"
+  }, {
+    "name" : "elementKind",
+    "value" : "constructor"
+  }, {
+    "name" : "oldArchive",
+    "value" : "org.eclipse.osgi-3.15.200.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "org.eclipse.osgi-3.17.100.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method org.osgi.service.packageadmin.PackageAdmin org.eclipse.osgi.internal.framework.EquinoxContainer::getPackageAdmin()",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.eclipse.osgi.internal.framework"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.eclipse.osgi.internal.framework.EquinoxContainer"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "EquinoxContainer"
+  }, {
+    "name" : "methodName",
+    "value" : "getPackageAdmin"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "org.eclipse.osgi-3.15.200.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method org.osgi.service.startlevel.StartLevel org.eclipse.osgi.internal.framework.EquinoxContainer::getStartLevel()",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.eclipse.osgi.internal.framework"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.eclipse.osgi.internal.framework.EquinoxContainer"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "EquinoxContainer"
+  }, {
+    "name" : "methodName",
+    "value" : "getStartLevel"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "org.eclipse.osgi-3.15.200.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.numberOfParametersChanged",
+  "old" : "method void org.eclipse.osgi.internal.framework.legacy.PackageAdminImpl::<init>(org.eclipse.osgi.container.ModuleContainer)",
+  "new" : "method void org.eclipse.osgi.internal.framework.legacy.PackageAdminImpl::<init>(org.eclipse.osgi.internal.framework.EquinoxContainer, org.osgi.framework.wiring.FrameworkWiring)",
+  "name" : "number of parameters changed",
+  "description" : "The number of parameters of the method have changed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.eclipse.osgi.internal.framework.legacy"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.eclipse.osgi.internal.framework.legacy.PackageAdminImpl"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "PackageAdminImpl"
+  }, {
+    "name" : "methodName",
+    "value" : "<init>"
+  }, {
+    "name" : "elementKind",
+    "value" : "constructor"
+  }, {
+    "name" : "oldArchive",
+    "value" : "org.eclipse.osgi-3.15.200.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "org.eclipse.osgi-3.17.100.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.parameterTypeChanged",
+  "old" : "parameter void org.eclipse.osgi.internal.framework.legacy.StartLevelImpl::<init>(===org.eclipse.osgi.container.ModuleContainer===)",
+  "new" : "parameter void org.eclipse.osgi.internal.framework.legacy.StartLevelImpl::<init>(===org.osgi.framework.startlevel.FrameworkStartLevel===)",
+  "name" : "parameter type changed",
+  "description" : "The type of the parameter changed from 'org.eclipse.osgi.container.ModuleContainer' to 'org.osgi.framework.startlevel.FrameworkStartLevel'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "POTENTIALLY_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "org.eclipse.osgi.container.ModuleContainer"
+  }, {
+    "name" : "newType",
+    "value" : "org.osgi.framework.startlevel.FrameworkStartLevel"
+  }, {
+    "name" : "package",
+    "value" : "org.eclipse.osgi.internal.framework.legacy"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.eclipse.osgi.internal.framework.legacy.StartLevelImpl"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "StartLevelImpl"
+  }, {
+    "name" : "methodName",
+    "value" : "<init>"
+  }, {
+    "name" : "parameterIndex",
+    "value" : "0"
+  }, {
+    "name" : "elementKind",
+    "value" : "parameter"
+  }, {
+    "name" : "oldArchive",
+    "value" : "org.eclipse.osgi-3.15.200.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "org.eclipse.osgi-3.17.100.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class org.eclipse.osgi.internal.hookregistry.FrameworkUtilHelper",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.eclipse.osgi.internal.hookregistry"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.eclipse.osgi.internal.hookregistry.FrameworkUtilHelper"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "FrameworkUtilHelper"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "org.eclipse.osgi-3.15.200.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.nonPublicPartOfAPI",
+  "old" : "class org.eclipse.osgi.internal.loader.BundleLoader.ClassContext",
+  "new" : "class org.eclipse.osgi.internal.loader.BundleLoader.ClassContext",
+  "name" : "non-public class in API",
+  "description" : "Class 'org.eclipse.osgi.internal.loader.BundleLoader.ClassContext' is indirectly included in the API (by the means of method return type for example) but the class is not accessible (neither public nor protected).",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SEMANTIC",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "classSimpleName",
+    "value" : "ClassContext"
+  }, {
+    "name" : "exampleUseChainInNewApi",
+    "value" : "field org.eclipse.osgi.internal.loader.BundleLoader.CLASS_CONTEXT has the type org.eclipse.osgi.internal.loader.BundleLoader.ClassContext (field org.eclipse.osgi.internal.loader.BundleLoader.CLASS_CONTEXT is part of the API)"
+  }, {
+    "name" : "package",
+    "value" : "org.eclipse.osgi.internal.loader"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.eclipse.osgi.internal.loader.BundleLoader.ClassContext"
+  }, {
+    "name" : "exampleUseChainInOldApi",
+    "value" : "field org.eclipse.osgi.internal.loader.BundleLoader.CLASS_CONTEXT has the type org.eclipse.osgi.internal.loader.BundleLoader.ClassContext (field org.eclipse.osgi.internal.loader.BundleLoader.CLASS_CONTEXT is part of the API)"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "org.eclipse.osgi-3.15.200.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "org.eclipse.osgi-3.17.100.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.parameterTypeChanged",
+  "old" : "parameter void org.eclipse.osgi.internal.loader.buddy.GlobalPolicy::<init>(===org.osgi.service.packageadmin.PackageAdmin===)",
+  "new" : "parameter void org.eclipse.osgi.internal.loader.buddy.GlobalPolicy::<init>(===org.osgi.framework.wiring.FrameworkWiring===)",
+  "name" : "parameter type changed",
+  "description" : "The type of the parameter changed from 'org.osgi.service.packageadmin.PackageAdmin' to 'org.osgi.framework.wiring.FrameworkWiring'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "POTENTIALLY_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "org.osgi.service.packageadmin.PackageAdmin"
+  }, {
+    "name" : "newType",
+    "value" : "org.osgi.framework.wiring.FrameworkWiring"
+  }, {
+    "name" : "package",
+    "value" : "org.eclipse.osgi.internal.loader.buddy"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.eclipse.osgi.internal.loader.buddy.GlobalPolicy"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "GlobalPolicy"
+  }, {
+    "name" : "methodName",
+    "value" : "<init>"
+  }, {
+    "name" : "parameterIndex",
+    "value" : "0"
+  }, {
+    "name" : "elementKind",
+    "value" : "parameter"
+  }, {
+    "name" : "oldArchive",
+    "value" : "org.eclipse.osgi-3.15.200.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "org.eclipse.osgi-3.17.100.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.parameterTypeChanged",
+  "old" : "parameter void org.eclipse.osgi.internal.loader.buddy.PolicyHandler::<init>(org.eclipse.osgi.internal.loader.BundleLoader, java.util.List<java.lang.String>, ===org.osgi.service.packageadmin.PackageAdmin===, java.lang.ClassLoader)",
+  "new" : "parameter void org.eclipse.osgi.internal.loader.buddy.PolicyHandler::<init>(org.eclipse.osgi.internal.loader.BundleLoader, java.util.List<java.lang.String>, ===org.osgi.framework.wiring.FrameworkWiring===, java.lang.ClassLoader)",
+  "name" : "parameter type changed",
+  "description" : "The type of the parameter changed from 'org.osgi.service.packageadmin.PackageAdmin' to 'org.osgi.framework.wiring.FrameworkWiring'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "POTENTIALLY_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "org.osgi.service.packageadmin.PackageAdmin"
+  }, {
+    "name" : "newType",
+    "value" : "org.osgi.framework.wiring.FrameworkWiring"
+  }, {
+    "name" : "package",
+    "value" : "org.eclipse.osgi.internal.loader.buddy"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.eclipse.osgi.internal.loader.buddy.PolicyHandler"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "PolicyHandler"
+  }, {
+    "name" : "methodName",
+    "value" : "<init>"
+  }, {
+    "name" : "parameterIndex",
+    "value" : "2"
+  }, {
+    "name" : "elementKind",
+    "value" : "parameter"
+  }, {
+    "name" : "oldArchive",
+    "value" : "org.eclipse.osgi-3.15.200.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "org.eclipse.osgi-3.17.100.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.numberOfParametersChanged",
+  "old" : "method boolean org.eclipse.osgi.internal.loader.sources.PackageSource::isServiceAssignableTo(org.osgi.framework.Bundle, org.osgi.framework.Bundle, java.lang.String, java.lang.Class<?>, org.eclipse.osgi.internal.framework.EquinoxContainer)",
+  "new" : "method boolean org.eclipse.osgi.internal.loader.sources.PackageSource::isServiceAssignableTo(org.osgi.framework.Bundle, org.osgi.framework.Bundle, java.lang.String, java.lang.Class<?>, boolean, org.eclipse.osgi.internal.framework.EquinoxContainer)",
+  "name" : "number of parameters changed",
+  "description" : "The number of parameters of the method have changed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.eclipse.osgi.internal.loader.sources"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.eclipse.osgi.internal.loader.sources.PackageSource"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "PackageSource"
+  }, {
+    "name" : "methodName",
+    "value" : "isServiceAssignableTo"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "org.eclipse.osgi-3.15.200.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "org.eclipse.osgi-3.17.100.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.generics.elementNowParameterized",
+  "old" : "interface org.eclipse.osgi.internal.serviceregistry.HookContext",
+  "new" : "interface org.eclipse.osgi.internal.serviceregistry.HookContext<T>",
+  "name" : "element now parameterized",
+  "description" : "Element now defines formal type parameters.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SEMANTIC",
+    "severity" : "POTENTIALLY_BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.eclipse.osgi.internal.serviceregistry"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.eclipse.osgi.internal.serviceregistry.HookContext"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "HookContext"
+  }, {
+    "name" : "elementKind",
+    "value" : "interface"
+  }, {
+    "name" : "oldArchive",
+    "value" : "org.eclipse.osgi-3.15.200.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "org.eclipse.osgi-3.17.100.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.generics.formalTypeParameterAdded",
+  "old" : "interface org.eclipse.osgi.internal.serviceregistry.HookContext",
+  "new" : "interface org.eclipse.osgi.internal.serviceregistry.HookContext<T>",
+  "name" : "formal type parameter added",
+  "description" : "A new formal type parameter added to element: 'T'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "typeParameter",
+    "value" : "T"
+  }, {
+    "name" : "package",
+    "value" : "org.eclipse.osgi.internal.serviceregistry"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.eclipse.osgi.internal.serviceregistry.HookContext"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "HookContext"
+  }, {
+    "name" : "elementKind",
+    "value" : "interface"
+  }, {
+    "name" : "oldArchive",
+    "value" : "org.eclipse.osgi-3.15.200.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "org.eclipse.osgi-3.17.100.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.annotation.added",
+  "old" : "interface org.eclipse.osgi.internal.serviceregistry.HookContext",
+  "new" : "interface org.eclipse.osgi.internal.serviceregistry.HookContext<T>",
+  "name" : "new annotation",
+  "description" : "Element newly annotated with 'java.lang.FunctionalInterface'.",
+  "criticality" : "allowed",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "EQUIVALENT"
+  }, {
+    "compatibility" : "SEMANTIC",
+    "severity" : "EQUIVALENT"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "EQUIVALENT"
+  } ],
+  "attachments" : [ {
+    "name" : "annotationType",
+    "value" : "java.lang.FunctionalInterface"
+  }, {
+    "name" : "annotation",
+    "value" : "@java.lang.FunctionalInterface"
+  }, {
+    "name" : "package",
+    "value" : "org.eclipse.osgi.internal.serviceregistry"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.eclipse.osgi.internal.serviceregistry.HookContext"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "HookContext"
+  }, {
+    "name" : "elementKind",
+    "value" : "interface"
+  }, {
+    "name" : "oldArchive",
+    "value" : "org.eclipse.osgi-3.15.200.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "org.eclipse.osgi-3.17.100.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method java.lang.String org.eclipse.osgi.internal.serviceregistry.HookContext::getHookClassName()",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.eclipse.osgi.internal.serviceregistry"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.eclipse.osgi.internal.serviceregistry.HookContext"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "HookContext"
+  }, {
+    "name" : "methodName",
+    "value" : "getHookClassName"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "org.eclipse.osgi-3.15.200.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method java.lang.String org.eclipse.osgi.internal.serviceregistry.HookContext::getHookMethodName()",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.eclipse.osgi.internal.serviceregistry"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.eclipse.osgi.internal.serviceregistry.HookContext"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "HookContext"
+  }, {
+    "name" : "methodName",
+    "value" : "getHookMethodName"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "org.eclipse.osgi-3.15.200.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.numberOfParametersChanged",
+  "old" : "method void org.eclipse.osgi.internal.serviceregistry.ServiceRegistry::notifyHooksPrivileged(org.eclipse.osgi.internal.serviceregistry.HookContext)",
+  "new" : "method <T> void org.eclipse.osgi.internal.serviceregistry.ServiceRegistry::notifyHooksPrivileged(java.lang.Class<T>, java.lang.String, org.eclipse.osgi.internal.serviceregistry.HookContext<T>)",
+  "name" : "number of parameters changed",
+  "description" : "The number of parameters of the method have changed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.eclipse.osgi.internal.serviceregistry"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.eclipse.osgi.internal.serviceregistry.ServiceRegistry"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "ServiceRegistry"
+  }, {
+    "name" : "methodName",
+    "value" : "notifyHooksPrivileged"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "org.eclipse.osgi-3.15.200.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "org.eclipse.osgi-3.17.100.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.generics.elementNowParameterized",
+  "old" : "method void org.eclipse.osgi.internal.serviceregistry.ServiceRegistry::notifyHooksPrivileged(org.eclipse.osgi.internal.serviceregistry.HookContext)",
+  "new" : "method <T> void org.eclipse.osgi.internal.serviceregistry.ServiceRegistry::notifyHooksPrivileged(java.lang.Class<T>, java.lang.String, org.eclipse.osgi.internal.serviceregistry.HookContext<T>)",
+  "name" : "element now parameterized",
+  "description" : "Element now defines formal type parameters.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SEMANTIC",
+    "severity" : "POTENTIALLY_BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.eclipse.osgi.internal.serviceregistry"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.eclipse.osgi.internal.serviceregistry.ServiceRegistry"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "ServiceRegistry"
+  }, {
+    "name" : "methodName",
+    "value" : "notifyHooksPrivileged"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "org.eclipse.osgi-3.15.200.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "org.eclipse.osgi-3.17.100.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.generics.formalTypeParameterAdded",
+  "old" : "method void org.eclipse.osgi.internal.serviceregistry.ServiceRegistry::notifyHooksPrivileged(org.eclipse.osgi.internal.serviceregistry.HookContext)",
+  "new" : "method <T> void org.eclipse.osgi.internal.serviceregistry.ServiceRegistry::notifyHooksPrivileged(java.lang.Class<T>, java.lang.String, org.eclipse.osgi.internal.serviceregistry.HookContext<T>)",
+  "name" : "formal type parameter added",
+  "description" : "A new formal type parameter added to element: 'T'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "typeParameter",
+    "value" : "T"
+  }, {
+    "name" : "package",
+    "value" : "org.eclipse.osgi.internal.serviceregistry"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.eclipse.osgi.internal.serviceregistry.ServiceRegistry"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "ServiceRegistry"
+  }, {
+    "name" : "methodName",
+    "value" : "notifyHooksPrivileged"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "org.eclipse.osgi-3.15.200.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "org.eclipse.osgi-3.17.100.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class org.eclipse.osgi.internal.signedcontent.BERProcessor",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.eclipse.osgi.internal.signedcontent"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.eclipse.osgi.internal.signedcontent.BERProcessor"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "BERProcessor"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "org.eclipse.osgi-3.15.200.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class org.eclipse.osgi.internal.signedcontent.Base64",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.eclipse.osgi.internal.signedcontent"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.eclipse.osgi.internal.signedcontent.Base64"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "Base64"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "org.eclipse.osgi-3.15.200.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class org.eclipse.osgi.internal.signedcontent.PKCS7DateParser",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.eclipse.osgi.internal.signedcontent"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.eclipse.osgi.internal.signedcontent.PKCS7DateParser"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "PKCS7DateParser"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "org.eclipse.osgi-3.15.200.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class org.eclipse.osgi.internal.signedcontent.PKCS7Processor",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.eclipse.osgi.internal.signedcontent"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.eclipse.osgi.internal.signedcontent.PKCS7Processor"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "PKCS7Processor"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "org.eclipse.osgi-3.15.200.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class org.eclipse.osgi.internal.signedcontent.SignatureBlockProcessor",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.eclipse.osgi.internal.signedcontent"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.eclipse.osgi.internal.signedcontent.SignatureBlockProcessor"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "SignatureBlockProcessor"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "org.eclipse.osgi-3.15.200.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class org.eclipse.osgi.internal.signedcontent.SignedBundleFile",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.eclipse.osgi.internal.signedcontent"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.eclipse.osgi.internal.signedcontent.SignedBundleFile"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "SignedBundleFile"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "org.eclipse.osgi-3.15.200.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.noLongerImplementsInterface",
+  "old" : "class org.eclipse.osgi.internal.signedcontent.SignedBundleHook",
+  "new" : "class org.eclipse.osgi.internal.signedcontent.SignedBundleHook",
+  "name" : "class no longer implements interface",
+  "description" : "Class no longer implements interface 'org.eclipse.osgi.internal.hookregistry.BundleFileWrapperFactoryHook'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "interface",
+    "value" : "org.eclipse.osgi.internal.hookregistry.BundleFileWrapperFactoryHook"
+  }, {
+    "name" : "package",
+    "value" : "org.eclipse.osgi.internal.signedcontent"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.eclipse.osgi.internal.signedcontent.SignedBundleHook"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "SignedBundleHook"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "org.eclipse.osgi-3.15.200.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "org.eclipse.osgi-3.17.100.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method org.eclipse.osgi.storage.bundlefile.BundleFileWrapper org.eclipse.osgi.internal.signedcontent.SignedBundleHook::wrapBundleFile(org.eclipse.osgi.storage.bundlefile.BundleFile, org.eclipse.osgi.storage.BundleInfo.Generation, boolean)",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.eclipse.osgi.internal.signedcontent"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.eclipse.osgi.internal.signedcontent.SignedBundleHook"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "SignedBundleHook"
+  }, {
+    "name" : "methodName",
+    "value" : "wrapBundleFile"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "org.eclipse.osgi-3.15.200.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class org.eclipse.osgi.internal.signedcontent.SignedContentFile",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.eclipse.osgi.internal.signedcontent"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.eclipse.osgi.internal.signedcontent.SignedContentFile"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "SignedContentFile"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "org.eclipse.osgi-3.15.200.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class org.eclipse.osgi.internal.signedcontent.SignedContentImpl",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.eclipse.osgi.internal.signedcontent"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.eclipse.osgi.internal.signedcontent.SignedContentImpl"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "SignedContentImpl"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "org.eclipse.osgi-3.15.200.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.field.removed",
+  "old" : "field org.eclipse.osgi.internal.signedcontent.SignedContentMessages.Algorithm_Not_Supported",
+  "new" : null,
+  "name" : "field removed",
+  "description" : "Field removed from class.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.eclipse.osgi.internal.signedcontent"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.eclipse.osgi.internal.signedcontent.SignedContentMessages"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "SignedContentMessages"
+  }, {
+    "name" : "fieldName",
+    "value" : "Algorithm_Not_Supported"
+  }, {
+    "name" : "elementKind",
+    "value" : "field"
+  }, {
+    "name" : "oldArchive",
+    "value" : "org.eclipse.osgi-3.15.200.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.field.removed",
+  "old" : "field org.eclipse.osgi.internal.signedcontent.SignedContentMessages.Factory_SignedContent_Error",
+  "new" : null,
+  "name" : "field removed",
+  "description" : "Field removed from class.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.eclipse.osgi.internal.signedcontent"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.eclipse.osgi.internal.signedcontent.SignedContentMessages"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "SignedContentMessages"
+  }, {
+    "name" : "fieldName",
+    "value" : "Factory_SignedContent_Error"
+  }, {
+    "name" : "elementKind",
+    "value" : "field"
+  }, {
+    "name" : "oldArchive",
+    "value" : "org.eclipse.osgi-3.15.200.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.field.removed",
+  "old" : "field org.eclipse.osgi.internal.signedcontent.SignedContentMessages.File_In_Jar_Is_Tampered",
+  "new" : null,
+  "name" : "field removed",
+  "description" : "Field removed from class.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.eclipse.osgi.internal.signedcontent"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.eclipse.osgi.internal.signedcontent.SignedContentMessages"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "SignedContentMessages"
+  }, {
+    "name" : "fieldName",
+    "value" : "File_In_Jar_Is_Tampered"
+  }, {
+    "name" : "elementKind",
+    "value" : "field"
+  }, {
+    "name" : "oldArchive",
+    "value" : "org.eclipse.osgi-3.15.200.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.field.removed",
+  "old" : "field org.eclipse.osgi.internal.signedcontent.SignedContentMessages.PKCS7_Invalid_File",
+  "new" : null,
+  "name" : "field removed",
+  "description" : "Field removed from class.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.eclipse.osgi.internal.signedcontent"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.eclipse.osgi.internal.signedcontent.SignedContentMessages"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "SignedContentMessages"
+  }, {
+    "name" : "fieldName",
+    "value" : "PKCS7_Invalid_File"
+  }, {
+    "name" : "elementKind",
+    "value" : "field"
+  }, {
+    "name" : "oldArchive",
+    "value" : "org.eclipse.osgi-3.15.200.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.field.removed",
+  "old" : "field org.eclipse.osgi.internal.signedcontent.SignedContentMessages.PKCS7_Parse_Signing_Time",
+  "new" : null,
+  "name" : "field removed",
+  "description" : "Field removed from class.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.eclipse.osgi.internal.signedcontent"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.eclipse.osgi.internal.signedcontent.SignedContentMessages"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "SignedContentMessages"
+  }, {
+    "name" : "fieldName",
+    "value" : "PKCS7_Parse_Signing_Time"
+  }, {
+    "name" : "elementKind",
+    "value" : "field"
+  }, {
+    "name" : "oldArchive",
+    "value" : "org.eclipse.osgi-3.15.200.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.field.removed",
+  "old" : "field org.eclipse.osgi.internal.signedcontent.SignedContentMessages.PKCS7_SignerInfo_Version_Not_Supported",
+  "new" : null,
+  "name" : "field removed",
+  "description" : "Field removed from class.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.eclipse.osgi.internal.signedcontent"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.eclipse.osgi.internal.signedcontent.SignedContentMessages"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "SignedContentMessages"
+  }, {
+    "name" : "fieldName",
+    "value" : "PKCS7_SignerInfo_Version_Not_Supported"
+  }, {
+    "name" : "elementKind",
+    "value" : "field"
+  }, {
+    "name" : "oldArchive",
+    "value" : "org.eclipse.osgi-3.15.200.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.field.removed",
+  "old" : "field org.eclipse.osgi.internal.signedcontent.SignedContentMessages.SF_File_Parsing_Error",
+  "new" : null,
+  "name" : "field removed",
+  "description" : "Field removed from class.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.eclipse.osgi.internal.signedcontent"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.eclipse.osgi.internal.signedcontent.SignedContentMessages"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "SignedContentMessages"
+  }, {
+    "name" : "fieldName",
+    "value" : "SF_File_Parsing_Error"
+  }, {
+    "name" : "elementKind",
+    "value" : "field"
+  }, {
+    "name" : "oldArchive",
+    "value" : "org.eclipse.osgi-3.15.200.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.field.removed",
+  "old" : "field org.eclipse.osgi.internal.signedcontent.SignedContentMessages.Security_File_Is_Tampered",
+  "new" : null,
+  "name" : "field removed",
+  "description" : "Field removed from class.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.eclipse.osgi.internal.signedcontent"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.eclipse.osgi.internal.signedcontent.SignedContentMessages"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "SignedContentMessages"
+  }, {
+    "name" : "fieldName",
+    "value" : "Security_File_Is_Tampered"
+  }, {
+    "name" : "elementKind",
+    "value" : "field"
+  }, {
+    "name" : "oldArchive",
+    "value" : "org.eclipse.osgi-3.15.200.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.field.removed",
+  "old" : "field org.eclipse.osgi.internal.signedcontent.SignedContentMessages.Signature_Not_Verify",
+  "new" : null,
+  "name" : "field removed",
+  "description" : "Field removed from class.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.eclipse.osgi.internal.signedcontent"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.eclipse.osgi.internal.signedcontent.SignedContentMessages"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "SignedContentMessages"
+  }, {
+    "name" : "fieldName",
+    "value" : "Signature_Not_Verify"
+  }, {
+    "name" : "elementKind",
+    "value" : "field"
+  }, {
+    "name" : "oldArchive",
+    "value" : "org.eclipse.osgi-3.15.200.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.field.removed",
+  "old" : "field org.eclipse.osgi.internal.signedcontent.SignedContentMessages.file_is_removed_from_jar",
+  "new" : null,
+  "name" : "field removed",
+  "description" : "Field removed from class.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.eclipse.osgi.internal.signedcontent"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.eclipse.osgi.internal.signedcontent.SignedContentMessages"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "SignedContentMessages"
+  }, {
+    "name" : "fieldName",
+    "value" : "file_is_removed_from_jar"
+  }, {
+    "name" : "elementKind",
+    "value" : "field"
+  }, {
+    "name" : "oldArchive",
+    "value" : "org.eclipse.osgi-3.15.200.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class org.eclipse.osgi.internal.signedcontent.SignedStorageHook",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.eclipse.osgi.internal.signedcontent"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.eclipse.osgi.internal.signedcontent.SignedStorageHook"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "SignedStorageHook"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "org.eclipse.osgi-3.15.200.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class org.eclipse.osgi.internal.signedcontent.SignerInfoImpl",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.eclipse.osgi.internal.signedcontent"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.eclipse.osgi.internal.signedcontent.SignerInfoImpl"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "SignerInfoImpl"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "org.eclipse.osgi-3.15.200.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.noLongerImplementsInterface",
+  "old" : "class org.eclipse.osgi.internal.weaving.WovenClassImpl",
+  "new" : "class org.eclipse.osgi.internal.weaving.WovenClassImpl",
+  "name" : "class no longer implements interface",
+  "description" : "Class no longer implements interface 'org.eclipse.osgi.internal.serviceregistry.HookContext'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "interface",
+    "value" : "org.eclipse.osgi.internal.serviceregistry.HookContext"
+  }, {
+    "name" : "package",
+    "value" : "org.eclipse.osgi.internal.weaving"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.eclipse.osgi.internal.weaving.WovenClassImpl"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "WovenClassImpl"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "org.eclipse.osgi-3.15.200.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "org.eclipse.osgi-3.17.100.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.nowImplementsInterface",
+  "old" : "class org.eclipse.osgi.internal.weaving.WovenClassImpl",
+  "new" : "class org.eclipse.osgi.internal.weaving.WovenClassImpl",
+  "name" : "class implements interface",
+  "description" : "Class now implements interface 'org.eclipse.osgi.internal.serviceregistry.HookContext<org.osgi.framework.hooks.weaving.WeavingHook>'.",
+  "criticality" : "documented",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "interface",
+    "value" : "org.eclipse.osgi.internal.serviceregistry.HookContext<org.osgi.framework.hooks.weaving.WeavingHook>"
+  }, {
+    "name" : "package",
+    "value" : "org.eclipse.osgi.internal.weaving"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.eclipse.osgi.internal.weaving.WovenClassImpl"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "WovenClassImpl"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "org.eclipse.osgi-3.15.200.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "org.eclipse.osgi-3.17.100.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.superTypeTypeParametersChanged",
+  "old" : "class org.eclipse.osgi.internal.weaving.WovenClassImpl",
+  "new" : "class org.eclipse.osgi.internal.weaving.WovenClassImpl",
+  "name" : "type parameters of super-type changed",
+  "description" : "Super type's type parameters changed from 'org.eclipse.osgi.internal.serviceregistry.HookContext' to 'org.eclipse.osgi.internal.serviceregistry.HookContext<org.osgi.framework.hooks.weaving.WeavingHook>'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "POTENTIALLY_BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "POTENTIALLY_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldSuperType",
+    "value" : "org.eclipse.osgi.internal.serviceregistry.HookContext"
+  }, {
+    "name" : "newSuperType",
+    "value" : "org.eclipse.osgi.internal.serviceregistry.HookContext<org.osgi.framework.hooks.weaving.WeavingHook>"
+  }, {
+    "name" : "package",
+    "value" : "org.eclipse.osgi.internal.weaving"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.eclipse.osgi.internal.weaving.WovenClassImpl"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "WovenClassImpl"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "org.eclipse.osgi-3.15.200.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "org.eclipse.osgi-3.17.100.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.parameterTypeChanged",
+  "old" : "parameter void org.eclipse.osgi.internal.weaving.WovenClassImpl::call(===java.lang.Object===, org.osgi.framework.ServiceRegistration<?>) throws java.lang.Exception",
+  "new" : "parameter void org.eclipse.osgi.internal.weaving.WovenClassImpl::call(===org.osgi.framework.hooks.weaving.WeavingHook===, org.osgi.framework.ServiceRegistration<org.osgi.framework.hooks.weaving.WeavingHook>) throws java.lang.Exception",
+  "name" : "parameter type changed",
+  "description" : "The type of the parameter changed from 'java.lang.Object' to 'org.osgi.framework.hooks.weaving.WeavingHook'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "POTENTIALLY_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "java.lang.Object"
+  }, {
+    "name" : "newType",
+    "value" : "org.osgi.framework.hooks.weaving.WeavingHook"
+  }, {
+    "name" : "package",
+    "value" : "org.eclipse.osgi.internal.weaving"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.eclipse.osgi.internal.weaving.WovenClassImpl"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "WovenClassImpl"
+  }, {
+    "name" : "methodName",
+    "value" : "call"
+  }, {
+    "name" : "parameterIndex",
+    "value" : "0"
+  }, {
+    "name" : "elementKind",
+    "value" : "parameter"
+  }, {
+    "name" : "oldArchive",
+    "value" : "org.eclipse.osgi-3.15.200.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "org.eclipse.osgi-3.17.100.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method java.lang.String org.eclipse.osgi.internal.weaving.WovenClassImpl::getHookClassName()",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.eclipse.osgi.internal.weaving"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.eclipse.osgi.internal.weaving.WovenClassImpl"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "WovenClassImpl"
+  }, {
+    "name" : "methodName",
+    "value" : "getHookClassName"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "org.eclipse.osgi-3.15.200.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method java.lang.String org.eclipse.osgi.internal.weaving.WovenClassImpl::getHookMethodName()",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.eclipse.osgi.internal.weaving"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.eclipse.osgi.internal.weaving.WovenClassImpl"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "WovenClassImpl"
+  }, {
+    "name" : "methodName",
+    "value" : "getHookMethodName"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "org.eclipse.osgi-3.15.200.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method boolean org.eclipse.osgi.storage.BundleInfo.Generation::isReference()",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.eclipse.osgi.storage"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.eclipse.osgi.storage.BundleInfo.Generation"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "Generation"
+  }, {
+    "name" : "methodName",
+    "value" : "isReference"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "org.eclipse.osgi-3.15.200.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.field.constantValueChanged",
+  "old" : "field org.eclipse.osgi.storage.Storage.VERSION",
+  "new" : "field org.eclipse.osgi.storage.Storage.VERSION",
+  "name" : "constant field changed value",
+  "description" : "Constant field changed value from '5' to '6'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SEMANTIC",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldValue",
+    "value" : "5"
+  }, {
+    "name" : "newValue",
+    "value" : "6"
+  }, {
+    "name" : "package",
+    "value" : "org.eclipse.osgi.storage"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.eclipse.osgi.storage.Storage"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "Storage"
+  }, {
+    "name" : "fieldName",
+    "value" : "VERSION"
+  }, {
+    "name" : "elementKind",
+    "value" : "field"
+  }, {
+    "name" : "oldArchive",
+    "value" : "org.eclipse.osgi-3.15.200.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "org.eclipse.osgi-3.17.100.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.exception.checkedAdded",
+  "old" : "method java.net.URLConnection org.eclipse.osgi.storage.Storage::getContentConnection(org.eclipse.osgi.container.Module, java.lang.String, java.io.InputStream) throws java.io.IOException",
+  "new" : "method java.net.URLConnection org.eclipse.osgi.storage.Storage::getContentConnection(org.eclipse.osgi.container.Module, java.lang.String, java.io.InputStream) throws org.osgi.framework.BundleException",
+  "name" : "Method newly throws checked exceptions",
+  "description" : "Method newly throws checked exceptions: org.osgi.framework.BundleException.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "exception",
+    "value" : "org.osgi.framework.BundleException"
+  }, {
+    "name" : "package",
+    "value" : "org.eclipse.osgi.storage"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.eclipse.osgi.storage.Storage"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "Storage"
+  }, {
+    "name" : "methodName",
+    "value" : "getContentConnection"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "org.eclipse.osgi-3.15.200.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "org.eclipse.osgi-3.17.100.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.exception.checkedRemoved",
+  "old" : "method java.net.URLConnection org.eclipse.osgi.storage.Storage::getContentConnection(org.eclipse.osgi.container.Module, java.lang.String, java.io.InputStream) throws java.io.IOException",
+  "new" : "method java.net.URLConnection org.eclipse.osgi.storage.Storage::getContentConnection(org.eclipse.osgi.container.Module, java.lang.String, java.io.InputStream) throws org.osgi.framework.BundleException",
+  "name" : "Method no longer throws checked exceptions",
+  "description" : "Method no longer throws checked exceptions: java.io.IOException.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "exception",
+    "value" : "java.io.IOException"
+  }, {
+    "name" : "package",
+    "value" : "org.eclipse.osgi.storage"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.eclipse.osgi.storage.Storage"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "Storage"
+  }, {
+    "name" : "methodName",
+    "value" : "getContentConnection"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "org.eclipse.osgi-3.15.200.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "org.eclipse.osgi-3.17.100.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.parameterTypeChanged",
+  "old" : "parameter org.eclipse.osgi.storage.BundleInfo.Generation org.eclipse.osgi.storage.Storage::install(org.eclipse.osgi.container.Module, java.lang.String, ===java.net.URLConnection===) throws org.osgi.framework.BundleException",
+  "new" : "parameter org.eclipse.osgi.storage.BundleInfo.Generation org.eclipse.osgi.storage.Storage::install(org.eclipse.osgi.container.Module, java.lang.String, ===java.io.InputStream===) throws org.osgi.framework.BundleException",
+  "name" : "parameter type changed",
+  "description" : "The type of the parameter changed from 'java.net.URLConnection' to 'java.io.InputStream'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "POTENTIALLY_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "java.net.URLConnection"
+  }, {
+    "name" : "newType",
+    "value" : "java.io.InputStream"
+  }, {
+    "name" : "package",
+    "value" : "org.eclipse.osgi.storage"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.eclipse.osgi.storage.Storage"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "Storage"
+  }, {
+    "name" : "methodName",
+    "value" : "install"
+  }, {
+    "name" : "parameterIndex",
+    "value" : "2"
+  }, {
+    "name" : "elementKind",
+    "value" : "parameter"
+  }, {
+    "name" : "oldArchive",
+    "value" : "org.eclipse.osgi-3.15.200.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "org.eclipse.osgi-3.17.100.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.visibilityReduced",
+  "old" : "method org.eclipse.osgi.storage.BundleInfo.Generation org.eclipse.osgi.storage.Storage::update(org.eclipse.osgi.container.Module, java.net.URLConnection) throws org.osgi.framework.BundleException",
+  "new" : "method org.eclipse.osgi.storage.BundleInfo.Generation org.eclipse.osgi.storage.Storage::update(org.eclipse.osgi.container.Module, java.net.URLConnection) throws org.osgi.framework.BundleException",
+  "name" : "visibility reduced",
+  "description" : "visibility reduced",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldVisibility",
+    "value" : "public"
+  }, {
+    "name" : "newVisibility",
+    "value" : "private"
+  }, {
+    "name" : "package",
+    "value" : "org.eclipse.osgi.storage"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.eclipse.osgi.storage.Storage"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "Storage"
+  }, {
+    "name" : "methodName",
+    "value" : "update"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "org.eclipse.osgi-3.15.200.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "org.eclipse.osgi-3.17.100.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.returnTypeChanged",
+  "old" : "method boolean org.eclipse.osgi.storage.StorageUtil::move(java.io.File, java.io.File, boolean)",
+  "new" : "method void org.eclipse.osgi.storage.StorageUtil::move(java.io.File, java.io.File, boolean) throws java.io.IOException",
+  "name" : "return type changed",
+  "description" : "The return type changed from 'boolean' to  'void'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "POTENTIALLY_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "boolean"
+  }, {
+    "name" : "newType",
+    "value" : "void"
+  }, {
+    "name" : "package",
+    "value" : "org.eclipse.osgi.storage"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.eclipse.osgi.storage.StorageUtil"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "StorageUtil"
+  }, {
+    "name" : "methodName",
+    "value" : "move"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "org.eclipse.osgi-3.15.200.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "org.eclipse.osgi-3.17.100.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.exception.checkedAdded",
+  "old" : "method boolean org.eclipse.osgi.storage.StorageUtil::move(java.io.File, java.io.File, boolean)",
+  "new" : "method void org.eclipse.osgi.storage.StorageUtil::move(java.io.File, java.io.File, boolean) throws java.io.IOException",
+  "name" : "Method newly throws checked exceptions",
+  "description" : "Method newly throws checked exceptions: java.io.IOException.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "exception",
+    "value" : "java.io.IOException"
+  }, {
+    "name" : "package",
+    "value" : "org.eclipse.osgi.storage"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.eclipse.osgi.storage.StorageUtil"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "StorageUtil"
+  }, {
+    "name" : "methodName",
+    "value" : "move"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "org.eclipse.osgi-3.15.200.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "org.eclipse.osgi-3.17.100.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.numberOfParametersChanged",
+  "old" : "method void org.eclipse.osgi.storage.bundlefile.ZipBundleFile::<init>(java.io.File, org.eclipse.osgi.storage.BundleInfo.Generation, org.eclipse.osgi.storage.bundlefile.MRUBundleFileList, org.eclipse.osgi.internal.debug.Debug) throws java.io.IOException",
+  "new" : "method void org.eclipse.osgi.storage.bundlefile.ZipBundleFile::<init>(java.io.File, org.eclipse.osgi.storage.BundleInfo.Generation, org.eclipse.osgi.storage.bundlefile.MRUBundleFileList, org.eclipse.osgi.internal.debug.Debug, boolean) throws java.io.IOException",
+  "name" : "number of parameters changed",
+  "description" : "The number of parameters of the method have changed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.eclipse.osgi.storage.bundlefile"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.eclipse.osgi.storage.bundlefile.ZipBundleFile"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "ZipBundleFile"
+  }, {
+    "name" : "methodName",
+    "value" : "<init>"
+  }, {
+    "name" : "elementKind",
+    "value" : "constructor"
+  }, {
+    "name" : "oldArchive",
+    "value" : "org.eclipse.osgi-3.15.200.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "org.eclipse.osgi-3.17.100.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.numberOfParametersChanged",
+  "old" : "method void org.eclipse.osgi.storage.url.BundleURLConnection::<init>(java.net.URL, org.eclipse.osgi.storage.bundlefile.BundleEntry)",
+  "new" : "method void org.eclipse.osgi.storage.url.BundleURLConnection::<init>(java.net.URL, org.eclipse.osgi.container.ModuleContainer, org.eclipse.osgi.storage.bundlefile.BundleEntry)",
+  "name" : "number of parameters changed",
+  "description" : "The number of parameters of the method have changed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.eclipse.osgi.storage.url"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.eclipse.osgi.storage.url.BundleURLConnection"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "BundleURLConnection"
+  }, {
+    "name" : "methodName",
+    "value" : "<init>"
+  }, {
+    "name" : "elementKind",
+    "value" : "constructor"
+  }, {
+    "name" : "oldArchive",
+    "value" : "org.eclipse.osgi-3.15.200.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "org.eclipse.osgi-3.17.100.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.addedToInterface",
+  "old" : null,
+  "new" : "method <A> A org.osgi.framework.ServiceReference<S>::adapt(java.lang.Class<A>)",
+  "name" : "method added to interface",
+  "description" : "Method was added to an interface.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SEMANTIC",
+    "severity" : "POTENTIALLY_BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.osgi.framework"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.osgi.framework.ServiceReference"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "ServiceReference"
+  }, {
+    "name" : "methodName",
+    "value" : "adapt"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "newArchive",
+    "value" : "org.eclipse.osgi-3.17.100.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+} ]

@@ -1,0 +1,1284 @@
+[ {
+  "code" : "java.class.removed",
+  "old" : "class org.dhatim.dropwizard.sentry.logging.DelegateAppender",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.dhatim.dropwizard.sentry.logging"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.dhatim.dropwizard.sentry.logging.DelegateAppender"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "DelegateAppender"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "dropwizard-sentry-2.0.22.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class org.dhatim.dropwizard.sentry.logging.LoggingEventWithContext",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.dhatim.dropwizard.sentry.logging"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.dhatim.dropwizard.sentry.logging.LoggingEventWithContext"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "LoggingEventWithContext"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "dropwizard-sentry-2.0.22.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class org.dhatim.dropwizard.sentry.logging.SentryAppenderEx",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.dhatim.dropwizard.sentry.logging"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.dhatim.dropwizard.sentry.logging.SentryAppenderEx"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "SentryAppenderEx"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "dropwizard-sentry-2.0.22.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method java.lang.String org.dhatim.dropwizard.sentry.logging.SentryAppenderFactory::getDsn()",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.dhatim.dropwizard.sentry.logging"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.dhatim.dropwizard.sentry.logging.SentryAppenderFactory"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "SentryAppenderFactory"
+  }, {
+    "name" : "methodName",
+    "value" : "getDsn"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "dropwizard-sentry-2.0.22.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method java.util.Optional<java.lang.String> org.dhatim.dropwizard.sentry.logging.SentryAppenderFactory::getEnvironment()",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.dhatim.dropwizard.sentry.logging"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.dhatim.dropwizard.sentry.logging.SentryAppenderFactory"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "SentryAppenderFactory"
+  }, {
+    "name" : "methodName",
+    "value" : "getEnvironment"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "dropwizard-sentry-2.0.22.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method java.util.Optional<java.util.Map<java.lang.String, java.lang.Object>> org.dhatim.dropwizard.sentry.logging.SentryAppenderFactory::getExtra()",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.dhatim.dropwizard.sentry.logging"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.dhatim.dropwizard.sentry.logging.SentryAppenderFactory"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "SentryAppenderFactory"
+  }, {
+    "name" : "methodName",
+    "value" : "getExtra"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "dropwizard-sentry-2.0.22.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method java.util.Optional<java.util.Set<java.lang.String>> org.dhatim.dropwizard.sentry.logging.SentryAppenderFactory::getMdcTags()",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.dhatim.dropwizard.sentry.logging"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.dhatim.dropwizard.sentry.logging.SentryAppenderFactory"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "SentryAppenderFactory"
+  }, {
+    "name" : "methodName",
+    "value" : "getMdcTags"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "dropwizard-sentry-2.0.22.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method java.util.Optional<java.lang.String> org.dhatim.dropwizard.sentry.logging.SentryAppenderFactory::getRelease()",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.dhatim.dropwizard.sentry.logging"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.dhatim.dropwizard.sentry.logging.SentryAppenderFactory"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "SentryAppenderFactory"
+  }, {
+    "name" : "methodName",
+    "value" : "getRelease"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "dropwizard-sentry-2.0.22.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method java.util.Optional<java.lang.String> org.dhatim.dropwizard.sentry.logging.SentryAppenderFactory::getSentryClientFactory()",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.dhatim.dropwizard.sentry.logging"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.dhatim.dropwizard.sentry.logging.SentryAppenderFactory"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "SentryAppenderFactory"
+  }, {
+    "name" : "methodName",
+    "value" : "getSentryClientFactory"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "dropwizard-sentry-2.0.22.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method java.util.Optional<java.lang.String> org.dhatim.dropwizard.sentry.logging.SentryAppenderFactory::getServerName()",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.dhatim.dropwizard.sentry.logging"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.dhatim.dropwizard.sentry.logging.SentryAppenderFactory"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "SentryAppenderFactory"
+  }, {
+    "name" : "methodName",
+    "value" : "getServerName"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "dropwizard-sentry-2.0.22.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method java.util.Optional<java.util.List<java.lang.String>> org.dhatim.dropwizard.sentry.logging.SentryAppenderFactory::getStacktraceAppPackages()",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.dhatim.dropwizard.sentry.logging"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.dhatim.dropwizard.sentry.logging.SentryAppenderFactory"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "SentryAppenderFactory"
+  }, {
+    "name" : "methodName",
+    "value" : "getStacktraceAppPackages"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "dropwizard-sentry-2.0.22.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method java.util.Optional<java.util.Map<java.lang.String, java.lang.String>> org.dhatim.dropwizard.sentry.logging.SentryAppenderFactory::getTags()",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.dhatim.dropwizard.sentry.logging"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.dhatim.dropwizard.sentry.logging.SentryAppenderFactory"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "SentryAppenderFactory"
+  }, {
+    "name" : "methodName",
+    "value" : "getTags"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "dropwizard-sentry-2.0.22.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method void org.dhatim.dropwizard.sentry.logging.SentryAppenderFactory::setDsn(java.lang.String)",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.dhatim.dropwizard.sentry.logging"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.dhatim.dropwizard.sentry.logging.SentryAppenderFactory"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "SentryAppenderFactory"
+  }, {
+    "name" : "methodName",
+    "value" : "setDsn"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "dropwizard-sentry-2.0.22.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method void org.dhatim.dropwizard.sentry.logging.SentryAppenderFactory::setEnvironment(java.util.Optional<java.lang.String>)",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.dhatim.dropwizard.sentry.logging"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.dhatim.dropwizard.sentry.logging.SentryAppenderFactory"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "SentryAppenderFactory"
+  }, {
+    "name" : "methodName",
+    "value" : "setEnvironment"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "dropwizard-sentry-2.0.22.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method void org.dhatim.dropwizard.sentry.logging.SentryAppenderFactory::setExtra(java.util.Optional<java.util.Map<java.lang.String, java.lang.Object>>)",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.dhatim.dropwizard.sentry.logging"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.dhatim.dropwizard.sentry.logging.SentryAppenderFactory"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "SentryAppenderFactory"
+  }, {
+    "name" : "methodName",
+    "value" : "setExtra"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "dropwizard-sentry-2.0.22.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method void org.dhatim.dropwizard.sentry.logging.SentryAppenderFactory::setMdcTags(java.util.Optional<java.util.Set<java.lang.String>>)",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.dhatim.dropwizard.sentry.logging"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.dhatim.dropwizard.sentry.logging.SentryAppenderFactory"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "SentryAppenderFactory"
+  }, {
+    "name" : "methodName",
+    "value" : "setMdcTags"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "dropwizard-sentry-2.0.22.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method void org.dhatim.dropwizard.sentry.logging.SentryAppenderFactory::setRelease(java.util.Optional<java.lang.String>)",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.dhatim.dropwizard.sentry.logging"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.dhatim.dropwizard.sentry.logging.SentryAppenderFactory"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "SentryAppenderFactory"
+  }, {
+    "name" : "methodName",
+    "value" : "setRelease"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "dropwizard-sentry-2.0.22.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method void org.dhatim.dropwizard.sentry.logging.SentryAppenderFactory::setSentryClientFactory(java.util.Optional<java.lang.String>)",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.dhatim.dropwizard.sentry.logging"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.dhatim.dropwizard.sentry.logging.SentryAppenderFactory"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "SentryAppenderFactory"
+  }, {
+    "name" : "methodName",
+    "value" : "setSentryClientFactory"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "dropwizard-sentry-2.0.22.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method void org.dhatim.dropwizard.sentry.logging.SentryAppenderFactory::setServerName(java.util.Optional<java.lang.String>)",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.dhatim.dropwizard.sentry.logging"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.dhatim.dropwizard.sentry.logging.SentryAppenderFactory"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "SentryAppenderFactory"
+  }, {
+    "name" : "methodName",
+    "value" : "setServerName"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "dropwizard-sentry-2.0.22.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method void org.dhatim.dropwizard.sentry.logging.SentryAppenderFactory::setStacktraceAppPackages(java.util.Optional<java.util.List<java.lang.String>>)",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.dhatim.dropwizard.sentry.logging"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.dhatim.dropwizard.sentry.logging.SentryAppenderFactory"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "SentryAppenderFactory"
+  }, {
+    "name" : "methodName",
+    "value" : "setStacktraceAppPackages"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "dropwizard-sentry-2.0.22.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method void org.dhatim.dropwizard.sentry.logging.SentryAppenderFactory::setTags(java.util.Optional<java.util.Map<java.lang.String, java.lang.String>>)",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.dhatim.dropwizard.sentry.logging"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.dhatim.dropwizard.sentry.logging.SentryAppenderFactory"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "SentryAppenderFactory"
+  }, {
+    "name" : "methodName",
+    "value" : "setTags"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "dropwizard-sentry-2.0.22.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method org.dhatim.dropwizard.sentry.logging.SentryBootstrap.Builder org.dhatim.dropwizard.sentry.logging.SentryBootstrap.Builder::withMdcTags(java.util.Set<java.lang.String>)",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.dhatim.dropwizard.sentry.logging"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.dhatim.dropwizard.sentry.logging.SentryBootstrap.Builder"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "Builder"
+  }, {
+    "name" : "methodName",
+    "value" : "withMdcTags"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "dropwizard-sentry-2.0.22.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.numberOfParametersChanged",
+  "old" : "method void org.dhatim.dropwizard.sentry.logging.SentryBootstrap::bootstrap(java.lang.String, java.util.Optional<java.util.Set<java.lang.String>>, boolean)",
+  "new" : "method void org.dhatim.dropwizard.sentry.logging.SentryBootstrap::bootstrap(java.lang.String, java.lang.String, java.lang.String, boolean)",
+  "name" : "number of parameters changed",
+  "description" : "The number of parameters of the method have changed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.dhatim.dropwizard.sentry.logging"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.dhatim.dropwizard.sentry.logging.SentryBootstrap"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "SentryBootstrap"
+  }, {
+    "name" : "methodName",
+    "value" : "bootstrap"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "dropwizard-sentry-2.0.22.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "dropwizard-sentry-2.0.28-4.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.parameterTypeChanged",
+  "old" : "parameter void org.dhatim.dropwizard.sentry.logging.SentryBootstrap::bootstrap(java.lang.String, ===java.util.Optional<java.util.Set<java.lang.String>>===, java.util.Optional<java.lang.String>, java.util.Optional<java.lang.String>, boolean)",
+  "new" : "parameter void org.dhatim.dropwizard.sentry.logging.SentryBootstrap::bootstrap(java.lang.String, ===java.lang.String===, java.lang.String, java.lang.String, boolean)",
+  "name" : "parameter type changed",
+  "description" : "The type of the parameter changed from 'java.util.Optional<java.util.Set<java.lang.String>>' to 'java.lang.String'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "POTENTIALLY_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "java.util.Optional<java.util.Set<java.lang.String>>"
+  }, {
+    "name" : "newType",
+    "value" : "java.lang.String"
+  }, {
+    "name" : "package",
+    "value" : "org.dhatim.dropwizard.sentry.logging"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.dhatim.dropwizard.sentry.logging.SentryBootstrap"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "SentryBootstrap"
+  }, {
+    "name" : "methodName",
+    "value" : "bootstrap"
+  }, {
+    "name" : "parameterIndex",
+    "value" : "1"
+  }, {
+    "name" : "elementKind",
+    "value" : "parameter"
+  }, {
+    "name" : "oldArchive",
+    "value" : "dropwizard-sentry-2.0.22.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "dropwizard-sentry-2.0.28-4.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.parameterTypeChanged",
+  "old" : "parameter void org.dhatim.dropwizard.sentry.logging.SentryBootstrap::bootstrap(java.lang.String, java.util.Optional<java.util.Set<java.lang.String>>, ===java.util.Optional<java.lang.String>===, java.util.Optional<java.lang.String>, boolean)",
+  "new" : "parameter void org.dhatim.dropwizard.sentry.logging.SentryBootstrap::bootstrap(java.lang.String, java.lang.String, ===java.lang.String===, java.lang.String, boolean)",
+  "name" : "parameter type changed",
+  "description" : "The type of the parameter changed from 'java.util.Optional<java.lang.String>' to 'java.lang.String'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "POTENTIALLY_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "java.util.Optional<java.lang.String>"
+  }, {
+    "name" : "newType",
+    "value" : "java.lang.String"
+  }, {
+    "name" : "package",
+    "value" : "org.dhatim.dropwizard.sentry.logging"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.dhatim.dropwizard.sentry.logging.SentryBootstrap"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "SentryBootstrap"
+  }, {
+    "name" : "methodName",
+    "value" : "bootstrap"
+  }, {
+    "name" : "parameterIndex",
+    "value" : "2"
+  }, {
+    "name" : "elementKind",
+    "value" : "parameter"
+  }, {
+    "name" : "oldArchive",
+    "value" : "dropwizard-sentry-2.0.22.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "dropwizard-sentry-2.0.28-4.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.parameterTypeChanged",
+  "old" : "parameter void org.dhatim.dropwizard.sentry.logging.SentryBootstrap::bootstrap(java.lang.String, java.util.Optional<java.util.Set<java.lang.String>>, java.util.Optional<java.lang.String>, ===java.util.Optional<java.lang.String>===, boolean)",
+  "new" : "parameter void org.dhatim.dropwizard.sentry.logging.SentryBootstrap::bootstrap(java.lang.String, java.lang.String, java.lang.String, ===java.lang.String===, boolean)",
+  "name" : "parameter type changed",
+  "description" : "The type of the parameter changed from 'java.util.Optional<java.lang.String>' to 'java.lang.String'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "POTENTIALLY_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "java.util.Optional<java.lang.String>"
+  }, {
+    "name" : "newType",
+    "value" : "java.lang.String"
+  }, {
+    "name" : "package",
+    "value" : "org.dhatim.dropwizard.sentry.logging"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.dhatim.dropwizard.sentry.logging.SentryBootstrap"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "SentryBootstrap"
+  }, {
+    "name" : "methodName",
+    "value" : "bootstrap"
+  }, {
+    "name" : "parameterIndex",
+    "value" : "3"
+  }, {
+    "name" : "elementKind",
+    "value" : "parameter"
+  }, {
+    "name" : "oldArchive",
+    "value" : "dropwizard-sentry-2.0.22.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "dropwizard-sentry-2.0.28-4.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.parameterTypeChanged",
+  "old" : "parameter void org.dhatim.dropwizard.sentry.logging.SentryBootstrap::bootstrap(java.lang.String, ===java.util.Optional<java.util.Set<java.lang.String>>===, java.util.Optional<java.lang.String>, java.util.Optional<java.lang.String>, java.util.Optional<java.lang.String>, boolean)",
+  "new" : "parameter void org.dhatim.dropwizard.sentry.logging.SentryBootstrap::bootstrap(java.lang.String, ===java.lang.String===, java.lang.String, java.lang.String, java.lang.String, boolean)",
+  "name" : "parameter type changed",
+  "description" : "The type of the parameter changed from 'java.util.Optional<java.util.Set<java.lang.String>>' to 'java.lang.String'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "POTENTIALLY_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "java.util.Optional<java.util.Set<java.lang.String>>"
+  }, {
+    "name" : "newType",
+    "value" : "java.lang.String"
+  }, {
+    "name" : "package",
+    "value" : "org.dhatim.dropwizard.sentry.logging"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.dhatim.dropwizard.sentry.logging.SentryBootstrap"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "SentryBootstrap"
+  }, {
+    "name" : "methodName",
+    "value" : "bootstrap"
+  }, {
+    "name" : "parameterIndex",
+    "value" : "1"
+  }, {
+    "name" : "elementKind",
+    "value" : "parameter"
+  }, {
+    "name" : "oldArchive",
+    "value" : "dropwizard-sentry-2.0.22.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "dropwizard-sentry-2.0.28-4.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.parameterTypeChanged",
+  "old" : "parameter void org.dhatim.dropwizard.sentry.logging.SentryBootstrap::bootstrap(java.lang.String, java.util.Optional<java.util.Set<java.lang.String>>, ===java.util.Optional<java.lang.String>===, java.util.Optional<java.lang.String>, java.util.Optional<java.lang.String>, boolean)",
+  "new" : "parameter void org.dhatim.dropwizard.sentry.logging.SentryBootstrap::bootstrap(java.lang.String, java.lang.String, ===java.lang.String===, java.lang.String, java.lang.String, boolean)",
+  "name" : "parameter type changed",
+  "description" : "The type of the parameter changed from 'java.util.Optional<java.lang.String>' to 'java.lang.String'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "POTENTIALLY_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "java.util.Optional<java.lang.String>"
+  }, {
+    "name" : "newType",
+    "value" : "java.lang.String"
+  }, {
+    "name" : "package",
+    "value" : "org.dhatim.dropwizard.sentry.logging"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.dhatim.dropwizard.sentry.logging.SentryBootstrap"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "SentryBootstrap"
+  }, {
+    "name" : "methodName",
+    "value" : "bootstrap"
+  }, {
+    "name" : "parameterIndex",
+    "value" : "2"
+  }, {
+    "name" : "elementKind",
+    "value" : "parameter"
+  }, {
+    "name" : "oldArchive",
+    "value" : "dropwizard-sentry-2.0.22.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "dropwizard-sentry-2.0.28-4.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.parameterTypeChanged",
+  "old" : "parameter void org.dhatim.dropwizard.sentry.logging.SentryBootstrap::bootstrap(java.lang.String, java.util.Optional<java.util.Set<java.lang.String>>, java.util.Optional<java.lang.String>, ===java.util.Optional<java.lang.String>===, java.util.Optional<java.lang.String>, boolean)",
+  "new" : "parameter void org.dhatim.dropwizard.sentry.logging.SentryBootstrap::bootstrap(java.lang.String, java.lang.String, java.lang.String, ===java.lang.String===, java.lang.String, boolean)",
+  "name" : "parameter type changed",
+  "description" : "The type of the parameter changed from 'java.util.Optional<java.lang.String>' to 'java.lang.String'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "POTENTIALLY_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "java.util.Optional<java.lang.String>"
+  }, {
+    "name" : "newType",
+    "value" : "java.lang.String"
+  }, {
+    "name" : "package",
+    "value" : "org.dhatim.dropwizard.sentry.logging"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.dhatim.dropwizard.sentry.logging.SentryBootstrap"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "SentryBootstrap"
+  }, {
+    "name" : "methodName",
+    "value" : "bootstrap"
+  }, {
+    "name" : "parameterIndex",
+    "value" : "3"
+  }, {
+    "name" : "elementKind",
+    "value" : "parameter"
+  }, {
+    "name" : "oldArchive",
+    "value" : "dropwizard-sentry-2.0.22.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "dropwizard-sentry-2.0.28-4.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.parameterTypeChanged",
+  "old" : "parameter void org.dhatim.dropwizard.sentry.logging.SentryBootstrap::bootstrap(java.lang.String, java.util.Optional<java.util.Set<java.lang.String>>, java.util.Optional<java.lang.String>, java.util.Optional<java.lang.String>, ===java.util.Optional<java.lang.String>===, boolean)",
+  "new" : "parameter void org.dhatim.dropwizard.sentry.logging.SentryBootstrap::bootstrap(java.lang.String, java.lang.String, java.lang.String, java.lang.String, ===java.lang.String===, boolean)",
+  "name" : "parameter type changed",
+  "description" : "The type of the parameter changed from 'java.util.Optional<java.lang.String>' to 'java.lang.String'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "POTENTIALLY_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "java.util.Optional<java.lang.String>"
+  }, {
+    "name" : "newType",
+    "value" : "java.lang.String"
+  }, {
+    "name" : "package",
+    "value" : "org.dhatim.dropwizard.sentry.logging"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.dhatim.dropwizard.sentry.logging.SentryBootstrap"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "SentryBootstrap"
+  }, {
+    "name" : "methodName",
+    "value" : "bootstrap"
+  }, {
+    "name" : "parameterIndex",
+    "value" : "4"
+  }, {
+    "name" : "elementKind",
+    "value" : "parameter"
+  }, {
+    "name" : "oldArchive",
+    "value" : "dropwizard-sentry-2.0.22.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "dropwizard-sentry-2.0.28-4.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method void org.dhatim.dropwizard.sentry.logging.SentryBootstrap::bootstrap(java.lang.String, java.util.Optional<java.lang.String>, java.util.Optional<java.util.Set<java.lang.String>>, java.util.Optional<java.lang.String>, java.util.Optional<java.lang.String>, java.util.Optional<java.lang.String>, boolean)",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.dhatim.dropwizard.sentry.logging"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.dhatim.dropwizard.sentry.logging.SentryBootstrap"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "SentryBootstrap"
+  }, {
+    "name" : "methodName",
+    "value" : "bootstrap"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "dropwizard-sentry-2.0.22.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class org.dhatim.dropwizard.sentry.logging.UncaughtExceptionHandlers",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.dhatim.dropwizard.sentry.logging"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.dhatim.dropwizard.sentry.logging.UncaughtExceptionHandlers"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "UncaughtExceptionHandlers"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "dropwizard-sentry-2.0.22.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+} ]

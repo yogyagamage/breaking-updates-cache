@@ -1,0 +1,3062 @@
+[ {
+  "code" : "java.class.removed",
+  "old" : "@interface org.springframework.cloud.stream.annotation.EnableBinding",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.springframework.cloud.stream.annotation"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.springframework.cloud.stream.annotation.EnableBinding"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "EnableBinding"
+  }, {
+    "name" : "elementKind",
+    "value" : "@interface"
+  }, {
+    "name" : "oldArchive",
+    "value" : "spring-cloud-stream-3.0.7.RELEASE.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "@interface org.springframework.cloud.stream.annotation.Input",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.springframework.cloud.stream.annotation"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.springframework.cloud.stream.annotation.Input"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "Input"
+  }, {
+    "name" : "elementKind",
+    "value" : "@interface"
+  }, {
+    "name" : "oldArchive",
+    "value" : "spring-cloud-stream-3.0.7.RELEASE.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "@interface org.springframework.cloud.stream.annotation.Output",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.springframework.cloud.stream.annotation"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.springframework.cloud.stream.annotation.Output"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "Output"
+  }, {
+    "name" : "elementKind",
+    "value" : "@interface"
+  }, {
+    "name" : "oldArchive",
+    "value" : "spring-cloud-stream-3.0.7.RELEASE.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "@interface org.springframework.cloud.stream.annotation.StreamListener",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.springframework.cloud.stream.annotation"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.springframework.cloud.stream.annotation.StreamListener"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "StreamListener"
+  }, {
+    "name" : "elementKind",
+    "value" : "@interface"
+  }, {
+    "name" : "oldArchive",
+    "value" : "spring-cloud-stream-3.0.7.RELEASE.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "@interface org.springframework.cloud.stream.annotation.StreamMessageConverter",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.springframework.cloud.stream.annotation"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.springframework.cloud.stream.annotation.StreamMessageConverter"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "StreamMessageConverter"
+  }, {
+    "name" : "elementKind",
+    "value" : "@interface"
+  }, {
+    "name" : "oldArchive",
+    "value" : "spring-cloud-stream-3.0.7.RELEASE.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.numberOfParametersChanged",
+  "old" : "method java.lang.String org.springframework.cloud.stream.binder.AbstractMessageChannelBinder<C extends org.springframework.cloud.stream.binder.ConsumerProperties, P extends org.springframework.cloud.stream.binder.ProducerProperties, PP extends org.springframework.cloud.stream.provisioning.ProvisioningProvider<C, P>>::errorsBaseName(org.springframework.cloud.stream.provisioning.ProducerDestination)",
+  "new" : "method java.lang.String org.springframework.cloud.stream.binder.AbstractMessageChannelBinder<C extends org.springframework.cloud.stream.binder.ConsumerProperties, P extends org.springframework.cloud.stream.binder.ProducerProperties, PP extends org.springframework.cloud.stream.provisioning.ProvisioningProvider<C, P>>::errorsBaseName(org.springframework.cloud.stream.provisioning.ProducerDestination, java.lang.String)",
+  "name" : "number of parameters changed",
+  "description" : "The number of parameters of the method have changed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.springframework.cloud.stream.binder"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.springframework.cloud.stream.binder.AbstractMessageChannelBinder"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "AbstractMessageChannelBinder"
+  }, {
+    "name" : "methodName",
+    "value" : "errorsBaseName"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "spring-cloud-stream-3.0.7.RELEASE.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "spring-cloud-stream-4.0.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.numberOfParametersChanged",
+  "old" : "method java.lang.String org.springframework.cloud.stream.binder.AbstractMessageChannelBinder<C extends org.springframework.cloud.stream.binder.ConsumerProperties, P extends org.springframework.cloud.stream.binder.ProducerProperties, PP extends org.springframework.cloud.stream.provisioning.ProvisioningProvider<C, P>>::getErrorBridgeName(org.springframework.cloud.stream.provisioning.ProducerDestination)",
+  "new" : "method java.lang.String org.springframework.cloud.stream.binder.AbstractMessageChannelBinder<C extends org.springframework.cloud.stream.binder.ConsumerProperties, P extends org.springframework.cloud.stream.binder.ProducerProperties, PP extends org.springframework.cloud.stream.provisioning.ProvisioningProvider<C, P>>::getErrorBridgeName(org.springframework.cloud.stream.provisioning.ProducerDestination, java.lang.String)",
+  "name" : "number of parameters changed",
+  "description" : "The number of parameters of the method have changed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.springframework.cloud.stream.binder"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.springframework.cloud.stream.binder.AbstractMessageChannelBinder"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "AbstractMessageChannelBinder"
+  }, {
+    "name" : "methodName",
+    "value" : "getErrorBridgeName"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "spring-cloud-stream-3.0.7.RELEASE.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "spring-cloud-stream-4.0.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.numberOfParametersChanged",
+  "old" : "method void org.springframework.cloud.stream.binder.DefaultBinderFactory::<init>(java.util.Map<java.lang.String, org.springframework.cloud.stream.binder.BinderConfiguration>, org.springframework.cloud.stream.binder.BinderTypeRegistry)",
+  "new" : "method void org.springframework.cloud.stream.binder.DefaultBinderFactory::<init>(java.util.Map<java.lang.String, org.springframework.cloud.stream.binder.BinderConfiguration>, org.springframework.cloud.stream.binder.BinderTypeRegistry, org.springframework.cloud.stream.binder.BinderCustomizer)",
+  "name" : "number of parameters changed",
+  "description" : "The number of parameters of the method have changed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.springframework.cloud.stream.binder"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.springframework.cloud.stream.binder.DefaultBinderFactory"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "DefaultBinderFactory"
+  }, {
+    "name" : "methodName",
+    "value" : "<init>"
+  }, {
+    "name" : "elementKind",
+    "value" : "constructor"
+  }, {
+    "name" : "oldArchive",
+    "value" : "spring-cloud-stream-3.0.7.RELEASE.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "spring-cloud-stream-4.0.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.nonPublicPartOfAPI",
+  "old" : "interface org.springframework.cloud.stream.binder.LastSubscriberAwareChannel",
+  "new" : "interface org.springframework.cloud.stream.binder.LastSubscriberAwareChannel",
+  "name" : "non-public class in API",
+  "description" : "Class 'org.springframework.cloud.stream.binder.LastSubscriberAwareChannel' is indirectly included in the API (by the means of method return type for example) but the class is not accessible (neither public nor protected).",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SEMANTIC",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "classSimpleName",
+    "value" : "LastSubscriberAwareChannel"
+  }, {
+    "name" : "exampleUseChainInNewApi",
+    "value" : "org.springframework.cloud.stream.binder.LastSubscriberAwareChannel is used as parameter in method org.springframework.messaging.MessageHandler org.springframework.cloud.stream.binder.AbstractMessageChannelBinder<C extends org.springframework.cloud.stream.binder.ConsumerProperties, P extends org.springframework.cloud.stream.binder.ProducerProperties, PP extends org.springframework.cloud.stream.provisioning.ProvisioningProvider<C, P>>::getDefaultErrorMessageHandler(org.springframework.cloud.stream.binder.LastSubscriberAwareChannel, boolean) (method org.springframework.messaging.MessageHandler org.springframework.cloud.stream.binder.AbstractMessageChannelBinder<C extends org.springframework.cloud.stream.binder.ConsumerProperties, P extends org.springframework.cloud.stream.binder.ProducerProperties, PP extends org.springframework.cloud.stream.provisioning.ProvisioningProvider<C, P>>::getDefaultErrorMessageHandler(org.springframework.cloud.stream.binder.LastSubscriberAwareChannel, boolean) is part of the API)"
+  }, {
+    "name" : "package",
+    "value" : "org.springframework.cloud.stream.binder"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.springframework.cloud.stream.binder.LastSubscriberAwareChannel"
+  }, {
+    "name" : "exampleUseChainInOldApi",
+    "value" : "org.springframework.cloud.stream.binder.LastSubscriberAwareChannel is used as parameter in method org.springframework.messaging.MessageHandler org.springframework.cloud.stream.binder.AbstractMessageChannelBinder<C extends org.springframework.cloud.stream.binder.ConsumerProperties, P extends org.springframework.cloud.stream.binder.ProducerProperties, PP extends org.springframework.cloud.stream.provisioning.ProvisioningProvider<C, P>>::getDefaultErrorMessageHandler(org.springframework.cloud.stream.binder.LastSubscriberAwareChannel, boolean) (method org.springframework.messaging.MessageHandler org.springframework.cloud.stream.binder.AbstractMessageChannelBinder<C extends org.springframework.cloud.stream.binder.ConsumerProperties, P extends org.springframework.cloud.stream.binder.ProducerProperties, PP extends org.springframework.cloud.stream.provisioning.ProvisioningProvider<C, P>>::getDefaultErrorMessageHandler(org.springframework.cloud.stream.binder.LastSubscriberAwareChannel, boolean) is part of the API)"
+  }, {
+    "name" : "elementKind",
+    "value" : "interface"
+  }, {
+    "name" : "oldArchive",
+    "value" : "spring-cloud-stream-3.0.7.RELEASE.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "spring-cloud-stream-4.0.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class org.springframework.cloud.stream.binding.BinderAwareChannelResolver",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.springframework.cloud.stream.binding"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.springframework.cloud.stream.binding.BinderAwareChannelResolver"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "BinderAwareChannelResolver"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "spring-cloud-stream-3.0.7.RELEASE.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class org.springframework.cloud.stream.binding.BindingBeanDefinitionRegistryUtils",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.springframework.cloud.stream.binding"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.springframework.cloud.stream.binding.BindingBeanDefinitionRegistryUtils"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "BindingBeanDefinitionRegistryUtils"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "spring-cloud-stream-3.0.7.RELEASE.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.numberOfParametersChanged",
+  "old" : "method void org.springframework.cloud.stream.binding.BindingService::<init>(org.springframework.cloud.stream.config.BindingServiceProperties, org.springframework.cloud.stream.binder.BinderFactory)",
+  "new" : "method void org.springframework.cloud.stream.binding.BindingService::<init>(org.springframework.cloud.stream.config.BindingServiceProperties, org.springframework.cloud.stream.binder.BinderFactory, com.fasterxml.jackson.databind.ObjectMapper)",
+  "name" : "number of parameters changed",
+  "description" : "The number of parameters of the method have changed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.springframework.cloud.stream.binding"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.springframework.cloud.stream.binding.BindingService"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "BindingService"
+  }, {
+    "name" : "methodName",
+    "value" : "<init>"
+  }, {
+    "name" : "elementKind",
+    "value" : "constructor"
+  }, {
+    "name" : "oldArchive",
+    "value" : "spring-cloud-stream-3.0.7.RELEASE.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "spring-cloud-stream-4.0.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.numberOfParametersChanged",
+  "old" : "method void org.springframework.cloud.stream.binding.BindingService::<init>(org.springframework.cloud.stream.config.BindingServiceProperties, org.springframework.cloud.stream.binder.BinderFactory, org.springframework.scheduling.TaskScheduler)",
+  "new" : "method void org.springframework.cloud.stream.binding.BindingService::<init>(org.springframework.cloud.stream.config.BindingServiceProperties, org.springframework.cloud.stream.binder.BinderFactory, org.springframework.scheduling.TaskScheduler, com.fasterxml.jackson.databind.ObjectMapper)",
+  "name" : "number of parameters changed",
+  "description" : "The number of parameters of the method have changed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.springframework.cloud.stream.binding"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.springframework.cloud.stream.binding.BindingService"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "BindingService"
+  }, {
+    "name" : "methodName",
+    "value" : "<init>"
+  }, {
+    "name" : "elementKind",
+    "value" : "constructor"
+  }, {
+    "name" : "oldArchive",
+    "value" : "spring-cloud-stream-3.0.7.RELEASE.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "spring-cloud-stream-4.0.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class org.springframework.cloud.stream.binding.MessageChannelStreamListenerResultAdapter",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.springframework.cloud.stream.binding"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.springframework.cloud.stream.binding.MessageChannelStreamListenerResultAdapter"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "MessageChannelStreamListenerResultAdapter"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "spring-cloud-stream-3.0.7.RELEASE.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class org.springframework.cloud.stream.binding.StreamAnnotationCommonMethodUtils",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.springframework.cloud.stream.binding"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.springframework.cloud.stream.binding.StreamAnnotationCommonMethodUtils"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "StreamAnnotationCommonMethodUtils"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "spring-cloud-stream-3.0.7.RELEASE.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class org.springframework.cloud.stream.binding.StreamListenerAnnotationBeanPostProcessor",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.springframework.cloud.stream.binding"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.springframework.cloud.stream.binding.StreamListenerAnnotationBeanPostProcessor"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "StreamListenerAnnotationBeanPostProcessor"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "spring-cloud-stream-3.0.7.RELEASE.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class org.springframework.cloud.stream.binding.StreamListenerErrorMessages",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.springframework.cloud.stream.binding"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.springframework.cloud.stream.binding.StreamListenerErrorMessages"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "StreamListenerErrorMessages"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "spring-cloud-stream-3.0.7.RELEASE.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class org.springframework.cloud.stream.binding.StreamListenerMessageHandler",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.springframework.cloud.stream.binding"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.springframework.cloud.stream.binding.StreamListenerMessageHandler"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "StreamListenerMessageHandler"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "spring-cloud-stream-3.0.7.RELEASE.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class org.springframework.cloud.stream.binding.StreamListenerMethodUtils",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.springframework.cloud.stream.binding"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.springframework.cloud.stream.binding.StreamListenerMethodUtils"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "StreamListenerMethodUtils"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "spring-cloud-stream-3.0.7.RELEASE.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "interface org.springframework.cloud.stream.binding.StreamListenerParameterAdapter<A, B>",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.springframework.cloud.stream.binding"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.springframework.cloud.stream.binding.StreamListenerParameterAdapter"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "StreamListenerParameterAdapter"
+  }, {
+    "name" : "elementKind",
+    "value" : "interface"
+  }, {
+    "name" : "oldArchive",
+    "value" : "spring-cloud-stream-3.0.7.RELEASE.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "interface org.springframework.cloud.stream.binding.StreamListenerResultAdapter<R, B>",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.springframework.cloud.stream.binding"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.springframework.cloud.stream.binding.StreamListenerResultAdapter"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "StreamListenerResultAdapter"
+  }, {
+    "name" : "elementKind",
+    "value" : "interface"
+  }, {
+    "name" : "oldArchive",
+    "value" : "spring-cloud-stream-3.0.7.RELEASE.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "interface org.springframework.cloud.stream.binding.StreamListenerSetupMethodOrchestrator",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.springframework.cloud.stream.binding"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.springframework.cloud.stream.binding.StreamListenerSetupMethodOrchestrator"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "StreamListenerSetupMethodOrchestrator"
+  }, {
+    "name" : "elementKind",
+    "value" : "interface"
+  }, {
+    "name" : "oldArchive",
+    "value" : "spring-cloud-stream-3.0.7.RELEASE.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class org.springframework.cloud.stream.config.BindingBeansRegistrar",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.springframework.cloud.stream.config"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.springframework.cloud.stream.config.BindingBeansRegistrar"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "BindingBeansRegistrar"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "spring-cloud-stream-3.0.7.RELEASE.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.field.removedWithConstant",
+  "old" : "field org.springframework.cloud.stream.config.BindingServiceConfiguration.STREAM_LISTENER_ANNOTATION_BEAN_POST_PROCESSOR_NAME",
+  "new" : null,
+  "name" : "field with constant removed",
+  "description" : "Field with constant value has been removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SEMANTIC",
+    "severity" : "POTENTIALLY_BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.springframework.cloud.stream.config"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.springframework.cloud.stream.config.BindingServiceConfiguration"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "BindingServiceConfiguration"
+  }, {
+    "name" : "fieldName",
+    "value" : "STREAM_LISTENER_ANNOTATION_BEAN_POST_PROCESSOR_NAME"
+  }, {
+    "name" : "elementKind",
+    "value" : "field"
+  }, {
+    "name" : "oldArchive",
+    "value" : "spring-cloud-stream-3.0.7.RELEASE.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method org.springframework.cloud.stream.binding.BinderAwareChannelResolver org.springframework.cloud.stream.config.BindingServiceConfiguration::binderAwareChannelResolver(org.springframework.cloud.stream.binding.BindingService, org.springframework.cloud.stream.binding.AbstractBindingTargetFactory<? extends org.springframework.messaging.MessageChannel>, org.springframework.cloud.stream.binding.DynamicDestinationsBindable, org.springframework.cloud.stream.binding.BinderAwareChannelResolver.NewDestinationBindingCallback)",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.springframework.cloud.stream.config"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.springframework.cloud.stream.config.BindingServiceConfiguration"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "BindingServiceConfiguration"
+  }, {
+    "name" : "methodName",
+    "value" : "binderAwareChannelResolver"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "spring-cloud-stream-3.0.7.RELEASE.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method org.springframework.cloud.stream.binding.BinderAwareRouter org.springframework.cloud.stream.config.BindingServiceConfiguration::binderAwareRouterBeanPostProcessor(org.springframework.integration.router.AbstractMappingMessageRouter[], org.springframework.messaging.core.DestinationResolver<org.springframework.messaging.MessageChannel>)",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.springframework.cloud.stream.config"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.springframework.cloud.stream.config.BindingServiceConfiguration"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "BindingServiceConfiguration"
+  }, {
+    "name" : "methodName",
+    "value" : "binderAwareRouterBeanPostProcessor"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "spring-cloud-stream-3.0.7.RELEASE.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.numberOfParametersChanged",
+  "old" : "method org.springframework.cloud.stream.binder.BinderFactory org.springframework.cloud.stream.config.BindingServiceConfiguration::binderFactory(org.springframework.cloud.stream.binder.BinderTypeRegistry, org.springframework.cloud.stream.config.BindingServiceProperties)",
+  "new" : "method org.springframework.cloud.stream.binder.DefaultBinderFactory org.springframework.cloud.stream.config.BindingServiceConfiguration::binderFactory(org.springframework.cloud.stream.binder.BinderTypeRegistry, org.springframework.cloud.stream.config.BindingServiceProperties, org.springframework.beans.factory.ObjectProvider<org.springframework.cloud.stream.binder.BinderCustomizer>, org.springframework.cloud.stream.binder.BinderChildContextInitializer)",
+  "name" : "number of parameters changed",
+  "description" : "The number of parameters of the method have changed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.springframework.cloud.stream.config"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.springframework.cloud.stream.config.BindingServiceConfiguration"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "BindingServiceConfiguration"
+  }, {
+    "name" : "methodName",
+    "value" : "binderFactory"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "spring-cloud-stream-3.0.7.RELEASE.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "spring-cloud-stream-4.0.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.returnTypeChangedCovariantly",
+  "old" : "method org.springframework.cloud.stream.binder.BinderFactory org.springframework.cloud.stream.config.BindingServiceConfiguration::binderFactory(org.springframework.cloud.stream.binder.BinderTypeRegistry, org.springframework.cloud.stream.config.BindingServiceProperties)",
+  "new" : "method org.springframework.cloud.stream.binder.DefaultBinderFactory org.springframework.cloud.stream.config.BindingServiceConfiguration::binderFactory(org.springframework.cloud.stream.binder.BinderTypeRegistry, org.springframework.cloud.stream.config.BindingServiceProperties, org.springframework.beans.factory.ObjectProvider<org.springframework.cloud.stream.binder.BinderCustomizer>, org.springframework.cloud.stream.binder.BinderChildContextInitializer)",
+  "name" : "return type changed covariantly",
+  "description" : "The return type changed covariantly from 'org.springframework.cloud.stream.binder.BinderFactory' to 'org.springframework.cloud.stream.binder.DefaultBinderFactory'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "org.springframework.cloud.stream.binder.BinderFactory"
+  }, {
+    "name" : "newType",
+    "value" : "org.springframework.cloud.stream.binder.DefaultBinderFactory"
+  }, {
+    "name" : "package",
+    "value" : "org.springframework.cloud.stream.config"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.springframework.cloud.stream.config.BindingServiceConfiguration"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "BindingServiceConfiguration"
+  }, {
+    "name" : "methodName",
+    "value" : "binderFactory"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "spring-cloud-stream-3.0.7.RELEASE.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "spring-cloud-stream-4.0.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.numberOfParametersChanged",
+  "old" : "method org.springframework.cloud.stream.binding.BindingService org.springframework.cloud.stream.config.BindingServiceConfiguration::bindingService(org.springframework.cloud.stream.config.BindingServiceProperties, org.springframework.cloud.stream.binder.BinderFactory, org.springframework.scheduling.TaskScheduler)",
+  "new" : "method org.springframework.cloud.stream.binding.BindingService org.springframework.cloud.stream.config.BindingServiceConfiguration::bindingService(org.springframework.cloud.stream.config.BindingServiceProperties, org.springframework.cloud.stream.binder.BinderFactory, org.springframework.scheduling.TaskScheduler, com.fasterxml.jackson.databind.ObjectMapper)",
+  "name" : "number of parameters changed",
+  "description" : "The number of parameters of the method have changed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.springframework.cloud.stream.config"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.springframework.cloud.stream.config.BindingServiceConfiguration"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "BindingServiceConfiguration"
+  }, {
+    "name" : "methodName",
+    "value" : "bindingService"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "spring-cloud-stream-3.0.7.RELEASE.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "spring-cloud-stream-4.0.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method org.springframework.cloud.stream.binding.MessageChannelStreamListenerResultAdapter org.springframework.cloud.stream.config.BindingServiceConfiguration::messageChannelStreamListenerResultAdapter()",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.springframework.cloud.stream.config"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.springframework.cloud.stream.config.BindingServiceConfiguration"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "BindingServiceConfiguration"
+  }, {
+    "name" : "methodName",
+    "value" : "messageChannelStreamListenerResultAdapter"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "spring-cloud-stream-3.0.7.RELEASE.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method org.springframework.cloud.stream.binding.StreamListenerAnnotationBeanPostProcessor org.springframework.cloud.stream.config.BindingServiceConfiguration::streamListenerAnnotationBeanPostProcessor()",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.springframework.cloud.stream.config"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.springframework.cloud.stream.config.BindingServiceConfiguration"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "BindingServiceConfiguration"
+  }, {
+    "name" : "methodName",
+    "value" : "streamListenerAnnotationBeanPostProcessor"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "spring-cloud-stream-3.0.7.RELEASE.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.numberOfParametersChanged",
+  "old" : "method org.springframework.cloud.stream.endpoint.BindingsEndpoint org.springframework.cloud.stream.config.BindingsEndpointAutoConfiguration::bindingsEndpoint(java.util.List<org.springframework.cloud.stream.binding.InputBindingLifecycle>, java.util.List<org.springframework.cloud.stream.binding.OutputBindingLifecycle>)",
+  "new" : "method org.springframework.cloud.stream.endpoint.BindingsEndpoint org.springframework.cloud.stream.config.BindingsEndpointAutoConfiguration::bindingsEndpoint(org.springframework.cloud.stream.binding.BindingsLifecycleController)",
+  "name" : "number of parameters changed",
+  "description" : "The number of parameters of the method have changed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.springframework.cloud.stream.config"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.springframework.cloud.stream.config.BindingsEndpointAutoConfiguration"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "BindingsEndpointAutoConfiguration"
+  }, {
+    "name" : "methodName",
+    "value" : "bindingsEndpoint"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "spring-cloud-stream-3.0.7.RELEASE.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "spring-cloud-stream-4.0.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class org.springframework.cloud.stream.config.ChannelBindingAutoConfiguration",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.springframework.cloud.stream.config"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.springframework.cloud.stream.config.ChannelBindingAutoConfiguration"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "ChannelBindingAutoConfiguration"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "spring-cloud-stream-3.0.7.RELEASE.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class org.springframework.cloud.stream.config.DefaultPollerProperties",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.springframework.cloud.stream.config"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.springframework.cloud.stream.config.DefaultPollerProperties"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "DefaultPollerProperties"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "spring-cloud-stream-3.0.7.RELEASE.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.numberOfParametersChanged",
+  "old" : "method org.springframework.core.convert.converter.Converter<java.lang.String, org.springframework.expression.Expression> org.springframework.cloud.stream.config.SpelExpressionConverterConfiguration::spelConverter()",
+  "new" : "method org.springframework.core.convert.converter.Converter<java.lang.String, org.springframework.expression.Expression> org.springframework.cloud.stream.config.SpelExpressionConverterConfiguration::spelConverter(org.springframework.context.ConfigurableApplicationContext)",
+  "name" : "number of parameters changed",
+  "description" : "The number of parameters of the method have changed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.springframework.cloud.stream.config"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.springframework.cloud.stream.config.SpelExpressionConverterConfiguration"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "SpelExpressionConverterConfiguration"
+  }, {
+    "name" : "methodName",
+    "value" : "spelConverter"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "spring-cloud-stream-3.0.7.RELEASE.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "spring-cloud-stream-4.0.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.numberOfParametersChanged",
+  "old" : "method void org.springframework.cloud.stream.converter.CompositeMessageConverterFactory::<init>(java.util.List<? extends org.springframework.messaging.converter.MessageConverter>, com.fasterxml.jackson.databind.ObjectMapper)",
+  "new" : "method void org.springframework.cloud.stream.converter.CompositeMessageConverterFactory::<init>(java.util.List<? extends org.springframework.messaging.converter.MessageConverter>, com.fasterxml.jackson.databind.ObjectMapper, org.springframework.cloud.function.json.JsonMapper)",
+  "name" : "number of parameters changed",
+  "description" : "The number of parameters of the method have changed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.springframework.cloud.stream.converter"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.springframework.cloud.stream.converter.CompositeMessageConverterFactory"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "CompositeMessageConverterFactory"
+  }, {
+    "name" : "methodName",
+    "value" : "<init>"
+  }, {
+    "name" : "elementKind",
+    "value" : "constructor"
+  }, {
+    "name" : "oldArchive",
+    "value" : "spring-cloud-stream-3.0.7.RELEASE.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "spring-cloud-stream-4.0.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "enum org.springframework.cloud.stream.endpoint.BindingsEndpoint.State",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.springframework.cloud.stream.endpoint"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.springframework.cloud.stream.endpoint.BindingsEndpoint.State"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "State"
+  }, {
+    "name" : "elementKind",
+    "value" : "enum"
+  }, {
+    "name" : "oldArchive",
+    "value" : "spring-cloud-stream-3.0.7.RELEASE.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.numberOfParametersChanged",
+  "old" : "method void org.springframework.cloud.stream.endpoint.BindingsEndpoint::<init>(java.util.List<org.springframework.cloud.stream.binding.InputBindingLifecycle>, java.util.List<org.springframework.cloud.stream.binding.OutputBindingLifecycle>)",
+  "new" : "method void org.springframework.cloud.stream.endpoint.BindingsEndpoint::<init>(org.springframework.cloud.stream.binding.BindingsLifecycleController)",
+  "name" : "number of parameters changed",
+  "description" : "The number of parameters of the method have changed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.springframework.cloud.stream.endpoint"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.springframework.cloud.stream.endpoint.BindingsEndpoint"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "BindingsEndpoint"
+  }, {
+    "name" : "methodName",
+    "value" : "<init>"
+  }, {
+    "name" : "elementKind",
+    "value" : "constructor"
+  }, {
+    "name" : "oldArchive",
+    "value" : "spring-cloud-stream-3.0.7.RELEASE.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "spring-cloud-stream-4.0.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.parameterTypeChanged",
+  "old" : "parameter void org.springframework.cloud.stream.endpoint.BindingsEndpoint::changeState(java.lang.String, ===org.springframework.cloud.stream.endpoint.BindingsEndpoint.State===)",
+  "new" : "parameter void org.springframework.cloud.stream.endpoint.BindingsEndpoint::changeState(java.lang.String, ===org.springframework.cloud.stream.binding.BindingsLifecycleController.State===)",
+  "name" : "parameter type changed",
+  "description" : "The type of the parameter changed from 'org.springframework.cloud.stream.endpoint.BindingsEndpoint.State' to 'org.springframework.cloud.stream.binding.BindingsLifecycleController.State'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "POTENTIALLY_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "org.springframework.cloud.stream.endpoint.BindingsEndpoint.State"
+  }, {
+    "name" : "newType",
+    "value" : "org.springframework.cloud.stream.binding.BindingsLifecycleController.State"
+  }, {
+    "name" : "package",
+    "value" : "org.springframework.cloud.stream.endpoint"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.springframework.cloud.stream.endpoint.BindingsEndpoint"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "BindingsEndpoint"
+  }, {
+    "name" : "methodName",
+    "value" : "changeState"
+  }, {
+    "name" : "parameterIndex",
+    "value" : "1"
+  }, {
+    "name" : "elementKind",
+    "value" : "parameter"
+  }, {
+    "name" : "oldArchive",
+    "value" : "spring-cloud-stream-3.0.7.RELEASE.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "spring-cloud-stream-4.0.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.numberOfParametersChanged",
+  "old" : "method org.springframework.beans.factory.InitializingBean org.springframework.cloud.stream.function.FunctionConfiguration::functionInitializer(org.springframework.cloud.function.context.FunctionCatalog, org.springframework.cloud.function.context.catalog.FunctionInspector, org.springframework.cloud.stream.function.StreamFunctionProperties, org.springframework.cloud.stream.binding.BindableProxyFactory[], org.springframework.cloud.stream.config.BindingServiceProperties, org.springframework.context.ConfigurableApplicationContext, org.springframework.cloud.stream.function.FunctionConfiguration.FunctionBindingRegistrar, org.springframework.cloud.stream.function.StreamBridge)",
+  "new" : "method org.springframework.beans.factory.InitializingBean org.springframework.cloud.stream.function.FunctionConfiguration::functionInitializer(org.springframework.cloud.function.context.FunctionCatalog, org.springframework.cloud.stream.function.StreamFunctionProperties, org.springframework.cloud.stream.config.BindingServiceProperties, org.springframework.context.ConfigurableApplicationContext, org.springframework.cloud.stream.function.StreamBridge)",
+  "name" : "number of parameters changed",
+  "description" : "The number of parameters of the method have changed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.springframework.cloud.stream.function"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.springframework.cloud.stream.function.FunctionConfiguration"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "FunctionConfiguration"
+  }, {
+    "name" : "methodName",
+    "value" : "functionInitializer"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "spring-cloud-stream-3.0.7.RELEASE.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "spring-cloud-stream-4.0.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.parameterTypeChanged",
+  "old" : "parameter org.springframework.cloud.stream.function.StreamBridge org.springframework.cloud.stream.function.FunctionConfiguration::streamBridgeUtils(org.springframework.cloud.function.context.FunctionCatalog, ===org.springframework.cloud.function.context.FunctionRegistry===, org.springframework.cloud.stream.config.BindingServiceProperties, org.springframework.context.ConfigurableApplicationContext)",
+  "new" : "parameter org.springframework.cloud.stream.function.StreamBridge org.springframework.cloud.stream.function.FunctionConfiguration::streamBridgeUtils(org.springframework.cloud.function.context.FunctionCatalog, ===org.springframework.cloud.stream.config.BindingServiceProperties===, org.springframework.context.ConfigurableApplicationContext, org.springframework.cloud.stream.binding.NewDestinationBindingCallback)",
+  "name" : "parameter type changed",
+  "description" : "The type of the parameter changed from 'org.springframework.cloud.function.context.FunctionRegistry' to 'org.springframework.cloud.stream.config.BindingServiceProperties'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "POTENTIALLY_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "org.springframework.cloud.function.context.FunctionRegistry"
+  }, {
+    "name" : "newType",
+    "value" : "org.springframework.cloud.stream.config.BindingServiceProperties"
+  }, {
+    "name" : "package",
+    "value" : "org.springframework.cloud.stream.function"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.springframework.cloud.stream.function.FunctionConfiguration"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "FunctionConfiguration"
+  }, {
+    "name" : "methodName",
+    "value" : "streamBridgeUtils"
+  }, {
+    "name" : "parameterIndex",
+    "value" : "1"
+  }, {
+    "name" : "elementKind",
+    "value" : "parameter"
+  }, {
+    "name" : "oldArchive",
+    "value" : "spring-cloud-stream-3.0.7.RELEASE.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "spring-cloud-stream-4.0.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.parameterTypeChanged",
+  "old" : "parameter org.springframework.cloud.stream.function.StreamBridge org.springframework.cloud.stream.function.FunctionConfiguration::streamBridgeUtils(org.springframework.cloud.function.context.FunctionCatalog, org.springframework.cloud.function.context.FunctionRegistry, ===org.springframework.cloud.stream.config.BindingServiceProperties===, org.springframework.context.ConfigurableApplicationContext)",
+  "new" : "parameter org.springframework.cloud.stream.function.StreamBridge org.springframework.cloud.stream.function.FunctionConfiguration::streamBridgeUtils(org.springframework.cloud.function.context.FunctionCatalog, org.springframework.cloud.stream.config.BindingServiceProperties, ===org.springframework.context.ConfigurableApplicationContext===, org.springframework.cloud.stream.binding.NewDestinationBindingCallback)",
+  "name" : "parameter type changed",
+  "description" : "The type of the parameter changed from 'org.springframework.cloud.stream.config.BindingServiceProperties' to 'org.springframework.context.ConfigurableApplicationContext'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "POTENTIALLY_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "org.springframework.cloud.stream.config.BindingServiceProperties"
+  }, {
+    "name" : "newType",
+    "value" : "org.springframework.context.ConfigurableApplicationContext"
+  }, {
+    "name" : "package",
+    "value" : "org.springframework.cloud.stream.function"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.springframework.cloud.stream.function.FunctionConfiguration"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "FunctionConfiguration"
+  }, {
+    "name" : "methodName",
+    "value" : "streamBridgeUtils"
+  }, {
+    "name" : "parameterIndex",
+    "value" : "2"
+  }, {
+    "name" : "elementKind",
+    "value" : "parameter"
+  }, {
+    "name" : "oldArchive",
+    "value" : "spring-cloud-stream-3.0.7.RELEASE.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "spring-cloud-stream-4.0.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.parameterTypeChanged",
+  "old" : "parameter org.springframework.cloud.stream.function.StreamBridge org.springframework.cloud.stream.function.FunctionConfiguration::streamBridgeUtils(org.springframework.cloud.function.context.FunctionCatalog, org.springframework.cloud.function.context.FunctionRegistry, org.springframework.cloud.stream.config.BindingServiceProperties, ===org.springframework.context.ConfigurableApplicationContext===)",
+  "new" : "parameter org.springframework.cloud.stream.function.StreamBridge org.springframework.cloud.stream.function.FunctionConfiguration::streamBridgeUtils(org.springframework.cloud.function.context.FunctionCatalog, org.springframework.cloud.stream.config.BindingServiceProperties, org.springframework.context.ConfigurableApplicationContext, ===org.springframework.cloud.stream.binding.NewDestinationBindingCallback===)",
+  "name" : "parameter type changed",
+  "description" : "The type of the parameter changed from 'org.springframework.context.ConfigurableApplicationContext' to 'org.springframework.cloud.stream.binding.NewDestinationBindingCallback'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "POTENTIALLY_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "org.springframework.context.ConfigurableApplicationContext"
+  }, {
+    "name" : "newType",
+    "value" : "org.springframework.cloud.stream.binding.NewDestinationBindingCallback"
+  }, {
+    "name" : "package",
+    "value" : "org.springframework.cloud.stream.function"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.springframework.cloud.stream.function.FunctionConfiguration"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "FunctionConfiguration"
+  }, {
+    "name" : "methodName",
+    "value" : "streamBridgeUtils"
+  }, {
+    "name" : "parameterIndex",
+    "value" : "3"
+  }, {
+    "name" : "elementKind",
+    "value" : "parameter"
+  }, {
+    "name" : "oldArchive",
+    "value" : "spring-cloud-stream-3.0.7.RELEASE.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "spring-cloud-stream-4.0.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.annotation.added",
+  "old" : "parameter org.springframework.cloud.stream.function.StreamBridge org.springframework.cloud.stream.function.FunctionConfiguration::streamBridgeUtils(org.springframework.cloud.function.context.FunctionCatalog, org.springframework.cloud.function.context.FunctionRegistry, org.springframework.cloud.stream.config.BindingServiceProperties, ===org.springframework.context.ConfigurableApplicationContext===)",
+  "new" : "parameter org.springframework.cloud.stream.function.StreamBridge org.springframework.cloud.stream.function.FunctionConfiguration::streamBridgeUtils(org.springframework.cloud.function.context.FunctionCatalog, org.springframework.cloud.stream.config.BindingServiceProperties, org.springframework.context.ConfigurableApplicationContext, ===org.springframework.cloud.stream.binding.NewDestinationBindingCallback===)",
+  "name" : "new annotation",
+  "description" : "Element newly annotated with 'org.springframework.lang.Nullable'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "EQUIVALENT"
+  }, {
+    "compatibility" : "SEMANTIC",
+    "severity" : "POTENTIALLY_BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "EQUIVALENT"
+  } ],
+  "attachments" : [ {
+    "name" : "annotationType",
+    "value" : "org.springframework.lang.Nullable"
+  }, {
+    "name" : "annotation",
+    "value" : "@org.springframework.lang.Nullable"
+  }, {
+    "name" : "package",
+    "value" : "org.springframework.cloud.stream.function"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.springframework.cloud.stream.function.FunctionConfiguration"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "FunctionConfiguration"
+  }, {
+    "name" : "methodName",
+    "value" : "streamBridgeUtils"
+  }, {
+    "name" : "parameterIndex",
+    "value" : "3"
+  }, {
+    "name" : "elementKind",
+    "value" : "parameter"
+  }, {
+    "name" : "oldArchive",
+    "value" : "spring-cloud-stream-3.0.7.RELEASE.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "spring-cloud-stream-4.0.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.visibilityReduced",
+  "old" : "method void org.springframework.cloud.stream.function.StreamFunctionProperties::setDefinition(java.lang.String)",
+  "new" : "method void org.springframework.cloud.stream.function.StreamFunctionProperties::setDefinition(java.lang.String)",
+  "name" : "visibility reduced",
+  "description" : "visibility reduced",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldVisibility",
+    "value" : "public"
+  }, {
+    "name" : "newVisibility",
+    "value" : "package"
+  }, {
+    "name" : "package",
+    "value" : "org.springframework.cloud.stream.function"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.springframework.cloud.stream.function.StreamFunctionProperties"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "StreamFunctionProperties"
+  }, {
+    "name" : "methodName",
+    "value" : "setDefinition"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "spring-cloud-stream-3.0.7.RELEASE.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "spring-cloud-stream-4.0.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class org.springframework.cloud.stream.internal.InternalPropertyNames",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.springframework.cloud.stream.internal"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.springframework.cloud.stream.internal.InternalPropertyNames"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "InternalPropertyNames"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "spring-cloud-stream-3.0.7.RELEASE.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.noLongerImplementsInterface",
+  "old" : "class org.springframework.cloud.stream.messaging.DirectWithAttributesChannel",
+  "new" : "class org.springframework.cloud.stream.messaging.DirectWithAttributesChannel",
+  "name" : "class no longer implements interface",
+  "description" : "Class no longer implements interface 'org.springframework.integration.support.management.ConfigurableMetricsAware<org.springframework.integration.support.management.AbstractMessageChannelMetrics>'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "interface",
+    "value" : "org.springframework.integration.support.management.ConfigurableMetricsAware<org.springframework.integration.support.management.AbstractMessageChannelMetrics>"
+  }, {
+    "name" : "package",
+    "value" : "org.springframework.cloud.stream.messaging"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.springframework.cloud.stream.messaging.DirectWithAttributesChannel"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "DirectWithAttributesChannel"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "spring-cloud-stream-3.0.7.RELEASE.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "spring-cloud-stream-4.0.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.field.typeChanged",
+  "old" : "field org.springframework.integration.context.IntegrationObjectSupport.logger @ org.springframework.cloud.stream.messaging.DirectWithAttributesChannel",
+  "new" : "field org.springframework.integration.context.IntegrationObjectSupport.logger @ org.springframework.cloud.stream.messaging.DirectWithAttributesChannel",
+  "name" : "field type changed",
+  "description" : "The type of the field changed from 'org.apache.commons.logging.Log' to 'org.springframework.core.log.LogAccessor'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "org.apache.commons.logging.Log"
+  }, {
+    "name" : "newType",
+    "value" : "org.springframework.core.log.LogAccessor"
+  }, {
+    "name" : "package",
+    "value" : "org.springframework.cloud.stream.messaging"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.springframework.cloud.stream.messaging.DirectWithAttributesChannel"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "DirectWithAttributesChannel"
+  }, {
+    "name" : "fieldName",
+    "value" : "logger"
+  }, {
+    "name" : "elementKind",
+    "value" : "field"
+  }, {
+    "name" : "oldArchive",
+    "value" : "spring-cloud-stream-3.0.7.RELEASE.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "spring-cloud-stream-4.0.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method void org.springframework.integration.channel.AbstractMessageChannel::configureMetrics(org.springframework.integration.support.management.AbstractMessageChannelMetrics) @ org.springframework.cloud.stream.messaging.DirectWithAttributesChannel",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.springframework.cloud.stream.messaging"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.springframework.cloud.stream.messaging.DirectWithAttributesChannel"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "DirectWithAttributesChannel"
+  }, {
+    "name" : "methodName",
+    "value" : "configureMetrics"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "spring-cloud-stream-3.0.7.RELEASE.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method org.springframework.integration.support.management.Statistics org.springframework.integration.channel.AbstractMessageChannel::getErrorRate() @ org.springframework.cloud.stream.messaging.DirectWithAttributesChannel",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.springframework.cloud.stream.messaging"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.springframework.cloud.stream.messaging.DirectWithAttributesChannel"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "DirectWithAttributesChannel"
+  }, {
+    "name" : "methodName",
+    "value" : "getErrorRate"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "spring-cloud-stream-3.0.7.RELEASE.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.returnTypeChanged",
+  "old" : "method java.util.Properties org.springframework.integration.context.IntegrationObjectSupport::getIntegrationProperties() @ org.springframework.cloud.stream.messaging.DirectWithAttributesChannel",
+  "new" : "method org.springframework.integration.context.IntegrationProperties org.springframework.integration.context.IntegrationObjectSupport::getIntegrationProperties() @ org.springframework.cloud.stream.messaging.DirectWithAttributesChannel",
+  "name" : "return type changed",
+  "description" : "The return type changed from 'java.util.Properties' to  'org.springframework.integration.context.IntegrationProperties'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "POTENTIALLY_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "java.util.Properties"
+  }, {
+    "name" : "newType",
+    "value" : "org.springframework.integration.context.IntegrationProperties"
+  }, {
+    "name" : "package",
+    "value" : "org.springframework.cloud.stream.messaging"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.springframework.cloud.stream.messaging.DirectWithAttributesChannel"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "DirectWithAttributesChannel"
+  }, {
+    "name" : "methodName",
+    "value" : "getIntegrationProperties"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "spring-cloud-stream-3.0.7.RELEASE.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "spring-cloud-stream-4.0.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method double org.springframework.integration.channel.AbstractMessageChannel::getMaxSendDuration() @ org.springframework.cloud.stream.messaging.DirectWithAttributesChannel",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.springframework.cloud.stream.messaging"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.springframework.cloud.stream.messaging.DirectWithAttributesChannel"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "DirectWithAttributesChannel"
+  }, {
+    "name" : "methodName",
+    "value" : "getMaxSendDuration"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "spring-cloud-stream-3.0.7.RELEASE.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method double org.springframework.integration.channel.AbstractMessageChannel::getMeanErrorRate() @ org.springframework.cloud.stream.messaging.DirectWithAttributesChannel",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.springframework.cloud.stream.messaging"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.springframework.cloud.stream.messaging.DirectWithAttributesChannel"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "DirectWithAttributesChannel"
+  }, {
+    "name" : "methodName",
+    "value" : "getMeanErrorRate"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "spring-cloud-stream-3.0.7.RELEASE.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method double org.springframework.integration.channel.AbstractMessageChannel::getMeanErrorRatio() @ org.springframework.cloud.stream.messaging.DirectWithAttributesChannel",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.springframework.cloud.stream.messaging"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.springframework.cloud.stream.messaging.DirectWithAttributesChannel"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "DirectWithAttributesChannel"
+  }, {
+    "name" : "methodName",
+    "value" : "getMeanErrorRatio"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "spring-cloud-stream-3.0.7.RELEASE.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method double org.springframework.integration.channel.AbstractMessageChannel::getMeanSendDuration() @ org.springframework.cloud.stream.messaging.DirectWithAttributesChannel",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.springframework.cloud.stream.messaging"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.springframework.cloud.stream.messaging.DirectWithAttributesChannel"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "DirectWithAttributesChannel"
+  }, {
+    "name" : "methodName",
+    "value" : "getMeanSendDuration"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "spring-cloud-stream-3.0.7.RELEASE.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method double org.springframework.integration.channel.AbstractMessageChannel::getMeanSendRate() @ org.springframework.cloud.stream.messaging.DirectWithAttributesChannel",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.springframework.cloud.stream.messaging"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.springframework.cloud.stream.messaging.DirectWithAttributesChannel"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "DirectWithAttributesChannel"
+  }, {
+    "name" : "methodName",
+    "value" : "getMeanSendRate"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "spring-cloud-stream-3.0.7.RELEASE.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method org.springframework.integration.support.management.AbstractMessageChannelMetrics org.springframework.integration.channel.AbstractMessageChannel::getMetrics() @ org.springframework.cloud.stream.messaging.DirectWithAttributesChannel",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.springframework.cloud.stream.messaging"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.springframework.cloud.stream.messaging.DirectWithAttributesChannel"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "DirectWithAttributesChannel"
+  }, {
+    "name" : "methodName",
+    "value" : "getMetrics"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "spring-cloud-stream-3.0.7.RELEASE.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method double org.springframework.integration.channel.AbstractMessageChannel::getMinSendDuration() @ org.springframework.cloud.stream.messaging.DirectWithAttributesChannel",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.springframework.cloud.stream.messaging"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.springframework.cloud.stream.messaging.DirectWithAttributesChannel"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "DirectWithAttributesChannel"
+  }, {
+    "name" : "methodName",
+    "value" : "getMinSendDuration"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "spring-cloud-stream-3.0.7.RELEASE.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method int org.springframework.integration.channel.AbstractMessageChannel::getSendCount() @ org.springframework.cloud.stream.messaging.DirectWithAttributesChannel",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.springframework.cloud.stream.messaging"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.springframework.cloud.stream.messaging.DirectWithAttributesChannel"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "DirectWithAttributesChannel"
+  }, {
+    "name" : "methodName",
+    "value" : "getSendCount"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "spring-cloud-stream-3.0.7.RELEASE.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method long org.springframework.integration.channel.AbstractMessageChannel::getSendCountLong() @ org.springframework.cloud.stream.messaging.DirectWithAttributesChannel",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.springframework.cloud.stream.messaging"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.springframework.cloud.stream.messaging.DirectWithAttributesChannel"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "DirectWithAttributesChannel"
+  }, {
+    "name" : "methodName",
+    "value" : "getSendCountLong"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "spring-cloud-stream-3.0.7.RELEASE.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method org.springframework.integration.support.management.Statistics org.springframework.integration.channel.AbstractMessageChannel::getSendDuration() @ org.springframework.cloud.stream.messaging.DirectWithAttributesChannel",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.springframework.cloud.stream.messaging"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.springframework.cloud.stream.messaging.DirectWithAttributesChannel"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "DirectWithAttributesChannel"
+  }, {
+    "name" : "methodName",
+    "value" : "getSendDuration"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "spring-cloud-stream-3.0.7.RELEASE.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method int org.springframework.integration.channel.AbstractMessageChannel::getSendErrorCount() @ org.springframework.cloud.stream.messaging.DirectWithAttributesChannel",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.springframework.cloud.stream.messaging"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.springframework.cloud.stream.messaging.DirectWithAttributesChannel"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "DirectWithAttributesChannel"
+  }, {
+    "name" : "methodName",
+    "value" : "getSendErrorCount"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "spring-cloud-stream-3.0.7.RELEASE.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method long org.springframework.integration.channel.AbstractMessageChannel::getSendErrorCountLong() @ org.springframework.cloud.stream.messaging.DirectWithAttributesChannel",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.springframework.cloud.stream.messaging"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.springframework.cloud.stream.messaging.DirectWithAttributesChannel"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "DirectWithAttributesChannel"
+  }, {
+    "name" : "methodName",
+    "value" : "getSendErrorCountLong"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "spring-cloud-stream-3.0.7.RELEASE.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method org.springframework.integration.support.management.Statistics org.springframework.integration.channel.AbstractMessageChannel::getSendRate() @ org.springframework.cloud.stream.messaging.DirectWithAttributesChannel",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.springframework.cloud.stream.messaging"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.springframework.cloud.stream.messaging.DirectWithAttributesChannel"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "DirectWithAttributesChannel"
+  }, {
+    "name" : "methodName",
+    "value" : "getSendRate"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "spring-cloud-stream-3.0.7.RELEASE.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method double org.springframework.integration.channel.AbstractMessageChannel::getStandardDeviationSendDuration() @ org.springframework.cloud.stream.messaging.DirectWithAttributesChannel",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.springframework.cloud.stream.messaging"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.springframework.cloud.stream.messaging.DirectWithAttributesChannel"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "DirectWithAttributesChannel"
+  }, {
+    "name" : "methodName",
+    "value" : "getStandardDeviationSendDuration"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "spring-cloud-stream-3.0.7.RELEASE.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method double org.springframework.integration.channel.AbstractMessageChannel::getTimeSinceLastSend() @ org.springframework.cloud.stream.messaging.DirectWithAttributesChannel",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.springframework.cloud.stream.messaging"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.springframework.cloud.stream.messaging.DirectWithAttributesChannel"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "DirectWithAttributesChannel"
+  }, {
+    "name" : "methodName",
+    "value" : "getTimeSinceLastSend"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "spring-cloud-stream-3.0.7.RELEASE.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method boolean org.springframework.integration.channel.AbstractMessageChannel::isCountsEnabled() @ org.springframework.cloud.stream.messaging.DirectWithAttributesChannel",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.springframework.cloud.stream.messaging"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.springframework.cloud.stream.messaging.DirectWithAttributesChannel"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "DirectWithAttributesChannel"
+  }, {
+    "name" : "methodName",
+    "value" : "isCountsEnabled"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "spring-cloud-stream-3.0.7.RELEASE.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method boolean org.springframework.integration.channel.AbstractMessageChannel::isStatsEnabled() @ org.springframework.cloud.stream.messaging.DirectWithAttributesChannel",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.springframework.cloud.stream.messaging"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.springframework.cloud.stream.messaging.DirectWithAttributesChannel"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "DirectWithAttributesChannel"
+  }, {
+    "name" : "methodName",
+    "value" : "isStatsEnabled"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "spring-cloud-stream-3.0.7.RELEASE.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method void org.springframework.integration.channel.AbstractMessageChannel::reset() @ org.springframework.cloud.stream.messaging.DirectWithAttributesChannel",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.springframework.cloud.stream.messaging"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.springframework.cloud.stream.messaging.DirectWithAttributesChannel"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "DirectWithAttributesChannel"
+  }, {
+    "name" : "methodName",
+    "value" : "reset"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "spring-cloud-stream-3.0.7.RELEASE.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method long org.springframework.integration.support.management.MessageChannelMetrics::sendCount() @ org.springframework.cloud.stream.messaging.DirectWithAttributesChannel",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.springframework.cloud.stream.messaging"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.springframework.cloud.stream.messaging.DirectWithAttributesChannel"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "DirectWithAttributesChannel"
+  }, {
+    "name" : "methodName",
+    "value" : "sendCount"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "spring-cloud-stream-3.0.7.RELEASE.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method long org.springframework.integration.support.management.MessageChannelMetrics::sendErrorCount() @ org.springframework.cloud.stream.messaging.DirectWithAttributesChannel",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.springframework.cloud.stream.messaging"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.springframework.cloud.stream.messaging.DirectWithAttributesChannel"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "DirectWithAttributesChannel"
+  }, {
+    "name" : "methodName",
+    "value" : "sendErrorCount"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "spring-cloud-stream-3.0.7.RELEASE.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method void org.springframework.integration.channel.AbstractMessageChannel::setCountsEnabled(boolean) @ org.springframework.cloud.stream.messaging.DirectWithAttributesChannel",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.springframework.cloud.stream.messaging"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.springframework.cloud.stream.messaging.DirectWithAttributesChannel"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "DirectWithAttributesChannel"
+  }, {
+    "name" : "methodName",
+    "value" : "setCountsEnabled"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "spring-cloud-stream-3.0.7.RELEASE.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method void org.springframework.integration.channel.AbstractMessageChannel::setStatsEnabled(boolean) @ org.springframework.cloud.stream.messaging.DirectWithAttributesChannel",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.springframework.cloud.stream.messaging"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.springframework.cloud.stream.messaging.DirectWithAttributesChannel"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "DirectWithAttributesChannel"
+  }, {
+    "name" : "methodName",
+    "value" : "setStatsEnabled"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "spring-cloud-stream-3.0.7.RELEASE.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "interface org.springframework.cloud.stream.messaging.Processor",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.springframework.cloud.stream.messaging"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.springframework.cloud.stream.messaging.Processor"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "Processor"
+  }, {
+    "name" : "elementKind",
+    "value" : "interface"
+  }, {
+    "name" : "oldArchive",
+    "value" : "spring-cloud-stream-3.0.7.RELEASE.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "interface org.springframework.cloud.stream.messaging.Sink",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.springframework.cloud.stream.messaging"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.springframework.cloud.stream.messaging.Sink"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "Sink"
+  }, {
+    "name" : "elementKind",
+    "value" : "interface"
+  }, {
+    "name" : "oldArchive",
+    "value" : "spring-cloud-stream-3.0.7.RELEASE.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "interface org.springframework.cloud.stream.messaging.Source",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.springframework.cloud.stream.messaging"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.springframework.cloud.stream.messaging.Source"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "Source"
+  }, {
+    "name" : "elementKind",
+    "value" : "interface"
+  }, {
+    "name" : "oldArchive",
+    "value" : "spring-cloud-stream-3.0.7.RELEASE.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class org.springframework.cloud.stream.micrometer.ApplicationMetricsProperties",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.springframework.cloud.stream.micrometer"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.springframework.cloud.stream.micrometer.ApplicationMetricsProperties"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "ApplicationMetricsProperties"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "spring-cloud-stream-3.0.7.RELEASE.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class org.springframework.cloud.stream.micrometer.DestinationPublishingMetricsAutoConfiguration",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.springframework.cloud.stream.micrometer"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.springframework.cloud.stream.micrometer.DestinationPublishingMetricsAutoConfiguration"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "DestinationPublishingMetricsAutoConfiguration"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "spring-cloud-stream-3.0.7.RELEASE.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "interface org.springframework.cloud.stream.micrometer.MetersPublisherBinding",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.springframework.cloud.stream.micrometer"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.springframework.cloud.stream.micrometer.MetersPublisherBinding"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "MetersPublisherBinding"
+  }, {
+    "name" : "elementKind",
+    "value" : "interface"
+  }, {
+    "name" : "oldArchive",
+    "value" : "spring-cloud-stream-3.0.7.RELEASE.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+} ]

@@ -1,0 +1,411 @@
+[ {
+  "code" : "java.class.removed",
+  "old" : "class com.artipie.asto.ArtipieStorage",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.artipie.asto"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.artipie.asto.ArtipieStorage"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "ArtipieStorage"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "asto-core-v1.13.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class com.artipie.asto.etcd.EtcdStorage",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.artipie.asto.etcd"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.artipie.asto.etcd.EtcdStorage"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "EtcdStorage"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "asto-core-v1.13.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class com.artipie.asto.etcd.EtcdStorageFactory",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.artipie.asto.etcd"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.artipie.asto.etcd.EtcdStorageFactory"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "EtcdStorageFactory"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "asto-core-v1.13.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "interface com.artipie.asto.factory.StorageConfig",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.artipie.asto.factory"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.artipie.asto.factory.StorageConfig"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "StorageConfig"
+  }, {
+    "name" : "elementKind",
+    "value" : "interface"
+  }, {
+    "name" : "oldArchive",
+    "value" : "asto-core-v1.13.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.parameterTypeChanged",
+  "old" : "parameter com.artipie.asto.Storage com.artipie.asto.factory.StorageFactory::newStorage(===com.artipie.asto.factory.StorageConfig===)",
+  "new" : "parameter com.artipie.asto.Storage com.artipie.asto.factory.StorageFactory::newStorage(===com.artipie.asto.factory.Config===)",
+  "name" : "parameter type changed",
+  "description" : "The type of the parameter changed from 'com.artipie.asto.factory.StorageConfig' to 'com.artipie.asto.factory.Config'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "POTENTIALLY_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "com.artipie.asto.factory.StorageConfig"
+  }, {
+    "name" : "newType",
+    "value" : "com.artipie.asto.factory.Config"
+  }, {
+    "name" : "package",
+    "value" : "com.artipie.asto.factory"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.artipie.asto.factory.StorageFactory"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "StorageFactory"
+  }, {
+    "name" : "methodName",
+    "value" : "newStorage"
+  }, {
+    "name" : "parameterIndex",
+    "value" : "0"
+  }, {
+    "name" : "elementKind",
+    "value" : "parameter"
+  }, {
+    "name" : "oldArchive",
+    "value" : "asto-core-v1.13.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "asto-core-v1.15.3.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class com.artipie.asto.factory.Storages",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.artipie.asto.factory"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.artipie.asto.factory.Storages"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "Storages"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "asto-core-v1.13.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.parameterTypeChanged",
+  "old" : "parameter com.artipie.asto.Storage com.artipie.asto.fs.FileStorageFactory::newStorage(===com.artipie.asto.factory.StorageConfig===)",
+  "new" : "parameter com.artipie.asto.Storage com.artipie.asto.fs.FileStorageFactory::newStorage(===com.artipie.asto.factory.Config===)",
+  "name" : "parameter type changed",
+  "description" : "The type of the parameter changed from 'com.artipie.asto.factory.StorageConfig' to 'com.artipie.asto.factory.Config'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "POTENTIALLY_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "com.artipie.asto.factory.StorageConfig"
+  }, {
+    "name" : "newType",
+    "value" : "com.artipie.asto.factory.Config"
+  }, {
+    "name" : "package",
+    "value" : "com.artipie.asto.fs"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.artipie.asto.fs.FileStorageFactory"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "FileStorageFactory"
+  }, {
+    "name" : "methodName",
+    "value" : "newStorage"
+  }, {
+    "name" : "parameterIndex",
+    "value" : "0"
+  }, {
+    "name" : "elementKind",
+    "value" : "parameter"
+  }, {
+    "name" : "oldArchive",
+    "value" : "asto-core-v1.13.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "asto-core-v1.15.3.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class com.artipie.asto.fs.VertxFileStorage",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.artipie.asto.fs"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.artipie.asto.fs.VertxFileStorage"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "VertxFileStorage"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "asto-core-v1.13.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class com.artipie.asto.fs.VertxRxFile",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.artipie.asto.fs"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.artipie.asto.fs.VertxRxFile"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "VertxRxFile"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "asto-core-v1.13.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class com.artipie.asto.s3.S3Storage",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.artipie.asto.s3"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.artipie.asto.s3.S3Storage"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "S3Storage"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "asto-core-v1.13.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class com.artipie.asto.s3.S3StorageFactory",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.artipie.asto.s3"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.artipie.asto.s3.S3StorageFactory"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "S3StorageFactory"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "asto-core-v1.13.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+} ]

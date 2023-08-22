@@ -1,0 +1,885 @@
+[ {
+  "code" : "java.class.removed",
+  "old" : "class com.google.api.services.translate.Translate",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.google.api.services.translate"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.google.api.services.translate.Translate"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "Translate"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "google-api-services-translate-v2-rev20170525-2.0.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class com.google.api.services.translate.TranslateRequest<T>",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.google.api.services.translate"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.google.api.services.translate.TranslateRequest"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "TranslateRequest"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "google-api-services-translate-v2-rev20170525-2.0.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class com.google.api.services.translate.TranslateRequestInitializer",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.google.api.services.translate"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.google.api.services.translate.TranslateRequestInitializer"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "TranslateRequestInitializer"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "google-api-services-translate-v2-rev20170525-2.0.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class com.google.api.services.translate.TranslateScopes",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.google.api.services.translate"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.google.api.services.translate.TranslateScopes"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "TranslateScopes"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "google-api-services-translate-v2-rev20170525-2.0.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class com.google.api.services.translate.model.DetectLanguageRequest",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.google.api.services.translate.model"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.google.api.services.translate.model.DetectLanguageRequest"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "DetectLanguageRequest"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "google-api-services-translate-v2-rev20170525-2.0.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class com.google.api.services.translate.model.DetectionsListResponse",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.google.api.services.translate.model"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.google.api.services.translate.model.DetectionsListResponse"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "DetectionsListResponse"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "google-api-services-translate-v2-rev20170525-2.0.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class com.google.api.services.translate.model.DetectionsResourceItems",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.google.api.services.translate.model"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.google.api.services.translate.model.DetectionsResourceItems"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "DetectionsResourceItems"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "google-api-services-translate-v2-rev20170525-2.0.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class com.google.api.services.translate.model.GetSupportedLanguagesRequest",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.google.api.services.translate.model"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.google.api.services.translate.model.GetSupportedLanguagesRequest"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "GetSupportedLanguagesRequest"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "google-api-services-translate-v2-rev20170525-2.0.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class com.google.api.services.translate.model.LanguagesListResponse",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.google.api.services.translate.model"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.google.api.services.translate.model.LanguagesListResponse"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "LanguagesListResponse"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "google-api-services-translate-v2-rev20170525-2.0.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class com.google.api.services.translate.model.LanguagesResource",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.google.api.services.translate.model"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.google.api.services.translate.model.LanguagesResource"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "LanguagesResource"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "google-api-services-translate-v2-rev20170525-2.0.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class com.google.api.services.translate.model.TranslateTextRequest",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.google.api.services.translate.model"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.google.api.services.translate.model.TranslateTextRequest"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "TranslateTextRequest"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "google-api-services-translate-v2-rev20170525-2.0.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class com.google.api.services.translate.model.TranslationsListResponse",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.google.api.services.translate.model"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.google.api.services.translate.model.TranslationsListResponse"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "TranslationsListResponse"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "google-api-services-translate-v2-rev20170525-2.0.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class com.google.api.services.translate.model.TranslationsResource",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.google.api.services.translate.model"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.google.api.services.translate.model.TranslationsResource"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "TranslationsResource"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "google-api-services-translate-v2-rev20170525-2.0.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+} ][ {
+  "code" : "java.class.removed",
+  "old" : "class com.google.api.services.translate.Translate",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.google.api.services.translate"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.google.api.services.translate.Translate"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "Translate"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "google-api-services-translate-v2-rev20170525-2.0.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class com.google.api.services.translate.TranslateRequest<T>",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.google.api.services.translate"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.google.api.services.translate.TranslateRequest"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "TranslateRequest"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "google-api-services-translate-v2-rev20170525-2.0.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class com.google.api.services.translate.TranslateRequestInitializer",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.google.api.services.translate"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.google.api.services.translate.TranslateRequestInitializer"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "TranslateRequestInitializer"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "google-api-services-translate-v2-rev20170525-2.0.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class com.google.api.services.translate.TranslateScopes",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.google.api.services.translate"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.google.api.services.translate.TranslateScopes"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "TranslateScopes"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "google-api-services-translate-v2-rev20170525-2.0.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class com.google.api.services.translate.model.DetectLanguageRequest",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.google.api.services.translate.model"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.google.api.services.translate.model.DetectLanguageRequest"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "DetectLanguageRequest"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "google-api-services-translate-v2-rev20170525-2.0.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class com.google.api.services.translate.model.DetectionsListResponse",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.google.api.services.translate.model"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.google.api.services.translate.model.DetectionsListResponse"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "DetectionsListResponse"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "google-api-services-translate-v2-rev20170525-2.0.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class com.google.api.services.translate.model.DetectionsResourceItems",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.google.api.services.translate.model"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.google.api.services.translate.model.DetectionsResourceItems"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "DetectionsResourceItems"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "google-api-services-translate-v2-rev20170525-2.0.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class com.google.api.services.translate.model.GetSupportedLanguagesRequest",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.google.api.services.translate.model"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.google.api.services.translate.model.GetSupportedLanguagesRequest"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "GetSupportedLanguagesRequest"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "google-api-services-translate-v2-rev20170525-2.0.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class com.google.api.services.translate.model.LanguagesListResponse",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.google.api.services.translate.model"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.google.api.services.translate.model.LanguagesListResponse"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "LanguagesListResponse"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "google-api-services-translate-v2-rev20170525-2.0.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class com.google.api.services.translate.model.LanguagesResource",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.google.api.services.translate.model"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.google.api.services.translate.model.LanguagesResource"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "LanguagesResource"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "google-api-services-translate-v2-rev20170525-2.0.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class com.google.api.services.translate.model.TranslateTextRequest",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.google.api.services.translate.model"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.google.api.services.translate.model.TranslateTextRequest"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "TranslateTextRequest"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "google-api-services-translate-v2-rev20170525-2.0.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class com.google.api.services.translate.model.TranslationsListResponse",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.google.api.services.translate.model"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.google.api.services.translate.model.TranslationsListResponse"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "TranslationsListResponse"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "google-api-services-translate-v2-rev20170525-2.0.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class com.google.api.services.translate.model.TranslationsResource",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.google.api.services.translate.model"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.google.api.services.translate.model.TranslationsResource"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "TranslationsResource"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "google-api-services-translate-v2-rev20170525-2.0.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+} ]

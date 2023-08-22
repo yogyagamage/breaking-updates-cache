@@ -1,0 +1,4578 @@
+[ {
+  "code" : "java.class.removed",
+  "old" : "class org.testng.GuiceHelper",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.testng"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.testng.GuiceHelper"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "GuiceHelper"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "testng-7.4.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.returnTypeTypeParametersChanged",
+  "old" : "method java.lang.Object org.testng.IObjectFactory::newInstance(java.lang.reflect.Constructor, java.lang.Object[])",
+  "new" : "method <T> T org.testng.ITestObjectFactory::newInstance(java.lang.Class<T>, java.lang.Object[]) @ org.testng.IObjectFactory",
+  "name" : "return type changed type parameter",
+  "description" : "The return type changed from 'java.lang.Object' to 'T'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "java.lang.Object"
+  }, {
+    "name" : "newType",
+    "value" : "T"
+  }, {
+    "name" : "package",
+    "value" : "org.testng"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.testng.IObjectFactory"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "IObjectFactory"
+  }, {
+    "name" : "methodName",
+    "value" : "newInstance"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "testng-7.4.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "testng-7.5.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.nowDefault",
+  "old" : "method java.lang.Object org.testng.IObjectFactory::newInstance(java.lang.reflect.Constructor, java.lang.Object[])",
+  "new" : "method <T> T org.testng.ITestObjectFactory::newInstance(java.lang.Class<T>, java.lang.Object[]) @ org.testng.IObjectFactory",
+  "name" : "mehod now default",
+  "description" : "Method has the default implementation in the interface now.",
+  "criticality" : "allowed",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "EQUIVALENT"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "EQUIVALENT"
+  } ],
+  "attachments" : [ {
+    "name" : "oldModifiers",
+    "value" : "public abstract"
+  }, {
+    "name" : "newModifiers",
+    "value" : "public default"
+  }, {
+    "name" : "package",
+    "value" : "org.testng"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.testng.IObjectFactory"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "IObjectFactory"
+  }, {
+    "name" : "methodName",
+    "value" : "newInstance"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "testng-7.4.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "testng-7.5.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.noLongerAbstract",
+  "old" : "method java.lang.Object org.testng.IObjectFactory::newInstance(java.lang.reflect.Constructor, java.lang.Object[])",
+  "new" : "method <T> T org.testng.ITestObjectFactory::newInstance(java.lang.Class<T>, java.lang.Object[]) @ org.testng.IObjectFactory",
+  "name" : "Method no longer abstract",
+  "description" : "Method no longer abstract",
+  "criticality" : "allowed",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "EQUIVALENT"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "EQUIVALENT"
+  } ],
+  "attachments" : [ {
+    "name" : "oldModifiers",
+    "value" : "public abstract"
+  }, {
+    "name" : "newModifiers",
+    "value" : "public default"
+  }, {
+    "name" : "package",
+    "value" : "org.testng"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.testng.IObjectFactory"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "IObjectFactory"
+  }, {
+    "name" : "methodName",
+    "value" : "newInstance"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "testng-7.4.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "testng-7.5.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.generics.elementNowParameterized",
+  "old" : "method java.lang.Object org.testng.IObjectFactory::newInstance(java.lang.reflect.Constructor, java.lang.Object[])",
+  "new" : "method <T> T org.testng.ITestObjectFactory::newInstance(java.lang.Class<T>, java.lang.Object[]) @ org.testng.IObjectFactory",
+  "name" : "element now parameterized",
+  "description" : "Element now defines formal type parameters.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SEMANTIC",
+    "severity" : "POTENTIALLY_BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.testng"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.testng.IObjectFactory"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "IObjectFactory"
+  }, {
+    "name" : "methodName",
+    "value" : "newInstance"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "testng-7.4.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "testng-7.5.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.generics.formalTypeParameterAdded",
+  "old" : "method java.lang.Object org.testng.IObjectFactory::newInstance(java.lang.reflect.Constructor, java.lang.Object[])",
+  "new" : "method <T> T org.testng.ITestObjectFactory::newInstance(java.lang.Class<T>, java.lang.Object[]) @ org.testng.IObjectFactory",
+  "name" : "formal type parameter added",
+  "description" : "A new formal type parameter added to element: 'T'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "typeParameter",
+    "value" : "T"
+  }, {
+    "name" : "package",
+    "value" : "org.testng"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.testng.IObjectFactory"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "IObjectFactory"
+  }, {
+    "name" : "methodName",
+    "value" : "newInstance"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "testng-7.4.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "testng-7.5.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.parameterTypeChanged",
+  "old" : "parameter java.lang.Object org.testng.IObjectFactory::newInstance(===java.lang.reflect.Constructor===, java.lang.Object[])",
+  "new" : "parameter <T> T org.testng.ITestObjectFactory::newInstance(===java.lang.Class<T>===, java.lang.Object[]) @ org.testng.IObjectFactory",
+  "name" : "parameter type changed",
+  "description" : "The type of the parameter changed from 'java.lang.reflect.Constructor' to 'java.lang.Class<T>'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "POTENTIALLY_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "java.lang.reflect.Constructor"
+  }, {
+    "name" : "newType",
+    "value" : "java.lang.Class<T>"
+  }, {
+    "name" : "package",
+    "value" : "org.testng"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.testng.IObjectFactory"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "IObjectFactory"
+  }, {
+    "name" : "methodName",
+    "value" : "newInstance"
+  }, {
+    "name" : "parameterIndex",
+    "value" : "0"
+  }, {
+    "name" : "elementKind",
+    "value" : "parameter"
+  }, {
+    "name" : "oldArchive",
+    "value" : "testng-7.4.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "testng-7.5.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method void org.testng.IResultMap::addResult(org.testng.ITestResult, org.testng.ITestNGMethod)",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.testng"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.testng.IResultMap"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "IResultMap"
+  }, {
+    "name" : "methodName",
+    "value" : "addResult"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "testng-7.4.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.returnTypeChanged",
+  "old" : "method org.testng.IObjectFactory org.testng.ISuite::getObjectFactory()",
+  "new" : "method org.testng.ITestObjectFactory org.testng.ISuite::getObjectFactory()",
+  "name" : "return type changed",
+  "description" : "The return type changed from 'org.testng.IObjectFactory' to  'org.testng.ITestObjectFactory'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "POTENTIALLY_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "org.testng.IObjectFactory"
+  }, {
+    "name" : "newType",
+    "value" : "org.testng.ITestObjectFactory"
+  }, {
+    "name" : "package",
+    "value" : "org.testng"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.testng.ISuite"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "ISuite"
+  }, {
+    "name" : "methodName",
+    "value" : "getObjectFactory"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "testng-7.4.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "testng-7.5.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method java.lang.String org.testng.ISuiteResult::getPropertyFileName()",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.testng"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.testng.ISuiteResult"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "ISuiteResult"
+  }, {
+    "name" : "methodName",
+    "value" : "getPropertyFileName"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "testng-7.4.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method void org.testng.ITestContext::addGuiceModule(com.google.inject.Module)",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.testng"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.testng.ITestContext"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "ITestContext"
+  }, {
+    "name" : "methodName",
+    "value" : "addGuiceModule"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "testng-7.4.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method void org.testng.ITestContext::addInjector(java.util.List<com.google.inject.Module>, com.google.inject.Injector)",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.testng"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.testng.ITestContext"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "ITestContext"
+  }, {
+    "name" : "methodName",
+    "value" : "addInjector"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "testng-7.4.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method java.util.List<com.google.inject.Module> org.testng.ITestContext::getAllGuiceModules()",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.testng"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.testng.ITestContext"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "ITestContext"
+  }, {
+    "name" : "methodName",
+    "value" : "getAllGuiceModules"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "testng-7.4.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method java.util.List<com.google.inject.Module> org.testng.ITestContext::getGuiceModules(java.lang.Class<? extends com.google.inject.Module>)",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.testng"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.testng.ITestContext"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "ITestContext"
+  }, {
+    "name" : "methodName",
+    "value" : "getGuiceModules"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "testng-7.4.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method com.google.inject.Injector org.testng.ITestContext::getInjector(java.util.List<com.google.inject.Module>)",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.testng"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.testng.ITestContext"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "ITestContext"
+  }, {
+    "name" : "methodName",
+    "value" : "getInjector"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "testng-7.4.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method com.google.inject.Injector org.testng.ITestContext::getInjector(org.testng.IClass)",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.testng"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.testng.ITestContext"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "ITestContext"
+  }, {
+    "name" : "methodName",
+    "value" : "getInjector"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "testng-7.4.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.addedToInterface",
+  "old" : null,
+  "new" : "method java.lang.String org.testng.ITestResult::id()",
+  "name" : "method added to interface",
+  "description" : "Method was added to an interface.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SEMANTIC",
+    "severity" : "POTENTIALLY_BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.testng"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.testng.ITestResult"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "ITestResult"
+  }, {
+    "name" : "methodName",
+    "value" : "id"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "newArchive",
+    "value" : "testng-7.5.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.returnTypeChanged",
+  "old" : "method org.testng.IObjectFactory org.testng.SuiteRunner::getObjectFactory()",
+  "new" : "method org.testng.ITestObjectFactory org.testng.SuiteRunner::getObjectFactory()",
+  "name" : "return type changed",
+  "description" : "The return type changed from 'org.testng.IObjectFactory' to  'org.testng.ITestObjectFactory'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "POTENTIALLY_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "org.testng.IObjectFactory"
+  }, {
+    "name" : "newType",
+    "value" : "org.testng.ITestObjectFactory"
+  }, {
+    "name" : "package",
+    "value" : "org.testng"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.testng.SuiteRunner"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "SuiteRunner"
+  }, {
+    "name" : "methodName",
+    "value" : "getObjectFactory"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "testng-7.4.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "testng-7.5.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method void org.testng.SuiteRunner::ppp(java.lang.String)",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.testng"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.testng.SuiteRunner"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "SuiteRunner"
+  }, {
+    "name" : "methodName",
+    "value" : "ppp"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "testng-7.4.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.parameterTypeChanged",
+  "old" : "parameter void org.testng.SuiteRunnerWorker::<init>(org.testng.ISuite, ===org.testng.internal.SuiteRunnerMap===, int, java.lang.String)",
+  "new" : "parameter void org.testng.SuiteRunnerWorker::<init>(org.testng.ISuite, ===org.testng.internal.invokers.SuiteRunnerMap===, int, java.lang.String)",
+  "name" : "parameter type changed",
+  "description" : "The type of the parameter changed from 'org.testng.internal.SuiteRunnerMap' to 'org.testng.internal.invokers.SuiteRunnerMap'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "POTENTIALLY_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "org.testng.internal.SuiteRunnerMap"
+  }, {
+    "name" : "newType",
+    "value" : "org.testng.internal.invokers.SuiteRunnerMap"
+  }, {
+    "name" : "package",
+    "value" : "org.testng"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.testng.SuiteRunnerWorker"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "SuiteRunnerWorker"
+  }, {
+    "name" : "methodName",
+    "value" : "<init>"
+  }, {
+    "name" : "parameterIndex",
+    "value" : "1"
+  }, {
+    "name" : "elementKind",
+    "value" : "parameter"
+  }, {
+    "name" : "oldArchive",
+    "value" : "testng-7.4.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "testng-7.5.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method void org.testng.TestRunner::addGuiceModule(com.google.inject.Module)",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.testng"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.testng.TestRunner"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "TestRunner"
+  }, {
+    "name" : "methodName",
+    "value" : "addGuiceModule"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "testng-7.4.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method void org.testng.TestRunner::addInjector(java.util.List<com.google.inject.Module>, com.google.inject.Injector)",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.testng"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.testng.TestRunner"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "TestRunner"
+  }, {
+    "name" : "methodName",
+    "value" : "addInjector"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "testng-7.4.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method java.util.List<com.google.inject.Module> org.testng.TestRunner::getAllGuiceModules()",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.testng"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.testng.TestRunner"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "TestRunner"
+  }, {
+    "name" : "methodName",
+    "value" : "getAllGuiceModules"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "testng-7.4.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method java.util.List<com.google.inject.Module> org.testng.TestRunner::getGuiceModules(java.lang.Class<? extends com.google.inject.Module>)",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.testng"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.testng.TestRunner"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "TestRunner"
+  }, {
+    "name" : "methodName",
+    "value" : "getGuiceModules"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "testng-7.4.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method com.google.inject.Injector org.testng.TestRunner::getInjector(java.util.List<com.google.inject.Module>)",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.testng"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.testng.TestRunner"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "TestRunner"
+  }, {
+    "name" : "methodName",
+    "value" : "getInjector"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "testng-7.4.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method com.google.inject.Injector org.testng.TestRunner::getInjector(org.testng.IClass)",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.testng"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.testng.TestRunner"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "TestRunner"
+  }, {
+    "name" : "methodName",
+    "value" : "getInjector"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "testng-7.4.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.returnTypeChanged",
+  "old" : "method org.testng.internal.IInvoker org.testng.TestRunner::getInvoker()",
+  "new" : "method org.testng.internal.invokers.IInvoker org.testng.TestRunner::getInvoker()",
+  "name" : "return type changed",
+  "description" : "The return type changed from 'org.testng.internal.IInvoker' to  'org.testng.internal.invokers.IInvoker'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "POTENTIALLY_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "org.testng.internal.IInvoker"
+  }, {
+    "name" : "newType",
+    "value" : "org.testng.internal.invokers.IInvoker"
+  }, {
+    "name" : "package",
+    "value" : "org.testng"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.testng.TestRunner"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "TestRunner"
+  }, {
+    "name" : "methodName",
+    "value" : "getInvoker"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "testng-7.4.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "testng-7.5.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class org.testng.internal.AbstractParallelWorker",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.testng.internal"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.testng.internal.AbstractParallelWorker"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "AbstractParallelWorker"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "testng-7.4.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class org.testng.internal.Arguments",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.testng.internal"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.testng.internal.Arguments"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "Arguments"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "testng-7.4.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.noLongerImplementsInterface",
+  "old" : "class org.testng.internal.BaseTestMethod",
+  "new" : "class org.testng.internal.BaseTestMethod",
+  "name" : "class no longer implements interface",
+  "description" : "Class no longer implements interface 'org.testng.internal.IInvocationStatus'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "interface",
+    "value" : "org.testng.internal.IInvocationStatus"
+  }, {
+    "name" : "package",
+    "value" : "org.testng.internal"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.testng.internal.BaseTestMethod"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "BaseTestMethod"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "testng-7.4.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "testng-7.5.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.nowImplementsInterface",
+  "old" : "class org.testng.internal.BaseTestMethod",
+  "new" : "class org.testng.internal.BaseTestMethod",
+  "name" : "class implements interface",
+  "description" : "Class now implements interface 'org.testng.internal.invokers.IInvocationStatus'.",
+  "criticality" : "documented",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "interface",
+    "value" : "org.testng.internal.invokers.IInvocationStatus"
+  }, {
+    "name" : "package",
+    "value" : "org.testng.internal"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.testng.internal.BaseTestMethod"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "BaseTestMethod"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "testng-7.4.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "testng-7.5.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.numberOfParametersChanged",
+  "old" : "method void org.testng.internal.BaseTestMethod::<init>(java.lang.String, org.testng.internal.ConstructorOrMethod, org.testng.internal.annotations.IAnnotationFinder, java.lang.Object)",
+  "new" : "method void org.testng.internal.BaseTestMethod::<init>(org.testng.ITestObjectFactory, java.lang.String, org.testng.internal.ConstructorOrMethod, org.testng.internal.annotations.IAnnotationFinder, java.lang.Object)",
+  "name" : "number of parameters changed",
+  "description" : "The number of parameters of the method have changed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.testng.internal"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.testng.internal.BaseTestMethod"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "BaseTestMethod"
+  }, {
+    "name" : "methodName",
+    "value" : "<init>"
+  }, {
+    "name" : "elementKind",
+    "value" : "constructor"
+  }, {
+    "name" : "oldArchive",
+    "value" : "testng-7.4.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "testng-7.5.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method <T> T org.testng.internal.ClassHelper::tryOtherConstructor(java.lang.Class<T>)",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.testng.internal"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.testng.internal.ClassHelper"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "ClassHelper"
+  }, {
+    "name" : "methodName",
+    "value" : "tryOtherConstructor"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "testng-7.4.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method com.google.inject.Injector org.testng.internal.ClassImpl::getParentInjector(org.testng.IInjectorFactory)",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.testng.internal"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.testng.internal.ClassImpl"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "ClassImpl"
+  }, {
+    "name" : "methodName",
+    "value" : "getParentInjector"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "testng-7.4.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class org.testng.internal.ConfigMethodArguments",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.testng.internal"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.testng.internal.ConfigMethodArguments"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "ConfigMethodArguments"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "testng-7.4.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.noLongerImplementsInterface",
+  "old" : "class org.testng.internal.ConfigurationMethod",
+  "new" : "class org.testng.internal.ConfigurationMethod",
+  "name" : "class no longer implements interface",
+  "description" : "Class no longer implements interface 'org.testng.internal.IInvocationStatus'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "interface",
+    "value" : "org.testng.internal.IInvocationStatus"
+  }, {
+    "name" : "package",
+    "value" : "org.testng.internal"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.testng.internal.ConfigurationMethod"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "ConfigurationMethod"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "testng-7.4.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "testng-7.5.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.visibilityReduced",
+  "old" : "method void org.testng.internal.ConfigurationMethod::<init>(org.testng.internal.ConstructorOrMethod, org.testng.internal.annotations.IAnnotationFinder, boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean, java.lang.String[], java.lang.String[], java.lang.Object)",
+  "new" : "method void org.testng.internal.ConfigurationMethod::<init>(org.testng.ITestObjectFactory, org.testng.internal.ConstructorOrMethod, org.testng.internal.annotations.IAnnotationFinder, boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean, java.lang.String[], java.lang.String[], boolean, java.lang.Object)",
+  "name" : "visibility reduced",
+  "description" : "visibility reduced",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldVisibility",
+    "value" : "public"
+  }, {
+    "name" : "newVisibility",
+    "value" : "private"
+  }, {
+    "name" : "package",
+    "value" : "org.testng.internal"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.testng.internal.ConfigurationMethod"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "ConfigurationMethod"
+  }, {
+    "name" : "methodName",
+    "value" : "<init>"
+  }, {
+    "name" : "elementKind",
+    "value" : "constructor"
+  }, {
+    "name" : "oldArchive",
+    "value" : "testng-7.4.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "testng-7.5.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.numberOfParametersChanged",
+  "old" : "method org.testng.ITestNGMethod[] org.testng.internal.ConfigurationMethod::createAfterConfigurationMethods(org.testng.ITestNGMethod[], org.testng.internal.annotations.IAnnotationFinder, boolean, java.lang.Object)",
+  "new" : "method org.testng.ITestNGMethod[] org.testng.internal.ConfigurationMethod::createAfterConfigurationMethods(org.testng.ITestObjectFactory, org.testng.ITestNGMethod[], org.testng.internal.annotations.IAnnotationFinder, boolean, java.lang.Object)",
+  "name" : "number of parameters changed",
+  "description" : "The number of parameters of the method have changed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.testng.internal"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.testng.internal.ConfigurationMethod"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "ConfigurationMethod"
+  }, {
+    "name" : "methodName",
+    "value" : "createAfterConfigurationMethods"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "testng-7.4.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "testng-7.5.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.numberOfParametersChanged",
+  "old" : "method org.testng.ITestNGMethod[] org.testng.internal.ConfigurationMethod::createBeforeConfigurationMethods(org.testng.ITestNGMethod[], org.testng.internal.annotations.IAnnotationFinder, boolean, java.lang.Object)",
+  "new" : "method org.testng.ITestNGMethod[] org.testng.internal.ConfigurationMethod::createBeforeConfigurationMethods(org.testng.ITestObjectFactory, org.testng.ITestNGMethod[], org.testng.internal.annotations.IAnnotationFinder, boolean, java.lang.Object)",
+  "name" : "number of parameters changed",
+  "description" : "The number of parameters of the method have changed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.testng.internal"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.testng.internal.ConfigurationMethod"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "ConfigurationMethod"
+  }, {
+    "name" : "methodName",
+    "value" : "createBeforeConfigurationMethods"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "testng-7.4.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "testng-7.5.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.numberOfParametersChanged",
+  "old" : "method org.testng.ITestNGMethod[] org.testng.internal.ConfigurationMethod::createClassConfigurationMethods(org.testng.ITestNGMethod[], org.testng.internal.annotations.IAnnotationFinder, boolean, java.lang.Object)",
+  "new" : "method org.testng.ITestNGMethod[] org.testng.internal.ConfigurationMethod::createClassConfigurationMethods(org.testng.ITestObjectFactory, org.testng.ITestNGMethod[], org.testng.internal.annotations.IAnnotationFinder, boolean, org.testng.xml.XmlTest, java.lang.Object)",
+  "name" : "number of parameters changed",
+  "description" : "The number of parameters of the method have changed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.testng.internal"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.testng.internal.ConfigurationMethod"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "ConfigurationMethod"
+  }, {
+    "name" : "methodName",
+    "value" : "createClassConfigurationMethods"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "testng-7.4.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "testng-7.5.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.numberOfParametersChanged",
+  "old" : "method org.testng.ITestNGMethod[] org.testng.internal.ConfigurationMethod::createSuiteConfigurationMethods(org.testng.ITestNGMethod[], org.testng.internal.annotations.IAnnotationFinder, boolean, java.lang.Object)",
+  "new" : "method org.testng.ITestNGMethod[] org.testng.internal.ConfigurationMethod::createSuiteConfigurationMethods(org.testng.ITestObjectFactory, org.testng.ITestNGMethod[], org.testng.internal.annotations.IAnnotationFinder, boolean, java.lang.Object)",
+  "name" : "number of parameters changed",
+  "description" : "The number of parameters of the method have changed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.testng.internal"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.testng.internal.ConfigurationMethod"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "ConfigurationMethod"
+  }, {
+    "name" : "methodName",
+    "value" : "createSuiteConfigurationMethods"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "testng-7.4.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "testng-7.5.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.numberOfParametersChanged",
+  "old" : "method org.testng.ITestNGMethod[] org.testng.internal.ConfigurationMethod::createTestConfigurationMethods(org.testng.ITestNGMethod[], org.testng.internal.annotations.IAnnotationFinder, boolean, java.lang.Object)",
+  "new" : "method org.testng.ITestNGMethod[] org.testng.internal.ConfigurationMethod::createTestConfigurationMethods(org.testng.ITestObjectFactory, org.testng.ITestNGMethod[], org.testng.internal.annotations.IAnnotationFinder, boolean, org.testng.xml.XmlTest, java.lang.Object)",
+  "name" : "number of parameters changed",
+  "description" : "The number of parameters of the method have changed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.testng.internal"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.testng.internal.ConfigurationMethod"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "ConfigurationMethod"
+  }, {
+    "name" : "methodName",
+    "value" : "createTestConfigurationMethods"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "testng-7.4.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "testng-7.5.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.numberOfParametersChanged",
+  "old" : "method org.testng.ITestNGMethod[] org.testng.internal.ConfigurationMethod::createTestMethodConfigurationMethods(org.testng.ITestNGMethod[], org.testng.internal.annotations.IAnnotationFinder, boolean, java.lang.Object)",
+  "new" : "method org.testng.ITestNGMethod[] org.testng.internal.ConfigurationMethod::createTestMethodConfigurationMethods(org.testng.ITestObjectFactory, org.testng.ITestNGMethod[], org.testng.internal.annotations.IAnnotationFinder, boolean, org.testng.xml.XmlTest, java.lang.Object)",
+  "name" : "number of parameters changed",
+  "description" : "The number of parameters of the method have changed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.testng.internal"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.testng.internal.ConfigurationMethod"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "ConfigurationMethod"
+  }, {
+    "name" : "methodName",
+    "value" : "createTestMethodConfigurationMethods"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "testng-7.4.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "testng-7.5.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.numberOfParametersChanged",
+  "old" : "method void org.testng.internal.DefaultListenerFactory::<init>()",
+  "new" : "method void org.testng.internal.DefaultListenerFactory::<init>(org.testng.ITestObjectFactory, org.testng.ITestContext)",
+  "name" : "number of parameters changed",
+  "description" : "The number of parameters of the method have changed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.testng.internal"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.testng.internal.DefaultListenerFactory"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "DefaultListenerFactory"
+  }, {
+    "name" : "methodName",
+    "value" : "<init>"
+  }, {
+    "name" : "elementKind",
+    "value" : "constructor"
+  }, {
+    "name" : "oldArchive",
+    "value" : "testng-7.4.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "testng-7.5.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class org.testng.internal.ExpectedExceptionsHolder",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.testng.internal"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.testng.internal.ExpectedExceptionsHolder"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "ExpectedExceptionsHolder"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "testng-7.4.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.noLongerImplementsInterface",
+  "old" : "class org.testng.internal.FactoryMethod",
+  "new" : "class org.testng.internal.FactoryMethod",
+  "name" : "class no longer implements interface",
+  "description" : "Class no longer implements interface 'org.testng.internal.IInvocationStatus'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "interface",
+    "value" : "org.testng.internal.IInvocationStatus"
+  }, {
+    "name" : "package",
+    "value" : "org.testng.internal"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.testng.internal.FactoryMethod"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "FactoryMethod"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "testng-7.4.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "testng-7.5.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class org.testng.internal.GroupConfigMethodArguments",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.testng.internal"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.testng.internal.GroupConfigMethodArguments"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "GroupConfigMethodArguments"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "testng-7.4.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "interface org.testng.internal.IConfigInvoker",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.testng.internal"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.testng.internal.IConfigInvoker"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "IConfigInvoker"
+  }, {
+    "name" : "elementKind",
+    "value" : "interface"
+  }, {
+    "name" : "oldArchive",
+    "value" : "testng-7.4.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "interface org.testng.internal.IInvocationStatus",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.testng.internal"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.testng.internal.IInvocationStatus"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "IInvocationStatus"
+  }, {
+    "name" : "elementKind",
+    "value" : "interface"
+  }, {
+    "name" : "oldArchive",
+    "value" : "testng-7.4.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "interface org.testng.internal.IInvoker",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.testng.internal"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.testng.internal.IInvoker"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "IInvoker"
+  }, {
+    "name" : "elementKind",
+    "value" : "interface"
+  }, {
+    "name" : "oldArchive",
+    "value" : "testng-7.4.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "interface org.testng.internal.IMethodRunner",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.testng.internal"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.testng.internal.IMethodRunner"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "IMethodRunner"
+  }, {
+    "name" : "elementKind",
+    "value" : "interface"
+  }, {
+    "name" : "oldArchive",
+    "value" : "testng-7.4.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.addedToInterface",
+  "old" : null,
+  "new" : "method int org.testng.internal.IParameterInfo::getIndex()",
+  "name" : "method added to interface",
+  "description" : "Method was added to an interface.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SEMANTIC",
+    "severity" : "POTENTIALLY_BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.testng.internal"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.testng.internal.IParameterInfo"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "IParameterInfo"
+  }, {
+    "name" : "methodName",
+    "value" : "getIndex"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "newArchive",
+    "value" : "testng-7.5.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.parameterTypeChanged",
+  "old" : "parameter java.util.List<org.testng.ITestNGMethod> org.testng.internal.ITestClassConfigInfo::getInstanceBeforeClassMethods(===java.lang.String===)",
+  "new" : "parameter java.util.List<org.testng.ITestNGMethod> org.testng.internal.ITestClassConfigInfo::getInstanceBeforeClassMethods(===java.lang.Object===)",
+  "name" : "parameter type changed",
+  "description" : "The type of the parameter changed from 'java.lang.String' to 'java.lang.Object'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "POTENTIALLY_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "java.lang.String"
+  }, {
+    "name" : "newType",
+    "value" : "java.lang.Object"
+  }, {
+    "name" : "package",
+    "value" : "org.testng.internal"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.testng.internal.ITestClassConfigInfo"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "ITestClassConfigInfo"
+  }, {
+    "name" : "methodName",
+    "value" : "getInstanceBeforeClassMethods"
+  }, {
+    "name" : "parameterIndex",
+    "value" : "0"
+  }, {
+    "name" : "elementKind",
+    "value" : "parameter"
+  }, {
+    "name" : "oldArchive",
+    "value" : "testng-7.4.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "testng-7.5.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "interface org.testng.internal.ITestInvoker",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.testng.internal"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.testng.internal.ITestInvoker"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "ITestInvoker"
+  }, {
+    "name" : "elementKind",
+    "value" : "interface"
+  }, {
+    "name" : "oldArchive",
+    "value" : "testng-7.4.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method void org.testng.internal.ITestResultNotifier::addInvokedMethod(org.testng.internal.InvokedMethod)",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.testng.internal"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.testng.internal.ITestResultNotifier"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "ITestResultNotifier"
+  }, {
+    "name" : "methodName",
+    "value" : "addInvokedMethod"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "testng-7.4.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class org.testng.internal.InstanceCreator",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.testng.internal"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.testng.internal.InstanceCreator"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "InstanceCreator"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "testng-7.4.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class org.testng.internal.InvokeMethodRunnable",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.testng.internal"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.testng.internal.InvokeMethodRunnable"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "InvokeMethodRunnable"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "testng-7.4.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class org.testng.internal.InvokedMethod",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.testng.internal"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.testng.internal.InvokedMethod"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "InvokedMethod"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "testng-7.4.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class org.testng.internal.Invoker",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.testng.internal"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.testng.internal.Invoker"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "Invoker"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "testng-7.4.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class org.testng.internal.MethodArguments",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.testng.internal"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.testng.internal.MethodArguments"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "MethodArguments"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "testng-7.4.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method java.util.List<org.testng.ITestNGMethod> org.testng.internal.MethodHelper::invokedMethodsToMethods(java.util.Collection<org.testng.IInvokedMethod>)",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.testng.internal"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.testng.internal.MethodHelper"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "MethodHelper"
+  }, {
+    "name" : "methodName",
+    "value" : "invokedMethodsToMethods"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "testng-7.4.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class org.testng.internal.MethodInvocationHelper",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.testng.internal"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.testng.internal.MethodInvocationHelper"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "MethodInvocationHelper"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "testng-7.4.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class org.testng.internal.ObjectFactoryImpl",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.testng.internal"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.testng.internal.ObjectFactoryImpl"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "ObjectFactoryImpl"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "testng-7.4.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class org.testng.internal.ParameterHolder",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.testng.internal"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.testng.internal.ParameterHolder"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "ParameterHolder"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "testng-7.4.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.numberOfParametersChanged",
+  "old" : "method void org.testng.internal.ParameterInfo::<init>(java.lang.Object, java.lang.Object[])",
+  "new" : "method void org.testng.internal.ParameterInfo::<init>(java.lang.Object, int, java.lang.Object[])",
+  "name" : "number of parameters changed",
+  "description" : "The number of parameters of the method have changed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.testng.internal"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.testng.internal.ParameterInfo"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "ParameterInfo"
+  }, {
+    "name" : "methodName",
+    "value" : "<init>"
+  }, {
+    "name" : "elementKind",
+    "value" : "constructor"
+  }, {
+    "name" : "oldArchive",
+    "value" : "testng-7.4.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "testng-7.5.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method <T> T org.testng.internal.Parameters::convertType(java.lang.Class<T>, java.lang.String, java.lang.String)",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.testng.internal"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.testng.internal.Parameters"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "Parameters"
+  }, {
+    "name" : "methodName",
+    "value" : "convertType"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "testng-7.4.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.numberOfParametersChanged",
+  "old" : "method org.testng.internal.ParameterHolder org.testng.internal.Parameters::handleParameters(org.testng.ITestNGMethod, java.util.Map<java.lang.String, java.lang.String>, java.lang.Object, org.testng.internal.Parameters.MethodParameters, org.testng.xml.XmlSuite, org.testng.internal.annotations.IAnnotationFinder, java.lang.Object, org.testng.DataProviderHolder)",
+  "new" : "method org.testng.internal.invokers.ParameterHolder org.testng.internal.Parameters::handleParameters(org.testng.ITestObjectFactory, org.testng.ITestNGMethod, java.util.Map<java.lang.String, java.lang.String>, java.lang.Object, org.testng.internal.Parameters.MethodParameters, org.testng.xml.XmlSuite, org.testng.internal.annotations.IAnnotationFinder, java.lang.Object, org.testng.DataProviderHolder)",
+  "name" : "number of parameters changed",
+  "description" : "The number of parameters of the method have changed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.testng.internal"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.testng.internal.Parameters"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "Parameters"
+  }, {
+    "name" : "methodName",
+    "value" : "handleParameters"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "testng-7.4.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "testng-7.5.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.returnTypeChanged",
+  "old" : "method org.testng.internal.ParameterHolder org.testng.internal.Parameters::handleParameters(org.testng.ITestNGMethod, java.util.Map<java.lang.String, java.lang.String>, java.lang.Object, org.testng.internal.Parameters.MethodParameters, org.testng.xml.XmlSuite, org.testng.internal.annotations.IAnnotationFinder, java.lang.Object, org.testng.DataProviderHolder)",
+  "new" : "method org.testng.internal.invokers.ParameterHolder org.testng.internal.Parameters::handleParameters(org.testng.ITestObjectFactory, org.testng.ITestNGMethod, java.util.Map<java.lang.String, java.lang.String>, java.lang.Object, org.testng.internal.Parameters.MethodParameters, org.testng.xml.XmlSuite, org.testng.internal.annotations.IAnnotationFinder, java.lang.Object, org.testng.DataProviderHolder)",
+  "name" : "return type changed",
+  "description" : "The return type changed from 'org.testng.internal.ParameterHolder' to  'org.testng.internal.invokers.ParameterHolder'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "POTENTIALLY_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "org.testng.internal.ParameterHolder"
+  }, {
+    "name" : "newType",
+    "value" : "org.testng.internal.invokers.ParameterHolder"
+  }, {
+    "name" : "package",
+    "value" : "org.testng.internal"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.testng.internal.Parameters"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "Parameters"
+  }, {
+    "name" : "methodName",
+    "value" : "handleParameters"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "testng-7.4.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "testng-7.5.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.numberOfParametersChanged",
+  "old" : "method org.testng.internal.ParameterHolder org.testng.internal.Parameters::handleParameters(org.testng.ITestNGMethod, java.util.Map<java.lang.String, java.lang.String>, java.lang.Object, org.testng.internal.Parameters.MethodParameters, org.testng.xml.XmlSuite, org.testng.internal.annotations.IAnnotationFinder, java.lang.Object, org.testng.DataProviderHolder, java.lang.String)",
+  "new" : "method org.testng.internal.invokers.ParameterHolder org.testng.internal.Parameters::handleParameters(org.testng.ITestObjectFactory, org.testng.ITestNGMethod, java.util.Map<java.lang.String, java.lang.String>, java.lang.Object, org.testng.internal.Parameters.MethodParameters, org.testng.xml.XmlSuite, org.testng.internal.annotations.IAnnotationFinder, java.lang.Object, org.testng.DataProviderHolder, java.lang.String)",
+  "name" : "number of parameters changed",
+  "description" : "The number of parameters of the method have changed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.testng.internal"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.testng.internal.Parameters"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "Parameters"
+  }, {
+    "name" : "methodName",
+    "value" : "handleParameters"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "testng-7.4.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "testng-7.5.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.returnTypeChanged",
+  "old" : "method org.testng.internal.ParameterHolder org.testng.internal.Parameters::handleParameters(org.testng.ITestNGMethod, java.util.Map<java.lang.String, java.lang.String>, java.lang.Object, org.testng.internal.Parameters.MethodParameters, org.testng.xml.XmlSuite, org.testng.internal.annotations.IAnnotationFinder, java.lang.Object, org.testng.DataProviderHolder, java.lang.String)",
+  "new" : "method org.testng.internal.invokers.ParameterHolder org.testng.internal.Parameters::handleParameters(org.testng.ITestObjectFactory, org.testng.ITestNGMethod, java.util.Map<java.lang.String, java.lang.String>, java.lang.Object, org.testng.internal.Parameters.MethodParameters, org.testng.xml.XmlSuite, org.testng.internal.annotations.IAnnotationFinder, java.lang.Object, org.testng.DataProviderHolder, java.lang.String)",
+  "name" : "return type changed",
+  "description" : "The return type changed from 'org.testng.internal.ParameterHolder' to  'org.testng.internal.invokers.ParameterHolder'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "POTENTIALLY_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "org.testng.internal.ParameterHolder"
+  }, {
+    "name" : "newType",
+    "value" : "org.testng.internal.invokers.ParameterHolder"
+  }, {
+    "name" : "package",
+    "value" : "org.testng.internal"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.testng.internal.Parameters"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "Parameters"
+  }, {
+    "name" : "methodName",
+    "value" : "handleParameters"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "testng-7.4.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "testng-7.5.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method org.testng.IReporter org.testng.internal.ReporterConfig::newReporterInstance()",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.testng.internal"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.testng.internal.ReporterConfig"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "ReporterConfig"
+  }, {
+    "name" : "methodName",
+    "value" : "newReporterInstance"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "testng-7.4.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method void org.testng.internal.ResultMap::addResult(org.testng.ITestResult, org.testng.ITestNGMethod)",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.testng.internal"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.testng.internal.ResultMap"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "ResultMap"
+  }, {
+    "name" : "methodName",
+    "value" : "addResult"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "testng-7.4.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.numberOfParametersChanged",
+  "old" : "method void org.testng.internal.RunInfo::<init>()",
+  "new" : "method void org.testng.internal.RunInfo::<init>(java.util.function.Supplier<org.testng.xml.XmlTest>)",
+  "name" : "number of parameters changed",
+  "description" : "The number of parameters of the method have changed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.testng.internal"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.testng.internal.RunInfo"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "RunInfo"
+  }, {
+    "name" : "methodName",
+    "value" : "<init>"
+  }, {
+    "name" : "elementKind",
+    "value" : "constructor"
+  }, {
+    "name" : "oldArchive",
+    "value" : "testng-7.4.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "testng-7.5.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method void org.testng.internal.RunInfo::ppp(java.lang.String)",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.testng.internal"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.testng.internal.RunInfo"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "RunInfo"
+  }, {
+    "name" : "methodName",
+    "value" : "ppp"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "testng-7.4.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.nonPublicPartOfAPI",
+  "old" : "class org.testng.internal.ScriptMethodSelector",
+  "new" : "class org.testng.internal.ScriptMethodSelector",
+  "name" : "non-public class in API",
+  "description" : "Class 'org.testng.internal.ScriptMethodSelector' is indirectly included in the API (by the means of method return type for example) but the class is not accessible (neither public nor protected).",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SEMANTIC",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "classSimpleName",
+    "value" : "ScriptMethodSelector"
+  }, {
+    "name" : "exampleUseChainInNewApi",
+    "value" : "org.testng.internal.ScriptMethodSelector is returned from method org.testng.internal.ScriptMethodSelector org.testng.internal.ScriptSelectorFactory::getScriptSelector(org.testng.xml.XmlScript) (method org.testng.internal.ScriptMethodSelector org.testng.internal.ScriptSelectorFactory::getScriptSelector(org.testng.xml.XmlScript) is part of the API)"
+  }, {
+    "name" : "package",
+    "value" : "org.testng.internal"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.testng.internal.ScriptMethodSelector"
+  }, {
+    "name" : "exampleUseChainInOldApi",
+    "value" : "org.testng.internal.ScriptMethodSelector is returned from method org.testng.internal.ScriptMethodSelector org.testng.internal.ScriptSelectorFactory::getScriptSelector(org.testng.xml.XmlScript) (method org.testng.internal.ScriptMethodSelector org.testng.internal.ScriptSelectorFactory::getScriptSelector(org.testng.xml.XmlScript) is part of the API)"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "testng-7.4.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "testng-7.5.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class org.testng.internal.SuiteRunnerMap",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.testng.internal"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.testng.internal.SuiteRunnerMap"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "SuiteRunnerMap"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "testng-7.4.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.numberOfParametersChanged",
+  "old" : "method org.testng.ITestNGListenerFactory org.testng.internal.TestListenerHelper::createListenerFactory(org.testng.internal.TestNGClassFinder, java.lang.Class<? extends org.testng.ITestNGListenerFactory>)",
+  "new" : "method org.testng.ITestNGListenerFactory org.testng.internal.TestListenerHelper::createListenerFactory(org.testng.ITestObjectFactory, org.testng.internal.TestNGClassFinder, java.lang.Class<? extends org.testng.ITestNGListenerFactory>, org.testng.ITestContext)",
+  "name" : "number of parameters changed",
+  "description" : "The number of parameters of the method have changed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.testng.internal"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.testng.internal.TestListenerHelper"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "TestListenerHelper"
+  }, {
+    "name" : "methodName",
+    "value" : "createListenerFactory"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "testng-7.4.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "testng-7.5.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class org.testng.internal.TestMethodArguments",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.testng.internal"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.testng.internal.TestMethodArguments"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "TestMethodArguments"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "testng-7.4.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class org.testng.internal.TestMethodWithDataProviderMethodWorker",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.testng.internal"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.testng.internal.TestMethodWithDataProviderMethodWorker"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "TestMethodWithDataProviderMethodWorker"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "testng-7.4.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class org.testng.internal.TestMethodWorker",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.testng.internal"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.testng.internal.TestMethodWorker"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "TestMethodWorker"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "testng-7.4.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.noLongerImplementsInterface",
+  "old" : "class org.testng.internal.TestNGMethod",
+  "new" : "class org.testng.internal.TestNGMethod",
+  "name" : "class no longer implements interface",
+  "description" : "Class no longer implements interface 'org.testng.internal.IInvocationStatus'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "interface",
+    "value" : "org.testng.internal.IInvocationStatus"
+  }, {
+    "name" : "package",
+    "value" : "org.testng.internal"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.testng.internal.TestNGMethod"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "TestNGMethod"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "testng-7.4.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "testng-7.5.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.numberOfParametersChanged",
+  "old" : "method void org.testng.internal.TestNGMethod::<init>(java.lang.reflect.Method, org.testng.internal.annotations.IAnnotationFinder, org.testng.xml.XmlTest, java.lang.Object)",
+  "new" : "method void org.testng.internal.TestNGMethod::<init>(org.testng.ITestObjectFactory, java.lang.reflect.Method, org.testng.internal.annotations.IAnnotationFinder, org.testng.xml.XmlTest, java.lang.Object)",
+  "name" : "number of parameters changed",
+  "description" : "The number of parameters of the method have changed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.testng.internal"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.testng.internal.TestNGMethod"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "TestNGMethod"
+  }, {
+    "name" : "methodName",
+    "value" : "<init>"
+  }, {
+    "name" : "elementKind",
+    "value" : "constructor"
+  }, {
+    "name" : "oldArchive",
+    "value" : "testng-7.4.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "testng-7.5.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.numberOfParametersChanged",
+  "old" : "method void org.testng.internal.TestNGMethodFinder::<init>(org.testng.internal.RunInfo, org.testng.internal.annotations.IAnnotationFinder)",
+  "new" : "method void org.testng.internal.TestNGMethodFinder::<init>(org.testng.ITestObjectFactory, org.testng.internal.RunInfo, org.testng.internal.annotations.IAnnotationFinder)",
+  "name" : "number of parameters changed",
+  "description" : "The number of parameters of the method have changed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.testng.internal"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.testng.internal.TestNGMethodFinder"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "TestNGMethodFinder"
+  }, {
+    "name" : "methodName",
+    "value" : "<init>"
+  }, {
+    "name" : "elementKind",
+    "value" : "constructor"
+  }, {
+    "name" : "oldArchive",
+    "value" : "testng-7.4.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "testng-7.5.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.numberOfParametersChanged",
+  "old" : "method void org.testng.internal.TestNGMethodFinder::<init>(org.testng.internal.RunInfo, org.testng.internal.annotations.IAnnotationFinder, java.util.Comparator<org.testng.ITestNGMethod>)",
+  "new" : "method void org.testng.internal.TestNGMethodFinder::<init>(org.testng.ITestObjectFactory, org.testng.internal.RunInfo, org.testng.internal.annotations.IAnnotationFinder, java.util.Comparator<org.testng.ITestNGMethod>)",
+  "name" : "number of parameters changed",
+  "description" : "The number of parameters of the method have changed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.testng.internal"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.testng.internal.TestNGMethodFinder"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "TestNGMethodFinder"
+  }, {
+    "name" : "methodName",
+    "value" : "<init>"
+  }, {
+    "name" : "elementKind",
+    "value" : "constructor"
+  }, {
+    "name" : "oldArchive",
+    "value" : "testng-7.4.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "testng-7.5.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method java.lang.Class<?>[] org.testng.internal.Utils::extractParameterTypes(java.lang.Object[])",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.testng.internal"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.testng.internal.Utils"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "Utils"
+  }, {
+    "name" : "methodName",
+    "value" : "extractParameterTypes"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "testng-7.4.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.numberOfParametersChanged",
+  "old" : "method org.testng.xml.XmlSuite org.testng.internal.Yaml::parse(java.lang.String, java.io.InputStream) throws java.io.FileNotFoundException",
+  "new" : "method org.testng.xml.XmlSuite org.testng.internal.Yaml::parse(java.lang.String, java.io.InputStream, boolean) throws java.io.FileNotFoundException",
+  "name" : "number of parameters changed",
+  "description" : "The number of parameters of the method have changed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.testng.internal"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.testng.internal.Yaml"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "Yaml"
+  }, {
+    "name" : "methodName",
+    "value" : "parse"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "testng-7.4.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "testng-7.5.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.numberOfParametersChanged",
+  "old" : "method org.testng.ITestNGMethod[] org.testng.internal.annotations.AnnotationHelper::findMethodsWithAnnotation(java.lang.Class<?>, java.lang.Class<? extends org.testng.annotations.IAnnotation>, org.testng.internal.annotations.IAnnotationFinder, org.testng.xml.XmlTest)",
+  "new" : "method org.testng.ITestNGMethod[] org.testng.internal.annotations.AnnotationHelper::findMethodsWithAnnotation(org.testng.ITestObjectFactory, java.lang.Class<?>, java.lang.Class<? extends org.testng.annotations.IAnnotation>, org.testng.internal.annotations.IAnnotationFinder, org.testng.xml.XmlTest)",
+  "name" : "number of parameters changed",
+  "description" : "The number of parameters of the method have changed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.testng.internal.annotations"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.testng.internal.annotations.AnnotationHelper"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "AnnotationHelper"
+  }, {
+    "name" : "methodName",
+    "value" : "findMethodsWithAnnotation"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "testng-7.4.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "testng-7.5.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.nonPublicPartOfAPI",
+  "old" : null,
+  "new" : "class org.testng.internal.invokers.ConfigInvoker",
+  "name" : "non-public class in API",
+  "description" : "Class 'org.testng.internal.invokers.ConfigInvoker' is indirectly included in the API (by the means of method return type for example) but the class is not accessible (neither public nor protected).",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SEMANTIC",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "classSimpleName",
+    "value" : "ConfigInvoker"
+  }, {
+    "name" : "exampleUseChainInNewApi",
+    "value" : "org.testng.internal.invokers.ConfigInvoker is returned from method org.testng.internal.invokers.ConfigInvoker org.testng.internal.invokers.Invoker::getConfigInvoker() (method org.testng.internal.invokers.ConfigInvoker org.testng.internal.invokers.Invoker::getConfigInvoker() is part of the API)"
+  }, {
+    "name" : "package",
+    "value" : "org.testng.internal.invokers"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.testng.internal.invokers.ConfigInvoker"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "newArchive",
+    "value" : "testng-7.5.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.nonPublicPartOfAPI",
+  "old" : null,
+  "new" : "class org.testng.internal.invokers.TestInvoker",
+  "name" : "non-public class in API",
+  "description" : "Class 'org.testng.internal.invokers.TestInvoker' is indirectly included in the API (by the means of method return type for example) but the class is not accessible (neither public nor protected).",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SEMANTIC",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "classSimpleName",
+    "value" : "TestInvoker"
+  }, {
+    "name" : "exampleUseChainInNewApi",
+    "value" : "org.testng.internal.invokers.TestInvoker is returned from method org.testng.internal.invokers.TestInvoker org.testng.internal.invokers.Invoker::getTestInvoker() (method org.testng.internal.invokers.TestInvoker org.testng.internal.invokers.Invoker::getTestInvoker() is part of the API)"
+  }, {
+    "name" : "package",
+    "value" : "org.testng.internal.invokers"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.testng.internal.invokers.TestInvoker"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "newArchive",
+    "value" : "testng-7.5.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.numberOfParametersChanged",
+  "old" : "method org.testng.internal.objects.IObjectDispenser org.testng.internal.objects.Dispenser::newInstance()",
+  "new" : "method org.testng.internal.objects.IObjectDispenser org.testng.internal.objects.Dispenser::newInstance(org.testng.ITestObjectFactory)",
+  "name" : "number of parameters changed",
+  "description" : "The number of parameters of the method have changed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.testng.internal.objects"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.testng.internal.objects.Dispenser"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "Dispenser"
+  }, {
+    "name" : "methodName",
+    "value" : "newInstance"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "testng-7.4.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "testng-7.5.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method org.testng.ITestObjectFactory org.testng.internal.objects.pojo.DetailedAttributes::getFactory()",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.testng.internal.objects.pojo"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.testng.internal.objects.pojo.DetailedAttributes"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "DetailedAttributes"
+  }, {
+    "name" : "methodName",
+    "value" : "getFactory"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "testng-7.4.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method void org.testng.internal.objects.pojo.DetailedAttributes::setFactory(org.testng.ITestObjectFactory)",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.testng.internal.objects.pojo"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.testng.internal.objects.pojo.DetailedAttributes"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "DetailedAttributes"
+  }, {
+    "name" : "methodName",
+    "value" : "setFactory"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "testng-7.4.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.parameterTypeChanged",
+  "old" : "parameter void org.testng.internal.thread.ThreadTimeoutException::<init>(===java.lang.String===, java.lang.Throwable)",
+  "new" : "parameter void org.testng.internal.thread.ThreadTimeoutException::<init>(===org.testng.ITestNGMethod===, long)",
+  "name" : "parameter type changed",
+  "description" : "The type of the parameter changed from 'java.lang.String' to 'org.testng.ITestNGMethod'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "POTENTIALLY_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "java.lang.String"
+  }, {
+    "name" : "newType",
+    "value" : "org.testng.ITestNGMethod"
+  }, {
+    "name" : "package",
+    "value" : "org.testng.internal.thread"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.testng.internal.thread.ThreadTimeoutException"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "ThreadTimeoutException"
+  }, {
+    "name" : "methodName",
+    "value" : "<init>"
+  }, {
+    "name" : "parameterIndex",
+    "value" : "0"
+  }, {
+    "name" : "elementKind",
+    "value" : "parameter"
+  }, {
+    "name" : "oldArchive",
+    "value" : "testng-7.4.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "testng-7.5.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.parameterTypeChanged",
+  "old" : "parameter void org.testng.internal.thread.ThreadTimeoutException::<init>(java.lang.String, ===java.lang.Throwable===)",
+  "new" : "parameter void org.testng.internal.thread.ThreadTimeoutException::<init>(org.testng.ITestNGMethod, ===long===)",
+  "name" : "parameter type changed",
+  "description" : "The type of the parameter changed from 'java.lang.Throwable' to 'long'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "POTENTIALLY_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "java.lang.Throwable"
+  }, {
+    "name" : "newType",
+    "value" : "long"
+  }, {
+    "name" : "package",
+    "value" : "org.testng.internal.thread"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.testng.internal.thread.ThreadTimeoutException"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "ThreadTimeoutException"
+  }, {
+    "name" : "methodName",
+    "value" : "<init>"
+  }, {
+    "name" : "parameterIndex",
+    "value" : "1"
+  }, {
+    "name" : "elementKind",
+    "value" : "parameter"
+  }, {
+    "name" : "oldArchive",
+    "value" : "testng-7.4.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "testng-7.5.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.parameterTypeChanged",
+  "old" : "parameter void org.testng.internal.thread.graph.SuiteWorkerFactory::<init>(===org.testng.internal.SuiteRunnerMap===, java.lang.Integer, java.lang.String)",
+  "new" : "parameter void org.testng.internal.thread.graph.SuiteWorkerFactory::<init>(===org.testng.internal.invokers.SuiteRunnerMap===, java.lang.Integer, java.lang.String)",
+  "name" : "parameter type changed",
+  "description" : "The type of the parameter changed from 'org.testng.internal.SuiteRunnerMap' to 'org.testng.internal.invokers.SuiteRunnerMap'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "POTENTIALLY_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "org.testng.internal.SuiteRunnerMap"
+  }, {
+    "name" : "newType",
+    "value" : "org.testng.internal.invokers.SuiteRunnerMap"
+  }, {
+    "name" : "package",
+    "value" : "org.testng.internal.thread.graph"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.testng.internal.thread.graph.SuiteWorkerFactory"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "SuiteWorkerFactory"
+  }, {
+    "name" : "methodName",
+    "value" : "<init>"
+  }, {
+    "name" : "parameterIndex",
+    "value" : "0"
+  }, {
+    "name" : "elementKind",
+    "value" : "parameter"
+  }, {
+    "name" : "oldArchive",
+    "value" : "testng-7.4.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "testng-7.5.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.field.removedWithConstant",
+  "old" : "field org.testng.junit.IJUnitTestRunner.JUNIT_4_TESTRUNNER",
+  "new" : null,
+  "name" : "field with constant removed",
+  "description" : "Field with constant value has been removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SEMANTIC",
+    "severity" : "POTENTIALLY_BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.testng.junit"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.testng.junit.IJUnitTestRunner"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "IJUnitTestRunner"
+  }, {
+    "name" : "fieldName",
+    "value" : "JUNIT_4_TESTRUNNER"
+  }, {
+    "name" : "elementKind",
+    "value" : "field"
+  }, {
+    "name" : "oldArchive",
+    "value" : "testng-7.4.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.field.removedWithConstant",
+  "old" : "field org.testng.junit.IJUnitTestRunner.JUNIT_TESTRUNNER",
+  "new" : null,
+  "name" : "field with constant removed",
+  "description" : "Field with constant value has been removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SEMANTIC",
+    "severity" : "POTENTIALLY_BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.testng.junit"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.testng.junit.IJUnitTestRunner"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "IJUnitTestRunner"
+  }, {
+    "name" : "fieldName",
+    "value" : "JUNIT_TESTRUNNER"
+  }, {
+    "name" : "elementKind",
+    "value" : "field"
+  }, {
+    "name" : "oldArchive",
+    "value" : "testng-7.4.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.numberOfParametersChanged",
+  "old" : "method org.testng.junit.IJUnitTestRunner org.testng.junit.IJUnitTestRunner::createTestRunner(org.testng.TestRunner)",
+  "new" : "method org.testng.junit.IJUnitTestRunner org.testng.junit.IJUnitTestRunner::createTestRunner(org.testng.ITestObjectFactory, org.testng.internal.ITestResultNotifier)",
+  "name" : "number of parameters changed",
+  "description" : "The number of parameters of the method have changed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.testng.junit"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.testng.junit.IJUnitTestRunner"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "IJUnitTestRunner"
+  }, {
+    "name" : "methodName",
+    "value" : "createTestRunner"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "testng-7.4.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "testng-7.5.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.noLongerImplementsInterface",
+  "old" : "class org.testng.junit.JUnit3TestMethod",
+  "new" : "class org.testng.junit.JUnit3TestMethod",
+  "name" : "class no longer implements interface",
+  "description" : "Class no longer implements interface 'org.testng.internal.IInvocationStatus'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "interface",
+    "value" : "org.testng.internal.IInvocationStatus"
+  }, {
+    "name" : "package",
+    "value" : "org.testng.junit"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.testng.junit.JUnit3TestMethod"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "JUnit3TestMethod"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "testng-7.4.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "testng-7.5.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.numberOfParametersChanged",
+  "old" : "method void org.testng.junit.JUnit3TestMethod::<init>(org.testng.junit.JUnitTestClass, junit.framework.Test)",
+  "new" : "method void org.testng.junit.JUnit3TestMethod::<init>(org.testng.ITestObjectFactory, org.testng.junit.JUnitTestClass, junit.framework.Test)",
+  "name" : "number of parameters changed",
+  "description" : "The number of parameters of the method have changed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.testng.junit"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.testng.junit.JUnit3TestMethod"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "JUnit3TestMethod"
+  }, {
+    "name" : "methodName",
+    "value" : "<init>"
+  }, {
+    "name" : "elementKind",
+    "value" : "constructor"
+  }, {
+    "name" : "oldArchive",
+    "value" : "testng-7.4.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "testng-7.5.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.noLongerImplementsInterface",
+  "old" : "class org.testng.junit.JUnit4TestMethod",
+  "new" : "class org.testng.junit.JUnit4TestMethod",
+  "name" : "class no longer implements interface",
+  "description" : "Class no longer implements interface 'org.testng.internal.IInvocationStatus'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "interface",
+    "value" : "org.testng.internal.IInvocationStatus"
+  }, {
+    "name" : "package",
+    "value" : "org.testng.junit"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.testng.junit.JUnit4TestMethod"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "JUnit4TestMethod"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "testng-7.4.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "testng-7.5.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.numberOfParametersChanged",
+  "old" : "method void org.testng.junit.JUnit4TestMethod::<init>(org.testng.junit.JUnitTestClass, org.junit.runner.Description)",
+  "new" : "method void org.testng.junit.JUnit4TestMethod::<init>(org.testng.ITestObjectFactory, org.testng.junit.JUnitTestClass, org.junit.runner.Description)",
+  "name" : "number of parameters changed",
+  "description" : "The number of parameters of the method have changed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.testng.junit"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.testng.junit.JUnit4TestMethod"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "JUnit4TestMethod"
+  }, {
+    "name" : "methodName",
+    "value" : "<init>"
+  }, {
+    "name" : "elementKind",
+    "value" : "constructor"
+  }, {
+    "name" : "oldArchive",
+    "value" : "testng-7.4.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "testng-7.5.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.numberOfParametersChanged",
+  "old" : "method void org.testng.junit.JUnit4TestRunner::<init>()",
+  "new" : "method void org.testng.junit.JUnit4TestRunner::<init>(org.testng.ITestObjectFactory, org.testng.internal.ITestResultNotifier)",
+  "name" : "number of parameters changed",
+  "description" : "The number of parameters of the method have changed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.testng.junit"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.testng.junit.JUnit4TestRunner"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "JUnit4TestRunner"
+  }, {
+    "name" : "methodName",
+    "value" : "<init>"
+  }, {
+    "name" : "elementKind",
+    "value" : "constructor"
+  }, {
+    "name" : "oldArchive",
+    "value" : "testng-7.4.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "testng-7.5.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method void org.testng.junit.JUnit4TestRunner::<init>(org.testng.internal.ITestResultNotifier)",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.testng.junit"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.testng.junit.JUnit4TestRunner"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "JUnit4TestRunner"
+  }, {
+    "name" : "methodName",
+    "value" : "<init>"
+  }, {
+    "name" : "elementKind",
+    "value" : "constructor"
+  }, {
+    "name" : "oldArchive",
+    "value" : "testng-7.4.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.parameterTypeChanged",
+  "old" : "parameter void org.testng.junit.JUnitMethodFinder::<init>(===java.lang.String===, org.testng.internal.annotations.IAnnotationFinder)",
+  "new" : "parameter void org.testng.junit.JUnitMethodFinder::<init>(===org.testng.ITestObjectFactory===, org.testng.internal.annotations.IAnnotationFinder)",
+  "name" : "parameter type changed",
+  "description" : "The type of the parameter changed from 'java.lang.String' to 'org.testng.ITestObjectFactory'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "POTENTIALLY_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "java.lang.String"
+  }, {
+    "name" : "newType",
+    "value" : "org.testng.ITestObjectFactory"
+  }, {
+    "name" : "package",
+    "value" : "org.testng.junit"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.testng.junit.JUnitMethodFinder"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "JUnitMethodFinder"
+  }, {
+    "name" : "methodName",
+    "value" : "<init>"
+  }, {
+    "name" : "parameterIndex",
+    "value" : "0"
+  }, {
+    "name" : "elementKind",
+    "value" : "parameter"
+  }, {
+    "name" : "oldArchive",
+    "value" : "testng-7.4.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "testng-7.5.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.noLongerImplementsInterface",
+  "old" : "class org.testng.junit.JUnitTestMethod",
+  "new" : "class org.testng.junit.JUnitTestMethod",
+  "name" : "class no longer implements interface",
+  "description" : "Class no longer implements interface 'org.testng.internal.IInvocationStatus'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "interface",
+    "value" : "org.testng.internal.IInvocationStatus"
+  }, {
+    "name" : "package",
+    "value" : "org.testng.junit"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.testng.junit.JUnitTestMethod"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "JUnitTestMethod"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "testng-7.4.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "testng-7.5.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.numberOfParametersChanged",
+  "old" : "method void org.testng.junit.JUnitTestMethod::<init>(org.testng.junit.JUnitTestClass, java.lang.String, org.testng.internal.ConstructorOrMethod, java.lang.Object)",
+  "new" : "method void org.testng.junit.JUnitTestMethod::<init>(org.testng.ITestObjectFactory, org.testng.junit.JUnitTestClass, java.lang.String, org.testng.internal.ConstructorOrMethod, java.lang.Object)",
+  "name" : "number of parameters changed",
+  "description" : "The number of parameters of the method have changed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.testng.junit"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.testng.junit.JUnitTestMethod"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "JUnitTestMethod"
+  }, {
+    "name" : "methodName",
+    "value" : "<init>"
+  }, {
+    "name" : "elementKind",
+    "value" : "constructor"
+  }, {
+    "name" : "oldArchive",
+    "value" : "testng-7.4.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "testng-7.5.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.numberOfParametersChanged",
+  "old" : "method void org.testng.junit.JUnitTestMethod::<init>(org.testng.junit.JUnitTestClass, org.testng.internal.ConstructorOrMethod, java.lang.Object)",
+  "new" : "method void org.testng.junit.JUnitTestMethod::<init>(org.testng.ITestObjectFactory, org.testng.junit.JUnitTestClass, org.testng.internal.ConstructorOrMethod, java.lang.Object)",
+  "name" : "number of parameters changed",
+  "description" : "The number of parameters of the method have changed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.testng.junit"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.testng.junit.JUnitTestMethod"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "JUnitTestMethod"
+  }, {
+    "name" : "methodName",
+    "value" : "<init>"
+  }, {
+    "name" : "elementKind",
+    "value" : "constructor"
+  }, {
+    "name" : "oldArchive",
+    "value" : "testng-7.4.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "testng-7.5.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.numberOfParametersChanged",
+  "old" : "method void org.testng.junit.JUnitTestRunner::<init>()",
+  "new" : "method void org.testng.junit.JUnitTestRunner::<init>(org.testng.ITestObjectFactory, org.testng.internal.ITestResultNotifier)",
+  "name" : "number of parameters changed",
+  "description" : "The number of parameters of the method have changed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.testng.junit"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.testng.junit.JUnitTestRunner"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "JUnitTestRunner"
+  }, {
+    "name" : "methodName",
+    "value" : "<init>"
+  }, {
+    "name" : "elementKind",
+    "value" : "constructor"
+  }, {
+    "name" : "oldArchive",
+    "value" : "testng-7.4.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "testng-7.5.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method void org.testng.junit.JUnitTestRunner::<init>(org.testng.internal.ITestResultNotifier)",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.testng.junit"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.testng.junit.JUnitTestRunner"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "JUnitTestRunner"
+  }, {
+    "name" : "methodName",
+    "value" : "<init>"
+  }, {
+    "name" : "elementKind",
+    "value" : "constructor"
+  }, {
+    "name" : "oldArchive",
+    "value" : "testng-7.4.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method void org.testng.log4testng.Logger::main(java.lang.String[])",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.testng.log4testng"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.testng.log4testng.Logger"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "Logger"
+  }, {
+    "name" : "methodName",
+    "value" : "main"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "testng-7.4.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method void org.testng.xml.Parser::<init>()",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.testng.xml"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.testng.xml.Parser"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "Parser"
+  }, {
+    "name" : "methodName",
+    "value" : "<init>"
+  }, {
+    "name" : "elementKind",
+    "value" : "constructor"
+  }, {
+    "name" : "oldArchive",
+    "value" : "testng-7.4.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method org.testng.xml.XmlSuite.ParallelMode org.testng.xml.XmlSuite.ParallelMode::skipDeprecatedValues(org.testng.xml.XmlSuite.ParallelMode)",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.testng.xml"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.testng.xml.XmlSuite.ParallelMode"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "ParallelMode"
+  }, {
+    "name" : "methodName",
+    "value" : "skipDeprecatedValues"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "testng-7.4.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+} ]

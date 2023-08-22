@@ -1,0 +1,179 @@
+[ {
+  "code" : "java.method.parameterTypeChanged",
+  "old" : "parameter void org.mybatis.spring.batch.MyBatisBatchItemWriter<T>::write(===java.util.List<? extends T>===)",
+  "new" : "parameter void org.mybatis.spring.batch.MyBatisBatchItemWriter<T>::write(===org.springframework.batch.item.Chunk<? extends T>===)",
+  "name" : "parameter type changed",
+  "description" : "The type of the parameter changed from 'java.util.List<? extends T>' to 'org.springframework.batch.item.Chunk<? extends T>'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "POTENTIALLY_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "java.util.List<? extends T>"
+  }, {
+    "name" : "newType",
+    "value" : "org.springframework.batch.item.Chunk<? extends T>"
+  }, {
+    "name" : "package",
+    "value" : "org.mybatis.spring.batch"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.mybatis.spring.batch.MyBatisBatchItemWriter"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "MyBatisBatchItemWriter"
+  }, {
+    "name" : "methodName",
+    "value" : "write"
+  }, {
+    "name" : "parameterIndex",
+    "value" : "0"
+  }, {
+    "name" : "elementKind",
+    "value" : "parameter"
+  }, {
+    "name" : "oldArchive",
+    "value" : "mybatis-spring-2.0.7.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "mybatis-spring-3.0.1.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method void org.mybatis.spring.batch.MyBatisPagingItemReader<T>::doJumpToPage(int)",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.mybatis.spring.batch"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.mybatis.spring.batch.MyBatisPagingItemReader"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "MyBatisPagingItemReader"
+  }, {
+    "name" : "methodName",
+    "value" : "doJumpToPage"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "mybatis-spring-2.0.7.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+} ][ {
+  "code" : "java.method.parameterTypeChanged",
+  "old" : "parameter void org.mybatis.spring.batch.MyBatisBatchItemWriter<T>::write(===java.util.List<? extends T>===)",
+  "new" : "parameter void org.mybatis.spring.batch.MyBatisBatchItemWriter<T>::write(===org.springframework.batch.item.Chunk<? extends T>===)",
+  "name" : "parameter type changed",
+  "description" : "The type of the parameter changed from 'java.util.List<? extends T>' to 'org.springframework.batch.item.Chunk<? extends T>'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "POTENTIALLY_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "java.util.List<? extends T>"
+  }, {
+    "name" : "newType",
+    "value" : "org.springframework.batch.item.Chunk<? extends T>"
+  }, {
+    "name" : "package",
+    "value" : "org.mybatis.spring.batch"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.mybatis.spring.batch.MyBatisBatchItemWriter"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "MyBatisBatchItemWriter"
+  }, {
+    "name" : "methodName",
+    "value" : "write"
+  }, {
+    "name" : "parameterIndex",
+    "value" : "0"
+  }, {
+    "name" : "elementKind",
+    "value" : "parameter"
+  }, {
+    "name" : "oldArchive",
+    "value" : "mybatis-spring-2.0.7.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "mybatis-spring-3.0.1.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method void org.mybatis.spring.batch.MyBatisPagingItemReader<T>::doJumpToPage(int)",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.mybatis.spring.batch"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.mybatis.spring.batch.MyBatisPagingItemReader"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "MyBatisPagingItemReader"
+  }, {
+    "name" : "methodName",
+    "value" : "doJumpToPage"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "mybatis-spring-2.0.7.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+} ]

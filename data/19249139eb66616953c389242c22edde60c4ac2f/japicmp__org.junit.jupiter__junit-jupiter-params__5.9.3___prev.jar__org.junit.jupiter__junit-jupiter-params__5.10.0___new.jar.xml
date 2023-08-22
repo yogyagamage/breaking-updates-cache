@@ -1,0 +1,1435 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<japicmp xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" accessModifier="PROTECTED" creationTimestamp="2023-08-21T16:08:50.425+0200" ignoreMissingClasses="true" ignoreMissingClassesByRegularExpressions="" newJar="n.a." newVersion="n.a." oldJar="n.a." oldVersion="n.a." onlyBinaryIncompatibleModifications="false" onlyModifications="true" packagesExclude="(*.)?tests(.*)?;(*.)?tests(.*)?;(*.)?test(.*)?;(*.)?test(.*)?;@org.junit.After;@org.junit.After;@org.junit.After;@org.junit.After;@org.junit.After;@org.junit.AfterClass;@org.junit.AfterClass;@org.junit.AfterClass;@org.junit.AfterClass;@org.junit.AfterClass;@org.junit.Before;@org.junit.Before;@org.junit.Before;@org.junit.Before;@org.junit.Before;@org.junit.BeforeClass;@org.junit.BeforeClass;@org.junit.BeforeClass;@org.junit.BeforeClass;@org.junit.BeforeClass;@org.junit.Ignore;@org.junit.Ignore;@org.junit.Ignore;@org.junit.Ignore;@org.junit.Ignore;@org.junit.Test;@org.junit.Test;@org.junit.Test;@org.junit.Test;@org.junit.Test;@org.junit.runner.RunWith;@org.junit.runner.RunWith;@org.junit.runner.RunWith;@org.junit.runner.RunWith;@org.junit.runner.RunWith" packagesInclude="all" semanticVersioning="1.0.0" title="JApiCmp-Report" xsi:noNamespaceSchemaLocation="japicmp.xsd">
+    <classes>
+        <class binaryCompatible="false" changeStatus="MODIFIED" fullyQualifiedName="org.junit.jupiter.params.aggregator.ArgumentsAccessor" javaObjectSerializationCompatible="NOT_SERIALIZABLE" javaObjectSerializationCompatibleAsString="not serializable" sourceCompatible="false">
+            <annotations/>
+            <attributes>
+                <attribute changeStatus="UNCHANGED" newValue="NON_SYNTHETIC" oldValue="NON_SYNTHETIC"/>
+            </attributes>
+            <classFileFormatVersion changeStatus="UNCHANGED" majorVersionNew="52" majorVersionOld="52" minorVersionNew="0" minorVersionOld="0"/>
+            <classType changeStatus="UNCHANGED" newType="INTERFACE" oldType="INTERFACE"/>
+            <compatibilityChanges/>
+            <constructors/>
+            <fields/>
+            <genericTemplates/>
+            <interfaces/>
+            <methods>
+                <method binaryCompatible="false" changeStatus="REMOVED" name="getInvocationIndex" newLineNumber="n.a." oldLineNumber="n.a." sourceCompatible="false">
+                    <annotations/>
+                    <attributes>
+                        <attribute changeStatus="REMOVED" newValue="n.a." oldValue="NON_SYNTHETIC"/>
+                    </attributes>
+                    <compatibilityChanges>
+                        <compatibilityChange>METHOD_REMOVED</compatibilityChange>
+                    </compatibilityChanges>
+                    <exceptions/>
+                    <genericTemplates/>
+                    <modifiers>
+                        <modifier changeStatus="REMOVED" newValue="n.a." oldValue="NON_FINAL"/>
+                        <modifier changeStatus="REMOVED" newValue="n.a." oldValue="NON_STATIC"/>
+                        <modifier changeStatus="REMOVED" newValue="n.a." oldValue="PUBLIC"/>
+                        <modifier changeStatus="REMOVED" newValue="n.a." oldValue="ABSTRACT"/>
+                        <modifier changeStatus="REMOVED" newValue="n.a." oldValue="NON_BRIDGE"/>
+                        <modifier changeStatus="REMOVED" newValue="n.a." oldValue="NON_SYNTHETIC"/>
+                    </modifiers>
+                    <parameters/>
+                    <returnType binaryCompatible="true" changeStatus="REMOVED" newValue="n.a." oldValue="int" sourceCompatible="true">
+                        <compatibilityChanges/>
+                        <newGenericTypes/>
+                        <oldGenericTypes/>
+                    </returnType>
+                </method>
+            </methods>
+            <modifiers>
+                <modifier changeStatus="UNCHANGED" newValue="NON_FINAL" oldValue="NON_FINAL"/>
+                <modifier changeStatus="UNCHANGED" newValue="NON_STATIC" oldValue="NON_STATIC"/>
+                <modifier changeStatus="UNCHANGED" newValue="PUBLIC" oldValue="PUBLIC"/>
+                <modifier changeStatus="UNCHANGED" newValue="ABSTRACT" oldValue="ABSTRACT"/>
+                <modifier changeStatus="UNCHANGED" newValue="NON_SYNTHETIC" oldValue="NON_SYNTHETIC"/>
+            </modifiers>
+            <serialVersionUid serialVersionUidDefaultNew="n.a." serialVersionUidDefaultOld="n.a." serialVersionUidInClassNew="n.a." serialVersionUidInClassOld="n.a." serializableNew="false" serializableOld="false"/>
+            <superclass binaryCompatible="true" changeStatus="UNCHANGED" sourceCompatible="true" superclassNew="java.lang.Object" superclassOld="java.lang.Object">
+                <compatibilityChanges/>
+            </superclass>
+        </class>
+        <class binaryCompatible="false" changeStatus="MODIFIED" fullyQualifiedName="org.junit.jupiter.params.aggregator.DefaultArgumentsAccessor" javaObjectSerializationCompatible="NOT_SERIALIZABLE" javaObjectSerializationCompatibleAsString="not serializable" sourceCompatible="false">
+            <annotations/>
+            <attributes>
+                <attribute changeStatus="UNCHANGED" newValue="NON_SYNTHETIC" oldValue="NON_SYNTHETIC"/>
+            </attributes>
+            <classFileFormatVersion changeStatus="UNCHANGED" majorVersionNew="52" majorVersionOld="52" minorVersionNew="0" minorVersionOld="0"/>
+            <classType changeStatus="UNCHANGED" newType="CLASS" oldType="CLASS"/>
+            <compatibilityChanges/>
+            <constructors>
+                <constructor binaryCompatible="false" changeStatus="REMOVED" name="DefaultArgumentsAccessor" newLineNumber="n.a." oldLineNumber="43" sourceCompatible="false">
+                    <annotations/>
+                    <attributes>
+                        <attribute changeStatus="REMOVED" newValue="n.a." oldValue="NON_SYNTHETIC"/>
+                    </attributes>
+                    <compatibilityChanges>
+                        <compatibilityChange>CONSTRUCTOR_REMOVED</compatibilityChange>
+                    </compatibilityChanges>
+                    <exceptions/>
+                    <genericTemplates/>
+                    <modifiers>
+                        <modifier changeStatus="REMOVED" newValue="n.a." oldValue="NON_FINAL"/>
+                        <modifier changeStatus="REMOVED" newValue="n.a." oldValue="NON_STATIC"/>
+                        <modifier changeStatus="REMOVED" newValue="n.a." oldValue="PUBLIC"/>
+                        <modifier changeStatus="REMOVED" newValue="n.a." oldValue="NON_ABSTRACT"/>
+                        <modifier changeStatus="REMOVED" newValue="n.a." oldValue="NON_BRIDGE"/>
+                        <modifier changeStatus="REMOVED" newValue="n.a." oldValue="NON_SYNTHETIC"/>
+                    </modifiers>
+                    <parameters>
+                        <parameter binaryCompatible="true" changeStatus="UNCHANGED" sourceCompatible="true" templateName="N/A" type="org.junit.jupiter.api.extension.ParameterContext">
+                            <compatibilityChanges/>
+                            <newGenericTypes/>
+                            <oldGenericTypes/>
+                        </parameter>
+                        <parameter binaryCompatible="true" changeStatus="UNCHANGED" sourceCompatible="true" templateName="N/A" type="int">
+                            <compatibilityChanges/>
+                            <newGenericTypes/>
+                            <oldGenericTypes/>
+                        </parameter>
+                        <parameter binaryCompatible="true" changeStatus="UNCHANGED" sourceCompatible="true" templateName="N/A" type="java.lang.Object[]">
+                            <compatibilityChanges/>
+                            <newGenericTypes/>
+                            <oldGenericTypes/>
+                        </parameter>
+                    </parameters>
+                </constructor>
+                <constructor binaryCompatible="true" changeStatus="NEW" name="DefaultArgumentsAccessor" newLineNumber="40" oldLineNumber="n.a." sourceCompatible="true">
+                    <annotations/>
+                    <attributes>
+                        <attribute changeStatus="NEW" newValue="NON_SYNTHETIC" oldValue="n.a."/>
+                    </attributes>
+                    <compatibilityChanges/>
+                    <exceptions/>
+                    <genericTemplates/>
+                    <modifiers>
+                        <modifier changeStatus="NEW" newValue="NON_FINAL" oldValue="n.a."/>
+                        <modifier changeStatus="NEW" newValue="NON_STATIC" oldValue="n.a."/>
+                        <modifier changeStatus="NEW" newValue="PUBLIC" oldValue="n.a."/>
+                        <modifier changeStatus="NEW" newValue="NON_ABSTRACT" oldValue="n.a."/>
+                        <modifier changeStatus="NEW" newValue="NON_BRIDGE" oldValue="n.a."/>
+                        <modifier changeStatus="NEW" newValue="NON_SYNTHETIC" oldValue="n.a."/>
+                    </modifiers>
+                    <parameters>
+                        <parameter binaryCompatible="true" changeStatus="UNCHANGED" sourceCompatible="true" templateName="N/A" type="java.lang.Object[]">
+                            <compatibilityChanges/>
+                            <newGenericTypes/>
+                            <oldGenericTypes/>
+                        </parameter>
+                    </parameters>
+                </constructor>
+            </constructors>
+            <fields/>
+            <genericTemplates/>
+            <interfaces>
+                <interface binaryCompatible="false" changeStatus="UNCHANGED" fullyQualifiedName="org.junit.jupiter.params.aggregator.ArgumentsAccessor" sourceCompatible="false">
+                    <compatibilityChanges/>
+                </interface>
+            </interfaces>
+            <methods>
+                <method binaryCompatible="true" changeStatus="REMOVED" name="getInvocationIndex" newLineNumber="n.a." oldLineNumber="139" sourceCompatible="true">
+                    <annotations/>
+                    <attributes>
+                        <attribute changeStatus="REMOVED" newValue="n.a." oldValue="NON_SYNTHETIC"/>
+                    </attributes>
+                    <compatibilityChanges/>
+                    <exceptions/>
+                    <genericTemplates/>
+                    <modifiers>
+                        <modifier changeStatus="REMOVED" newValue="n.a." oldValue="NON_FINAL"/>
+                        <modifier changeStatus="REMOVED" newValue="n.a." oldValue="NON_STATIC"/>
+                        <modifier changeStatus="REMOVED" newValue="n.a." oldValue="PUBLIC"/>
+                        <modifier changeStatus="REMOVED" newValue="n.a." oldValue="NON_ABSTRACT"/>
+                        <modifier changeStatus="REMOVED" newValue="n.a." oldValue="NON_BRIDGE"/>
+                        <modifier changeStatus="REMOVED" newValue="n.a." oldValue="NON_SYNTHETIC"/>
+                    </modifiers>
+                    <parameters/>
+                    <returnType binaryCompatible="true" changeStatus="REMOVED" newValue="n.a." oldValue="int" sourceCompatible="true">
+                        <compatibilityChanges/>
+                        <newGenericTypes/>
+                        <oldGenericTypes/>
+                    </returnType>
+                </method>
+            </methods>
+            <modifiers>
+                <modifier changeStatus="UNCHANGED" newValue="NON_FINAL" oldValue="NON_FINAL"/>
+                <modifier changeStatus="UNCHANGED" newValue="NON_STATIC" oldValue="NON_STATIC"/>
+                <modifier changeStatus="UNCHANGED" newValue="PUBLIC" oldValue="PUBLIC"/>
+                <modifier changeStatus="UNCHANGED" newValue="NON_ABSTRACT" oldValue="NON_ABSTRACT"/>
+                <modifier changeStatus="UNCHANGED" newValue="NON_SYNTHETIC" oldValue="NON_SYNTHETIC"/>
+            </modifiers>
+            <serialVersionUid serialVersionUidDefaultNew="n.a." serialVersionUidDefaultOld="n.a." serialVersionUidInClassNew="n.a." serialVersionUidInClassOld="n.a." serializableNew="false" serializableOld="false"/>
+            <superclass binaryCompatible="true" changeStatus="UNCHANGED" sourceCompatible="true" superclassNew="java.lang.Object" superclassOld="java.lang.Object">
+                <compatibilityChanges/>
+            </superclass>
+        </class>
+        <class binaryCompatible="false" changeStatus="REMOVED" fullyQualifiedName="org.junit.jupiter.params.converter.AnnotationBasedArgumentConverter" javaObjectSerializationCompatible="NOT_SERIALIZABLE" javaObjectSerializationCompatibleAsString="not serializable" sourceCompatible="false">
+            <annotations>
+                <annotation binaryCompatible="true" changeStatus="REMOVED" fullyQualifiedName="org.apiguardian.api.API" sourceCompatible="true">
+                    <compatibilityChanges/>
+                    <elements>
+                        <element binaryCompatible="true" changeStatus="REMOVED" name="status" sourceCompatible="true">
+                            <compatibilityChanges/>
+                            <newElementValues/>
+                            <oldElementValues>
+<oldElementValue fullyQualifiedName="org.apiguardian.api.API$Status" name="n.a." type="Enum" value="EXPERIMENTAL">
+    <values/>
+</oldElementValue>
+                            </oldElementValues>
+                        </element>
+                        <element binaryCompatible="true" changeStatus="REMOVED" name="since" sourceCompatible="true">
+                            <compatibilityChanges/>
+                            <newElementValues/>
+                            <oldElementValues>
+<oldElementValue fullyQualifiedName="java.lang.String" name="n.a." type="String" value="5.10">
+    <values/>
+</oldElementValue>
+                            </oldElementValues>
+                        </element>
+                    </elements>
+                </annotation>
+            </annotations>
+            <attributes>
+                <attribute changeStatus="REMOVED" newValue="n.a." oldValue="NON_SYNTHETIC"/>
+            </attributes>
+            <classFileFormatVersion changeStatus="REMOVED" majorVersionNew="-1" majorVersionOld="52" minorVersionNew="-1" minorVersionOld="0"/>
+            <classType changeStatus="REMOVED" newType="n.a." oldType="CLASS"/>
+            <compatibilityChanges>
+                <compatibilityChange>CLASS_REMOVED</compatibilityChange>
+                <compatibilityChange>CLASS_GENERIC_TEMPLATE_CHANGED</compatibilityChange>
+            </compatibilityChanges>
+            <constructors>
+                <constructor binaryCompatible="false" changeStatus="REMOVED" name="AnnotationBasedArgumentConverter" newLineNumber="n.a." oldLineNumber="36" sourceCompatible="false">
+                    <annotations/>
+                    <attributes>
+                        <attribute changeStatus="REMOVED" newValue="n.a." oldValue="NON_SYNTHETIC"/>
+                    </attributes>
+                    <compatibilityChanges>
+                        <compatibilityChange>CONSTRUCTOR_REMOVED</compatibilityChange>
+                    </compatibilityChanges>
+                    <exceptions/>
+                    <genericTemplates/>
+                    <modifiers>
+                        <modifier changeStatus="REMOVED" newValue="n.a." oldValue="NON_FINAL"/>
+                        <modifier changeStatus="REMOVED" newValue="n.a." oldValue="NON_STATIC"/>
+                        <modifier changeStatus="REMOVED" newValue="n.a." oldValue="PUBLIC"/>
+                        <modifier changeStatus="REMOVED" newValue="n.a." oldValue="NON_ABSTRACT"/>
+                        <modifier changeStatus="REMOVED" newValue="n.a." oldValue="NON_BRIDGE"/>
+                        <modifier changeStatus="REMOVED" newValue="n.a." oldValue="NON_SYNTHETIC"/>
+                    </modifiers>
+                    <parameters/>
+                </constructor>
+            </constructors>
+            <fields/>
+            <genericTemplates>
+                <genericTemplate binaryCompatible="true" changeStatus="REMOVED" name="A" newType="n.a." oldType="java.lang.annotation.Annotation" sourceCompatible="true">
+                    <compatibilityChanges/>
+                    <newGenericTypes/>
+                    <newInterfaceTypes/>
+                    <oldGenericTypes/>
+                    <oldInterfaceTypes/>
+                </genericTemplate>
+            </genericTemplates>
+            <interfaces>
+                <interface binaryCompatible="false" changeStatus="REMOVED" fullyQualifiedName="java.util.function.Consumer" sourceCompatible="false">
+                    <compatibilityChanges>
+                        <compatibilityChange>INTERFACE_REMOVED</compatibilityChange>
+                    </compatibilityChanges>
+                </interface>
+                <interface binaryCompatible="false" changeStatus="REMOVED" fullyQualifiedName="org.junit.jupiter.params.support.AnnotationConsumer" sourceCompatible="false">
+                    <compatibilityChanges>
+                        <compatibilityChange>INTERFACE_REMOVED</compatibilityChange>
+                    </compatibilityChanges>
+                </interface>
+                <interface binaryCompatible="false" changeStatus="REMOVED" fullyQualifiedName="org.junit.jupiter.params.converter.ArgumentConverter" sourceCompatible="false">
+                    <compatibilityChanges>
+                        <compatibilityChange>INTERFACE_REMOVED</compatibilityChange>
+                    </compatibilityChanges>
+                </interface>
+            </interfaces>
+            <methods>
+                <method binaryCompatible="false" changeStatus="REMOVED" name="accept" newLineNumber="n.a." oldLineNumber="43" sourceCompatible="false">
+                    <annotations/>
+                    <attributes>
+                        <attribute changeStatus="REMOVED" newValue="n.a." oldValue="NON_SYNTHETIC"/>
+                    </attributes>
+                    <compatibilityChanges>
+                        <compatibilityChange>METHOD_REMOVED</compatibilityChange>
+                    </compatibilityChanges>
+                    <exceptions/>
+                    <genericTemplates/>
+                    <modifiers>
+                        <modifier changeStatus="REMOVED" newValue="n.a." oldValue="FINAL"/>
+                        <modifier changeStatus="REMOVED" newValue="n.a." oldValue="NON_STATIC"/>
+                        <modifier changeStatus="REMOVED" newValue="n.a." oldValue="PUBLIC"/>
+                        <modifier changeStatus="REMOVED" newValue="n.a." oldValue="NON_ABSTRACT"/>
+                        <modifier changeStatus="REMOVED" newValue="n.a." oldValue="NON_BRIDGE"/>
+                        <modifier changeStatus="REMOVED" newValue="n.a." oldValue="NON_SYNTHETIC"/>
+                    </modifiers>
+                    <parameters>
+                        <parameter binaryCompatible="true" changeStatus="UNCHANGED" sourceCompatible="true" templateName="A" type="java.lang.annotation.Annotation">
+                            <compatibilityChanges/>
+                            <newGenericTypes/>
+                            <oldGenericTypes/>
+                        </parameter>
+                    </parameters>
+                    <returnType binaryCompatible="true" changeStatus="REMOVED" newValue="n.a." oldValue="void" sourceCompatible="true">
+                        <compatibilityChanges/>
+                        <newGenericTypes/>
+                        <oldGenericTypes/>
+                    </returnType>
+                </method>
+                <method binaryCompatible="true" changeStatus="REMOVED" name="convert" newLineNumber="n.a." oldLineNumber="49" sourceCompatible="true">
+                    <annotations/>
+                    <attributes>
+                        <attribute changeStatus="REMOVED" newValue="n.a." oldValue="NON_SYNTHETIC"/>
+                    </attributes>
+                    <compatibilityChanges/>
+                    <exceptions>
+                        <exception changeStatus="REMOVED" name="org.junit.jupiter.params.converter.ArgumentConversionException"/>
+                    </exceptions>
+                    <genericTemplates/>
+                    <modifiers>
+                        <modifier changeStatus="REMOVED" newValue="n.a." oldValue="FINAL"/>
+                        <modifier changeStatus="REMOVED" newValue="n.a." oldValue="NON_STATIC"/>
+                        <modifier changeStatus="REMOVED" newValue="n.a." oldValue="PUBLIC"/>
+                        <modifier changeStatus="REMOVED" newValue="n.a." oldValue="NON_ABSTRACT"/>
+                        <modifier changeStatus="REMOVED" newValue="n.a." oldValue="NON_BRIDGE"/>
+                        <modifier changeStatus="REMOVED" newValue="n.a." oldValue="NON_SYNTHETIC"/>
+                    </modifiers>
+                    <parameters>
+                        <parameter binaryCompatible="true" changeStatus="UNCHANGED" sourceCompatible="true" templateName="N/A" type="java.lang.Object">
+                            <compatibilityChanges/>
+                            <newGenericTypes/>
+                            <oldGenericTypes/>
+                        </parameter>
+                        <parameter binaryCompatible="true" changeStatus="UNCHANGED" sourceCompatible="true" templateName="N/A" type="org.junit.jupiter.api.extension.ParameterContext">
+                            <compatibilityChanges/>
+                            <newGenericTypes/>
+                            <oldGenericTypes/>
+                        </parameter>
+                    </parameters>
+                    <returnType binaryCompatible="true" changeStatus="REMOVED" newValue="n.a." oldValue="java.lang.Object" sourceCompatible="true">
+                        <compatibilityChanges/>
+                        <newGenericTypes/>
+                        <oldGenericTypes/>
+                    </returnType>
+                </method>
+                <method binaryCompatible="false" changeStatus="REMOVED" name="convert" newLineNumber="n.a." oldLineNumber="n.a." sourceCompatible="false">
+                    <annotations/>
+                    <attributes>
+                        <attribute changeStatus="REMOVED" newValue="n.a." oldValue="NON_SYNTHETIC"/>
+                    </attributes>
+                    <compatibilityChanges>
+                        <compatibilityChange>METHOD_REMOVED</compatibilityChange>
+                    </compatibilityChanges>
+                    <exceptions>
+                        <exception changeStatus="REMOVED" name="org.junit.jupiter.params.converter.ArgumentConversionException"/>
+                    </exceptions>
+                    <genericTemplates/>
+                    <modifiers>
+                        <modifier changeStatus="REMOVED" newValue="n.a." oldValue="NON_FINAL"/>
+                        <modifier changeStatus="REMOVED" newValue="n.a." oldValue="NON_STATIC"/>
+                        <modifier changeStatus="REMOVED" newValue="n.a." oldValue="PROTECTED"/>
+                        <modifier changeStatus="REMOVED" newValue="n.a." oldValue="ABSTRACT"/>
+                        <modifier changeStatus="REMOVED" newValue="n.a." oldValue="NON_BRIDGE"/>
+                        <modifier changeStatus="REMOVED" newValue="n.a." oldValue="NON_SYNTHETIC"/>
+                    </modifiers>
+                    <parameters>
+                        <parameter binaryCompatible="true" changeStatus="UNCHANGED" sourceCompatible="true" templateName="N/A" type="java.lang.Object">
+                            <compatibilityChanges/>
+                            <newGenericTypes/>
+                            <oldGenericTypes/>
+                        </parameter>
+                        <parameter binaryCompatible="true" changeStatus="UNCHANGED" sourceCompatible="true" templateName="N/A" type="java.lang.Class">
+                            <compatibilityChanges/>
+                            <newGenericTypes/>
+                            <oldGenericTypes>
+<oldGenericType genericWildCard="UNBOUNDED" type="?">
+    <genericTypes/>
+</oldGenericType>
+                            </oldGenericTypes>
+                        </parameter>
+                        <parameter binaryCompatible="true" changeStatus="UNCHANGED" sourceCompatible="true" templateName="A" type="java.lang.annotation.Annotation">
+                            <compatibilityChanges/>
+                            <newGenericTypes/>
+                            <oldGenericTypes/>
+                        </parameter>
+                    </parameters>
+                    <returnType binaryCompatible="true" changeStatus="REMOVED" newValue="n.a." oldValue="java.lang.Object" sourceCompatible="true">
+                        <compatibilityChanges/>
+                        <newGenericTypes/>
+                        <oldGenericTypes/>
+                    </returnType>
+                </method>
+            </methods>
+            <modifiers>
+                <modifier changeStatus="REMOVED" newValue="n.a." oldValue="NON_FINAL"/>
+                <modifier changeStatus="REMOVED" newValue="n.a." oldValue="NON_STATIC"/>
+                <modifier changeStatus="REMOVED" newValue="n.a." oldValue="PUBLIC"/>
+                <modifier changeStatus="REMOVED" newValue="n.a." oldValue="ABSTRACT"/>
+                <modifier changeStatus="REMOVED" newValue="n.a." oldValue="NON_SYNTHETIC"/>
+            </modifiers>
+            <serialVersionUid serialVersionUidDefaultNew="n.a." serialVersionUidDefaultOld="n.a." serialVersionUidInClassNew="n.a." serialVersionUidInClassOld="n.a." serializableNew="false" serializableOld="false"/>
+            <superclass binaryCompatible="false" changeStatus="REMOVED" sourceCompatible="false" superclassNew="n.a." superclassOld="java.lang.Object">
+                <compatibilityChanges>
+                    <compatibilityChange>SUPERCLASS_REMOVED</compatibilityChange>
+                </compatibilityChanges>
+            </superclass>
+        </class>
+        <class binaryCompatible="false" changeStatus="MODIFIED" fullyQualifiedName="org.junit.jupiter.params.converter.DefaultArgumentConverter" javaObjectSerializationCompatible="NOT_SERIALIZABLE" javaObjectSerializationCompatibleAsString="not serializable" sourceCompatible="false">
+            <annotations/>
+            <attributes>
+                <attribute changeStatus="UNCHANGED" newValue="NON_SYNTHETIC" oldValue="NON_SYNTHETIC"/>
+            </attributes>
+            <classFileFormatVersion changeStatus="UNCHANGED" majorVersionNew="52" majorVersionOld="52" minorVersionNew="0" minorVersionOld="0"/>
+            <classType changeStatus="UNCHANGED" newType="CLASS" oldType="CLASS"/>
+            <compatibilityChanges/>
+            <constructors/>
+            <fields/>
+            <genericTemplates/>
+            <interfaces/>
+            <methods>
+                <method binaryCompatible="true" changeStatus="REMOVED" name="convert" newLineNumber="n.a." oldLineNumber="73" sourceCompatible="true">
+                    <annotations/>
+                    <attributes>
+                        <attribute changeStatus="REMOVED" newValue="n.a." oldValue="NON_SYNTHETIC"/>
+                    </attributes>
+                    <compatibilityChanges/>
+                    <exceptions/>
+                    <genericTemplates/>
+                    <modifiers>
+                        <modifier changeStatus="REMOVED" newValue="n.a." oldValue="FINAL"/>
+                        <modifier changeStatus="REMOVED" newValue="n.a." oldValue="NON_STATIC"/>
+                        <modifier changeStatus="REMOVED" newValue="n.a." oldValue="PUBLIC"/>
+                        <modifier changeStatus="REMOVED" newValue="n.a." oldValue="NON_ABSTRACT"/>
+                        <modifier changeStatus="REMOVED" newValue="n.a." oldValue="NON_BRIDGE"/>
+                        <modifier changeStatus="REMOVED" newValue="n.a." oldValue="NON_SYNTHETIC"/>
+                    </modifiers>
+                    <parameters>
+                        <parameter binaryCompatible="true" changeStatus="UNCHANGED" sourceCompatible="true" templateName="N/A" type="java.lang.Object">
+                            <compatibilityChanges/>
+                            <newGenericTypes/>
+                            <oldGenericTypes/>
+                        </parameter>
+                        <parameter binaryCompatible="true" changeStatus="UNCHANGED" sourceCompatible="true" templateName="N/A" type="org.junit.jupiter.api.extension.ParameterContext">
+                            <compatibilityChanges/>
+                            <newGenericTypes/>
+                            <oldGenericTypes/>
+                        </parameter>
+                    </parameters>
+                    <returnType binaryCompatible="true" changeStatus="REMOVED" newValue="n.a." oldValue="java.lang.Object" sourceCompatible="true">
+                        <compatibilityChanges/>
+                        <newGenericTypes/>
+                        <oldGenericTypes/>
+                    </returnType>
+                </method>
+                <method binaryCompatible="false" changeStatus="REMOVED" name="convert" newLineNumber="n.a." oldLineNumber="78" sourceCompatible="false">
+                    <annotations/>
+                    <attributes>
+                        <attribute changeStatus="REMOVED" newValue="n.a." oldValue="NON_SYNTHETIC"/>
+                    </attributes>
+                    <compatibilityChanges>
+                        <compatibilityChange>METHOD_REMOVED</compatibilityChange>
+                    </compatibilityChanges>
+                    <exceptions/>
+                    <genericTemplates/>
+                    <modifiers>
+                        <modifier changeStatus="REMOVED" newValue="n.a." oldValue="FINAL"/>
+                        <modifier changeStatus="REMOVED" newValue="n.a." oldValue="NON_STATIC"/>
+                        <modifier changeStatus="REMOVED" newValue="n.a." oldValue="PUBLIC"/>
+                        <modifier changeStatus="REMOVED" newValue="n.a." oldValue="NON_ABSTRACT"/>
+                        <modifier changeStatus="REMOVED" newValue="n.a." oldValue="NON_BRIDGE"/>
+                        <modifier changeStatus="REMOVED" newValue="n.a." oldValue="NON_SYNTHETIC"/>
+                    </modifiers>
+                    <parameters>
+                        <parameter binaryCompatible="true" changeStatus="UNCHANGED" sourceCompatible="true" templateName="N/A" type="java.lang.Object">
+                            <compatibilityChanges/>
+                            <newGenericTypes/>
+                            <oldGenericTypes/>
+                        </parameter>
+                        <parameter binaryCompatible="true" changeStatus="UNCHANGED" sourceCompatible="true" templateName="N/A" type="java.lang.Class">
+                            <compatibilityChanges/>
+                            <newGenericTypes/>
+                            <oldGenericTypes>
+<oldGenericType genericWildCard="UNBOUNDED" type="?">
+    <genericTypes/>
+</oldGenericType>
+                            </oldGenericTypes>
+                        </parameter>
+                        <parameter binaryCompatible="true" changeStatus="UNCHANGED" sourceCompatible="true" templateName="N/A" type="org.junit.jupiter.api.extension.ParameterContext">
+                            <compatibilityChanges/>
+                            <newGenericTypes/>
+                            <oldGenericTypes/>
+                        </parameter>
+                    </parameters>
+                    <returnType binaryCompatible="true" changeStatus="REMOVED" newValue="n.a." oldValue="java.lang.Object" sourceCompatible="true">
+                        <compatibilityChanges/>
+                        <newGenericTypes/>
+                        <oldGenericTypes/>
+                    </returnType>
+                </method>
+                <method binaryCompatible="true" changeStatus="NEW" name="convert" newLineNumber="93" oldLineNumber="n.a." sourceCompatible="true">
+                    <annotations/>
+                    <attributes>
+                        <attribute changeStatus="NEW" newValue="NON_SYNTHETIC" oldValue="n.a."/>
+                    </attributes>
+                    <compatibilityChanges>
+                        <compatibilityChange>METHOD_ADDED_TO_PUBLIC_CLASS</compatibilityChange>
+                    </compatibilityChanges>
+                    <exceptions/>
+                    <genericTemplates/>
+                    <modifiers>
+                        <modifier changeStatus="NEW" newValue="NON_FINAL" oldValue="n.a."/>
+                        <modifier changeStatus="NEW" newValue="NON_STATIC" oldValue="n.a."/>
+                        <modifier changeStatus="NEW" newValue="PUBLIC" oldValue="n.a."/>
+                        <modifier changeStatus="NEW" newValue="NON_ABSTRACT" oldValue="n.a."/>
+                        <modifier changeStatus="NEW" newValue="NON_BRIDGE" oldValue="n.a."/>
+                        <modifier changeStatus="NEW" newValue="NON_SYNTHETIC" oldValue="n.a."/>
+                    </modifiers>
+                    <parameters>
+                        <parameter binaryCompatible="true" changeStatus="UNCHANGED" sourceCompatible="true" templateName="N/A" type="java.lang.Object">
+                            <compatibilityChanges/>
+                            <newGenericTypes/>
+                            <oldGenericTypes/>
+                        </parameter>
+                        <parameter binaryCompatible="true" changeStatus="UNCHANGED" sourceCompatible="true" templateName="N/A" type="java.lang.Class">
+                            <compatibilityChanges/>
+                            <newGenericTypes>
+<newGenericType genericWildCard="UNBOUNDED" type="?">
+    <genericTypes/>
+</newGenericType>
+                            </newGenericTypes>
+                            <oldGenericTypes/>
+                        </parameter>
+                    </parameters>
+                    <returnType binaryCompatible="true" changeStatus="NEW" newValue="java.lang.Object" oldValue="n.a." sourceCompatible="true">
+                        <compatibilityChanges/>
+                        <newGenericTypes/>
+                        <oldGenericTypes/>
+                    </returnType>
+                </method>
+            </methods>
+            <modifiers>
+                <modifier changeStatus="UNCHANGED" newValue="NON_FINAL" oldValue="NON_FINAL"/>
+                <modifier changeStatus="UNCHANGED" newValue="NON_STATIC" oldValue="NON_STATIC"/>
+                <modifier changeStatus="UNCHANGED" newValue="PUBLIC" oldValue="PUBLIC"/>
+                <modifier changeStatus="UNCHANGED" newValue="NON_ABSTRACT" oldValue="NON_ABSTRACT"/>
+                <modifier changeStatus="UNCHANGED" newValue="NON_SYNTHETIC" oldValue="NON_SYNTHETIC"/>
+            </modifiers>
+            <serialVersionUid serialVersionUidDefaultNew="n.a." serialVersionUidDefaultOld="n.a." serialVersionUidInClassNew="n.a." serialVersionUidInClassOld="n.a." serializableNew="false" serializableOld="false"/>
+            <superclass binaryCompatible="true" changeStatus="MODIFIED" sourceCompatible="true" superclassNew="org.junit.jupiter.params.converter.SimpleArgumentConverter" superclassOld="java.lang.Object">
+                <compatibilityChanges>
+                    <compatibilityChange>SUPERCLASS_ADDED</compatibilityChange>
+                </compatibilityChanges>
+            </superclass>
+        </class>
+        <class binaryCompatible="true" changeStatus="UNCHANGED" fullyQualifiedName="org.junit.jupiter.params.converter.TypedArgumentConverter" javaObjectSerializationCompatible="NOT_SERIALIZABLE" javaObjectSerializationCompatibleAsString="not serializable" sourceCompatible="true">
+            <annotations>
+                <annotation binaryCompatible="true" changeStatus="MODIFIED" fullyQualifiedName="org.apiguardian.api.API" sourceCompatible="true">
+                    <compatibilityChanges/>
+                    <elements>
+                        <element binaryCompatible="true" changeStatus="MODIFIED" name="status" sourceCompatible="true">
+                            <compatibilityChanges/>
+                            <newElementValues>
+<newElementValue fullyQualifiedName="org.apiguardian.api.API$Status" name="n.a." type="Enum" value="EXPERIMENTAL">
+    <values/>
+</newElementValue>
+                            </newElementValues>
+                            <oldElementValues>
+<oldElementValue fullyQualifiedName="org.apiguardian.api.API$Status" name="n.a." type="Enum" value="STABLE">
+    <values/>
+</oldElementValue>
+                            </oldElementValues>
+                        </element>
+                        <element binaryCompatible="true" changeStatus="MODIFIED" name="since" sourceCompatible="true">
+                            <compatibilityChanges/>
+                            <newElementValues>
+<newElementValue fullyQualifiedName="java.lang.String" name="n.a." type="String" value="5.7">
+    <values/>
+</newElementValue>
+                            </newElementValues>
+                            <oldElementValues>
+<oldElementValue fullyQualifiedName="java.lang.String" name="n.a." type="String" value="5.10">
+    <values/>
+</oldElementValue>
+                            </oldElementValues>
+                        </element>
+                    </elements>
+                </annotation>
+            </annotations>
+            <attributes>
+                <attribute changeStatus="UNCHANGED" newValue="NON_SYNTHETIC" oldValue="NON_SYNTHETIC"/>
+            </attributes>
+            <classFileFormatVersion changeStatus="UNCHANGED" majorVersionNew="52" majorVersionOld="52" minorVersionNew="0" minorVersionOld="0"/>
+            <classType changeStatus="UNCHANGED" newType="CLASS" oldType="CLASS"/>
+            <compatibilityChanges/>
+            <constructors/>
+            <fields/>
+            <genericTemplates>
+                <genericTemplate binaryCompatible="true" changeStatus="UNCHANGED" name="S" newType="java.lang.Object" oldType="java.lang.Object" sourceCompatible="true">
+                    <compatibilityChanges/>
+                    <newGenericTypes/>
+                    <newInterfaceTypes/>
+                    <oldGenericTypes/>
+                    <oldInterfaceTypes/>
+                </genericTemplate>
+                <genericTemplate binaryCompatible="true" changeStatus="UNCHANGED" name="T" newType="java.lang.Object" oldType="java.lang.Object" sourceCompatible="true">
+                    <compatibilityChanges/>
+                    <newGenericTypes/>
+                    <newInterfaceTypes/>
+                    <oldGenericTypes/>
+                    <oldInterfaceTypes/>
+                </genericTemplate>
+            </genericTemplates>
+            <interfaces/>
+            <methods/>
+            <modifiers>
+                <modifier changeStatus="UNCHANGED" newValue="NON_FINAL" oldValue="NON_FINAL"/>
+                <modifier changeStatus="UNCHANGED" newValue="NON_STATIC" oldValue="NON_STATIC"/>
+                <modifier changeStatus="UNCHANGED" newValue="PUBLIC" oldValue="PUBLIC"/>
+                <modifier changeStatus="UNCHANGED" newValue="ABSTRACT" oldValue="ABSTRACT"/>
+                <modifier changeStatus="UNCHANGED" newValue="NON_SYNTHETIC" oldValue="NON_SYNTHETIC"/>
+            </modifiers>
+            <serialVersionUid serialVersionUidDefaultNew="n.a." serialVersionUidDefaultOld="n.a." serialVersionUidInClassNew="n.a." serialVersionUidInClassOld="n.a." serializableNew="false" serializableOld="false"/>
+            <superclass binaryCompatible="true" changeStatus="UNCHANGED" sourceCompatible="true" superclassNew="java.lang.Object" superclassOld="java.lang.Object">
+                <compatibilityChanges/>
+            </superclass>
+        </class>
+        <class binaryCompatible="true" changeStatus="UNCHANGED" fullyQualifiedName="org.junit.jupiter.params.ParameterizedTest" javaObjectSerializationCompatible="NOT_SERIALIZABLE" javaObjectSerializationCompatibleAsString="not serializable" sourceCompatible="true">
+            <annotations/>
+            <attributes>
+                <attribute changeStatus="UNCHANGED" newValue="NON_SYNTHETIC" oldValue="NON_SYNTHETIC"/>
+            </attributes>
+            <classFileFormatVersion changeStatus="UNCHANGED" majorVersionNew="52" majorVersionOld="52" minorVersionNew="0" minorVersionOld="0"/>
+            <classType changeStatus="UNCHANGED" newType="ANNOTATION" oldType="ANNOTATION"/>
+            <compatibilityChanges/>
+            <constructors/>
+            <fields/>
+            <genericTemplates/>
+            <interfaces/>
+            <methods>
+                <method binaryCompatible="true" changeStatus="UNCHANGED" name="autoCloseArguments" newLineNumber="n.a." oldLineNumber="n.a." sourceCompatible="true">
+                    <annotations>
+                        <annotation binaryCompatible="true" changeStatus="MODIFIED" fullyQualifiedName="org.apiguardian.api.API" sourceCompatible="true">
+                            <compatibilityChanges/>
+                            <elements>
+<element binaryCompatible="true" changeStatus="MODIFIED" name="status" sourceCompatible="true">
+    <compatibilityChanges/>
+    <newElementValues>
+        <newElementValue fullyQualifiedName="org.apiguardian.api.API$Status" name="n.a." type="Enum" value="EXPERIMENTAL">
+            <values/>
+        </newElementValue>
+    </newElementValues>
+    <oldElementValues>
+        <oldElementValue fullyQualifiedName="org.apiguardian.api.API$Status" name="n.a." type="Enum" value="STABLE">
+            <values/>
+        </oldElementValue>
+    </oldElementValues>
+</element>
+<element binaryCompatible="true" changeStatus="MODIFIED" name="since" sourceCompatible="true">
+    <compatibilityChanges/>
+    <newElementValues>
+        <newElementValue fullyQualifiedName="java.lang.String" name="n.a." type="String" value="5.8">
+            <values/>
+        </newElementValue>
+    </newElementValues>
+    <oldElementValues>
+        <oldElementValue fullyQualifiedName="java.lang.String" name="n.a." type="String" value="5.10">
+            <values/>
+        </oldElementValue>
+    </oldElementValues>
+</element>
+                            </elements>
+                        </annotation>
+                    </annotations>
+                    <attributes>
+                        <attribute changeStatus="UNCHANGED" newValue="NON_SYNTHETIC" oldValue="NON_SYNTHETIC"/>
+                    </attributes>
+                    <compatibilityChanges/>
+                    <exceptions/>
+                    <genericTemplates/>
+                    <modifiers>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_FINAL" oldValue="NON_FINAL"/>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_STATIC" oldValue="NON_STATIC"/>
+                        <modifier changeStatus="UNCHANGED" newValue="PUBLIC" oldValue="PUBLIC"/>
+                        <modifier changeStatus="UNCHANGED" newValue="ABSTRACT" oldValue="ABSTRACT"/>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_BRIDGE" oldValue="NON_BRIDGE"/>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_SYNTHETIC" oldValue="NON_SYNTHETIC"/>
+                    </modifiers>
+                    <parameters/>
+                    <returnType binaryCompatible="true" changeStatus="UNCHANGED" newValue="boolean" oldValue="boolean" sourceCompatible="true">
+                        <compatibilityChanges/>
+                        <newGenericTypes/>
+                        <oldGenericTypes/>
+                    </returnType>
+                </method>
+            </methods>
+            <modifiers>
+                <modifier changeStatus="UNCHANGED" newValue="NON_FINAL" oldValue="NON_FINAL"/>
+                <modifier changeStatus="UNCHANGED" newValue="NON_STATIC" oldValue="NON_STATIC"/>
+                <modifier changeStatus="UNCHANGED" newValue="PUBLIC" oldValue="PUBLIC"/>
+                <modifier changeStatus="UNCHANGED" newValue="ABSTRACT" oldValue="ABSTRACT"/>
+                <modifier changeStatus="UNCHANGED" newValue="NON_SYNTHETIC" oldValue="NON_SYNTHETIC"/>
+            </modifiers>
+            <serialVersionUid serialVersionUidDefaultNew="n.a." serialVersionUidDefaultOld="n.a." serialVersionUidInClassNew="n.a." serialVersionUidInClassOld="n.a." serializableNew="false" serializableOld="false"/>
+            <superclass binaryCompatible="true" changeStatus="UNCHANGED" sourceCompatible="true" superclassNew="java.lang.Object" superclassOld="java.lang.Object">
+                <compatibilityChanges/>
+            </superclass>
+        </class>
+        <class binaryCompatible="false" changeStatus="REMOVED" fullyQualifiedName="org.junit.jupiter.params.provider.AnnotationBasedArgumentsProvider" javaObjectSerializationCompatible="NOT_SERIALIZABLE" javaObjectSerializationCompatibleAsString="not serializable" sourceCompatible="false">
+            <annotations>
+                <annotation binaryCompatible="true" changeStatus="REMOVED" fullyQualifiedName="org.apiguardian.api.API" sourceCompatible="true">
+                    <compatibilityChanges/>
+                    <elements>
+                        <element binaryCompatible="true" changeStatus="REMOVED" name="status" sourceCompatible="true">
+                            <compatibilityChanges/>
+                            <newElementValues/>
+                            <oldElementValues>
+<oldElementValue fullyQualifiedName="org.apiguardian.api.API$Status" name="n.a." type="Enum" value="EXPERIMENTAL">
+    <values/>
+</oldElementValue>
+                            </oldElementValues>
+                        </element>
+                        <element binaryCompatible="true" changeStatus="REMOVED" name="since" sourceCompatible="true">
+                            <compatibilityChanges/>
+                            <newElementValues/>
+                            <oldElementValues>
+<oldElementValue fullyQualifiedName="java.lang.String" name="n.a." type="String" value="5.10">
+    <values/>
+</oldElementValue>
+                            </oldElementValues>
+                        </element>
+                    </elements>
+                </annotation>
+            </annotations>
+            <attributes>
+                <attribute changeStatus="REMOVED" newValue="n.a." oldValue="NON_SYNTHETIC"/>
+            </attributes>
+            <classFileFormatVersion changeStatus="REMOVED" majorVersionNew="-1" majorVersionOld="52" minorVersionNew="-1" minorVersionOld="0"/>
+            <classType changeStatus="REMOVED" newType="n.a." oldType="CLASS"/>
+            <compatibilityChanges>
+                <compatibilityChange>CLASS_REMOVED</compatibilityChange>
+                <compatibilityChange>CLASS_GENERIC_TEMPLATE_CHANGED</compatibilityChange>
+            </compatibilityChanges>
+            <constructors>
+                <constructor binaryCompatible="false" changeStatus="REMOVED" name="AnnotationBasedArgumentsProvider" newLineNumber="n.a." oldLineNumber="39" sourceCompatible="false">
+                    <annotations/>
+                    <attributes>
+                        <attribute changeStatus="REMOVED" newValue="n.a." oldValue="NON_SYNTHETIC"/>
+                    </attributes>
+                    <compatibilityChanges>
+                        <compatibilityChange>CONSTRUCTOR_REMOVED</compatibilityChange>
+                    </compatibilityChanges>
+                    <exceptions/>
+                    <genericTemplates/>
+                    <modifiers>
+                        <modifier changeStatus="REMOVED" newValue="n.a." oldValue="NON_FINAL"/>
+                        <modifier changeStatus="REMOVED" newValue="n.a." oldValue="NON_STATIC"/>
+                        <modifier changeStatus="REMOVED" newValue="n.a." oldValue="PUBLIC"/>
+                        <modifier changeStatus="REMOVED" newValue="n.a." oldValue="NON_ABSTRACT"/>
+                        <modifier changeStatus="REMOVED" newValue="n.a." oldValue="NON_BRIDGE"/>
+                        <modifier changeStatus="REMOVED" newValue="n.a." oldValue="NON_SYNTHETIC"/>
+                    </modifiers>
+                    <parameters/>
+                </constructor>
+            </constructors>
+            <fields/>
+            <genericTemplates>
+                <genericTemplate binaryCompatible="true" changeStatus="REMOVED" name="A" newType="n.a." oldType="java.lang.annotation.Annotation" sourceCompatible="true">
+                    <compatibilityChanges/>
+                    <newGenericTypes/>
+                    <newInterfaceTypes/>
+                    <oldGenericTypes/>
+                    <oldInterfaceTypes/>
+                </genericTemplate>
+            </genericTemplates>
+            <interfaces>
+                <interface binaryCompatible="false" changeStatus="REMOVED" fullyQualifiedName="java.util.function.Consumer" sourceCompatible="false">
+                    <compatibilityChanges>
+                        <compatibilityChange>INTERFACE_REMOVED</compatibilityChange>
+                    </compatibilityChanges>
+                </interface>
+                <interface binaryCompatible="false" changeStatus="REMOVED" fullyQualifiedName="org.junit.jupiter.params.provider.ArgumentsProvider" sourceCompatible="false">
+                    <compatibilityChanges>
+                        <compatibilityChange>INTERFACE_REMOVED</compatibilityChange>
+                    </compatibilityChanges>
+                </interface>
+                <interface binaryCompatible="false" changeStatus="REMOVED" fullyQualifiedName="org.junit.jupiter.params.support.AnnotationConsumer" sourceCompatible="false">
+                    <compatibilityChanges>
+                        <compatibilityChange>INTERFACE_REMOVED</compatibilityChange>
+                    </compatibilityChanges>
+                </interface>
+            </interfaces>
+            <methods>
+                <method binaryCompatible="false" changeStatus="REMOVED" name="accept" newLineNumber="n.a." oldLineNumber="46" sourceCompatible="false">
+                    <annotations/>
+                    <attributes>
+                        <attribute changeStatus="REMOVED" newValue="n.a." oldValue="NON_SYNTHETIC"/>
+                    </attributes>
+                    <compatibilityChanges>
+                        <compatibilityChange>METHOD_REMOVED</compatibilityChange>
+                    </compatibilityChanges>
+                    <exceptions/>
+                    <genericTemplates/>
+                    <modifiers>
+                        <modifier changeStatus="REMOVED" newValue="n.a." oldValue="FINAL"/>
+                        <modifier changeStatus="REMOVED" newValue="n.a." oldValue="NON_STATIC"/>
+                        <modifier changeStatus="REMOVED" newValue="n.a." oldValue="PUBLIC"/>
+                        <modifier changeStatus="REMOVED" newValue="n.a." oldValue="NON_ABSTRACT"/>
+                        <modifier changeStatus="REMOVED" newValue="n.a." oldValue="NON_BRIDGE"/>
+                        <modifier changeStatus="REMOVED" newValue="n.a." oldValue="NON_SYNTHETIC"/>
+                    </modifiers>
+                    <parameters>
+                        <parameter binaryCompatible="true" changeStatus="UNCHANGED" sourceCompatible="true" templateName="A" type="java.lang.annotation.Annotation">
+                            <compatibilityChanges/>
+                            <newGenericTypes/>
+                            <oldGenericTypes/>
+                        </parameter>
+                    </parameters>
+                    <returnType binaryCompatible="true" changeStatus="REMOVED" newValue="n.a." oldValue="void" sourceCompatible="true">
+                        <compatibilityChanges/>
+                        <newGenericTypes/>
+                        <oldGenericTypes/>
+                    </returnType>
+                </method>
+                <method binaryCompatible="true" changeStatus="REMOVED" name="provideArguments" newLineNumber="n.a." oldLineNumber="52" sourceCompatible="true">
+                    <annotations/>
+                    <attributes>
+                        <attribute changeStatus="REMOVED" newValue="n.a." oldValue="NON_SYNTHETIC"/>
+                    </attributes>
+                    <compatibilityChanges/>
+                    <exceptions/>
+                    <genericTemplates/>
+                    <modifiers>
+                        <modifier changeStatus="REMOVED" newValue="n.a." oldValue="FINAL"/>
+                        <modifier changeStatus="REMOVED" newValue="n.a." oldValue="NON_STATIC"/>
+                        <modifier changeStatus="REMOVED" newValue="n.a." oldValue="PUBLIC"/>
+                        <modifier changeStatus="REMOVED" newValue="n.a." oldValue="NON_ABSTRACT"/>
+                        <modifier changeStatus="REMOVED" newValue="n.a." oldValue="NON_BRIDGE"/>
+                        <modifier changeStatus="REMOVED" newValue="n.a." oldValue="NON_SYNTHETIC"/>
+                    </modifiers>
+                    <parameters>
+                        <parameter binaryCompatible="true" changeStatus="UNCHANGED" sourceCompatible="true" templateName="N/A" type="org.junit.jupiter.api.extension.ExtensionContext">
+                            <compatibilityChanges/>
+                            <newGenericTypes/>
+                            <oldGenericTypes/>
+                        </parameter>
+                    </parameters>
+                    <returnType binaryCompatible="true" changeStatus="REMOVED" newValue="n.a." oldValue="java.util.stream.Stream" sourceCompatible="true">
+                        <compatibilityChanges/>
+                        <newGenericTypes/>
+                        <oldGenericTypes>
+                            <oldGenericType genericWildCard="EXTENDS" type="org.junit.jupiter.params.provider.Arguments">
+<genericTypes/>
+                            </oldGenericType>
+                        </oldGenericTypes>
+                    </returnType>
+                </method>
+                <method binaryCompatible="false" changeStatus="REMOVED" name="provideArguments" newLineNumber="n.a." oldLineNumber="n.a." sourceCompatible="false">
+                    <annotations/>
+                    <attributes>
+                        <attribute changeStatus="REMOVED" newValue="n.a." oldValue="NON_SYNTHETIC"/>
+                    </attributes>
+                    <compatibilityChanges>
+                        <compatibilityChange>METHOD_REMOVED</compatibilityChange>
+                    </compatibilityChanges>
+                    <exceptions/>
+                    <genericTemplates/>
+                    <modifiers>
+                        <modifier changeStatus="REMOVED" newValue="n.a." oldValue="NON_FINAL"/>
+                        <modifier changeStatus="REMOVED" newValue="n.a." oldValue="NON_STATIC"/>
+                        <modifier changeStatus="REMOVED" newValue="n.a." oldValue="PROTECTED"/>
+                        <modifier changeStatus="REMOVED" newValue="n.a." oldValue="ABSTRACT"/>
+                        <modifier changeStatus="REMOVED" newValue="n.a." oldValue="NON_BRIDGE"/>
+                        <modifier changeStatus="REMOVED" newValue="n.a." oldValue="NON_SYNTHETIC"/>
+                    </modifiers>
+                    <parameters>
+                        <parameter binaryCompatible="true" changeStatus="UNCHANGED" sourceCompatible="true" templateName="N/A" type="org.junit.jupiter.api.extension.ExtensionContext">
+                            <compatibilityChanges/>
+                            <newGenericTypes/>
+                            <oldGenericTypes/>
+                        </parameter>
+                        <parameter binaryCompatible="true" changeStatus="UNCHANGED" sourceCompatible="true" templateName="A" type="java.lang.annotation.Annotation">
+                            <compatibilityChanges/>
+                            <newGenericTypes/>
+                            <oldGenericTypes/>
+                        </parameter>
+                    </parameters>
+                    <returnType binaryCompatible="true" changeStatus="REMOVED" newValue="n.a." oldValue="java.util.stream.Stream" sourceCompatible="true">
+                        <compatibilityChanges/>
+                        <newGenericTypes/>
+                        <oldGenericTypes>
+                            <oldGenericType genericWildCard="EXTENDS" type="org.junit.jupiter.params.provider.Arguments">
+<genericTypes/>
+                            </oldGenericType>
+                        </oldGenericTypes>
+                    </returnType>
+                </method>
+            </methods>
+            <modifiers>
+                <modifier changeStatus="REMOVED" newValue="n.a." oldValue="NON_FINAL"/>
+                <modifier changeStatus="REMOVED" newValue="n.a." oldValue="NON_STATIC"/>
+                <modifier changeStatus="REMOVED" newValue="n.a." oldValue="PUBLIC"/>
+                <modifier changeStatus="REMOVED" newValue="n.a." oldValue="ABSTRACT"/>
+                <modifier changeStatus="REMOVED" newValue="n.a." oldValue="NON_SYNTHETIC"/>
+            </modifiers>
+            <serialVersionUid serialVersionUidDefaultNew="n.a." serialVersionUidDefaultOld="n.a." serialVersionUidInClassNew="n.a." serialVersionUidInClassOld="n.a." serializableNew="false" serializableOld="false"/>
+            <superclass binaryCompatible="false" changeStatus="REMOVED" sourceCompatible="false" superclassNew="n.a." superclassOld="java.lang.Object">
+                <compatibilityChanges>
+                    <compatibilityChange>SUPERCLASS_REMOVED</compatibilityChange>
+                </compatibilityChanges>
+            </superclass>
+        </class>
+        <class binaryCompatible="true" changeStatus="UNCHANGED" fullyQualifiedName="org.junit.jupiter.params.provider.CsvFileSource" javaObjectSerializationCompatible="NOT_SERIALIZABLE" javaObjectSerializationCompatibleAsString="not serializable" sourceCompatible="true">
+            <annotations/>
+            <attributes>
+                <attribute changeStatus="UNCHANGED" newValue="NON_SYNTHETIC" oldValue="NON_SYNTHETIC"/>
+            </attributes>
+            <classFileFormatVersion changeStatus="UNCHANGED" majorVersionNew="52" majorVersionOld="52" minorVersionNew="0" minorVersionOld="0"/>
+            <classType changeStatus="UNCHANGED" newType="ANNOTATION" oldType="ANNOTATION"/>
+            <compatibilityChanges/>
+            <constructors/>
+            <fields/>
+            <genericTemplates/>
+            <interfaces/>
+            <methods>
+                <method binaryCompatible="true" changeStatus="UNCHANGED" name="ignoreLeadingAndTrailingWhitespace" newLineNumber="n.a." oldLineNumber="n.a." sourceCompatible="true">
+                    <annotations>
+                        <annotation binaryCompatible="true" changeStatus="MODIFIED" fullyQualifiedName="org.apiguardian.api.API" sourceCompatible="true">
+                            <compatibilityChanges/>
+                            <elements>
+<element binaryCompatible="true" changeStatus="MODIFIED" name="status" sourceCompatible="true">
+    <compatibilityChanges/>
+    <newElementValues>
+        <newElementValue fullyQualifiedName="org.apiguardian.api.API$Status" name="n.a." type="Enum" value="EXPERIMENTAL">
+            <values/>
+        </newElementValue>
+    </newElementValues>
+    <oldElementValues>
+        <oldElementValue fullyQualifiedName="org.apiguardian.api.API$Status" name="n.a." type="Enum" value="STABLE">
+            <values/>
+        </oldElementValue>
+    </oldElementValues>
+</element>
+<element binaryCompatible="true" changeStatus="MODIFIED" name="since" sourceCompatible="true">
+    <compatibilityChanges/>
+    <newElementValues>
+        <newElementValue fullyQualifiedName="java.lang.String" name="n.a." type="String" value="5.8">
+            <values/>
+        </newElementValue>
+    </newElementValues>
+    <oldElementValues>
+        <oldElementValue fullyQualifiedName="java.lang.String" name="n.a." type="String" value="5.10">
+            <values/>
+        </oldElementValue>
+    </oldElementValues>
+</element>
+                            </elements>
+                        </annotation>
+                    </annotations>
+                    <attributes>
+                        <attribute changeStatus="UNCHANGED" newValue="NON_SYNTHETIC" oldValue="NON_SYNTHETIC"/>
+                    </attributes>
+                    <compatibilityChanges/>
+                    <exceptions/>
+                    <genericTemplates/>
+                    <modifiers>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_FINAL" oldValue="NON_FINAL"/>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_STATIC" oldValue="NON_STATIC"/>
+                        <modifier changeStatus="UNCHANGED" newValue="PUBLIC" oldValue="PUBLIC"/>
+                        <modifier changeStatus="UNCHANGED" newValue="ABSTRACT" oldValue="ABSTRACT"/>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_BRIDGE" oldValue="NON_BRIDGE"/>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_SYNTHETIC" oldValue="NON_SYNTHETIC"/>
+                    </modifiers>
+                    <parameters/>
+                    <returnType binaryCompatible="true" changeStatus="UNCHANGED" newValue="boolean" oldValue="boolean" sourceCompatible="true">
+                        <compatibilityChanges/>
+                        <newGenericTypes/>
+                        <oldGenericTypes/>
+                    </returnType>
+                </method>
+                <method binaryCompatible="true" changeStatus="UNCHANGED" name="maxCharsPerColumn" newLineNumber="n.a." oldLineNumber="n.a." sourceCompatible="true">
+                    <annotations>
+                        <annotation binaryCompatible="true" changeStatus="MODIFIED" fullyQualifiedName="org.apiguardian.api.API" sourceCompatible="true">
+                            <compatibilityChanges/>
+                            <elements>
+<element binaryCompatible="true" changeStatus="MODIFIED" name="status" sourceCompatible="true">
+    <compatibilityChanges/>
+    <newElementValues>
+        <newElementValue fullyQualifiedName="org.apiguardian.api.API$Status" name="n.a." type="Enum" value="EXPERIMENTAL">
+            <values/>
+        </newElementValue>
+    </newElementValues>
+    <oldElementValues>
+        <oldElementValue fullyQualifiedName="org.apiguardian.api.API$Status" name="n.a." type="Enum" value="STABLE">
+            <values/>
+        </oldElementValue>
+    </oldElementValues>
+</element>
+<element binaryCompatible="true" changeStatus="MODIFIED" name="since" sourceCompatible="true">
+    <compatibilityChanges/>
+    <newElementValues>
+        <newElementValue fullyQualifiedName="java.lang.String" name="n.a." type="String" value="5.7">
+            <values/>
+        </newElementValue>
+    </newElementValues>
+    <oldElementValues>
+        <oldElementValue fullyQualifiedName="java.lang.String" name="n.a." type="String" value="5.10">
+            <values/>
+        </oldElementValue>
+    </oldElementValues>
+</element>
+                            </elements>
+                        </annotation>
+                    </annotations>
+                    <attributes>
+                        <attribute changeStatus="UNCHANGED" newValue="NON_SYNTHETIC" oldValue="NON_SYNTHETIC"/>
+                    </attributes>
+                    <compatibilityChanges/>
+                    <exceptions/>
+                    <genericTemplates/>
+                    <modifiers>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_FINAL" oldValue="NON_FINAL"/>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_STATIC" oldValue="NON_STATIC"/>
+                        <modifier changeStatus="UNCHANGED" newValue="PUBLIC" oldValue="PUBLIC"/>
+                        <modifier changeStatus="UNCHANGED" newValue="ABSTRACT" oldValue="ABSTRACT"/>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_BRIDGE" oldValue="NON_BRIDGE"/>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_SYNTHETIC" oldValue="NON_SYNTHETIC"/>
+                    </modifiers>
+                    <parameters/>
+                    <returnType binaryCompatible="true" changeStatus="UNCHANGED" newValue="int" oldValue="int" sourceCompatible="true">
+                        <compatibilityChanges/>
+                        <newGenericTypes/>
+                        <oldGenericTypes/>
+                    </returnType>
+                </method>
+                <method binaryCompatible="true" changeStatus="UNCHANGED" name="quoteCharacter" newLineNumber="n.a." oldLineNumber="n.a." sourceCompatible="true">
+                    <annotations>
+                        <annotation binaryCompatible="true" changeStatus="MODIFIED" fullyQualifiedName="org.apiguardian.api.API" sourceCompatible="true">
+                            <compatibilityChanges/>
+                            <elements>
+<element binaryCompatible="true" changeStatus="MODIFIED" name="status" sourceCompatible="true">
+    <compatibilityChanges/>
+    <newElementValues>
+        <newElementValue fullyQualifiedName="org.apiguardian.api.API$Status" name="n.a." type="Enum" value="EXPERIMENTAL">
+            <values/>
+        </newElementValue>
+    </newElementValues>
+    <oldElementValues>
+        <oldElementValue fullyQualifiedName="org.apiguardian.api.API$Status" name="n.a." type="Enum" value="STABLE">
+            <values/>
+        </oldElementValue>
+    </oldElementValues>
+</element>
+<element binaryCompatible="true" changeStatus="MODIFIED" name="since" sourceCompatible="true">
+    <compatibilityChanges/>
+    <newElementValues>
+        <newElementValue fullyQualifiedName="java.lang.String" name="n.a." type="String" value="5.8.2">
+            <values/>
+        </newElementValue>
+    </newElementValues>
+    <oldElementValues>
+        <oldElementValue fullyQualifiedName="java.lang.String" name="n.a." type="String" value="5.10">
+            <values/>
+        </oldElementValue>
+    </oldElementValues>
+</element>
+                            </elements>
+                        </annotation>
+                    </annotations>
+                    <attributes>
+                        <attribute changeStatus="UNCHANGED" newValue="NON_SYNTHETIC" oldValue="NON_SYNTHETIC"/>
+                    </attributes>
+                    <compatibilityChanges/>
+                    <exceptions/>
+                    <genericTemplates/>
+                    <modifiers>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_FINAL" oldValue="NON_FINAL"/>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_STATIC" oldValue="NON_STATIC"/>
+                        <modifier changeStatus="UNCHANGED" newValue="PUBLIC" oldValue="PUBLIC"/>
+                        <modifier changeStatus="UNCHANGED" newValue="ABSTRACT" oldValue="ABSTRACT"/>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_BRIDGE" oldValue="NON_BRIDGE"/>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_SYNTHETIC" oldValue="NON_SYNTHETIC"/>
+                    </modifiers>
+                    <parameters/>
+                    <returnType binaryCompatible="true" changeStatus="UNCHANGED" newValue="char" oldValue="char" sourceCompatible="true">
+                        <compatibilityChanges/>
+                        <newGenericTypes/>
+                        <oldGenericTypes/>
+                    </returnType>
+                </method>
+                <method binaryCompatible="true" changeStatus="UNCHANGED" name="useHeadersInDisplayName" newLineNumber="n.a." oldLineNumber="n.a." sourceCompatible="true">
+                    <annotations>
+                        <annotation binaryCompatible="true" changeStatus="MODIFIED" fullyQualifiedName="org.apiguardian.api.API" sourceCompatible="true">
+                            <compatibilityChanges/>
+                            <elements>
+<element binaryCompatible="true" changeStatus="MODIFIED" name="status" sourceCompatible="true">
+    <compatibilityChanges/>
+    <newElementValues>
+        <newElementValue fullyQualifiedName="org.apiguardian.api.API$Status" name="n.a." type="Enum" value="EXPERIMENTAL">
+            <values/>
+        </newElementValue>
+    </newElementValues>
+    <oldElementValues>
+        <oldElementValue fullyQualifiedName="org.apiguardian.api.API$Status" name="n.a." type="Enum" value="STABLE">
+            <values/>
+        </oldElementValue>
+    </oldElementValues>
+</element>
+<element binaryCompatible="true" changeStatus="MODIFIED" name="since" sourceCompatible="true">
+    <compatibilityChanges/>
+    <newElementValues>
+        <newElementValue fullyQualifiedName="java.lang.String" name="n.a." type="String" value="5.8.2">
+            <values/>
+        </newElementValue>
+    </newElementValues>
+    <oldElementValues>
+        <oldElementValue fullyQualifiedName="java.lang.String" name="n.a." type="String" value="5.10">
+            <values/>
+        </oldElementValue>
+    </oldElementValues>
+</element>
+                            </elements>
+                        </annotation>
+                    </annotations>
+                    <attributes>
+                        <attribute changeStatus="UNCHANGED" newValue="NON_SYNTHETIC" oldValue="NON_SYNTHETIC"/>
+                    </attributes>
+                    <compatibilityChanges/>
+                    <exceptions/>
+                    <genericTemplates/>
+                    <modifiers>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_FINAL" oldValue="NON_FINAL"/>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_STATIC" oldValue="NON_STATIC"/>
+                        <modifier changeStatus="UNCHANGED" newValue="PUBLIC" oldValue="PUBLIC"/>
+                        <modifier changeStatus="UNCHANGED" newValue="ABSTRACT" oldValue="ABSTRACT"/>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_BRIDGE" oldValue="NON_BRIDGE"/>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_SYNTHETIC" oldValue="NON_SYNTHETIC"/>
+                    </modifiers>
+                    <parameters/>
+                    <returnType binaryCompatible="true" changeStatus="UNCHANGED" newValue="boolean" oldValue="boolean" sourceCompatible="true">
+                        <compatibilityChanges/>
+                        <newGenericTypes/>
+                        <oldGenericTypes/>
+                    </returnType>
+                </method>
+            </methods>
+            <modifiers>
+                <modifier changeStatus="UNCHANGED" newValue="NON_FINAL" oldValue="NON_FINAL"/>
+                <modifier changeStatus="UNCHANGED" newValue="NON_STATIC" oldValue="NON_STATIC"/>
+                <modifier changeStatus="UNCHANGED" newValue="PUBLIC" oldValue="PUBLIC"/>
+                <modifier changeStatus="UNCHANGED" newValue="ABSTRACT" oldValue="ABSTRACT"/>
+                <modifier changeStatus="UNCHANGED" newValue="NON_SYNTHETIC" oldValue="NON_SYNTHETIC"/>
+            </modifiers>
+            <serialVersionUid serialVersionUidDefaultNew="n.a." serialVersionUidDefaultOld="n.a." serialVersionUidInClassNew="n.a." serialVersionUidInClassOld="n.a." serializableNew="false" serializableOld="false"/>
+            <superclass binaryCompatible="true" changeStatus="UNCHANGED" sourceCompatible="true" superclassNew="java.lang.Object" superclassOld="java.lang.Object">
+                <compatibilityChanges/>
+            </superclass>
+        </class>
+        <class binaryCompatible="true" changeStatus="UNCHANGED" fullyQualifiedName="org.junit.jupiter.params.provider.CsvSource" javaObjectSerializationCompatible="NOT_SERIALIZABLE" javaObjectSerializationCompatibleAsString="not serializable" sourceCompatible="true">
+            <annotations/>
+            <attributes>
+                <attribute changeStatus="UNCHANGED" newValue="NON_SYNTHETIC" oldValue="NON_SYNTHETIC"/>
+            </attributes>
+            <classFileFormatVersion changeStatus="UNCHANGED" majorVersionNew="52" majorVersionOld="52" minorVersionNew="0" minorVersionOld="0"/>
+            <classType changeStatus="UNCHANGED" newType="ANNOTATION" oldType="ANNOTATION"/>
+            <compatibilityChanges/>
+            <constructors/>
+            <fields/>
+            <genericTemplates/>
+            <interfaces/>
+            <methods>
+                <method binaryCompatible="true" changeStatus="UNCHANGED" name="ignoreLeadingAndTrailingWhitespace" newLineNumber="n.a." oldLineNumber="n.a." sourceCompatible="true">
+                    <annotations>
+                        <annotation binaryCompatible="true" changeStatus="MODIFIED" fullyQualifiedName="org.apiguardian.api.API" sourceCompatible="true">
+                            <compatibilityChanges/>
+                            <elements>
+<element binaryCompatible="true" changeStatus="MODIFIED" name="status" sourceCompatible="true">
+    <compatibilityChanges/>
+    <newElementValues>
+        <newElementValue fullyQualifiedName="org.apiguardian.api.API$Status" name="n.a." type="Enum" value="EXPERIMENTAL">
+            <values/>
+        </newElementValue>
+    </newElementValues>
+    <oldElementValues>
+        <oldElementValue fullyQualifiedName="org.apiguardian.api.API$Status" name="n.a." type="Enum" value="STABLE">
+            <values/>
+        </oldElementValue>
+    </oldElementValues>
+</element>
+<element binaryCompatible="true" changeStatus="MODIFIED" name="since" sourceCompatible="true">
+    <compatibilityChanges/>
+    <newElementValues>
+        <newElementValue fullyQualifiedName="java.lang.String" name="n.a." type="String" value="5.8">
+            <values/>
+        </newElementValue>
+    </newElementValues>
+    <oldElementValues>
+        <oldElementValue fullyQualifiedName="java.lang.String" name="n.a." type="String" value="5.10">
+            <values/>
+        </oldElementValue>
+    </oldElementValues>
+</element>
+                            </elements>
+                        </annotation>
+                    </annotations>
+                    <attributes>
+                        <attribute changeStatus="UNCHANGED" newValue="NON_SYNTHETIC" oldValue="NON_SYNTHETIC"/>
+                    </attributes>
+                    <compatibilityChanges/>
+                    <exceptions/>
+                    <genericTemplates/>
+                    <modifiers>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_FINAL" oldValue="NON_FINAL"/>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_STATIC" oldValue="NON_STATIC"/>
+                        <modifier changeStatus="UNCHANGED" newValue="PUBLIC" oldValue="PUBLIC"/>
+                        <modifier changeStatus="UNCHANGED" newValue="ABSTRACT" oldValue="ABSTRACT"/>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_BRIDGE" oldValue="NON_BRIDGE"/>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_SYNTHETIC" oldValue="NON_SYNTHETIC"/>
+                    </modifiers>
+                    <parameters/>
+                    <returnType binaryCompatible="true" changeStatus="UNCHANGED" newValue="boolean" oldValue="boolean" sourceCompatible="true">
+                        <compatibilityChanges/>
+                        <newGenericTypes/>
+                        <oldGenericTypes/>
+                    </returnType>
+                </method>
+                <method binaryCompatible="true" changeStatus="UNCHANGED" name="maxCharsPerColumn" newLineNumber="n.a." oldLineNumber="n.a." sourceCompatible="true">
+                    <annotations>
+                        <annotation binaryCompatible="true" changeStatus="MODIFIED" fullyQualifiedName="org.apiguardian.api.API" sourceCompatible="true">
+                            <compatibilityChanges/>
+                            <elements>
+<element binaryCompatible="true" changeStatus="MODIFIED" name="status" sourceCompatible="true">
+    <compatibilityChanges/>
+    <newElementValues>
+        <newElementValue fullyQualifiedName="org.apiguardian.api.API$Status" name="n.a." type="Enum" value="EXPERIMENTAL">
+            <values/>
+        </newElementValue>
+    </newElementValues>
+    <oldElementValues>
+        <oldElementValue fullyQualifiedName="org.apiguardian.api.API$Status" name="n.a." type="Enum" value="STABLE">
+            <values/>
+        </oldElementValue>
+    </oldElementValues>
+</element>
+<element binaryCompatible="true" changeStatus="MODIFIED" name="since" sourceCompatible="true">
+    <compatibilityChanges/>
+    <newElementValues>
+        <newElementValue fullyQualifiedName="java.lang.String" name="n.a." type="String" value="5.7">
+            <values/>
+        </newElementValue>
+    </newElementValues>
+    <oldElementValues>
+        <oldElementValue fullyQualifiedName="java.lang.String" name="n.a." type="String" value="5.10">
+            <values/>
+        </oldElementValue>
+    </oldElementValues>
+</element>
+                            </elements>
+                        </annotation>
+                    </annotations>
+                    <attributes>
+                        <attribute changeStatus="UNCHANGED" newValue="NON_SYNTHETIC" oldValue="NON_SYNTHETIC"/>
+                    </attributes>
+                    <compatibilityChanges/>
+                    <exceptions/>
+                    <genericTemplates/>
+                    <modifiers>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_FINAL" oldValue="NON_FINAL"/>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_STATIC" oldValue="NON_STATIC"/>
+                        <modifier changeStatus="UNCHANGED" newValue="PUBLIC" oldValue="PUBLIC"/>
+                        <modifier changeStatus="UNCHANGED" newValue="ABSTRACT" oldValue="ABSTRACT"/>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_BRIDGE" oldValue="NON_BRIDGE"/>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_SYNTHETIC" oldValue="NON_SYNTHETIC"/>
+                    </modifiers>
+                    <parameters/>
+                    <returnType binaryCompatible="true" changeStatus="UNCHANGED" newValue="int" oldValue="int" sourceCompatible="true">
+                        <compatibilityChanges/>
+                        <newGenericTypes/>
+                        <oldGenericTypes/>
+                    </returnType>
+                </method>
+                <method binaryCompatible="true" changeStatus="UNCHANGED" name="quoteCharacter" newLineNumber="n.a." oldLineNumber="n.a." sourceCompatible="true">
+                    <annotations>
+                        <annotation binaryCompatible="true" changeStatus="MODIFIED" fullyQualifiedName="org.apiguardian.api.API" sourceCompatible="true">
+                            <compatibilityChanges/>
+                            <elements>
+<element binaryCompatible="true" changeStatus="MODIFIED" name="status" sourceCompatible="true">
+    <compatibilityChanges/>
+    <newElementValues>
+        <newElementValue fullyQualifiedName="org.apiguardian.api.API$Status" name="n.a." type="Enum" value="EXPERIMENTAL">
+            <values/>
+        </newElementValue>
+    </newElementValues>
+    <oldElementValues>
+        <oldElementValue fullyQualifiedName="org.apiguardian.api.API$Status" name="n.a." type="Enum" value="STABLE">
+            <values/>
+        </oldElementValue>
+    </oldElementValues>
+</element>
+<element binaryCompatible="true" changeStatus="MODIFIED" name="since" sourceCompatible="true">
+    <compatibilityChanges/>
+    <newElementValues>
+        <newElementValue fullyQualifiedName="java.lang.String" name="n.a." type="String" value="5.8.2">
+            <values/>
+        </newElementValue>
+    </newElementValues>
+    <oldElementValues>
+        <oldElementValue fullyQualifiedName="java.lang.String" name="n.a." type="String" value="5.10">
+            <values/>
+        </oldElementValue>
+    </oldElementValues>
+</element>
+                            </elements>
+                        </annotation>
+                    </annotations>
+                    <attributes>
+                        <attribute changeStatus="UNCHANGED" newValue="NON_SYNTHETIC" oldValue="NON_SYNTHETIC"/>
+                    </attributes>
+                    <compatibilityChanges/>
+                    <exceptions/>
+                    <genericTemplates/>
+                    <modifiers>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_FINAL" oldValue="NON_FINAL"/>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_STATIC" oldValue="NON_STATIC"/>
+                        <modifier changeStatus="UNCHANGED" newValue="PUBLIC" oldValue="PUBLIC"/>
+                        <modifier changeStatus="UNCHANGED" newValue="ABSTRACT" oldValue="ABSTRACT"/>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_BRIDGE" oldValue="NON_BRIDGE"/>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_SYNTHETIC" oldValue="NON_SYNTHETIC"/>
+                    </modifiers>
+                    <parameters/>
+                    <returnType binaryCompatible="true" changeStatus="UNCHANGED" newValue="char" oldValue="char" sourceCompatible="true">
+                        <compatibilityChanges/>
+                        <newGenericTypes/>
+                        <oldGenericTypes/>
+                    </returnType>
+                </method>
+                <method binaryCompatible="true" changeStatus="UNCHANGED" name="textBlock" newLineNumber="n.a." oldLineNumber="n.a." sourceCompatible="true">
+                    <annotations>
+                        <annotation binaryCompatible="true" changeStatus="MODIFIED" fullyQualifiedName="org.apiguardian.api.API" sourceCompatible="true">
+                            <compatibilityChanges/>
+                            <elements>
+<element binaryCompatible="true" changeStatus="MODIFIED" name="status" sourceCompatible="true">
+    <compatibilityChanges/>
+    <newElementValues>
+        <newElementValue fullyQualifiedName="org.apiguardian.api.API$Status" name="n.a." type="Enum" value="EXPERIMENTAL">
+            <values/>
+        </newElementValue>
+    </newElementValues>
+    <oldElementValues>
+        <oldElementValue fullyQualifiedName="org.apiguardian.api.API$Status" name="n.a." type="Enum" value="STABLE">
+            <values/>
+        </oldElementValue>
+    </oldElementValues>
+</element>
+<element binaryCompatible="true" changeStatus="MODIFIED" name="since" sourceCompatible="true">
+    <compatibilityChanges/>
+    <newElementValues>
+        <newElementValue fullyQualifiedName="java.lang.String" name="n.a." type="String" value="5.8.1">
+            <values/>
+        </newElementValue>
+    </newElementValues>
+    <oldElementValues>
+        <oldElementValue fullyQualifiedName="java.lang.String" name="n.a." type="String" value="5.10">
+            <values/>
+        </oldElementValue>
+    </oldElementValues>
+</element>
+                            </elements>
+                        </annotation>
+                    </annotations>
+                    <attributes>
+                        <attribute changeStatus="UNCHANGED" newValue="NON_SYNTHETIC" oldValue="NON_SYNTHETIC"/>
+                    </attributes>
+                    <compatibilityChanges/>
+                    <exceptions/>
+                    <genericTemplates/>
+                    <modifiers>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_FINAL" oldValue="NON_FINAL"/>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_STATIC" oldValue="NON_STATIC"/>
+                        <modifier changeStatus="UNCHANGED" newValue="PUBLIC" oldValue="PUBLIC"/>
+                        <modifier changeStatus="UNCHANGED" newValue="ABSTRACT" oldValue="ABSTRACT"/>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_BRIDGE" oldValue="NON_BRIDGE"/>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_SYNTHETIC" oldValue="NON_SYNTHETIC"/>
+                    </modifiers>
+                    <parameters/>
+                    <returnType binaryCompatible="true" changeStatus="UNCHANGED" newValue="java.lang.String" oldValue="java.lang.String" sourceCompatible="true">
+                        <compatibilityChanges/>
+                        <newGenericTypes/>
+                        <oldGenericTypes/>
+                    </returnType>
+                </method>
+                <method binaryCompatible="true" changeStatus="UNCHANGED" name="useHeadersInDisplayName" newLineNumber="n.a." oldLineNumber="n.a." sourceCompatible="true">
+                    <annotations>
+                        <annotation binaryCompatible="true" changeStatus="MODIFIED" fullyQualifiedName="org.apiguardian.api.API" sourceCompatible="true">
+                            <compatibilityChanges/>
+                            <elements>
+<element binaryCompatible="true" changeStatus="MODIFIED" name="status" sourceCompatible="true">
+    <compatibilityChanges/>
+    <newElementValues>
+        <newElementValue fullyQualifiedName="org.apiguardian.api.API$Status" name="n.a." type="Enum" value="EXPERIMENTAL">
+            <values/>
+        </newElementValue>
+    </newElementValues>
+    <oldElementValues>
+        <oldElementValue fullyQualifiedName="org.apiguardian.api.API$Status" name="n.a." type="Enum" value="STABLE">
+            <values/>
+        </oldElementValue>
+    </oldElementValues>
+</element>
+<element binaryCompatible="true" changeStatus="MODIFIED" name="since" sourceCompatible="true">
+    <compatibilityChanges/>
+    <newElementValues>
+        <newElementValue fullyQualifiedName="java.lang.String" name="n.a." type="String" value="5.8.2">
+            <values/>
+        </newElementValue>
+    </newElementValues>
+    <oldElementValues>
+        <oldElementValue fullyQualifiedName="java.lang.String" name="n.a." type="String" value="5.10">
+            <values/>
+        </oldElementValue>
+    </oldElementValues>
+</element>
+                            </elements>
+                        </annotation>
+                    </annotations>
+                    <attributes>
+                        <attribute changeStatus="UNCHANGED" newValue="NON_SYNTHETIC" oldValue="NON_SYNTHETIC"/>
+                    </attributes>
+                    <compatibilityChanges/>
+                    <exceptions/>
+                    <genericTemplates/>
+                    <modifiers>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_FINAL" oldValue="NON_FINAL"/>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_STATIC" oldValue="NON_STATIC"/>
+                        <modifier changeStatus="UNCHANGED" newValue="PUBLIC" oldValue="PUBLIC"/>
+                        <modifier changeStatus="UNCHANGED" newValue="ABSTRACT" oldValue="ABSTRACT"/>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_BRIDGE" oldValue="NON_BRIDGE"/>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_SYNTHETIC" oldValue="NON_SYNTHETIC"/>
+                    </modifiers>
+                    <parameters/>
+                    <returnType binaryCompatible="true" changeStatus="UNCHANGED" newValue="boolean" oldValue="boolean" sourceCompatible="true">
+                        <compatibilityChanges/>
+                        <newGenericTypes/>
+                        <oldGenericTypes/>
+                    </returnType>
+                </method>
+            </methods>
+            <modifiers>
+                <modifier changeStatus="UNCHANGED" newValue="NON_FINAL" oldValue="NON_FINAL"/>
+                <modifier changeStatus="UNCHANGED" newValue="NON_STATIC" oldValue="NON_STATIC"/>
+                <modifier changeStatus="UNCHANGED" newValue="PUBLIC" oldValue="PUBLIC"/>
+                <modifier changeStatus="UNCHANGED" newValue="ABSTRACT" oldValue="ABSTRACT"/>
+                <modifier changeStatus="UNCHANGED" newValue="NON_SYNTHETIC" oldValue="NON_SYNTHETIC"/>
+            </modifiers>
+            <serialVersionUid serialVersionUidDefaultNew="n.a." serialVersionUidDefaultOld="n.a." serialVersionUidInClassNew="n.a." serialVersionUidInClassOld="n.a." serializableNew="false" serializableOld="false"/>
+            <superclass binaryCompatible="true" changeStatus="UNCHANGED" sourceCompatible="true" superclassNew="java.lang.Object" superclassOld="java.lang.Object">
+                <compatibilityChanges/>
+            </superclass>
+        </class>
+    </classes>
+</japicmp>

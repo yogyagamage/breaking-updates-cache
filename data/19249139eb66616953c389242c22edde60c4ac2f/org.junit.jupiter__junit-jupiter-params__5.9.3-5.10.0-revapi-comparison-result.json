@@ -1,0 +1,311 @@
+[ {
+  "code" : "java.method.addedToInterface",
+  "old" : null,
+  "new" : "method int org.junit.jupiter.params.aggregator.ArgumentsAccessor::getInvocationIndex()",
+  "name" : "method added to interface",
+  "description" : "Method was added to an interface.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SEMANTIC",
+    "severity" : "POTENTIALLY_BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.junit.jupiter.params.aggregator"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.junit.jupiter.params.aggregator.ArgumentsAccessor"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "ArgumentsAccessor"
+  }, {
+    "name" : "methodName",
+    "value" : "getInvocationIndex"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "newArchive",
+    "value" : "junit-jupiter-params-5.10.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.numberOfParametersChanged",
+  "old" : "method void org.junit.jupiter.params.aggregator.DefaultArgumentsAccessor::<init>(java.lang.Object[])",
+  "new" : "method void org.junit.jupiter.params.aggregator.DefaultArgumentsAccessor::<init>(org.junit.jupiter.api.extension.ParameterContext, int, java.lang.Object[])",
+  "name" : "number of parameters changed",
+  "description" : "The number of parameters of the method have changed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.junit.jupiter.params.aggregator"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.junit.jupiter.params.aggregator.DefaultArgumentsAccessor"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "DefaultArgumentsAccessor"
+  }, {
+    "name" : "methodName",
+    "value" : "<init>"
+  }, {
+    "name" : "elementKind",
+    "value" : "constructor"
+  }, {
+    "name" : "oldArchive",
+    "value" : "junit-jupiter-params-5.9.3.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "junit-jupiter-params-5.10.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.noLongerInheritsFromClass",
+  "old" : "class org.junit.jupiter.params.converter.DefaultArgumentConverter",
+  "new" : "class org.junit.jupiter.params.converter.DefaultArgumentConverter",
+  "name" : "removed super class",
+  "description" : "Class no longer inherits from 'org.junit.jupiter.params.converter.SimpleArgumentConverter'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "superClass",
+    "value" : "org.junit.jupiter.params.converter.SimpleArgumentConverter"
+  }, {
+    "name" : "package",
+    "value" : "org.junit.jupiter.params.converter"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.junit.jupiter.params.converter.DefaultArgumentConverter"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "DefaultArgumentConverter"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "junit-jupiter-params-5.9.3.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "junit-jupiter-params-5.10.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.nowImplementsInterface",
+  "old" : "class org.junit.jupiter.params.converter.DefaultArgumentConverter",
+  "new" : "class org.junit.jupiter.params.converter.DefaultArgumentConverter",
+  "name" : "class implements interface",
+  "description" : "Class now implements interface 'org.junit.jupiter.params.converter.ArgumentConverter'.",
+  "criticality" : "documented",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "interface",
+    "value" : "org.junit.jupiter.params.converter.ArgumentConverter"
+  }, {
+    "name" : "package",
+    "value" : "org.junit.jupiter.params.converter"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.junit.jupiter.params.converter.DefaultArgumentConverter"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "DefaultArgumentConverter"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "junit-jupiter-params-5.9.3.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "junit-jupiter-params-5.10.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.nowFinal",
+  "old" : "method java.lang.Object org.junit.jupiter.params.converter.DefaultArgumentConverter::convert(java.lang.Object, java.lang.Class<?>)",
+  "new" : "method java.lang.Object org.junit.jupiter.params.converter.DefaultArgumentConverter::convert(java.lang.Object, java.lang.Class<?>, org.junit.jupiter.api.extension.ParameterContext)",
+  "name" : "method now final",
+  "description" : "Method is now final.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "POTENTIALLY_BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "POTENTIALLY_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldModifiers",
+    "value" : "public"
+  }, {
+    "name" : "newModifiers",
+    "value" : "public final"
+  }, {
+    "name" : "package",
+    "value" : "org.junit.jupiter.params.converter"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.junit.jupiter.params.converter.DefaultArgumentConverter"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "DefaultArgumentConverter"
+  }, {
+    "name" : "methodName",
+    "value" : "convert"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "junit-jupiter-params-5.9.3.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "junit-jupiter-params-5.10.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.numberOfParametersChanged",
+  "old" : "method java.lang.Object org.junit.jupiter.params.converter.DefaultArgumentConverter::convert(java.lang.Object, java.lang.Class<?>)",
+  "new" : "method java.lang.Object org.junit.jupiter.params.converter.DefaultArgumentConverter::convert(java.lang.Object, java.lang.Class<?>, org.junit.jupiter.api.extension.ParameterContext)",
+  "name" : "number of parameters changed",
+  "description" : "The number of parameters of the method have changed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.junit.jupiter.params.converter"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.junit.jupiter.params.converter.DefaultArgumentConverter"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "DefaultArgumentConverter"
+  }, {
+    "name" : "methodName",
+    "value" : "convert"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "junit-jupiter-params-5.9.3.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "junit-jupiter-params-5.10.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.nonPublicPartOfAPI",
+  "old" : "class org.junit.jupiter.params.shadow.com.univocity.parsers.common.record.RecordMetaDataImpl<C extends org.junit.jupiter.params.shadow.com.univocity.parsers.common.Context>",
+  "new" : "class org.junit.jupiter.params.shadow.com.univocity.parsers.common.record.RecordMetaDataImpl<C extends org.junit.jupiter.params.shadow.com.univocity.parsers.common.Context>",
+  "name" : "non-public class in API",
+  "description" : "Class 'org.junit.jupiter.params.shadow.com.univocity.parsers.common.record.RecordMetaDataImpl<C extends org.junit.jupiter.params.shadow.com.univocity.parsers.common.Context>' is indirectly included in the API (by the means of method return type for example) but the class is not accessible (neither public nor protected).",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SEMANTIC",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "classSimpleName",
+    "value" : "RecordMetaDataImpl"
+  }, {
+    "name" : "exampleUseChainInNewApi",
+    "value" : "org.junit.jupiter.params.shadow.com.univocity.parsers.common.record.RecordMetaDataImpl<C extends org.junit.jupiter.params.shadow.com.univocity.parsers.common.Context> is returned from method org.junit.jupiter.params.shadow.com.univocity.parsers.common.record.RecordMetaDataImpl org.junit.jupiter.params.shadow.com.univocity.parsers.common.record.RecordFactory::createMetaData(org.junit.jupiter.params.shadow.com.univocity.parsers.common.Context) (method org.junit.jupiter.params.shadow.com.univocity.parsers.common.record.RecordMetaDataImpl org.junit.jupiter.params.shadow.com.univocity.parsers.common.record.RecordFactory::createMetaData(org.junit.jupiter.params.shadow.com.univocity.parsers.common.Context) is part of the API)"
+  }, {
+    "name" : "package",
+    "value" : "org.junit.jupiter.params.shadow.com.univocity.parsers.common.record"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.junit.jupiter.params.shadow.com.univocity.parsers.common.record.RecordMetaDataImpl"
+  }, {
+    "name" : "exampleUseChainInOldApi",
+    "value" : "org.junit.jupiter.params.shadow.com.univocity.parsers.common.record.RecordMetaDataImpl<C extends org.junit.jupiter.params.shadow.com.univocity.parsers.common.Context> is returned from method M org.junit.jupiter.params.shadow.com.univocity.parsers.common.record.AbstractRecordFactory<R extends org.junit.jupiter.params.shadow.com.univocity.parsers.common.record.Record, M extends org.junit.jupiter.params.shadow.com.univocity.parsers.common.record.RecordMetaData>::getRecordMetaData() @ org.junit.jupiter.params.shadow.com.univocity.parsers.common.record.RecordFactory (method M org.junit.jupiter.params.shadow.com.univocity.parsers.common.record.AbstractRecordFactory<R extends org.junit.jupiter.params.shadow.com.univocity.parsers.common.record.Record, M extends org.junit.jupiter.params.shadow.com.univocity.parsers.common.record.RecordMetaData>::getRecordMetaData() @ org.junit.jupiter.params.shadow.com.univocity.parsers.common.record.RecordFactory is part of the API)"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "junit-jupiter-params-5.9.3.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "junit-jupiter-params-5.10.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+} ]

@@ -1,0 +1,953 @@
+[ {
+  "code" : "java.class.removed",
+  "old" : "@interface javax.annotation.Generated",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "javax.annotation"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "javax.annotation.Generated"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "Generated"
+  }, {
+    "name" : "elementKind",
+    "value" : "@interface"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jakarta.annotation-api-1.3.5.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "@interface javax.annotation.ManagedBean",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "javax.annotation"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "javax.annotation.ManagedBean"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "ManagedBean"
+  }, {
+    "name" : "elementKind",
+    "value" : "@interface"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jakarta.annotation-api-1.3.5.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "@interface javax.annotation.PostConstruct",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "javax.annotation"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "javax.annotation.PostConstruct"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "PostConstruct"
+  }, {
+    "name" : "elementKind",
+    "value" : "@interface"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jakarta.annotation-api-1.3.5.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "@interface javax.annotation.PreDestroy",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "javax.annotation"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "javax.annotation.PreDestroy"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "PreDestroy"
+  }, {
+    "name" : "elementKind",
+    "value" : "@interface"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jakarta.annotation-api-1.3.5.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "@interface javax.annotation.Priority",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "javax.annotation"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "javax.annotation.Priority"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "Priority"
+  }, {
+    "name" : "elementKind",
+    "value" : "@interface"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jakarta.annotation-api-1.3.5.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "@interface javax.annotation.Resource",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "javax.annotation"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "javax.annotation.Resource"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "Resource"
+  }, {
+    "name" : "elementKind",
+    "value" : "@interface"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jakarta.annotation-api-1.3.5.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "@interface javax.annotation.Resources",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "javax.annotation"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "javax.annotation.Resources"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "Resources"
+  }, {
+    "name" : "elementKind",
+    "value" : "@interface"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jakarta.annotation-api-1.3.5.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "@interface javax.annotation.security.DeclareRoles",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "javax.annotation.security"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "javax.annotation.security.DeclareRoles"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "DeclareRoles"
+  }, {
+    "name" : "elementKind",
+    "value" : "@interface"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jakarta.annotation-api-1.3.5.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "@interface javax.annotation.security.DenyAll",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "javax.annotation.security"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "javax.annotation.security.DenyAll"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "DenyAll"
+  }, {
+    "name" : "elementKind",
+    "value" : "@interface"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jakarta.annotation-api-1.3.5.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "@interface javax.annotation.security.PermitAll",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "javax.annotation.security"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "javax.annotation.security.PermitAll"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "PermitAll"
+  }, {
+    "name" : "elementKind",
+    "value" : "@interface"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jakarta.annotation-api-1.3.5.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "@interface javax.annotation.security.RolesAllowed",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "javax.annotation.security"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "javax.annotation.security.RolesAllowed"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "RolesAllowed"
+  }, {
+    "name" : "elementKind",
+    "value" : "@interface"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jakarta.annotation-api-1.3.5.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "@interface javax.annotation.security.RunAs",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "javax.annotation.security"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "javax.annotation.security.RunAs"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "RunAs"
+  }, {
+    "name" : "elementKind",
+    "value" : "@interface"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jakarta.annotation-api-1.3.5.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "@interface javax.annotation.sql.DataSourceDefinition",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "javax.annotation.sql"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "javax.annotation.sql.DataSourceDefinition"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "DataSourceDefinition"
+  }, {
+    "name" : "elementKind",
+    "value" : "@interface"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jakarta.annotation-api-1.3.5.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "@interface javax.annotation.sql.DataSourceDefinitions",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "javax.annotation.sql"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "javax.annotation.sql.DataSourceDefinitions"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "DataSourceDefinitions"
+  }, {
+    "name" : "elementKind",
+    "value" : "@interface"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jakarta.annotation-api-1.3.5.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+} ][ {
+  "code" : "java.class.removed",
+  "old" : "@interface javax.annotation.Generated",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "javax.annotation"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "javax.annotation.Generated"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "Generated"
+  }, {
+    "name" : "elementKind",
+    "value" : "@interface"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jakarta.annotation-api-1.3.5.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "@interface javax.annotation.ManagedBean",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "javax.annotation"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "javax.annotation.ManagedBean"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "ManagedBean"
+  }, {
+    "name" : "elementKind",
+    "value" : "@interface"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jakarta.annotation-api-1.3.5.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "@interface javax.annotation.PostConstruct",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "javax.annotation"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "javax.annotation.PostConstruct"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "PostConstruct"
+  }, {
+    "name" : "elementKind",
+    "value" : "@interface"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jakarta.annotation-api-1.3.5.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "@interface javax.annotation.PreDestroy",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "javax.annotation"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "javax.annotation.PreDestroy"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "PreDestroy"
+  }, {
+    "name" : "elementKind",
+    "value" : "@interface"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jakarta.annotation-api-1.3.5.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "@interface javax.annotation.Priority",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "javax.annotation"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "javax.annotation.Priority"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "Priority"
+  }, {
+    "name" : "elementKind",
+    "value" : "@interface"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jakarta.annotation-api-1.3.5.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "@interface javax.annotation.Resource",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "javax.annotation"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "javax.annotation.Resource"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "Resource"
+  }, {
+    "name" : "elementKind",
+    "value" : "@interface"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jakarta.annotation-api-1.3.5.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "@interface javax.annotation.Resources",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "javax.annotation"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "javax.annotation.Resources"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "Resources"
+  }, {
+    "name" : "elementKind",
+    "value" : "@interface"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jakarta.annotation-api-1.3.5.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "@interface javax.annotation.security.DeclareRoles",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "javax.annotation.security"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "javax.annotation.security.DeclareRoles"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "DeclareRoles"
+  }, {
+    "name" : "elementKind",
+    "value" : "@interface"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jakarta.annotation-api-1.3.5.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "@interface javax.annotation.security.DenyAll",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "javax.annotation.security"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "javax.annotation.security.DenyAll"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "DenyAll"
+  }, {
+    "name" : "elementKind",
+    "value" : "@interface"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jakarta.annotation-api-1.3.5.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "@interface javax.annotation.security.PermitAll",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "javax.annotation.security"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "javax.annotation.security.PermitAll"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "PermitAll"
+  }, {
+    "name" : "elementKind",
+    "value" : "@interface"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jakarta.annotation-api-1.3.5.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "@interface javax.annotation.security.RolesAllowed",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "javax.annotation.security"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "javax.annotation.security.RolesAllowed"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "RolesAllowed"
+  }, {
+    "name" : "elementKind",
+    "value" : "@interface"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jakarta.annotation-api-1.3.5.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "@interface javax.annotation.security.RunAs",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "javax.annotation.security"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "javax.annotation.security.RunAs"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "RunAs"
+  }, {
+    "name" : "elementKind",
+    "value" : "@interface"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jakarta.annotation-api-1.3.5.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "@interface javax.annotation.sql.DataSourceDefinition",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "javax.annotation.sql"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "javax.annotation.sql.DataSourceDefinition"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "DataSourceDefinition"
+  }, {
+    "name" : "elementKind",
+    "value" : "@interface"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jakarta.annotation-api-1.3.5.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "@interface javax.annotation.sql.DataSourceDefinitions",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "javax.annotation.sql"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "javax.annotation.sql.DataSourceDefinitions"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "DataSourceDefinitions"
+  }, {
+    "name" : "elementKind",
+    "value" : "@interface"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jakarta.annotation-api-1.3.5.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+} ]

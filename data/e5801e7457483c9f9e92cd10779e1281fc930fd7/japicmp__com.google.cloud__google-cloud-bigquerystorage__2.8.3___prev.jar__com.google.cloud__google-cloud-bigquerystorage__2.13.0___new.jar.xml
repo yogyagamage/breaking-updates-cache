@@ -1,0 +1,702 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<japicmp xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" accessModifier="PROTECTED" creationTimestamp="2023-08-21T16:10:39.690+0200" ignoreMissingClasses="true" ignoreMissingClassesByRegularExpressions="" newJar="n.a." newVersion="n.a." oldJar="n.a." oldVersion="n.a." onlyBinaryIncompatibleModifications="false" onlyModifications="true" packagesExclude="(*.)?tests(.*)?;(*.)?tests(.*)?;(*.)?test(.*)?;(*.)?test(.*)?;@org.junit.After;@org.junit.After;@org.junit.After;@org.junit.After;@org.junit.After;@org.junit.AfterClass;@org.junit.AfterClass;@org.junit.AfterClass;@org.junit.AfterClass;@org.junit.AfterClass;@org.junit.Before;@org.junit.Before;@org.junit.Before;@org.junit.Before;@org.junit.Before;@org.junit.BeforeClass;@org.junit.BeforeClass;@org.junit.BeforeClass;@org.junit.BeforeClass;@org.junit.BeforeClass;@org.junit.Ignore;@org.junit.Ignore;@org.junit.Ignore;@org.junit.Ignore;@org.junit.Ignore;@org.junit.Test;@org.junit.Test;@org.junit.Test;@org.junit.Test;@org.junit.Test;@org.junit.runner.RunWith;@org.junit.runner.RunWith;@org.junit.runner.RunWith;@org.junit.runner.RunWith;@org.junit.runner.RunWith" packagesInclude="all" semanticVersioning="1.0.0" title="JApiCmp-Report" xsi:noNamespaceSchemaLocation="japicmp.xsd">
+    <classes>
+        <class binaryCompatible="false" changeStatus="MODIFIED" fullyQualifiedName="com.google.cloud.bigquery.storage.v1.BigQueryWriteClient" javaObjectSerializationCompatible="NOT_SERIALIZABLE" javaObjectSerializationCompatibleAsString="not serializable" sourceCompatible="false">
+            <annotations/>
+            <attributes>
+                <attribute changeStatus="UNCHANGED" newValue="NON_SYNTHETIC" oldValue="NON_SYNTHETIC"/>
+            </attributes>
+            <classFileFormatVersion changeStatus="UNCHANGED" majorVersionNew="52" majorVersionOld="52" minorVersionNew="0" minorVersionOld="0"/>
+            <classType changeStatus="UNCHANGED" newType="CLASS" oldType="CLASS"/>
+            <compatibilityChanges/>
+            <constructors/>
+            <fields/>
+            <genericTemplates/>
+            <interfaces/>
+            <methods>
+                <method binaryCompatible="false" changeStatus="REMOVED" name="batchCommitWriteStreams" newLineNumber="n.a." oldLineNumber="578" sourceCompatible="false">
+                    <annotations/>
+                    <attributes>
+                        <attribute changeStatus="REMOVED" newValue="n.a." oldValue="NON_SYNTHETIC"/>
+                    </attributes>
+                    <compatibilityChanges>
+                        <compatibilityChange>METHOD_REMOVED</compatibilityChange>
+                    </compatibilityChanges>
+                    <exceptions/>
+                    <genericTemplates/>
+                    <modifiers>
+                        <modifier changeStatus="REMOVED" newValue="n.a." oldValue="FINAL"/>
+                        <modifier changeStatus="REMOVED" newValue="n.a." oldValue="NON_STATIC"/>
+                        <modifier changeStatus="REMOVED" newValue="n.a." oldValue="PUBLIC"/>
+                        <modifier changeStatus="REMOVED" newValue="n.a." oldValue="NON_ABSTRACT"/>
+                        <modifier changeStatus="REMOVED" newValue="n.a." oldValue="NON_BRIDGE"/>
+                        <modifier changeStatus="REMOVED" newValue="n.a." oldValue="NON_SYNTHETIC"/>
+                    </modifiers>
+                    <parameters>
+                        <parameter binaryCompatible="true" changeStatus="UNCHANGED" sourceCompatible="true" templateName="N/A" type="com.google.cloud.bigquery.storage.v1.TableName">
+                            <compatibilityChanges/>
+                            <newGenericTypes/>
+                            <oldGenericTypes/>
+                        </parameter>
+                    </parameters>
+                    <returnType binaryCompatible="true" changeStatus="REMOVED" newValue="n.a." oldValue="com.google.cloud.bigquery.storage.v1.BatchCommitWriteStreamsResponse" sourceCompatible="true">
+                        <compatibilityChanges/>
+                        <newGenericTypes/>
+                        <oldGenericTypes/>
+                    </returnType>
+                </method>
+            </methods>
+            <modifiers>
+                <modifier changeStatus="UNCHANGED" newValue="NON_FINAL" oldValue="NON_FINAL"/>
+                <modifier changeStatus="UNCHANGED" newValue="NON_STATIC" oldValue="NON_STATIC"/>
+                <modifier changeStatus="UNCHANGED" newValue="PUBLIC" oldValue="PUBLIC"/>
+                <modifier changeStatus="UNCHANGED" newValue="NON_ABSTRACT" oldValue="NON_ABSTRACT"/>
+                <modifier changeStatus="UNCHANGED" newValue="NON_SYNTHETIC" oldValue="NON_SYNTHETIC"/>
+            </modifiers>
+            <serialVersionUid serialVersionUidDefaultNew="n.a." serialVersionUidDefaultOld="n.a." serialVersionUidInClassNew="n.a." serialVersionUidInClassOld="n.a." serializableNew="false" serializableOld="false"/>
+            <superclass binaryCompatible="true" changeStatus="UNCHANGED" sourceCompatible="true" superclassNew="java.lang.Object" superclassOld="java.lang.Object">
+                <compatibilityChanges/>
+            </superclass>
+        </class>
+        <class binaryCompatible="false" changeStatus="REMOVED" fullyQualifiedName="com.google.cloud.bigquery.storage.v1.Exceptions$OffsetAlreadyExists" javaObjectSerializationCompatible="NOT_SERIALIZABLE" javaObjectSerializationCompatibleAsString="not serializable" sourceCompatible="false">
+            <annotations/>
+            <attributes>
+                <attribute changeStatus="REMOVED" newValue="n.a." oldValue="NON_SYNTHETIC"/>
+            </attributes>
+            <classFileFormatVersion changeStatus="REMOVED" majorVersionNew="-1" majorVersionOld="52" minorVersionNew="-1" minorVersionOld="0"/>
+            <classType changeStatus="REMOVED" newType="n.a." oldType="CLASS"/>
+            <compatibilityChanges>
+                <compatibilityChange>CLASS_REMOVED</compatibilityChange>
+            </compatibilityChanges>
+            <constructors>
+                <constructor binaryCompatible="false" changeStatus="REMOVED" name="Exceptions$OffsetAlreadyExists" newLineNumber="n.a." oldLineNumber="99" sourceCompatible="false">
+                    <annotations/>
+                    <attributes>
+                        <attribute changeStatus="REMOVED" newValue="n.a." oldValue="NON_SYNTHETIC"/>
+                    </attributes>
+                    <compatibilityChanges>
+                        <compatibilityChange>CONSTRUCTOR_REMOVED</compatibilityChange>
+                    </compatibilityChanges>
+                    <exceptions/>
+                    <genericTemplates/>
+                    <modifiers>
+                        <modifier changeStatus="REMOVED" newValue="n.a." oldValue="NON_FINAL"/>
+                        <modifier changeStatus="REMOVED" newValue="n.a." oldValue="NON_STATIC"/>
+                        <modifier changeStatus="REMOVED" newValue="n.a." oldValue="PROTECTED"/>
+                        <modifier changeStatus="REMOVED" newValue="n.a." oldValue="NON_ABSTRACT"/>
+                        <modifier changeStatus="REMOVED" newValue="n.a." oldValue="NON_BRIDGE"/>
+                        <modifier changeStatus="REMOVED" newValue="n.a." oldValue="NON_SYNTHETIC"/>
+                    </modifiers>
+                    <parameters>
+                        <parameter binaryCompatible="true" changeStatus="UNCHANGED" sourceCompatible="true" templateName="N/A" type="io.grpc.Status">
+                            <compatibilityChanges/>
+                            <newGenericTypes/>
+                            <oldGenericTypes/>
+                        </parameter>
+                        <parameter binaryCompatible="true" changeStatus="UNCHANGED" sourceCompatible="true" templateName="N/A" type="java.lang.String">
+                            <compatibilityChanges/>
+                            <newGenericTypes/>
+                            <oldGenericTypes/>
+                        </parameter>
+                        <parameter binaryCompatible="true" changeStatus="UNCHANGED" sourceCompatible="true" templateName="N/A" type="java.lang.Long">
+                            <compatibilityChanges/>
+                            <newGenericTypes/>
+                            <oldGenericTypes/>
+                        </parameter>
+                        <parameter binaryCompatible="true" changeStatus="UNCHANGED" sourceCompatible="true" templateName="N/A" type="java.lang.Long">
+                            <compatibilityChanges/>
+                            <newGenericTypes/>
+                            <oldGenericTypes/>
+                        </parameter>
+                    </parameters>
+                </constructor>
+            </constructors>
+            <fields/>
+            <genericTemplates/>
+            <interfaces/>
+            <methods/>
+            <modifiers>
+                <modifier changeStatus="REMOVED" newValue="n.a." oldValue="FINAL"/>
+                <modifier changeStatus="REMOVED" newValue="n.a." oldValue="STATIC"/>
+                <modifier changeStatus="REMOVED" newValue="n.a." oldValue="PUBLIC"/>
+                <modifier changeStatus="REMOVED" newValue="n.a." oldValue="NON_ABSTRACT"/>
+                <modifier changeStatus="REMOVED" newValue="n.a." oldValue="NON_SYNTHETIC"/>
+            </modifiers>
+            <serialVersionUid serialVersionUidDefaultNew="n.a." serialVersionUidDefaultOld="n.a." serialVersionUidInClassNew="n.a." serialVersionUidInClassOld="n.a." serializableNew="false" serializableOld="false"/>
+            <superclass binaryCompatible="false" changeStatus="REMOVED" sourceCompatible="false" superclassNew="n.a." superclassOld="com.google.cloud.bigquery.storage.v1.Exceptions$StorageException">
+                <compatibilityChanges>
+                    <compatibilityChange>SUPERCLASS_REMOVED</compatibilityChange>
+                </compatibilityChanges>
+            </superclass>
+        </class>
+        <class binaryCompatible="false" changeStatus="REMOVED" fullyQualifiedName="com.google.cloud.bigquery.storage.v1.Exceptions$OffsetOutOfRange" javaObjectSerializationCompatible="NOT_SERIALIZABLE" javaObjectSerializationCompatibleAsString="not serializable" sourceCompatible="false">
+            <annotations/>
+            <attributes>
+                <attribute changeStatus="REMOVED" newValue="n.a." oldValue="NON_SYNTHETIC"/>
+            </attributes>
+            <classFileFormatVersion changeStatus="REMOVED" majorVersionNew="-1" majorVersionOld="52" minorVersionNew="-1" minorVersionOld="0"/>
+            <classType changeStatus="REMOVED" newType="n.a." oldType="CLASS"/>
+            <compatibilityChanges>
+                <compatibilityChange>CLASS_REMOVED</compatibilityChange>
+            </compatibilityChanges>
+            <constructors>
+                <constructor binaryCompatible="false" changeStatus="REMOVED" name="Exceptions$OffsetOutOfRange" newLineNumber="n.a." oldLineNumber="107" sourceCompatible="false">
+                    <annotations/>
+                    <attributes>
+                        <attribute changeStatus="REMOVED" newValue="n.a." oldValue="NON_SYNTHETIC"/>
+                    </attributes>
+                    <compatibilityChanges>
+                        <compatibilityChange>CONSTRUCTOR_REMOVED</compatibilityChange>
+                    </compatibilityChanges>
+                    <exceptions/>
+                    <genericTemplates/>
+                    <modifiers>
+                        <modifier changeStatus="REMOVED" newValue="n.a." oldValue="NON_FINAL"/>
+                        <modifier changeStatus="REMOVED" newValue="n.a." oldValue="NON_STATIC"/>
+                        <modifier changeStatus="REMOVED" newValue="n.a." oldValue="PROTECTED"/>
+                        <modifier changeStatus="REMOVED" newValue="n.a." oldValue="NON_ABSTRACT"/>
+                        <modifier changeStatus="REMOVED" newValue="n.a." oldValue="NON_BRIDGE"/>
+                        <modifier changeStatus="REMOVED" newValue="n.a." oldValue="NON_SYNTHETIC"/>
+                    </modifiers>
+                    <parameters>
+                        <parameter binaryCompatible="true" changeStatus="UNCHANGED" sourceCompatible="true" templateName="N/A" type="io.grpc.Status">
+                            <compatibilityChanges/>
+                            <newGenericTypes/>
+                            <oldGenericTypes/>
+                        </parameter>
+                        <parameter binaryCompatible="true" changeStatus="UNCHANGED" sourceCompatible="true" templateName="N/A" type="java.lang.String">
+                            <compatibilityChanges/>
+                            <newGenericTypes/>
+                            <oldGenericTypes/>
+                        </parameter>
+                        <parameter binaryCompatible="true" changeStatus="UNCHANGED" sourceCompatible="true" templateName="N/A" type="java.lang.Long">
+                            <compatibilityChanges/>
+                            <newGenericTypes/>
+                            <oldGenericTypes/>
+                        </parameter>
+                        <parameter binaryCompatible="true" changeStatus="UNCHANGED" sourceCompatible="true" templateName="N/A" type="java.lang.Long">
+                            <compatibilityChanges/>
+                            <newGenericTypes/>
+                            <oldGenericTypes/>
+                        </parameter>
+                    </parameters>
+                </constructor>
+            </constructors>
+            <fields/>
+            <genericTemplates/>
+            <interfaces/>
+            <methods/>
+            <modifiers>
+                <modifier changeStatus="REMOVED" newValue="n.a." oldValue="FINAL"/>
+                <modifier changeStatus="REMOVED" newValue="n.a." oldValue="STATIC"/>
+                <modifier changeStatus="REMOVED" newValue="n.a." oldValue="PUBLIC"/>
+                <modifier changeStatus="REMOVED" newValue="n.a." oldValue="NON_ABSTRACT"/>
+                <modifier changeStatus="REMOVED" newValue="n.a." oldValue="NON_SYNTHETIC"/>
+            </modifiers>
+            <serialVersionUid serialVersionUidDefaultNew="n.a." serialVersionUidDefaultOld="n.a." serialVersionUidInClassNew="n.a." serialVersionUidInClassOld="n.a." serializableNew="false" serializableOld="false"/>
+            <superclass binaryCompatible="false" changeStatus="REMOVED" sourceCompatible="false" superclassNew="n.a." superclassOld="com.google.cloud.bigquery.storage.v1.Exceptions$StorageException">
+                <compatibilityChanges>
+                    <compatibilityChange>SUPERCLASS_REMOVED</compatibilityChange>
+                </compatibilityChanges>
+            </superclass>
+        </class>
+        <class binaryCompatible="false" changeStatus="MODIFIED" fullyQualifiedName="com.google.cloud.bigquery.storage.v1.Exceptions$SchemaMismatchedException" javaObjectSerializationCompatible="SERIALIZABLE_COMPATIBLE" javaObjectSerializationCompatibleAsString="compatible" sourceCompatible="false">
+            <annotations/>
+            <attributes>
+                <attribute changeStatus="UNCHANGED" newValue="NON_SYNTHETIC" oldValue="NON_SYNTHETIC"/>
+            </attributes>
+            <classFileFormatVersion changeStatus="UNCHANGED" majorVersionNew="52" majorVersionOld="52" minorVersionNew="0" minorVersionOld="0"/>
+            <classType changeStatus="UNCHANGED" newType="CLASS" oldType="CLASS"/>
+            <compatibilityChanges>
+                <compatibilityChange>METHOD_REMOVED_IN_SUPERCLASS</compatibilityChange>
+                <compatibilityChange>INTERFACE_ADDED</compatibilityChange>
+            </compatibilityChanges>
+            <constructors>
+                <constructor binaryCompatible="false" changeStatus="REMOVED" name="Exceptions$SchemaMismatchedException" newLineNumber="n.a." oldLineNumber="91" sourceCompatible="false">
+                    <annotations/>
+                    <attributes>
+                        <attribute changeStatus="REMOVED" newValue="n.a." oldValue="NON_SYNTHETIC"/>
+                    </attributes>
+                    <compatibilityChanges>
+                        <compatibilityChange>CONSTRUCTOR_REMOVED</compatibilityChange>
+                    </compatibilityChanges>
+                    <exceptions/>
+                    <genericTemplates/>
+                    <modifiers>
+                        <modifier changeStatus="REMOVED" newValue="n.a." oldValue="NON_FINAL"/>
+                        <modifier changeStatus="REMOVED" newValue="n.a." oldValue="NON_STATIC"/>
+                        <modifier changeStatus="REMOVED" newValue="n.a." oldValue="PROTECTED"/>
+                        <modifier changeStatus="REMOVED" newValue="n.a." oldValue="NON_ABSTRACT"/>
+                        <modifier changeStatus="REMOVED" newValue="n.a." oldValue="NON_BRIDGE"/>
+                        <modifier changeStatus="REMOVED" newValue="n.a." oldValue="NON_SYNTHETIC"/>
+                    </modifiers>
+                    <parameters>
+                        <parameter binaryCompatible="true" changeStatus="UNCHANGED" sourceCompatible="true" templateName="N/A" type="io.grpc.Status">
+                            <compatibilityChanges/>
+                            <newGenericTypes/>
+                            <oldGenericTypes/>
+                        </parameter>
+                        <parameter binaryCompatible="true" changeStatus="UNCHANGED" sourceCompatible="true" templateName="N/A" type="java.lang.String">
+                            <compatibilityChanges/>
+                            <newGenericTypes/>
+                            <oldGenericTypes/>
+                        </parameter>
+                    </parameters>
+                </constructor>
+                <constructor binaryCompatible="true" changeStatus="NEW" name="Exceptions$SchemaMismatchedException" newLineNumber="74" oldLineNumber="n.a." sourceCompatible="true">
+                    <annotations/>
+                    <attributes>
+                        <attribute changeStatus="NEW" newValue="NON_SYNTHETIC" oldValue="n.a."/>
+                    </attributes>
+                    <compatibilityChanges/>
+                    <exceptions/>
+                    <genericTemplates/>
+                    <modifiers>
+                        <modifier changeStatus="NEW" newValue="NON_FINAL" oldValue="n.a."/>
+                        <modifier changeStatus="NEW" newValue="NON_STATIC" oldValue="n.a."/>
+                        <modifier changeStatus="NEW" newValue="PROTECTED" oldValue="n.a."/>
+                        <modifier changeStatus="NEW" newValue="NON_ABSTRACT" oldValue="n.a."/>
+                        <modifier changeStatus="NEW" newValue="NON_BRIDGE" oldValue="n.a."/>
+                        <modifier changeStatus="NEW" newValue="NON_SYNTHETIC" oldValue="n.a."/>
+                    </modifiers>
+                    <parameters>
+                        <parameter binaryCompatible="true" changeStatus="UNCHANGED" sourceCompatible="true" templateName="N/A" type="java.lang.String">
+                            <compatibilityChanges/>
+                            <newGenericTypes/>
+                            <oldGenericTypes/>
+                        </parameter>
+                        <parameter binaryCompatible="true" changeStatus="UNCHANGED" sourceCompatible="true" templateName="N/A" type="java.lang.String">
+                            <compatibilityChanges/>
+                            <newGenericTypes/>
+                            <oldGenericTypes/>
+                        </parameter>
+                        <parameter binaryCompatible="true" changeStatus="UNCHANGED" sourceCompatible="true" templateName="N/A" type="java.lang.Throwable">
+                            <compatibilityChanges/>
+                            <newGenericTypes/>
+                            <oldGenericTypes/>
+                        </parameter>
+                    </parameters>
+                </constructor>
+            </constructors>
+            <fields/>
+            <genericTemplates/>
+            <interfaces>
+                <interface binaryCompatible="true" changeStatus="NEW" fullyQualifiedName="java.io.Serializable" sourceCompatible="true">
+                    <compatibilityChanges/>
+                </interface>
+            </interfaces>
+            <methods/>
+            <modifiers>
+                <modifier changeStatus="UNCHANGED" newValue="FINAL" oldValue="FINAL"/>
+                <modifier changeStatus="UNCHANGED" newValue="STATIC" oldValue="STATIC"/>
+                <modifier changeStatus="UNCHANGED" newValue="PUBLIC" oldValue="PUBLIC"/>
+                <modifier changeStatus="UNCHANGED" newValue="NON_ABSTRACT" oldValue="NON_ABSTRACT"/>
+                <modifier changeStatus="UNCHANGED" newValue="NON_SYNTHETIC" oldValue="NON_SYNTHETIC"/>
+            </modifiers>
+            <serialVersionUid serialVersionUidDefaultNew="-6399200381104986763" serialVersionUidDefaultOld="n.a." serialVersionUidInClassNew="n.a." serialVersionUidInClassOld="n.a." serializableNew="true" serializableOld="false"/>
+            <superclass binaryCompatible="true" changeStatus="UNCHANGED" sourceCompatible="true" superclassNew="com.google.cloud.bigquery.storage.v1.Exceptions$StorageException" superclassOld="com.google.cloud.bigquery.storage.v1.Exceptions$StorageException">
+                <compatibilityChanges/>
+            </superclass>
+        </class>
+        <class binaryCompatible="false" changeStatus="MODIFIED" fullyQualifiedName="com.google.cloud.bigquery.storage.v1.Exceptions$StorageException" javaObjectSerializationCompatible="SERIALIZABLE_COMPATIBLE" javaObjectSerializationCompatibleAsString="compatible" sourceCompatible="false">
+            <annotations/>
+            <attributes>
+                <attribute changeStatus="UNCHANGED" newValue="NON_SYNTHETIC" oldValue="NON_SYNTHETIC"/>
+            </attributes>
+            <classFileFormatVersion changeStatus="UNCHANGED" majorVersionNew="52" majorVersionOld="52" minorVersionNew="0" minorVersionOld="0"/>
+            <classType changeStatus="UNCHANGED" newType="CLASS" oldType="CLASS"/>
+            <compatibilityChanges>
+                <compatibilityChange>INTERFACE_ADDED</compatibilityChange>
+            </compatibilityChanges>
+            <constructors/>
+            <fields/>
+            <genericTemplates/>
+            <interfaces>
+                <interface binaryCompatible="true" changeStatus="NEW" fullyQualifiedName="java.io.Serializable" sourceCompatible="true">
+                    <compatibilityChanges/>
+                </interface>
+            </interfaces>
+            <methods>
+                <method binaryCompatible="false" changeStatus="REMOVED" name="getActualOffset" newLineNumber="n.a." oldLineNumber="74" sourceCompatible="false">
+                    <annotations/>
+                    <attributes>
+                        <attribute changeStatus="REMOVED" newValue="n.a." oldValue="NON_SYNTHETIC"/>
+                    </attributes>
+                    <compatibilityChanges>
+                        <compatibilityChange>METHOD_REMOVED</compatibilityChange>
+                    </compatibilityChanges>
+                    <exceptions/>
+                    <genericTemplates/>
+                    <modifiers>
+                        <modifier changeStatus="REMOVED" newValue="n.a." oldValue="NON_FINAL"/>
+                        <modifier changeStatus="REMOVED" newValue="n.a." oldValue="NON_STATIC"/>
+                        <modifier changeStatus="REMOVED" newValue="n.a." oldValue="PUBLIC"/>
+                        <modifier changeStatus="REMOVED" newValue="n.a." oldValue="NON_ABSTRACT"/>
+                        <modifier changeStatus="REMOVED" newValue="n.a." oldValue="NON_BRIDGE"/>
+                        <modifier changeStatus="REMOVED" newValue="n.a." oldValue="NON_SYNTHETIC"/>
+                    </modifiers>
+                    <parameters/>
+                    <returnType binaryCompatible="true" changeStatus="REMOVED" newValue="n.a." oldValue="long" sourceCompatible="true">
+                        <compatibilityChanges/>
+                        <newGenericTypes/>
+                        <oldGenericTypes/>
+                    </returnType>
+                </method>
+                <method binaryCompatible="false" changeStatus="REMOVED" name="getExpectedOffset" newLineNumber="n.a." oldLineNumber="70" sourceCompatible="false">
+                    <annotations/>
+                    <attributes>
+                        <attribute changeStatus="REMOVED" newValue="n.a." oldValue="NON_SYNTHETIC"/>
+                    </attributes>
+                    <compatibilityChanges>
+                        <compatibilityChange>METHOD_REMOVED</compatibilityChange>
+                    </compatibilityChanges>
+                    <exceptions/>
+                    <genericTemplates/>
+                    <modifiers>
+                        <modifier changeStatus="REMOVED" newValue="n.a." oldValue="NON_FINAL"/>
+                        <modifier changeStatus="REMOVED" newValue="n.a." oldValue="NON_STATIC"/>
+                        <modifier changeStatus="REMOVED" newValue="n.a." oldValue="PUBLIC"/>
+                        <modifier changeStatus="REMOVED" newValue="n.a." oldValue="NON_ABSTRACT"/>
+                        <modifier changeStatus="REMOVED" newValue="n.a." oldValue="NON_BRIDGE"/>
+                        <modifier changeStatus="REMOVED" newValue="n.a." oldValue="NON_SYNTHETIC"/>
+                    </modifiers>
+                    <parameters/>
+                    <returnType binaryCompatible="true" changeStatus="REMOVED" newValue="n.a." oldValue="long" sourceCompatible="true">
+                        <compatibilityChanges/>
+                        <newGenericTypes/>
+                        <oldGenericTypes/>
+                    </returnType>
+                </method>
+            </methods>
+            <modifiers>
+                <modifier changeStatus="UNCHANGED" newValue="NON_FINAL" oldValue="NON_FINAL"/>
+                <modifier changeStatus="UNCHANGED" newValue="STATIC" oldValue="STATIC"/>
+                <modifier changeStatus="UNCHANGED" newValue="PUBLIC" oldValue="PUBLIC"/>
+                <modifier changeStatus="UNCHANGED" newValue="NON_ABSTRACT" oldValue="NON_ABSTRACT"/>
+                <modifier changeStatus="UNCHANGED" newValue="NON_SYNTHETIC" oldValue="NON_SYNTHETIC"/>
+            </modifiers>
+            <serialVersionUid serialVersionUidDefaultNew="-5501634455161212026" serialVersionUidDefaultOld="n.a." serialVersionUidInClassNew="n.a." serialVersionUidInClassOld="n.a." serializableNew="true" serializableOld="false"/>
+            <superclass binaryCompatible="true" changeStatus="NEW" sourceCompatible="true" superclassNew="java.lang.RuntimeException" superclassOld="n.a.">
+                <compatibilityChanges/>
+            </superclass>
+        </class>
+        <class binaryCompatible="false" changeStatus="MODIFIED" fullyQualifiedName="com.google.cloud.bigquery.storage.v1.Exceptions$StreamFinalizedException" javaObjectSerializationCompatible="SERIALIZABLE_COMPATIBLE" javaObjectSerializationCompatibleAsString="compatible" sourceCompatible="false">
+            <annotations/>
+            <attributes>
+                <attribute changeStatus="UNCHANGED" newValue="NON_SYNTHETIC" oldValue="NON_SYNTHETIC"/>
+            </attributes>
+            <classFileFormatVersion changeStatus="UNCHANGED" majorVersionNew="52" majorVersionOld="52" minorVersionNew="0" minorVersionOld="0"/>
+            <classType changeStatus="UNCHANGED" newType="CLASS" oldType="CLASS"/>
+            <compatibilityChanges>
+                <compatibilityChange>METHOD_REMOVED_IN_SUPERCLASS</compatibilityChange>
+                <compatibilityChange>INTERFACE_ADDED</compatibilityChange>
+            </compatibilityChanges>
+            <constructors>
+                <constructor binaryCompatible="false" changeStatus="REMOVED" name="Exceptions$StreamFinalizedException" newLineNumber="n.a." oldLineNumber="81" sourceCompatible="false">
+                    <annotations/>
+                    <attributes>
+                        <attribute changeStatus="REMOVED" newValue="n.a." oldValue="NON_SYNTHETIC"/>
+                    </attributes>
+                    <compatibilityChanges>
+                        <compatibilityChange>CONSTRUCTOR_REMOVED</compatibilityChange>
+                    </compatibilityChanges>
+                    <exceptions/>
+                    <genericTemplates/>
+                    <modifiers>
+                        <modifier changeStatus="REMOVED" newValue="n.a." oldValue="NON_FINAL"/>
+                        <modifier changeStatus="REMOVED" newValue="n.a." oldValue="NON_STATIC"/>
+                        <modifier changeStatus="REMOVED" newValue="n.a." oldValue="PROTECTED"/>
+                        <modifier changeStatus="REMOVED" newValue="n.a." oldValue="NON_ABSTRACT"/>
+                        <modifier changeStatus="REMOVED" newValue="n.a." oldValue="NON_BRIDGE"/>
+                        <modifier changeStatus="REMOVED" newValue="n.a." oldValue="NON_SYNTHETIC"/>
+                    </modifiers>
+                    <parameters>
+                        <parameter binaryCompatible="true" changeStatus="UNCHANGED" sourceCompatible="true" templateName="N/A" type="io.grpc.Status">
+                            <compatibilityChanges/>
+                            <newGenericTypes/>
+                            <oldGenericTypes/>
+                        </parameter>
+                        <parameter binaryCompatible="true" changeStatus="UNCHANGED" sourceCompatible="true" templateName="N/A" type="java.lang.String">
+                            <compatibilityChanges/>
+                            <newGenericTypes/>
+                            <oldGenericTypes/>
+                        </parameter>
+                    </parameters>
+                </constructor>
+                <constructor binaryCompatible="true" changeStatus="NEW" name="Exceptions$StreamFinalizedException" newLineNumber="64" oldLineNumber="n.a." sourceCompatible="true">
+                    <annotations/>
+                    <attributes>
+                        <attribute changeStatus="NEW" newValue="NON_SYNTHETIC" oldValue="n.a."/>
+                    </attributes>
+                    <compatibilityChanges/>
+                    <exceptions/>
+                    <genericTemplates/>
+                    <modifiers>
+                        <modifier changeStatus="NEW" newValue="NON_FINAL" oldValue="n.a."/>
+                        <modifier changeStatus="NEW" newValue="NON_STATIC" oldValue="n.a."/>
+                        <modifier changeStatus="NEW" newValue="PROTECTED" oldValue="n.a."/>
+                        <modifier changeStatus="NEW" newValue="NON_ABSTRACT" oldValue="n.a."/>
+                        <modifier changeStatus="NEW" newValue="NON_BRIDGE" oldValue="n.a."/>
+                        <modifier changeStatus="NEW" newValue="NON_SYNTHETIC" oldValue="n.a."/>
+                    </modifiers>
+                    <parameters>
+                        <parameter binaryCompatible="true" changeStatus="UNCHANGED" sourceCompatible="true" templateName="N/A" type="java.lang.String">
+                            <compatibilityChanges/>
+                            <newGenericTypes/>
+                            <oldGenericTypes/>
+                        </parameter>
+                        <parameter binaryCompatible="true" changeStatus="UNCHANGED" sourceCompatible="true" templateName="N/A" type="java.lang.String">
+                            <compatibilityChanges/>
+                            <newGenericTypes/>
+                            <oldGenericTypes/>
+                        </parameter>
+                        <parameter binaryCompatible="true" changeStatus="UNCHANGED" sourceCompatible="true" templateName="N/A" type="java.lang.Throwable">
+                            <compatibilityChanges/>
+                            <newGenericTypes/>
+                            <oldGenericTypes/>
+                        </parameter>
+                    </parameters>
+                </constructor>
+            </constructors>
+            <fields/>
+            <genericTemplates/>
+            <interfaces>
+                <interface binaryCompatible="true" changeStatus="NEW" fullyQualifiedName="java.io.Serializable" sourceCompatible="true">
+                    <compatibilityChanges/>
+                </interface>
+            </interfaces>
+            <methods/>
+            <modifiers>
+                <modifier changeStatus="UNCHANGED" newValue="FINAL" oldValue="FINAL"/>
+                <modifier changeStatus="UNCHANGED" newValue="STATIC" oldValue="STATIC"/>
+                <modifier changeStatus="UNCHANGED" newValue="PUBLIC" oldValue="PUBLIC"/>
+                <modifier changeStatus="UNCHANGED" newValue="NON_ABSTRACT" oldValue="NON_ABSTRACT"/>
+                <modifier changeStatus="UNCHANGED" newValue="NON_SYNTHETIC" oldValue="NON_SYNTHETIC"/>
+            </modifiers>
+            <serialVersionUid serialVersionUidDefaultNew="-689951865740926304" serialVersionUidDefaultOld="n.a." serialVersionUidInClassNew="n.a." serialVersionUidInClassOld="n.a." serializableNew="true" serializableOld="false"/>
+            <superclass binaryCompatible="true" changeStatus="UNCHANGED" sourceCompatible="true" superclassNew="com.google.cloud.bigquery.storage.v1.Exceptions$StorageException" superclassOld="com.google.cloud.bigquery.storage.v1.Exceptions$StorageException">
+                <compatibilityChanges/>
+            </superclass>
+        </class>
+        <class binaryCompatible="false" changeStatus="REMOVED" fullyQualifiedName="com.google.cloud.bigquery.storage.v1.Exceptions$StreamNotFound" javaObjectSerializationCompatible="NOT_SERIALIZABLE" javaObjectSerializationCompatibleAsString="not serializable" sourceCompatible="false">
+            <annotations/>
+            <attributes>
+                <attribute changeStatus="REMOVED" newValue="n.a." oldValue="NON_SYNTHETIC"/>
+            </attributes>
+            <classFileFormatVersion changeStatus="REMOVED" majorVersionNew="-1" majorVersionOld="52" minorVersionNew="-1" minorVersionOld="0"/>
+            <classType changeStatus="REMOVED" newType="n.a." oldType="CLASS"/>
+            <compatibilityChanges>
+                <compatibilityChange>CLASS_REMOVED</compatibilityChange>
+            </compatibilityChanges>
+            <constructors>
+                <constructor binaryCompatible="false" changeStatus="REMOVED" name="Exceptions$StreamNotFound" newLineNumber="n.a." oldLineNumber="114" sourceCompatible="false">
+                    <annotations/>
+                    <attributes>
+                        <attribute changeStatus="REMOVED" newValue="n.a." oldValue="NON_SYNTHETIC"/>
+                    </attributes>
+                    <compatibilityChanges>
+                        <compatibilityChange>CONSTRUCTOR_REMOVED</compatibilityChange>
+                    </compatibilityChanges>
+                    <exceptions/>
+                    <genericTemplates/>
+                    <modifiers>
+                        <modifier changeStatus="REMOVED" newValue="n.a." oldValue="NON_FINAL"/>
+                        <modifier changeStatus="REMOVED" newValue="n.a." oldValue="NON_STATIC"/>
+                        <modifier changeStatus="REMOVED" newValue="n.a." oldValue="PROTECTED"/>
+                        <modifier changeStatus="REMOVED" newValue="n.a." oldValue="NON_ABSTRACT"/>
+                        <modifier changeStatus="REMOVED" newValue="n.a." oldValue="NON_BRIDGE"/>
+                        <modifier changeStatus="REMOVED" newValue="n.a." oldValue="NON_SYNTHETIC"/>
+                    </modifiers>
+                    <parameters>
+                        <parameter binaryCompatible="true" changeStatus="UNCHANGED" sourceCompatible="true" templateName="N/A" type="io.grpc.Status">
+                            <compatibilityChanges/>
+                            <newGenericTypes/>
+                            <oldGenericTypes/>
+                        </parameter>
+                        <parameter binaryCompatible="true" changeStatus="UNCHANGED" sourceCompatible="true" templateName="N/A" type="java.lang.String">
+                            <compatibilityChanges/>
+                            <newGenericTypes/>
+                            <oldGenericTypes/>
+                        </parameter>
+                    </parameters>
+                </constructor>
+            </constructors>
+            <fields/>
+            <genericTemplates/>
+            <interfaces/>
+            <methods/>
+            <modifiers>
+                <modifier changeStatus="REMOVED" newValue="n.a." oldValue="FINAL"/>
+                <modifier changeStatus="REMOVED" newValue="n.a." oldValue="STATIC"/>
+                <modifier changeStatus="REMOVED" newValue="n.a." oldValue="PUBLIC"/>
+                <modifier changeStatus="REMOVED" newValue="n.a." oldValue="NON_ABSTRACT"/>
+                <modifier changeStatus="REMOVED" newValue="n.a." oldValue="NON_SYNTHETIC"/>
+            </modifiers>
+            <serialVersionUid serialVersionUidDefaultNew="n.a." serialVersionUidDefaultOld="n.a." serialVersionUidInClassNew="n.a." serialVersionUidInClassOld="n.a." serializableNew="false" serializableOld="false"/>
+            <superclass binaryCompatible="false" changeStatus="REMOVED" sourceCompatible="false" superclassNew="n.a." superclassOld="com.google.cloud.bigquery.storage.v1.Exceptions$StorageException">
+                <compatibilityChanges>
+                    <compatibilityChange>SUPERCLASS_REMOVED</compatibilityChange>
+                </compatibilityChanges>
+            </superclass>
+        </class>
+        <class binaryCompatible="false" changeStatus="MODIFIED" fullyQualifiedName="com.google.cloud.bigquery.storage.v1.JsonStreamWriter" javaObjectSerializationCompatible="NOT_SERIALIZABLE" javaObjectSerializationCompatibleAsString="not serializable" sourceCompatible="false">
+            <annotations/>
+            <attributes>
+                <attribute changeStatus="UNCHANGED" newValue="NON_SYNTHETIC" oldValue="NON_SYNTHETIC"/>
+            </attributes>
+            <classFileFormatVersion changeStatus="UNCHANGED" majorVersionNew="52" majorVersionOld="52" minorVersionNew="0" minorVersionOld="0"/>
+            <classType changeStatus="UNCHANGED" newType="CLASS" oldType="CLASS"/>
+            <compatibilityChanges/>
+            <constructors/>
+            <fields/>
+            <genericTemplates/>
+            <interfaces/>
+            <methods>
+                <method binaryCompatible="false" changeStatus="REMOVED" name="getInflightWaitSeconds" newLineNumber="n.a." oldLineNumber="184" sourceCompatible="false">
+                    <annotations/>
+                    <attributes>
+                        <attribute changeStatus="REMOVED" newValue="n.a." oldValue="NON_SYNTHETIC"/>
+                    </attributes>
+                    <compatibilityChanges>
+                        <compatibilityChange>METHOD_REMOVED</compatibilityChange>
+                    </compatibilityChanges>
+                    <exceptions/>
+                    <genericTemplates/>
+                    <modifiers>
+                        <modifier changeStatus="REMOVED" newValue="n.a." oldValue="NON_FINAL"/>
+                        <modifier changeStatus="REMOVED" newValue="n.a." oldValue="NON_STATIC"/>
+                        <modifier changeStatus="REMOVED" newValue="n.a." oldValue="PUBLIC"/>
+                        <modifier changeStatus="REMOVED" newValue="n.a." oldValue="NON_ABSTRACT"/>
+                        <modifier changeStatus="REMOVED" newValue="n.a." oldValue="NON_BRIDGE"/>
+                        <modifier changeStatus="REMOVED" newValue="n.a." oldValue="NON_SYNTHETIC"/>
+                    </modifiers>
+                    <parameters/>
+                    <returnType binaryCompatible="true" changeStatus="REMOVED" newValue="n.a." oldValue="long" sourceCompatible="true">
+                        <compatibilityChanges/>
+                        <newGenericTypes/>
+                        <oldGenericTypes/>
+                    </returnType>
+                </method>
+            </methods>
+            <modifiers>
+                <modifier changeStatus="UNCHANGED" newValue="NON_FINAL" oldValue="NON_FINAL"/>
+                <modifier changeStatus="UNCHANGED" newValue="NON_STATIC" oldValue="NON_STATIC"/>
+                <modifier changeStatus="UNCHANGED" newValue="PUBLIC" oldValue="PUBLIC"/>
+                <modifier changeStatus="UNCHANGED" newValue="NON_ABSTRACT" oldValue="NON_ABSTRACT"/>
+                <modifier changeStatus="UNCHANGED" newValue="NON_SYNTHETIC" oldValue="NON_SYNTHETIC"/>
+            </modifiers>
+            <serialVersionUid serialVersionUidDefaultNew="n.a." serialVersionUidDefaultOld="n.a." serialVersionUidInClassNew="n.a." serialVersionUidInClassOld="n.a." serializableNew="false" serializableOld="false"/>
+            <superclass binaryCompatible="true" changeStatus="UNCHANGED" sourceCompatible="true" superclassNew="java.lang.Object" superclassOld="java.lang.Object">
+                <compatibilityChanges/>
+            </superclass>
+        </class>
+        <class binaryCompatible="false" changeStatus="MODIFIED" fullyQualifiedName="com.google.cloud.bigquery.storage.v1.JsonStreamWriter$Builder" javaObjectSerializationCompatible="NOT_SERIALIZABLE" javaObjectSerializationCompatibleAsString="not serializable" sourceCompatible="false">
+            <annotations/>
+            <attributes>
+                <attribute changeStatus="UNCHANGED" newValue="NON_SYNTHETIC" oldValue="NON_SYNTHETIC"/>
+            </attributes>
+            <classFileFormatVersion changeStatus="UNCHANGED" majorVersionNew="52" majorVersionOld="52" minorVersionNew="0" minorVersionOld="0"/>
+            <classType changeStatus="UNCHANGED" newType="CLASS" oldType="CLASS"/>
+            <compatibilityChanges/>
+            <constructors/>
+            <fields/>
+            <genericTemplates/>
+            <interfaces/>
+            <methods>
+                <method binaryCompatible="false" changeStatus="REMOVED" name="setReconnectAfter10M" newLineNumber="n.a." oldLineNumber="397" sourceCompatible="false">
+                    <annotations/>
+                    <attributes>
+                        <attribute changeStatus="REMOVED" newValue="n.a." oldValue="NON_SYNTHETIC"/>
+                    </attributes>
+                    <compatibilityChanges>
+                        <compatibilityChange>METHOD_REMOVED</compatibilityChange>
+                    </compatibilityChanges>
+                    <exceptions/>
+                    <genericTemplates/>
+                    <modifiers>
+                        <modifier changeStatus="REMOVED" newValue="n.a." oldValue="NON_FINAL"/>
+                        <modifier changeStatus="REMOVED" newValue="n.a." oldValue="NON_STATIC"/>
+                        <modifier changeStatus="REMOVED" newValue="n.a." oldValue="PUBLIC"/>
+                        <modifier changeStatus="REMOVED" newValue="n.a." oldValue="NON_ABSTRACT"/>
+                        <modifier changeStatus="REMOVED" newValue="n.a." oldValue="NON_BRIDGE"/>
+                        <modifier changeStatus="REMOVED" newValue="n.a." oldValue="NON_SYNTHETIC"/>
+                    </modifiers>
+                    <parameters>
+                        <parameter binaryCompatible="true" changeStatus="UNCHANGED" sourceCompatible="true" templateName="N/A" type="boolean">
+                            <compatibilityChanges/>
+                            <newGenericTypes/>
+                            <oldGenericTypes/>
+                        </parameter>
+                    </parameters>
+                    <returnType binaryCompatible="true" changeStatus="REMOVED" newValue="n.a." oldValue="com.google.cloud.bigquery.storage.v1.JsonStreamWriter$Builder" sourceCompatible="true">
+                        <compatibilityChanges/>
+                        <newGenericTypes/>
+                        <oldGenericTypes/>
+                    </returnType>
+                </method>
+            </methods>
+            <modifiers>
+                <modifier changeStatus="UNCHANGED" newValue="FINAL" oldValue="FINAL"/>
+                <modifier changeStatus="UNCHANGED" newValue="STATIC" oldValue="STATIC"/>
+                <modifier changeStatus="UNCHANGED" newValue="PUBLIC" oldValue="PUBLIC"/>
+                <modifier changeStatus="UNCHANGED" newValue="NON_ABSTRACT" oldValue="NON_ABSTRACT"/>
+                <modifier changeStatus="UNCHANGED" newValue="NON_SYNTHETIC" oldValue="NON_SYNTHETIC"/>
+            </modifiers>
+            <serialVersionUid serialVersionUidDefaultNew="n.a." serialVersionUidDefaultOld="n.a." serialVersionUidInClassNew="n.a." serialVersionUidInClassOld="n.a." serializableNew="false" serializableOld="false"/>
+            <superclass binaryCompatible="true" changeStatus="UNCHANGED" sourceCompatible="true" superclassNew="java.lang.Object" superclassOld="java.lang.Object">
+                <compatibilityChanges/>
+            </superclass>
+        </class>
+        <class binaryCompatible="false" changeStatus="MODIFIED" fullyQualifiedName="com.google.cloud.bigquery.storage.v1.StreamWriter" javaObjectSerializationCompatible="NOT_SERIALIZABLE" javaObjectSerializationCompatibleAsString="not serializable" sourceCompatible="false">
+            <annotations/>
+            <attributes>
+                <attribute changeStatus="UNCHANGED" newValue="NON_SYNTHETIC" oldValue="NON_SYNTHETIC"/>
+            </attributes>
+            <classFileFormatVersion changeStatus="UNCHANGED" majorVersionNew="52" majorVersionOld="52" minorVersionNew="0" minorVersionOld="0"/>
+            <classType changeStatus="UNCHANGED" newType="CLASS" oldType="CLASS"/>
+            <compatibilityChanges/>
+            <constructors/>
+            <fields/>
+            <genericTemplates/>
+            <interfaces/>
+            <methods>
+                <method binaryCompatible="false" changeStatus="REMOVED" name="getInflightWaitSeconds" newLineNumber="n.a." oldLineNumber="361" sourceCompatible="false">
+                    <annotations/>
+                    <attributes>
+                        <attribute changeStatus="REMOVED" newValue="n.a." oldValue="NON_SYNTHETIC"/>
+                    </attributes>
+                    <compatibilityChanges>
+                        <compatibilityChange>METHOD_REMOVED</compatibilityChange>
+                    </compatibilityChanges>
+                    <exceptions/>
+                    <genericTemplates/>
+                    <modifiers>
+                        <modifier changeStatus="REMOVED" newValue="n.a." oldValue="NON_FINAL"/>
+                        <modifier changeStatus="REMOVED" newValue="n.a." oldValue="NON_STATIC"/>
+                        <modifier changeStatus="REMOVED" newValue="n.a." oldValue="PUBLIC"/>
+                        <modifier changeStatus="REMOVED" newValue="n.a." oldValue="NON_ABSTRACT"/>
+                        <modifier changeStatus="REMOVED" newValue="n.a." oldValue="NON_BRIDGE"/>
+                        <modifier changeStatus="REMOVED" newValue="n.a." oldValue="NON_SYNTHETIC"/>
+                    </modifiers>
+                    <parameters/>
+                    <returnType binaryCompatible="true" changeStatus="REMOVED" newValue="n.a." oldValue="long" sourceCompatible="true">
+                        <compatibilityChanges/>
+                        <newGenericTypes/>
+                        <oldGenericTypes/>
+                    </returnType>
+                </method>
+            </methods>
+            <modifiers>
+                <modifier changeStatus="UNCHANGED" newValue="NON_FINAL" oldValue="NON_FINAL"/>
+                <modifier changeStatus="UNCHANGED" newValue="NON_STATIC" oldValue="NON_STATIC"/>
+                <modifier changeStatus="UNCHANGED" newValue="PUBLIC" oldValue="PUBLIC"/>
+                <modifier changeStatus="UNCHANGED" newValue="NON_ABSTRACT" oldValue="NON_ABSTRACT"/>
+                <modifier changeStatus="UNCHANGED" newValue="NON_SYNTHETIC" oldValue="NON_SYNTHETIC"/>
+            </modifiers>
+            <serialVersionUid serialVersionUidDefaultNew="n.a." serialVersionUidDefaultOld="n.a." serialVersionUidInClassNew="n.a." serialVersionUidInClassOld="n.a." serializableNew="false" serializableOld="false"/>
+            <superclass binaryCompatible="true" changeStatus="UNCHANGED" sourceCompatible="true" superclassNew="java.lang.Object" superclassOld="java.lang.Object">
+                <compatibilityChanges/>
+            </superclass>
+        </class>
+    </classes>
+</japicmp>

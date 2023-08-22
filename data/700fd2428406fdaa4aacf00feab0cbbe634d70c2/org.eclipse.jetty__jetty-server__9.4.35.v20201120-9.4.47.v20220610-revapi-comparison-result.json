@@ -1,0 +1,305 @@
+[ {
+  "code" : "java.method.exception.checkedAdded",
+  "old" : "method org.eclipse.jetty.server.HttpInput.Content org.eclipse.jetty.server.HttpInput::nextInterceptedContent()",
+  "new" : "method org.eclipse.jetty.server.HttpInput.Content org.eclipse.jetty.server.HttpInput::nextInterceptedContent() throws java.io.IOException",
+  "name" : "Method newly throws checked exceptions",
+  "description" : "Method newly throws checked exceptions: java.io.IOException.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "exception",
+    "value" : "java.io.IOException"
+  }, {
+    "name" : "package",
+    "value" : "org.eclipse.jetty.server"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.eclipse.jetty.server.HttpInput"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "HttpInput"
+  }, {
+    "name" : "methodName",
+    "value" : "nextInterceptedContent"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jetty-server-9.4.35.v20201120.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "jetty-server-9.4.47.v20220610.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.exception.checkedAdded",
+  "old" : "method org.eclipse.jetty.server.HttpInput.Content org.eclipse.jetty.server.HttpInput::nextNonSentinelContent()",
+  "new" : "method org.eclipse.jetty.server.HttpInput.Content org.eclipse.jetty.server.HttpInput::nextNonSentinelContent() throws java.io.IOException",
+  "name" : "Method newly throws checked exceptions",
+  "description" : "Method newly throws checked exceptions: java.io.IOException.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "exception",
+    "value" : "java.io.IOException"
+  }, {
+    "name" : "package",
+    "value" : "org.eclipse.jetty.server"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.eclipse.jetty.server.HttpInput"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "HttpInput"
+  }, {
+    "name" : "methodName",
+    "value" : "nextNonSentinelContent"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jetty-server-9.4.35.v20201120.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "jetty-server-9.4.47.v20220610.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method org.eclipse.jetty.server.HttpInput.Content org.eclipse.jetty.server.HttpInput::produceNextContext() throws java.io.IOException",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.eclipse.jetty.server"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.eclipse.jetty.server.HttpInput"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "HttpInput"
+  }, {
+    "name" : "methodName",
+    "value" : "produceNextContext"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jetty-server-9.4.35.v20201120.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method void org.eclipse.jetty.server.HttpInput::skip(org.eclipse.jetty.server.HttpInput.Content, int)",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.eclipse.jetty.server"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.eclipse.jetty.server.HttpInput"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "HttpInput"
+  }, {
+    "name" : "methodName",
+    "value" : "skip"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jetty-server-9.4.35.v20201120.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.numberOfParametersChanged",
+  "old" : "method void org.eclipse.jetty.server.handler.StatisticsHandler::updateResponse(org.eclipse.jetty.server.Request)",
+  "new" : "method void org.eclipse.jetty.server.handler.StatisticsHandler::updateResponse(org.eclipse.jetty.server.Request, boolean)",
+  "name" : "number of parameters changed",
+  "description" : "The number of parameters of the method have changed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.eclipse.jetty.server.handler"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.eclipse.jetty.server.handler.StatisticsHandler"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "StatisticsHandler"
+  }, {
+    "name" : "methodName",
+    "value" : "updateResponse"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jetty-server-9.4.35.v20201120.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "jetty-server-9.4.47.v20220610.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.nonPublicPartOfAPI",
+  "old" : "class org.eclipse.jetty.server.handler.ThreadLimitHandler.Remote",
+  "new" : "class org.eclipse.jetty.server.handler.ThreadLimitHandler.Remote",
+  "name" : "non-public class in API",
+  "description" : "Class 'org.eclipse.jetty.server.handler.ThreadLimitHandler.Remote' is indirectly included in the API (by the means of method return type for example) but the class is not accessible (neither public nor protected).",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SEMANTIC",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "classSimpleName",
+    "value" : "Remote"
+  }, {
+    "name" : "exampleUseChainInNewApi",
+    "value" : "org.eclipse.jetty.server.handler.ThreadLimitHandler.Remote is returned from method org.eclipse.jetty.server.handler.ThreadLimitHandler.Remote org.eclipse.jetty.server.handler.ThreadLimitHandler::getRemote(org.eclipse.jetty.server.Request) (method org.eclipse.jetty.server.handler.ThreadLimitHandler.Remote org.eclipse.jetty.server.handler.ThreadLimitHandler::getRemote(org.eclipse.jetty.server.Request) is part of the API)"
+  }, {
+    "name" : "package",
+    "value" : "org.eclipse.jetty.server.handler"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.eclipse.jetty.server.handler.ThreadLimitHandler.Remote"
+  }, {
+    "name" : "exampleUseChainInOldApi",
+    "value" : "org.eclipse.jetty.server.handler.ThreadLimitHandler.Remote is returned from method org.eclipse.jetty.server.handler.ThreadLimitHandler.Remote org.eclipse.jetty.server.handler.ThreadLimitHandler::getRemote(org.eclipse.jetty.server.Request) (method org.eclipse.jetty.server.handler.ThreadLimitHandler.Remote org.eclipse.jetty.server.handler.ThreadLimitHandler::getRemote(org.eclipse.jetty.server.Request) is part of the API)"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jetty-server-9.4.35.v20201120.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "jetty-server-9.4.47.v20220610.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.exception.checkedRemoved",
+  "old" : "method void org.eclipse.jetty.server.session.FileSessionDataStore::sweepFile(long, java.nio.file.Path) throws java.lang.Exception",
+  "new" : "method void org.eclipse.jetty.server.session.FileSessionDataStore::sweepFile(long, java.nio.file.Path)",
+  "name" : "Method no longer throws checked exceptions",
+  "description" : "Method no longer throws checked exceptions: java.lang.Exception.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "exception",
+    "value" : "java.lang.Exception"
+  }, {
+    "name" : "package",
+    "value" : "org.eclipse.jetty.server.session"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.eclipse.jetty.server.session.FileSessionDataStore"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "FileSessionDataStore"
+  }, {
+    "name" : "methodName",
+    "value" : "sweepFile"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jetty-server-9.4.35.v20201120.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "jetty-server-9.4.47.v20220610.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+} ]

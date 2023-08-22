@@ -1,0 +1,5968 @@
+[ {
+  "code" : "java.class.removed",
+  "old" : "class org.apache.thrift.ShortStack",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.apache.thrift"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.thrift.ShortStack"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "ShortStack"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "libthrift-0.12.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.returnTypeChanged",
+  "old" : "method boolean org.apache.thrift.TAsyncProcessor::process(org.apache.thrift.server.AbstractNonblockingServer.AsyncFrameBuffer) throws org.apache.thrift.TException",
+  "new" : "method void org.apache.thrift.TAsyncProcessor::process(org.apache.thrift.server.AbstractNonblockingServer.AsyncFrameBuffer) throws org.apache.thrift.TException",
+  "name" : "return type changed",
+  "description" : "The return type changed from 'boolean' to  'void'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "POTENTIALLY_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "boolean"
+  }, {
+    "name" : "newType",
+    "value" : "void"
+  }, {
+    "name" : "package",
+    "value" : "org.apache.thrift"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.thrift.TAsyncProcessor"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "TAsyncProcessor"
+  }, {
+    "name" : "methodName",
+    "value" : "process"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "libthrift-0.12.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "libthrift-0.16.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.returnTypeChanged",
+  "old" : "method boolean org.apache.thrift.TBaseAsyncProcessor<I>::process(org.apache.thrift.protocol.TProtocol, org.apache.thrift.protocol.TProtocol) throws org.apache.thrift.TException",
+  "new" : "method void org.apache.thrift.TBaseAsyncProcessor<I>::process(org.apache.thrift.protocol.TProtocol, org.apache.thrift.protocol.TProtocol) throws org.apache.thrift.TException",
+  "name" : "return type changed",
+  "description" : "The return type changed from 'boolean' to  'void'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "POTENTIALLY_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "boolean"
+  }, {
+    "name" : "newType",
+    "value" : "void"
+  }, {
+    "name" : "package",
+    "value" : "org.apache.thrift"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.thrift.TBaseAsyncProcessor"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "TBaseAsyncProcessor"
+  }, {
+    "name" : "methodName",
+    "value" : "process"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "libthrift-0.12.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "libthrift-0.16.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.returnTypeChanged",
+  "old" : "method boolean org.apache.thrift.TBaseAsyncProcessor<I>::process(org.apache.thrift.server.AbstractNonblockingServer.AsyncFrameBuffer) throws org.apache.thrift.TException",
+  "new" : "method void org.apache.thrift.TBaseAsyncProcessor<I>::process(org.apache.thrift.server.AbstractNonblockingServer.AsyncFrameBuffer) throws org.apache.thrift.TException",
+  "name" : "return type changed",
+  "description" : "The return type changed from 'boolean' to  'void'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "POTENTIALLY_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "boolean"
+  }, {
+    "name" : "newType",
+    "value" : "void"
+  }, {
+    "name" : "package",
+    "value" : "org.apache.thrift"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.thrift.TBaseAsyncProcessor"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "TBaseAsyncProcessor"
+  }, {
+    "name" : "methodName",
+    "value" : "process"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "libthrift-0.12.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "libthrift-0.16.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.returnTypeChanged",
+  "old" : "method boolean org.apache.thrift.TBaseProcessor<I>::process(org.apache.thrift.protocol.TProtocol, org.apache.thrift.protocol.TProtocol) throws org.apache.thrift.TException",
+  "new" : "method void org.apache.thrift.TBaseProcessor<I>::process(org.apache.thrift.protocol.TProtocol, org.apache.thrift.protocol.TProtocol) throws org.apache.thrift.TException",
+  "name" : "return type changed",
+  "description" : "The return type changed from 'boolean' to  'void'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "POTENTIALLY_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "boolean"
+  }, {
+    "name" : "newType",
+    "value" : "void"
+  }, {
+    "name" : "package",
+    "value" : "org.apache.thrift"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.thrift.TBaseProcessor"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "TBaseProcessor"
+  }, {
+    "name" : "methodName",
+    "value" : "process"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "libthrift-0.12.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "libthrift-0.16.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.exception.checkedAdded",
+  "old" : "method void org.apache.thrift.TDeserializer::<init>()",
+  "new" : "method void org.apache.thrift.TDeserializer::<init>() throws org.apache.thrift.transport.TTransportException",
+  "name" : "Method newly throws checked exceptions",
+  "description" : "Method newly throws checked exceptions: org.apache.thrift.transport.TTransportException.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "exception",
+    "value" : "org.apache.thrift.transport.TTransportException"
+  }, {
+    "name" : "package",
+    "value" : "org.apache.thrift"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.thrift.TDeserializer"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "TDeserializer"
+  }, {
+    "name" : "methodName",
+    "value" : "<init>"
+  }, {
+    "name" : "elementKind",
+    "value" : "constructor"
+  }, {
+    "name" : "oldArchive",
+    "value" : "libthrift-0.12.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "libthrift-0.16.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.exception.checkedAdded",
+  "old" : "method void org.apache.thrift.TDeserializer::<init>(org.apache.thrift.protocol.TProtocolFactory)",
+  "new" : "method void org.apache.thrift.TDeserializer::<init>(org.apache.thrift.protocol.TProtocolFactory) throws org.apache.thrift.transport.TTransportException",
+  "name" : "Method newly throws checked exceptions",
+  "description" : "Method newly throws checked exceptions: org.apache.thrift.transport.TTransportException.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "exception",
+    "value" : "org.apache.thrift.transport.TTransportException"
+  }, {
+    "name" : "package",
+    "value" : "org.apache.thrift"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.thrift.TDeserializer"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "TDeserializer"
+  }, {
+    "name" : "methodName",
+    "value" : "<init>"
+  }, {
+    "name" : "elementKind",
+    "value" : "constructor"
+  }, {
+    "name" : "oldArchive",
+    "value" : "libthrift-0.12.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "libthrift-0.16.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.returnTypeChanged",
+  "old" : "method boolean org.apache.thrift.TMultiplexedProcessor::process(org.apache.thrift.protocol.TProtocol, org.apache.thrift.protocol.TProtocol) throws org.apache.thrift.TException",
+  "new" : "method void org.apache.thrift.TMultiplexedProcessor::process(org.apache.thrift.protocol.TProtocol, org.apache.thrift.protocol.TProtocol) throws org.apache.thrift.TException",
+  "name" : "return type changed",
+  "description" : "The return type changed from 'boolean' to  'void'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "POTENTIALLY_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "boolean"
+  }, {
+    "name" : "newType",
+    "value" : "void"
+  }, {
+    "name" : "package",
+    "value" : "org.apache.thrift"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.thrift.TMultiplexedProcessor"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "TMultiplexedProcessor"
+  }, {
+    "name" : "methodName",
+    "value" : "process"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "libthrift-0.12.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "libthrift-0.16.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.returnTypeChanged",
+  "old" : "method boolean org.apache.thrift.TProcessor::process(org.apache.thrift.protocol.TProtocol, org.apache.thrift.protocol.TProtocol) throws org.apache.thrift.TException",
+  "new" : "method void org.apache.thrift.TProcessor::process(org.apache.thrift.protocol.TProtocol, org.apache.thrift.protocol.TProtocol) throws org.apache.thrift.TException",
+  "name" : "return type changed",
+  "description" : "The return type changed from 'boolean' to  'void'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "POTENTIALLY_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "boolean"
+  }, {
+    "name" : "newType",
+    "value" : "void"
+  }, {
+    "name" : "package",
+    "value" : "org.apache.thrift"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.thrift.TProcessor"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "TProcessor"
+  }, {
+    "name" : "methodName",
+    "value" : "process"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "libthrift-0.12.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "libthrift-0.16.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.exception.checkedAdded",
+  "old" : "method void org.apache.thrift.TSerializer::<init>()",
+  "new" : "method void org.apache.thrift.TSerializer::<init>() throws org.apache.thrift.transport.TTransportException",
+  "name" : "Method newly throws checked exceptions",
+  "description" : "Method newly throws checked exceptions: org.apache.thrift.transport.TTransportException.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "exception",
+    "value" : "org.apache.thrift.transport.TTransportException"
+  }, {
+    "name" : "package",
+    "value" : "org.apache.thrift"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.thrift.TSerializer"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "TSerializer"
+  }, {
+    "name" : "methodName",
+    "value" : "<init>"
+  }, {
+    "name" : "elementKind",
+    "value" : "constructor"
+  }, {
+    "name" : "oldArchive",
+    "value" : "libthrift-0.12.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "libthrift-0.16.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.exception.checkedAdded",
+  "old" : "method void org.apache.thrift.TSerializer::<init>(org.apache.thrift.protocol.TProtocolFactory)",
+  "new" : "method void org.apache.thrift.TSerializer::<init>(org.apache.thrift.protocol.TProtocolFactory) throws org.apache.thrift.transport.TTransportException",
+  "name" : "Method newly throws checked exceptions",
+  "description" : "Method newly throws checked exceptions: org.apache.thrift.transport.TTransportException.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "exception",
+    "value" : "org.apache.thrift.transport.TTransportException"
+  }, {
+    "name" : "package",
+    "value" : "org.apache.thrift"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.thrift.TSerializer"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "TSerializer"
+  }, {
+    "name" : "methodName",
+    "value" : "<init>"
+  }, {
+    "name" : "elementKind",
+    "value" : "constructor"
+  }, {
+    "name" : "oldArchive",
+    "value" : "libthrift-0.12.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "libthrift-0.16.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method java.lang.String org.apache.thrift.TSerializer::toString(org.apache.thrift.TBase, java.lang.String) throws org.apache.thrift.TException",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.apache.thrift"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.thrift.TSerializer"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "TSerializer"
+  }, {
+    "name" : "methodName",
+    "value" : "toString"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "libthrift-0.12.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.defaultSerializationChanged",
+  "old" : "class org.apache.thrift.meta_data.FieldMetaData",
+  "new" : "class org.apache.thrift.meta_data.FieldMetaData",
+  "name" : "default serialization changed",
+  "description" : "The default serialization ID for the class has changed. This means that the new version of the class is not deserializable from the byte stream of a serialized old class.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "EQUIVALENT"
+  }, {
+    "compatibility" : "SEMANTIC",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "EQUIVALENT"
+  } ],
+  "attachments" : [ {
+    "name" : "oldSerialVersionUID",
+    "value" : "-7299886807233286483"
+  }, {
+    "name" : "newSerialVersionUID",
+    "value" : "-4485756740722496283"
+  }, {
+    "name" : "package",
+    "value" : "org.apache.thrift.meta_data"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.thrift.meta_data.FieldMetaData"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "FieldMetaData"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "libthrift-0.12.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "libthrift-0.16.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.exception.checkedAdded",
+  "old" : "method void org.apache.thrift.protocol.TBinaryProtocol::readFieldEnd()",
+  "new" : "method void org.apache.thrift.protocol.TBinaryProtocol::readFieldEnd() throws org.apache.thrift.TException",
+  "name" : "Method newly throws checked exceptions",
+  "description" : "Method newly throws checked exceptions: org.apache.thrift.TException.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "exception",
+    "value" : "org.apache.thrift.TException"
+  }, {
+    "name" : "package",
+    "value" : "org.apache.thrift.protocol"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.thrift.protocol.TBinaryProtocol"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "TBinaryProtocol"
+  }, {
+    "name" : "methodName",
+    "value" : "readFieldEnd"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "libthrift-0.12.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "libthrift-0.16.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.exception.checkedAdded",
+  "old" : "method void org.apache.thrift.protocol.TBinaryProtocol::readListEnd()",
+  "new" : "method void org.apache.thrift.protocol.TBinaryProtocol::readListEnd() throws org.apache.thrift.TException",
+  "name" : "Method newly throws checked exceptions",
+  "description" : "Method newly throws checked exceptions: org.apache.thrift.TException.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "exception",
+    "value" : "org.apache.thrift.TException"
+  }, {
+    "name" : "package",
+    "value" : "org.apache.thrift.protocol"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.thrift.protocol.TBinaryProtocol"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "TBinaryProtocol"
+  }, {
+    "name" : "methodName",
+    "value" : "readListEnd"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "libthrift-0.12.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "libthrift-0.16.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.exception.checkedAdded",
+  "old" : "method void org.apache.thrift.protocol.TBinaryProtocol::readMapEnd()",
+  "new" : "method void org.apache.thrift.protocol.TBinaryProtocol::readMapEnd() throws org.apache.thrift.TException",
+  "name" : "Method newly throws checked exceptions",
+  "description" : "Method newly throws checked exceptions: org.apache.thrift.TException.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "exception",
+    "value" : "org.apache.thrift.TException"
+  }, {
+    "name" : "package",
+    "value" : "org.apache.thrift.protocol"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.thrift.protocol.TBinaryProtocol"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "TBinaryProtocol"
+  }, {
+    "name" : "methodName",
+    "value" : "readMapEnd"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "libthrift-0.12.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "libthrift-0.16.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.exception.checkedAdded",
+  "old" : "method void org.apache.thrift.protocol.TBinaryProtocol::readMessageEnd()",
+  "new" : "method void org.apache.thrift.protocol.TBinaryProtocol::readMessageEnd() throws org.apache.thrift.TException",
+  "name" : "Method newly throws checked exceptions",
+  "description" : "Method newly throws checked exceptions: org.apache.thrift.TException.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "exception",
+    "value" : "org.apache.thrift.TException"
+  }, {
+    "name" : "package",
+    "value" : "org.apache.thrift.protocol"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.thrift.protocol.TBinaryProtocol"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "TBinaryProtocol"
+  }, {
+    "name" : "methodName",
+    "value" : "readMessageEnd"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "libthrift-0.12.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "libthrift-0.16.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.exception.checkedAdded",
+  "old" : "method void org.apache.thrift.protocol.TBinaryProtocol::readSetEnd()",
+  "new" : "method void org.apache.thrift.protocol.TBinaryProtocol::readSetEnd() throws org.apache.thrift.TException",
+  "name" : "Method newly throws checked exceptions",
+  "description" : "Method newly throws checked exceptions: org.apache.thrift.TException.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "exception",
+    "value" : "org.apache.thrift.TException"
+  }, {
+    "name" : "package",
+    "value" : "org.apache.thrift.protocol"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.thrift.protocol.TBinaryProtocol"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "TBinaryProtocol"
+  }, {
+    "name" : "methodName",
+    "value" : "readSetEnd"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "libthrift-0.12.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "libthrift-0.16.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.exception.checkedAdded",
+  "old" : "method org.apache.thrift.protocol.TStruct org.apache.thrift.protocol.TBinaryProtocol::readStructBegin()",
+  "new" : "method org.apache.thrift.protocol.TStruct org.apache.thrift.protocol.TBinaryProtocol::readStructBegin() throws org.apache.thrift.TException",
+  "name" : "Method newly throws checked exceptions",
+  "description" : "Method newly throws checked exceptions: org.apache.thrift.TException.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "exception",
+    "value" : "org.apache.thrift.TException"
+  }, {
+    "name" : "package",
+    "value" : "org.apache.thrift.protocol"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.thrift.protocol.TBinaryProtocol"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "TBinaryProtocol"
+  }, {
+    "name" : "methodName",
+    "value" : "readStructBegin"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "libthrift-0.12.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "libthrift-0.16.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.exception.checkedAdded",
+  "old" : "method void org.apache.thrift.protocol.TBinaryProtocol::readStructEnd()",
+  "new" : "method void org.apache.thrift.protocol.TBinaryProtocol::readStructEnd() throws org.apache.thrift.TException",
+  "name" : "Method newly throws checked exceptions",
+  "description" : "Method newly throws checked exceptions: org.apache.thrift.TException.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "exception",
+    "value" : "org.apache.thrift.TException"
+  }, {
+    "name" : "package",
+    "value" : "org.apache.thrift.protocol"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.thrift.protocol.TBinaryProtocol"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "TBinaryProtocol"
+  }, {
+    "name" : "methodName",
+    "value" : "readStructEnd"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "libthrift-0.12.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "libthrift-0.16.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.exception.checkedAdded",
+  "old" : "method void org.apache.thrift.protocol.TBinaryProtocol::writeFieldEnd()",
+  "new" : "method void org.apache.thrift.protocol.TBinaryProtocol::writeFieldEnd() throws org.apache.thrift.TException",
+  "name" : "Method newly throws checked exceptions",
+  "description" : "Method newly throws checked exceptions: org.apache.thrift.TException.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "exception",
+    "value" : "org.apache.thrift.TException"
+  }, {
+    "name" : "package",
+    "value" : "org.apache.thrift.protocol"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.thrift.protocol.TBinaryProtocol"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "TBinaryProtocol"
+  }, {
+    "name" : "methodName",
+    "value" : "writeFieldEnd"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "libthrift-0.12.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "libthrift-0.16.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.exception.checkedAdded",
+  "old" : "method void org.apache.thrift.protocol.TBinaryProtocol::writeListEnd()",
+  "new" : "method void org.apache.thrift.protocol.TBinaryProtocol::writeListEnd() throws org.apache.thrift.TException",
+  "name" : "Method newly throws checked exceptions",
+  "description" : "Method newly throws checked exceptions: org.apache.thrift.TException.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "exception",
+    "value" : "org.apache.thrift.TException"
+  }, {
+    "name" : "package",
+    "value" : "org.apache.thrift.protocol"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.thrift.protocol.TBinaryProtocol"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "TBinaryProtocol"
+  }, {
+    "name" : "methodName",
+    "value" : "writeListEnd"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "libthrift-0.12.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "libthrift-0.16.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.exception.checkedAdded",
+  "old" : "method void org.apache.thrift.protocol.TBinaryProtocol::writeMapEnd()",
+  "new" : "method void org.apache.thrift.protocol.TBinaryProtocol::writeMapEnd() throws org.apache.thrift.TException",
+  "name" : "Method newly throws checked exceptions",
+  "description" : "Method newly throws checked exceptions: org.apache.thrift.TException.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "exception",
+    "value" : "org.apache.thrift.TException"
+  }, {
+    "name" : "package",
+    "value" : "org.apache.thrift.protocol"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.thrift.protocol.TBinaryProtocol"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "TBinaryProtocol"
+  }, {
+    "name" : "methodName",
+    "value" : "writeMapEnd"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "libthrift-0.12.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "libthrift-0.16.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.exception.checkedAdded",
+  "old" : "method void org.apache.thrift.protocol.TBinaryProtocol::writeMessageEnd()",
+  "new" : "method void org.apache.thrift.protocol.TBinaryProtocol::writeMessageEnd() throws org.apache.thrift.TException",
+  "name" : "Method newly throws checked exceptions",
+  "description" : "Method newly throws checked exceptions: org.apache.thrift.TException.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "exception",
+    "value" : "org.apache.thrift.TException"
+  }, {
+    "name" : "package",
+    "value" : "org.apache.thrift.protocol"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.thrift.protocol.TBinaryProtocol"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "TBinaryProtocol"
+  }, {
+    "name" : "methodName",
+    "value" : "writeMessageEnd"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "libthrift-0.12.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "libthrift-0.16.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.exception.checkedAdded",
+  "old" : "method void org.apache.thrift.protocol.TBinaryProtocol::writeSetEnd()",
+  "new" : "method void org.apache.thrift.protocol.TBinaryProtocol::writeSetEnd() throws org.apache.thrift.TException",
+  "name" : "Method newly throws checked exceptions",
+  "description" : "Method newly throws checked exceptions: org.apache.thrift.TException.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "exception",
+    "value" : "org.apache.thrift.TException"
+  }, {
+    "name" : "package",
+    "value" : "org.apache.thrift.protocol"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.thrift.protocol.TBinaryProtocol"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "TBinaryProtocol"
+  }, {
+    "name" : "methodName",
+    "value" : "writeSetEnd"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "libthrift-0.12.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "libthrift-0.16.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.exception.checkedAdded",
+  "old" : "method void org.apache.thrift.protocol.TBinaryProtocol::writeStructBegin(org.apache.thrift.protocol.TStruct)",
+  "new" : "method void org.apache.thrift.protocol.TBinaryProtocol::writeStructBegin(org.apache.thrift.protocol.TStruct) throws org.apache.thrift.TException",
+  "name" : "Method newly throws checked exceptions",
+  "description" : "Method newly throws checked exceptions: org.apache.thrift.TException.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "exception",
+    "value" : "org.apache.thrift.TException"
+  }, {
+    "name" : "package",
+    "value" : "org.apache.thrift.protocol"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.thrift.protocol.TBinaryProtocol"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "TBinaryProtocol"
+  }, {
+    "name" : "methodName",
+    "value" : "writeStructBegin"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "libthrift-0.12.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "libthrift-0.16.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.exception.checkedAdded",
+  "old" : "method void org.apache.thrift.protocol.TBinaryProtocol::writeStructEnd()",
+  "new" : "method void org.apache.thrift.protocol.TBinaryProtocol::writeStructEnd() throws org.apache.thrift.TException",
+  "name" : "Method newly throws checked exceptions",
+  "description" : "Method newly throws checked exceptions: org.apache.thrift.TException.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "exception",
+    "value" : "org.apache.thrift.TException"
+  }, {
+    "name" : "package",
+    "value" : "org.apache.thrift.protocol"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.thrift.protocol.TBinaryProtocol"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "TBinaryProtocol"
+  }, {
+    "name" : "methodName",
+    "value" : "writeStructEnd"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "libthrift-0.12.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "libthrift-0.16.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.abstractMethodAdded",
+  "old" : null,
+  "new" : "method int org.apache.thrift.protocol.TProtocol::getMinSerializedSize(byte) throws org.apache.thrift.TException",
+  "name" : "abstract method added",
+  "description" : "Abstract method was added.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.apache.thrift.protocol"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.thrift.protocol.TProtocol"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "TProtocol"
+  }, {
+    "name" : "methodName",
+    "value" : "getMinSerializedSize"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "newArchive",
+    "value" : "libthrift-0.16.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.exception.checkedAdded",
+  "old" : "method void org.apache.thrift.protocol.TSimpleJSONProtocol::readFieldEnd()",
+  "new" : "method void org.apache.thrift.protocol.TSimpleJSONProtocol::readFieldEnd() throws org.apache.thrift.TException",
+  "name" : "Method newly throws checked exceptions",
+  "description" : "Method newly throws checked exceptions: org.apache.thrift.TException.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "exception",
+    "value" : "org.apache.thrift.TException"
+  }, {
+    "name" : "package",
+    "value" : "org.apache.thrift.protocol"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.thrift.protocol.TSimpleJSONProtocol"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "TSimpleJSONProtocol"
+  }, {
+    "name" : "methodName",
+    "value" : "readFieldEnd"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "libthrift-0.12.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "libthrift-0.16.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.exception.checkedAdded",
+  "old" : "method void org.apache.thrift.protocol.TSimpleJSONProtocol::readListEnd()",
+  "new" : "method void org.apache.thrift.protocol.TSimpleJSONProtocol::readListEnd() throws org.apache.thrift.TException",
+  "name" : "Method newly throws checked exceptions",
+  "description" : "Method newly throws checked exceptions: org.apache.thrift.TException.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "exception",
+    "value" : "org.apache.thrift.TException"
+  }, {
+    "name" : "package",
+    "value" : "org.apache.thrift.protocol"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.thrift.protocol.TSimpleJSONProtocol"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "TSimpleJSONProtocol"
+  }, {
+    "name" : "methodName",
+    "value" : "readListEnd"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "libthrift-0.12.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "libthrift-0.16.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.exception.checkedAdded",
+  "old" : "method void org.apache.thrift.protocol.TSimpleJSONProtocol::readMapEnd()",
+  "new" : "method void org.apache.thrift.protocol.TSimpleJSONProtocol::readMapEnd() throws org.apache.thrift.TException",
+  "name" : "Method newly throws checked exceptions",
+  "description" : "Method newly throws checked exceptions: org.apache.thrift.TException.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "exception",
+    "value" : "org.apache.thrift.TException"
+  }, {
+    "name" : "package",
+    "value" : "org.apache.thrift.protocol"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.thrift.protocol.TSimpleJSONProtocol"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "TSimpleJSONProtocol"
+  }, {
+    "name" : "methodName",
+    "value" : "readMapEnd"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "libthrift-0.12.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "libthrift-0.16.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.exception.checkedAdded",
+  "old" : "method void org.apache.thrift.protocol.TSimpleJSONProtocol::readMessageEnd()",
+  "new" : "method void org.apache.thrift.protocol.TSimpleJSONProtocol::readMessageEnd() throws org.apache.thrift.TException",
+  "name" : "Method newly throws checked exceptions",
+  "description" : "Method newly throws checked exceptions: org.apache.thrift.TException.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "exception",
+    "value" : "org.apache.thrift.TException"
+  }, {
+    "name" : "package",
+    "value" : "org.apache.thrift.protocol"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.thrift.protocol.TSimpleJSONProtocol"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "TSimpleJSONProtocol"
+  }, {
+    "name" : "methodName",
+    "value" : "readMessageEnd"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "libthrift-0.12.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "libthrift-0.16.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.exception.checkedAdded",
+  "old" : "method void org.apache.thrift.protocol.TSimpleJSONProtocol::readSetEnd()",
+  "new" : "method void org.apache.thrift.protocol.TSimpleJSONProtocol::readSetEnd() throws org.apache.thrift.TException",
+  "name" : "Method newly throws checked exceptions",
+  "description" : "Method newly throws checked exceptions: org.apache.thrift.TException.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "exception",
+    "value" : "org.apache.thrift.TException"
+  }, {
+    "name" : "package",
+    "value" : "org.apache.thrift.protocol"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.thrift.protocol.TSimpleJSONProtocol"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "TSimpleJSONProtocol"
+  }, {
+    "name" : "methodName",
+    "value" : "readSetEnd"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "libthrift-0.12.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "libthrift-0.16.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.exception.checkedAdded",
+  "old" : "method org.apache.thrift.protocol.TStruct org.apache.thrift.protocol.TSimpleJSONProtocol::readStructBegin()",
+  "new" : "method org.apache.thrift.protocol.TStruct org.apache.thrift.protocol.TSimpleJSONProtocol::readStructBegin() throws org.apache.thrift.TException",
+  "name" : "Method newly throws checked exceptions",
+  "description" : "Method newly throws checked exceptions: org.apache.thrift.TException.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "exception",
+    "value" : "org.apache.thrift.TException"
+  }, {
+    "name" : "package",
+    "value" : "org.apache.thrift.protocol"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.thrift.protocol.TSimpleJSONProtocol"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "TSimpleJSONProtocol"
+  }, {
+    "name" : "methodName",
+    "value" : "readStructBegin"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "libthrift-0.12.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "libthrift-0.16.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.exception.checkedAdded",
+  "old" : "method void org.apache.thrift.protocol.TSimpleJSONProtocol::readStructEnd()",
+  "new" : "method void org.apache.thrift.protocol.TSimpleJSONProtocol::readStructEnd() throws org.apache.thrift.TException",
+  "name" : "Method newly throws checked exceptions",
+  "description" : "Method newly throws checked exceptions: org.apache.thrift.TException.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "exception",
+    "value" : "org.apache.thrift.TException"
+  }, {
+    "name" : "package",
+    "value" : "org.apache.thrift.protocol"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.thrift.protocol.TSimpleJSONProtocol"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "TSimpleJSONProtocol"
+  }, {
+    "name" : "methodName",
+    "value" : "readStructEnd"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "libthrift-0.12.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "libthrift-0.16.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.exception.checkedAdded",
+  "old" : "method void org.apache.thrift.protocol.TSimpleJSONProtocol::writeFieldEnd()",
+  "new" : "method void org.apache.thrift.protocol.TSimpleJSONProtocol::writeFieldEnd() throws org.apache.thrift.TException",
+  "name" : "Method newly throws checked exceptions",
+  "description" : "Method newly throws checked exceptions: org.apache.thrift.TException.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "exception",
+    "value" : "org.apache.thrift.TException"
+  }, {
+    "name" : "package",
+    "value" : "org.apache.thrift.protocol"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.thrift.protocol.TSimpleJSONProtocol"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "TSimpleJSONProtocol"
+  }, {
+    "name" : "methodName",
+    "value" : "writeFieldEnd"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "libthrift-0.12.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "libthrift-0.16.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.exception.checkedAdded",
+  "old" : "method void org.apache.thrift.protocol.TSimpleJSONProtocol::writeFieldStop()",
+  "new" : "method void org.apache.thrift.protocol.TSimpleJSONProtocol::writeFieldStop() throws org.apache.thrift.TException",
+  "name" : "Method newly throws checked exceptions",
+  "description" : "Method newly throws checked exceptions: org.apache.thrift.TException.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "exception",
+    "value" : "org.apache.thrift.TException"
+  }, {
+    "name" : "package",
+    "value" : "org.apache.thrift.protocol"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.thrift.protocol.TSimpleJSONProtocol"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "TSimpleJSONProtocol"
+  }, {
+    "name" : "methodName",
+    "value" : "writeFieldStop"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "libthrift-0.12.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "libthrift-0.16.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.exception.checkedAdded",
+  "old" : "method void org.apache.thrift.server.AbstractNonblockingServer.AsyncFrameBuffer::<init>(org.apache.thrift.transport.TNonblockingTransport, java.nio.channels.SelectionKey, org.apache.thrift.server.AbstractNonblockingServer.AbstractSelectThread)",
+  "new" : "method void org.apache.thrift.server.AbstractNonblockingServer.AsyncFrameBuffer::<init>(org.apache.thrift.transport.TNonblockingTransport, java.nio.channels.SelectionKey, org.apache.thrift.server.AbstractNonblockingServer.AbstractSelectThread) throws org.apache.thrift.transport.TTransportException",
+  "name" : "Method newly throws checked exceptions",
+  "description" : "Method newly throws checked exceptions: org.apache.thrift.transport.TTransportException.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "exception",
+    "value" : "org.apache.thrift.transport.TTransportException"
+  }, {
+    "name" : "package",
+    "value" : "org.apache.thrift.server"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.thrift.server.AbstractNonblockingServer.AsyncFrameBuffer"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "AsyncFrameBuffer"
+  }, {
+    "name" : "methodName",
+    "value" : "<init>"
+  }, {
+    "name" : "elementKind",
+    "value" : "constructor"
+  }, {
+    "name" : "oldArchive",
+    "value" : "libthrift-0.12.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "libthrift-0.16.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.exception.checkedAdded",
+  "old" : "method void org.apache.thrift.server.AbstractNonblockingServer.FrameBuffer::<init>(org.apache.thrift.transport.TNonblockingTransport, java.nio.channels.SelectionKey, org.apache.thrift.server.AbstractNonblockingServer.AbstractSelectThread)",
+  "new" : "method void org.apache.thrift.server.AbstractNonblockingServer.FrameBuffer::<init>(org.apache.thrift.transport.TNonblockingTransport, java.nio.channels.SelectionKey, org.apache.thrift.server.AbstractNonblockingServer.AbstractSelectThread) throws org.apache.thrift.transport.TTransportException",
+  "name" : "Method newly throws checked exceptions",
+  "description" : "Method newly throws checked exceptions: org.apache.thrift.transport.TTransportException.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "exception",
+    "value" : "org.apache.thrift.transport.TTransportException"
+  }, {
+    "name" : "package",
+    "value" : "org.apache.thrift.server"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.thrift.server.AbstractNonblockingServer.FrameBuffer"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "FrameBuffer"
+  }, {
+    "name" : "methodName",
+    "value" : "<init>"
+  }, {
+    "name" : "elementKind",
+    "value" : "constructor"
+  }, {
+    "name" : "oldArchive",
+    "value" : "libthrift-0.12.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "libthrift-0.16.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.nonPublicPartOfAPI",
+  "old" : "enum org.apache.thrift.server.AbstractNonblockingServer.FrameBufferState",
+  "new" : "enum org.apache.thrift.server.AbstractNonblockingServer.FrameBufferState",
+  "name" : "non-public class in API",
+  "description" : "Class 'org.apache.thrift.server.AbstractNonblockingServer.FrameBufferState' is indirectly included in the API (by the means of method return type for example) but the class is not accessible (neither public nor protected).",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SEMANTIC",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "classSimpleName",
+    "value" : "FrameBufferState"
+  }, {
+    "name" : "exampleUseChainInNewApi",
+    "value" : "field org.apache.thrift.server.AbstractNonblockingServer.FrameBufferState.AWAITING_CLOSE has the type org.apache.thrift.server.AbstractNonblockingServer.FrameBufferState <- field org.apache.thrift.server.AbstractNonblockingServer.FrameBuffer.state_ @ org.apache.thrift.server.AbstractNonblockingServer.AsyncFrameBuffer has the type org.apache.thrift.server.AbstractNonblockingServer.FrameBufferState (field org.apache.thrift.server.AbstractNonblockingServer.FrameBuffer.state_ @ org.apache.thrift.server.AbstractNonblockingServer.AsyncFrameBuffer is part of the API)"
+  }, {
+    "name" : "package",
+    "value" : "org.apache.thrift.server"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.thrift.server.AbstractNonblockingServer.FrameBufferState"
+  }, {
+    "name" : "exampleUseChainInOldApi",
+    "value" : "org.apache.thrift.server.AbstractNonblockingServer.FrameBufferState is used as a type parameter or type variable bound on method org.apache.thrift.server.AbstractNonblockingServer.FrameBufferState[] org.apache.thrift.server.AbstractNonblockingServer.FrameBufferState::values() <- field org.apache.thrift.server.AbstractNonblockingServer.FrameBuffer.state_ has the type org.apache.thrift.server.AbstractNonblockingServer.FrameBufferState (field org.apache.thrift.server.AbstractNonblockingServer.FrameBuffer.state_ is part of the API)"
+  }, {
+    "name" : "elementKind",
+    "value" : "enum"
+  }, {
+    "name" : "oldArchive",
+    "value" : "libthrift-0.12.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "libthrift-0.16.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.addedToInterface",
+  "old" : null,
+  "new" : "method boolean org.apache.thrift.server.ServerContext::isWrapperFor(java.lang.Class<?>)",
+  "name" : "method added to interface",
+  "description" : "Method was added to an interface.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SEMANTIC",
+    "severity" : "POTENTIALLY_BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.apache.thrift.server"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.thrift.server.ServerContext"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "ServerContext"
+  }, {
+    "name" : "methodName",
+    "value" : "isWrapperFor"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "newArchive",
+    "value" : "libthrift-0.16.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.addedToInterface",
+  "old" : null,
+  "new" : "method <T> T org.apache.thrift.server.ServerContext::unwrap(java.lang.Class<T>)",
+  "name" : "method added to interface",
+  "description" : "Method was added to an interface.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SEMANTIC",
+    "severity" : "POTENTIALLY_BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.apache.thrift.server"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.thrift.server.ServerContext"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "ServerContext"
+  }, {
+    "name" : "methodName",
+    "value" : "unwrap"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "newArchive",
+    "value" : "libthrift-0.16.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.returnTypeTypeParametersChanged",
+  "old" : "method java.util.Enumeration javax.servlet.GenericServlet::getInitParameterNames() @ org.apache.thrift.server.TExtensibleServlet",
+  "new" : "method java.util.Enumeration<java.lang.String> javax.servlet.GenericServlet::getInitParameterNames() @ org.apache.thrift.server.TExtensibleServlet",
+  "name" : "return type changed type parameter",
+  "description" : "The return type changed from 'java.util.Enumeration' to 'java.util.Enumeration<java.lang.String>'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "java.util.Enumeration"
+  }, {
+    "name" : "newType",
+    "value" : "java.util.Enumeration<java.lang.String>"
+  }, {
+    "name" : "package",
+    "value" : "org.apache.thrift.server"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.thrift.server.TExtensibleServlet"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "TExtensibleServlet"
+  }, {
+    "name" : "methodName",
+    "value" : "getInitParameterNames"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "libthrift-0.12.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "libthrift-0.16.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.exception.checkedAdded",
+  "old" : "method org.apache.thrift.server.AbstractNonblockingServer.FrameBuffer org.apache.thrift.server.TNonblockingServer.SelectAcceptThread::createFrameBuffer(org.apache.thrift.transport.TNonblockingTransport, java.nio.channels.SelectionKey, org.apache.thrift.server.AbstractNonblockingServer.AbstractSelectThread)",
+  "new" : "method org.apache.thrift.server.AbstractNonblockingServer.FrameBuffer org.apache.thrift.server.TNonblockingServer.SelectAcceptThread::createFrameBuffer(org.apache.thrift.transport.TNonblockingTransport, java.nio.channels.SelectionKey, org.apache.thrift.server.AbstractNonblockingServer.AbstractSelectThread) throws org.apache.thrift.transport.TTransportException",
+  "name" : "Method newly throws checked exceptions",
+  "description" : "Method newly throws checked exceptions: org.apache.thrift.transport.TTransportException.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "exception",
+    "value" : "org.apache.thrift.transport.TTransportException"
+  }, {
+    "name" : "package",
+    "value" : "org.apache.thrift.server"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.thrift.server.TNonblockingServer.SelectAcceptThread"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "SelectAcceptThread"
+  }, {
+    "name" : "methodName",
+    "value" : "createFrameBuffer"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "libthrift-0.12.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "libthrift-0.16.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.returnTypeTypeParametersChanged",
+  "old" : "method java.util.Enumeration javax.servlet.GenericServlet::getInitParameterNames() @ org.apache.thrift.server.TServlet",
+  "new" : "method java.util.Enumeration<java.lang.String> javax.servlet.GenericServlet::getInitParameterNames() @ org.apache.thrift.server.TServlet",
+  "name" : "return type changed type parameter",
+  "description" : "The return type changed from 'java.util.Enumeration' to 'java.util.Enumeration<java.lang.String>'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "java.util.Enumeration"
+  }, {
+    "name" : "newType",
+    "value" : "java.util.Enumeration<java.lang.String>"
+  }, {
+    "name" : "package",
+    "value" : "org.apache.thrift.server"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.thrift.server.TServlet"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "TServlet"
+  }, {
+    "name" : "methodName",
+    "value" : "getInitParameterNames"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "libthrift-0.12.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "libthrift-0.16.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.field.removed",
+  "old" : "field org.apache.thrift.server.TThreadPoolServer.Args.beBackoffSlotLength",
+  "new" : null,
+  "name" : "field removed",
+  "description" : "Field removed from class.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.apache.thrift.server"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.thrift.server.TThreadPoolServer.Args"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "Args"
+  }, {
+    "name" : "fieldName",
+    "value" : "beBackoffSlotLength"
+  }, {
+    "name" : "elementKind",
+    "value" : "field"
+  }, {
+    "name" : "oldArchive",
+    "value" : "libthrift-0.12.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.field.removed",
+  "old" : "field org.apache.thrift.server.TThreadPoolServer.Args.beBackoffSlotLengthUnit",
+  "new" : null,
+  "name" : "field removed",
+  "description" : "Field removed from class.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.apache.thrift.server"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.thrift.server.TThreadPoolServer.Args"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "Args"
+  }, {
+    "name" : "fieldName",
+    "value" : "beBackoffSlotLengthUnit"
+  }, {
+    "name" : "elementKind",
+    "value" : "field"
+  }, {
+    "name" : "oldArchive",
+    "value" : "libthrift-0.12.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.field.removed",
+  "old" : "field org.apache.thrift.server.TThreadPoolServer.Args.requestTimeout",
+  "new" : null,
+  "name" : "field removed",
+  "description" : "Field removed from class.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.apache.thrift.server"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.thrift.server.TThreadPoolServer.Args"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "Args"
+  }, {
+    "name" : "fieldName",
+    "value" : "requestTimeout"
+  }, {
+    "name" : "elementKind",
+    "value" : "field"
+  }, {
+    "name" : "oldArchive",
+    "value" : "libthrift-0.12.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.field.removed",
+  "old" : "field org.apache.thrift.server.TThreadPoolServer.Args.requestTimeoutUnit",
+  "new" : null,
+  "name" : "field removed",
+  "description" : "Field removed from class.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.apache.thrift.server"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.thrift.server.TThreadPoolServer.Args"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "Args"
+  }, {
+    "name" : "fieldName",
+    "value" : "requestTimeoutUnit"
+  }, {
+    "name" : "elementKind",
+    "value" : "field"
+  }, {
+    "name" : "oldArchive",
+    "value" : "libthrift-0.12.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method org.apache.thrift.server.TThreadPoolServer.Args org.apache.thrift.server.TThreadPoolServer.Args::beBackoffSlotLength(int)",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.apache.thrift.server"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.thrift.server.TThreadPoolServer.Args"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "Args"
+  }, {
+    "name" : "methodName",
+    "value" : "beBackoffSlotLength"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "libthrift-0.12.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method org.apache.thrift.server.TThreadPoolServer.Args org.apache.thrift.server.TThreadPoolServer.Args::beBackoffSlotLengthUnit(java.util.concurrent.TimeUnit)",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.apache.thrift.server"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.thrift.server.TThreadPoolServer.Args"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "Args"
+  }, {
+    "name" : "methodName",
+    "value" : "beBackoffSlotLengthUnit"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "libthrift-0.12.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method org.apache.thrift.server.TThreadPoolServer.Args org.apache.thrift.server.TThreadPoolServer.Args::requestTimeout(int)",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.apache.thrift.server"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.thrift.server.TThreadPoolServer.Args"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "Args"
+  }, {
+    "name" : "methodName",
+    "value" : "requestTimeout"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "libthrift-0.12.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method org.apache.thrift.server.TThreadPoolServer.Args org.apache.thrift.server.TThreadPoolServer.Args::requestTimeoutUnit(java.util.concurrent.TimeUnit)",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.apache.thrift.server"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.thrift.server.TThreadPoolServer.Args"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "Args"
+  }, {
+    "name" : "methodName",
+    "value" : "requestTimeoutUnit"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "libthrift-0.12.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.returnTypeChanged",
+  "old" : "method void org.apache.thrift.server.TThreadPoolServer::waitForShutdown()",
+  "new" : "method boolean org.apache.thrift.server.TThreadPoolServer::waitForShutdown()",
+  "name" : "return type changed",
+  "description" : "The return type changed from 'void' to  'boolean'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "POTENTIALLY_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "void"
+  }, {
+    "name" : "newType",
+    "value" : "boolean"
+  }, {
+    "name" : "package",
+    "value" : "org.apache.thrift.server"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.thrift.server.TThreadPoolServer"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "TThreadPoolServer"
+  }, {
+    "name" : "methodName",
+    "value" : "waitForShutdown"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "libthrift-0.12.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "libthrift-0.16.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.exception.checkedAdded",
+  "old" : "method org.apache.thrift.server.AbstractNonblockingServer.FrameBuffer org.apache.thrift.server.TThreadedSelectorServer.SelectorThread::createFrameBuffer(org.apache.thrift.transport.TNonblockingTransport, java.nio.channels.SelectionKey, org.apache.thrift.server.AbstractNonblockingServer.AbstractSelectThread)",
+  "new" : "method org.apache.thrift.server.AbstractNonblockingServer.FrameBuffer org.apache.thrift.server.TThreadedSelectorServer.SelectorThread::createFrameBuffer(org.apache.thrift.transport.TNonblockingTransport, java.nio.channels.SelectionKey, org.apache.thrift.server.AbstractNonblockingServer.AbstractSelectThread) throws org.apache.thrift.transport.TTransportException",
+  "name" : "Method newly throws checked exceptions",
+  "description" : "Method newly throws checked exceptions: org.apache.thrift.transport.TTransportException.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "exception",
+    "value" : "org.apache.thrift.transport.TTransportException"
+  }, {
+    "name" : "package",
+    "value" : "org.apache.thrift.server"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.thrift.server.TThreadedSelectorServer.SelectorThread"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "SelectorThread"
+  }, {
+    "name" : "methodName",
+    "value" : "createFrameBuffer"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "libthrift-0.12.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "libthrift-0.16.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.numberOfParametersChanged",
+  "old" : "method void org.apache.thrift.transport.AutoExpandingBuffer::<init>(int, double)",
+  "new" : "method void org.apache.thrift.transport.AutoExpandingBuffer::<init>(int)",
+  "name" : "number of parameters changed",
+  "description" : "The number of parameters of the method have changed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.apache.thrift.transport"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.thrift.transport.AutoExpandingBuffer"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "AutoExpandingBuffer"
+  }, {
+    "name" : "methodName",
+    "value" : "<init>"
+  }, {
+    "name" : "elementKind",
+    "value" : "constructor"
+  }, {
+    "name" : "oldArchive",
+    "value" : "libthrift-0.12.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "libthrift-0.16.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.exception.checkedAdded",
+  "old" : "method void org.apache.thrift.transport.AutoExpandingBufferReadTransport::<init>(int, double)",
+  "new" : "method void org.apache.thrift.transport.AutoExpandingBufferReadTransport::<init>(org.apache.thrift.TConfiguration, int) throws org.apache.thrift.transport.TTransportException",
+  "name" : "Method newly throws checked exceptions",
+  "description" : "Method newly throws checked exceptions: org.apache.thrift.transport.TTransportException.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "exception",
+    "value" : "org.apache.thrift.transport.TTransportException"
+  }, {
+    "name" : "package",
+    "value" : "org.apache.thrift.transport"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.thrift.transport.AutoExpandingBufferReadTransport"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "AutoExpandingBufferReadTransport"
+  }, {
+    "name" : "methodName",
+    "value" : "<init>"
+  }, {
+    "name" : "elementKind",
+    "value" : "constructor"
+  }, {
+    "name" : "oldArchive",
+    "value" : "libthrift-0.12.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "libthrift-0.16.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.parameterTypeChanged",
+  "old" : "parameter void org.apache.thrift.transport.AutoExpandingBufferReadTransport::<init>(===int===, double)",
+  "new" : "parameter void org.apache.thrift.transport.AutoExpandingBufferReadTransport::<init>(===org.apache.thrift.TConfiguration===, int) throws org.apache.thrift.transport.TTransportException",
+  "name" : "parameter type changed",
+  "description" : "The type of the parameter changed from 'int' to 'org.apache.thrift.TConfiguration'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "POTENTIALLY_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "int"
+  }, {
+    "name" : "newType",
+    "value" : "org.apache.thrift.TConfiguration"
+  }, {
+    "name" : "package",
+    "value" : "org.apache.thrift.transport"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.thrift.transport.AutoExpandingBufferReadTransport"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "AutoExpandingBufferReadTransport"
+  }, {
+    "name" : "methodName",
+    "value" : "<init>"
+  }, {
+    "name" : "parameterIndex",
+    "value" : "0"
+  }, {
+    "name" : "elementKind",
+    "value" : "parameter"
+  }, {
+    "name" : "oldArchive",
+    "value" : "libthrift-0.12.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "libthrift-0.16.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.parameterTypeChanged",
+  "old" : "parameter void org.apache.thrift.transport.AutoExpandingBufferReadTransport::<init>(int, ===double===)",
+  "new" : "parameter void org.apache.thrift.transport.AutoExpandingBufferReadTransport::<init>(org.apache.thrift.TConfiguration, ===int===) throws org.apache.thrift.transport.TTransportException",
+  "name" : "parameter type changed",
+  "description" : "The type of the parameter changed from 'double' to 'int'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "POTENTIALLY_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "double"
+  }, {
+    "name" : "newType",
+    "value" : "int"
+  }, {
+    "name" : "package",
+    "value" : "org.apache.thrift.transport"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.thrift.transport.AutoExpandingBufferReadTransport"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "AutoExpandingBufferReadTransport"
+  }, {
+    "name" : "methodName",
+    "value" : "<init>"
+  }, {
+    "name" : "parameterIndex",
+    "value" : "1"
+  }, {
+    "name" : "elementKind",
+    "value" : "parameter"
+  }, {
+    "name" : "oldArchive",
+    "value" : "libthrift-0.12.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "libthrift-0.16.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.numberOfParametersChanged",
+  "old" : "method void org.apache.thrift.transport.AutoExpandingBufferWriteTransport::<init>(int, double)",
+  "new" : "method void org.apache.thrift.transport.AutoExpandingBufferWriteTransport::<init>(org.apache.thrift.TConfiguration, int, int) throws org.apache.thrift.transport.TTransportException",
+  "name" : "number of parameters changed",
+  "description" : "The number of parameters of the method have changed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.apache.thrift.transport"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.thrift.transport.AutoExpandingBufferWriteTransport"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "AutoExpandingBufferWriteTransport"
+  }, {
+    "name" : "methodName",
+    "value" : "<init>"
+  }, {
+    "name" : "elementKind",
+    "value" : "constructor"
+  }, {
+    "name" : "oldArchive",
+    "value" : "libthrift-0.12.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "libthrift-0.16.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.exception.checkedAdded",
+  "old" : "method void org.apache.thrift.transport.AutoExpandingBufferWriteTransport::<init>(int, double)",
+  "new" : "method void org.apache.thrift.transport.AutoExpandingBufferWriteTransport::<init>(org.apache.thrift.TConfiguration, int, int) throws org.apache.thrift.transport.TTransportException",
+  "name" : "Method newly throws checked exceptions",
+  "description" : "Method newly throws checked exceptions: org.apache.thrift.transport.TTransportException.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "exception",
+    "value" : "org.apache.thrift.transport.TTransportException"
+  }, {
+    "name" : "package",
+    "value" : "org.apache.thrift.transport"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.thrift.transport.AutoExpandingBufferWriteTransport"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "AutoExpandingBufferWriteTransport"
+  }, {
+    "name" : "methodName",
+    "value" : "<init>"
+  }, {
+    "name" : "elementKind",
+    "value" : "constructor"
+  }, {
+    "name" : "oldArchive",
+    "value" : "libthrift-0.12.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "libthrift-0.16.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method int org.apache.thrift.transport.AutoExpandingBufferWriteTransport::getPos()",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.apache.thrift.transport"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.thrift.transport.AutoExpandingBufferWriteTransport"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "AutoExpandingBufferWriteTransport"
+  }, {
+    "name" : "methodName",
+    "value" : "getPos"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "libthrift-0.12.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.exception.checkedAdded",
+  "old" : "method void org.apache.thrift.transport.TByteBuffer::<init>(java.nio.ByteBuffer)",
+  "new" : "method void org.apache.thrift.transport.TByteBuffer::<init>(java.nio.ByteBuffer) throws org.apache.thrift.transport.TTransportException",
+  "name" : "Method newly throws checked exceptions",
+  "description" : "Method newly throws checked exceptions: org.apache.thrift.transport.TTransportException.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "exception",
+    "value" : "org.apache.thrift.transport.TTransportException"
+  }, {
+    "name" : "package",
+    "value" : "org.apache.thrift.transport"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.thrift.transport.TByteBuffer"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "TByteBuffer"
+  }, {
+    "name" : "methodName",
+    "value" : "<init>"
+  }, {
+    "name" : "elementKind",
+    "value" : "constructor"
+  }, {
+    "name" : "oldArchive",
+    "value" : "libthrift-0.12.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "libthrift-0.16.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class org.apache.thrift.transport.TFastFramedTransport",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.apache.thrift.transport"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.thrift.transport.TFastFramedTransport"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "TFastFramedTransport"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "libthrift-0.12.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class org.apache.thrift.transport.TFramedTransport",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.apache.thrift.transport"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.thrift.transport.TFramedTransport"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "TFramedTransport"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "libthrift-0.12.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.exception.checkedAdded",
+  "old" : "method void org.apache.thrift.transport.TIOStreamTransport::<init>()",
+  "new" : "method void org.apache.thrift.transport.TIOStreamTransport::<init>() throws org.apache.thrift.transport.TTransportException",
+  "name" : "Method newly throws checked exceptions",
+  "description" : "Method newly throws checked exceptions: org.apache.thrift.transport.TTransportException.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "exception",
+    "value" : "org.apache.thrift.transport.TTransportException"
+  }, {
+    "name" : "package",
+    "value" : "org.apache.thrift.transport"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.thrift.transport.TIOStreamTransport"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "TIOStreamTransport"
+  }, {
+    "name" : "methodName",
+    "value" : "<init>"
+  }, {
+    "name" : "elementKind",
+    "value" : "constructor"
+  }, {
+    "name" : "oldArchive",
+    "value" : "libthrift-0.12.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "libthrift-0.16.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.exception.checkedAdded",
+  "old" : "method void org.apache.thrift.transport.TIOStreamTransport::<init>(java.io.InputStream)",
+  "new" : "method void org.apache.thrift.transport.TIOStreamTransport::<init>(java.io.InputStream) throws org.apache.thrift.transport.TTransportException",
+  "name" : "Method newly throws checked exceptions",
+  "description" : "Method newly throws checked exceptions: org.apache.thrift.transport.TTransportException.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "exception",
+    "value" : "org.apache.thrift.transport.TTransportException"
+  }, {
+    "name" : "package",
+    "value" : "org.apache.thrift.transport"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.thrift.transport.TIOStreamTransport"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "TIOStreamTransport"
+  }, {
+    "name" : "methodName",
+    "value" : "<init>"
+  }, {
+    "name" : "elementKind",
+    "value" : "constructor"
+  }, {
+    "name" : "oldArchive",
+    "value" : "libthrift-0.12.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "libthrift-0.16.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.exception.checkedAdded",
+  "old" : "method void org.apache.thrift.transport.TIOStreamTransport::<init>(java.io.InputStream, java.io.OutputStream)",
+  "new" : "method void org.apache.thrift.transport.TIOStreamTransport::<init>(java.io.InputStream, java.io.OutputStream) throws org.apache.thrift.transport.TTransportException",
+  "name" : "Method newly throws checked exceptions",
+  "description" : "Method newly throws checked exceptions: org.apache.thrift.transport.TTransportException.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "exception",
+    "value" : "org.apache.thrift.transport.TTransportException"
+  }, {
+    "name" : "package",
+    "value" : "org.apache.thrift.transport"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.thrift.transport.TIOStreamTransport"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "TIOStreamTransport"
+  }, {
+    "name" : "methodName",
+    "value" : "<init>"
+  }, {
+    "name" : "elementKind",
+    "value" : "constructor"
+  }, {
+    "name" : "oldArchive",
+    "value" : "libthrift-0.12.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "libthrift-0.16.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.exception.checkedAdded",
+  "old" : "method void org.apache.thrift.transport.TIOStreamTransport::<init>(java.io.OutputStream)",
+  "new" : "method void org.apache.thrift.transport.TIOStreamTransport::<init>(java.io.OutputStream) throws org.apache.thrift.transport.TTransportException",
+  "name" : "Method newly throws checked exceptions",
+  "description" : "Method newly throws checked exceptions: org.apache.thrift.transport.TTransportException.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "exception",
+    "value" : "org.apache.thrift.transport.TTransportException"
+  }, {
+    "name" : "package",
+    "value" : "org.apache.thrift.transport"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.thrift.transport.TIOStreamTransport"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "TIOStreamTransport"
+  }, {
+    "name" : "methodName",
+    "value" : "<init>"
+  }, {
+    "name" : "elementKind",
+    "value" : "constructor"
+  }, {
+    "name" : "oldArchive",
+    "value" : "libthrift-0.12.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "libthrift-0.16.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.exception.checkedAdded",
+  "old" : "method void org.apache.thrift.transport.TMemoryBuffer::<init>(int)",
+  "new" : "method void org.apache.thrift.transport.TMemoryBuffer::<init>(int) throws org.apache.thrift.transport.TTransportException",
+  "name" : "Method newly throws checked exceptions",
+  "description" : "Method newly throws checked exceptions: org.apache.thrift.transport.TTransportException.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "exception",
+    "value" : "org.apache.thrift.transport.TTransportException"
+  }, {
+    "name" : "package",
+    "value" : "org.apache.thrift.transport"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.thrift.transport.TMemoryBuffer"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "TMemoryBuffer"
+  }, {
+    "name" : "methodName",
+    "value" : "<init>"
+  }, {
+    "name" : "elementKind",
+    "value" : "constructor"
+  }, {
+    "name" : "oldArchive",
+    "value" : "libthrift-0.12.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "libthrift-0.16.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.exception.checkedAdded",
+  "old" : "method int org.apache.thrift.transport.TMemoryBuffer::read(byte[], int, int)",
+  "new" : "method int org.apache.thrift.transport.TMemoryBuffer::read(byte[], int, int) throws org.apache.thrift.transport.TTransportException",
+  "name" : "Method newly throws checked exceptions",
+  "description" : "Method newly throws checked exceptions: org.apache.thrift.transport.TTransportException.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "exception",
+    "value" : "org.apache.thrift.transport.TTransportException"
+  }, {
+    "name" : "package",
+    "value" : "org.apache.thrift.transport"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.thrift.transport.TMemoryBuffer"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "TMemoryBuffer"
+  }, {
+    "name" : "methodName",
+    "value" : "read"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "libthrift-0.12.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "libthrift-0.16.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.exception.checkedRemoved",
+  "old" : "method java.lang.String org.apache.thrift.transport.TMemoryBuffer::toString(java.lang.String) throws java.io.UnsupportedEncodingException",
+  "new" : "method java.lang.String org.apache.thrift.transport.TMemoryBuffer::toString(java.nio.charset.Charset)",
+  "name" : "Method no longer throws checked exceptions",
+  "description" : "Method no longer throws checked exceptions: java.io.UnsupportedEncodingException.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "exception",
+    "value" : "java.io.UnsupportedEncodingException"
+  }, {
+    "name" : "package",
+    "value" : "org.apache.thrift.transport"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.thrift.transport.TMemoryBuffer"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "TMemoryBuffer"
+  }, {
+    "name" : "methodName",
+    "value" : "toString"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "libthrift-0.12.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "libthrift-0.16.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.parameterTypeChanged",
+  "old" : "parameter java.lang.String org.apache.thrift.transport.TMemoryBuffer::toString(===java.lang.String===) throws java.io.UnsupportedEncodingException",
+  "new" : "parameter java.lang.String org.apache.thrift.transport.TMemoryBuffer::toString(===java.nio.charset.Charset===)",
+  "name" : "parameter type changed",
+  "description" : "The type of the parameter changed from 'java.lang.String' to 'java.nio.charset.Charset'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "POTENTIALLY_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "java.lang.String"
+  }, {
+    "name" : "newType",
+    "value" : "java.nio.charset.Charset"
+  }, {
+    "name" : "package",
+    "value" : "org.apache.thrift.transport"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.thrift.transport.TMemoryBuffer"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "TMemoryBuffer"
+  }, {
+    "name" : "methodName",
+    "value" : "toString"
+  }, {
+    "name" : "parameterIndex",
+    "value" : "0"
+  }, {
+    "name" : "elementKind",
+    "value" : "parameter"
+  }, {
+    "name" : "oldArchive",
+    "value" : "libthrift-0.12.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "libthrift-0.16.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.exception.checkedAdded",
+  "old" : "method void org.apache.thrift.transport.TMemoryInputTransport::<init>()",
+  "new" : "method void org.apache.thrift.transport.TMemoryInputTransport::<init>() throws org.apache.thrift.transport.TTransportException",
+  "name" : "Method newly throws checked exceptions",
+  "description" : "Method newly throws checked exceptions: org.apache.thrift.transport.TTransportException.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "exception",
+    "value" : "org.apache.thrift.transport.TTransportException"
+  }, {
+    "name" : "package",
+    "value" : "org.apache.thrift.transport"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.thrift.transport.TMemoryInputTransport"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "TMemoryInputTransport"
+  }, {
+    "name" : "methodName",
+    "value" : "<init>"
+  }, {
+    "name" : "elementKind",
+    "value" : "constructor"
+  }, {
+    "name" : "oldArchive",
+    "value" : "libthrift-0.12.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "libthrift-0.16.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.exception.checkedAdded",
+  "old" : "method void org.apache.thrift.transport.TMemoryInputTransport::<init>(byte[])",
+  "new" : "method void org.apache.thrift.transport.TMemoryInputTransport::<init>(byte[]) throws org.apache.thrift.transport.TTransportException",
+  "name" : "Method newly throws checked exceptions",
+  "description" : "Method newly throws checked exceptions: org.apache.thrift.transport.TTransportException.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "exception",
+    "value" : "org.apache.thrift.transport.TTransportException"
+  }, {
+    "name" : "package",
+    "value" : "org.apache.thrift.transport"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.thrift.transport.TMemoryInputTransport"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "TMemoryInputTransport"
+  }, {
+    "name" : "methodName",
+    "value" : "<init>"
+  }, {
+    "name" : "elementKind",
+    "value" : "constructor"
+  }, {
+    "name" : "oldArchive",
+    "value" : "libthrift-0.12.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "libthrift-0.16.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.exception.checkedAdded",
+  "old" : "method void org.apache.thrift.transport.TMemoryInputTransport::<init>(byte[], int, int)",
+  "new" : "method void org.apache.thrift.transport.TMemoryInputTransport::<init>(byte[], int, int) throws org.apache.thrift.transport.TTransportException",
+  "name" : "Method newly throws checked exceptions",
+  "description" : "Method newly throws checked exceptions: org.apache.thrift.transport.TTransportException.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "exception",
+    "value" : "org.apache.thrift.transport.TTransportException"
+  }, {
+    "name" : "package",
+    "value" : "org.apache.thrift.transport"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.thrift.transport.TMemoryInputTransport"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "TMemoryInputTransport"
+  }, {
+    "name" : "methodName",
+    "value" : "<init>"
+  }, {
+    "name" : "elementKind",
+    "value" : "constructor"
+  }, {
+    "name" : "oldArchive",
+    "value" : "libthrift-0.12.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "libthrift-0.16.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.noLongerFinal",
+  "old" : "method org.apache.thrift.transport.TTransport org.apache.thrift.transport.TServerTransport::accept() throws org.apache.thrift.transport.TTransportException @ org.apache.thrift.transport.TNonblockingServerSocket",
+  "new" : "method org.apache.thrift.transport.TNonblockingSocket org.apache.thrift.transport.TNonblockingServerSocket::accept() throws org.apache.thrift.transport.TTransportException",
+  "name" : "method no longer final",
+  "description" : "Method is no longer final.",
+  "criticality" : "documented",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldModifiers",
+    "value" : "public final"
+  }, {
+    "name" : "newModifiers",
+    "value" : "public"
+  }, {
+    "name" : "package",
+    "value" : "org.apache.thrift.transport"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.thrift.transport.TNonblockingServerSocket"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "TNonblockingServerSocket"
+  }, {
+    "name" : "methodName",
+    "value" : "accept"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "libthrift-0.12.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "libthrift-0.16.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.returnTypeChangedCovariantly",
+  "old" : "method org.apache.thrift.transport.TTransport org.apache.thrift.transport.TServerTransport::accept() throws org.apache.thrift.transport.TTransportException @ org.apache.thrift.transport.TNonblockingServerSocket",
+  "new" : "method org.apache.thrift.transport.TNonblockingSocket org.apache.thrift.transport.TNonblockingServerSocket::accept() throws org.apache.thrift.transport.TTransportException",
+  "name" : "return type changed covariantly",
+  "description" : "The return type changed covariantly from 'org.apache.thrift.transport.TTransport' to 'org.apache.thrift.transport.TNonblockingSocket'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "org.apache.thrift.transport.TTransport"
+  }, {
+    "name" : "newType",
+    "value" : "org.apache.thrift.transport.TNonblockingSocket"
+  }, {
+    "name" : "package",
+    "value" : "org.apache.thrift.transport"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.thrift.transport.TNonblockingServerSocket"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "TNonblockingServerSocket"
+  }, {
+    "name" : "methodName",
+    "value" : "accept"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "libthrift-0.12.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "libthrift-0.16.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.inheritedMovedToClass",
+  "old" : "method org.apache.thrift.transport.TTransport org.apache.thrift.transport.TServerTransport::accept() throws org.apache.thrift.transport.TTransportException @ org.apache.thrift.transport.TNonblockingServerSocket",
+  "new" : "method org.apache.thrift.transport.TNonblockingSocket org.apache.thrift.transport.TNonblockingServerSocket::accept() throws org.apache.thrift.transport.TTransportException",
+  "name" : "inherited method moved to class",
+  "description" : "The method was previously declared in superclass 'org.apache.thrift.transport.TServerTransport' but is now declared in class 'org.apache.thrift.transport.TNonblockingServerSocket'.",
+  "criticality" : "allowed",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "EQUIVALENT"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "EQUIVALENT"
+  } ],
+  "attachments" : [ {
+    "name" : "oldClass",
+    "value" : "org.apache.thrift.transport.TServerTransport"
+  }, {
+    "name" : "newClass",
+    "value" : "org.apache.thrift.transport.TNonblockingServerSocket"
+  }, {
+    "name" : "package",
+    "value" : "org.apache.thrift.transport"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.thrift.transport.TNonblockingServerSocket"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "TNonblockingServerSocket"
+  }, {
+    "name" : "methodName",
+    "value" : "accept"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "libthrift-0.12.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "libthrift-0.16.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method org.apache.thrift.transport.TNonblockingSocket org.apache.thrift.transport.TNonblockingServerSocket::acceptImpl() throws org.apache.thrift.transport.TTransportException",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.apache.thrift.transport"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.thrift.transport.TNonblockingServerSocket"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "TNonblockingServerSocket"
+  }, {
+    "name" : "methodName",
+    "value" : "acceptImpl"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "libthrift-0.12.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.noLongerFinal",
+  "old" : "method org.apache.thrift.transport.TTransport org.apache.thrift.transport.TServerTransport::accept() throws org.apache.thrift.transport.TTransportException @ org.apache.thrift.transport.TNonblockingServerTransport",
+  "new" : "method org.apache.thrift.transport.TNonblockingTransport org.apache.thrift.transport.TNonblockingServerTransport::accept() throws org.apache.thrift.transport.TTransportException",
+  "name" : "method no longer final",
+  "description" : "Method is no longer final.",
+  "criticality" : "documented",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldModifiers",
+    "value" : "public final"
+  }, {
+    "name" : "newModifiers",
+    "value" : "public abstract"
+  }, {
+    "name" : "package",
+    "value" : "org.apache.thrift.transport"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.thrift.transport.TNonblockingServerTransport"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "TNonblockingServerTransport"
+  }, {
+    "name" : "methodName",
+    "value" : "accept"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "libthrift-0.12.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "libthrift-0.16.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.returnTypeChangedCovariantly",
+  "old" : "method org.apache.thrift.transport.TTransport org.apache.thrift.transport.TServerTransport::accept() throws org.apache.thrift.transport.TTransportException @ org.apache.thrift.transport.TNonblockingServerTransport",
+  "new" : "method org.apache.thrift.transport.TNonblockingTransport org.apache.thrift.transport.TNonblockingServerTransport::accept() throws org.apache.thrift.transport.TTransportException",
+  "name" : "return type changed covariantly",
+  "description" : "The return type changed covariantly from 'org.apache.thrift.transport.TTransport' to 'org.apache.thrift.transport.TNonblockingTransport'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "org.apache.thrift.transport.TTransport"
+  }, {
+    "name" : "newType",
+    "value" : "org.apache.thrift.transport.TNonblockingTransport"
+  }, {
+    "name" : "package",
+    "value" : "org.apache.thrift.transport"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.thrift.transport.TNonblockingServerTransport"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "TNonblockingServerTransport"
+  }, {
+    "name" : "methodName",
+    "value" : "accept"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "libthrift-0.12.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "libthrift-0.16.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.nowAbstract",
+  "old" : "method org.apache.thrift.transport.TTransport org.apache.thrift.transport.TServerTransport::accept() throws org.apache.thrift.transport.TTransportException @ org.apache.thrift.transport.TNonblockingServerTransport",
+  "new" : "method org.apache.thrift.transport.TNonblockingTransport org.apache.thrift.transport.TNonblockingServerTransport::accept() throws org.apache.thrift.transport.TTransportException",
+  "name" : "Method now abstract",
+  "description" : "Method now abstract",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldModifiers",
+    "value" : "public final"
+  }, {
+    "name" : "newModifiers",
+    "value" : "public abstract"
+  }, {
+    "name" : "package",
+    "value" : "org.apache.thrift.transport"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.thrift.transport.TNonblockingServerTransport"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "TNonblockingServerTransport"
+  }, {
+    "name" : "methodName",
+    "value" : "accept"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "libthrift-0.12.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "libthrift-0.16.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.inheritedMovedToClass",
+  "old" : "method org.apache.thrift.transport.TTransport org.apache.thrift.transport.TServerTransport::accept() throws org.apache.thrift.transport.TTransportException @ org.apache.thrift.transport.TNonblockingServerTransport",
+  "new" : "method org.apache.thrift.transport.TNonblockingTransport org.apache.thrift.transport.TNonblockingServerTransport::accept() throws org.apache.thrift.transport.TTransportException",
+  "name" : "inherited method moved to class",
+  "description" : "The method was previously declared in superclass 'org.apache.thrift.transport.TServerTransport' but is now declared in class 'org.apache.thrift.transport.TNonblockingServerTransport'.",
+  "criticality" : "allowed",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "EQUIVALENT"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "EQUIVALENT"
+  } ],
+  "attachments" : [ {
+    "name" : "oldClass",
+    "value" : "org.apache.thrift.transport.TServerTransport"
+  }, {
+    "name" : "newClass",
+    "value" : "org.apache.thrift.transport.TNonblockingServerTransport"
+  }, {
+    "name" : "package",
+    "value" : "org.apache.thrift.transport"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.thrift.transport.TNonblockingServerTransport"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "TNonblockingServerTransport"
+  }, {
+    "name" : "methodName",
+    "value" : "accept"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "libthrift-0.12.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "libthrift-0.16.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.exception.checkedAdded",
+  "old" : "method void org.apache.thrift.transport.TNonblockingSocket::<init>(java.lang.String, int) throws java.io.IOException",
+  "new" : "method void org.apache.thrift.transport.TNonblockingSocket::<init>(java.lang.String, int) throws java.io.IOException, org.apache.thrift.transport.TTransportException",
+  "name" : "Method newly throws checked exceptions",
+  "description" : "Method newly throws checked exceptions: org.apache.thrift.transport.TTransportException.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "exception",
+    "value" : "org.apache.thrift.transport.TTransportException"
+  }, {
+    "name" : "package",
+    "value" : "org.apache.thrift.transport"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.thrift.transport.TNonblockingSocket"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "TNonblockingSocket"
+  }, {
+    "name" : "methodName",
+    "value" : "<init>"
+  }, {
+    "name" : "elementKind",
+    "value" : "constructor"
+  }, {
+    "name" : "oldArchive",
+    "value" : "libthrift-0.12.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "libthrift-0.16.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.exception.checkedAdded",
+  "old" : "method void org.apache.thrift.transport.TNonblockingSocket::<init>(java.lang.String, int, int) throws java.io.IOException",
+  "new" : "method void org.apache.thrift.transport.TNonblockingSocket::<init>(java.lang.String, int, int) throws java.io.IOException, org.apache.thrift.transport.TTransportException",
+  "name" : "Method newly throws checked exceptions",
+  "description" : "Method newly throws checked exceptions: org.apache.thrift.transport.TTransportException.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "exception",
+    "value" : "org.apache.thrift.transport.TTransportException"
+  }, {
+    "name" : "package",
+    "value" : "org.apache.thrift.transport"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.thrift.transport.TNonblockingSocket"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "TNonblockingSocket"
+  }, {
+    "name" : "methodName",
+    "value" : "<init>"
+  }, {
+    "name" : "elementKind",
+    "value" : "constructor"
+  }, {
+    "name" : "oldArchive",
+    "value" : "libthrift-0.12.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "libthrift-0.16.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.exception.checkedAdded",
+  "old" : "method void org.apache.thrift.transport.TNonblockingSocket::<init>(java.nio.channels.SocketChannel) throws java.io.IOException",
+  "new" : "method void org.apache.thrift.transport.TNonblockingSocket::<init>(java.nio.channels.SocketChannel) throws java.io.IOException, org.apache.thrift.transport.TTransportException",
+  "name" : "Method newly throws checked exceptions",
+  "description" : "Method newly throws checked exceptions: org.apache.thrift.transport.TTransportException.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "exception",
+    "value" : "org.apache.thrift.transport.TTransportException"
+  }, {
+    "name" : "package",
+    "value" : "org.apache.thrift.transport"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.thrift.transport.TNonblockingSocket"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "TNonblockingSocket"
+  }, {
+    "name" : "methodName",
+    "value" : "<init>"
+  }, {
+    "name" : "elementKind",
+    "value" : "constructor"
+  }, {
+    "name" : "oldArchive",
+    "value" : "libthrift-0.12.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "libthrift-0.16.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.exception.checkedAdded",
+  "old" : "method int org.apache.thrift.transport.TNonblockingSocket::read(java.nio.ByteBuffer) throws java.io.IOException",
+  "new" : "method int org.apache.thrift.transport.TNonblockingSocket::read(java.nio.ByteBuffer) throws org.apache.thrift.transport.TTransportException",
+  "name" : "Method newly throws checked exceptions",
+  "description" : "Method newly throws checked exceptions: org.apache.thrift.transport.TTransportException.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "exception",
+    "value" : "org.apache.thrift.transport.TTransportException"
+  }, {
+    "name" : "package",
+    "value" : "org.apache.thrift.transport"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.thrift.transport.TNonblockingSocket"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "TNonblockingSocket"
+  }, {
+    "name" : "methodName",
+    "value" : "read"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "libthrift-0.12.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "libthrift-0.16.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.exception.checkedRemoved",
+  "old" : "method int org.apache.thrift.transport.TNonblockingSocket::read(java.nio.ByteBuffer) throws java.io.IOException",
+  "new" : "method int org.apache.thrift.transport.TNonblockingSocket::read(java.nio.ByteBuffer) throws org.apache.thrift.transport.TTransportException",
+  "name" : "Method no longer throws checked exceptions",
+  "description" : "Method no longer throws checked exceptions: java.io.IOException.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "exception",
+    "value" : "java.io.IOException"
+  }, {
+    "name" : "package",
+    "value" : "org.apache.thrift.transport"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.thrift.transport.TNonblockingSocket"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "TNonblockingSocket"
+  }, {
+    "name" : "methodName",
+    "value" : "read"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "libthrift-0.12.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "libthrift-0.16.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.exception.checkedAdded",
+  "old" : "method int org.apache.thrift.transport.TNonblockingSocket::write(java.nio.ByteBuffer) throws java.io.IOException",
+  "new" : "method int org.apache.thrift.transport.TNonblockingSocket::write(java.nio.ByteBuffer) throws org.apache.thrift.transport.TTransportException",
+  "name" : "Method newly throws checked exceptions",
+  "description" : "Method newly throws checked exceptions: org.apache.thrift.transport.TTransportException.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "exception",
+    "value" : "org.apache.thrift.transport.TTransportException"
+  }, {
+    "name" : "package",
+    "value" : "org.apache.thrift.transport"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.thrift.transport.TNonblockingSocket"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "TNonblockingSocket"
+  }, {
+    "name" : "methodName",
+    "value" : "write"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "libthrift-0.12.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "libthrift-0.16.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.exception.checkedRemoved",
+  "old" : "method int org.apache.thrift.transport.TNonblockingSocket::write(java.nio.ByteBuffer) throws java.io.IOException",
+  "new" : "method int org.apache.thrift.transport.TNonblockingSocket::write(java.nio.ByteBuffer) throws org.apache.thrift.transport.TTransportException",
+  "name" : "Method no longer throws checked exceptions",
+  "description" : "Method no longer throws checked exceptions: java.io.IOException.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "exception",
+    "value" : "java.io.IOException"
+  }, {
+    "name" : "package",
+    "value" : "org.apache.thrift.transport"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.thrift.transport.TNonblockingSocket"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "TNonblockingSocket"
+  }, {
+    "name" : "methodName",
+    "value" : "write"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "libthrift-0.12.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "libthrift-0.16.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.numberOfParametersChanged",
+  "old" : "method void org.apache.thrift.transport.TNonblockingTransport::<init>()",
+  "new" : "method void org.apache.thrift.transport.TNonblockingTransport::<init>(org.apache.thrift.TConfiguration) throws org.apache.thrift.transport.TTransportException",
+  "name" : "number of parameters changed",
+  "description" : "The number of parameters of the method have changed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.apache.thrift.transport"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.thrift.transport.TNonblockingTransport"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "TNonblockingTransport"
+  }, {
+    "name" : "methodName",
+    "value" : "<init>"
+  }, {
+    "name" : "elementKind",
+    "value" : "constructor"
+  }, {
+    "name" : "oldArchive",
+    "value" : "libthrift-0.12.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "libthrift-0.16.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.exception.checkedAdded",
+  "old" : "method void org.apache.thrift.transport.TNonblockingTransport::<init>()",
+  "new" : "method void org.apache.thrift.transport.TNonblockingTransport::<init>(org.apache.thrift.TConfiguration) throws org.apache.thrift.transport.TTransportException",
+  "name" : "Method newly throws checked exceptions",
+  "description" : "Method newly throws checked exceptions: org.apache.thrift.transport.TTransportException.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "exception",
+    "value" : "org.apache.thrift.transport.TTransportException"
+  }, {
+    "name" : "package",
+    "value" : "org.apache.thrift.transport"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.thrift.transport.TNonblockingTransport"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "TNonblockingTransport"
+  }, {
+    "name" : "methodName",
+    "value" : "<init>"
+  }, {
+    "name" : "elementKind",
+    "value" : "constructor"
+  }, {
+    "name" : "oldArchive",
+    "value" : "libthrift-0.12.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "libthrift-0.16.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.exception.checkedAdded",
+  "old" : "method int org.apache.thrift.transport.TNonblockingTransport::read(java.nio.ByteBuffer) throws java.io.IOException",
+  "new" : "method int org.apache.thrift.transport.TTransport::read(java.nio.ByteBuffer) throws org.apache.thrift.transport.TTransportException @ org.apache.thrift.transport.TNonblockingTransport",
+  "name" : "Method newly throws checked exceptions",
+  "description" : "Method newly throws checked exceptions: org.apache.thrift.transport.TTransportException.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "exception",
+    "value" : "org.apache.thrift.transport.TTransportException"
+  }, {
+    "name" : "package",
+    "value" : "org.apache.thrift.transport"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.thrift.transport.TNonblockingTransport"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "TNonblockingTransport"
+  }, {
+    "name" : "methodName",
+    "value" : "read"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "libthrift-0.12.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "libthrift-0.16.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.exception.checkedRemoved",
+  "old" : "method int org.apache.thrift.transport.TNonblockingTransport::read(java.nio.ByteBuffer) throws java.io.IOException",
+  "new" : "method int org.apache.thrift.transport.TTransport::read(java.nio.ByteBuffer) throws org.apache.thrift.transport.TTransportException @ org.apache.thrift.transport.TNonblockingTransport",
+  "name" : "Method no longer throws checked exceptions",
+  "description" : "Method no longer throws checked exceptions: java.io.IOException.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "exception",
+    "value" : "java.io.IOException"
+  }, {
+    "name" : "package",
+    "value" : "org.apache.thrift.transport"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.thrift.transport.TNonblockingTransport"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "TNonblockingTransport"
+  }, {
+    "name" : "methodName",
+    "value" : "read"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "libthrift-0.12.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "libthrift-0.16.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.noLongerAbstract",
+  "old" : "method int org.apache.thrift.transport.TNonblockingTransport::read(java.nio.ByteBuffer) throws java.io.IOException",
+  "new" : "method int org.apache.thrift.transport.TTransport::read(java.nio.ByteBuffer) throws org.apache.thrift.transport.TTransportException @ org.apache.thrift.transport.TNonblockingTransport",
+  "name" : "Method no longer abstract",
+  "description" : "Method no longer abstract",
+  "criticality" : "allowed",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "EQUIVALENT"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "EQUIVALENT"
+  } ],
+  "attachments" : [ {
+    "name" : "oldModifiers",
+    "value" : "public abstract"
+  }, {
+    "name" : "newModifiers",
+    "value" : "public"
+  }, {
+    "name" : "package",
+    "value" : "org.apache.thrift.transport"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.thrift.transport.TNonblockingTransport"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "TNonblockingTransport"
+  }, {
+    "name" : "methodName",
+    "value" : "read"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "libthrift-0.12.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "libthrift-0.16.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.movedToSuperClass",
+  "old" : "method int org.apache.thrift.transport.TNonblockingTransport::read(java.nio.ByteBuffer) throws java.io.IOException",
+  "new" : "method int org.apache.thrift.transport.TTransport::read(java.nio.ByteBuffer) throws org.apache.thrift.transport.TTransportException @ org.apache.thrift.transport.TNonblockingTransport",
+  "name" : "method moved to superclass",
+  "description" : "The method used to be declared in class 'org.apache.thrift.transport.TNonblockingTransport' but is now declared in superclass 'org.apache.thrift.transport.TTransport'.",
+  "criticality" : "allowed",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "EQUIVALENT"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "EQUIVALENT"
+  } ],
+  "attachments" : [ {
+    "name" : "oldClass",
+    "value" : "org.apache.thrift.transport.TNonblockingTransport"
+  }, {
+    "name" : "newClass",
+    "value" : "org.apache.thrift.transport.TTransport"
+  }, {
+    "name" : "package",
+    "value" : "org.apache.thrift.transport"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.thrift.transport.TNonblockingTransport"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "TNonblockingTransport"
+  }, {
+    "name" : "methodName",
+    "value" : "read"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "libthrift-0.12.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "libthrift-0.16.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.exception.checkedAdded",
+  "old" : "method int org.apache.thrift.transport.TNonblockingTransport::write(java.nio.ByteBuffer) throws java.io.IOException",
+  "new" : "method int org.apache.thrift.transport.TTransport::write(java.nio.ByteBuffer) throws org.apache.thrift.transport.TTransportException @ org.apache.thrift.transport.TNonblockingTransport",
+  "name" : "Method newly throws checked exceptions",
+  "description" : "Method newly throws checked exceptions: org.apache.thrift.transport.TTransportException.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "exception",
+    "value" : "org.apache.thrift.transport.TTransportException"
+  }, {
+    "name" : "package",
+    "value" : "org.apache.thrift.transport"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.thrift.transport.TNonblockingTransport"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "TNonblockingTransport"
+  }, {
+    "name" : "methodName",
+    "value" : "write"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "libthrift-0.12.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "libthrift-0.16.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.exception.checkedRemoved",
+  "old" : "method int org.apache.thrift.transport.TNonblockingTransport::write(java.nio.ByteBuffer) throws java.io.IOException",
+  "new" : "method int org.apache.thrift.transport.TTransport::write(java.nio.ByteBuffer) throws org.apache.thrift.transport.TTransportException @ org.apache.thrift.transport.TNonblockingTransport",
+  "name" : "Method no longer throws checked exceptions",
+  "description" : "Method no longer throws checked exceptions: java.io.IOException.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "exception",
+    "value" : "java.io.IOException"
+  }, {
+    "name" : "package",
+    "value" : "org.apache.thrift.transport"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.thrift.transport.TNonblockingTransport"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "TNonblockingTransport"
+  }, {
+    "name" : "methodName",
+    "value" : "write"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "libthrift-0.12.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "libthrift-0.16.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.noLongerAbstract",
+  "old" : "method int org.apache.thrift.transport.TNonblockingTransport::write(java.nio.ByteBuffer) throws java.io.IOException",
+  "new" : "method int org.apache.thrift.transport.TTransport::write(java.nio.ByteBuffer) throws org.apache.thrift.transport.TTransportException @ org.apache.thrift.transport.TNonblockingTransport",
+  "name" : "Method no longer abstract",
+  "description" : "Method no longer abstract",
+  "criticality" : "allowed",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "EQUIVALENT"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "EQUIVALENT"
+  } ],
+  "attachments" : [ {
+    "name" : "oldModifiers",
+    "value" : "public abstract"
+  }, {
+    "name" : "newModifiers",
+    "value" : "public"
+  }, {
+    "name" : "package",
+    "value" : "org.apache.thrift.transport"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.thrift.transport.TNonblockingTransport"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "TNonblockingTransport"
+  }, {
+    "name" : "methodName",
+    "value" : "write"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "libthrift-0.12.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "libthrift-0.16.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.movedToSuperClass",
+  "old" : "method int org.apache.thrift.transport.TNonblockingTransport::write(java.nio.ByteBuffer) throws java.io.IOException",
+  "new" : "method int org.apache.thrift.transport.TTransport::write(java.nio.ByteBuffer) throws org.apache.thrift.transport.TTransportException @ org.apache.thrift.transport.TNonblockingTransport",
+  "name" : "method moved to superclass",
+  "description" : "The method used to be declared in class 'org.apache.thrift.transport.TNonblockingTransport' but is now declared in superclass 'org.apache.thrift.transport.TTransport'.",
+  "criticality" : "allowed",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "EQUIVALENT"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "EQUIVALENT"
+  } ],
+  "attachments" : [ {
+    "name" : "oldClass",
+    "value" : "org.apache.thrift.transport.TNonblockingTransport"
+  }, {
+    "name" : "newClass",
+    "value" : "org.apache.thrift.transport.TTransport"
+  }, {
+    "name" : "package",
+    "value" : "org.apache.thrift.transport"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.thrift.transport.TNonblockingTransport"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "TNonblockingTransport"
+  }, {
+    "name" : "methodName",
+    "value" : "write"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "libthrift-0.12.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "libthrift-0.16.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.exception.checkedAdded",
+  "old" : "method void org.apache.thrift.transport.TSaslClientTransport::<init>(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.util.Map<java.lang.String, java.lang.String>, javax.security.auth.callback.CallbackHandler, org.apache.thrift.transport.TTransport) throws javax.security.sasl.SaslException",
+  "new" : "method void org.apache.thrift.transport.TSaslClientTransport::<init>(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.util.Map<java.lang.String, java.lang.String>, javax.security.auth.callback.CallbackHandler, org.apache.thrift.transport.TTransport) throws javax.security.sasl.SaslException, org.apache.thrift.transport.TTransportException",
+  "name" : "Method newly throws checked exceptions",
+  "description" : "Method newly throws checked exceptions: org.apache.thrift.transport.TTransportException.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "exception",
+    "value" : "org.apache.thrift.transport.TTransportException"
+  }, {
+    "name" : "package",
+    "value" : "org.apache.thrift.transport"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.thrift.transport.TSaslClientTransport"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "TSaslClientTransport"
+  }, {
+    "name" : "methodName",
+    "value" : "<init>"
+  }, {
+    "name" : "elementKind",
+    "value" : "constructor"
+  }, {
+    "name" : "oldArchive",
+    "value" : "libthrift-0.12.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "libthrift-0.16.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.exception.checkedAdded",
+  "old" : "method void org.apache.thrift.transport.TSaslClientTransport::<init>(javax.security.sasl.SaslClient, org.apache.thrift.transport.TTransport)",
+  "new" : "method void org.apache.thrift.transport.TSaslClientTransport::<init>(javax.security.sasl.SaslClient, org.apache.thrift.transport.TTransport) throws org.apache.thrift.transport.TTransportException",
+  "name" : "Method newly throws checked exceptions",
+  "description" : "Method newly throws checked exceptions: org.apache.thrift.transport.TTransportException.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "exception",
+    "value" : "org.apache.thrift.transport.TTransportException"
+  }, {
+    "name" : "package",
+    "value" : "org.apache.thrift.transport"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.thrift.transport.TSaslClientTransport"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "TSaslClientTransport"
+  }, {
+    "name" : "methodName",
+    "value" : "<init>"
+  }, {
+    "name" : "elementKind",
+    "value" : "constructor"
+  }, {
+    "name" : "oldArchive",
+    "value" : "libthrift-0.12.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "libthrift-0.16.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.parameterTypeChanged",
+  "old" : "parameter org.apache.thrift.transport.TTransportException org.apache.thrift.transport.TSaslTransport::sendAndThrowMessage(===org.apache.thrift.transport.TSaslTransport.NegotiationStatus===, java.lang.String) throws org.apache.thrift.transport.TTransportException @ org.apache.thrift.transport.TSaslClientTransport",
+  "new" : "parameter org.apache.thrift.transport.TTransportException org.apache.thrift.transport.TSaslTransport::sendAndThrowMessage(===org.apache.thrift.transport.sasl.NegotiationStatus===, java.lang.String) throws org.apache.thrift.transport.TTransportException @ org.apache.thrift.transport.TSaslClientTransport",
+  "name" : "parameter type changed",
+  "description" : "The type of the parameter changed from 'org.apache.thrift.transport.TSaslTransport.NegotiationStatus' to 'org.apache.thrift.transport.sasl.NegotiationStatus'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "POTENTIALLY_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "org.apache.thrift.transport.TSaslTransport.NegotiationStatus"
+  }, {
+    "name" : "newType",
+    "value" : "org.apache.thrift.transport.sasl.NegotiationStatus"
+  }, {
+    "name" : "package",
+    "value" : "org.apache.thrift.transport"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.thrift.transport.TSaslClientTransport"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "TSaslClientTransport"
+  }, {
+    "name" : "methodName",
+    "value" : "sendAndThrowMessage"
+  }, {
+    "name" : "parameterIndex",
+    "value" : "0"
+  }, {
+    "name" : "elementKind",
+    "value" : "parameter"
+  }, {
+    "name" : "oldArchive",
+    "value" : "libthrift-0.12.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "libthrift-0.16.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.parameterTypeChanged",
+  "old" : "parameter void org.apache.thrift.transport.TSaslTransport::sendSaslMessage(===org.apache.thrift.transport.TSaslTransport.NegotiationStatus===, byte[]) throws org.apache.thrift.transport.TTransportException @ org.apache.thrift.transport.TSaslClientTransport",
+  "new" : "parameter void org.apache.thrift.transport.TSaslTransport::sendSaslMessage(===org.apache.thrift.transport.sasl.NegotiationStatus===, byte[]) throws org.apache.thrift.transport.TTransportException @ org.apache.thrift.transport.TSaslClientTransport",
+  "name" : "parameter type changed",
+  "description" : "The type of the parameter changed from 'org.apache.thrift.transport.TSaslTransport.NegotiationStatus' to 'org.apache.thrift.transport.sasl.NegotiationStatus'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "POTENTIALLY_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "org.apache.thrift.transport.TSaslTransport.NegotiationStatus"
+  }, {
+    "name" : "newType",
+    "value" : "org.apache.thrift.transport.sasl.NegotiationStatus"
+  }, {
+    "name" : "package",
+    "value" : "org.apache.thrift.transport"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.thrift.transport.TSaslClientTransport"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "TSaslClientTransport"
+  }, {
+    "name" : "methodName",
+    "value" : "sendSaslMessage"
+  }, {
+    "name" : "parameterIndex",
+    "value" : "0"
+  }, {
+    "name" : "elementKind",
+    "value" : "parameter"
+  }, {
+    "name" : "oldArchive",
+    "value" : "libthrift-0.12.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "libthrift-0.16.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.exception.checkedAdded",
+  "old" : "method org.apache.thrift.transport.TTransport org.apache.thrift.transport.TSaslServerTransport.Factory::getTransport(org.apache.thrift.transport.TTransport)",
+  "new" : "method org.apache.thrift.transport.TTransport org.apache.thrift.transport.TSaslServerTransport.Factory::getTransport(org.apache.thrift.transport.TTransport) throws org.apache.thrift.transport.TTransportException",
+  "name" : "Method newly throws checked exceptions",
+  "description" : "Method newly throws checked exceptions: org.apache.thrift.transport.TTransportException.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "exception",
+    "value" : "org.apache.thrift.transport.TTransportException"
+  }, {
+    "name" : "package",
+    "value" : "org.apache.thrift.transport"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.thrift.transport.TSaslServerTransport.Factory"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "Factory"
+  }, {
+    "name" : "methodName",
+    "value" : "getTransport"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "libthrift-0.12.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "libthrift-0.16.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.exception.checkedAdded",
+  "old" : "method void org.apache.thrift.transport.TSaslServerTransport::<init>(java.lang.String, java.lang.String, java.lang.String, java.util.Map<java.lang.String, java.lang.String>, javax.security.auth.callback.CallbackHandler, org.apache.thrift.transport.TTransport)",
+  "new" : "method void org.apache.thrift.transport.TSaslServerTransport::<init>(java.lang.String, java.lang.String, java.lang.String, java.util.Map<java.lang.String, java.lang.String>, javax.security.auth.callback.CallbackHandler, org.apache.thrift.transport.TTransport) throws org.apache.thrift.transport.TTransportException",
+  "name" : "Method newly throws checked exceptions",
+  "description" : "Method newly throws checked exceptions: org.apache.thrift.transport.TTransportException.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "exception",
+    "value" : "org.apache.thrift.transport.TTransportException"
+  }, {
+    "name" : "package",
+    "value" : "org.apache.thrift.transport"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.thrift.transport.TSaslServerTransport"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "TSaslServerTransport"
+  }, {
+    "name" : "methodName",
+    "value" : "<init>"
+  }, {
+    "name" : "elementKind",
+    "value" : "constructor"
+  }, {
+    "name" : "oldArchive",
+    "value" : "libthrift-0.12.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "libthrift-0.16.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.exception.checkedAdded",
+  "old" : "method void org.apache.thrift.transport.TSaslServerTransport::<init>(org.apache.thrift.transport.TTransport)",
+  "new" : "method void org.apache.thrift.transport.TSaslServerTransport::<init>(org.apache.thrift.transport.TTransport) throws org.apache.thrift.transport.TTransportException",
+  "name" : "Method newly throws checked exceptions",
+  "description" : "Method newly throws checked exceptions: org.apache.thrift.transport.TTransportException.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "exception",
+    "value" : "org.apache.thrift.transport.TTransportException"
+  }, {
+    "name" : "package",
+    "value" : "org.apache.thrift.transport"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.thrift.transport.TSaslServerTransport"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "TSaslServerTransport"
+  }, {
+    "name" : "methodName",
+    "value" : "<init>"
+  }, {
+    "name" : "elementKind",
+    "value" : "constructor"
+  }, {
+    "name" : "oldArchive",
+    "value" : "libthrift-0.12.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "libthrift-0.16.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.parameterTypeChanged",
+  "old" : "parameter org.apache.thrift.transport.TTransportException org.apache.thrift.transport.TSaslTransport::sendAndThrowMessage(===org.apache.thrift.transport.TSaslTransport.NegotiationStatus===, java.lang.String) throws org.apache.thrift.transport.TTransportException @ org.apache.thrift.transport.TSaslServerTransport",
+  "new" : "parameter org.apache.thrift.transport.TTransportException org.apache.thrift.transport.TSaslTransport::sendAndThrowMessage(===org.apache.thrift.transport.sasl.NegotiationStatus===, java.lang.String) throws org.apache.thrift.transport.TTransportException @ org.apache.thrift.transport.TSaslServerTransport",
+  "name" : "parameter type changed",
+  "description" : "The type of the parameter changed from 'org.apache.thrift.transport.TSaslTransport.NegotiationStatus' to 'org.apache.thrift.transport.sasl.NegotiationStatus'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "POTENTIALLY_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "org.apache.thrift.transport.TSaslTransport.NegotiationStatus"
+  }, {
+    "name" : "newType",
+    "value" : "org.apache.thrift.transport.sasl.NegotiationStatus"
+  }, {
+    "name" : "package",
+    "value" : "org.apache.thrift.transport"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.thrift.transport.TSaslServerTransport"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "TSaslServerTransport"
+  }, {
+    "name" : "methodName",
+    "value" : "sendAndThrowMessage"
+  }, {
+    "name" : "parameterIndex",
+    "value" : "0"
+  }, {
+    "name" : "elementKind",
+    "value" : "parameter"
+  }, {
+    "name" : "oldArchive",
+    "value" : "libthrift-0.12.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "libthrift-0.16.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.parameterTypeChanged",
+  "old" : "parameter void org.apache.thrift.transport.TSaslTransport::sendSaslMessage(===org.apache.thrift.transport.TSaslTransport.NegotiationStatus===, byte[]) throws org.apache.thrift.transport.TTransportException @ org.apache.thrift.transport.TSaslServerTransport",
+  "new" : "parameter void org.apache.thrift.transport.TSaslTransport::sendSaslMessage(===org.apache.thrift.transport.sasl.NegotiationStatus===, byte[]) throws org.apache.thrift.transport.TTransportException @ org.apache.thrift.transport.TSaslServerTransport",
+  "name" : "parameter type changed",
+  "description" : "The type of the parameter changed from 'org.apache.thrift.transport.TSaslTransport.NegotiationStatus' to 'org.apache.thrift.transport.sasl.NegotiationStatus'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "POTENTIALLY_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "org.apache.thrift.transport.TSaslTransport.NegotiationStatus"
+  }, {
+    "name" : "newType",
+    "value" : "org.apache.thrift.transport.sasl.NegotiationStatus"
+  }, {
+    "name" : "package",
+    "value" : "org.apache.thrift.transport"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.thrift.transport.TSaslServerTransport"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "TSaslServerTransport"
+  }, {
+    "name" : "methodName",
+    "value" : "sendSaslMessage"
+  }, {
+    "name" : "parameterIndex",
+    "value" : "0"
+  }, {
+    "name" : "elementKind",
+    "value" : "parameter"
+  }, {
+    "name" : "oldArchive",
+    "value" : "libthrift-0.12.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "libthrift-0.16.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "enum org.apache.thrift.transport.TSaslTransport.NegotiationStatus",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.apache.thrift.transport"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.thrift.transport.TSaslTransport.NegotiationStatus"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "NegotiationStatus"
+  }, {
+    "name" : "elementKind",
+    "value" : "enum"
+  }, {
+    "name" : "oldArchive",
+    "value" : "libthrift-0.12.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.field.typeChanged",
+  "old" : "field org.apache.thrift.transport.TSaslTransport.SaslResponse.status",
+  "new" : "field org.apache.thrift.transport.TSaslTransport.SaslResponse.status",
+  "name" : "field type changed",
+  "description" : "The type of the field changed from 'org.apache.thrift.transport.TSaslTransport.NegotiationStatus' to 'org.apache.thrift.transport.sasl.NegotiationStatus'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "org.apache.thrift.transport.TSaslTransport.NegotiationStatus"
+  }, {
+    "name" : "newType",
+    "value" : "org.apache.thrift.transport.sasl.NegotiationStatus"
+  }, {
+    "name" : "package",
+    "value" : "org.apache.thrift.transport"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.thrift.transport.TSaslTransport.SaslResponse"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "SaslResponse"
+  }, {
+    "name" : "fieldName",
+    "value" : "status"
+  }, {
+    "name" : "elementKind",
+    "value" : "field"
+  }, {
+    "name" : "oldArchive",
+    "value" : "libthrift-0.12.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "libthrift-0.16.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.parameterTypeChanged",
+  "old" : "parameter void org.apache.thrift.transport.TSaslTransport.SaslResponse::<init>(===org.apache.thrift.transport.TSaslTransport.NegotiationStatus===, byte[])",
+  "new" : "parameter void org.apache.thrift.transport.TSaslTransport.SaslResponse::<init>(===org.apache.thrift.transport.sasl.NegotiationStatus===, byte[])",
+  "name" : "parameter type changed",
+  "description" : "The type of the parameter changed from 'org.apache.thrift.transport.TSaslTransport.NegotiationStatus' to 'org.apache.thrift.transport.sasl.NegotiationStatus'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "POTENTIALLY_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "org.apache.thrift.transport.TSaslTransport.NegotiationStatus"
+  }, {
+    "name" : "newType",
+    "value" : "org.apache.thrift.transport.sasl.NegotiationStatus"
+  }, {
+    "name" : "package",
+    "value" : "org.apache.thrift.transport"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.thrift.transport.TSaslTransport.SaslResponse"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "SaslResponse"
+  }, {
+    "name" : "methodName",
+    "value" : "<init>"
+  }, {
+    "name" : "parameterIndex",
+    "value" : "0"
+  }, {
+    "name" : "elementKind",
+    "value" : "parameter"
+  }, {
+    "name" : "oldArchive",
+    "value" : "libthrift-0.12.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "libthrift-0.16.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class org.apache.thrift.transport.TSaslTransportException",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.apache.thrift.transport"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.thrift.transport.TSaslTransportException"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "TSaslTransportException"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "libthrift-0.12.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.noLongerFinal",
+  "old" : "method org.apache.thrift.transport.TTransport org.apache.thrift.transport.TServerTransport::accept() throws org.apache.thrift.transport.TTransportException @ org.apache.thrift.transport.TServerSocket",
+  "new" : "method org.apache.thrift.transport.TSocket org.apache.thrift.transport.TServerSocket::accept() throws org.apache.thrift.transport.TTransportException",
+  "name" : "method no longer final",
+  "description" : "Method is no longer final.",
+  "criticality" : "documented",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldModifiers",
+    "value" : "public final"
+  }, {
+    "name" : "newModifiers",
+    "value" : "public"
+  }, {
+    "name" : "package",
+    "value" : "org.apache.thrift.transport"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.thrift.transport.TServerSocket"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "TServerSocket"
+  }, {
+    "name" : "methodName",
+    "value" : "accept"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "libthrift-0.12.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "libthrift-0.16.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.returnTypeChangedCovariantly",
+  "old" : "method org.apache.thrift.transport.TTransport org.apache.thrift.transport.TServerTransport::accept() throws org.apache.thrift.transport.TTransportException @ org.apache.thrift.transport.TServerSocket",
+  "new" : "method org.apache.thrift.transport.TSocket org.apache.thrift.transport.TServerSocket::accept() throws org.apache.thrift.transport.TTransportException",
+  "name" : "return type changed covariantly",
+  "description" : "The return type changed covariantly from 'org.apache.thrift.transport.TTransport' to 'org.apache.thrift.transport.TSocket'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "org.apache.thrift.transport.TTransport"
+  }, {
+    "name" : "newType",
+    "value" : "org.apache.thrift.transport.TSocket"
+  }, {
+    "name" : "package",
+    "value" : "org.apache.thrift.transport"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.thrift.transport.TServerSocket"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "TServerSocket"
+  }, {
+    "name" : "methodName",
+    "value" : "accept"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "libthrift-0.12.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "libthrift-0.16.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.inheritedMovedToClass",
+  "old" : "method org.apache.thrift.transport.TTransport org.apache.thrift.transport.TServerTransport::accept() throws org.apache.thrift.transport.TTransportException @ org.apache.thrift.transport.TServerSocket",
+  "new" : "method org.apache.thrift.transport.TSocket org.apache.thrift.transport.TServerSocket::accept() throws org.apache.thrift.transport.TTransportException",
+  "name" : "inherited method moved to class",
+  "description" : "The method was previously declared in superclass 'org.apache.thrift.transport.TServerTransport' but is now declared in class 'org.apache.thrift.transport.TServerSocket'.",
+  "criticality" : "allowed",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "EQUIVALENT"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "EQUIVALENT"
+  } ],
+  "attachments" : [ {
+    "name" : "oldClass",
+    "value" : "org.apache.thrift.transport.TServerTransport"
+  }, {
+    "name" : "newClass",
+    "value" : "org.apache.thrift.transport.TServerSocket"
+  }, {
+    "name" : "package",
+    "value" : "org.apache.thrift.transport"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.thrift.transport.TServerSocket"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "TServerSocket"
+  }, {
+    "name" : "methodName",
+    "value" : "accept"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "libthrift-0.12.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "libthrift-0.16.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method org.apache.thrift.transport.TSocket org.apache.thrift.transport.TServerSocket::acceptImpl() throws org.apache.thrift.transport.TTransportException",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.apache.thrift.transport"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.thrift.transport.TServerSocket"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "TServerSocket"
+  }, {
+    "name" : "methodName",
+    "value" : "acceptImpl"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "libthrift-0.12.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.noLongerFinal",
+  "old" : "method org.apache.thrift.transport.TTransport org.apache.thrift.transport.TServerTransport::accept() throws org.apache.thrift.transport.TTransportException",
+  "new" : "method org.apache.thrift.transport.TTransport org.apache.thrift.transport.TServerTransport::accept() throws org.apache.thrift.transport.TTransportException",
+  "name" : "method no longer final",
+  "description" : "Method is no longer final.",
+  "criticality" : "documented",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldModifiers",
+    "value" : "public final"
+  }, {
+    "name" : "newModifiers",
+    "value" : "public abstract"
+  }, {
+    "name" : "package",
+    "value" : "org.apache.thrift.transport"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.thrift.transport.TServerTransport"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "TServerTransport"
+  }, {
+    "name" : "methodName",
+    "value" : "accept"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "libthrift-0.12.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "libthrift-0.16.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.nowAbstract",
+  "old" : "method org.apache.thrift.transport.TTransport org.apache.thrift.transport.TServerTransport::accept() throws org.apache.thrift.transport.TTransportException",
+  "new" : "method org.apache.thrift.transport.TTransport org.apache.thrift.transport.TServerTransport::accept() throws org.apache.thrift.transport.TTransportException",
+  "name" : "Method now abstract",
+  "description" : "Method now abstract",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldModifiers",
+    "value" : "public final"
+  }, {
+    "name" : "newModifiers",
+    "value" : "public abstract"
+  }, {
+    "name" : "package",
+    "value" : "org.apache.thrift.transport"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.thrift.transport.TServerTransport"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "TServerTransport"
+  }, {
+    "name" : "methodName",
+    "value" : "accept"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "libthrift-0.12.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "libthrift-0.16.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method org.apache.thrift.transport.TTransport org.apache.thrift.transport.TServerTransport::acceptImpl() throws org.apache.thrift.transport.TTransportException",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.apache.thrift.transport"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.thrift.transport.TServerTransport"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "TServerTransport"
+  }, {
+    "name" : "methodName",
+    "value" : "acceptImpl"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "libthrift-0.12.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.exception.checkedAdded",
+  "old" : "method void org.apache.thrift.transport.TSocket::<init>(java.lang.String, int)",
+  "new" : "method void org.apache.thrift.transport.TSocket::<init>(java.lang.String, int) throws org.apache.thrift.transport.TTransportException",
+  "name" : "Method newly throws checked exceptions",
+  "description" : "Method newly throws checked exceptions: org.apache.thrift.transport.TTransportException.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "exception",
+    "value" : "org.apache.thrift.transport.TTransportException"
+  }, {
+    "name" : "package",
+    "value" : "org.apache.thrift.transport"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.thrift.transport.TSocket"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "TSocket"
+  }, {
+    "name" : "methodName",
+    "value" : "<init>"
+  }, {
+    "name" : "elementKind",
+    "value" : "constructor"
+  }, {
+    "name" : "oldArchive",
+    "value" : "libthrift-0.12.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "libthrift-0.16.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.exception.checkedAdded",
+  "old" : "method void org.apache.thrift.transport.TSocket::<init>(java.lang.String, int, int)",
+  "new" : "method void org.apache.thrift.transport.TSocket::<init>(java.lang.String, int, int) throws org.apache.thrift.transport.TTransportException",
+  "name" : "Method newly throws checked exceptions",
+  "description" : "Method newly throws checked exceptions: org.apache.thrift.transport.TTransportException.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "exception",
+    "value" : "org.apache.thrift.transport.TTransportException"
+  }, {
+    "name" : "package",
+    "value" : "org.apache.thrift.transport"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.thrift.transport.TSocket"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "TSocket"
+  }, {
+    "name" : "methodName",
+    "value" : "<init>"
+  }, {
+    "name" : "elementKind",
+    "value" : "constructor"
+  }, {
+    "name" : "oldArchive",
+    "value" : "libthrift-0.12.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "libthrift-0.16.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.numberOfParametersChanged",
+  "old" : "method void org.apache.thrift.transport.TSocket::<init>(java.lang.String, int, int, int)",
+  "new" : "method void org.apache.thrift.transport.TSocket::<init>(org.apache.thrift.TConfiguration, java.lang.String, int) throws org.apache.thrift.transport.TTransportException",
+  "name" : "number of parameters changed",
+  "description" : "The number of parameters of the method have changed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.apache.thrift.transport"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.thrift.transport.TSocket"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "TSocket"
+  }, {
+    "name" : "methodName",
+    "value" : "<init>"
+  }, {
+    "name" : "elementKind",
+    "value" : "constructor"
+  }, {
+    "name" : "oldArchive",
+    "value" : "libthrift-0.12.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "libthrift-0.16.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.exception.checkedAdded",
+  "old" : "method void org.apache.thrift.transport.TSocket::<init>(java.lang.String, int, int, int)",
+  "new" : "method void org.apache.thrift.transport.TSocket::<init>(org.apache.thrift.TConfiguration, java.lang.String, int) throws org.apache.thrift.transport.TTransportException",
+  "name" : "Method newly throws checked exceptions",
+  "description" : "Method newly throws checked exceptions: org.apache.thrift.transport.TTransportException.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "exception",
+    "value" : "org.apache.thrift.transport.TTransportException"
+  }, {
+    "name" : "package",
+    "value" : "org.apache.thrift.transport"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.thrift.transport.TSocket"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "TSocket"
+  }, {
+    "name" : "methodName",
+    "value" : "<init>"
+  }, {
+    "name" : "elementKind",
+    "value" : "constructor"
+  }, {
+    "name" : "oldArchive",
+    "value" : "libthrift-0.12.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "libthrift-0.16.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.abstractMethodAdded",
+  "old" : null,
+  "new" : "method void org.apache.thrift.transport.TTransport::checkReadBytesAvailable(long) throws org.apache.thrift.transport.TTransportException",
+  "name" : "abstract method added",
+  "description" : "Abstract method was added.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.apache.thrift.transport"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.thrift.transport.TTransport"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "TTransport"
+  }, {
+    "name" : "methodName",
+    "value" : "checkReadBytesAvailable"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "newArchive",
+    "value" : "libthrift-0.16.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.abstractMethodAdded",
+  "old" : null,
+  "new" : "method org.apache.thrift.TConfiguration org.apache.thrift.transport.TTransport::getConfiguration()",
+  "name" : "abstract method added",
+  "description" : "Abstract method was added.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.apache.thrift.transport"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.thrift.transport.TTransport"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "TTransport"
+  }, {
+    "name" : "methodName",
+    "value" : "getConfiguration"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "newArchive",
+    "value" : "libthrift-0.16.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.abstractMethodAdded",
+  "old" : null,
+  "new" : "method void org.apache.thrift.transport.TTransport::updateKnownMessageSize(long) throws org.apache.thrift.transport.TTransportException",
+  "name" : "abstract method added",
+  "description" : "Abstract method was added.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.apache.thrift.transport"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.thrift.transport.TTransport"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "TTransport"
+  }, {
+    "name" : "methodName",
+    "value" : "updateKnownMessageSize"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "newArchive",
+    "value" : "libthrift-0.16.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.exception.checkedAdded",
+  "old" : "method org.apache.thrift.transport.TTransport org.apache.thrift.transport.TTransportFactory::getTransport(org.apache.thrift.transport.TTransport)",
+  "new" : "method org.apache.thrift.transport.TTransport org.apache.thrift.transport.TTransportFactory::getTransport(org.apache.thrift.transport.TTransport) throws org.apache.thrift.transport.TTransportException",
+  "name" : "Method newly throws checked exceptions",
+  "description" : "Method newly throws checked exceptions: org.apache.thrift.transport.TTransportException.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "exception",
+    "value" : "org.apache.thrift.transport.TTransportException"
+  }, {
+    "name" : "package",
+    "value" : "org.apache.thrift.transport"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.thrift.transport.TTransportFactory"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "TTransportFactory"
+  }, {
+    "name" : "methodName",
+    "value" : "getTransport"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "libthrift-0.12.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "libthrift-0.16.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.exception.checkedAdded",
+  "old" : "method org.apache.thrift.transport.TTransport org.apache.thrift.transport.TZlibTransport.Factory::getTransport(org.apache.thrift.transport.TTransport)",
+  "new" : "method org.apache.thrift.transport.TTransport org.apache.thrift.transport.TZlibTransport.Factory::getTransport(org.apache.thrift.transport.TTransport) throws org.apache.thrift.transport.TTransportException",
+  "name" : "Method newly throws checked exceptions",
+  "description" : "Method newly throws checked exceptions: org.apache.thrift.transport.TTransportException.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "exception",
+    "value" : "org.apache.thrift.transport.TTransportException"
+  }, {
+    "name" : "package",
+    "value" : "org.apache.thrift.transport"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.thrift.transport.TZlibTransport.Factory"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "Factory"
+  }, {
+    "name" : "methodName",
+    "value" : "getTransport"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "libthrift-0.12.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "libthrift-0.16.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.exception.checkedAdded",
+  "old" : "method void org.apache.thrift.transport.TZlibTransport::<init>(org.apache.thrift.transport.TTransport)",
+  "new" : "method void org.apache.thrift.transport.TZlibTransport::<init>(org.apache.thrift.transport.TTransport) throws org.apache.thrift.transport.TTransportException",
+  "name" : "Method newly throws checked exceptions",
+  "description" : "Method newly throws checked exceptions: org.apache.thrift.transport.TTransportException.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "exception",
+    "value" : "org.apache.thrift.transport.TTransportException"
+  }, {
+    "name" : "package",
+    "value" : "org.apache.thrift.transport"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.thrift.transport.TZlibTransport"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "TZlibTransport"
+  }, {
+    "name" : "methodName",
+    "value" : "<init>"
+  }, {
+    "name" : "elementKind",
+    "value" : "constructor"
+  }, {
+    "name" : "oldArchive",
+    "value" : "libthrift-0.12.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "libthrift-0.16.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.exception.checkedAdded",
+  "old" : "method void org.apache.thrift.transport.TZlibTransport::<init>(org.apache.thrift.transport.TTransport, int)",
+  "new" : "method void org.apache.thrift.transport.TZlibTransport::<init>(org.apache.thrift.transport.TTransport, int) throws org.apache.thrift.transport.TTransportException",
+  "name" : "Method newly throws checked exceptions",
+  "description" : "Method newly throws checked exceptions: org.apache.thrift.transport.TTransportException.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "exception",
+    "value" : "org.apache.thrift.transport.TTransportException"
+  }, {
+    "name" : "package",
+    "value" : "org.apache.thrift.transport"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.thrift.transport.TZlibTransport"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "TZlibTransport"
+  }, {
+    "name" : "methodName",
+    "value" : "<init>"
+  }, {
+    "name" : "elementKind",
+    "value" : "constructor"
+  }, {
+    "name" : "oldArchive",
+    "value" : "libthrift-0.12.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "libthrift-0.16.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+} ]

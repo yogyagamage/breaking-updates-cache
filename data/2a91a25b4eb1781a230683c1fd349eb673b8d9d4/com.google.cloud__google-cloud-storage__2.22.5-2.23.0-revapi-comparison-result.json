@@ -1,0 +1,393 @@
+[ {
+  "code" : "java.class.nonPublicPartOfAPI",
+  "old" : "interface com.google.cloud.storage.Retrying.RetryingDependencies",
+  "new" : "interface com.google.cloud.storage.Retrying.RetryingDependencies",
+  "name" : "non-public class in API",
+  "description" : "Class 'com.google.cloud.storage.Retrying.RetryingDependencies' is indirectly included in the API (by the means of method return type for example) but the class is not accessible (neither public nor protected).",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SEMANTIC",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "classSimpleName",
+    "value" : "RetryingDependencies"
+  }, {
+    "name" : "exampleUseChainInNewApi",
+    "value" : "com.google.cloud.storage.Retrying.RetryingDependencies is returned from method com.google.cloud.storage.Retrying.RetryingDependencies com.google.cloud.storage.Retrying.RetryingDependencies::attemptOnce() @ com.google.cloud.storage.GrpcStorageOptions (method com.google.cloud.storage.Retrying.RetryingDependencies com.google.cloud.storage.Retrying.RetryingDependencies::attemptOnce() @ com.google.cloud.storage.GrpcStorageOptions is part of the API)"
+  }, {
+    "name" : "package",
+    "value" : "com.google.cloud.storage"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.google.cloud.storage.Retrying.RetryingDependencies"
+  }, {
+    "name" : "exampleUseChainInOldApi",
+    "value" : "com.google.cloud.storage.Retrying.RetryingDependencies is returned from method com.google.cloud.storage.Retrying.RetryingDependencies com.google.cloud.storage.Retrying.RetryingDependencies::attemptOnce() @ com.google.cloud.storage.GrpcStorageOptions (method com.google.cloud.storage.Retrying.RetryingDependencies com.google.cloud.storage.Retrying.RetryingDependencies::attemptOnce() @ com.google.cloud.storage.GrpcStorageOptions is part of the API)"
+  }, {
+    "name" : "elementKind",
+    "value" : "interface"
+  }, {
+    "name" : "oldArchive",
+    "value" : "google-cloud-storage-2.22.5.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "google-cloud-storage-2.23.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.nonPublicPartOfAPI",
+  "old" : "enum com.google.cloud.storage.Storage.SignUrlOption.SignatureVersion",
+  "new" : "enum com.google.cloud.storage.Storage.SignUrlOption.SignatureVersion",
+  "name" : "non-public class in API",
+  "description" : "Class 'com.google.cloud.storage.Storage.SignUrlOption.SignatureVersion' is indirectly included in the API (by the means of method return type for example) but the class is not accessible (neither public nor protected).",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SEMANTIC",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "classSimpleName",
+    "value" : "SignatureVersion"
+  }, {
+    "name" : "exampleUseChainInNewApi",
+    "value" : "field com.google.cloud.storage.Storage.SignUrlOption.SignatureVersion.V2 has the type com.google.cloud.storage.Storage.SignUrlOption.SignatureVersion <- com.google.cloud.storage.Storage.SignUrlOption.SignatureVersion is returned from method com.google.cloud.storage.Storage.SignUrlOption.SignatureVersion com.google.cloud.storage.SignatureInfo::getSignatureVersion() (method com.google.cloud.storage.Storage.SignUrlOption.SignatureVersion com.google.cloud.storage.SignatureInfo::getSignatureVersion() is part of the API)"
+  }, {
+    "name" : "package",
+    "value" : "com.google.cloud.storage"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.google.cloud.storage.Storage.SignUrlOption.SignatureVersion"
+  }, {
+    "name" : "exampleUseChainInOldApi",
+    "value" : "com.google.cloud.storage.Storage.SignUrlOption.SignatureVersion is used as a type parameter or type variable bound on method java.lang.Class<E> java.lang.Enum<E extends java.lang.Enum<E>>::getDeclaringClass() @ com.google.cloud.storage.Storage.SignUrlOption.SignatureVersion <- com.google.cloud.storage.Storage.SignUrlOption.SignatureVersion is returned from method com.google.cloud.storage.Storage.SignUrlOption.SignatureVersion com.google.cloud.storage.SignatureInfo::getSignatureVersion() (method com.google.cloud.storage.Storage.SignUrlOption.SignatureVersion com.google.cloud.storage.SignatureInfo::getSignatureVersion() is part of the API)"
+  }, {
+    "name" : "elementKind",
+    "value" : "enum"
+  }, {
+    "name" : "oldArchive",
+    "value" : "google-cloud-storage-2.22.5.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "google-cloud-storage-2.23.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.nonPublicPartOfAPI",
+  "old" : "interface com.google.cloud.storage.UnifiedOpts.NamedField",
+  "new" : "interface com.google.cloud.storage.UnifiedOpts.NamedField",
+  "name" : "non-public class in API",
+  "description" : "Class 'com.google.cloud.storage.UnifiedOpts.NamedField' is indirectly included in the API (by the means of method return type for example) but the class is not accessible (neither public nor protected).",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SEMANTIC",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "classSimpleName",
+    "value" : "NamedField"
+  }, {
+    "name" : "exampleUseChainInNewApi",
+    "value" : "com.google.cloud.storage.UnifiedOpts.NamedField is returned from method com.google.cloud.storage.UnifiedOpts.NamedField com.google.cloud.storage.UnifiedOpts.NamedField::stripPrefix() <- com.google.cloud.storage.UnifiedOpts.NamedField is returned from method com.google.cloud.storage.UnifiedOpts.NamedField com.google.cloud.storage.UnifiedOpts.NamedField::stripPrefix() @ com.google.cloud.storage.Storage.BucketField (method com.google.cloud.storage.UnifiedOpts.NamedField com.google.cloud.storage.UnifiedOpts.NamedField::stripPrefix() @ com.google.cloud.storage.Storage.BucketField is part of the API)"
+  }, {
+    "name" : "package",
+    "value" : "com.google.cloud.storage"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.google.cloud.storage.UnifiedOpts.NamedField"
+  }, {
+    "name" : "exampleUseChainInOldApi",
+    "value" : "com.google.cloud.storage.UnifiedOpts.NamedField is returned from method com.google.cloud.storage.UnifiedOpts.NamedField com.google.cloud.storage.UnifiedOpts.NamedField::stripPrefix() @ com.google.cloud.storage.Storage.BlobField (method com.google.cloud.storage.UnifiedOpts.NamedField com.google.cloud.storage.UnifiedOpts.NamedField::stripPrefix() @ com.google.cloud.storage.Storage.BlobField is part of the API)"
+  }, {
+    "name" : "elementKind",
+    "value" : "interface"
+  }, {
+    "name" : "oldArchive",
+    "value" : "google-cloud-storage-2.22.5.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "google-cloud-storage-2.23.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.nonPublicPartOfAPI",
+  "old" : "interface com.google.cloud.storage.UnifiedOpts.Opt",
+  "new" : "interface com.google.cloud.storage.UnifiedOpts.Opt",
+  "name" : "non-public class in API",
+  "description" : "Class 'com.google.cloud.storage.UnifiedOpts.Opt' is indirectly included in the API (by the means of method return type for example) but the class is not accessible (neither public nor protected).",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SEMANTIC",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "classSimpleName",
+    "value" : "Opt"
+  }, {
+    "name" : "exampleUseChainInNewApi",
+    "value" : "com.google.cloud.storage.UnifiedOpts.Opt is used as a type parameter or type variable bound on class com.google.cloud.storage.Option<O extends com.google.cloud.storage.UnifiedOpts.Opt> (class com.google.cloud.storage.Option<O extends com.google.cloud.storage.UnifiedOpts.Opt> is part of the API)"
+  }, {
+    "name" : "package",
+    "value" : "com.google.cloud.storage"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.google.cloud.storage.UnifiedOpts.Opt"
+  }, {
+    "name" : "exampleUseChainInOldApi",
+    "value" : "com.google.cloud.storage.UnifiedOpts.Opt is used as a type parameter or type variable bound on class com.google.cloud.storage.Option<O extends com.google.cloud.storage.UnifiedOpts.Opt> (class com.google.cloud.storage.Option<O extends com.google.cloud.storage.UnifiedOpts.Opt> is part of the API)"
+  }, {
+    "name" : "elementKind",
+    "value" : "interface"
+  }, {
+    "name" : "oldArchive",
+    "value" : "google-cloud-storage-2.22.5.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "google-cloud-storage-2.23.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+} ][ {
+  "code" : "java.class.nonPublicPartOfAPI",
+  "old" : "interface com.google.cloud.storage.Retrying.RetryingDependencies",
+  "new" : "interface com.google.cloud.storage.Retrying.RetryingDependencies",
+  "name" : "non-public class in API",
+  "description" : "Class 'com.google.cloud.storage.Retrying.RetryingDependencies' is indirectly included in the API (by the means of method return type for example) but the class is not accessible (neither public nor protected).",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SEMANTIC",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "classSimpleName",
+    "value" : "RetryingDependencies"
+  }, {
+    "name" : "exampleUseChainInNewApi",
+    "value" : "com.google.cloud.storage.Retrying.RetryingDependencies is returned from method com.google.cloud.storage.Retrying.RetryingDependencies com.google.cloud.storage.Retrying.RetryingDependencies::attemptOnce() <- com.google.cloud.storage.Retrying.RetryingDependencies is returned from method com.google.cloud.storage.Retrying.RetryingDependencies com.google.cloud.storage.Retrying.RetryingDependencies::attemptOnce() @ com.google.cloud.storage.GrpcStorageOptions (method com.google.cloud.storage.Retrying.RetryingDependencies com.google.cloud.storage.Retrying.RetryingDependencies::attemptOnce() @ com.google.cloud.storage.GrpcStorageOptions is part of the API)"
+  }, {
+    "name" : "package",
+    "value" : "com.google.cloud.storage"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.google.cloud.storage.Retrying.RetryingDependencies"
+  }, {
+    "name" : "exampleUseChainInOldApi",
+    "value" : "com.google.cloud.storage.Retrying.RetryingDependencies is returned from method com.google.cloud.storage.Retrying.RetryingDependencies com.google.cloud.storage.Retrying.RetryingDependencies::attemptOnce() @ com.google.cloud.storage.GrpcStorageOptions (method com.google.cloud.storage.Retrying.RetryingDependencies com.google.cloud.storage.Retrying.RetryingDependencies::attemptOnce() @ com.google.cloud.storage.GrpcStorageOptions is part of the API)"
+  }, {
+    "name" : "elementKind",
+    "value" : "interface"
+  }, {
+    "name" : "oldArchive",
+    "value" : "google-cloud-storage-2.22.5.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "google-cloud-storage-2.23.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.nonPublicPartOfAPI",
+  "old" : "enum com.google.cloud.storage.Storage.SignUrlOption.SignatureVersion",
+  "new" : "enum com.google.cloud.storage.Storage.SignUrlOption.SignatureVersion",
+  "name" : "non-public class in API",
+  "description" : "Class 'com.google.cloud.storage.Storage.SignUrlOption.SignatureVersion' is indirectly included in the API (by the means of method return type for example) but the class is not accessible (neither public nor protected).",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SEMANTIC",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "classSimpleName",
+    "value" : "SignatureVersion"
+  }, {
+    "name" : "exampleUseChainInNewApi",
+    "value" : "field com.google.cloud.storage.Storage.SignUrlOption.SignatureVersion.V2 has the type com.google.cloud.storage.Storage.SignUrlOption.SignatureVersion <- com.google.cloud.storage.Storage.SignUrlOption.SignatureVersion is used as parameter in method void com.google.cloud.storage.CanonicalExtensionHeadersSerializer::<init>(com.google.cloud.storage.Storage.SignUrlOption.SignatureVersion) (method void com.google.cloud.storage.CanonicalExtensionHeadersSerializer::<init>(com.google.cloud.storage.Storage.SignUrlOption.SignatureVersion) is part of the API)"
+  }, {
+    "name" : "package",
+    "value" : "com.google.cloud.storage"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.google.cloud.storage.Storage.SignUrlOption.SignatureVersion"
+  }, {
+    "name" : "exampleUseChainInOldApi",
+    "value" : "field com.google.cloud.storage.Storage.SignUrlOption.SignatureVersion.V4 has the type com.google.cloud.storage.Storage.SignUrlOption.SignatureVersion <- com.google.cloud.storage.Storage.SignUrlOption.SignatureVersion is used as parameter in method void com.google.cloud.storage.CanonicalExtensionHeadersSerializer::<init>(com.google.cloud.storage.Storage.SignUrlOption.SignatureVersion) (method void com.google.cloud.storage.CanonicalExtensionHeadersSerializer::<init>(com.google.cloud.storage.Storage.SignUrlOption.SignatureVersion) is part of the API)"
+  }, {
+    "name" : "elementKind",
+    "value" : "enum"
+  }, {
+    "name" : "oldArchive",
+    "value" : "google-cloud-storage-2.22.5.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "google-cloud-storage-2.23.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.nonPublicPartOfAPI",
+  "old" : "interface com.google.cloud.storage.UnifiedOpts.NamedField",
+  "new" : "interface com.google.cloud.storage.UnifiedOpts.NamedField",
+  "name" : "non-public class in API",
+  "description" : "Class 'com.google.cloud.storage.UnifiedOpts.NamedField' is indirectly included in the API (by the means of method return type for example) but the class is not accessible (neither public nor protected).",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SEMANTIC",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "classSimpleName",
+    "value" : "NamedField"
+  }, {
+    "name" : "exampleUseChainInNewApi",
+    "value" : "com.google.cloud.storage.UnifiedOpts.NamedField is used as parameter in method com.google.cloud.storage.UnifiedOpts.NamedField com.google.cloud.storage.UnifiedOpts.NamedField::nested(com.google.cloud.storage.UnifiedOpts.NamedField, com.google.cloud.storage.UnifiedOpts.NamedField) @ com.google.cloud.storage.Storage.BlobField (method com.google.cloud.storage.UnifiedOpts.NamedField com.google.cloud.storage.UnifiedOpts.NamedField::nested(com.google.cloud.storage.UnifiedOpts.NamedField, com.google.cloud.storage.UnifiedOpts.NamedField) @ com.google.cloud.storage.Storage.BlobField is part of the API)"
+  }, {
+    "name" : "package",
+    "value" : "com.google.cloud.storage"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.google.cloud.storage.UnifiedOpts.NamedField"
+  }, {
+    "name" : "exampleUseChainInOldApi",
+    "value" : "com.google.cloud.storage.UnifiedOpts.NamedField is used as parameter in method com.google.cloud.storage.UnifiedOpts.NamedField com.google.cloud.storage.UnifiedOpts.NamedField::prefixed(java.lang.String, com.google.cloud.storage.UnifiedOpts.NamedField) @ com.google.cloud.storage.Storage.BlobField (method com.google.cloud.storage.UnifiedOpts.NamedField com.google.cloud.storage.UnifiedOpts.NamedField::prefixed(java.lang.String, com.google.cloud.storage.UnifiedOpts.NamedField) @ com.google.cloud.storage.Storage.BlobField is part of the API)"
+  }, {
+    "name" : "elementKind",
+    "value" : "interface"
+  }, {
+    "name" : "oldArchive",
+    "value" : "google-cloud-storage-2.22.5.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "google-cloud-storage-2.23.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.nonPublicPartOfAPI",
+  "old" : "interface com.google.cloud.storage.UnifiedOpts.Opt",
+  "new" : "interface com.google.cloud.storage.UnifiedOpts.Opt",
+  "name" : "non-public class in API",
+  "description" : "Class 'com.google.cloud.storage.UnifiedOpts.Opt' is indirectly included in the API (by the means of method return type for example) but the class is not accessible (neither public nor protected).",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SEMANTIC",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "classSimpleName",
+    "value" : "Opt"
+  }, {
+    "name" : "exampleUseChainInNewApi",
+    "value" : "com.google.cloud.storage.UnifiedOpts.Opt is used as a type parameter or type variable bound on class com.google.cloud.storage.Option<O extends com.google.cloud.storage.UnifiedOpts.Opt> (class com.google.cloud.storage.Option<O extends com.google.cloud.storage.UnifiedOpts.Opt> is part of the API)"
+  }, {
+    "name" : "package",
+    "value" : "com.google.cloud.storage"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.google.cloud.storage.UnifiedOpts.Opt"
+  }, {
+    "name" : "exampleUseChainInOldApi",
+    "value" : "com.google.cloud.storage.UnifiedOpts.Opt is used as a type parameter or type variable bound on class com.google.cloud.storage.Option<O extends com.google.cloud.storage.UnifiedOpts.Opt> (class com.google.cloud.storage.Option<O extends com.google.cloud.storage.UnifiedOpts.Opt> is part of the API)"
+  }, {
+    "name" : "elementKind",
+    "value" : "interface"
+  }, {
+    "name" : "oldArchive",
+    "value" : "google-cloud-storage-2.22.5.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "google-cloud-storage-2.23.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+} ]

@@ -1,0 +1,44 @@
+[ {
+  "code" : "java.method.numberOfParametersChanged",
+  "old" : "method void com.google.api.gax.rpc.RequestUrlParamsEncoder<RequestT>::<init>(com.google.api.gax.rpc.RequestParamsExtractor<RequestT>, boolean)",
+  "new" : "method void com.google.api.gax.rpc.RequestUrlParamsEncoder<RequestT>::<init>(com.google.api.gax.rpc.RequestParamsExtractor<RequestT>)",
+  "name" : "number of parameters changed",
+  "description" : "The number of parameters of the method have changed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.google.api.gax.rpc"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.google.api.gax.rpc.RequestUrlParamsEncoder"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "RequestUrlParamsEncoder"
+  }, {
+    "name" : "methodName",
+    "value" : "<init>"
+  }, {
+    "name" : "elementKind",
+    "value" : "constructor"
+  }, {
+    "name" : "oldArchive",
+    "value" : "gax-2.16.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "gax-2.30.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+} ]

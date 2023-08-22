@@ -1,0 +1,914 @@
+[ {
+  "code" : "java.class.nonPublicPartOfAPI",
+  "old" : null,
+  "new" : "class org.pitest.classinfo.ClassInfoBuilder",
+  "name" : "non-public class in API",
+  "description" : "Class 'org.pitest.classinfo.ClassInfoBuilder' is indirectly included in the API (by the means of method return type for example) but the class is not accessible (neither public nor protected).",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SEMANTIC",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "classSimpleName",
+    "value" : "ClassInfoBuilder"
+  }, {
+    "name" : "exampleUseChainInNewApi",
+    "value" : "org.pitest.classinfo.ClassInfoBuilder is returned from method org.pitest.classinfo.ClassInfoBuilder org.pitest.classinfo.ClassInfoVisitor::getClassInfo(org.pitest.classinfo.ClassName, byte[], long) (method org.pitest.classinfo.ClassInfoBuilder org.pitest.classinfo.ClassInfoVisitor::getClassInfo(org.pitest.classinfo.ClassName, byte[], long) is part of the API)"
+  }, {
+    "name" : "package",
+    "value" : "org.pitest.classinfo"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.pitest.classinfo.ClassInfoBuilder"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "newArchive",
+    "value" : "pitest-entry-1.10.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.nonPublicPartOfAPI",
+  "old" : null,
+  "new" : "interface org.pitest.classinfo.ClassPointer",
+  "name" : "non-public class in API",
+  "description" : "Class 'org.pitest.classinfo.ClassPointer' is indirectly included in the API (by the means of method return type for example) but the class is not accessible (neither public nor protected).",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SEMANTIC",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "classSimpleName",
+    "value" : "ClassPointer"
+  }, {
+    "name" : "exampleUseChainInNewApi",
+    "value" : "org.pitest.classinfo.ClassPointer is used as parameter in method void org.pitest.classinfo.ClassInfo::<init>(org.pitest.classinfo.ClassPointer, org.pitest.classinfo.ClassPointer, org.pitest.classinfo.ClassInfoBuilder) (method void org.pitest.classinfo.ClassInfo::<init>(org.pitest.classinfo.ClassPointer, org.pitest.classinfo.ClassPointer, org.pitest.classinfo.ClassInfoBuilder) is part of the API)"
+  }, {
+    "name" : "package",
+    "value" : "org.pitest.classinfo"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.pitest.classinfo.ClassPointer"
+  }, {
+    "name" : "elementKind",
+    "value" : "interface"
+  }, {
+    "name" : "newArchive",
+    "value" : "pitest-entry-1.10.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method java.util.Collection<org.pitest.classinfo.ClassInfo> org.pitest.classpath.CodeSource::getCode()",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.pitest.classpath"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.pitest.classpath.CodeSource"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "CodeSource"
+  }, {
+    "name" : "methodName",
+    "value" : "getCode"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "pitest-entry-1.9.11.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method java.util.List<org.pitest.classinfo.ClassInfo> org.pitest.classpath.CodeSource::getTests()",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.pitest.classpath"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.pitest.classpath.CodeSource"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "CodeSource"
+  }, {
+    "name" : "methodName",
+    "value" : "getTests"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "pitest-entry-1.9.11.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method java.util.Collection<org.pitest.classinfo.ClassInfo> org.pitest.coverage.CoverageData::getClassInfo(java.util.Collection<org.pitest.classinfo.ClassName>)",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.pitest.coverage"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.pitest.coverage.CoverageData"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "CoverageData"
+  }, {
+    "name" : "methodName",
+    "value" : "getClassInfo"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "pitest-entry-1.9.11.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.returnTypeTypeParametersChanged",
+  "old" : "method java.util.Collection<org.pitest.classinfo.ClassInfo> org.pitest.coverage.CoverageData::getClassesForFile(java.lang.String, java.lang.String)",
+  "new" : "method java.util.Collection<org.pitest.coverage.ClassLines> org.pitest.coverage.CoverageData::getClassesForFile(java.lang.String, java.lang.String)",
+  "name" : "return type changed type parameter",
+  "description" : "The return type changed from 'java.util.Collection<org.pitest.classinfo.ClassInfo>' to 'java.util.Collection<org.pitest.coverage.ClassLines>'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "java.util.Collection<org.pitest.classinfo.ClassInfo>"
+  }, {
+    "name" : "newType",
+    "value" : "java.util.Collection<org.pitest.coverage.ClassLines>"
+  }, {
+    "name" : "package",
+    "value" : "org.pitest.coverage"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.pitest.coverage.CoverageData"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "CoverageData"
+  }, {
+    "name" : "methodName",
+    "value" : "getClassesForFile"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "pitest-entry-1.9.11.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "pitest-entry-1.10.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method java.util.Collection<org.pitest.classinfo.ClassInfo> org.pitest.coverage.LegacyClassCoverage::getClassInfo(java.util.Collection<org.pitest.classinfo.ClassName>)",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.pitest.coverage"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.pitest.coverage.LegacyClassCoverage"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "LegacyClassCoverage"
+  }, {
+    "name" : "methodName",
+    "value" : "getClassInfo"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "pitest-entry-1.9.11.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.returnTypeTypeParametersChanged",
+  "old" : "method java.util.Collection<org.pitest.classinfo.ClassInfo> org.pitest.coverage.LegacyClassCoverage::getClassesForFile(java.lang.String, java.lang.String)",
+  "new" : "method java.util.Collection<org.pitest.coverage.ClassLines> org.pitest.coverage.LegacyClassCoverage::getClassesForFile(java.lang.String, java.lang.String)",
+  "name" : "return type changed type parameter",
+  "description" : "The return type changed from 'java.util.Collection<org.pitest.classinfo.ClassInfo>' to 'java.util.Collection<org.pitest.coverage.ClassLines>'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "java.util.Collection<org.pitest.classinfo.ClassInfo>"
+  }, {
+    "name" : "newType",
+    "value" : "java.util.Collection<org.pitest.coverage.ClassLines>"
+  }, {
+    "name" : "package",
+    "value" : "org.pitest.coverage"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.pitest.coverage.LegacyClassCoverage"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "LegacyClassCoverage"
+  }, {
+    "name" : "methodName",
+    "value" : "getClassesForFile"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "pitest-entry-1.9.11.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "pitest-entry-1.10.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method java.util.Collection<org.pitest.classinfo.ClassInfo> org.pitest.coverage.NoCoverage::getClassInfo(java.util.Collection<org.pitest.classinfo.ClassName>)",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.pitest.coverage"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.pitest.coverage.NoCoverage"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "NoCoverage"
+  }, {
+    "name" : "methodName",
+    "value" : "getClassInfo"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "pitest-entry-1.9.11.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.returnTypeTypeParametersChanged",
+  "old" : "method java.util.Collection<org.pitest.classinfo.ClassInfo> org.pitest.coverage.NoCoverage::getClassesForFile(java.lang.String, java.lang.String)",
+  "new" : "method java.util.Collection<org.pitest.coverage.ClassLines> org.pitest.coverage.NoCoverage::getClassesForFile(java.lang.String, java.lang.String)",
+  "name" : "return type changed type parameter",
+  "description" : "The return type changed from 'java.util.Collection<org.pitest.classinfo.ClassInfo>' to 'java.util.Collection<org.pitest.coverage.ClassLines>'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "java.util.Collection<org.pitest.classinfo.ClassInfo>"
+  }, {
+    "name" : "newType",
+    "value" : "java.util.Collection<org.pitest.coverage.ClassLines>"
+  }, {
+    "name" : "package",
+    "value" : "org.pitest.coverage"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.pitest.coverage.NoCoverage"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "NoCoverage"
+  }, {
+    "name" : "methodName",
+    "value" : "getClassesForFile"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "pitest-entry-1.9.11.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "pitest-entry-1.10.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method java.util.Collection<org.pitest.classinfo.ClassInfo> org.pitest.coverage.ReportCoverage::getClassInfo(java.util.Collection<org.pitest.classinfo.ClassName>)",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.pitest.coverage"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.pitest.coverage.ReportCoverage"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "ReportCoverage"
+  }, {
+    "name" : "methodName",
+    "value" : "getClassInfo"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "pitest-entry-1.9.11.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.returnTypeTypeParametersChanged",
+  "old" : "method java.util.Collection<org.pitest.classinfo.ClassInfo> org.pitest.coverage.ReportCoverage::getClassesForFile(java.lang.String, java.lang.String)",
+  "new" : "method java.util.Collection<org.pitest.coverage.ClassLines> org.pitest.coverage.ReportCoverage::getClassesForFile(java.lang.String, java.lang.String)",
+  "name" : "return type changed type parameter",
+  "description" : "The return type changed from 'java.util.Collection<org.pitest.classinfo.ClassInfo>' to 'java.util.Collection<org.pitest.coverage.ClassLines>'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "java.util.Collection<org.pitest.classinfo.ClassInfo>"
+  }, {
+    "name" : "newType",
+    "value" : "java.util.Collection<org.pitest.coverage.ClassLines>"
+  }, {
+    "name" : "package",
+    "value" : "org.pitest.coverage"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.pitest.coverage.ReportCoverage"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "ReportCoverage"
+  }, {
+    "name" : "methodName",
+    "value" : "getClassesForFile"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "pitest-entry-1.9.11.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "pitest-entry-1.10.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.addedToInterface",
+  "old" : null,
+  "new" : "method java.util.Optional<org.pitest.coverage.ClassLines> org.pitest.coverage.ReportCoverage::getCoveredLinesForClass(org.pitest.classinfo.ClassName)",
+  "name" : "method added to interface",
+  "description" : "Method was added to an interface.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SEMANTIC",
+    "severity" : "POTENTIALLY_BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.pitest.coverage"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.pitest.coverage.ReportCoverage"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "ReportCoverage"
+  }, {
+    "name" : "methodName",
+    "value" : "getCoveredLinesForClass"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "newArchive",
+    "value" : "pitest-entry-1.10.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class org.pitest.mutationtest.build.intercept.javafeatures.EnumConstructorFilter",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.pitest.mutationtest.build.intercept.javafeatures"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.pitest.mutationtest.build.intercept.javafeatures.EnumConstructorFilter"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "EnumConstructorFilter"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "pitest-entry-1.9.11.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class org.pitest.mutationtest.build.intercept.javafeatures.EnumConstructorFilterFactory",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.pitest.mutationtest.build.intercept.javafeatures"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.pitest.mutationtest.build.intercept.javafeatures.EnumConstructorFilterFactory"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "EnumConstructorFilterFactory"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "pitest-entry-1.9.11.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.numberOfParametersChanged",
+  "old" : "method void org.pitest.mutationtest.tooling.CombinedStatistics::<init>(org.pitest.mutationtest.statistics.MutationStatistics, org.pitest.coverage.CoverageSummary)",
+  "new" : "method void org.pitest.mutationtest.tooling.CombinedStatistics::<init>(org.pitest.mutationtest.statistics.MutationStatistics, org.pitest.coverage.CoverageSummary, java.util.List<java.lang.String>)",
+  "name" : "number of parameters changed",
+  "description" : "The number of parameters of the method have changed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.pitest.mutationtest.tooling"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.pitest.mutationtest.tooling.CombinedStatistics"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "CombinedStatistics"
+  }, {
+    "name" : "methodName",
+    "value" : "<init>"
+  }, {
+    "name" : "elementKind",
+    "value" : "constructor"
+  }, {
+    "name" : "oldArchive",
+    "value" : "pitest-entry-1.9.11.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "pitest-entry-1.10.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method void org.pitest.mutationtest.tooling.MutationStrategies::<init>(org.pitest.mutationtest.MutationEngineFactory, org.pitest.mutationtest.HistoryStore, org.pitest.coverage.CoverageGenerator, org.pitest.mutationtest.MutationResultListenerFactory, org.pitest.util.ResultOutputStrategy)",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.pitest.mutationtest.tooling"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.pitest.mutationtest.tooling.MutationStrategies"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "MutationStrategies"
+  }, {
+    "name" : "methodName",
+    "value" : "<init>"
+  }, {
+    "name" : "elementKind",
+    "value" : "constructor"
+  }, {
+    "name" : "oldArchive",
+    "value" : "pitest-entry-1.9.11.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.numberOfParametersChanged",
+  "old" : "method void org.pitest.mutationtest.verify.BuildVerifier::verify(org.pitest.classpath.CodeSource)",
+  "new" : "method java.util.List<java.lang.String> org.pitest.mutationtest.verify.BuildVerifier::verify()",
+  "name" : "number of parameters changed",
+  "description" : "The number of parameters of the method have changed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.pitest.mutationtest.verify"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.pitest.mutationtest.verify.BuildVerifier"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "BuildVerifier"
+  }, {
+    "name" : "methodName",
+    "value" : "verify"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "pitest-entry-1.9.11.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "pitest-entry-1.10.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.returnTypeChanged",
+  "old" : "method void org.pitest.mutationtest.verify.BuildVerifier::verify(org.pitest.classpath.CodeSource)",
+  "new" : "method java.util.List<java.lang.String> org.pitest.mutationtest.verify.BuildVerifier::verify()",
+  "name" : "return type changed",
+  "description" : "The return type changed from 'void' to  'java.util.List<java.lang.String>'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "POTENTIALLY_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "void"
+  }, {
+    "name" : "newType",
+    "value" : "java.util.List<java.lang.String>"
+  }, {
+    "name" : "package",
+    "value" : "org.pitest.mutationtest.verify"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.pitest.mutationtest.verify.BuildVerifier"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "BuildVerifier"
+  }, {
+    "name" : "methodName",
+    "value" : "verify"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "pitest-entry-1.9.11.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "pitest-entry-1.10.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.numberOfParametersChanged",
+  "old" : "method void org.pitest.mutationtest.verify.DefaultBuildVerifier::<init>()",
+  "new" : "method void org.pitest.mutationtest.verify.DefaultBuildVerifier::<init>(org.pitest.classpath.CodeSource)",
+  "name" : "number of parameters changed",
+  "description" : "The number of parameters of the method have changed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.pitest.mutationtest.verify"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.pitest.mutationtest.verify.DefaultBuildVerifier"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "DefaultBuildVerifier"
+  }, {
+    "name" : "methodName",
+    "value" : "<init>"
+  }, {
+    "name" : "elementKind",
+    "value" : "constructor"
+  }, {
+    "name" : "oldArchive",
+    "value" : "pitest-entry-1.9.11.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "pitest-entry-1.10.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.numberOfParametersChanged",
+  "old" : "method void org.pitest.mutationtest.verify.DefaultBuildVerifier::verify(org.pitest.classpath.CodeSource)",
+  "new" : "method java.util.List<java.lang.String> org.pitest.mutationtest.verify.DefaultBuildVerifier::verify()",
+  "name" : "number of parameters changed",
+  "description" : "The number of parameters of the method have changed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.pitest.mutationtest.verify"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.pitest.mutationtest.verify.DefaultBuildVerifier"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "DefaultBuildVerifier"
+  }, {
+    "name" : "methodName",
+    "value" : "verify"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "pitest-entry-1.9.11.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "pitest-entry-1.10.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.returnTypeChanged",
+  "old" : "method void org.pitest.mutationtest.verify.DefaultBuildVerifier::verify(org.pitest.classpath.CodeSource)",
+  "new" : "method java.util.List<java.lang.String> org.pitest.mutationtest.verify.DefaultBuildVerifier::verify()",
+  "name" : "return type changed",
+  "description" : "The return type changed from 'void' to  'java.util.List<java.lang.String>'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "POTENTIALLY_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "void"
+  }, {
+    "name" : "newType",
+    "value" : "java.util.List<java.lang.String>"
+  }, {
+    "name" : "package",
+    "value" : "org.pitest.mutationtest.verify"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.pitest.mutationtest.verify.DefaultBuildVerifier"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "DefaultBuildVerifier"
+  }, {
+    "name" : "methodName",
+    "value" : "verify"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "pitest-entry-1.9.11.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "pitest-entry-1.10.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+} ]

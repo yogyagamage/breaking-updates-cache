@@ -1,0 +1,914 @@
+[ {
+  "code" : "java.method.returnTypeChanged",
+  "old" : "method int org.apache.logging.log4j.core.appender.SyslogAppender.Builder<B extends org.apache.logging.log4j.core.appender.SyslogAppender.Builder<B>>::getEnterpriseNumber()",
+  "new" : "method java.lang.String org.apache.logging.log4j.core.appender.SyslogAppender.Builder<B extends org.apache.logging.log4j.core.appender.SyslogAppender.Builder<B>>::getEnterpriseNumber()",
+  "name" : "return type changed",
+  "description" : "The return type changed from 'int' to  'java.lang.String'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "POTENTIALLY_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "int"
+  }, {
+    "name" : "newType",
+    "value" : "java.lang.String"
+  }, {
+    "name" : "package",
+    "value" : "org.apache.logging.log4j.core.appender"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.logging.log4j.core.appender.SyslogAppender.Builder"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "Builder"
+  }, {
+    "name" : "methodName",
+    "value" : "getEnterpriseNumber"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "log4j-core-2.17.2.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "log4j-core-2.18.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.numberOfParametersChanged",
+  "old" : "method void org.apache.logging.log4j.core.async.AsyncLoggerConfigDisruptor::<init>()",
+  "new" : "method void org.apache.logging.log4j.core.async.AsyncLoggerConfigDisruptor::<init>(org.apache.logging.log4j.core.async.AsyncWaitStrategyFactory)",
+  "name" : "number of parameters changed",
+  "description" : "The number of parameters of the method have changed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.apache.logging.log4j.core.async"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.logging.log4j.core.async.AsyncLoggerConfigDisruptor"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "AsyncLoggerConfigDisruptor"
+  }, {
+    "name" : "methodName",
+    "value" : "<init>"
+  }, {
+    "name" : "elementKind",
+    "value" : "constructor"
+  }, {
+    "name" : "oldArchive",
+    "value" : "log4j-core-2.17.2.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "log4j-core-2.18.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.nonPublicPartOfAPI",
+  "old" : "class org.apache.logging.log4j.core.async.AsyncLoggerDisruptor",
+  "new" : "class org.apache.logging.log4j.core.async.AsyncLoggerDisruptor",
+  "name" : "non-public class in API",
+  "description" : "Class 'org.apache.logging.log4j.core.async.AsyncLoggerDisruptor' is indirectly included in the API (by the means of method return type for example) but the class is not accessible (neither public nor protected).",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SEMANTIC",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "classSimpleName",
+    "value" : "AsyncLoggerDisruptor"
+  }, {
+    "name" : "exampleUseChainInNewApi",
+    "value" : "org.apache.logging.log4j.core.async.AsyncLoggerDisruptor is used as parameter in method void org.apache.logging.log4j.core.async.AsyncLogger::<init>(org.apache.logging.log4j.core.LoggerContext, java.lang.String, org.apache.logging.log4j.message.MessageFactory, org.apache.logging.log4j.core.async.AsyncLoggerDisruptor) (method void org.apache.logging.log4j.core.async.AsyncLogger::<init>(org.apache.logging.log4j.core.LoggerContext, java.lang.String, org.apache.logging.log4j.message.MessageFactory, org.apache.logging.log4j.core.async.AsyncLoggerDisruptor) is part of the API)"
+  }, {
+    "name" : "package",
+    "value" : "org.apache.logging.log4j.core.async"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.logging.log4j.core.async.AsyncLoggerDisruptor"
+  }, {
+    "name" : "exampleUseChainInOldApi",
+    "value" : "org.apache.logging.log4j.core.async.AsyncLoggerDisruptor is used as parameter in method void org.apache.logging.log4j.core.async.AsyncLogger::<init>(org.apache.logging.log4j.core.LoggerContext, java.lang.String, org.apache.logging.log4j.message.MessageFactory, org.apache.logging.log4j.core.async.AsyncLoggerDisruptor) (method void org.apache.logging.log4j.core.async.AsyncLogger::<init>(org.apache.logging.log4j.core.LoggerContext, java.lang.String, org.apache.logging.log4j.message.MessageFactory, org.apache.logging.log4j.core.async.AsyncLoggerDisruptor) is part of the API)"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "log4j-core-2.17.2.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "log4j-core-2.18.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.nonPublicPartOfAPI",
+  "old" : "class org.apache.logging.log4j.core.async.RingBufferLogEvent.Factory",
+  "new" : "class org.apache.logging.log4j.core.async.RingBufferLogEvent.Factory",
+  "name" : "non-public class in API",
+  "description" : "Class 'org.apache.logging.log4j.core.async.RingBufferLogEvent.Factory' is indirectly included in the API (by the means of method return type for example) but the class is not accessible (neither public nor protected).",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SEMANTIC",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "classSimpleName",
+    "value" : "Factory"
+  }, {
+    "name" : "exampleUseChainInNewApi",
+    "value" : "field org.apache.logging.log4j.core.async.RingBufferLogEvent.FACTORY has the type org.apache.logging.log4j.core.async.RingBufferLogEvent.Factory (field org.apache.logging.log4j.core.async.RingBufferLogEvent.FACTORY is part of the API)"
+  }, {
+    "name" : "package",
+    "value" : "org.apache.logging.log4j.core.async"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.logging.log4j.core.async.RingBufferLogEvent.Factory"
+  }, {
+    "name" : "exampleUseChainInOldApi",
+    "value" : "field org.apache.logging.log4j.core.async.RingBufferLogEvent.FACTORY has the type org.apache.logging.log4j.core.async.RingBufferLogEvent.Factory (field org.apache.logging.log4j.core.async.RingBufferLogEvent.FACTORY is part of the API)"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "log4j-core-2.17.2.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "log4j-core-2.18.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.addedToInterface",
+  "old" : null,
+  "new" : "method org.apache.logging.log4j.core.async.AsyncWaitStrategyFactory org.apache.logging.log4j.core.config.Configuration::getAsyncWaitStrategyFactory()",
+  "name" : "method added to interface",
+  "description" : "Method was added to an interface.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SEMANTIC",
+    "severity" : "POTENTIALLY_BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.apache.logging.log4j.core.config"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.logging.log4j.core.config.Configuration"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "Configuration"
+  }, {
+    "name" : "methodName",
+    "value" : "getAsyncWaitStrategyFactory"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "newArchive",
+    "value" : "log4j-core-2.18.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.returnTypeChanged",
+  "old" : "method org.apache.logging.log4j.core.config.arbiters.SystemPropertyArbiter.Builder org.apache.logging.log4j.core.config.arbiters.ClassArbiter::newBuilder()",
+  "new" : "method org.apache.logging.log4j.core.config.arbiters.ClassArbiter.Builder org.apache.logging.log4j.core.config.arbiters.ClassArbiter::newBuilder()",
+  "name" : "return type changed",
+  "description" : "The return type changed from 'org.apache.logging.log4j.core.config.arbiters.SystemPropertyArbiter.Builder' to  'org.apache.logging.log4j.core.config.arbiters.ClassArbiter.Builder'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "POTENTIALLY_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "org.apache.logging.log4j.core.config.arbiters.SystemPropertyArbiter.Builder"
+  }, {
+    "name" : "newType",
+    "value" : "org.apache.logging.log4j.core.config.arbiters.ClassArbiter.Builder"
+  }, {
+    "name" : "package",
+    "value" : "org.apache.logging.log4j.core.config.arbiters"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.logging.log4j.core.config.arbiters.ClassArbiter"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "ClassArbiter"
+  }, {
+    "name" : "methodName",
+    "value" : "newBuilder"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "log4j-core-2.17.2.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "log4j-core-2.18.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.nonPublicPartOfAPI",
+  "old" : "class org.apache.logging.log4j.core.layout.AbstractJacksonLayout",
+  "new" : "class org.apache.logging.log4j.core.layout.AbstractJacksonLayout",
+  "name" : "non-public class in API",
+  "description" : "Class 'org.apache.logging.log4j.core.layout.AbstractJacksonLayout' is indirectly included in the API (by the means of method return type for example) but the class is not accessible (neither public nor protected).",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SEMANTIC",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "classSimpleName",
+    "value" : "AbstractJacksonLayout"
+  }, {
+    "name" : "exampleUseChainInNewApi",
+    "value" : "org.apache.logging.log4j.core.layout.AbstractJacksonLayout is returned from method org.apache.logging.log4j.core.layout.AbstractJacksonLayout org.apache.logging.log4j.core.layout.YamlLayout::createDefaultLayout() (method org.apache.logging.log4j.core.layout.AbstractJacksonLayout org.apache.logging.log4j.core.layout.YamlLayout::createDefaultLayout() is part of the API)"
+  }, {
+    "name" : "package",
+    "value" : "org.apache.logging.log4j.core.layout"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.logging.log4j.core.layout.AbstractJacksonLayout"
+  }, {
+    "name" : "exampleUseChainInOldApi",
+    "value" : "org.apache.logging.log4j.core.layout.AbstractJacksonLayout is returned from method org.apache.logging.log4j.core.layout.AbstractJacksonLayout org.apache.logging.log4j.core.layout.YamlLayout::createLayout(org.apache.logging.log4j.core.config.Configuration, boolean, boolean, java.lang.String, java.lang.String, java.nio.charset.Charset, boolean) (method org.apache.logging.log4j.core.layout.AbstractJacksonLayout org.apache.logging.log4j.core.layout.YamlLayout::createLayout(org.apache.logging.log4j.core.config.Configuration, boolean, boolean, java.lang.String, java.lang.String, java.nio.charset.Charset, boolean) is part of the API)"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "log4j-core-2.17.2.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "log4j-core-2.18.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.field.constantValueChanged",
+  "old" : "field org.apache.logging.log4j.core.layout.Rfc5424Layout.DEFAULT_ENTERPRISE_NUMBER",
+  "new" : "field org.apache.logging.log4j.core.layout.Rfc5424Layout.DEFAULT_ENTERPRISE_NUMBER",
+  "name" : "constant field changed value",
+  "description" : "Constant field changed value from '18060' to '32473'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SEMANTIC",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldValue",
+    "value" : "18060"
+  }, {
+    "name" : "newValue",
+    "value" : "32473"
+  }, {
+    "name" : "package",
+    "value" : "org.apache.logging.log4j.core.layout"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.logging.log4j.core.layout.Rfc5424Layout"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "Rfc5424Layout"
+  }, {
+    "name" : "fieldName",
+    "value" : "DEFAULT_ENTERPRISE_NUMBER"
+  }, {
+    "name" : "elementKind",
+    "value" : "field"
+  }, {
+    "name" : "oldArchive",
+    "value" : "log4j-core-2.17.2.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "log4j-core-2.18.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.field.typeChanged",
+  "old" : "field org.apache.logging.log4j.core.layout.Rfc5424Layout.DEFAULT_ENTERPRISE_NUMBER",
+  "new" : "field org.apache.logging.log4j.core.layout.Rfc5424Layout.DEFAULT_ENTERPRISE_NUMBER",
+  "name" : "field type changed",
+  "description" : "The type of the field changed from 'int' to 'java.lang.String'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "int"
+  }, {
+    "name" : "newType",
+    "value" : "java.lang.String"
+  }, {
+    "name" : "package",
+    "value" : "org.apache.logging.log4j.core.layout"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.logging.log4j.core.layout.Rfc5424Layout"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "Rfc5424Layout"
+  }, {
+    "name" : "fieldName",
+    "value" : "DEFAULT_ENTERPRISE_NUMBER"
+  }, {
+    "name" : "elementKind",
+    "value" : "field"
+  }, {
+    "name" : "oldArchive",
+    "value" : "log4j-core-2.17.2.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "log4j-core-2.18.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.parameterTypeChanged",
+  "old" : "parameter void org.apache.logging.log4j.core.net.SmtpManager::<init>(java.lang.String, javax.mail.Session, javax.mail.internet.MimeMessage, ===org.apache.logging.log4j.core.net.SmtpManager.FactoryData===)",
+  "new" : "parameter void org.apache.logging.log4j.core.net.SmtpManager::<init>(java.lang.String, javax.mail.Session, javax.mail.internet.MimeMessage, ===org.apache.logging.log4j.core.net.MailManager.FactoryData===)",
+  "name" : "parameter type changed",
+  "description" : "The type of the parameter changed from 'org.apache.logging.log4j.core.net.SmtpManager.FactoryData' to 'org.apache.logging.log4j.core.net.MailManager.FactoryData'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "POTENTIALLY_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "org.apache.logging.log4j.core.net.SmtpManager.FactoryData"
+  }, {
+    "name" : "newType",
+    "value" : "org.apache.logging.log4j.core.net.MailManager.FactoryData"
+  }, {
+    "name" : "package",
+    "value" : "org.apache.logging.log4j.core.net"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.logging.log4j.core.net.SmtpManager"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "SmtpManager"
+  }, {
+    "name" : "methodName",
+    "value" : "<init>"
+  }, {
+    "name" : "parameterIndex",
+    "value" : "3"
+  }, {
+    "name" : "elementKind",
+    "value" : "parameter"
+  }, {
+    "name" : "oldArchive",
+    "value" : "log4j-core-2.17.2.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "log4j-core-2.18.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.nonPublicPartOfAPI",
+  "old" : "class org.apache.logging.log4j.core.net.TcpSocketManager.FactoryData",
+  "new" : "class org.apache.logging.log4j.core.net.TcpSocketManager.FactoryData",
+  "name" : "non-public class in API",
+  "description" : "Class 'org.apache.logging.log4j.core.net.TcpSocketManager.FactoryData' is indirectly included in the API (by the means of method return type for example) but the class is not accessible (neither public nor protected).",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SEMANTIC",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "classSimpleName",
+    "value" : "FactoryData"
+  }, {
+    "name" : "exampleUseChainInNewApi",
+    "value" : "org.apache.logging.log4j.core.net.TcpSocketManager.FactoryData is used as a type parameter or type variable bound on class org.apache.logging.log4j.core.net.TcpSocketManager.TcpSocketManagerFactory<M extends org.apache.logging.log4j.core.net.TcpSocketManager, T extends org.apache.logging.log4j.core.net.TcpSocketManager.FactoryData> (class org.apache.logging.log4j.core.net.TcpSocketManager.TcpSocketManagerFactory<M extends org.apache.logging.log4j.core.net.TcpSocketManager, T extends org.apache.logging.log4j.core.net.TcpSocketManager.FactoryData> is part of the API)"
+  }, {
+    "name" : "package",
+    "value" : "org.apache.logging.log4j.core.net"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.logging.log4j.core.net.TcpSocketManager.FactoryData"
+  }, {
+    "name" : "exampleUseChainInOldApi",
+    "value" : "org.apache.logging.log4j.core.net.TcpSocketManager.FactoryData is used as parameter in method M org.apache.logging.log4j.core.net.TcpSocketManager.TcpSocketManagerFactory<M extends org.apache.logging.log4j.core.net.TcpSocketManager, T extends org.apache.logging.log4j.core.net.TcpSocketManager.FactoryData>::createManager(java.lang.String, T) (method M org.apache.logging.log4j.core.net.TcpSocketManager.TcpSocketManagerFactory<M extends org.apache.logging.log4j.core.net.TcpSocketManager, T extends org.apache.logging.log4j.core.net.TcpSocketManager.FactoryData>::createManager(java.lang.String, T) is part of the API)"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "log4j-core-2.17.2.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "log4j-core-2.18.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.numberOfParametersChanged",
+  "old" : "method java.net.HttpURLConnection org.apache.logging.log4j.core.net.UrlConnectionFactory::createConnection(java.net.URL, long, org.apache.logging.log4j.core.net.ssl.SslConfiguration) throws java.io.IOException",
+  "new" : "method <T extends java.net.URLConnection> T org.apache.logging.log4j.core.net.UrlConnectionFactory::createConnection(java.net.URL, long, org.apache.logging.log4j.core.net.ssl.SslConfiguration, org.apache.logging.log4j.core.util.AuthorizationProvider) throws java.io.IOException",
+  "name" : "number of parameters changed",
+  "description" : "The number of parameters of the method have changed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.apache.logging.log4j.core.net"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.logging.log4j.core.net.UrlConnectionFactory"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "UrlConnectionFactory"
+  }, {
+    "name" : "methodName",
+    "value" : "createConnection"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "log4j-core-2.17.2.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "log4j-core-2.18.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.returnTypeChanged",
+  "old" : "method java.net.HttpURLConnection org.apache.logging.log4j.core.net.UrlConnectionFactory::createConnection(java.net.URL, long, org.apache.logging.log4j.core.net.ssl.SslConfiguration) throws java.io.IOException",
+  "new" : "method <T extends java.net.URLConnection> T org.apache.logging.log4j.core.net.UrlConnectionFactory::createConnection(java.net.URL, long, org.apache.logging.log4j.core.net.ssl.SslConfiguration, org.apache.logging.log4j.core.util.AuthorizationProvider) throws java.io.IOException",
+  "name" : "return type changed",
+  "description" : "The return type changed from 'java.net.HttpURLConnection' to  'T extends java.net.URLConnection'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "POTENTIALLY_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "java.net.HttpURLConnection"
+  }, {
+    "name" : "newType",
+    "value" : "T extends java.net.URLConnection"
+  }, {
+    "name" : "package",
+    "value" : "org.apache.logging.log4j.core.net"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.logging.log4j.core.net.UrlConnectionFactory"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "UrlConnectionFactory"
+  }, {
+    "name" : "methodName",
+    "value" : "createConnection"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "log4j-core-2.17.2.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "log4j-core-2.18.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.generics.elementNowParameterized",
+  "old" : "method java.net.HttpURLConnection org.apache.logging.log4j.core.net.UrlConnectionFactory::createConnection(java.net.URL, long, org.apache.logging.log4j.core.net.ssl.SslConfiguration) throws java.io.IOException",
+  "new" : "method <T extends java.net.URLConnection> T org.apache.logging.log4j.core.net.UrlConnectionFactory::createConnection(java.net.URL, long, org.apache.logging.log4j.core.net.ssl.SslConfiguration, org.apache.logging.log4j.core.util.AuthorizationProvider) throws java.io.IOException",
+  "name" : "element now parameterized",
+  "description" : "Element now defines formal type parameters.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SEMANTIC",
+    "severity" : "POTENTIALLY_BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.apache.logging.log4j.core.net"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.logging.log4j.core.net.UrlConnectionFactory"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "UrlConnectionFactory"
+  }, {
+    "name" : "methodName",
+    "value" : "createConnection"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "log4j-core-2.17.2.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "log4j-core-2.18.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.generics.formalTypeParameterAdded",
+  "old" : "method java.net.HttpURLConnection org.apache.logging.log4j.core.net.UrlConnectionFactory::createConnection(java.net.URL, long, org.apache.logging.log4j.core.net.ssl.SslConfiguration) throws java.io.IOException",
+  "new" : "method <T extends java.net.URLConnection> T org.apache.logging.log4j.core.net.UrlConnectionFactory::createConnection(java.net.URL, long, org.apache.logging.log4j.core.net.ssl.SslConfiguration, org.apache.logging.log4j.core.util.AuthorizationProvider) throws java.io.IOException",
+  "name" : "formal type parameter added",
+  "description" : "A new formal type parameter added to element: 'T extends java.net.URLConnection'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "typeParameter",
+    "value" : "T extends java.net.URLConnection"
+  }, {
+    "name" : "package",
+    "value" : "org.apache.logging.log4j.core.net"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.logging.log4j.core.net.UrlConnectionFactory"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "UrlConnectionFactory"
+  }, {
+    "name" : "methodName",
+    "value" : "createConnection"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "log4j-core-2.17.2.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "log4j-core-2.18.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.field.noLongerConstant",
+  "old" : "field org.apache.logging.log4j.core.net.ssl.SslConfigurationDefaults.KEYSTORE_TYPE",
+  "new" : "field org.apache.logging.log4j.core.net.ssl.SslConfigurationDefaults.KEYSTORE_TYPE",
+  "name" : "field no longer constant",
+  "description" : "Field no longer declares a constant value.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "EQUIVALENT"
+  }, {
+    "compatibility" : "SEMANTIC",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "EQUIVALENT"
+  } ],
+  "attachments" : [ {
+    "name" : "value",
+    "value" : "JKS"
+  }, {
+    "name" : "package",
+    "value" : "org.apache.logging.log4j.core.net.ssl"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.logging.log4j.core.net.ssl.SslConfigurationDefaults"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "SslConfigurationDefaults"
+  }, {
+    "name" : "fieldName",
+    "value" : "KEYSTORE_TYPE"
+  }, {
+    "name" : "elementKind",
+    "value" : "field"
+  }, {
+    "name" : "oldArchive",
+    "value" : "log4j-core-2.17.2.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "log4j-core-2.18.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.field.constantValueChanged",
+  "old" : "field org.apache.logging.log4j.core.net.ssl.SslConfigurationDefaults.PROTOCOL",
+  "new" : "field org.apache.logging.log4j.core.net.ssl.SslConfigurationDefaults.PROTOCOL",
+  "name" : "constant field changed value",
+  "description" : "Constant field changed value from 'SSL' to 'TLS'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SEMANTIC",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldValue",
+    "value" : "SSL"
+  }, {
+    "name" : "newValue",
+    "value" : "TLS"
+  }, {
+    "name" : "package",
+    "value" : "org.apache.logging.log4j.core.net.ssl"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.logging.log4j.core.net.ssl.SslConfigurationDefaults"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "SslConfigurationDefaults"
+  }, {
+    "name" : "fieldName",
+    "value" : "PROTOCOL"
+  }, {
+    "name" : "elementKind",
+    "value" : "field"
+  }, {
+    "name" : "oldArchive",
+    "value" : "log4j-core-2.17.2.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "log4j-core-2.18.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.nonPublicPartOfAPI",
+  "old" : "interface org.apache.logging.log4j.core.util.datetime.FastDatePrinter.NumberRule",
+  "new" : "interface org.apache.logging.log4j.core.util.datetime.FastDatePrinter.NumberRule",
+  "name" : "non-public class in API",
+  "description" : "Class 'org.apache.logging.log4j.core.util.datetime.FastDatePrinter.NumberRule' is indirectly included in the API (by the means of method return type for example) but the class is not accessible (neither public nor protected).",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SEMANTIC",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "classSimpleName",
+    "value" : "NumberRule"
+  }, {
+    "name" : "exampleUseChainInNewApi",
+    "value" : "org.apache.logging.log4j.core.util.datetime.FastDatePrinter.NumberRule is returned from method org.apache.logging.log4j.core.util.datetime.FastDatePrinter.NumberRule org.apache.logging.log4j.core.util.datetime.FastDatePrinter::selectNumberRule(int, int) (method org.apache.logging.log4j.core.util.datetime.FastDatePrinter.NumberRule org.apache.logging.log4j.core.util.datetime.FastDatePrinter::selectNumberRule(int, int) is part of the API)"
+  }, {
+    "name" : "package",
+    "value" : "org.apache.logging.log4j.core.util.datetime"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.logging.log4j.core.util.datetime.FastDatePrinter.NumberRule"
+  }, {
+    "name" : "exampleUseChainInOldApi",
+    "value" : "org.apache.logging.log4j.core.util.datetime.FastDatePrinter.NumberRule is returned from method org.apache.logging.log4j.core.util.datetime.FastDatePrinter.NumberRule org.apache.logging.log4j.core.util.datetime.FastDatePrinter::selectNumberRule(int, int) (method org.apache.logging.log4j.core.util.datetime.FastDatePrinter.NumberRule org.apache.logging.log4j.core.util.datetime.FastDatePrinter::selectNumberRule(int, int) is part of the API)"
+  }, {
+    "name" : "elementKind",
+    "value" : "interface"
+  }, {
+    "name" : "oldArchive",
+    "value" : "log4j-core-2.17.2.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "log4j-core-2.18.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.nonPublicPartOfAPI",
+  "old" : "interface org.apache.logging.log4j.core.util.datetime.FastDatePrinter.Rule",
+  "new" : "interface org.apache.logging.log4j.core.util.datetime.FastDatePrinter.Rule",
+  "name" : "non-public class in API",
+  "description" : "Class 'org.apache.logging.log4j.core.util.datetime.FastDatePrinter.Rule' is indirectly included in the API (by the means of method return type for example) but the class is not accessible (neither public nor protected).",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SEMANTIC",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "classSimpleName",
+    "value" : "Rule"
+  }, {
+    "name" : "exampleUseChainInNewApi",
+    "value" : "org.apache.logging.log4j.core.util.datetime.FastDatePrinter.Rule is used as a type parameter or type variable bound on field org.apache.logging.log4j.core.util.datetime.FastDatePrinter.Rule.EMPTY_ARRAY <- org.apache.logging.log4j.core.util.datetime.FastDatePrinter.Rule is used as a type parameter or type variable bound on field org.apache.logging.log4j.core.util.datetime.FastDatePrinter.Rule.EMPTY_ARRAY @ org.apache.logging.log4j.core.util.datetime.FastDatePrinter.NumberRule <- org.apache.logging.log4j.core.util.datetime.FastDatePrinter.NumberRule is returned from method org.apache.logging.log4j.core.util.datetime.FastDatePrinter.NumberRule org.apache.logging.log4j.core.util.datetime.FastDatePrinter::selectNumberRule(int, int) (method org.apache.logging.log4j.core.util.datetime.FastDatePrinter.NumberRule org.apache.logging.log4j.core.util.datetime.FastDatePrinter::selectNumberRule(int, int) is part of the API)"
+  }, {
+    "name" : "package",
+    "value" : "org.apache.logging.log4j.core.util.datetime"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.logging.log4j.core.util.datetime.FastDatePrinter.Rule"
+  }, {
+    "name" : "exampleUseChainInOldApi",
+    "value" : "org.apache.logging.log4j.core.util.datetime.FastDatePrinter.Rule is used as a type parameter or type variable bound on field org.apache.logging.log4j.core.util.datetime.FastDatePrinter.Rule.EMPTY_ARRAY <- org.apache.logging.log4j.core.util.datetime.FastDatePrinter.Rule is used as a type parameter or type variable bound on field org.apache.logging.log4j.core.util.datetime.FastDatePrinter.Rule.EMPTY_ARRAY @ org.apache.logging.log4j.core.util.datetime.FastDatePrinter.NumberRule <- org.apache.logging.log4j.core.util.datetime.FastDatePrinter.NumberRule is returned from method org.apache.logging.log4j.core.util.datetime.FastDatePrinter.NumberRule org.apache.logging.log4j.core.util.datetime.FastDatePrinter::selectNumberRule(int, int) (method org.apache.logging.log4j.core.util.datetime.FastDatePrinter.NumberRule org.apache.logging.log4j.core.util.datetime.FastDatePrinter::selectNumberRule(int, int) is part of the API)"
+  }, {
+    "name" : "elementKind",
+    "value" : "interface"
+  }, {
+    "name" : "oldArchive",
+    "value" : "log4j-core-2.17.2.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "log4j-core-2.18.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+} ]

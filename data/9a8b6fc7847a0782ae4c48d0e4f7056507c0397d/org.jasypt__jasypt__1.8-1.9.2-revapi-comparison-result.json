@@ -1,0 +1,1293 @@
+[ {
+  "code" : "java.class.removed",
+  "old" : "class org.jasypt.hibernate.connectionprovider.EncryptedPasswordC3P0ConnectionProvider",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.jasypt.hibernate.connectionprovider"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.jasypt.hibernate.connectionprovider.EncryptedPasswordC3P0ConnectionProvider"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "EncryptedPasswordC3P0ConnectionProvider"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jasypt-1.8.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class org.jasypt.hibernate.connectionprovider.EncryptedPasswordDriverManagerConnectionProvider",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.jasypt.hibernate.connectionprovider"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.jasypt.hibernate.connectionprovider.EncryptedPasswordDriverManagerConnectionProvider"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "EncryptedPasswordDriverManagerConnectionProvider"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jasypt-1.8.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class org.jasypt.hibernate.connectionprovider.ParameterNaming",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.jasypt.hibernate.connectionprovider"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.jasypt.hibernate.connectionprovider.ParameterNaming"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "ParameterNaming"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jasypt-1.8.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class org.jasypt.hibernate.encryptor.HibernatePBEBigDecimalEncryptor",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.jasypt.hibernate.encryptor"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.jasypt.hibernate.encryptor.HibernatePBEBigDecimalEncryptor"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "HibernatePBEBigDecimalEncryptor"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jasypt-1.8.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class org.jasypt.hibernate.encryptor.HibernatePBEBigIntegerEncryptor",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.jasypt.hibernate.encryptor"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.jasypt.hibernate.encryptor.HibernatePBEBigIntegerEncryptor"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "HibernatePBEBigIntegerEncryptor"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jasypt-1.8.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class org.jasypt.hibernate.encryptor.HibernatePBEByteEncryptor",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.jasypt.hibernate.encryptor"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.jasypt.hibernate.encryptor.HibernatePBEByteEncryptor"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "HibernatePBEByteEncryptor"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jasypt-1.8.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class org.jasypt.hibernate.encryptor.HibernatePBEEncryptorRegistry",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.jasypt.hibernate.encryptor"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.jasypt.hibernate.encryptor.HibernatePBEEncryptorRegistry"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "HibernatePBEEncryptorRegistry"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jasypt-1.8.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class org.jasypt.hibernate.encryptor.HibernatePBEStringEncryptor",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.jasypt.hibernate.encryptor"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.jasypt.hibernate.encryptor.HibernatePBEStringEncryptor"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "HibernatePBEStringEncryptor"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jasypt-1.8.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class org.jasypt.hibernate.type.AbstractEncryptedAsStringType",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.jasypt.hibernate.type"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.jasypt.hibernate.type.AbstractEncryptedAsStringType"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "AbstractEncryptedAsStringType"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jasypt-1.8.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class org.jasypt.hibernate.type.EncryptedBigDecimalAsStringType",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.jasypt.hibernate.type"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.jasypt.hibernate.type.EncryptedBigDecimalAsStringType"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "EncryptedBigDecimalAsStringType"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jasypt-1.8.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class org.jasypt.hibernate.type.EncryptedBigDecimalType",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.jasypt.hibernate.type"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.jasypt.hibernate.type.EncryptedBigDecimalType"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "EncryptedBigDecimalType"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jasypt-1.8.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class org.jasypt.hibernate.type.EncryptedBigIntegerAsStringType",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.jasypt.hibernate.type"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.jasypt.hibernate.type.EncryptedBigIntegerAsStringType"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "EncryptedBigIntegerAsStringType"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jasypt-1.8.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class org.jasypt.hibernate.type.EncryptedBigIntegerType",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.jasypt.hibernate.type"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.jasypt.hibernate.type.EncryptedBigIntegerType"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "EncryptedBigIntegerType"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jasypt-1.8.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class org.jasypt.hibernate.type.EncryptedBinaryType",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.jasypt.hibernate.type"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.jasypt.hibernate.type.EncryptedBinaryType"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "EncryptedBinaryType"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jasypt-1.8.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class org.jasypt.hibernate.type.EncryptedBooleanAsStringType",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.jasypt.hibernate.type"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.jasypt.hibernate.type.EncryptedBooleanAsStringType"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "EncryptedBooleanAsStringType"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jasypt-1.8.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class org.jasypt.hibernate.type.EncryptedByteAsStringType",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.jasypt.hibernate.type"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.jasypt.hibernate.type.EncryptedByteAsStringType"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "EncryptedByteAsStringType"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jasypt-1.8.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class org.jasypt.hibernate.type.EncryptedCalendarAsStringType",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.jasypt.hibernate.type"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.jasypt.hibernate.type.EncryptedCalendarAsStringType"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "EncryptedCalendarAsStringType"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jasypt-1.8.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class org.jasypt.hibernate.type.EncryptedDateAsStringType",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.jasypt.hibernate.type"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.jasypt.hibernate.type.EncryptedDateAsStringType"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "EncryptedDateAsStringType"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jasypt-1.8.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class org.jasypt.hibernate.type.EncryptedDoubleAsStringType",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.jasypt.hibernate.type"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.jasypt.hibernate.type.EncryptedDoubleAsStringType"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "EncryptedDoubleAsStringType"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jasypt-1.8.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class org.jasypt.hibernate.type.EncryptedFloatAsStringType",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.jasypt.hibernate.type"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.jasypt.hibernate.type.EncryptedFloatAsStringType"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "EncryptedFloatAsStringType"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jasypt-1.8.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class org.jasypt.hibernate.type.EncryptedIntegerAsStringType",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.jasypt.hibernate.type"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.jasypt.hibernate.type.EncryptedIntegerAsStringType"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "EncryptedIntegerAsStringType"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jasypt-1.8.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class org.jasypt.hibernate.type.EncryptedLongAsStringType",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.jasypt.hibernate.type"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.jasypt.hibernate.type.EncryptedLongAsStringType"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "EncryptedLongAsStringType"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jasypt-1.8.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class org.jasypt.hibernate.type.EncryptedShortAsStringType",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.jasypt.hibernate.type"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.jasypt.hibernate.type.EncryptedShortAsStringType"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "EncryptedShortAsStringType"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jasypt-1.8.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class org.jasypt.hibernate.type.EncryptedStringType",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.jasypt.hibernate.type"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.jasypt.hibernate.type.EncryptedStringType"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "EncryptedStringType"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jasypt-1.8.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class org.jasypt.hibernate.type.ParameterNaming",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.jasypt.hibernate.type"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.jasypt.hibernate.type.ParameterNaming"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "ParameterNaming"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jasypt-1.8.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class org.jasypt.spring.properties.EncryptablePreferencesPlaceholderConfigurer",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.jasypt.spring.properties"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.jasypt.spring.properties.EncryptablePreferencesPlaceholderConfigurer"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "EncryptablePreferencesPlaceholderConfigurer"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jasypt-1.8.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class org.jasypt.spring.properties.EncryptablePropertyOverrideConfigurer",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.jasypt.spring.properties"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.jasypt.spring.properties.EncryptablePropertyOverrideConfigurer"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "EncryptablePropertyOverrideConfigurer"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jasypt-1.8.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class org.jasypt.spring.properties.EncryptablePropertyPlaceholderConfigurer",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.jasypt.spring.properties"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.jasypt.spring.properties.EncryptablePropertyPlaceholderConfigurer"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "EncryptablePropertyPlaceholderConfigurer"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jasypt-1.8.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class org.jasypt.spring.properties.EncryptableServletContextPropertyPlaceholderConfigurer",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.jasypt.spring.properties"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.jasypt.spring.properties.EncryptableServletContextPropertyPlaceholderConfigurer"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "EncryptableServletContextPropertyPlaceholderConfigurer"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jasypt-1.8.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class org.jasypt.spring.security.PBEPasswordEncoder",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.jasypt.spring.security"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.jasypt.spring.security.PBEPasswordEncoder"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "PBEPasswordEncoder"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jasypt-1.8.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class org.jasypt.spring.security.PasswordEncoder",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.jasypt.spring.security"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.jasypt.spring.security.PasswordEncoder"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "PasswordEncoder"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jasypt-1.8.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class org.jasypt.spring.security2.PBEPasswordEncoder",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.jasypt.spring.security2"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.jasypt.spring.security2.PBEPasswordEncoder"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "PBEPasswordEncoder"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jasypt-1.8.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class org.jasypt.spring.security2.PasswordEncoder",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.jasypt.spring.security2"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.jasypt.spring.security2.PasswordEncoder"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "PasswordEncoder"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jasypt-1.8.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class org.jasypt.spring.security3.PBEPasswordEncoder",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.jasypt.spring.security3"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.jasypt.spring.security3.PBEPasswordEncoder"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "PBEPasswordEncoder"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jasypt-1.8.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class org.jasypt.spring.security3.PasswordEncoder",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.jasypt.spring.security3"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.jasypt.spring.security3.PasswordEncoder"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "PasswordEncoder"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jasypt-1.8.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class org.jasypt.spring.security3.TokenBasedRememberMeServices",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.jasypt.spring.security3"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.jasypt.spring.security3.TokenBasedRememberMeServices"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "TokenBasedRememberMeServices"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jasypt-1.8.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class org.jasypt.wicket.JasyptCrypt",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.jasypt.wicket"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.jasypt.wicket.JasyptCrypt"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "JasyptCrypt"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jasypt-1.8.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class org.jasypt.wicket.JasyptCryptFactory",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.jasypt.wicket"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.jasypt.wicket.JasyptCryptFactory"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "JasyptCryptFactory"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jasypt-1.8.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+} ]

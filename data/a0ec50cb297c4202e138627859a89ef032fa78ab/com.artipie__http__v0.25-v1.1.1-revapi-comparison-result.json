@@ -1,0 +1,504 @@
+[ {
+  "code" : "java.class.noLongerInheritsFromClass",
+  "old" : "class com.artipie.http.rq.RqHeaders",
+  "new" : "class com.artipie.http.rq.RqHeaders",
+  "name" : "removed super class",
+  "description" : "Class no longer inherits from 'org.cactoos.collection.CollectionEnvelope<java.lang.String>'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "superClass",
+    "value" : "org.cactoos.collection.CollectionEnvelope<java.lang.String>"
+  }, {
+    "name" : "package",
+    "value" : "com.artipie.http.rq"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.artipie.http.rq.RqHeaders"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "RqHeaders"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "http-v0.25.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "http-v1.1.1.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.noLongerInheritsFromClass",
+  "old" : "class com.artipie.http.rq.RqHeaders",
+  "new" : "class com.artipie.http.rq.RqHeaders",
+  "name" : "removed super class",
+  "description" : "Class no longer inherits from 'org.cactoos.iterable.IterableEnvelope<java.lang.String>'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "superClass",
+    "value" : "org.cactoos.iterable.IterableEnvelope<java.lang.String>"
+  }, {
+    "name" : "package",
+    "value" : "com.artipie.http.rq"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.artipie.http.rq.RqHeaders"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "RqHeaders"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "http-v0.25.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "http-v1.1.1.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.noLongerInheritsFromClass",
+  "old" : "class com.artipie.http.rq.RqHeaders",
+  "new" : "class com.artipie.http.rq.RqHeaders",
+  "name" : "removed super class",
+  "description" : "Class no longer inherits from 'org.cactoos.list.ListEnvelope<java.lang.String>'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "superClass",
+    "value" : "org.cactoos.list.ListEnvelope<java.lang.String>"
+  }, {
+    "name" : "package",
+    "value" : "com.artipie.http.rq"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.artipie.http.rq.RqHeaders"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "RqHeaders"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "http-v0.25.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "http-v1.1.1.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.finalClassInheritsFromNewClass",
+  "old" : "class com.artipie.http.rq.RqHeaders",
+  "new" : "class com.artipie.http.rq.RqHeaders",
+  "name" : "new super class of final class",
+  "description" : "Final class now inherits from 'java.util.AbstractCollection<java.lang.String>'.",
+  "criticality" : "allowed",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "EQUIVALENT"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "EQUIVALENT"
+  } ],
+  "attachments" : [ {
+    "name" : "superClass",
+    "value" : "java.util.AbstractCollection<java.lang.String>"
+  }, {
+    "name" : "package",
+    "value" : "com.artipie.http.rq"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.artipie.http.rq.RqHeaders"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "RqHeaders"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "http-v0.25.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "http-v1.1.1.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.finalClassInheritsFromNewClass",
+  "old" : "class com.artipie.http.rq.RqHeaders",
+  "new" : "class com.artipie.http.rq.RqHeaders",
+  "name" : "new super class of final class",
+  "description" : "Final class now inherits from 'java.util.AbstractList<java.lang.String>'.",
+  "criticality" : "allowed",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "EQUIVALENT"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "EQUIVALENT"
+  } ],
+  "attachments" : [ {
+    "name" : "superClass",
+    "value" : "java.util.AbstractList<java.lang.String>"
+  }, {
+    "name" : "package",
+    "value" : "com.artipie.http.rq"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.artipie.http.rq.RqHeaders"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "RqHeaders"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "http-v0.25.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "http-v1.1.1.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.noLongerImplementsInterface",
+  "old" : "class com.artipie.http.rq.RqHeaders.Single",
+  "new" : "class com.artipie.http.rq.RqHeaders.Single",
+  "name" : "class no longer implements interface",
+  "description" : "Class no longer implements interface 'org.cactoos.Text'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "interface",
+    "value" : "org.cactoos.Text"
+  }, {
+    "name" : "package",
+    "value" : "com.artipie.http.rq"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.artipie.http.rq.RqHeaders.Single"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "Single"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "http-v0.25.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "http-v1.1.1.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.noLongerFinal",
+  "old" : "method T org.cactoos.list.ListEnvelope<T>::get(int) @ com.artipie.http.rq.RqHeaders",
+  "new" : "method java.lang.String com.artipie.http.rq.RqHeaders::get(int)",
+  "name" : "method no longer final",
+  "description" : "Method is no longer final.",
+  "criticality" : "documented",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldModifiers",
+    "value" : "public final"
+  }, {
+    "name" : "newModifiers",
+    "value" : "public"
+  }, {
+    "name" : "package",
+    "value" : "com.artipie.http.rq"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.artipie.http.rq.RqHeaders"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "RqHeaders"
+  }, {
+    "name" : "methodName",
+    "value" : "get"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "http-v0.25.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "http-v1.1.1.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.returnTypeChangedCovariantly",
+  "old" : "method T org.cactoos.list.ListEnvelope<T>::get(int) @ com.artipie.http.rq.RqHeaders",
+  "new" : "method java.lang.String com.artipie.http.rq.RqHeaders::get(int)",
+  "name" : "return type changed covariantly",
+  "description" : "The return type changed covariantly from 'java.lang.String' to 'java.lang.String'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "java.lang.String"
+  }, {
+    "name" : "newType",
+    "value" : "java.lang.String"
+  }, {
+    "name" : "package",
+    "value" : "com.artipie.http.rq"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.artipie.http.rq.RqHeaders"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "RqHeaders"
+  }, {
+    "name" : "methodName",
+    "value" : "get"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "http-v0.25.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "http-v1.1.1.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.inheritedMovedToClass",
+  "old" : "method T org.cactoos.list.ListEnvelope<T>::get(int) @ com.artipie.http.rq.RqHeaders",
+  "new" : "method java.lang.String com.artipie.http.rq.RqHeaders::get(int)",
+  "name" : "inherited method moved to class",
+  "description" : "The method was previously declared in superclass 'org.cactoos.list.ListEnvelope<T>' but is now declared in class 'com.artipie.http.rq.RqHeaders'.",
+  "criticality" : "allowed",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "EQUIVALENT"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "EQUIVALENT"
+  } ],
+  "attachments" : [ {
+    "name" : "oldClass",
+    "value" : "org.cactoos.list.ListEnvelope<T>"
+  }, {
+    "name" : "newClass",
+    "value" : "com.artipie.http.rq.RqHeaders"
+  }, {
+    "name" : "package",
+    "value" : "com.artipie.http.rq"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.artipie.http.rq.RqHeaders"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "RqHeaders"
+  }, {
+    "name" : "methodName",
+    "value" : "get"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "http-v0.25.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "http-v1.1.1.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.returnTypeTypeParametersChanged",
+  "old" : "method org.reactivestreams.Publisher<com.artipie.http.rq.multipart.RqMultipart.Part> com.artipie.http.rq.multipart.RqMultipart::filter(java.util.function.Predicate<com.artipie.http.Headers>)",
+  "new" : "method org.reactivestreams.Publisher<? extends com.artipie.http.rq.multipart.RqMultipart.Part> com.artipie.http.rq.multipart.RqMultipart::filter(java.util.function.Predicate<com.artipie.http.Headers>)",
+  "name" : "return type changed type parameter",
+  "description" : "The return type changed from 'org.reactivestreams.Publisher<com.artipie.http.rq.multipart.RqMultipart.Part>' to 'org.reactivestreams.Publisher<? extends com.artipie.http.rq.multipart.RqMultipart.Part>'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "org.reactivestreams.Publisher<com.artipie.http.rq.multipart.RqMultipart.Part>"
+  }, {
+    "name" : "newType",
+    "value" : "org.reactivestreams.Publisher<? extends com.artipie.http.rq.multipart.RqMultipart.Part>"
+  }, {
+    "name" : "package",
+    "value" : "com.artipie.http.rq.multipart"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.artipie.http.rq.multipart.RqMultipart"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "RqMultipart"
+  }, {
+    "name" : "methodName",
+    "value" : "filter"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "http-v0.25.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "http-v1.1.1.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.element.nowDeprecated",
+  "old" : "method org.reactivestreams.Publisher<com.artipie.http.rq.multipart.RqMultipart.Part> com.artipie.http.rq.multipart.RqMultipart::filter(java.util.function.Predicate<com.artipie.http.Headers>)",
+  "new" : "method org.reactivestreams.Publisher<? extends com.artipie.http.rq.multipart.RqMultipart.Part> com.artipie.http.rq.multipart.RqMultipart::filter(java.util.function.Predicate<com.artipie.http.Headers>)",
+  "name" : "element now deprecated",
+  "description" : "The element is now deprecated.",
+  "criticality" : "allowed",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "EQUIVALENT"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "EQUIVALENT"
+  } ],
+  "attachments" : [ {
+    "name" : "annotationType",
+    "value" : "java.lang.Deprecated"
+  }, {
+    "name" : "annotation",
+    "value" : "@java.lang.Deprecated"
+  }, {
+    "name" : "package",
+    "value" : "com.artipie.http.rq.multipart"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.artipie.http.rq.multipart.RqMultipart"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "RqMultipart"
+  }, {
+    "name" : "methodName",
+    "value" : "filter"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "http-v0.25.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "http-v1.1.1.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+} ]

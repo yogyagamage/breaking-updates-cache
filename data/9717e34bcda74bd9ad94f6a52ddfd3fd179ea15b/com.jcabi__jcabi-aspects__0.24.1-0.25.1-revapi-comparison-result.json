@@ -1,0 +1,247 @@
+[ {
+  "code" : "java.class.nonPublicPartOfAPI",
+  "old" : null,
+  "new" : "class com.jcabi.aspects.FakeValidationProvider.FakeConfiguration",
+  "name" : "non-public class in API",
+  "description" : "Class 'com.jcabi.aspects.FakeValidationProvider.FakeConfiguration' is indirectly included in the API (by the means of method return type for example) but the class is not accessible (neither public nor protected).",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SEMANTIC",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "classSimpleName",
+    "value" : "FakeConfiguration"
+  }, {
+    "name" : "exampleUseChainInNewApi",
+    "value" : "com.jcabi.aspects.FakeValidationProvider.FakeConfiguration is returned from method com.jcabi.aspects.FakeValidationProvider.FakeConfiguration com.jcabi.aspects.FakeValidationProvider.FakeConfiguration::traversableResolver(javax.validation.TraversableResolver) <- com.jcabi.aspects.FakeValidationProvider.FakeConfiguration is returned from method com.jcabi.aspects.FakeValidationProvider.FakeConfiguration com.jcabi.aspects.FakeValidationProvider::createSpecializedConfiguration(javax.validation.spi.BootstrapState) (method com.jcabi.aspects.FakeValidationProvider.FakeConfiguration com.jcabi.aspects.FakeValidationProvider::createSpecializedConfiguration(javax.validation.spi.BootstrapState) is part of the API)"
+  }, {
+    "name" : "package",
+    "value" : "com.jcabi.aspects"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.jcabi.aspects.FakeValidationProvider.FakeConfiguration"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "newArchive",
+    "value" : "jcabi-aspects-0.25.1.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class com.jcabi.aspects.Tv",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.jcabi.aspects"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.jcabi.aspects.Tv"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "Tv"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jcabi-aspects-0.24.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.nonPublicPartOfAPI",
+  "old" : "class com.jcabi.aspects.aj.Parallelizer.ParallelException",
+  "new" : "class com.jcabi.aspects.aj.Parallelizer.ParallelException",
+  "name" : "non-public class in API",
+  "description" : "Class 'com.jcabi.aspects.aj.Parallelizer.ParallelException' is indirectly included in the API (by the means of method return type for example) but the class is not accessible (neither public nor protected).",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SEMANTIC",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "classSimpleName",
+    "value" : "ParallelException"
+  }, {
+    "name" : "exampleUseChainInNewApi",
+    "value" : "com.jcabi.aspects.aj.Parallelizer.ParallelException is used as parameter in method void com.jcabi.aspects.aj.Parallelizer.ParallelException::<init>(java.lang.Throwable, com.jcabi.aspects.aj.Parallelizer.ParallelException) <- com.jcabi.aspects.aj.Parallelizer.ParallelException is thrown from method java.lang.Object com.jcabi.aspects.aj.Parallelizer::wrap(org.aspectj.lang.ProceedingJoinPoint) throws com.jcabi.aspects.aj.Parallelizer.ParallelException (method java.lang.Object com.jcabi.aspects.aj.Parallelizer::wrap(org.aspectj.lang.ProceedingJoinPoint) throws com.jcabi.aspects.aj.Parallelizer.ParallelException is part of the API)"
+  }, {
+    "name" : "package",
+    "value" : "com.jcabi.aspects.aj"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.jcabi.aspects.aj.Parallelizer.ParallelException"
+  }, {
+    "name" : "exampleUseChainInOldApi",
+    "value" : "com.jcabi.aspects.aj.Parallelizer.ParallelException is thrown from method java.lang.Object com.jcabi.aspects.aj.Parallelizer::wrap(org.aspectj.lang.ProceedingJoinPoint) throws com.jcabi.aspects.aj.Parallelizer.ParallelException (method java.lang.Object com.jcabi.aspects.aj.Parallelizer::wrap(org.aspectj.lang.ProceedingJoinPoint) throws com.jcabi.aspects.aj.Parallelizer.ParallelException is part of the API)"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jcabi-aspects-0.24.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "jcabi-aspects-0.25.1.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+} ][ {
+  "code" : "java.class.nonPublicPartOfAPI",
+  "old" : null,
+  "new" : "class com.jcabi.aspects.FakeValidationProvider.FakeConfiguration",
+  "name" : "non-public class in API",
+  "description" : "Class 'com.jcabi.aspects.FakeValidationProvider.FakeConfiguration' is indirectly included in the API (by the means of method return type for example) but the class is not accessible (neither public nor protected).",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SEMANTIC",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "classSimpleName",
+    "value" : "FakeConfiguration"
+  }, {
+    "name" : "exampleUseChainInNewApi",
+    "value" : "com.jcabi.aspects.FakeValidationProvider.FakeConfiguration is returned from method com.jcabi.aspects.FakeValidationProvider.FakeConfiguration com.jcabi.aspects.FakeValidationProvider.FakeConfiguration::ignoreXmlConfiguration() <- com.jcabi.aspects.FakeValidationProvider.FakeConfiguration is returned from method com.jcabi.aspects.FakeValidationProvider.FakeConfiguration com.jcabi.aspects.FakeValidationProvider::createSpecializedConfiguration(javax.validation.spi.BootstrapState) (method com.jcabi.aspects.FakeValidationProvider.FakeConfiguration com.jcabi.aspects.FakeValidationProvider::createSpecializedConfiguration(javax.validation.spi.BootstrapState) is part of the API)"
+  }, {
+    "name" : "package",
+    "value" : "com.jcabi.aspects"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.jcabi.aspects.FakeValidationProvider.FakeConfiguration"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "newArchive",
+    "value" : "jcabi-aspects-0.25.1.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class com.jcabi.aspects.Tv",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.jcabi.aspects"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.jcabi.aspects.Tv"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "Tv"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jcabi-aspects-0.24.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.nonPublicPartOfAPI",
+  "old" : "class com.jcabi.aspects.aj.Parallelizer.ParallelException",
+  "new" : "class com.jcabi.aspects.aj.Parallelizer.ParallelException",
+  "name" : "non-public class in API",
+  "description" : "Class 'com.jcabi.aspects.aj.Parallelizer.ParallelException' is indirectly included in the API (by the means of method return type for example) but the class is not accessible (neither public nor protected).",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SEMANTIC",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "classSimpleName",
+    "value" : "ParallelException"
+  }, {
+    "name" : "exampleUseChainInNewApi",
+    "value" : "com.jcabi.aspects.aj.Parallelizer.ParallelException is thrown from method java.lang.Object com.jcabi.aspects.aj.Parallelizer::wrap(org.aspectj.lang.ProceedingJoinPoint) throws com.jcabi.aspects.aj.Parallelizer.ParallelException (method java.lang.Object com.jcabi.aspects.aj.Parallelizer::wrap(org.aspectj.lang.ProceedingJoinPoint) throws com.jcabi.aspects.aj.Parallelizer.ParallelException is part of the API)"
+  }, {
+    "name" : "package",
+    "value" : "com.jcabi.aspects.aj"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.jcabi.aspects.aj.Parallelizer.ParallelException"
+  }, {
+    "name" : "exampleUseChainInOldApi",
+    "value" : "com.jcabi.aspects.aj.Parallelizer.ParallelException is used as parameter in method void com.jcabi.aspects.aj.Parallelizer.ParallelException::<init>(java.lang.Throwable, com.jcabi.aspects.aj.Parallelizer.ParallelException) <- com.jcabi.aspects.aj.Parallelizer.ParallelException is thrown from method java.lang.Object com.jcabi.aspects.aj.Parallelizer::wrap(org.aspectj.lang.ProceedingJoinPoint) throws com.jcabi.aspects.aj.Parallelizer.ParallelException (method java.lang.Object com.jcabi.aspects.aj.Parallelizer::wrap(org.aspectj.lang.ProceedingJoinPoint) throws com.jcabi.aspects.aj.Parallelizer.ParallelException is part of the API)"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jcabi-aspects-0.24.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "jcabi-aspects-0.25.1.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+} ]

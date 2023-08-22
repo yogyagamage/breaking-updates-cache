@@ -1,0 +1,2099 @@
+[ {
+  "code" : "java.method.numberOfParametersChanged",
+  "old" : "method void org.eclipse.jdt.internal.compiler.ast.TextBlock::<init>(char[], int, int, int)",
+  "new" : "method void org.eclipse.jdt.internal.compiler.ast.TextBlock::<init>(char[], int, int, int, int)",
+  "name" : "number of parameters changed",
+  "description" : "The number of parameters of the method have changed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.eclipse.jdt.internal.compiler.ast"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.eclipse.jdt.internal.compiler.ast.TextBlock"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "TextBlock"
+  }, {
+    "name" : "methodName",
+    "value" : "<init>"
+  }, {
+    "name" : "elementKind",
+    "value" : "constructor"
+  }, {
+    "name" : "oldArchive",
+    "value" : "ecj-3.33.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "ecj-3.34.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.nonPublicPartOfAPI",
+  "old" : "class org.eclipse.jdt.internal.compiler.batch.ModuleFinder.AddExport",
+  "new" : "class org.eclipse.jdt.internal.compiler.batch.ModuleFinder.AddExport",
+  "name" : "non-public class in API",
+  "description" : "Class 'org.eclipse.jdt.internal.compiler.batch.ModuleFinder.AddExport' is indirectly included in the API (by the means of method return type for example) but the class is not accessible (neither public nor protected).",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SEMANTIC",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "classSimpleName",
+    "value" : "AddExport"
+  }, {
+    "name" : "exampleUseChainInNewApi",
+    "value" : "org.eclipse.jdt.internal.compiler.batch.ModuleFinder.AddExport is returned from method org.eclipse.jdt.internal.compiler.batch.ModuleFinder.AddExport org.eclipse.jdt.internal.compiler.batch.ModuleFinder::extractAddonExport(java.lang.String) (method org.eclipse.jdt.internal.compiler.batch.ModuleFinder.AddExport org.eclipse.jdt.internal.compiler.batch.ModuleFinder::extractAddonExport(java.lang.String) is part of the API)"
+  }, {
+    "name" : "package",
+    "value" : "org.eclipse.jdt.internal.compiler.batch"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.eclipse.jdt.internal.compiler.batch.ModuleFinder.AddExport"
+  }, {
+    "name" : "exampleUseChainInOldApi",
+    "value" : "org.eclipse.jdt.internal.compiler.batch.ModuleFinder.AddExport is returned from method org.eclipse.jdt.internal.compiler.batch.ModuleFinder.AddExport org.eclipse.jdt.internal.compiler.batch.ModuleFinder::extractAddonExport(java.lang.String) (method org.eclipse.jdt.internal.compiler.batch.ModuleFinder.AddExport org.eclipse.jdt.internal.compiler.batch.ModuleFinder::extractAddonExport(java.lang.String) is part of the API)"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "ecj-3.33.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "ecj-3.34.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.field.constantValueChanged",
+  "old" : "field org.eclipse.jdt.internal.compiler.classfmt.ClassFileConstants.MAJOR_LATEST_VERSION",
+  "new" : "field org.eclipse.jdt.internal.compiler.classfmt.ClassFileConstants.MAJOR_LATEST_VERSION",
+  "name" : "constant field changed value",
+  "description" : "Constant field changed value from '63' to '64'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SEMANTIC",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldValue",
+    "value" : "63"
+  }, {
+    "name" : "newValue",
+    "value" : "64"
+  }, {
+    "name" : "package",
+    "value" : "org.eclipse.jdt.internal.compiler.classfmt"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.eclipse.jdt.internal.compiler.classfmt.ClassFileConstants"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "ClassFileConstants"
+  }, {
+    "name" : "fieldName",
+    "value" : "MAJOR_LATEST_VERSION"
+  }, {
+    "name" : "elementKind",
+    "value" : "field"
+  }, {
+    "name" : "oldArchive",
+    "value" : "ecj-3.33.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "ecj-3.34.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.nonPublicPartOfAPI",
+  "old" : "class org.eclipse.jdt.internal.compiler.classfmt.ModuleInfo.ModuleReferenceInfo",
+  "new" : "class org.eclipse.jdt.internal.compiler.classfmt.ModuleInfo.ModuleReferenceInfo",
+  "name" : "non-public class in API",
+  "description" : "Class 'org.eclipse.jdt.internal.compiler.classfmt.ModuleInfo.ModuleReferenceInfo' is indirectly included in the API (by the means of method return type for example) but the class is not accessible (neither public nor protected).",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SEMANTIC",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "classSimpleName",
+    "value" : "ModuleReferenceInfo"
+  }, {
+    "name" : "exampleUseChainInNewApi",
+    "value" : "org.eclipse.jdt.internal.compiler.classfmt.ModuleInfo.ModuleReferenceInfo is used as a type parameter or type variable bound on field org.eclipse.jdt.internal.compiler.classfmt.ModuleInfo.requires (field org.eclipse.jdt.internal.compiler.classfmt.ModuleInfo.requires is part of the API)"
+  }, {
+    "name" : "package",
+    "value" : "org.eclipse.jdt.internal.compiler.classfmt"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.eclipse.jdt.internal.compiler.classfmt.ModuleInfo.ModuleReferenceInfo"
+  }, {
+    "name" : "exampleUseChainInOldApi",
+    "value" : "field org.eclipse.jdt.internal.compiler.classfmt.ModuleInfo.requires has the type org.eclipse.jdt.internal.compiler.classfmt.ModuleInfo.ModuleReferenceInfo (field org.eclipse.jdt.internal.compiler.classfmt.ModuleInfo.requires is part of the API)"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "ecj-3.33.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "ecj-3.34.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.nonPublicPartOfAPI",
+  "old" : "class org.eclipse.jdt.internal.compiler.classfmt.ModuleInfo.PackageExportInfo",
+  "new" : "class org.eclipse.jdt.internal.compiler.classfmt.ModuleInfo.PackageExportInfo",
+  "name" : "non-public class in API",
+  "description" : "Class 'org.eclipse.jdt.internal.compiler.classfmt.ModuleInfo.PackageExportInfo' is indirectly included in the API (by the means of method return type for example) but the class is not accessible (neither public nor protected).",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SEMANTIC",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "classSimpleName",
+    "value" : "PackageExportInfo"
+  }, {
+    "name" : "exampleUseChainInNewApi",
+    "value" : "org.eclipse.jdt.internal.compiler.classfmt.ModuleInfo.PackageExportInfo is used as a type parameter or type variable bound on field org.eclipse.jdt.internal.compiler.classfmt.ModuleInfo.exports (field org.eclipse.jdt.internal.compiler.classfmt.ModuleInfo.exports is part of the API)"
+  }, {
+    "name" : "package",
+    "value" : "org.eclipse.jdt.internal.compiler.classfmt"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.eclipse.jdt.internal.compiler.classfmt.ModuleInfo.PackageExportInfo"
+  }, {
+    "name" : "exampleUseChainInOldApi",
+    "value" : "field org.eclipse.jdt.internal.compiler.classfmt.ModuleInfo.opens has the type org.eclipse.jdt.internal.compiler.classfmt.ModuleInfo.PackageExportInfo (field org.eclipse.jdt.internal.compiler.classfmt.ModuleInfo.opens is part of the API)"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "ecj-3.33.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "ecj-3.34.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.nonPublicPartOfAPI",
+  "old" : "class org.eclipse.jdt.internal.compiler.lookup.BoundSet",
+  "new" : "class org.eclipse.jdt.internal.compiler.lookup.BoundSet",
+  "name" : "non-public class in API",
+  "description" : "Class 'org.eclipse.jdt.internal.compiler.lookup.BoundSet' is indirectly included in the API (by the means of method return type for example) but the class is not accessible (neither public nor protected).",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SEMANTIC",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "classSimpleName",
+    "value" : "BoundSet"
+  }, {
+    "name" : "exampleUseChainInNewApi",
+    "value" : "org.eclipse.jdt.internal.compiler.lookup.BoundSet is used as parameter in method boolean org.eclipse.jdt.internal.compiler.lookup.ConstraintFormula::applySubstitution(org.eclipse.jdt.internal.compiler.lookup.BoundSet, org.eclipse.jdt.internal.compiler.lookup.InferenceVariable[]) @ org.eclipse.jdt.internal.compiler.lookup.ConstraintExceptionFormula (method boolean org.eclipse.jdt.internal.compiler.lookup.ConstraintFormula::applySubstitution(org.eclipse.jdt.internal.compiler.lookup.BoundSet, org.eclipse.jdt.internal.compiler.lookup.InferenceVariable[]) @ org.eclipse.jdt.internal.compiler.lookup.ConstraintExceptionFormula is part of the API)"
+  }, {
+    "name" : "package",
+    "value" : "org.eclipse.jdt.internal.compiler.lookup"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.eclipse.jdt.internal.compiler.lookup.BoundSet"
+  }, {
+    "name" : "exampleUseChainInOldApi",
+    "value" : "org.eclipse.jdt.internal.compiler.lookup.BoundSet is returned from method org.eclipse.jdt.internal.compiler.lookup.BoundSet org.eclipse.jdt.internal.compiler.lookup.BoundSet::copy() <- org.eclipse.jdt.internal.compiler.lookup.BoundSet is returned from method org.eclipse.jdt.internal.compiler.lookup.BoundSet org.eclipse.jdt.internal.compiler.lookup.InferenceContext18::solve(org.eclipse.jdt.internal.compiler.lookup.InferenceVariable[]) throws org.eclipse.jdt.internal.compiler.lookup.InferenceFailureException (method org.eclipse.jdt.internal.compiler.lookup.BoundSet org.eclipse.jdt.internal.compiler.lookup.InferenceContext18::solve(org.eclipse.jdt.internal.compiler.lookup.InferenceVariable[]) throws org.eclipse.jdt.internal.compiler.lookup.InferenceFailureException is part of the API)"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "ecj-3.33.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "ecj-3.34.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.nonPublicPartOfAPI",
+  "old" : "class org.eclipse.jdt.internal.compiler.lookup.ConstraintFormula",
+  "new" : "class org.eclipse.jdt.internal.compiler.lookup.ConstraintFormula",
+  "name" : "non-public class in API",
+  "description" : "Class 'org.eclipse.jdt.internal.compiler.lookup.ConstraintFormula' is indirectly included in the API (by the means of method return type for example) but the class is not accessible (neither public nor protected).",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SEMANTIC",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "classSimpleName",
+    "value" : "ConstraintFormula"
+  }, {
+    "name" : "exampleUseChainInNewApi",
+    "value" : "org.eclipse.jdt.internal.compiler.lookup.ConstraintFormula is used as a type parameter or type variable bound on field org.eclipse.jdt.internal.compiler.lookup.InferenceContext18.constraintsWithUncheckedConversion (field org.eclipse.jdt.internal.compiler.lookup.InferenceContext18.constraintsWithUncheckedConversion is part of the API)"
+  }, {
+    "name" : "package",
+    "value" : "org.eclipse.jdt.internal.compiler.lookup"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.eclipse.jdt.internal.compiler.lookup.ConstraintFormula"
+  }, {
+    "name" : "exampleUseChainInOldApi",
+    "value" : "org.eclipse.jdt.internal.compiler.lookup.ConstraintFormula is used as a type parameter or type variable bound on field org.eclipse.jdt.internal.compiler.lookup.InferenceContext18.constraintsWithUncheckedConversion (field org.eclipse.jdt.internal.compiler.lookup.InferenceContext18.constraintsWithUncheckedConversion is part of the API)"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "ecj-3.33.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "ecj-3.34.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.nonPublicPartOfAPI",
+  "old" : "class org.eclipse.jdt.internal.compiler.lookup.ConstraintTypeFormula",
+  "new" : "class org.eclipse.jdt.internal.compiler.lookup.ConstraintTypeFormula",
+  "name" : "non-public class in API",
+  "description" : "Class 'org.eclipse.jdt.internal.compiler.lookup.ConstraintTypeFormula' is indirectly included in the API (by the means of method return type for example) but the class is not accessible (neither public nor protected).",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SEMANTIC",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "classSimpleName",
+    "value" : "ConstraintTypeFormula"
+  }, {
+    "name" : "exampleUseChainInNewApi",
+    "value" : "org.eclipse.jdt.internal.compiler.lookup.ConstraintTypeFormula is used as parameter in method void org.eclipse.jdt.internal.compiler.lookup.InferenceContext18::recordUncheckedConversion(org.eclipse.jdt.internal.compiler.lookup.ConstraintTypeFormula) (method void org.eclipse.jdt.internal.compiler.lookup.InferenceContext18::recordUncheckedConversion(org.eclipse.jdt.internal.compiler.lookup.ConstraintTypeFormula) is part of the API)"
+  }, {
+    "name" : "package",
+    "value" : "org.eclipse.jdt.internal.compiler.lookup"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.eclipse.jdt.internal.compiler.lookup.ConstraintTypeFormula"
+  }, {
+    "name" : "exampleUseChainInOldApi",
+    "value" : "org.eclipse.jdt.internal.compiler.lookup.ConstraintTypeFormula is returned from method org.eclipse.jdt.internal.compiler.lookup.ConstraintTypeFormula org.eclipse.jdt.internal.compiler.lookup.ConstraintTypeFormula::create(org.eclipse.jdt.internal.compiler.lookup.TypeBinding, org.eclipse.jdt.internal.compiler.lookup.TypeBinding, int) <- field org.eclipse.jdt.internal.compiler.lookup.ReductionResult.FALSE has the type org.eclipse.jdt.internal.compiler.lookup.ConstraintTypeFormula (field org.eclipse.jdt.internal.compiler.lookup.ReductionResult.FALSE is part of the API)"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "ecj-3.33.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "ecj-3.34.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.nonPublicPartOfAPI",
+  "old" : "class org.eclipse.jdt.internal.compiler.lookup.ImplicitNullAnnotationVerifier.InheritedNonNullnessInfo",
+  "new" : "class org.eclipse.jdt.internal.compiler.lookup.ImplicitNullAnnotationVerifier.InheritedNonNullnessInfo",
+  "name" : "non-public class in API",
+  "description" : "Class 'org.eclipse.jdt.internal.compiler.lookup.ImplicitNullAnnotationVerifier.InheritedNonNullnessInfo' is indirectly included in the API (by the means of method return type for example) but the class is not accessible (neither public nor protected).",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SEMANTIC",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "classSimpleName",
+    "value" : "InheritedNonNullnessInfo"
+  }, {
+    "name" : "exampleUseChainInNewApi",
+    "value" : "org.eclipse.jdt.internal.compiler.lookup.ImplicitNullAnnotationVerifier.InheritedNonNullnessInfo is used as parameter in method void org.eclipse.jdt.internal.compiler.lookup.ImplicitNullAnnotationVerifier::recordDeferredInheritedNullness(org.eclipse.jdt.internal.compiler.lookup.Scope, org.eclipse.jdt.internal.compiler.ast.ASTNode, org.eclipse.jdt.internal.compiler.lookup.MethodBinding, java.lang.Boolean, org.eclipse.jdt.internal.compiler.lookup.ImplicitNullAnnotationVerifier.InheritedNonNullnessInfo) @ org.eclipse.jdt.internal.compiler.lookup.MethodVerifier (method void org.eclipse.jdt.internal.compiler.lookup.ImplicitNullAnnotationVerifier::recordDeferredInheritedNullness(org.eclipse.jdt.internal.compiler.lookup.Scope, org.eclipse.jdt.internal.compiler.ast.ASTNode, org.eclipse.jdt.internal.compiler.lookup.MethodBinding, java.lang.Boolean, org.eclipse.jdt.internal.compiler.lookup.ImplicitNullAnnotationVerifier.InheritedNonNullnessInfo) @ org.eclipse.jdt.internal.compiler.lookup.MethodVerifier is part of the API)"
+  }, {
+    "name" : "package",
+    "value" : "org.eclipse.jdt.internal.compiler.lookup"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.eclipse.jdt.internal.compiler.lookup.ImplicitNullAnnotationVerifier.InheritedNonNullnessInfo"
+  }, {
+    "name" : "exampleUseChainInOldApi",
+    "value" : "org.eclipse.jdt.internal.compiler.lookup.ImplicitNullAnnotationVerifier.InheritedNonNullnessInfo is used as parameter in method void org.eclipse.jdt.internal.compiler.lookup.ImplicitNullAnnotationVerifier::recordDeferredInheritedNullness(org.eclipse.jdt.internal.compiler.lookup.Scope, org.eclipse.jdt.internal.compiler.ast.ASTNode, org.eclipse.jdt.internal.compiler.lookup.MethodBinding, java.lang.Boolean, org.eclipse.jdt.internal.compiler.lookup.ImplicitNullAnnotationVerifier.InheritedNonNullnessInfo) (method void org.eclipse.jdt.internal.compiler.lookup.ImplicitNullAnnotationVerifier::recordDeferredInheritedNullness(org.eclipse.jdt.internal.compiler.lookup.Scope, org.eclipse.jdt.internal.compiler.ast.ASTNode, org.eclipse.jdt.internal.compiler.lookup.MethodBinding, java.lang.Boolean, org.eclipse.jdt.internal.compiler.lookup.ImplicitNullAnnotationVerifier.InheritedNonNullnessInfo) is part of the API)"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "ecj-3.33.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "ecj-3.34.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.nonPublicPartOfAPI",
+  "old" : "class org.eclipse.jdt.internal.compiler.lookup.InferenceContext18.SuspendedInferenceRecord",
+  "new" : "class org.eclipse.jdt.internal.compiler.lookup.InferenceContext18.SuspendedInferenceRecord",
+  "name" : "non-public class in API",
+  "description" : "Class 'org.eclipse.jdt.internal.compiler.lookup.InferenceContext18.SuspendedInferenceRecord' is indirectly included in the API (by the means of method return type for example) but the class is not accessible (neither public nor protected).",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SEMANTIC",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "classSimpleName",
+    "value" : "SuspendedInferenceRecord"
+  }, {
+    "name" : "exampleUseChainInNewApi",
+    "value" : "org.eclipse.jdt.internal.compiler.lookup.InferenceContext18.SuspendedInferenceRecord is returned from method org.eclipse.jdt.internal.compiler.lookup.InferenceContext18.SuspendedInferenceRecord org.eclipse.jdt.internal.compiler.lookup.InferenceContext18::enterLambda(org.eclipse.jdt.internal.compiler.ast.LambdaExpression) (method org.eclipse.jdt.internal.compiler.lookup.InferenceContext18.SuspendedInferenceRecord org.eclipse.jdt.internal.compiler.lookup.InferenceContext18::enterLambda(org.eclipse.jdt.internal.compiler.ast.LambdaExpression) is part of the API)"
+  }, {
+    "name" : "package",
+    "value" : "org.eclipse.jdt.internal.compiler.lookup"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.eclipse.jdt.internal.compiler.lookup.InferenceContext18.SuspendedInferenceRecord"
+  }, {
+    "name" : "exampleUseChainInOldApi",
+    "value" : "org.eclipse.jdt.internal.compiler.lookup.InferenceContext18.SuspendedInferenceRecord is used as parameter in method void org.eclipse.jdt.internal.compiler.lookup.InferenceContext18::resumeSuspendedInference(org.eclipse.jdt.internal.compiler.lookup.InferenceContext18.SuspendedInferenceRecord, org.eclipse.jdt.internal.compiler.lookup.InferenceContext18) (method void org.eclipse.jdt.internal.compiler.lookup.InferenceContext18::resumeSuspendedInference(org.eclipse.jdt.internal.compiler.lookup.InferenceContext18.SuspendedInferenceRecord, org.eclipse.jdt.internal.compiler.lookup.InferenceContext18) is part of the API)"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "ecj-3.33.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "ecj-3.34.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.numberOfParametersChanged",
+  "old" : "method org.eclipse.jdt.internal.compiler.lookup.BoundSet org.eclipse.jdt.internal.compiler.lookup.InferenceContext18::solve(org.eclipse.jdt.internal.compiler.lookup.InferenceVariable[]) throws org.eclipse.jdt.internal.compiler.lookup.InferenceFailureException",
+  "new" : "method org.eclipse.jdt.internal.compiler.lookup.BoundSet org.eclipse.jdt.internal.compiler.lookup.InferenceContext18::solve(org.eclipse.jdt.internal.compiler.lookup.InferenceVariable[], boolean) throws org.eclipse.jdt.internal.compiler.lookup.InferenceFailureException",
+  "name" : "number of parameters changed",
+  "description" : "The number of parameters of the method have changed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.eclipse.jdt.internal.compiler.lookup"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.eclipse.jdt.internal.compiler.lookup.InferenceContext18"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "InferenceContext18"
+  }, {
+    "name" : "methodName",
+    "value" : "solve"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "ecj-3.33.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "ecj-3.34.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.nonPublicPartOfAPI",
+  "old" : "interface org.eclipse.jdt.internal.compiler.lookup.ParameterNonNullDefaultProvider",
+  "new" : "interface org.eclipse.jdt.internal.compiler.lookup.ParameterNonNullDefaultProvider",
+  "name" : "non-public class in API",
+  "description" : "Class 'org.eclipse.jdt.internal.compiler.lookup.ParameterNonNullDefaultProvider' is indirectly included in the API (by the means of method return type for example) but the class is not accessible (neither public nor protected).",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SEMANTIC",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "classSimpleName",
+    "value" : "ParameterNonNullDefaultProvider"
+  }, {
+    "name" : "exampleUseChainInNewApi",
+    "value" : "field org.eclipse.jdt.internal.compiler.lookup.ParameterNonNullDefaultProvider.FALSE_PROVIDER has the type org.eclipse.jdt.internal.compiler.lookup.ParameterNonNullDefaultProvider <- org.eclipse.jdt.internal.compiler.lookup.ParameterNonNullDefaultProvider is returned from method org.eclipse.jdt.internal.compiler.lookup.ParameterNonNullDefaultProvider org.eclipse.jdt.internal.compiler.lookup.SyntheticMethodBinding::hasNonNullDefaultForParameter(org.eclipse.jdt.internal.compiler.ast.AbstractMethodDeclaration) (method org.eclipse.jdt.internal.compiler.lookup.ParameterNonNullDefaultProvider org.eclipse.jdt.internal.compiler.lookup.SyntheticMethodBinding::hasNonNullDefaultForParameter(org.eclipse.jdt.internal.compiler.ast.AbstractMethodDeclaration) is part of the API)"
+  }, {
+    "name" : "package",
+    "value" : "org.eclipse.jdt.internal.compiler.lookup"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.eclipse.jdt.internal.compiler.lookup.ParameterNonNullDefaultProvider"
+  }, {
+    "name" : "exampleUseChainInOldApi",
+    "value" : "field org.eclipse.jdt.internal.compiler.lookup.ParameterNonNullDefaultProvider.TRUE_PROVIDER has the type org.eclipse.jdt.internal.compiler.lookup.ParameterNonNullDefaultProvider <- org.eclipse.jdt.internal.compiler.lookup.ParameterNonNullDefaultProvider is returned from method org.eclipse.jdt.internal.compiler.lookup.ParameterNonNullDefaultProvider org.eclipse.jdt.internal.compiler.lookup.MethodBinding::hasNonNullDefaultForParameter(org.eclipse.jdt.internal.compiler.ast.AbstractMethodDeclaration) @ org.eclipse.jdt.internal.compiler.lookup.ProblemMethodBinding (method org.eclipse.jdt.internal.compiler.lookup.ParameterNonNullDefaultProvider org.eclipse.jdt.internal.compiler.lookup.MethodBinding::hasNonNullDefaultForParameter(org.eclipse.jdt.internal.compiler.ast.AbstractMethodDeclaration) @ org.eclipse.jdt.internal.compiler.lookup.ProblemMethodBinding is part of the API)"
+  }, {
+    "name" : "elementKind",
+    "value" : "interface"
+  }, {
+    "name" : "oldArchive",
+    "value" : "ecj-3.33.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "ecj-3.34.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.field.constantValueChanged",
+  "old" : "field org.eclipse.jdt.internal.compiler.parser.JavadocTagConstants.TAG_TYPE_IN_SNIPPET",
+  "new" : "field org.eclipse.jdt.internal.compiler.parser.JavadocTagConstants.TAG_TYPE_IN_SNIPPET",
+  "name" : "constant field changed value",
+  "description" : "Constant field changed value from '3' to '4'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SEMANTIC",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldValue",
+    "value" : "3"
+  }, {
+    "name" : "newValue",
+    "value" : "4"
+  }, {
+    "name" : "package",
+    "value" : "org.eclipse.jdt.internal.compiler.parser"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.eclipse.jdt.internal.compiler.parser.JavadocTagConstants"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "JavadocTagConstants"
+  }, {
+    "name" : "fieldName",
+    "value" : "TAG_TYPE_IN_SNIPPET"
+  }, {
+    "name" : "elementKind",
+    "value" : "field"
+  }, {
+    "name" : "oldArchive",
+    "value" : "ecj-3.33.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "ecj-3.34.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.nonPublicPartOfAPI",
+  "old" : "enum org.eclipse.jdt.internal.compiler.parser.Parser.LocalTypeKind",
+  "new" : "enum org.eclipse.jdt.internal.compiler.parser.Parser.LocalTypeKind",
+  "name" : "non-public class in API",
+  "description" : "Class 'org.eclipse.jdt.internal.compiler.parser.Parser.LocalTypeKind' is indirectly included in the API (by the means of method return type for example) but the class is not accessible (neither public nor protected).",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SEMANTIC",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "classSimpleName",
+    "value" : "LocalTypeKind"
+  }, {
+    "name" : "exampleUseChainInNewApi",
+    "value" : "field org.eclipse.jdt.internal.compiler.parser.Parser.LocalTypeKind.METHOD_REFERENCE has the type org.eclipse.jdt.internal.compiler.parser.Parser.LocalTypeKind <- org.eclipse.jdt.internal.compiler.parser.Parser.LocalTypeKind is used as parameter in method void org.eclipse.jdt.internal.compiler.parser.Parser::markEnclosingMemberWithLocalOrFunctionalType(org.eclipse.jdt.internal.compiler.parser.Parser.LocalTypeKind) (method void org.eclipse.jdt.internal.compiler.parser.Parser::markEnclosingMemberWithLocalOrFunctionalType(org.eclipse.jdt.internal.compiler.parser.Parser.LocalTypeKind) is part of the API)"
+  }, {
+    "name" : "package",
+    "value" : "org.eclipse.jdt.internal.compiler.parser"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.eclipse.jdt.internal.compiler.parser.Parser.LocalTypeKind"
+  }, {
+    "name" : "exampleUseChainInOldApi",
+    "value" : "field org.eclipse.jdt.internal.compiler.parser.Parser.LocalTypeKind.METHOD_REFERENCE has the type org.eclipse.jdt.internal.compiler.parser.Parser.LocalTypeKind <- org.eclipse.jdt.internal.compiler.parser.Parser.LocalTypeKind is used as parameter in method void org.eclipse.jdt.internal.compiler.parser.Parser::markEnclosingMemberWithLocalOrFunctionalType(org.eclipse.jdt.internal.compiler.parser.Parser.LocalTypeKind) (method void org.eclipse.jdt.internal.compiler.parser.Parser::markEnclosingMemberWithLocalOrFunctionalType(org.eclipse.jdt.internal.compiler.parser.Parser.LocalTypeKind) is part of the API)"
+  }, {
+    "name" : "elementKind",
+    "value" : "enum"
+  }, {
+    "name" : "oldArchive",
+    "value" : "ecj-3.33.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "ecj-3.34.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method void org.eclipse.jdt.internal.compiler.parser.Parser::consumeRecordComponentPatternList()",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.eclipse.jdt.internal.compiler.parser"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.eclipse.jdt.internal.compiler.parser.Parser"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "Parser"
+  }, {
+    "name" : "methodName",
+    "value" : "consumeRecordComponentPatternList"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "ecj-3.33.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method void org.eclipse.jdt.internal.compiler.parser.Parser::consumeRecordComponentPatternsopt()",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.eclipse.jdt.internal.compiler.parser"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.eclipse.jdt.internal.compiler.parser.Parser"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "Parser"
+  }, {
+    "name" : "methodName",
+    "value" : "consumeRecordComponentPatternsopt"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "ecj-3.33.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method void org.eclipse.jdt.internal.compiler.parser.Parser::consumeRecordStructure()",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.eclipse.jdt.internal.compiler.parser"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.eclipse.jdt.internal.compiler.parser.Parser"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "Parser"
+  }, {
+    "name" : "methodName",
+    "value" : "consumeRecordStructure"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "ecj-3.33.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.field.constantValueChanged",
+  "old" : "field org.eclipse.jdt.internal.compiler.parser.ParserBasicInformation.ACCEPT_ACTION",
+  "new" : "field org.eclipse.jdt.internal.compiler.parser.ParserBasicInformation.ACCEPT_ACTION",
+  "name" : "constant field changed value",
+  "description" : "Constant field changed value from '18220' to '18573'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SEMANTIC",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldValue",
+    "value" : "18220"
+  }, {
+    "name" : "newValue",
+    "value" : "18573"
+  }, {
+    "name" : "package",
+    "value" : "org.eclipse.jdt.internal.compiler.parser"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.eclipse.jdt.internal.compiler.parser.ParserBasicInformation"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "ParserBasicInformation"
+  }, {
+    "name" : "fieldName",
+    "value" : "ACCEPT_ACTION"
+  }, {
+    "name" : "elementKind",
+    "value" : "field"
+  }, {
+    "name" : "oldArchive",
+    "value" : "ecj-3.33.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "ecj-3.34.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.field.constantValueChanged",
+  "old" : "field org.eclipse.jdt.internal.compiler.parser.ParserBasicInformation.ERROR_ACTION",
+  "new" : "field org.eclipse.jdt.internal.compiler.parser.ParserBasicInformation.ERROR_ACTION",
+  "name" : "constant field changed value",
+  "description" : "Constant field changed value from '18221' to '18574'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SEMANTIC",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldValue",
+    "value" : "18221"
+  }, {
+    "name" : "newValue",
+    "value" : "18574"
+  }, {
+    "name" : "package",
+    "value" : "org.eclipse.jdt.internal.compiler.parser"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.eclipse.jdt.internal.compiler.parser.ParserBasicInformation"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "ParserBasicInformation"
+  }, {
+    "name" : "fieldName",
+    "value" : "ERROR_ACTION"
+  }, {
+    "name" : "elementKind",
+    "value" : "field"
+  }, {
+    "name" : "oldArchive",
+    "value" : "ecj-3.33.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "ecj-3.34.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.field.constantValueChanged",
+  "old" : "field org.eclipse.jdt.internal.compiler.parser.ParserBasicInformation.ERROR_SYMBOL",
+  "new" : "field org.eclipse.jdt.internal.compiler.parser.ParserBasicInformation.ERROR_SYMBOL",
+  "name" : "constant field changed value",
+  "description" : "Constant field changed value from '137' to '138'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SEMANTIC",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldValue",
+    "value" : "137"
+  }, {
+    "name" : "newValue",
+    "value" : "138"
+  }, {
+    "name" : "package",
+    "value" : "org.eclipse.jdt.internal.compiler.parser"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.eclipse.jdt.internal.compiler.parser.ParserBasicInformation"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "ParserBasicInformation"
+  }, {
+    "name" : "fieldName",
+    "value" : "ERROR_SYMBOL"
+  }, {
+    "name" : "elementKind",
+    "value" : "field"
+  }, {
+    "name" : "oldArchive",
+    "value" : "ecj-3.33.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "ecj-3.34.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.field.constantValueChanged",
+  "old" : "field org.eclipse.jdt.internal.compiler.parser.ParserBasicInformation.LA_STATE_OFFSET",
+  "new" : "field org.eclipse.jdt.internal.compiler.parser.ParserBasicInformation.LA_STATE_OFFSET",
+  "name" : "constant field changed value",
+  "description" : "Constant field changed value from '18221' to '18574'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SEMANTIC",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldValue",
+    "value" : "18221"
+  }, {
+    "name" : "newValue",
+    "value" : "18574"
+  }, {
+    "name" : "package",
+    "value" : "org.eclipse.jdt.internal.compiler.parser"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.eclipse.jdt.internal.compiler.parser.ParserBasicInformation"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "ParserBasicInformation"
+  }, {
+    "name" : "fieldName",
+    "value" : "LA_STATE_OFFSET"
+  }, {
+    "name" : "elementKind",
+    "value" : "field"
+  }, {
+    "name" : "oldArchive",
+    "value" : "ecj-3.33.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "ecj-3.34.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.field.constantValueChanged",
+  "old" : "field org.eclipse.jdt.internal.compiler.parser.ParserBasicInformation.NT_OFFSET",
+  "new" : "field org.eclipse.jdt.internal.compiler.parser.ParserBasicInformation.NT_OFFSET",
+  "name" : "constant field changed value",
+  "description" : "Constant field changed value from '137' to '138'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SEMANTIC",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldValue",
+    "value" : "137"
+  }, {
+    "name" : "newValue",
+    "value" : "138"
+  }, {
+    "name" : "package",
+    "value" : "org.eclipse.jdt.internal.compiler.parser"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.eclipse.jdt.internal.compiler.parser.ParserBasicInformation"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "ParserBasicInformation"
+  }, {
+    "name" : "fieldName",
+    "value" : "NT_OFFSET"
+  }, {
+    "name" : "elementKind",
+    "value" : "field"
+  }, {
+    "name" : "oldArchive",
+    "value" : "ecj-3.33.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "ecj-3.34.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.field.constantValueChanged",
+  "old" : "field org.eclipse.jdt.internal.compiler.parser.ParserBasicInformation.NUM_RULES",
+  "new" : "field org.eclipse.jdt.internal.compiler.parser.ParserBasicInformation.NUM_RULES",
+  "name" : "constant field changed value",
+  "description" : "Constant field changed value from '940' to '942'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SEMANTIC",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldValue",
+    "value" : "940"
+  }, {
+    "name" : "newValue",
+    "value" : "942"
+  }, {
+    "name" : "package",
+    "value" : "org.eclipse.jdt.internal.compiler.parser"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.eclipse.jdt.internal.compiler.parser.ParserBasicInformation"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "ParserBasicInformation"
+  }, {
+    "name" : "fieldName",
+    "value" : "NUM_RULES"
+  }, {
+    "name" : "elementKind",
+    "value" : "field"
+  }, {
+    "name" : "oldArchive",
+    "value" : "ecj-3.33.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "ecj-3.34.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.field.constantValueChanged",
+  "old" : "field org.eclipse.jdt.internal.compiler.parser.ParserBasicInformation.NUM_STATES",
+  "new" : "field org.eclipse.jdt.internal.compiler.parser.ParserBasicInformation.NUM_STATES",
+  "name" : "constant field changed value",
+  "description" : "Constant field changed value from '1224' to '1233'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SEMANTIC",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldValue",
+    "value" : "1224"
+  }, {
+    "name" : "newValue",
+    "value" : "1233"
+  }, {
+    "name" : "package",
+    "value" : "org.eclipse.jdt.internal.compiler.parser"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.eclipse.jdt.internal.compiler.parser.ParserBasicInformation"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "ParserBasicInformation"
+  }, {
+    "name" : "fieldName",
+    "value" : "NUM_STATES"
+  }, {
+    "name" : "elementKind",
+    "value" : "field"
+  }, {
+    "name" : "oldArchive",
+    "value" : "ecj-3.33.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "ecj-3.34.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.field.constantValueChanged",
+  "old" : "field org.eclipse.jdt.internal.compiler.parser.ParserBasicInformation.NUM_SYMBOLS",
+  "new" : "field org.eclipse.jdt.internal.compiler.parser.ParserBasicInformation.NUM_SYMBOLS",
+  "name" : "constant field changed value",
+  "description" : "Constant field changed value from '570' to '571'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SEMANTIC",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldValue",
+    "value" : "570"
+  }, {
+    "name" : "newValue",
+    "value" : "571"
+  }, {
+    "name" : "package",
+    "value" : "org.eclipse.jdt.internal.compiler.parser"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.eclipse.jdt.internal.compiler.parser.ParserBasicInformation"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "ParserBasicInformation"
+  }, {
+    "name" : "fieldName",
+    "value" : "NUM_SYMBOLS"
+  }, {
+    "name" : "elementKind",
+    "value" : "field"
+  }, {
+    "name" : "oldArchive",
+    "value" : "ecj-3.33.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "ecj-3.34.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.field.constantValueChanged",
+  "old" : "field org.eclipse.jdt.internal.compiler.parser.ParserBasicInformation.NUM_TERMINALS",
+  "new" : "field org.eclipse.jdt.internal.compiler.parser.ParserBasicInformation.NUM_TERMINALS",
+  "name" : "constant field changed value",
+  "description" : "Constant field changed value from '137' to '138'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SEMANTIC",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldValue",
+    "value" : "137"
+  }, {
+    "name" : "newValue",
+    "value" : "138"
+  }, {
+    "name" : "package",
+    "value" : "org.eclipse.jdt.internal.compiler.parser"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.eclipse.jdt.internal.compiler.parser.ParserBasicInformation"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "ParserBasicInformation"
+  }, {
+    "name" : "fieldName",
+    "value" : "NUM_TERMINALS"
+  }, {
+    "name" : "elementKind",
+    "value" : "field"
+  }, {
+    "name" : "oldArchive",
+    "value" : "ecj-3.33.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "ecj-3.34.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.field.constantValueChanged",
+  "old" : "field org.eclipse.jdt.internal.compiler.parser.ParserBasicInformation.START_STATE",
+  "new" : "field org.eclipse.jdt.internal.compiler.parser.ParserBasicInformation.START_STATE",
+  "name" : "constant field changed value",
+  "description" : "Constant field changed value from '984' to '1292'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SEMANTIC",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldValue",
+    "value" : "984"
+  }, {
+    "name" : "newValue",
+    "value" : "1292"
+  }, {
+    "name" : "package",
+    "value" : "org.eclipse.jdt.internal.compiler.parser"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.eclipse.jdt.internal.compiler.parser.ParserBasicInformation"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "ParserBasicInformation"
+  }, {
+    "name" : "fieldName",
+    "value" : "START_STATE"
+  }, {
+    "name" : "elementKind",
+    "value" : "field"
+  }, {
+    "name" : "oldArchive",
+    "value" : "ecj-3.33.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "ecj-3.34.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.nonPublicPartOfAPI",
+  "old" : "enum org.eclipse.jdt.internal.compiler.parser.Scanner.ScanContext",
+  "new" : "enum org.eclipse.jdt.internal.compiler.parser.Scanner.ScanContext",
+  "name" : "non-public class in API",
+  "description" : "Class 'org.eclipse.jdt.internal.compiler.parser.Scanner.ScanContext' is indirectly included in the API (by the means of method return type for example) but the class is not accessible (neither public nor protected).",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SEMANTIC",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "classSimpleName",
+    "value" : "ScanContext"
+  }, {
+    "name" : "exampleUseChainInNewApi",
+    "value" : "field org.eclipse.jdt.internal.compiler.parser.Scanner.ScanContext.AFTER_REQUIRES has the type org.eclipse.jdt.internal.compiler.parser.Scanner.ScanContext <- field org.eclipse.jdt.internal.compiler.parser.Scanner.scanContext @ org.eclipse.jdt.internal.compiler.parser.JavadocScanner has the type org.eclipse.jdt.internal.compiler.parser.Scanner.ScanContext (field org.eclipse.jdt.internal.compiler.parser.Scanner.scanContext @ org.eclipse.jdt.internal.compiler.parser.JavadocScanner is part of the API)"
+  }, {
+    "name" : "package",
+    "value" : "org.eclipse.jdt.internal.compiler.parser"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.eclipse.jdt.internal.compiler.parser.Scanner.ScanContext"
+  }, {
+    "name" : "exampleUseChainInOldApi",
+    "value" : "org.eclipse.jdt.internal.compiler.parser.Scanner.ScanContext is used as parameter in method void org.eclipse.jdt.internal.compiler.parser.Scanner::resetTo(int, int, boolean, org.eclipse.jdt.internal.compiler.parser.Scanner.ScanContext) @ org.eclipse.jdt.internal.compiler.parser.RecoveryScanner (method void org.eclipse.jdt.internal.compiler.parser.Scanner::resetTo(int, int, boolean, org.eclipse.jdt.internal.compiler.parser.Scanner.ScanContext) @ org.eclipse.jdt.internal.compiler.parser.RecoveryScanner is part of the API)"
+  }, {
+    "name" : "elementKind",
+    "value" : "enum"
+  }, {
+    "name" : "oldArchive",
+    "value" : "ecj-3.33.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "ecj-3.34.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.field.constantValueChanged",
+  "old" : "field org.eclipse.jdt.internal.compiler.parser.TerminalTokens.TokenNameAT",
+  "new" : "field org.eclipse.jdt.internal.compiler.parser.TerminalTokens.TokenNameAT",
+  "name" : "constant field changed value",
+  "description" : "Constant field changed value from '36' to '34'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SEMANTIC",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldValue",
+    "value" : "36"
+  }, {
+    "name" : "newValue",
+    "value" : "34"
+  }, {
+    "name" : "package",
+    "value" : "org.eclipse.jdt.internal.compiler.parser"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.eclipse.jdt.internal.compiler.parser.TerminalTokens"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "TerminalTokens"
+  }, {
+    "name" : "fieldName",
+    "value" : "TokenNameAT"
+  }, {
+    "name" : "elementKind",
+    "value" : "field"
+  }, {
+    "name" : "oldArchive",
+    "value" : "ecj-3.33.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "ecj-3.34.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.field.constantValueChanged",
+  "old" : "field org.eclipse.jdt.internal.compiler.parser.TerminalTokens.TokenNameERROR",
+  "new" : "field org.eclipse.jdt.internal.compiler.parser.TerminalTokens.TokenNameERROR",
+  "name" : "constant field changed value",
+  "description" : "Constant field changed value from '137' to '138'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SEMANTIC",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldValue",
+    "value" : "137"
+  }, {
+    "name" : "newValue",
+    "value" : "138"
+  }, {
+    "name" : "package",
+    "value" : "org.eclipse.jdt.internal.compiler.parser"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.eclipse.jdt.internal.compiler.parser.TerminalTokens"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "TerminalTokens"
+  }, {
+    "name" : "fieldName",
+    "value" : "TokenNameERROR"
+  }, {
+    "name" : "elementKind",
+    "value" : "field"
+  }, {
+    "name" : "oldArchive",
+    "value" : "ecj-3.33.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "ecj-3.34.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.field.constantValueChanged",
+  "old" : "field org.eclipse.jdt.internal.compiler.parser.TerminalTokens.TokenNameconst",
+  "new" : "field org.eclipse.jdt.internal.compiler.parser.TerminalTokens.TokenNameconst",
+  "name" : "constant field changed value",
+  "description" : "Constant field changed value from '135' to '136'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SEMANTIC",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldValue",
+    "value" : "135"
+  }, {
+    "name" : "newValue",
+    "value" : "136"
+  }, {
+    "name" : "package",
+    "value" : "org.eclipse.jdt.internal.compiler.parser"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.eclipse.jdt.internal.compiler.parser.TerminalTokens"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "TerminalTokens"
+  }, {
+    "name" : "fieldName",
+    "value" : "TokenNameconst"
+  }, {
+    "name" : "elementKind",
+    "value" : "field"
+  }, {
+    "name" : "oldArchive",
+    "value" : "ecj-3.33.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "ecj-3.34.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.field.constantValueChanged",
+  "old" : "field org.eclipse.jdt.internal.compiler.parser.TerminalTokens.TokenNamegoto",
+  "new" : "field org.eclipse.jdt.internal.compiler.parser.TerminalTokens.TokenNamegoto",
+  "name" : "constant field changed value",
+  "description" : "Constant field changed value from '136' to '137'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SEMANTIC",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldValue",
+    "value" : "136"
+  }, {
+    "name" : "newValue",
+    "value" : "137"
+  }, {
+    "name" : "package",
+    "value" : "org.eclipse.jdt.internal.compiler.parser"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.eclipse.jdt.internal.compiler.parser.TerminalTokens"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "TerminalTokens"
+  }, {
+    "name" : "fieldName",
+    "value" : "TokenNamegoto"
+  }, {
+    "name" : "elementKind",
+    "value" : "field"
+  }, {
+    "name" : "oldArchive",
+    "value" : "ecj-3.33.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "ecj-3.34.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.field.constantValueChanged",
+  "old" : "field org.eclipse.jdt.internal.compiler.parser.TerminalTokens.TokenNameimplements",
+  "new" : "field org.eclipse.jdt.internal.compiler.parser.TerminalTokens.TokenNameimplements",
+  "name" : "constant field changed value",
+  "description" : "Constant field changed value from '132' to '133'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SEMANTIC",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldValue",
+    "value" : "132"
+  }, {
+    "name" : "newValue",
+    "value" : "133"
+  }, {
+    "name" : "package",
+    "value" : "org.eclipse.jdt.internal.compiler.parser"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.eclipse.jdt.internal.compiler.parser.TerminalTokens"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "TerminalTokens"
+  }, {
+    "name" : "fieldName",
+    "value" : "TokenNameimplements"
+  }, {
+    "name" : "elementKind",
+    "value" : "field"
+  }, {
+    "name" : "oldArchive",
+    "value" : "ecj-3.33.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "ecj-3.34.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.field.constantValueChanged",
+  "old" : "field org.eclipse.jdt.internal.compiler.parser.TerminalTokens.TokenNamesuper",
+  "new" : "field org.eclipse.jdt.internal.compiler.parser.TerminalTokens.TokenNamesuper",
+  "name" : "constant field changed value",
+  "description" : "Constant field changed value from '34' to '35'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SEMANTIC",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldValue",
+    "value" : "34"
+  }, {
+    "name" : "newValue",
+    "value" : "35"
+  }, {
+    "name" : "package",
+    "value" : "org.eclipse.jdt.internal.compiler.parser"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.eclipse.jdt.internal.compiler.parser.TerminalTokens"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "TerminalTokens"
+  }, {
+    "name" : "fieldName",
+    "value" : "TokenNamesuper"
+  }, {
+    "name" : "elementKind",
+    "value" : "field"
+  }, {
+    "name" : "oldArchive",
+    "value" : "ecj-3.33.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "ecj-3.34.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.field.constantValueChanged",
+  "old" : "field org.eclipse.jdt.internal.compiler.parser.TerminalTokens.TokenNamethis",
+  "new" : "field org.eclipse.jdt.internal.compiler.parser.TerminalTokens.TokenNamethis",
+  "name" : "constant field changed value",
+  "description" : "Constant field changed value from '35' to '36'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SEMANTIC",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldValue",
+    "value" : "35"
+  }, {
+    "name" : "newValue",
+    "value" : "36"
+  }, {
+    "name" : "package",
+    "value" : "org.eclipse.jdt.internal.compiler.parser"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.eclipse.jdt.internal.compiler.parser.TerminalTokens"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "TerminalTokens"
+  }, {
+    "name" : "fieldName",
+    "value" : "TokenNamethis"
+  }, {
+    "name" : "elementKind",
+    "value" : "field"
+  }, {
+    "name" : "oldArchive",
+    "value" : "ecj-3.33.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "ecj-3.34.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.field.constantValueChanged",
+  "old" : "field org.eclipse.jdt.internal.compiler.parser.TerminalTokens.TokenNameto",
+  "new" : "field org.eclipse.jdt.internal.compiler.parser.TerminalTokens.TokenNameto",
+  "name" : "constant field changed value",
+  "description" : "Constant field changed value from '133' to '134'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SEMANTIC",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldValue",
+    "value" : "133"
+  }, {
+    "name" : "newValue",
+    "value" : "134"
+  }, {
+    "name" : "package",
+    "value" : "org.eclipse.jdt.internal.compiler.parser"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.eclipse.jdt.internal.compiler.parser.TerminalTokens"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "TerminalTokens"
+  }, {
+    "name" : "fieldName",
+    "value" : "TokenNameto"
+  }, {
+    "name" : "elementKind",
+    "value" : "field"
+  }, {
+    "name" : "oldArchive",
+    "value" : "ecj-3.33.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "ecj-3.34.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.field.constantValueChanged",
+  "old" : "field org.eclipse.jdt.internal.compiler.parser.TerminalTokens.TokenNamewith",
+  "new" : "field org.eclipse.jdt.internal.compiler.parser.TerminalTokens.TokenNamewith",
+  "name" : "constant field changed value",
+  "description" : "Constant field changed value from '134' to '135'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SEMANTIC",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldValue",
+    "value" : "134"
+  }, {
+    "name" : "newValue",
+    "value" : "135"
+  }, {
+    "name" : "package",
+    "value" : "org.eclipse.jdt.internal.compiler.parser"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.eclipse.jdt.internal.compiler.parser.TerminalTokens"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "TerminalTokens"
+  }, {
+    "name" : "fieldName",
+    "value" : "TokenNamewith"
+  }, {
+    "name" : "elementKind",
+    "value" : "field"
+  }, {
+    "name" : "oldArchive",
+    "value" : "ecj-3.33.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "ecj-3.34.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method void org.eclipse.jdt.internal.compiler.problem.ProblemReporter::rawTypeInRecordPattern(org.eclipse.jdt.internal.compiler.lookup.TypeBinding, org.eclipse.jdt.internal.compiler.ast.ASTNode)",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.eclipse.jdt.internal.compiler.problem"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.eclipse.jdt.internal.compiler.problem.ProblemReporter"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "ProblemReporter"
+  }, {
+    "name" : "methodName",
+    "value" : "rawTypeInRecordPattern"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "ecj-3.33.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method void org.eclipse.jdt.internal.compiler.problem.ProblemReporter::switchPatternBothNullAndNonTypePatternNotAllowed(org.eclipse.jdt.internal.compiler.ast.Expression)",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.eclipse.jdt.internal.compiler.problem"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.eclipse.jdt.internal.compiler.problem.ProblemReporter"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "ProblemReporter"
+  }, {
+    "name" : "methodName",
+    "value" : "switchPatternBothNullAndNonTypePatternNotAllowed"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "ecj-3.33.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.nonPublicPartOfAPI",
+  "old" : "class org.eclipse.jdt.internal.compiler.tool.JrtFileSystem.JrtFileObject",
+  "new" : "class org.eclipse.jdt.internal.compiler.tool.JrtFileSystem.JrtFileObject",
+  "name" : "non-public class in API",
+  "description" : "Class 'org.eclipse.jdt.internal.compiler.tool.JrtFileSystem.JrtFileObject' is indirectly included in the API (by the means of method return type for example) but the class is not accessible (neither public nor protected).",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SEMANTIC",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "classSimpleName",
+    "value" : "JrtFileObject"
+  }, {
+    "name" : "exampleUseChainInNewApi",
+    "value" : "org.eclipse.jdt.internal.compiler.tool.JrtFileSystem.JrtFileObject is used as a type parameter or type variable bound on method java.util.List<org.eclipse.jdt.internal.compiler.tool.JrtFileSystem.JrtFileObject> org.eclipse.jdt.internal.compiler.tool.JrtFileSystem::list(org.eclipse.jdt.internal.compiler.tool.ModuleLocationHandler.ModuleLocationWrapper, java.lang.String, java.util.Set<javax.tools.JavaFileObject.Kind>, boolean, java.nio.charset.Charset) (method java.util.List<org.eclipse.jdt.internal.compiler.tool.JrtFileSystem.JrtFileObject> org.eclipse.jdt.internal.compiler.tool.JrtFileSystem::list(org.eclipse.jdt.internal.compiler.tool.ModuleLocationHandler.ModuleLocationWrapper, java.lang.String, java.util.Set<javax.tools.JavaFileObject.Kind>, boolean, java.nio.charset.Charset) is part of the API)"
+  }, {
+    "name" : "package",
+    "value" : "org.eclipse.jdt.internal.compiler.tool"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.eclipse.jdt.internal.compiler.tool.JrtFileSystem.JrtFileObject"
+  }, {
+    "name" : "exampleUseChainInOldApi",
+    "value" : "org.eclipse.jdt.internal.compiler.tool.JrtFileSystem.JrtFileObject is used as a type parameter or type variable bound on method java.util.List<org.eclipse.jdt.internal.compiler.tool.JrtFileSystem.JrtFileObject> org.eclipse.jdt.internal.compiler.tool.JrtFileSystem::list(org.eclipse.jdt.internal.compiler.tool.ModuleLocationHandler.ModuleLocationWrapper, java.lang.String, java.util.Set<javax.tools.JavaFileObject.Kind>, boolean, java.nio.charset.Charset) (method java.util.List<org.eclipse.jdt.internal.compiler.tool.JrtFileSystem.JrtFileObject> org.eclipse.jdt.internal.compiler.tool.JrtFileSystem::list(org.eclipse.jdt.internal.compiler.tool.ModuleLocationHandler.ModuleLocationWrapper, java.lang.String, java.util.Set<javax.tools.JavaFileObject.Kind>, boolean, java.nio.charset.Charset) is part of the API)"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "ecj-3.33.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "ecj-3.34.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.nonPublicPartOfAPI",
+  "old" : "class org.eclipse.jdt.internal.compiler.tool.ModuleLocationHandler.LocationContainer",
+  "new" : "class org.eclipse.jdt.internal.compiler.tool.ModuleLocationHandler.LocationContainer",
+  "name" : "non-public class in API",
+  "description" : "Class 'org.eclipse.jdt.internal.compiler.tool.ModuleLocationHandler.LocationContainer' is indirectly included in the API (by the means of method return type for example) but the class is not accessible (neither public nor protected).",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SEMANTIC",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "classSimpleName",
+    "value" : "LocationContainer"
+  }, {
+    "name" : "exampleUseChainInNewApi",
+    "value" : "org.eclipse.jdt.internal.compiler.tool.ModuleLocationHandler.LocationContainer is returned from method org.eclipse.jdt.internal.compiler.tool.ModuleLocationHandler.LocationContainer org.eclipse.jdt.internal.compiler.tool.ModuleLocationHandler::getLocation(javax.tools.JavaFileManager.Location) (method org.eclipse.jdt.internal.compiler.tool.ModuleLocationHandler.LocationContainer org.eclipse.jdt.internal.compiler.tool.ModuleLocationHandler::getLocation(javax.tools.JavaFileManager.Location) is part of the API)"
+  }, {
+    "name" : "package",
+    "value" : "org.eclipse.jdt.internal.compiler.tool"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.eclipse.jdt.internal.compiler.tool.ModuleLocationHandler.LocationContainer"
+  }, {
+    "name" : "exampleUseChainInOldApi",
+    "value" : "org.eclipse.jdt.internal.compiler.tool.ModuleLocationHandler.LocationContainer is returned from method org.eclipse.jdt.internal.compiler.tool.ModuleLocationHandler.LocationContainer org.eclipse.jdt.internal.compiler.tool.ModuleLocationHandler::getLocation(javax.tools.JavaFileManager.Location) (method org.eclipse.jdt.internal.compiler.tool.ModuleLocationHandler.LocationContainer org.eclipse.jdt.internal.compiler.tool.ModuleLocationHandler::getLocation(javax.tools.JavaFileManager.Location) is part of the API)"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "ecj-3.33.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "ecj-3.34.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.nonPublicPartOfAPI",
+  "old" : "class org.eclipse.jdt.internal.compiler.tool.ModuleLocationHandler.ModuleLocationWrapper",
+  "new" : "class org.eclipse.jdt.internal.compiler.tool.ModuleLocationHandler.ModuleLocationWrapper",
+  "name" : "non-public class in API",
+  "description" : "Class 'org.eclipse.jdt.internal.compiler.tool.ModuleLocationHandler.ModuleLocationWrapper' is indirectly included in the API (by the means of method return type for example) but the class is not accessible (neither public nor protected).",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SEMANTIC",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "classSimpleName",
+    "value" : "ModuleLocationWrapper"
+  }, {
+    "name" : "exampleUseChainInNewApi",
+    "value" : "org.eclipse.jdt.internal.compiler.tool.ModuleLocationHandler.ModuleLocationWrapper is used as parameter in method java.util.List<org.eclipse.jdt.internal.compiler.tool.JrtFileSystem.JrtFileObject> org.eclipse.jdt.internal.compiler.tool.JrtFileSystem::list(org.eclipse.jdt.internal.compiler.tool.ModuleLocationHandler.ModuleLocationWrapper, java.lang.String, java.util.Set<javax.tools.JavaFileObject.Kind>, boolean, java.nio.charset.Charset) (method java.util.List<org.eclipse.jdt.internal.compiler.tool.JrtFileSystem.JrtFileObject> org.eclipse.jdt.internal.compiler.tool.JrtFileSystem::list(org.eclipse.jdt.internal.compiler.tool.ModuleLocationHandler.ModuleLocationWrapper, java.lang.String, java.util.Set<javax.tools.JavaFileObject.Kind>, boolean, java.nio.charset.Charset) is part of the API)"
+  }, {
+    "name" : "package",
+    "value" : "org.eclipse.jdt.internal.compiler.tool"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.eclipse.jdt.internal.compiler.tool.ModuleLocationHandler.ModuleLocationWrapper"
+  }, {
+    "name" : "exampleUseChainInOldApi",
+    "value" : "org.eclipse.jdt.internal.compiler.tool.ModuleLocationHandler.ModuleLocationWrapper is used as parameter in method java.util.List<org.eclipse.jdt.internal.compiler.tool.JrtFileSystem.JrtFileObject> org.eclipse.jdt.internal.compiler.tool.JrtFileSystem::list(org.eclipse.jdt.internal.compiler.tool.ModuleLocationHandler.ModuleLocationWrapper, java.lang.String, java.util.Set<javax.tools.JavaFileObject.Kind>, boolean, java.nio.charset.Charset) (method java.util.List<org.eclipse.jdt.internal.compiler.tool.JrtFileSystem.JrtFileObject> org.eclipse.jdt.internal.compiler.tool.JrtFileSystem::list(org.eclipse.jdt.internal.compiler.tool.ModuleLocationHandler.ModuleLocationWrapper, java.lang.String, java.util.Set<javax.tools.JavaFileObject.Kind>, boolean, java.nio.charset.Charset) is part of the API)"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "ecj-3.33.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "ecj-3.34.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.nonPublicPartOfAPI",
+  "old" : "class org.eclipse.jdt.internal.compiler.util.JrtFileSystem",
+  "new" : "class org.eclipse.jdt.internal.compiler.util.JrtFileSystem",
+  "name" : "non-public class in API",
+  "description" : "Class 'org.eclipse.jdt.internal.compiler.util.JrtFileSystem' is indirectly included in the API (by the means of method return type for example) but the class is not accessible (neither public nor protected).",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SEMANTIC",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "classSimpleName",
+    "value" : "JrtFileSystem"
+  }, {
+    "name" : "exampleUseChainInNewApi",
+    "value" : "org.eclipse.jdt.internal.compiler.util.JrtFileSystem is returned from method org.eclipse.jdt.internal.compiler.util.JrtFileSystem org.eclipse.jdt.internal.compiler.util.JrtFileSystem::getNewJrtFileSystem(org.eclipse.jdt.internal.compiler.util.Jdk, java.lang.String) throws java.io.IOException <- org.eclipse.jdt.internal.compiler.util.JrtFileSystem is returned from method org.eclipse.jdt.internal.compiler.util.JrtFileSystem org.eclipse.jdt.internal.compiler.util.JRTUtil::getJrtSystem(java.io.File, java.lang.String) (method org.eclipse.jdt.internal.compiler.util.JrtFileSystem org.eclipse.jdt.internal.compiler.util.JRTUtil::getJrtSystem(java.io.File, java.lang.String) is part of the API)"
+  }, {
+    "name" : "package",
+    "value" : "org.eclipse.jdt.internal.compiler.util"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.eclipse.jdt.internal.compiler.util.JrtFileSystem"
+  }, {
+    "name" : "exampleUseChainInOldApi",
+    "value" : "org.eclipse.jdt.internal.compiler.util.JrtFileSystem is returned from method org.eclipse.jdt.internal.compiler.util.JrtFileSystem org.eclipse.jdt.internal.compiler.util.JrtFileSystem::getNewJrtFileSystem(org.eclipse.jdt.internal.compiler.util.Jdk, java.lang.String) throws java.io.IOException <- org.eclipse.jdt.internal.compiler.util.JrtFileSystem is returned from method org.eclipse.jdt.internal.compiler.util.JrtFileSystem org.eclipse.jdt.internal.compiler.util.JRTUtil::getJrtSystem(java.io.File, java.lang.String) (method org.eclipse.jdt.internal.compiler.util.JrtFileSystem org.eclipse.jdt.internal.compiler.util.JRTUtil::getJrtSystem(java.io.File, java.lang.String) is part of the API)"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "ecj-3.33.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "ecj-3.34.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+} ]

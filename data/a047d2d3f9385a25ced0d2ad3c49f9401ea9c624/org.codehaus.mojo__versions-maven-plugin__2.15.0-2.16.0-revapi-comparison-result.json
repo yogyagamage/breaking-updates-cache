@@ -1,0 +1,75 @@
+[ {
+  "code" : "java.field.removed",
+  "old" : "field org.codehaus.mojo.versions.SetMojo.interpolateProperties",
+  "new" : null,
+  "name" : "field removed",
+  "description" : "Field removed from class.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.codehaus.mojo.versions"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.codehaus.mojo.versions.SetMojo"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "SetMojo"
+  }, {
+    "name" : "fieldName",
+    "value" : "interpolateProperties"
+  }, {
+    "name" : "elementKind",
+    "value" : "field"
+  }, {
+    "name" : "oldArchive",
+    "value" : "versions-maven-plugin-2.15.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+} ][ {
+  "code" : "java.field.removed",
+  "old" : "field org.codehaus.mojo.versions.SetMojo.interpolateProperties",
+  "new" : null,
+  "name" : "field removed",
+  "description" : "Field removed from class.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.codehaus.mojo.versions"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.codehaus.mojo.versions.SetMojo"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "SetMojo"
+  }, {
+    "name" : "fieldName",
+    "value" : "interpolateProperties"
+  }, {
+    "name" : "elementKind",
+    "value" : "field"
+  }, {
+    "name" : "oldArchive",
+    "value" : "versions-maven-plugin-2.15.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+} ]

@@ -1,0 +1,715 @@
+[ {
+  "code" : "java.class.removed",
+  "old" : "class org.codehaus.plexus.util.xml.CompactXMLWriter",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.codehaus.plexus.util.xml"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.codehaus.plexus.util.xml.CompactXMLWriter"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "CompactXMLWriter"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "plexus-utils-3.5.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class org.codehaus.plexus.util.xml.PrettyPrintXMLWriter",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.codehaus.plexus.util.xml"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.codehaus.plexus.util.xml.PrettyPrintXMLWriter"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "PrettyPrintXMLWriter"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "plexus-utils-3.5.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class org.codehaus.plexus.util.xml.SerializerXMLWriter",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.codehaus.plexus.util.xml"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.codehaus.plexus.util.xml.SerializerXMLWriter"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "SerializerXMLWriter"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "plexus-utils-3.5.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "interface org.codehaus.plexus.util.xml.XMLWriter",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.codehaus.plexus.util.xml"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.codehaus.plexus.util.xml.XMLWriter"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "XMLWriter"
+  }, {
+    "name" : "elementKind",
+    "value" : "interface"
+  }, {
+    "name" : "oldArchive",
+    "value" : "plexus-utils-3.5.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class org.codehaus.plexus.util.xml.XmlReader",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.codehaus.plexus.util.xml"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.codehaus.plexus.util.xml.XmlReader"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "XmlReader"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "plexus-utils-3.5.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class org.codehaus.plexus.util.xml.XmlReaderException",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.codehaus.plexus.util.xml"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.codehaus.plexus.util.xml.XmlReaderException"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "XmlReaderException"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "plexus-utils-3.5.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class org.codehaus.plexus.util.xml.XmlStreamReader",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.codehaus.plexus.util.xml"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.codehaus.plexus.util.xml.XmlStreamReader"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "XmlStreamReader"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "plexus-utils-3.5.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class org.codehaus.plexus.util.xml.XmlStreamReaderException",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.codehaus.plexus.util.xml"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.codehaus.plexus.util.xml.XmlStreamReaderException"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "XmlStreamReaderException"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "plexus-utils-3.5.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class org.codehaus.plexus.util.xml.XmlStreamWriter",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.codehaus.plexus.util.xml"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.codehaus.plexus.util.xml.XmlStreamWriter"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "XmlStreamWriter"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "plexus-utils-3.5.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class org.codehaus.plexus.util.xml.XmlUtil",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.codehaus.plexus.util.xml"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.codehaus.plexus.util.xml.XmlUtil"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "XmlUtil"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "plexus-utils-3.5.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class org.codehaus.plexus.util.xml.XmlWriterUtil",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.codehaus.plexus.util.xml"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.codehaus.plexus.util.xml.XmlWriterUtil"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "XmlWriterUtil"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "plexus-utils-3.5.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class org.codehaus.plexus.util.xml.Xpp3Dom",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.codehaus.plexus.util.xml"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.codehaus.plexus.util.xml.Xpp3Dom"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "Xpp3Dom"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "plexus-utils-3.5.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class org.codehaus.plexus.util.xml.Xpp3DomBuilder",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.codehaus.plexus.util.xml"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.codehaus.plexus.util.xml.Xpp3DomBuilder"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "Xpp3DomBuilder"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "plexus-utils-3.5.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class org.codehaus.plexus.util.xml.Xpp3DomUtils",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.codehaus.plexus.util.xml"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.codehaus.plexus.util.xml.Xpp3DomUtils"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "Xpp3DomUtils"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "plexus-utils-3.5.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class org.codehaus.plexus.util.xml.Xpp3DomWriter",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.codehaus.plexus.util.xml"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.codehaus.plexus.util.xml.Xpp3DomWriter"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "Xpp3DomWriter"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "plexus-utils-3.5.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class org.codehaus.plexus.util.xml.pull.EntityReplacementMap",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.codehaus.plexus.util.xml.pull"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.codehaus.plexus.util.xml.pull.EntityReplacementMap"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "EntityReplacementMap"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "plexus-utils-3.5.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class org.codehaus.plexus.util.xml.pull.MXParser",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.codehaus.plexus.util.xml.pull"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.codehaus.plexus.util.xml.pull.MXParser"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "MXParser"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "plexus-utils-3.5.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class org.codehaus.plexus.util.xml.pull.MXSerializer",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.codehaus.plexus.util.xml.pull"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.codehaus.plexus.util.xml.pull.MXSerializer"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "MXSerializer"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "plexus-utils-3.5.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "interface org.codehaus.plexus.util.xml.pull.XmlPullParser",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.codehaus.plexus.util.xml.pull"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.codehaus.plexus.util.xml.pull.XmlPullParser"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "XmlPullParser"
+  }, {
+    "name" : "elementKind",
+    "value" : "interface"
+  }, {
+    "name" : "oldArchive",
+    "value" : "plexus-utils-3.5.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class org.codehaus.plexus.util.xml.pull.XmlPullParserException",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.codehaus.plexus.util.xml.pull"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.codehaus.plexus.util.xml.pull.XmlPullParserException"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "XmlPullParserException"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "plexus-utils-3.5.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "interface org.codehaus.plexus.util.xml.pull.XmlSerializer",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.codehaus.plexus.util.xml.pull"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.codehaus.plexus.util.xml.pull.XmlSerializer"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "XmlSerializer"
+  }, {
+    "name" : "elementKind",
+    "value" : "interface"
+  }, {
+    "name" : "oldArchive",
+    "value" : "plexus-utils-3.5.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+} ]

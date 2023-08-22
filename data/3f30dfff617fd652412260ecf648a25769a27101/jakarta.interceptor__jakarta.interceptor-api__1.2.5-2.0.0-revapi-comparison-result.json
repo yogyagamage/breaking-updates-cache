@@ -1,0 +1,613 @@
+[ {
+  "code" : "java.class.removed",
+  "old" : "@interface javax.interceptor.AroundConstruct",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "javax.interceptor"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "javax.interceptor.AroundConstruct"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "AroundConstruct"
+  }, {
+    "name" : "elementKind",
+    "value" : "@interface"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jakarta.interceptor-api-1.2.5.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "@interface javax.interceptor.AroundInvoke",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "javax.interceptor"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "javax.interceptor.AroundInvoke"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "AroundInvoke"
+  }, {
+    "name" : "elementKind",
+    "value" : "@interface"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jakarta.interceptor-api-1.2.5.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "@interface javax.interceptor.AroundTimeout",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "javax.interceptor"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "javax.interceptor.AroundTimeout"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "AroundTimeout"
+  }, {
+    "name" : "elementKind",
+    "value" : "@interface"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jakarta.interceptor-api-1.2.5.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "@interface javax.interceptor.ExcludeClassInterceptors",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "javax.interceptor"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "javax.interceptor.ExcludeClassInterceptors"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "ExcludeClassInterceptors"
+  }, {
+    "name" : "elementKind",
+    "value" : "@interface"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jakarta.interceptor-api-1.2.5.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "@interface javax.interceptor.ExcludeDefaultInterceptors",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "javax.interceptor"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "javax.interceptor.ExcludeDefaultInterceptors"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "ExcludeDefaultInterceptors"
+  }, {
+    "name" : "elementKind",
+    "value" : "@interface"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jakarta.interceptor-api-1.2.5.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "@interface javax.interceptor.Interceptor",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "javax.interceptor"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "javax.interceptor.Interceptor"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "Interceptor"
+  }, {
+    "name" : "elementKind",
+    "value" : "@interface"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jakarta.interceptor-api-1.2.5.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "@interface javax.interceptor.InterceptorBinding",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "javax.interceptor"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "javax.interceptor.InterceptorBinding"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "InterceptorBinding"
+  }, {
+    "name" : "elementKind",
+    "value" : "@interface"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jakarta.interceptor-api-1.2.5.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "@interface javax.interceptor.Interceptors",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "javax.interceptor"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "javax.interceptor.Interceptors"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "Interceptors"
+  }, {
+    "name" : "elementKind",
+    "value" : "@interface"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jakarta.interceptor-api-1.2.5.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "interface javax.interceptor.InvocationContext",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "javax.interceptor"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "javax.interceptor.InvocationContext"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "InvocationContext"
+  }, {
+    "name" : "elementKind",
+    "value" : "interface"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jakarta.interceptor-api-1.2.5.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+} ][ {
+  "code" : "java.class.removed",
+  "old" : "@interface javax.interceptor.AroundConstruct",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "javax.interceptor"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "javax.interceptor.AroundConstruct"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "AroundConstruct"
+  }, {
+    "name" : "elementKind",
+    "value" : "@interface"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jakarta.interceptor-api-1.2.5.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "@interface javax.interceptor.AroundInvoke",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "javax.interceptor"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "javax.interceptor.AroundInvoke"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "AroundInvoke"
+  }, {
+    "name" : "elementKind",
+    "value" : "@interface"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jakarta.interceptor-api-1.2.5.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "@interface javax.interceptor.AroundTimeout",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "javax.interceptor"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "javax.interceptor.AroundTimeout"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "AroundTimeout"
+  }, {
+    "name" : "elementKind",
+    "value" : "@interface"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jakarta.interceptor-api-1.2.5.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "@interface javax.interceptor.ExcludeClassInterceptors",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "javax.interceptor"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "javax.interceptor.ExcludeClassInterceptors"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "ExcludeClassInterceptors"
+  }, {
+    "name" : "elementKind",
+    "value" : "@interface"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jakarta.interceptor-api-1.2.5.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "@interface javax.interceptor.ExcludeDefaultInterceptors",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "javax.interceptor"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "javax.interceptor.ExcludeDefaultInterceptors"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "ExcludeDefaultInterceptors"
+  }, {
+    "name" : "elementKind",
+    "value" : "@interface"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jakarta.interceptor-api-1.2.5.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "@interface javax.interceptor.Interceptor",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "javax.interceptor"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "javax.interceptor.Interceptor"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "Interceptor"
+  }, {
+    "name" : "elementKind",
+    "value" : "@interface"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jakarta.interceptor-api-1.2.5.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "@interface javax.interceptor.InterceptorBinding",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "javax.interceptor"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "javax.interceptor.InterceptorBinding"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "InterceptorBinding"
+  }, {
+    "name" : "elementKind",
+    "value" : "@interface"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jakarta.interceptor-api-1.2.5.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "@interface javax.interceptor.Interceptors",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "javax.interceptor"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "javax.interceptor.Interceptors"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "Interceptors"
+  }, {
+    "name" : "elementKind",
+    "value" : "@interface"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jakarta.interceptor-api-1.2.5.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "interface javax.interceptor.InvocationContext",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "javax.interceptor"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "javax.interceptor.InvocationContext"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "InvocationContext"
+  }, {
+    "name" : "elementKind",
+    "value" : "interface"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jakarta.interceptor-api-1.2.5.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+} ]

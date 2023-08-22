@@ -1,0 +1,3145 @@
+[ {
+  "code" : "java.method.returnTypeTypeParametersChanged",
+  "old" : "method java.util.List<org.apache.maven.plugin.surefire.ProviderInfo> org.apache.maven.plugin.surefire.AbstractSurefireMojo::createProviders(org.apache.maven.plugin.surefire.TestClassPath) throws org.apache.maven.plugin.MojoExecutionException",
+  "new" : "method java.util.List<org.apache.maven.surefire.providerapi.ProviderInfo> org.apache.maven.plugin.surefire.AbstractSurefireMojo::createProviders(org.apache.maven.plugin.surefire.TestClassPath) throws org.apache.maven.plugin.MojoExecutionException",
+  "name" : "return type changed type parameter",
+  "description" : "The return type changed from 'java.util.List<org.apache.maven.plugin.surefire.ProviderInfo>' to 'java.util.List<org.apache.maven.surefire.providerapi.ProviderInfo>'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "java.util.List<org.apache.maven.plugin.surefire.ProviderInfo>"
+  }, {
+    "name" : "newType",
+    "value" : "java.util.List<org.apache.maven.surefire.providerapi.ProviderInfo>"
+  }, {
+    "name" : "package",
+    "value" : "org.apache.maven.plugin.surefire"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.maven.plugin.surefire.AbstractSurefireMojo"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "AbstractSurefireMojo"
+  }, {
+    "name" : "methodName",
+    "value" : "createProviders"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "maven-surefire-common-3.0.0-M5.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "maven-surefire-common-3.0.0-M7.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method org.apache.maven.shared.transfer.dependencies.resolve.DependencyResolver org.apache.maven.plugin.surefire.AbstractSurefireMojo::getDependencyResolver()",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.apache.maven.plugin.surefire"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.maven.plugin.surefire.AbstractSurefireMojo"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "AbstractSurefireMojo"
+  }, {
+    "name" : "methodName",
+    "value" : "getDependencyResolver"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "maven-surefire-common-3.0.0-M5.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.nowAbstract",
+  "old" : "method java.util.List<java.lang.String> org.apache.maven.plugin.surefire.AbstractSurefireMojo::getExcludes()",
+  "new" : "method java.util.List<java.lang.String> org.apache.maven.plugin.surefire.SurefireExecutionParameters::getExcludes() @ org.apache.maven.plugin.surefire.AbstractSurefireMojo",
+  "name" : "Method now abstract",
+  "description" : "Method now abstract",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldModifiers",
+    "value" : "public"
+  }, {
+    "name" : "newModifiers",
+    "value" : "public abstract"
+  }, {
+    "name" : "package",
+    "value" : "org.apache.maven.plugin.surefire"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.maven.plugin.surefire.AbstractSurefireMojo"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "AbstractSurefireMojo"
+  }, {
+    "name" : "methodName",
+    "value" : "getExcludes"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "maven-surefire-common-3.0.0-M5.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "maven-surefire-common-3.0.0-M7.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.movedToSuperClass",
+  "old" : "method java.util.List<java.lang.String> org.apache.maven.plugin.surefire.AbstractSurefireMojo::getExcludes()",
+  "new" : "method java.util.List<java.lang.String> org.apache.maven.plugin.surefire.SurefireExecutionParameters::getExcludes() @ org.apache.maven.plugin.surefire.AbstractSurefireMojo",
+  "name" : "method moved to superclass",
+  "description" : "The method used to be declared in class 'org.apache.maven.plugin.surefire.AbstractSurefireMojo' but is now declared in superclass 'org.apache.maven.plugin.surefire.SurefireExecutionParameters'.",
+  "criticality" : "allowed",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "EQUIVALENT"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "EQUIVALENT"
+  } ],
+  "attachments" : [ {
+    "name" : "oldClass",
+    "value" : "org.apache.maven.plugin.surefire.AbstractSurefireMojo"
+  }, {
+    "name" : "newClass",
+    "value" : "org.apache.maven.plugin.surefire.SurefireExecutionParameters"
+  }, {
+    "name" : "package",
+    "value" : "org.apache.maven.plugin.surefire"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.maven.plugin.surefire.AbstractSurefireMojo"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "AbstractSurefireMojo"
+  }, {
+    "name" : "methodName",
+    "value" : "getExcludes"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "maven-surefire-common-3.0.0-M5.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "maven-surefire-common-3.0.0-M7.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.returnTypeChanged",
+  "old" : "method java.lang.Boolean org.apache.maven.plugin.surefire.AbstractSurefireMojo::getFailIfNoTests()",
+  "new" : "method boolean org.apache.maven.plugin.surefire.AbstractSurefireMojo::getFailIfNoTests()",
+  "name" : "return type changed",
+  "description" : "The return type changed from 'java.lang.Boolean' to  'boolean'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "POTENTIALLY_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "java.lang.Boolean"
+  }, {
+    "name" : "newType",
+    "value" : "boolean"
+  }, {
+    "name" : "package",
+    "value" : "org.apache.maven.plugin.surefire"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.maven.plugin.surefire.AbstractSurefireMojo"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "AbstractSurefireMojo"
+  }, {
+    "name" : "methodName",
+    "value" : "getFailIfNoTests"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "maven-surefire-common-3.0.0-M5.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "maven-surefire-common-3.0.0-M7.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.abstractMethodAdded",
+  "old" : null,
+  "new" : "method java.lang.Long org.apache.maven.plugin.surefire.AbstractSurefireMojo::getRunOrderRandomSeed()",
+  "name" : "abstract method added",
+  "description" : "Abstract method was added.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.apache.maven.plugin.surefire"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.maven.plugin.surefire.AbstractSurefireMojo"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "AbstractSurefireMojo"
+  }, {
+    "name" : "methodName",
+    "value" : "getRunOrderRandomSeed"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "newArchive",
+    "value" : "maven-surefire-common-3.0.0-M7.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.exception.checkedAdded",
+  "old" : "method org.apache.maven.surefire.api.testset.TestListResolver org.apache.maven.plugin.surefire.AbstractSurefireMojo::getSpecificTests()",
+  "new" : "method org.apache.maven.surefire.api.testset.TestListResolver org.apache.maven.plugin.surefire.AbstractSurefireMojo::getSpecificTests() throws org.apache.maven.plugin.MojoFailureException",
+  "name" : "Method newly throws checked exceptions",
+  "description" : "Method newly throws checked exceptions: org.apache.maven.plugin.MojoFailureException.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "exception",
+    "value" : "org.apache.maven.plugin.MojoFailureException"
+  }, {
+    "name" : "package",
+    "value" : "org.apache.maven.plugin.surefire"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.maven.plugin.surefire.AbstractSurefireMojo"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "AbstractSurefireMojo"
+  }, {
+    "name" : "methodName",
+    "value" : "getSpecificTests"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "maven-surefire-common-3.0.0-M5.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "maven-surefire-common-3.0.0-M7.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method void org.apache.maven.plugin.surefire.AbstractSurefireMojo::setDependencyResolver(org.apache.maven.shared.transfer.dependencies.resolve.DependencyResolver)",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.apache.maven.plugin.surefire"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.maven.plugin.surefire.AbstractSurefireMojo"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "AbstractSurefireMojo"
+  }, {
+    "name" : "methodName",
+    "value" : "setDependencyResolver"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "maven-surefire-common-3.0.0-M5.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.nowAbstract",
+  "old" : "method void org.apache.maven.plugin.surefire.AbstractSurefireMojo::setExcludes(java.util.List<java.lang.String>)",
+  "new" : "method void org.apache.maven.plugin.surefire.SurefireExecutionParameters::setExcludes(java.util.List<java.lang.String>) @ org.apache.maven.plugin.surefire.AbstractSurefireMojo",
+  "name" : "Method now abstract",
+  "description" : "Method now abstract",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldModifiers",
+    "value" : "public"
+  }, {
+    "name" : "newModifiers",
+    "value" : "public abstract"
+  }, {
+    "name" : "package",
+    "value" : "org.apache.maven.plugin.surefire"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.maven.plugin.surefire.AbstractSurefireMojo"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "AbstractSurefireMojo"
+  }, {
+    "name" : "methodName",
+    "value" : "setExcludes"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "maven-surefire-common-3.0.0-M5.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "maven-surefire-common-3.0.0-M7.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.movedToSuperClass",
+  "old" : "method void org.apache.maven.plugin.surefire.AbstractSurefireMojo::setExcludes(java.util.List<java.lang.String>)",
+  "new" : "method void org.apache.maven.plugin.surefire.SurefireExecutionParameters::setExcludes(java.util.List<java.lang.String>) @ org.apache.maven.plugin.surefire.AbstractSurefireMojo",
+  "name" : "method moved to superclass",
+  "description" : "The method used to be declared in class 'org.apache.maven.plugin.surefire.AbstractSurefireMojo' but is now declared in superclass 'org.apache.maven.plugin.surefire.SurefireExecutionParameters'.",
+  "criticality" : "allowed",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "EQUIVALENT"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "EQUIVALENT"
+  } ],
+  "attachments" : [ {
+    "name" : "oldClass",
+    "value" : "org.apache.maven.plugin.surefire.AbstractSurefireMojo"
+  }, {
+    "name" : "newClass",
+    "value" : "org.apache.maven.plugin.surefire.SurefireExecutionParameters"
+  }, {
+    "name" : "package",
+    "value" : "org.apache.maven.plugin.surefire"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.maven.plugin.surefire.AbstractSurefireMojo"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "AbstractSurefireMojo"
+  }, {
+    "name" : "methodName",
+    "value" : "setExcludes"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "maven-surefire-common-3.0.0-M5.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "maven-surefire-common-3.0.0-M7.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.abstractMethodAdded",
+  "old" : null,
+  "new" : "method void org.apache.maven.plugin.surefire.AbstractSurefireMojo::setRunOrderRandomSeed(java.lang.Long)",
+  "name" : "abstract method added",
+  "description" : "Abstract method was added.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.apache.maven.plugin.surefire"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.maven.plugin.surefire.AbstractSurefireMojo"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "AbstractSurefireMojo"
+  }, {
+    "name" : "methodName",
+    "value" : "setRunOrderRandomSeed"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "newArchive",
+    "value" : "maven-surefire-common-3.0.0-M7.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.numberOfParametersChanged",
+  "old" : "method void org.apache.maven.plugin.surefire.InPluginVMSurefireStarter::<init>(org.apache.maven.surefire.booter.StartupConfiguration, org.apache.maven.surefire.booter.ProviderConfiguration, org.apache.maven.plugin.surefire.StartupReportConfiguration, org.apache.maven.plugin.surefire.log.api.ConsoleLogger)",
+  "new" : "method void org.apache.maven.plugin.surefire.InPluginVMSurefireStarter::<init>(org.apache.maven.surefire.booter.StartupConfiguration, org.apache.maven.surefire.booter.ProviderConfiguration, org.apache.maven.plugin.surefire.StartupReportConfiguration, org.apache.maven.plugin.surefire.log.api.ConsoleLogger, org.apache.maven.plugin.surefire.booterclient.Platform)",
+  "name" : "number of parameters changed",
+  "description" : "The number of parameters of the method have changed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.apache.maven.plugin.surefire"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.maven.plugin.surefire.InPluginVMSurefireStarter"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "InPluginVMSurefireStarter"
+  }, {
+    "name" : "methodName",
+    "value" : "<init>"
+  }, {
+    "name" : "elementKind",
+    "value" : "constructor"
+  }, {
+    "name" : "oldArchive",
+    "value" : "maven-surefire-common-3.0.0-M5.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "maven-surefire-common-3.0.0-M7.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "interface org.apache.maven.plugin.surefire.ProviderInfo",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.apache.maven.plugin.surefire"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.maven.plugin.surefire.ProviderInfo"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "ProviderInfo"
+  }, {
+    "name" : "elementKind",
+    "value" : "interface"
+  }, {
+    "name" : "oldArchive",
+    "value" : "maven-surefire-common-3.0.0-M5.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.addedToInterface",
+  "old" : null,
+  "new" : "method java.lang.String[] org.apache.maven.plugin.surefire.SurefireExecutionParameters::getExcludeJUnit5Engines()",
+  "name" : "method added to interface",
+  "description" : "Method was added to an interface.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SEMANTIC",
+    "severity" : "POTENTIALLY_BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.apache.maven.plugin.surefire"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.maven.plugin.surefire.SurefireExecutionParameters"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "SurefireExecutionParameters"
+  }, {
+    "name" : "methodName",
+    "value" : "getExcludeJUnit5Engines"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "newArchive",
+    "value" : "maven-surefire-common-3.0.0-M7.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.returnTypeChanged",
+  "old" : "method java.lang.Boolean org.apache.maven.plugin.surefire.SurefireExecutionParameters::getFailIfNoSpecifiedTests()",
+  "new" : "method boolean org.apache.maven.plugin.surefire.SurefireExecutionParameters::getFailIfNoSpecifiedTests()",
+  "name" : "return type changed",
+  "description" : "The return type changed from 'java.lang.Boolean' to  'boolean'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "POTENTIALLY_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "java.lang.Boolean"
+  }, {
+    "name" : "newType",
+    "value" : "boolean"
+  }, {
+    "name" : "package",
+    "value" : "org.apache.maven.plugin.surefire"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.maven.plugin.surefire.SurefireExecutionParameters"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "SurefireExecutionParameters"
+  }, {
+    "name" : "methodName",
+    "value" : "getFailIfNoSpecifiedTests"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "maven-surefire-common-3.0.0-M5.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "maven-surefire-common-3.0.0-M7.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.addedToInterface",
+  "old" : null,
+  "new" : "method java.lang.String[] org.apache.maven.plugin.surefire.SurefireExecutionParameters::getIncludeJUnit5Engines()",
+  "name" : "method added to interface",
+  "description" : "Method was added to an interface.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SEMANTIC",
+    "severity" : "POTENTIALLY_BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.apache.maven.plugin.surefire"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.maven.plugin.surefire.SurefireExecutionParameters"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "SurefireExecutionParameters"
+  }, {
+    "name" : "methodName",
+    "value" : "getIncludeJUnit5Engines"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "newArchive",
+    "value" : "maven-surefire-common-3.0.0-M7.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.addedToInterface",
+  "old" : null,
+  "new" : "method void org.apache.maven.plugin.surefire.SurefireExecutionParameters::setExcludeJUnit5Engines(java.lang.String[])",
+  "name" : "method added to interface",
+  "description" : "Method was added to an interface.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SEMANTIC",
+    "severity" : "POTENTIALLY_BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.apache.maven.plugin.surefire"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.maven.plugin.surefire.SurefireExecutionParameters"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "SurefireExecutionParameters"
+  }, {
+    "name" : "methodName",
+    "value" : "setExcludeJUnit5Engines"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "newArchive",
+    "value" : "maven-surefire-common-3.0.0-M7.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.addedToInterface",
+  "old" : null,
+  "new" : "method void org.apache.maven.plugin.surefire.SurefireExecutionParameters::setIncludeJUnit5Engines(java.lang.String[])",
+  "name" : "method added to interface",
+  "description" : "Method was added to an interface.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SEMANTIC",
+    "severity" : "POTENTIALLY_BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.apache.maven.plugin.surefire"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.maven.plugin.surefire.SurefireExecutionParameters"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "SurefireExecutionParameters"
+  }, {
+    "name" : "methodName",
+    "value" : "setIncludeJUnit5Engines"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "newArchive",
+    "value" : "maven-surefire-common-3.0.0-M7.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.visibilityReduced",
+  "old" : "method void org.apache.maven.plugin.surefire.SurefireProperties::copyProperties(java.util.Properties, java.util.Map<java.lang.String, java.lang.String>)",
+  "new" : "method void org.apache.maven.plugin.surefire.SurefireProperties::copyProperties(java.util.Properties, java.util.Map<java.lang.String, java.lang.String>)",
+  "name" : "visibility reduced",
+  "description" : "visibility reduced",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldVisibility",
+    "value" : "public"
+  }, {
+    "name" : "newVisibility",
+    "value" : "private"
+  }, {
+    "name" : "package",
+    "value" : "org.apache.maven.plugin.surefire"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.maven.plugin.surefire.SurefireProperties"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "SurefireProperties"
+  }, {
+    "name" : "methodName",
+    "value" : "copyProperties"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "maven-surefire-common-3.0.0-M5.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "maven-surefire-common-3.0.0-M7.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.returnTypeChanged",
+  "old" : "method java.lang.Boolean org.apache.maven.plugin.surefire.SurefireReportParameters::getFailIfNoTests()",
+  "new" : "method boolean org.apache.maven.plugin.surefire.SurefireReportParameters::getFailIfNoTests()",
+  "name" : "return type changed",
+  "description" : "The return type changed from 'java.lang.Boolean' to  'boolean'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "POTENTIALLY_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "java.lang.Boolean"
+  }, {
+    "name" : "newType",
+    "value" : "boolean"
+  }, {
+    "name" : "package",
+    "value" : "org.apache.maven.plugin.surefire"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.maven.plugin.surefire.SurefireReportParameters"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "SurefireReportParameters"
+  }, {
+    "name" : "methodName",
+    "value" : "getFailIfNoTests"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "maven-surefire-common-3.0.0-M5.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "maven-surefire-common-3.0.0-M7.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.addedToInterface",
+  "old" : null,
+  "new" : "method int org.apache.maven.plugin.surefire.SurefireReportParameters::getFailOnFlakeCount()",
+  "name" : "method added to interface",
+  "description" : "Method was added to an interface.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SEMANTIC",
+    "severity" : "POTENTIALLY_BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.apache.maven.plugin.surefire"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.maven.plugin.surefire.SurefireReportParameters"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "SurefireReportParameters"
+  }, {
+    "name" : "methodName",
+    "value" : "getFailOnFlakeCount"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "newArchive",
+    "value" : "maven-surefire-common-3.0.0-M7.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.addedToInterface",
+  "old" : null,
+  "new" : "method void org.apache.maven.plugin.surefire.SurefireReportParameters::setFailOnFlakeCount(int)",
+  "name" : "method added to interface",
+  "description" : "Method was added to an interface.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SEMANTIC",
+    "severity" : "POTENTIALLY_BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.apache.maven.plugin.surefire"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.maven.plugin.surefire.SurefireReportParameters"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "SurefireReportParameters"
+  }, {
+    "name" : "methodName",
+    "value" : "setFailOnFlakeCount"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "newArchive",
+    "value" : "maven-surefire-common-3.0.0-M7.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.nonPublicPartOfAPI",
+  "old" : "class org.apache.maven.plugin.surefire.TestClassPath",
+  "new" : "class org.apache.maven.plugin.surefire.TestClassPath",
+  "name" : "non-public class in API",
+  "description" : "Class 'org.apache.maven.plugin.surefire.TestClassPath' is indirectly included in the API (by the means of method return type for example) but the class is not accessible (neither public nor protected).",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SEMANTIC",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "classSimpleName",
+    "value" : "TestClassPath"
+  }, {
+    "name" : "exampleUseChainInNewApi",
+    "value" : "org.apache.maven.plugin.surefire.TestClassPath is used as parameter in method java.util.List<org.apache.maven.surefire.providerapi.ProviderInfo> org.apache.maven.plugin.surefire.AbstractSurefireMojo::createProviders(org.apache.maven.plugin.surefire.TestClassPath) throws org.apache.maven.plugin.MojoExecutionException (method java.util.List<org.apache.maven.surefire.providerapi.ProviderInfo> org.apache.maven.plugin.surefire.AbstractSurefireMojo::createProviders(org.apache.maven.plugin.surefire.TestClassPath) throws org.apache.maven.plugin.MojoExecutionException is part of the API)"
+  }, {
+    "name" : "package",
+    "value" : "org.apache.maven.plugin.surefire"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.maven.plugin.surefire.TestClassPath"
+  }, {
+    "name" : "exampleUseChainInOldApi",
+    "value" : "org.apache.maven.plugin.surefire.TestClassPath is used as parameter in method java.util.List<org.apache.maven.plugin.surefire.ProviderInfo> org.apache.maven.plugin.surefire.AbstractSurefireMojo::createProviders(org.apache.maven.plugin.surefire.TestClassPath) throws org.apache.maven.plugin.MojoExecutionException (method java.util.List<org.apache.maven.plugin.surefire.ProviderInfo> org.apache.maven.plugin.surefire.AbstractSurefireMojo::createProviders(org.apache.maven.plugin.surefire.TestClassPath) throws org.apache.maven.plugin.MojoExecutionException is part of the API)"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "maven-surefire-common-3.0.0-M5.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "maven-surefire-common-3.0.0-M7.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.parameterTypeChanged",
+  "old" : "parameter void org.apache.maven.plugin.surefire.booterclient.ClasspathForkConfiguration::resolveClasspath(===org.apache.maven.plugin.surefire.booterclient.lazytestprovider.OutputStreamFlushableCommandline===, java.lang.String, org.apache.maven.surefire.booter.StartupConfiguration, java.io.File) throws org.apache.maven.surefire.booter.SurefireBooterForkException",
+  "new" : "parameter void org.apache.maven.plugin.surefire.booterclient.ClasspathForkConfiguration::resolveClasspath(===org.apache.maven.plugin.surefire.booterclient.lazytestprovider.Commandline===, java.lang.String, org.apache.maven.surefire.booter.StartupConfiguration, java.io.File) throws org.apache.maven.surefire.booter.SurefireBooterForkException",
+  "name" : "parameter type changed",
+  "description" : "The type of the parameter changed from 'org.apache.maven.plugin.surefire.booterclient.lazytestprovider.OutputStreamFlushableCommandline' to 'org.apache.maven.plugin.surefire.booterclient.lazytestprovider.Commandline'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "POTENTIALLY_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "org.apache.maven.plugin.surefire.booterclient.lazytestprovider.OutputStreamFlushableCommandline"
+  }, {
+    "name" : "newType",
+    "value" : "org.apache.maven.plugin.surefire.booterclient.lazytestprovider.Commandline"
+  }, {
+    "name" : "package",
+    "value" : "org.apache.maven.plugin.surefire.booterclient"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.maven.plugin.surefire.booterclient.ClasspathForkConfiguration"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "ClasspathForkConfiguration"
+  }, {
+    "name" : "methodName",
+    "value" : "resolveClasspath"
+  }, {
+    "name" : "parameterIndex",
+    "value" : "0"
+  }, {
+    "name" : "elementKind",
+    "value" : "parameter"
+  }, {
+    "name" : "oldArchive",
+    "value" : "maven-surefire-common-3.0.0-M5.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "maven-surefire-common-3.0.0-M7.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.returnTypeChanged",
+  "old" : "method org.apache.maven.plugin.surefire.booterclient.lazytestprovider.OutputStreamFlushableCommandline org.apache.maven.plugin.surefire.booterclient.DefaultForkConfiguration::createCommandLine(org.apache.maven.surefire.booter.StartupConfiguration, int, java.io.File) throws org.apache.maven.surefire.booter.SurefireBooterForkException",
+  "new" : "method org.apache.maven.plugin.surefire.booterclient.lazytestprovider.Commandline org.apache.maven.plugin.surefire.booterclient.DefaultForkConfiguration::createCommandLine(org.apache.maven.surefire.booter.StartupConfiguration, int, java.io.File) throws org.apache.maven.surefire.booter.SurefireBooterForkException",
+  "name" : "return type changed",
+  "description" : "The return type changed from 'org.apache.maven.plugin.surefire.booterclient.lazytestprovider.OutputStreamFlushableCommandline' to  'org.apache.maven.plugin.surefire.booterclient.lazytestprovider.Commandline'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "POTENTIALLY_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "org.apache.maven.plugin.surefire.booterclient.lazytestprovider.OutputStreamFlushableCommandline"
+  }, {
+    "name" : "newType",
+    "value" : "org.apache.maven.plugin.surefire.booterclient.lazytestprovider.Commandline"
+  }, {
+    "name" : "package",
+    "value" : "org.apache.maven.plugin.surefire.booterclient"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.maven.plugin.surefire.booterclient.DefaultForkConfiguration"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "DefaultForkConfiguration"
+  }, {
+    "name" : "methodName",
+    "value" : "createCommandLine"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "maven-surefire-common-3.0.0-M5.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "maven-surefire-common-3.0.0-M7.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.parameterTypeChanged",
+  "old" : "parameter void org.apache.maven.plugin.surefire.booterclient.DefaultForkConfiguration::resolveClasspath(===org.apache.maven.plugin.surefire.booterclient.lazytestprovider.OutputStreamFlushableCommandline===, java.lang.String, org.apache.maven.surefire.booter.StartupConfiguration, java.io.File) throws org.apache.maven.surefire.booter.SurefireBooterForkException",
+  "new" : "parameter void org.apache.maven.plugin.surefire.booterclient.DefaultForkConfiguration::resolveClasspath(===org.apache.maven.plugin.surefire.booterclient.lazytestprovider.Commandline===, java.lang.String, org.apache.maven.surefire.booter.StartupConfiguration, java.io.File) throws org.apache.maven.surefire.booter.SurefireBooterForkException",
+  "name" : "parameter type changed",
+  "description" : "The type of the parameter changed from 'org.apache.maven.plugin.surefire.booterclient.lazytestprovider.OutputStreamFlushableCommandline' to 'org.apache.maven.plugin.surefire.booterclient.lazytestprovider.Commandline'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "POTENTIALLY_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "org.apache.maven.plugin.surefire.booterclient.lazytestprovider.OutputStreamFlushableCommandline"
+  }, {
+    "name" : "newType",
+    "value" : "org.apache.maven.plugin.surefire.booterclient.lazytestprovider.Commandline"
+  }, {
+    "name" : "package",
+    "value" : "org.apache.maven.plugin.surefire.booterclient"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.maven.plugin.surefire.booterclient.DefaultForkConfiguration"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "DefaultForkConfiguration"
+  }, {
+    "name" : "methodName",
+    "value" : "resolveClasspath"
+  }, {
+    "name" : "parameterIndex",
+    "value" : "0"
+  }, {
+    "name" : "elementKind",
+    "value" : "parameter"
+  }, {
+    "name" : "oldArchive",
+    "value" : "maven-surefire-common-3.0.0-M5.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "maven-surefire-common-3.0.0-M7.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.returnTypeChanged",
+  "old" : "method org.apache.maven.plugin.surefire.booterclient.lazytestprovider.OutputStreamFlushableCommandline org.apache.maven.plugin.surefire.booterclient.ForkConfiguration::createCommandLine(org.apache.maven.surefire.booter.StartupConfiguration, int, java.io.File) throws org.apache.maven.surefire.booter.SurefireBooterForkException",
+  "new" : "method org.apache.maven.plugin.surefire.booterclient.lazytestprovider.Commandline org.apache.maven.plugin.surefire.booterclient.ForkConfiguration::createCommandLine(org.apache.maven.surefire.booter.StartupConfiguration, int, java.io.File) throws org.apache.maven.surefire.booter.SurefireBooterForkException",
+  "name" : "return type changed",
+  "description" : "The return type changed from 'org.apache.maven.plugin.surefire.booterclient.lazytestprovider.OutputStreamFlushableCommandline' to  'org.apache.maven.plugin.surefire.booterclient.lazytestprovider.Commandline'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "POTENTIALLY_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "org.apache.maven.plugin.surefire.booterclient.lazytestprovider.OutputStreamFlushableCommandline"
+  }, {
+    "name" : "newType",
+    "value" : "org.apache.maven.plugin.surefire.booterclient.lazytestprovider.Commandline"
+  }, {
+    "name" : "package",
+    "value" : "org.apache.maven.plugin.surefire.booterclient"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.maven.plugin.surefire.booterclient.ForkConfiguration"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "ForkConfiguration"
+  }, {
+    "name" : "methodName",
+    "value" : "createCommandLine"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "maven-surefire-common-3.0.0-M5.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "maven-surefire-common-3.0.0-M7.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.parameterTypeChanged",
+  "old" : "parameter void org.apache.maven.plugin.surefire.booterclient.JarManifestForkConfiguration::resolveClasspath(===org.apache.maven.plugin.surefire.booterclient.lazytestprovider.OutputStreamFlushableCommandline===, java.lang.String, org.apache.maven.surefire.booter.StartupConfiguration, java.io.File) throws org.apache.maven.surefire.booter.SurefireBooterForkException",
+  "new" : "parameter void org.apache.maven.plugin.surefire.booterclient.JarManifestForkConfiguration::resolveClasspath(===org.apache.maven.plugin.surefire.booterclient.lazytestprovider.Commandline===, java.lang.String, org.apache.maven.surefire.booter.StartupConfiguration, java.io.File) throws org.apache.maven.surefire.booter.SurefireBooterForkException",
+  "name" : "parameter type changed",
+  "description" : "The type of the parameter changed from 'org.apache.maven.plugin.surefire.booterclient.lazytestprovider.OutputStreamFlushableCommandline' to 'org.apache.maven.plugin.surefire.booterclient.lazytestprovider.Commandline'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "POTENTIALLY_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "org.apache.maven.plugin.surefire.booterclient.lazytestprovider.OutputStreamFlushableCommandline"
+  }, {
+    "name" : "newType",
+    "value" : "org.apache.maven.plugin.surefire.booterclient.lazytestprovider.Commandline"
+  }, {
+    "name" : "package",
+    "value" : "org.apache.maven.plugin.surefire.booterclient"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.maven.plugin.surefire.booterclient.JarManifestForkConfiguration"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "JarManifestForkConfiguration"
+  }, {
+    "name" : "methodName",
+    "value" : "resolveClasspath"
+  }, {
+    "name" : "parameterIndex",
+    "value" : "0"
+  }, {
+    "name" : "elementKind",
+    "value" : "parameter"
+  }, {
+    "name" : "oldArchive",
+    "value" : "maven-surefire-common-3.0.0-M5.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "maven-surefire-common-3.0.0-M7.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.parameterTypeChanged",
+  "old" : "parameter void org.apache.maven.plugin.surefire.booterclient.ModularClasspathForkConfiguration::resolveClasspath(===org.apache.maven.plugin.surefire.booterclient.lazytestprovider.OutputStreamFlushableCommandline===, java.lang.String, org.apache.maven.surefire.booter.StartupConfiguration, java.io.File) throws org.apache.maven.surefire.booter.SurefireBooterForkException",
+  "new" : "parameter void org.apache.maven.plugin.surefire.booterclient.ModularClasspathForkConfiguration::resolveClasspath(===org.apache.maven.plugin.surefire.booterclient.lazytestprovider.Commandline===, java.lang.String, org.apache.maven.surefire.booter.StartupConfiguration, java.io.File) throws org.apache.maven.surefire.booter.SurefireBooterForkException",
+  "name" : "parameter type changed",
+  "description" : "The type of the parameter changed from 'org.apache.maven.plugin.surefire.booterclient.lazytestprovider.OutputStreamFlushableCommandline' to 'org.apache.maven.plugin.surefire.booterclient.lazytestprovider.Commandline'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "POTENTIALLY_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "org.apache.maven.plugin.surefire.booterclient.lazytestprovider.OutputStreamFlushableCommandline"
+  }, {
+    "name" : "newType",
+    "value" : "org.apache.maven.plugin.surefire.booterclient.lazytestprovider.Commandline"
+  }, {
+    "name" : "package",
+    "value" : "org.apache.maven.plugin.surefire.booterclient"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.maven.plugin.surefire.booterclient.ModularClasspathForkConfiguration"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "ModularClasspathForkConfiguration"
+  }, {
+    "name" : "methodName",
+    "value" : "resolveClasspath"
+  }, {
+    "name" : "parameterIndex",
+    "value" : "0"
+  }, {
+    "name" : "elementKind",
+    "value" : "parameter"
+  }, {
+    "name" : "oldArchive",
+    "value" : "maven-surefire-common-3.0.0-M5.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "maven-surefire-common-3.0.0-M7.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class org.apache.maven.plugin.surefire.booterclient.ProviderDetector",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.apache.maven.plugin.surefire.booterclient"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.maven.plugin.surefire.booterclient.ProviderDetector"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "ProviderDetector"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "maven-surefire-common-3.0.0-M5.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method void org.apache.maven.plugin.surefire.booterclient.lazytestprovider.AbstractCommandReader::setFlushReceiverProvider(org.apache.maven.plugin.surefire.booterclient.lazytestprovider.FlushReceiverProvider)",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.apache.maven.plugin.surefire.booterclient.lazytestprovider"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.maven.plugin.surefire.booterclient.lazytestprovider.AbstractCommandReader"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "AbstractCommandReader"
+  }, {
+    "name" : "methodName",
+    "value" : "setFlushReceiverProvider"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "maven-surefire-common-3.0.0-M5.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method void org.apache.maven.plugin.surefire.booterclient.lazytestprovider.AbstractCommandReader::tryFlush() throws java.io.IOException",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.apache.maven.plugin.surefire.booterclient.lazytestprovider"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.maven.plugin.surefire.booterclient.lazytestprovider.AbstractCommandReader"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "AbstractCommandReader"
+  }, {
+    "name" : "methodName",
+    "value" : "tryFlush"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "maven-surefire-common-3.0.0-M5.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "interface org.apache.maven.plugin.surefire.booterclient.lazytestprovider.DefferedChannelCommandSender",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.apache.maven.plugin.surefire.booterclient.lazytestprovider"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.maven.plugin.surefire.booterclient.lazytestprovider.DefferedChannelCommandSender"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "DefferedChannelCommandSender"
+  }, {
+    "name" : "elementKind",
+    "value" : "interface"
+  }, {
+    "name" : "oldArchive",
+    "value" : "maven-surefire-common-3.0.0-M5.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "interface org.apache.maven.plugin.surefire.booterclient.lazytestprovider.FlushReceiver",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.apache.maven.plugin.surefire.booterclient.lazytestprovider"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.maven.plugin.surefire.booterclient.lazytestprovider.FlushReceiver"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "FlushReceiver"
+  }, {
+    "name" : "elementKind",
+    "value" : "interface"
+  }, {
+    "name" : "oldArchive",
+    "value" : "maven-surefire-common-3.0.0-M5.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "interface org.apache.maven.plugin.surefire.booterclient.lazytestprovider.FlushReceiverProvider",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.apache.maven.plugin.surefire.booterclient.lazytestprovider"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.maven.plugin.surefire.booterclient.lazytestprovider.FlushReceiverProvider"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "FlushReceiverProvider"
+  }, {
+    "name" : "elementKind",
+    "value" : "interface"
+  }, {
+    "name" : "oldArchive",
+    "value" : "maven-surefire-common-3.0.0-M5.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class org.apache.maven.plugin.surefire.booterclient.lazytestprovider.OutputStreamFlushableCommandline",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.apache.maven.plugin.surefire.booterclient.lazytestprovider"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.maven.plugin.surefire.booterclient.lazytestprovider.OutputStreamFlushableCommandline"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "OutputStreamFlushableCommandline"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "maven-surefire-common-3.0.0-M5.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.nowFinal",
+  "old" : "class org.apache.maven.plugin.surefire.booterclient.output.ForkClient",
+  "new" : "class org.apache.maven.plugin.surefire.booterclient.output.ForkClient",
+  "name" : "class now final",
+  "description" : "Class is now final.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldModifiers",
+    "value" : "public"
+  }, {
+    "name" : "newModifiers",
+    "value" : "public final"
+  }, {
+    "name" : "package",
+    "value" : "org.apache.maven.plugin.surefire.booterclient.output"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.maven.plugin.surefire.booterclient.output.ForkClient"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "ForkClient"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "maven-surefire-common-3.0.0-M5.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "maven-surefire-common-3.0.0-M7.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method void org.apache.maven.plugin.surefire.booterclient.output.ForkClient::stopOnNextTest()",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.apache.maven.plugin.surefire.booterclient.output"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.maven.plugin.surefire.booterclient.output.ForkClient"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "ForkClient"
+  }, {
+    "name" : "methodName",
+    "value" : "stopOnNextTest"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "maven-surefire-common-3.0.0-M5.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.numberOfParametersChanged",
+  "old" : "method void org.apache.maven.plugin.surefire.booterclient.output.ForkedProcessPropertyEventListener::handle(org.apache.maven.surefire.api.report.RunMode, java.lang.String, java.lang.String)",
+  "new" : "method void org.apache.maven.plugin.surefire.booterclient.output.ForkedProcessPropertyEventListener::handle(java.lang.String, java.lang.String, org.apache.maven.surefire.api.report.RunMode, java.lang.Long)",
+  "name" : "number of parameters changed",
+  "description" : "The number of parameters of the method have changed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.apache.maven.plugin.surefire.booterclient.output"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.maven.plugin.surefire.booterclient.output.ForkedProcessPropertyEventListener"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "ForkedProcessPropertyEventListener"
+  }, {
+    "name" : "methodName",
+    "value" : "handle"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "maven-surefire-common-3.0.0-M5.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "maven-surefire-common-3.0.0-M7.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.numberOfParametersChanged",
+  "old" : "method void org.apache.maven.plugin.surefire.booterclient.output.ForkedProcessReportEventListener<T extends org.apache.maven.surefire.api.report.ReportEntry>::handle(org.apache.maven.surefire.api.report.RunMode, T)",
+  "new" : "method void org.apache.maven.plugin.surefire.booterclient.output.ForkedProcessReportEventListener<T extends org.apache.maven.surefire.api.report.ReportEntry>::handle(T)",
+  "name" : "number of parameters changed",
+  "description" : "The number of parameters of the method have changed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.apache.maven.plugin.surefire.booterclient.output"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.maven.plugin.surefire.booterclient.output.ForkedProcessReportEventListener"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "ForkedProcessReportEventListener"
+  }, {
+    "name" : "methodName",
+    "value" : "handle"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "maven-surefire-common-3.0.0-M5.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "maven-surefire-common-3.0.0-M7.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.numberOfParametersChanged",
+  "old" : "method void org.apache.maven.plugin.surefire.booterclient.output.ForkedProcessStandardOutErrEventListener::handle(org.apache.maven.surefire.api.report.RunMode, java.lang.String, boolean)",
+  "new" : "method void org.apache.maven.plugin.surefire.booterclient.output.ForkedProcessStandardOutErrEventListener::handle(java.lang.String, boolean, org.apache.maven.surefire.api.report.RunMode, java.lang.Long)",
+  "name" : "number of parameters changed",
+  "description" : "The number of parameters of the method have changed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.apache.maven.plugin.surefire.booterclient.output"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.maven.plugin.surefire.booterclient.output.ForkedProcessStandardOutErrEventListener"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "ForkedProcessStandardOutErrEventListener"
+  }, {
+    "name" : "methodName",
+    "value" : "handle"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "maven-surefire-common-3.0.0-M5.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "maven-surefire-common-3.0.0-M7.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.parameterTypeChanged",
+  "old" : "parameter void org.apache.maven.plugin.surefire.booterclient.output.NativeStdErrStreamConsumer::<init>(===org.apache.maven.plugin.surefire.log.api.ConsoleLogger===)",
+  "new" : "parameter void org.apache.maven.plugin.surefire.booterclient.output.NativeStdErrStreamConsumer::<init>(===java.lang.Object===)",
+  "name" : "parameter type changed",
+  "description" : "The type of the parameter changed from 'org.apache.maven.plugin.surefire.log.api.ConsoleLogger' to 'java.lang.Object'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "POTENTIALLY_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "org.apache.maven.plugin.surefire.log.api.ConsoleLogger"
+  }, {
+    "name" : "newType",
+    "value" : "java.lang.Object"
+  }, {
+    "name" : "package",
+    "value" : "org.apache.maven.plugin.surefire.booterclient.output"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.maven.plugin.surefire.booterclient.output.NativeStdErrStreamConsumer"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "NativeStdErrStreamConsumer"
+  }, {
+    "name" : "methodName",
+    "value" : "<init>"
+  }, {
+    "name" : "parameterIndex",
+    "value" : "0"
+  }, {
+    "name" : "elementKind",
+    "value" : "parameter"
+  }, {
+    "name" : "oldArchive",
+    "value" : "maven-surefire-common-3.0.0-M5.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "maven-surefire-common-3.0.0-M7.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.parameterTypeChanged",
+  "old" : "parameter void org.apache.maven.plugin.surefire.booterclient.output.NativeStdOutStreamConsumer::<init>(===org.apache.maven.plugin.surefire.log.api.ConsoleLogger===)",
+  "new" : "parameter void org.apache.maven.plugin.surefire.booterclient.output.NativeStdOutStreamConsumer::<init>(===java.lang.Object===)",
+  "name" : "parameter type changed",
+  "description" : "The type of the parameter changed from 'org.apache.maven.plugin.surefire.log.api.ConsoleLogger' to 'java.lang.Object'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "POTENTIALLY_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "org.apache.maven.plugin.surefire.log.api.ConsoleLogger"
+  }, {
+    "name" : "newType",
+    "value" : "java.lang.Object"
+  }, {
+    "name" : "package",
+    "value" : "org.apache.maven.plugin.surefire.booterclient.output"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.maven.plugin.surefire.booterclient.output.NativeStdOutStreamConsumer"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "NativeStdOutStreamConsumer"
+  }, {
+    "name" : "methodName",
+    "value" : "<init>"
+  }, {
+    "name" : "parameterIndex",
+    "value" : "0"
+  }, {
+    "name" : "elementKind",
+    "value" : "parameter"
+  }, {
+    "name" : "oldArchive",
+    "value" : "maven-surefire-common-3.0.0-M5.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "maven-surefire-common-3.0.0-M7.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.parameterTypeChanged",
+  "old" : "parameter void org.apache.maven.plugin.surefire.extensions.EventConsumerThread::<init>(java.lang.String, java.nio.channels.ReadableByteChannel, org.apache.maven.surefire.extensions.EventHandler<org.apache.maven.surefire.api.event.Event>, org.apache.maven.surefire.extensions.util.CountdownCloseable, ===org.apache.maven.surefire.extensions.ForkNodeArguments===)",
+  "new" : "parameter void org.apache.maven.plugin.surefire.extensions.EventConsumerThread::<init>(java.lang.String, java.nio.channels.ReadableByteChannel, org.apache.maven.surefire.extensions.EventHandler<org.apache.maven.surefire.api.event.Event>, org.apache.maven.surefire.extensions.util.CountdownCloseable, ===org.apache.maven.surefire.api.fork.ForkNodeArguments===)",
+  "name" : "parameter type changed",
+  "description" : "The type of the parameter changed from 'org.apache.maven.surefire.extensions.ForkNodeArguments' to 'org.apache.maven.surefire.api.fork.ForkNodeArguments'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "POTENTIALLY_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "org.apache.maven.surefire.extensions.ForkNodeArguments"
+  }, {
+    "name" : "newType",
+    "value" : "org.apache.maven.surefire.api.fork.ForkNodeArguments"
+  }, {
+    "name" : "package",
+    "value" : "org.apache.maven.plugin.surefire.extensions"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.maven.plugin.surefire.extensions.EventConsumerThread"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "EventConsumerThread"
+  }, {
+    "name" : "methodName",
+    "value" : "<init>"
+  }, {
+    "name" : "parameterIndex",
+    "value" : "4"
+  }, {
+    "name" : "elementKind",
+    "value" : "parameter"
+  }, {
+    "name" : "oldArchive",
+    "value" : "maven-surefire-common-3.0.0-M5.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "maven-surefire-common-3.0.0-M7.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.parameterTypeChanged",
+  "old" : "parameter org.apache.maven.surefire.extensions.ForkChannel org.apache.maven.plugin.surefire.extensions.LegacyForkNodeFactory::createForkChannel(===org.apache.maven.surefire.extensions.ForkNodeArguments===)",
+  "new" : "parameter org.apache.maven.surefire.extensions.ForkChannel org.apache.maven.plugin.surefire.extensions.LegacyForkNodeFactory::createForkChannel(===org.apache.maven.surefire.api.fork.ForkNodeArguments===)",
+  "name" : "parameter type changed",
+  "description" : "The type of the parameter changed from 'org.apache.maven.surefire.extensions.ForkNodeArguments' to 'org.apache.maven.surefire.api.fork.ForkNodeArguments'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "POTENTIALLY_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "org.apache.maven.surefire.extensions.ForkNodeArguments"
+  }, {
+    "name" : "newType",
+    "value" : "org.apache.maven.surefire.api.fork.ForkNodeArguments"
+  }, {
+    "name" : "package",
+    "value" : "org.apache.maven.plugin.surefire.extensions"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.maven.plugin.surefire.extensions.LegacyForkNodeFactory"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "LegacyForkNodeFactory"
+  }, {
+    "name" : "methodName",
+    "value" : "createForkChannel"
+  }, {
+    "name" : "parameterIndex",
+    "value" : "0"
+  }, {
+    "name" : "elementKind",
+    "value" : "parameter"
+  }, {
+    "name" : "oldArchive",
+    "value" : "maven-surefire-common-3.0.0-M5.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "maven-surefire-common-3.0.0-M7.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method byte[] org.apache.maven.plugin.surefire.extensions.StreamFeeder::encode(org.apache.maven.surefire.api.booter.MasterProcessCommand)",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.apache.maven.plugin.surefire.extensions"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.maven.plugin.surefire.extensions.StreamFeeder"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "StreamFeeder"
+  }, {
+    "name" : "methodName",
+    "value" : "encode"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "maven-surefire-common-3.0.0-M5.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method byte[] org.apache.maven.plugin.surefire.extensions.StreamFeeder::encode(org.apache.maven.surefire.api.booter.MasterProcessCommand, java.lang.String)",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.apache.maven.plugin.surefire.extensions"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.maven.plugin.surefire.extensions.StreamFeeder"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "StreamFeeder"
+  }, {
+    "name" : "methodName",
+    "value" : "encode"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "maven-surefire-common-3.0.0-M5.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.parameterTypeChanged",
+  "old" : "parameter org.apache.maven.surefire.extensions.ForkChannel org.apache.maven.plugin.surefire.extensions.SurefireForkNodeFactory::createForkChannel(===org.apache.maven.surefire.extensions.ForkNodeArguments===) throws java.io.IOException",
+  "new" : "parameter org.apache.maven.surefire.extensions.ForkChannel org.apache.maven.plugin.surefire.extensions.SurefireForkNodeFactory::createForkChannel(===org.apache.maven.surefire.api.fork.ForkNodeArguments===) throws java.io.IOException",
+  "name" : "parameter type changed",
+  "description" : "The type of the parameter changed from 'org.apache.maven.surefire.extensions.ForkNodeArguments' to 'org.apache.maven.surefire.api.fork.ForkNodeArguments'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "POTENTIALLY_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "org.apache.maven.surefire.extensions.ForkNodeArguments"
+  }, {
+    "name" : "newType",
+    "value" : "org.apache.maven.surefire.api.fork.ForkNodeArguments"
+  }, {
+    "name" : "package",
+    "value" : "org.apache.maven.plugin.surefire.extensions"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.maven.plugin.surefire.extensions.SurefireForkNodeFactory"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "SurefireForkNodeFactory"
+  }, {
+    "name" : "methodName",
+    "value" : "createForkChannel"
+  }, {
+    "name" : "parameterIndex",
+    "value" : "0"
+  }, {
+    "name" : "elementKind",
+    "value" : "parameter"
+  }, {
+    "name" : "oldArchive",
+    "value" : "maven-surefire-common-3.0.0-M5.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "maven-surefire-common-3.0.0-M7.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.noLongerImplementsInterface",
+  "old" : "class org.apache.maven.plugin.surefire.report.ConsoleOutputFileReporter",
+  "new" : "class org.apache.maven.plugin.surefire.report.ConsoleOutputFileReporter",
+  "name" : "class no longer implements interface",
+  "description" : "Class no longer implements interface 'org.apache.maven.surefire.api.report.ConsoleOutputReceiver'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "interface",
+    "value" : "org.apache.maven.surefire.api.report.ConsoleOutputReceiver"
+  }, {
+    "name" : "package",
+    "value" : "org.apache.maven.plugin.surefire.report"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.maven.plugin.surefire.report.ConsoleOutputFileReporter"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "ConsoleOutputFileReporter"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "maven-surefire-common-3.0.0-M5.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "maven-surefire-common-3.0.0-M7.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.numberOfParametersChanged",
+  "old" : "method void org.apache.maven.plugin.surefire.report.ConsoleOutputFileReporter::writeTestOutput(java.lang.String, boolean, boolean)",
+  "new" : "method void org.apache.maven.plugin.surefire.report.ConsoleOutputFileReporter::writeTestOutput(org.apache.maven.surefire.api.report.TestOutputReportEntry)",
+  "name" : "number of parameters changed",
+  "description" : "The number of parameters of the method have changed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.apache.maven.plugin.surefire.report"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.maven.plugin.surefire.report.ConsoleOutputFileReporter"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "ConsoleOutputFileReporter"
+  }, {
+    "name" : "methodName",
+    "value" : "writeTestOutput"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "maven-surefire-common-3.0.0-M5.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "maven-surefire-common-3.0.0-M7.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method org.apache.maven.surefire.api.report.RunListener org.apache.maven.plugin.surefire.report.DefaultReporterFactory::createReporter()",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.apache.maven.plugin.surefire.report"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.maven.plugin.surefire.report.DefaultReporterFactory"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "DefaultReporterFactory"
+  }, {
+    "name" : "methodName",
+    "value" : "createReporter"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "maven-surefire-common-3.0.0-M5.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.noLongerImplementsInterface",
+  "old" : "class org.apache.maven.plugin.surefire.report.DirectConsoleOutput",
+  "new" : "class org.apache.maven.plugin.surefire.report.DirectConsoleOutput",
+  "name" : "class no longer implements interface",
+  "description" : "Class no longer implements interface 'org.apache.maven.surefire.api.report.ConsoleOutputReceiver'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "interface",
+    "value" : "org.apache.maven.surefire.api.report.ConsoleOutputReceiver"
+  }, {
+    "name" : "package",
+    "value" : "org.apache.maven.plugin.surefire.report"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.maven.plugin.surefire.report.DirectConsoleOutput"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "DirectConsoleOutput"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "maven-surefire-common-3.0.0-M5.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "maven-surefire-common-3.0.0-M7.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.numberOfParametersChanged",
+  "old" : "method void org.apache.maven.plugin.surefire.report.DirectConsoleOutput::writeTestOutput(java.lang.String, boolean, boolean)",
+  "new" : "method void org.apache.maven.plugin.surefire.report.DirectConsoleOutput::writeTestOutput(org.apache.maven.surefire.api.report.TestOutputReportEntry)",
+  "name" : "number of parameters changed",
+  "description" : "The number of parameters of the method have changed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.apache.maven.plugin.surefire.report"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.maven.plugin.surefire.report.DirectConsoleOutput"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "DirectConsoleOutput"
+  }, {
+    "name" : "methodName",
+    "value" : "writeTestOutput"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "maven-surefire-common-3.0.0-M5.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "maven-surefire-common-3.0.0-M7.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.noLongerImplementsInterface",
+  "old" : "class org.apache.maven.plugin.surefire.report.NullConsoleOutputReceiver",
+  "new" : "class org.apache.maven.plugin.surefire.report.NullConsoleOutputReceiver",
+  "name" : "class no longer implements interface",
+  "description" : "Class no longer implements interface 'org.apache.maven.surefire.api.report.ConsoleOutputReceiver'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "interface",
+    "value" : "org.apache.maven.surefire.api.report.ConsoleOutputReceiver"
+  }, {
+    "name" : "package",
+    "value" : "org.apache.maven.plugin.surefire.report"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.maven.plugin.surefire.report.NullConsoleOutputReceiver"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "NullConsoleOutputReceiver"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "maven-surefire-common-3.0.0-M5.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "maven-surefire-common-3.0.0-M7.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.numberOfParametersChanged",
+  "old" : "method void org.apache.maven.plugin.surefire.report.NullConsoleOutputReceiver::writeTestOutput(java.lang.String, boolean, boolean)",
+  "new" : "method void org.apache.maven.plugin.surefire.report.NullConsoleOutputReceiver::writeTestOutput(org.apache.maven.surefire.api.report.TestOutputReportEntry)",
+  "name" : "number of parameters changed",
+  "description" : "The number of parameters of the method have changed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.apache.maven.plugin.surefire.report"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.maven.plugin.surefire.report.NullConsoleOutputReceiver"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "NullConsoleOutputReceiver"
+  }, {
+    "name" : "methodName",
+    "value" : "writeTestOutput"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "maven-surefire-common-3.0.0-M5.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "maven-surefire-common-3.0.0-M7.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.noLongerImplementsInterface",
+  "old" : "class org.apache.maven.plugin.surefire.report.TestSetRunListener",
+  "new" : "class org.apache.maven.plugin.surefire.report.TestSetRunListener",
+  "name" : "class no longer implements interface",
+  "description" : "Class no longer implements interface 'org.apache.maven.surefire.api.report.ConsoleOutputReceiver'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "interface",
+    "value" : "org.apache.maven.surefire.api.report.ConsoleOutputReceiver"
+  }, {
+    "name" : "package",
+    "value" : "org.apache.maven.plugin.surefire.report"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.maven.plugin.surefire.report.TestSetRunListener"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "TestSetRunListener"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "maven-surefire-common-3.0.0-M5.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "maven-surefire-common-3.0.0-M7.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.numberOfParametersChanged",
+  "old" : "method void org.apache.maven.plugin.surefire.report.TestSetRunListener::<init>(org.apache.maven.surefire.extensions.StatelessTestsetInfoConsoleReportEventListener<org.apache.maven.plugin.surefire.report.WrappedReportEntry, org.apache.maven.plugin.surefire.report.TestSetStats>, org.apache.maven.surefire.extensions.StatelessTestsetInfoFileReportEventListener<org.apache.maven.plugin.surefire.report.WrappedReportEntry, org.apache.maven.plugin.surefire.report.TestSetStats>, org.apache.maven.surefire.extensions.StatelessReportEventListener<org.apache.maven.plugin.surefire.report.WrappedReportEntry, org.apache.maven.plugin.surefire.report.TestSetStats>, org.apache.maven.surefire.extensions.ConsoleOutputReportEventListener, org.apache.maven.plugin.surefire.runorder.StatisticsReporter, boolean, boolean, boolean)",
+  "new" : "method void org.apache.maven.plugin.surefire.report.TestSetRunListener::<init>(org.apache.maven.surefire.extensions.StatelessTestsetInfoConsoleReportEventListener<org.apache.maven.plugin.surefire.report.WrappedReportEntry, org.apache.maven.plugin.surefire.report.TestSetStats>, org.apache.maven.surefire.extensions.StatelessTestsetInfoFileReportEventListener<org.apache.maven.plugin.surefire.report.WrappedReportEntry, org.apache.maven.plugin.surefire.report.TestSetStats>, org.apache.maven.surefire.extensions.StatelessReportEventListener<org.apache.maven.plugin.surefire.report.WrappedReportEntry, org.apache.maven.plugin.surefire.report.TestSetStats>, org.apache.maven.surefire.extensions.ConsoleOutputReportEventListener, org.apache.maven.plugin.surefire.runorder.StatisticsReporter, boolean, boolean, boolean, java.lang.Object)",
+  "name" : "number of parameters changed",
+  "description" : "The number of parameters of the method have changed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.apache.maven.plugin.surefire.report"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.maven.plugin.surefire.report.TestSetRunListener"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "TestSetRunListener"
+  }, {
+    "name" : "methodName",
+    "value" : "<init>"
+  }, {
+    "name" : "elementKind",
+    "value" : "constructor"
+  }, {
+    "name" : "oldArchive",
+    "value" : "maven-surefire-common-3.0.0-M5.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "maven-surefire-common-3.0.0-M7.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method org.apache.maven.surefire.api.report.RunMode org.apache.maven.plugin.surefire.report.TestSetRunListener::markAs(org.apache.maven.surefire.api.report.RunMode)",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.apache.maven.plugin.surefire.report"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.maven.plugin.surefire.report.TestSetRunListener"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "TestSetRunListener"
+  }, {
+    "name" : "methodName",
+    "value" : "markAs"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "maven-surefire-common-3.0.0-M5.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.numberOfParametersChanged",
+  "old" : "method void org.apache.maven.plugin.surefire.report.TestSetRunListener::writeTestOutput(java.lang.String, boolean, boolean)",
+  "new" : "method void org.apache.maven.plugin.surefire.report.TestSetRunListener::writeTestOutput(org.apache.maven.surefire.api.report.TestOutputReportEntry)",
+  "name" : "number of parameters changed",
+  "description" : "The number of parameters of the method have changed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.apache.maven.plugin.surefire.report"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.maven.plugin.surefire.report.TestSetRunListener"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "TestSetRunListener"
+  }, {
+    "name" : "methodName",
+    "value" : "writeTestOutput"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "maven-surefire-common-3.0.0-M5.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "maven-surefire-common-3.0.0-M7.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.noLongerImplementsInterface",
+  "old" : "interface org.apache.maven.plugin.surefire.report.TestcycleConsoleOutputReceiver",
+  "new" : "interface org.apache.maven.plugin.surefire.report.TestcycleConsoleOutputReceiver",
+  "name" : "class no longer implements interface",
+  "description" : "Class no longer implements interface 'org.apache.maven.surefire.api.report.ConsoleOutputReceiver'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "interface",
+    "value" : "org.apache.maven.surefire.api.report.ConsoleOutputReceiver"
+  }, {
+    "name" : "package",
+    "value" : "org.apache.maven.plugin.surefire.report"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.maven.plugin.surefire.report.TestcycleConsoleOutputReceiver"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "TestcycleConsoleOutputReceiver"
+  }, {
+    "name" : "elementKind",
+    "value" : "interface"
+  }, {
+    "name" : "oldArchive",
+    "value" : "maven-surefire-common-3.0.0-M5.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "maven-surefire-common-3.0.0-M7.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.nowImplementsInterface",
+  "old" : "interface org.apache.maven.plugin.surefire.report.TestcycleConsoleOutputReceiver",
+  "new" : "interface org.apache.maven.plugin.surefire.report.TestcycleConsoleOutputReceiver",
+  "name" : "class implements interface",
+  "description" : "Class now implements interface 'org.apache.maven.surefire.api.report.TestOutputReceiver<org.apache.maven.surefire.api.report.TestOutputReportEntry>'.",
+  "criticality" : "documented",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "interface",
+    "value" : "org.apache.maven.surefire.api.report.TestOutputReceiver<org.apache.maven.surefire.api.report.TestOutputReportEntry>"
+  }, {
+    "name" : "package",
+    "value" : "org.apache.maven.plugin.surefire.report"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.maven.plugin.surefire.report.TestcycleConsoleOutputReceiver"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "TestcycleConsoleOutputReceiver"
+  }, {
+    "name" : "elementKind",
+    "value" : "interface"
+  }, {
+    "name" : "oldArchive",
+    "value" : "maven-surefire-common-3.0.0-M5.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "maven-surefire-common-3.0.0-M7.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.numberOfParametersChanged",
+  "old" : "method void org.apache.maven.surefire.api.report.ConsoleOutputReceiver::writeTestOutput(java.lang.String, boolean, boolean) @ org.apache.maven.plugin.surefire.report.TestcycleConsoleOutputReceiver",
+  "new" : "method void org.apache.maven.surefire.api.report.TestOutputReceiver<T extends org.apache.maven.surefire.api.report.OutputReportEntry>::writeTestOutput(T) @ org.apache.maven.plugin.surefire.report.TestcycleConsoleOutputReceiver",
+  "name" : "number of parameters changed",
+  "description" : "The number of parameters of the method have changed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.apache.maven.plugin.surefire.report"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.maven.plugin.surefire.report.TestcycleConsoleOutputReceiver"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "TestcycleConsoleOutputReceiver"
+  }, {
+    "name" : "methodName",
+    "value" : "writeTestOutput"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "maven-surefire-common-3.0.0-M5.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "maven-surefire-common-3.0.0-M7.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.nonPublicPartOfAPI",
+  "old" : "class org.apache.maven.plugin.surefire.report.Utf8RecodingDeferredFileOutputStream",
+  "new" : "class org.apache.maven.plugin.surefire.report.Utf8RecodingDeferredFileOutputStream",
+  "name" : "non-public class in API",
+  "description" : "Class 'org.apache.maven.plugin.surefire.report.Utf8RecodingDeferredFileOutputStream' is indirectly included in the API (by the means of method return type for example) but the class is not accessible (neither public nor protected).",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SEMANTIC",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "classSimpleName",
+    "value" : "Utf8RecodingDeferredFileOutputStream"
+  }, {
+    "name" : "exampleUseChainInNewApi",
+    "value" : "org.apache.maven.plugin.surefire.report.Utf8RecodingDeferredFileOutputStream is returned from method org.apache.maven.plugin.surefire.report.Utf8RecodingDeferredFileOutputStream org.apache.maven.plugin.surefire.report.WrappedReportEntry::getStdErr() (method org.apache.maven.plugin.surefire.report.Utf8RecodingDeferredFileOutputStream org.apache.maven.plugin.surefire.report.WrappedReportEntry::getStdErr() is part of the API)"
+  }, {
+    "name" : "package",
+    "value" : "org.apache.maven.plugin.surefire.report"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.maven.plugin.surefire.report.Utf8RecodingDeferredFileOutputStream"
+  }, {
+    "name" : "exampleUseChainInOldApi",
+    "value" : "org.apache.maven.plugin.surefire.report.Utf8RecodingDeferredFileOutputStream is returned from method org.apache.maven.plugin.surefire.report.Utf8RecodingDeferredFileOutputStream org.apache.maven.plugin.surefire.report.WrappedReportEntry::getStdErr() (method org.apache.maven.plugin.surefire.report.Utf8RecodingDeferredFileOutputStream org.apache.maven.plugin.surefire.report.WrappedReportEntry::getStdErr() is part of the API)"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "maven-surefire-common-3.0.0-M5.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "maven-surefire-common-3.0.0-M7.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class org.apache.maven.shared.artifact.filter.PatternIncludesArtifactFilter",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.apache.maven.shared.artifact.filter"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.maven.shared.artifact.filter.PatternIncludesArtifactFilter"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "PatternIncludesArtifactFilter"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "maven-surefire-common-3.0.0-M5.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "interface org.apache.maven.shared.artifact.filter.StatisticsReportingArtifactFilter",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.apache.maven.shared.artifact.filter"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.maven.shared.artifact.filter.StatisticsReportingArtifactFilter"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "StatisticsReportingArtifactFilter"
+  }, {
+    "name" : "elementKind",
+    "value" : "interface"
+  }, {
+    "name" : "oldArchive",
+    "value" : "maven-surefire-common-3.0.0-M5.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class org.apache.maven.shared.artifact.filter.resolve.AbstractFilter",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.apache.maven.shared.artifact.filter.resolve"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.maven.shared.artifact.filter.resolve.AbstractFilter"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "AbstractFilter"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "maven-surefire-common-3.0.0-M5.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class org.apache.maven.shared.artifact.filter.resolve.AndFilter",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.apache.maven.shared.artifact.filter.resolve"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.maven.shared.artifact.filter.resolve.AndFilter"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "AndFilter"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "maven-surefire-common-3.0.0-M5.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class org.apache.maven.shared.artifact.filter.resolve.ExclusionsFilter",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.apache.maven.shared.artifact.filter.resolve"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.maven.shared.artifact.filter.resolve.ExclusionsFilter"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "ExclusionsFilter"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "maven-surefire-common-3.0.0-M5.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "interface org.apache.maven.shared.artifact.filter.resolve.FilterTransformer<T>",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.apache.maven.shared.artifact.filter.resolve"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.maven.shared.artifact.filter.resolve.FilterTransformer"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "FilterTransformer"
+  }, {
+    "name" : "elementKind",
+    "value" : "interface"
+  }, {
+    "name" : "oldArchive",
+    "value" : "maven-surefire-common-3.0.0-M5.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "interface org.apache.maven.shared.artifact.filter.resolve.Node",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.apache.maven.shared.artifact.filter.resolve"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.maven.shared.artifact.filter.resolve.Node"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "Node"
+  }, {
+    "name" : "elementKind",
+    "value" : "interface"
+  }, {
+    "name" : "oldArchive",
+    "value" : "maven-surefire-common-3.0.0-M5.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class org.apache.maven.shared.artifact.filter.resolve.OrFilter",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.apache.maven.shared.artifact.filter.resolve"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.maven.shared.artifact.filter.resolve.OrFilter"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "OrFilter"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "maven-surefire-common-3.0.0-M5.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class org.apache.maven.shared.artifact.filter.resolve.PatternExclusionsFilter",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.apache.maven.shared.artifact.filter.resolve"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.maven.shared.artifact.filter.resolve.PatternExclusionsFilter"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "PatternExclusionsFilter"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "maven-surefire-common-3.0.0-M5.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class org.apache.maven.shared.artifact.filter.resolve.PatternInclusionsFilter",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.apache.maven.shared.artifact.filter.resolve"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.maven.shared.artifact.filter.resolve.PatternInclusionsFilter"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "PatternInclusionsFilter"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "maven-surefire-common-3.0.0-M5.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class org.apache.maven.shared.artifact.filter.resolve.ScopeFilter",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.apache.maven.shared.artifact.filter.resolve"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.maven.shared.artifact.filter.resolve.ScopeFilter"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "ScopeFilter"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "maven-surefire-common-3.0.0-M5.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "interface org.apache.maven.shared.artifact.filter.resolve.TransformableFilter",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.apache.maven.shared.artifact.filter.resolve"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.maven.shared.artifact.filter.resolve.TransformableFilter"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "TransformableFilter"
+  }, {
+    "name" : "elementKind",
+    "value" : "interface"
+  }, {
+    "name" : "oldArchive",
+    "value" : "maven-surefire-common-3.0.0-M5.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+} ]

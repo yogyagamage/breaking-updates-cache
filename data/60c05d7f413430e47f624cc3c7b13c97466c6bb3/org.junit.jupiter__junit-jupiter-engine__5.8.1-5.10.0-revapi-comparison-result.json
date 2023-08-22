@@ -1,0 +1,1249 @@
+[ {
+  "code" : "java.field.removedWithConstant",
+  "old" : "field org.junit.jupiter.engine.config.JupiterConfiguration.DEACTIVATE_ALL_CONDITIONS_PATTERN",
+  "new" : null,
+  "name" : "field with constant removed",
+  "description" : "Field with constant value has been removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SEMANTIC",
+    "severity" : "POTENTIALLY_BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.junit.jupiter.engine.config"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.junit.jupiter.engine.config.JupiterConfiguration"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "JupiterConfiguration"
+  }, {
+    "name" : "fieldName",
+    "value" : "DEACTIVATE_ALL_CONDITIONS_PATTERN"
+  }, {
+    "name" : "elementKind",
+    "value" : "field"
+  }, {
+    "name" : "oldArchive",
+    "value" : "junit-jupiter-engine-5.8.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.field.removedWithConstant",
+  "old" : "field org.junit.jupiter.engine.config.JupiterConfiguration.DEFAULT_AFTER_ALL_METHOD_TIMEOUT_PROPERTY_NAME",
+  "new" : null,
+  "name" : "field with constant removed",
+  "description" : "Field with constant value has been removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SEMANTIC",
+    "severity" : "POTENTIALLY_BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.junit.jupiter.engine.config"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.junit.jupiter.engine.config.JupiterConfiguration"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "JupiterConfiguration"
+  }, {
+    "name" : "fieldName",
+    "value" : "DEFAULT_AFTER_ALL_METHOD_TIMEOUT_PROPERTY_NAME"
+  }, {
+    "name" : "elementKind",
+    "value" : "field"
+  }, {
+    "name" : "oldArchive",
+    "value" : "junit-jupiter-engine-5.8.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.field.removedWithConstant",
+  "old" : "field org.junit.jupiter.engine.config.JupiterConfiguration.DEFAULT_AFTER_EACH_METHOD_TIMEOUT_PROPERTY_NAME",
+  "new" : null,
+  "name" : "field with constant removed",
+  "description" : "Field with constant value has been removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SEMANTIC",
+    "severity" : "POTENTIALLY_BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.junit.jupiter.engine.config"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.junit.jupiter.engine.config.JupiterConfiguration"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "JupiterConfiguration"
+  }, {
+    "name" : "fieldName",
+    "value" : "DEFAULT_AFTER_EACH_METHOD_TIMEOUT_PROPERTY_NAME"
+  }, {
+    "name" : "elementKind",
+    "value" : "field"
+  }, {
+    "name" : "oldArchive",
+    "value" : "junit-jupiter-engine-5.8.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.field.removedWithConstant",
+  "old" : "field org.junit.jupiter.engine.config.JupiterConfiguration.DEFAULT_BEFORE_ALL_METHOD_TIMEOUT_PROPERTY_NAME",
+  "new" : null,
+  "name" : "field with constant removed",
+  "description" : "Field with constant value has been removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SEMANTIC",
+    "severity" : "POTENTIALLY_BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.junit.jupiter.engine.config"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.junit.jupiter.engine.config.JupiterConfiguration"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "JupiterConfiguration"
+  }, {
+    "name" : "fieldName",
+    "value" : "DEFAULT_BEFORE_ALL_METHOD_TIMEOUT_PROPERTY_NAME"
+  }, {
+    "name" : "elementKind",
+    "value" : "field"
+  }, {
+    "name" : "oldArchive",
+    "value" : "junit-jupiter-engine-5.8.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.field.removedWithConstant",
+  "old" : "field org.junit.jupiter.engine.config.JupiterConfiguration.DEFAULT_BEFORE_EACH_METHOD_TIMEOUT_PROPERTY_NAME",
+  "new" : null,
+  "name" : "field with constant removed",
+  "description" : "Field with constant value has been removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SEMANTIC",
+    "severity" : "POTENTIALLY_BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.junit.jupiter.engine.config"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.junit.jupiter.engine.config.JupiterConfiguration"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "JupiterConfiguration"
+  }, {
+    "name" : "fieldName",
+    "value" : "DEFAULT_BEFORE_EACH_METHOD_TIMEOUT_PROPERTY_NAME"
+  }, {
+    "name" : "elementKind",
+    "value" : "field"
+  }, {
+    "name" : "oldArchive",
+    "value" : "junit-jupiter-engine-5.8.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.field.removedWithConstant",
+  "old" : "field org.junit.jupiter.engine.config.JupiterConfiguration.DEFAULT_LIFECYCLE_METHOD_TIMEOUT_PROPERTY_NAME",
+  "new" : null,
+  "name" : "field with constant removed",
+  "description" : "Field with constant value has been removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SEMANTIC",
+    "severity" : "POTENTIALLY_BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.junit.jupiter.engine.config"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.junit.jupiter.engine.config.JupiterConfiguration"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "JupiterConfiguration"
+  }, {
+    "name" : "fieldName",
+    "value" : "DEFAULT_LIFECYCLE_METHOD_TIMEOUT_PROPERTY_NAME"
+  }, {
+    "name" : "elementKind",
+    "value" : "field"
+  }, {
+    "name" : "oldArchive",
+    "value" : "junit-jupiter-engine-5.8.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.field.removedWithConstant",
+  "old" : "field org.junit.jupiter.engine.config.JupiterConfiguration.DEFAULT_TESTABLE_METHOD_TIMEOUT_PROPERTY_NAME",
+  "new" : null,
+  "name" : "field with constant removed",
+  "description" : "Field with constant value has been removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SEMANTIC",
+    "severity" : "POTENTIALLY_BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.junit.jupiter.engine.config"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.junit.jupiter.engine.config.JupiterConfiguration"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "JupiterConfiguration"
+  }, {
+    "name" : "fieldName",
+    "value" : "DEFAULT_TESTABLE_METHOD_TIMEOUT_PROPERTY_NAME"
+  }, {
+    "name" : "elementKind",
+    "value" : "field"
+  }, {
+    "name" : "oldArchive",
+    "value" : "junit-jupiter-engine-5.8.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.field.removedWithConstant",
+  "old" : "field org.junit.jupiter.engine.config.JupiterConfiguration.DEFAULT_TEST_FACTORY_METHOD_TIMEOUT_PROPERTY_NAME",
+  "new" : null,
+  "name" : "field with constant removed",
+  "description" : "Field with constant value has been removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SEMANTIC",
+    "severity" : "POTENTIALLY_BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.junit.jupiter.engine.config"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.junit.jupiter.engine.config.JupiterConfiguration"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "JupiterConfiguration"
+  }, {
+    "name" : "fieldName",
+    "value" : "DEFAULT_TEST_FACTORY_METHOD_TIMEOUT_PROPERTY_NAME"
+  }, {
+    "name" : "elementKind",
+    "value" : "field"
+  }, {
+    "name" : "oldArchive",
+    "value" : "junit-jupiter-engine-5.8.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.field.removedWithConstant",
+  "old" : "field org.junit.jupiter.engine.config.JupiterConfiguration.DEFAULT_TEST_METHOD_TIMEOUT_PROPERTY_NAME",
+  "new" : null,
+  "name" : "field with constant removed",
+  "description" : "Field with constant value has been removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SEMANTIC",
+    "severity" : "POTENTIALLY_BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.junit.jupiter.engine.config"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.junit.jupiter.engine.config.JupiterConfiguration"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "JupiterConfiguration"
+  }, {
+    "name" : "fieldName",
+    "value" : "DEFAULT_TEST_METHOD_TIMEOUT_PROPERTY_NAME"
+  }, {
+    "name" : "elementKind",
+    "value" : "field"
+  }, {
+    "name" : "oldArchive",
+    "value" : "junit-jupiter-engine-5.8.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.field.removedWithConstant",
+  "old" : "field org.junit.jupiter.engine.config.JupiterConfiguration.DEFAULT_TEST_TEMPLATE_METHOD_TIMEOUT_PROPERTY_NAME",
+  "new" : null,
+  "name" : "field with constant removed",
+  "description" : "Field with constant value has been removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SEMANTIC",
+    "severity" : "POTENTIALLY_BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.junit.jupiter.engine.config"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.junit.jupiter.engine.config.JupiterConfiguration"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "JupiterConfiguration"
+  }, {
+    "name" : "fieldName",
+    "value" : "DEFAULT_TEST_TEMPLATE_METHOD_TIMEOUT_PROPERTY_NAME"
+  }, {
+    "name" : "elementKind",
+    "value" : "field"
+  }, {
+    "name" : "oldArchive",
+    "value" : "junit-jupiter-engine-5.8.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.field.removedWithConstant",
+  "old" : "field org.junit.jupiter.engine.config.JupiterConfiguration.DEFAULT_TIMEOUT_PROPERTY_NAME",
+  "new" : null,
+  "name" : "field with constant removed",
+  "description" : "Field with constant value has been removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SEMANTIC",
+    "severity" : "POTENTIALLY_BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.junit.jupiter.engine.config"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.junit.jupiter.engine.config.JupiterConfiguration"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "JupiterConfiguration"
+  }, {
+    "name" : "fieldName",
+    "value" : "DEFAULT_TIMEOUT_PROPERTY_NAME"
+  }, {
+    "name" : "elementKind",
+    "value" : "field"
+  }, {
+    "name" : "oldArchive",
+    "value" : "junit-jupiter-engine-5.8.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.field.removedWithConstant",
+  "old" : "field org.junit.jupiter.engine.config.JupiterConfiguration.TEMP_DIR_SCOPE_PROPERTY_NAME",
+  "new" : null,
+  "name" : "field with constant removed",
+  "description" : "Field with constant value has been removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SEMANTIC",
+    "severity" : "POTENTIALLY_BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.junit.jupiter.engine.config"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.junit.jupiter.engine.config.JupiterConfiguration"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "JupiterConfiguration"
+  }, {
+    "name" : "fieldName",
+    "value" : "TEMP_DIR_SCOPE_PROPERTY_NAME"
+  }, {
+    "name" : "elementKind",
+    "value" : "field"
+  }, {
+    "name" : "oldArchive",
+    "value" : "junit-jupiter-engine-5.8.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.field.removedWithConstant",
+  "old" : "field org.junit.jupiter.engine.config.JupiterConfiguration.TIMEOUT_MODE_PROPERTY_NAME",
+  "new" : null,
+  "name" : "field with constant removed",
+  "description" : "Field with constant value has been removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SEMANTIC",
+    "severity" : "POTENTIALLY_BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.junit.jupiter.engine.config"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.junit.jupiter.engine.config.JupiterConfiguration"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "JupiterConfiguration"
+  }, {
+    "name" : "fieldName",
+    "value" : "TIMEOUT_MODE_PROPERTY_NAME"
+  }, {
+    "name" : "elementKind",
+    "value" : "field"
+  }, {
+    "name" : "oldArchive",
+    "value" : "junit-jupiter-engine-5.8.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.addedToInterface",
+  "old" : null,
+  "new" : "method org.junit.jupiter.api.io.CleanupMode org.junit.jupiter.engine.config.JupiterConfiguration::getDefaultTempDirCleanupMode()",
+  "name" : "method added to interface",
+  "description" : "Method was added to an interface.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SEMANTIC",
+    "severity" : "POTENTIALLY_BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.junit.jupiter.engine.config"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.junit.jupiter.engine.config.JupiterConfiguration"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "JupiterConfiguration"
+  }, {
+    "name" : "methodName",
+    "value" : "getDefaultTempDirCleanupMode"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "newArchive",
+    "value" : "junit-jupiter-engine-5.10.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.addedToInterface",
+  "old" : null,
+  "new" : "method java.util.function.Supplier<org.junit.jupiter.api.io.TempDirFactory> org.junit.jupiter.engine.config.JupiterConfiguration::getDefaultTempDirFactorySupplier()",
+  "name" : "method added to interface",
+  "description" : "Method was added to an interface.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SEMANTIC",
+    "severity" : "POTENTIALLY_BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.junit.jupiter.engine.config"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.junit.jupiter.engine.config.JupiterConfiguration"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "JupiterConfiguration"
+  }, {
+    "name" : "methodName",
+    "value" : "getDefaultTempDirFactorySupplier"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "newArchive",
+    "value" : "junit-jupiter-engine-5.10.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.noLongerImplementsInterface",
+  "old" : "class org.junit.jupiter.engine.descriptor.DynamicDescendantFilter",
+  "new" : "class org.junit.jupiter.engine.descriptor.DynamicDescendantFilter",
+  "name" : "class no longer implements interface",
+  "description" : "Class no longer implements interface 'java.util.function.Predicate<org.junit.platform.engine.UniqueId>'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "interface",
+    "value" : "java.util.function.Predicate<org.junit.platform.engine.UniqueId>"
+  }, {
+    "name" : "package",
+    "value" : "org.junit.jupiter.engine.descriptor"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.junit.jupiter.engine.descriptor.DynamicDescendantFilter"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "DynamicDescendantFilter"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "junit-jupiter-engine-5.8.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "junit-jupiter-engine-5.10.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.nowImplementsInterface",
+  "old" : "class org.junit.jupiter.engine.descriptor.DynamicDescendantFilter",
+  "new" : "class org.junit.jupiter.engine.descriptor.DynamicDescendantFilter",
+  "name" : "class implements interface",
+  "description" : "Class now implements interface 'java.util.function.BiPredicate<org.junit.platform.engine.UniqueId, java.lang.Integer>'.",
+  "criticality" : "documented",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "interface",
+    "value" : "java.util.function.BiPredicate<org.junit.platform.engine.UniqueId, java.lang.Integer>"
+  }, {
+    "name" : "package",
+    "value" : "org.junit.jupiter.engine.descriptor"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.junit.jupiter.engine.descriptor.DynamicDescendantFilter"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "DynamicDescendantFilter"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "junit-jupiter-engine-5.8.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "junit-jupiter-engine-5.10.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method void org.junit.jupiter.engine.descriptor.DynamicDescendantFilter::allow(org.junit.platform.engine.UniqueId)",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.junit.jupiter.engine.descriptor"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.junit.jupiter.engine.descriptor.DynamicDescendantFilter"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "DynamicDescendantFilter"
+  }, {
+    "name" : "methodName",
+    "value" : "allow"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "junit-jupiter-engine-5.8.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.returnTypeChanged",
+  "old" : "method java.util.function.Predicate<T> java.util.function.Predicate<T>::and(java.util.function.Predicate<? super T>) @ org.junit.jupiter.engine.descriptor.DynamicDescendantFilter",
+  "new" : "method java.util.function.BiPredicate<T, U> java.util.function.BiPredicate<T, U>::and(java.util.function.BiPredicate<? super T, ? super U>) @ org.junit.jupiter.engine.descriptor.DynamicDescendantFilter",
+  "name" : "return type changed",
+  "description" : "The return type changed from 'java.util.function.Predicate<org.junit.platform.engine.UniqueId>' to  'java.util.function.BiPredicate<org.junit.platform.engine.UniqueId, java.lang.Integer>'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "POTENTIALLY_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "java.util.function.Predicate<org.junit.platform.engine.UniqueId>"
+  }, {
+    "name" : "newType",
+    "value" : "java.util.function.BiPredicate<org.junit.platform.engine.UniqueId, java.lang.Integer>"
+  }, {
+    "name" : "package",
+    "value" : "org.junit.jupiter.engine.descriptor"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.junit.jupiter.engine.descriptor.DynamicDescendantFilter"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "DynamicDescendantFilter"
+  }, {
+    "name" : "methodName",
+    "value" : "and"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "junit-jupiter-engine-5.8.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "junit-jupiter-engine-5.10.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.parameterTypeChanged",
+  "old" : "parameter java.util.function.Predicate<T> java.util.function.Predicate<T>::and(===java.util.function.Predicate<? super T>===) @ org.junit.jupiter.engine.descriptor.DynamicDescendantFilter",
+  "new" : "parameter java.util.function.BiPredicate<T, U> java.util.function.BiPredicate<T, U>::and(===java.util.function.BiPredicate<? super T, ? super U>===) @ org.junit.jupiter.engine.descriptor.DynamicDescendantFilter",
+  "name" : "parameter type changed",
+  "description" : "The type of the parameter changed from 'java.util.function.Predicate<? super org.junit.platform.engine.UniqueId>' to 'java.util.function.BiPredicate<? super org.junit.platform.engine.UniqueId, ? super java.lang.Integer>'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "POTENTIALLY_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "java.util.function.Predicate<? super org.junit.platform.engine.UniqueId>"
+  }, {
+    "name" : "newType",
+    "value" : "java.util.function.BiPredicate<? super org.junit.platform.engine.UniqueId, ? super java.lang.Integer>"
+  }, {
+    "name" : "package",
+    "value" : "org.junit.jupiter.engine.descriptor"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.junit.jupiter.engine.descriptor.DynamicDescendantFilter"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "DynamicDescendantFilter"
+  }, {
+    "name" : "methodName",
+    "value" : "and"
+  }, {
+    "name" : "parameterIndex",
+    "value" : "0"
+  }, {
+    "name" : "elementKind",
+    "value" : "parameter"
+  }, {
+    "name" : "oldArchive",
+    "value" : "junit-jupiter-engine-5.8.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "junit-jupiter-engine-5.10.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method <T> java.util.function.Predicate<T> java.util.function.Predicate<T>::isEqual(java.lang.Object) @ org.junit.jupiter.engine.descriptor.DynamicDescendantFilter",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.junit.jupiter.engine.descriptor"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.junit.jupiter.engine.descriptor.DynamicDescendantFilter"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "DynamicDescendantFilter"
+  }, {
+    "name" : "methodName",
+    "value" : "isEqual"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "junit-jupiter-engine-5.8.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.returnTypeChanged",
+  "old" : "method java.util.function.Predicate<T> java.util.function.Predicate<T>::negate() @ org.junit.jupiter.engine.descriptor.DynamicDescendantFilter",
+  "new" : "method java.util.function.BiPredicate<T, U> java.util.function.BiPredicate<T, U>::negate() @ org.junit.jupiter.engine.descriptor.DynamicDescendantFilter",
+  "name" : "return type changed",
+  "description" : "The return type changed from 'java.util.function.Predicate<org.junit.platform.engine.UniqueId>' to  'java.util.function.BiPredicate<org.junit.platform.engine.UniqueId, java.lang.Integer>'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "POTENTIALLY_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "java.util.function.Predicate<org.junit.platform.engine.UniqueId>"
+  }, {
+    "name" : "newType",
+    "value" : "java.util.function.BiPredicate<org.junit.platform.engine.UniqueId, java.lang.Integer>"
+  }, {
+    "name" : "package",
+    "value" : "org.junit.jupiter.engine.descriptor"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.junit.jupiter.engine.descriptor.DynamicDescendantFilter"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "DynamicDescendantFilter"
+  }, {
+    "name" : "methodName",
+    "value" : "negate"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "junit-jupiter-engine-5.8.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "junit-jupiter-engine-5.10.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method <T> java.util.function.Predicate<T> java.util.function.Predicate<T>::not(java.util.function.Predicate<? super T>) @ org.junit.jupiter.engine.descriptor.DynamicDescendantFilter",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.junit.jupiter.engine.descriptor"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.junit.jupiter.engine.descriptor.DynamicDescendantFilter"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "DynamicDescendantFilter"
+  }, {
+    "name" : "methodName",
+    "value" : "not"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "junit-jupiter-engine-5.8.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.returnTypeChanged",
+  "old" : "method java.util.function.Predicate<T> java.util.function.Predicate<T>::or(java.util.function.Predicate<? super T>) @ org.junit.jupiter.engine.descriptor.DynamicDescendantFilter",
+  "new" : "method java.util.function.BiPredicate<T, U> java.util.function.BiPredicate<T, U>::or(java.util.function.BiPredicate<? super T, ? super U>) @ org.junit.jupiter.engine.descriptor.DynamicDescendantFilter",
+  "name" : "return type changed",
+  "description" : "The return type changed from 'java.util.function.Predicate<org.junit.platform.engine.UniqueId>' to  'java.util.function.BiPredicate<org.junit.platform.engine.UniqueId, java.lang.Integer>'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "POTENTIALLY_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "java.util.function.Predicate<org.junit.platform.engine.UniqueId>"
+  }, {
+    "name" : "newType",
+    "value" : "java.util.function.BiPredicate<org.junit.platform.engine.UniqueId, java.lang.Integer>"
+  }, {
+    "name" : "package",
+    "value" : "org.junit.jupiter.engine.descriptor"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.junit.jupiter.engine.descriptor.DynamicDescendantFilter"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "DynamicDescendantFilter"
+  }, {
+    "name" : "methodName",
+    "value" : "or"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "junit-jupiter-engine-5.8.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "junit-jupiter-engine-5.10.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.parameterTypeChanged",
+  "old" : "parameter java.util.function.Predicate<T> java.util.function.Predicate<T>::or(===java.util.function.Predicate<? super T>===) @ org.junit.jupiter.engine.descriptor.DynamicDescendantFilter",
+  "new" : "parameter java.util.function.BiPredicate<T, U> java.util.function.BiPredicate<T, U>::or(===java.util.function.BiPredicate<? super T, ? super U>===) @ org.junit.jupiter.engine.descriptor.DynamicDescendantFilter",
+  "name" : "parameter type changed",
+  "description" : "The type of the parameter changed from 'java.util.function.Predicate<? super org.junit.platform.engine.UniqueId>' to 'java.util.function.BiPredicate<? super org.junit.platform.engine.UniqueId, ? super java.lang.Integer>'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "POTENTIALLY_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "java.util.function.Predicate<? super org.junit.platform.engine.UniqueId>"
+  }, {
+    "name" : "newType",
+    "value" : "java.util.function.BiPredicate<? super org.junit.platform.engine.UniqueId, ? super java.lang.Integer>"
+  }, {
+    "name" : "package",
+    "value" : "org.junit.jupiter.engine.descriptor"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.junit.jupiter.engine.descriptor.DynamicDescendantFilter"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "DynamicDescendantFilter"
+  }, {
+    "name" : "methodName",
+    "value" : "or"
+  }, {
+    "name" : "parameterIndex",
+    "value" : "0"
+  }, {
+    "name" : "elementKind",
+    "value" : "parameter"
+  }, {
+    "name" : "oldArchive",
+    "value" : "junit-jupiter-engine-5.8.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "junit-jupiter-engine-5.10.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.numberOfParametersChanged",
+  "old" : "method boolean org.junit.jupiter.engine.descriptor.DynamicDescendantFilter::test(org.junit.platform.engine.UniqueId)",
+  "new" : "method boolean org.junit.jupiter.engine.descriptor.DynamicDescendantFilter::test(org.junit.platform.engine.UniqueId, java.lang.Integer)",
+  "name" : "number of parameters changed",
+  "description" : "The number of parameters of the method have changed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.junit.jupiter.engine.descriptor"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.junit.jupiter.engine.descriptor.DynamicDescendantFilter"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "DynamicDescendantFilter"
+  }, {
+    "name" : "methodName",
+    "value" : "test"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "junit-jupiter-engine-5.8.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "junit-jupiter-engine-5.10.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class org.junit.jupiter.engine.execution.ExecutableInvoker",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.junit.jupiter.engine.execution"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.junit.jupiter.engine.execution.ExecutableInvoker"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "ExecutableInvoker"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "junit-jupiter-engine-5.8.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class org.junit.jupiter.engine.execution.ExtensionValuesStore",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.junit.jupiter.engine.execution"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.junit.jupiter.engine.execution.ExtensionValuesStore"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "ExtensionValuesStore"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "junit-jupiter-engine-5.8.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.parameterTypeChanged",
+  "old" : "parameter void org.junit.jupiter.engine.execution.NamespaceAwareStore::<init>(===org.junit.jupiter.engine.execution.ExtensionValuesStore===, org.junit.jupiter.api.extension.ExtensionContext.Namespace)",
+  "new" : "parameter void org.junit.jupiter.engine.execution.NamespaceAwareStore::<init>(===org.junit.platform.engine.support.store.NamespacedHierarchicalStore<org.junit.jupiter.api.extension.ExtensionContext.Namespace>===, org.junit.jupiter.api.extension.ExtensionContext.Namespace)",
+  "name" : "parameter type changed",
+  "description" : "The type of the parameter changed from 'org.junit.jupiter.engine.execution.ExtensionValuesStore' to 'org.junit.platform.engine.support.store.NamespacedHierarchicalStore<org.junit.jupiter.api.extension.ExtensionContext.Namespace>'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "POTENTIALLY_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "org.junit.jupiter.engine.execution.ExtensionValuesStore"
+  }, {
+    "name" : "newType",
+    "value" : "org.junit.platform.engine.support.store.NamespacedHierarchicalStore<org.junit.jupiter.api.extension.ExtensionContext.Namespace>"
+  }, {
+    "name" : "package",
+    "value" : "org.junit.jupiter.engine.execution"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.junit.jupiter.engine.execution.NamespaceAwareStore"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "NamespaceAwareStore"
+  }, {
+    "name" : "methodName",
+    "value" : "<init>"
+  }, {
+    "name" : "parameterIndex",
+    "value" : "0"
+  }, {
+    "name" : "elementKind",
+    "value" : "parameter"
+  }, {
+    "name" : "oldArchive",
+    "value" : "junit-jupiter-engine-5.8.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "junit-jupiter-engine-5.10.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method <E extends org.junit.jupiter.api.extension.Extension> java.util.List<E> org.junit.jupiter.engine.extension.ExtensionRegistry::getReversedExtensions(java.lang.Class<E>)",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.junit.jupiter.engine.extension"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.junit.jupiter.engine.extension.ExtensionRegistry"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "ExtensionRegistry"
+  }, {
+    "name" : "methodName",
+    "value" : "getReversedExtensions"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "junit-jupiter-engine-5.8.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+} ]

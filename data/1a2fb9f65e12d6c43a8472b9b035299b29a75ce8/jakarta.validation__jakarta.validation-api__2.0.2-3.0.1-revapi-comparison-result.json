@@ -1,0 +1,2993 @@
+[ {
+  "code" : "java.class.removed",
+  "old" : "interface javax.validation.BootstrapConfiguration",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "javax.validation"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "javax.validation.BootstrapConfiguration"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "BootstrapConfiguration"
+  }, {
+    "name" : "elementKind",
+    "value" : "interface"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jakarta.validation-api-2.0.2.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "interface javax.validation.ClockProvider",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "javax.validation"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "javax.validation.ClockProvider"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "ClockProvider"
+  }, {
+    "name" : "elementKind",
+    "value" : "interface"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jakarta.validation-api-2.0.2.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "interface javax.validation.Configuration<T extends javax.validation.Configuration<T>>",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "javax.validation"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "javax.validation.Configuration"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "Configuration"
+  }, {
+    "name" : "elementKind",
+    "value" : "interface"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jakarta.validation-api-2.0.2.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "@interface javax.validation.Constraint",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "javax.validation"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "javax.validation.Constraint"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "Constraint"
+  }, {
+    "name" : "elementKind",
+    "value" : "@interface"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jakarta.validation-api-2.0.2.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class javax.validation.ConstraintDeclarationException",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "javax.validation"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "javax.validation.ConstraintDeclarationException"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "ConstraintDeclarationException"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jakarta.validation-api-2.0.2.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class javax.validation.ConstraintDefinitionException",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "javax.validation"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "javax.validation.ConstraintDefinitionException"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "ConstraintDefinitionException"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jakarta.validation-api-2.0.2.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "enum javax.validation.ConstraintTarget",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "javax.validation"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "javax.validation.ConstraintTarget"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "ConstraintTarget"
+  }, {
+    "name" : "elementKind",
+    "value" : "enum"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jakarta.validation-api-2.0.2.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "interface javax.validation.ConstraintValidator<A extends java.lang.annotation.Annotation, T>",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "javax.validation"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "javax.validation.ConstraintValidator"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "ConstraintValidator"
+  }, {
+    "name" : "elementKind",
+    "value" : "interface"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jakarta.validation-api-2.0.2.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "interface javax.validation.ConstraintValidatorContext",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "javax.validation"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "javax.validation.ConstraintValidatorContext"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "ConstraintValidatorContext"
+  }, {
+    "name" : "elementKind",
+    "value" : "interface"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jakarta.validation-api-2.0.2.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "interface javax.validation.ConstraintValidatorFactory",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "javax.validation"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "javax.validation.ConstraintValidatorFactory"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "ConstraintValidatorFactory"
+  }, {
+    "name" : "elementKind",
+    "value" : "interface"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jakarta.validation-api-2.0.2.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "interface javax.validation.ConstraintViolation<T>",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "javax.validation"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "javax.validation.ConstraintViolation"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "ConstraintViolation"
+  }, {
+    "name" : "elementKind",
+    "value" : "interface"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jakarta.validation-api-2.0.2.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class javax.validation.ConstraintViolationException",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "javax.validation"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "javax.validation.ConstraintViolationException"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "ConstraintViolationException"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jakarta.validation-api-2.0.2.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "enum javax.validation.ElementKind",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "javax.validation"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "javax.validation.ElementKind"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "ElementKind"
+  }, {
+    "name" : "elementKind",
+    "value" : "enum"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jakarta.validation-api-2.0.2.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class javax.validation.GroupDefinitionException",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "javax.validation"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "javax.validation.GroupDefinitionException"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "GroupDefinitionException"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jakarta.validation-api-2.0.2.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "@interface javax.validation.GroupSequence",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "javax.validation"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "javax.validation.GroupSequence"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "GroupSequence"
+  }, {
+    "name" : "elementKind",
+    "value" : "@interface"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jakarta.validation-api-2.0.2.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "interface javax.validation.MessageInterpolator",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "javax.validation"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "javax.validation.MessageInterpolator"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "MessageInterpolator"
+  }, {
+    "name" : "elementKind",
+    "value" : "interface"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jakarta.validation-api-2.0.2.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class javax.validation.NoProviderFoundException",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "javax.validation"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "javax.validation.NoProviderFoundException"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "NoProviderFoundException"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jakarta.validation-api-2.0.2.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "@interface javax.validation.OverridesAttribute",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "javax.validation"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "javax.validation.OverridesAttribute"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "OverridesAttribute"
+  }, {
+    "name" : "elementKind",
+    "value" : "@interface"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jakarta.validation-api-2.0.2.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "interface javax.validation.ParameterNameProvider",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "javax.validation"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "javax.validation.ParameterNameProvider"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "ParameterNameProvider"
+  }, {
+    "name" : "elementKind",
+    "value" : "interface"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jakarta.validation-api-2.0.2.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "interface javax.validation.Path",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "javax.validation"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "javax.validation.Path"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "Path"
+  }, {
+    "name" : "elementKind",
+    "value" : "interface"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jakarta.validation-api-2.0.2.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "interface javax.validation.Payload",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "javax.validation"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "javax.validation.Payload"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "Payload"
+  }, {
+    "name" : "elementKind",
+    "value" : "interface"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jakarta.validation-api-2.0.2.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "@interface javax.validation.ReportAsSingleViolation",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "javax.validation"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "javax.validation.ReportAsSingleViolation"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "ReportAsSingleViolation"
+  }, {
+    "name" : "elementKind",
+    "value" : "@interface"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jakarta.validation-api-2.0.2.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "interface javax.validation.TraversableResolver",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "javax.validation"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "javax.validation.TraversableResolver"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "TraversableResolver"
+  }, {
+    "name" : "elementKind",
+    "value" : "interface"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jakarta.validation-api-2.0.2.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class javax.validation.UnexpectedTypeException",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "javax.validation"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "javax.validation.UnexpectedTypeException"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "UnexpectedTypeException"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jakarta.validation-api-2.0.2.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "@interface javax.validation.Valid",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "javax.validation"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "javax.validation.Valid"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "Valid"
+  }, {
+    "name" : "elementKind",
+    "value" : "@interface"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jakarta.validation-api-2.0.2.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class javax.validation.Validation",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "javax.validation"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "javax.validation.Validation"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "Validation"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jakarta.validation-api-2.0.2.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class javax.validation.ValidationException",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "javax.validation"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "javax.validation.ValidationException"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "ValidationException"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jakarta.validation-api-2.0.2.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "interface javax.validation.ValidationProviderResolver",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "javax.validation"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "javax.validation.ValidationProviderResolver"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "ValidationProviderResolver"
+  }, {
+    "name" : "elementKind",
+    "value" : "interface"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jakarta.validation-api-2.0.2.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "interface javax.validation.Validator",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "javax.validation"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "javax.validation.Validator"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "Validator"
+  }, {
+    "name" : "elementKind",
+    "value" : "interface"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jakarta.validation-api-2.0.2.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "interface javax.validation.ValidatorContext",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "javax.validation"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "javax.validation.ValidatorContext"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "ValidatorContext"
+  }, {
+    "name" : "elementKind",
+    "value" : "interface"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jakarta.validation-api-2.0.2.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "interface javax.validation.ValidatorFactory",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "javax.validation"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "javax.validation.ValidatorFactory"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "ValidatorFactory"
+  }, {
+    "name" : "elementKind",
+    "value" : "interface"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jakarta.validation-api-2.0.2.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "interface javax.validation.bootstrap.GenericBootstrap",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "javax.validation.bootstrap"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "javax.validation.bootstrap.GenericBootstrap"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "GenericBootstrap"
+  }, {
+    "name" : "elementKind",
+    "value" : "interface"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jakarta.validation-api-2.0.2.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "interface javax.validation.bootstrap.ProviderSpecificBootstrap<T extends javax.validation.Configuration<T>>",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "javax.validation.bootstrap"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "javax.validation.bootstrap.ProviderSpecificBootstrap"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "ProviderSpecificBootstrap"
+  }, {
+    "name" : "elementKind",
+    "value" : "interface"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jakarta.validation-api-2.0.2.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "@interface javax.validation.constraints.AssertFalse",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "javax.validation.constraints"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "javax.validation.constraints.AssertFalse"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "AssertFalse"
+  }, {
+    "name" : "elementKind",
+    "value" : "@interface"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jakarta.validation-api-2.0.2.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "@interface javax.validation.constraints.AssertTrue",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "javax.validation.constraints"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "javax.validation.constraints.AssertTrue"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "AssertTrue"
+  }, {
+    "name" : "elementKind",
+    "value" : "@interface"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jakarta.validation-api-2.0.2.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "@interface javax.validation.constraints.DecimalMax",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "javax.validation.constraints"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "javax.validation.constraints.DecimalMax"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "DecimalMax"
+  }, {
+    "name" : "elementKind",
+    "value" : "@interface"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jakarta.validation-api-2.0.2.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "@interface javax.validation.constraints.DecimalMin",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "javax.validation.constraints"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "javax.validation.constraints.DecimalMin"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "DecimalMin"
+  }, {
+    "name" : "elementKind",
+    "value" : "@interface"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jakarta.validation-api-2.0.2.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "@interface javax.validation.constraints.Digits",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "javax.validation.constraints"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "javax.validation.constraints.Digits"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "Digits"
+  }, {
+    "name" : "elementKind",
+    "value" : "@interface"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jakarta.validation-api-2.0.2.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "@interface javax.validation.constraints.Email",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "javax.validation.constraints"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "javax.validation.constraints.Email"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "Email"
+  }, {
+    "name" : "elementKind",
+    "value" : "@interface"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jakarta.validation-api-2.0.2.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "@interface javax.validation.constraints.Future",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "javax.validation.constraints"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "javax.validation.constraints.Future"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "Future"
+  }, {
+    "name" : "elementKind",
+    "value" : "@interface"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jakarta.validation-api-2.0.2.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "@interface javax.validation.constraints.FutureOrPresent",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "javax.validation.constraints"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "javax.validation.constraints.FutureOrPresent"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "FutureOrPresent"
+  }, {
+    "name" : "elementKind",
+    "value" : "@interface"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jakarta.validation-api-2.0.2.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "@interface javax.validation.constraints.Max",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "javax.validation.constraints"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "javax.validation.constraints.Max"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "Max"
+  }, {
+    "name" : "elementKind",
+    "value" : "@interface"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jakarta.validation-api-2.0.2.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "@interface javax.validation.constraints.Min",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "javax.validation.constraints"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "javax.validation.constraints.Min"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "Min"
+  }, {
+    "name" : "elementKind",
+    "value" : "@interface"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jakarta.validation-api-2.0.2.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "@interface javax.validation.constraints.Negative",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "javax.validation.constraints"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "javax.validation.constraints.Negative"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "Negative"
+  }, {
+    "name" : "elementKind",
+    "value" : "@interface"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jakarta.validation-api-2.0.2.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "@interface javax.validation.constraints.NegativeOrZero",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "javax.validation.constraints"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "javax.validation.constraints.NegativeOrZero"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "NegativeOrZero"
+  }, {
+    "name" : "elementKind",
+    "value" : "@interface"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jakarta.validation-api-2.0.2.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "@interface javax.validation.constraints.NotBlank",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "javax.validation.constraints"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "javax.validation.constraints.NotBlank"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "NotBlank"
+  }, {
+    "name" : "elementKind",
+    "value" : "@interface"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jakarta.validation-api-2.0.2.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "@interface javax.validation.constraints.NotEmpty",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "javax.validation.constraints"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "javax.validation.constraints.NotEmpty"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "NotEmpty"
+  }, {
+    "name" : "elementKind",
+    "value" : "@interface"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jakarta.validation-api-2.0.2.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "@interface javax.validation.constraints.NotNull",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "javax.validation.constraints"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "javax.validation.constraints.NotNull"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "NotNull"
+  }, {
+    "name" : "elementKind",
+    "value" : "@interface"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jakarta.validation-api-2.0.2.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "@interface javax.validation.constraints.Null",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "javax.validation.constraints"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "javax.validation.constraints.Null"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "Null"
+  }, {
+    "name" : "elementKind",
+    "value" : "@interface"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jakarta.validation-api-2.0.2.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "@interface javax.validation.constraints.Past",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "javax.validation.constraints"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "javax.validation.constraints.Past"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "Past"
+  }, {
+    "name" : "elementKind",
+    "value" : "@interface"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jakarta.validation-api-2.0.2.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "@interface javax.validation.constraints.PastOrPresent",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "javax.validation.constraints"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "javax.validation.constraints.PastOrPresent"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "PastOrPresent"
+  }, {
+    "name" : "elementKind",
+    "value" : "@interface"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jakarta.validation-api-2.0.2.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "@interface javax.validation.constraints.Pattern",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "javax.validation.constraints"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "javax.validation.constraints.Pattern"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "Pattern"
+  }, {
+    "name" : "elementKind",
+    "value" : "@interface"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jakarta.validation-api-2.0.2.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "@interface javax.validation.constraints.Positive",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "javax.validation.constraints"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "javax.validation.constraints.Positive"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "Positive"
+  }, {
+    "name" : "elementKind",
+    "value" : "@interface"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jakarta.validation-api-2.0.2.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "@interface javax.validation.constraints.PositiveOrZero",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "javax.validation.constraints"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "javax.validation.constraints.PositiveOrZero"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "PositiveOrZero"
+  }, {
+    "name" : "elementKind",
+    "value" : "@interface"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jakarta.validation-api-2.0.2.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "@interface javax.validation.constraints.Size",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "javax.validation.constraints"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "javax.validation.constraints.Size"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "Size"
+  }, {
+    "name" : "elementKind",
+    "value" : "@interface"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jakarta.validation-api-2.0.2.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "@interface javax.validation.constraintvalidation.SupportedValidationTarget",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "javax.validation.constraintvalidation"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "javax.validation.constraintvalidation.SupportedValidationTarget"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "SupportedValidationTarget"
+  }, {
+    "name" : "elementKind",
+    "value" : "@interface"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jakarta.validation-api-2.0.2.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "enum javax.validation.constraintvalidation.ValidationTarget",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "javax.validation.constraintvalidation"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "javax.validation.constraintvalidation.ValidationTarget"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "ValidationTarget"
+  }, {
+    "name" : "elementKind",
+    "value" : "enum"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jakarta.validation-api-2.0.2.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "enum javax.validation.executable.ExecutableType",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "javax.validation.executable"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "javax.validation.executable.ExecutableType"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "ExecutableType"
+  }, {
+    "name" : "elementKind",
+    "value" : "enum"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jakarta.validation-api-2.0.2.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "interface javax.validation.executable.ExecutableValidator",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "javax.validation.executable"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "javax.validation.executable.ExecutableValidator"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "ExecutableValidator"
+  }, {
+    "name" : "elementKind",
+    "value" : "interface"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jakarta.validation-api-2.0.2.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "@interface javax.validation.executable.ValidateOnExecution",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "javax.validation.executable"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "javax.validation.executable.ValidateOnExecution"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "ValidateOnExecution"
+  }, {
+    "name" : "elementKind",
+    "value" : "@interface"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jakarta.validation-api-2.0.2.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "@interface javax.validation.groups.ConvertGroup",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "javax.validation.groups"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "javax.validation.groups.ConvertGroup"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "ConvertGroup"
+  }, {
+    "name" : "elementKind",
+    "value" : "@interface"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jakarta.validation-api-2.0.2.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "interface javax.validation.groups.Default",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "javax.validation.groups"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "javax.validation.groups.Default"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "Default"
+  }, {
+    "name" : "elementKind",
+    "value" : "interface"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jakarta.validation-api-2.0.2.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "interface javax.validation.metadata.BeanDescriptor",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "javax.validation.metadata"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "javax.validation.metadata.BeanDescriptor"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "BeanDescriptor"
+  }, {
+    "name" : "elementKind",
+    "value" : "interface"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jakarta.validation-api-2.0.2.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "interface javax.validation.metadata.CascadableDescriptor",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "javax.validation.metadata"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "javax.validation.metadata.CascadableDescriptor"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "CascadableDescriptor"
+  }, {
+    "name" : "elementKind",
+    "value" : "interface"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jakarta.validation-api-2.0.2.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "interface javax.validation.metadata.ConstraintDescriptor<T extends java.lang.annotation.Annotation>",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "javax.validation.metadata"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "javax.validation.metadata.ConstraintDescriptor"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "ConstraintDescriptor"
+  }, {
+    "name" : "elementKind",
+    "value" : "interface"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jakarta.validation-api-2.0.2.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "interface javax.validation.metadata.ConstructorDescriptor",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "javax.validation.metadata"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "javax.validation.metadata.ConstructorDescriptor"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "ConstructorDescriptor"
+  }, {
+    "name" : "elementKind",
+    "value" : "interface"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jakarta.validation-api-2.0.2.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "interface javax.validation.metadata.ContainerDescriptor",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "javax.validation.metadata"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "javax.validation.metadata.ContainerDescriptor"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "ContainerDescriptor"
+  }, {
+    "name" : "elementKind",
+    "value" : "interface"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jakarta.validation-api-2.0.2.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "interface javax.validation.metadata.ContainerElementTypeDescriptor",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "javax.validation.metadata"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "javax.validation.metadata.ContainerElementTypeDescriptor"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "ContainerElementTypeDescriptor"
+  }, {
+    "name" : "elementKind",
+    "value" : "interface"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jakarta.validation-api-2.0.2.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "interface javax.validation.metadata.CrossParameterDescriptor",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "javax.validation.metadata"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "javax.validation.metadata.CrossParameterDescriptor"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "CrossParameterDescriptor"
+  }, {
+    "name" : "elementKind",
+    "value" : "interface"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jakarta.validation-api-2.0.2.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "interface javax.validation.metadata.ElementDescriptor",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "javax.validation.metadata"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "javax.validation.metadata.ElementDescriptor"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "ElementDescriptor"
+  }, {
+    "name" : "elementKind",
+    "value" : "interface"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jakarta.validation-api-2.0.2.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "interface javax.validation.metadata.ExecutableDescriptor",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "javax.validation.metadata"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "javax.validation.metadata.ExecutableDescriptor"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "ExecutableDescriptor"
+  }, {
+    "name" : "elementKind",
+    "value" : "interface"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jakarta.validation-api-2.0.2.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "interface javax.validation.metadata.GroupConversionDescriptor",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "javax.validation.metadata"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "javax.validation.metadata.GroupConversionDescriptor"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "GroupConversionDescriptor"
+  }, {
+    "name" : "elementKind",
+    "value" : "interface"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jakarta.validation-api-2.0.2.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "interface javax.validation.metadata.MethodDescriptor",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "javax.validation.metadata"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "javax.validation.metadata.MethodDescriptor"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "MethodDescriptor"
+  }, {
+    "name" : "elementKind",
+    "value" : "interface"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jakarta.validation-api-2.0.2.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "enum javax.validation.metadata.MethodType",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "javax.validation.metadata"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "javax.validation.metadata.MethodType"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "MethodType"
+  }, {
+    "name" : "elementKind",
+    "value" : "enum"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jakarta.validation-api-2.0.2.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "interface javax.validation.metadata.ParameterDescriptor",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "javax.validation.metadata"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "javax.validation.metadata.ParameterDescriptor"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "ParameterDescriptor"
+  }, {
+    "name" : "elementKind",
+    "value" : "interface"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jakarta.validation-api-2.0.2.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "interface javax.validation.metadata.PropertyDescriptor",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "javax.validation.metadata"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "javax.validation.metadata.PropertyDescriptor"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "PropertyDescriptor"
+  }, {
+    "name" : "elementKind",
+    "value" : "interface"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jakarta.validation-api-2.0.2.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "interface javax.validation.metadata.ReturnValueDescriptor",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "javax.validation.metadata"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "javax.validation.metadata.ReturnValueDescriptor"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "ReturnValueDescriptor"
+  }, {
+    "name" : "elementKind",
+    "value" : "interface"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jakarta.validation-api-2.0.2.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "enum javax.validation.metadata.Scope",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "javax.validation.metadata"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "javax.validation.metadata.Scope"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "Scope"
+  }, {
+    "name" : "elementKind",
+    "value" : "enum"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jakarta.validation-api-2.0.2.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "enum javax.validation.metadata.ValidateUnwrappedValue",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "javax.validation.metadata"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "javax.validation.metadata.ValidateUnwrappedValue"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "ValidateUnwrappedValue"
+  }, {
+    "name" : "elementKind",
+    "value" : "enum"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jakarta.validation-api-2.0.2.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "interface javax.validation.spi.BootstrapState",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "javax.validation.spi"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "javax.validation.spi.BootstrapState"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "BootstrapState"
+  }, {
+    "name" : "elementKind",
+    "value" : "interface"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jakarta.validation-api-2.0.2.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "interface javax.validation.spi.ConfigurationState",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "javax.validation.spi"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "javax.validation.spi.ConfigurationState"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "ConfigurationState"
+  }, {
+    "name" : "elementKind",
+    "value" : "interface"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jakarta.validation-api-2.0.2.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "interface javax.validation.spi.ValidationProvider<T extends javax.validation.Configuration<T>>",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "javax.validation.spi"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "javax.validation.spi.ValidationProvider"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "ValidationProvider"
+  }, {
+    "name" : "elementKind",
+    "value" : "interface"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jakarta.validation-api-2.0.2.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "@interface javax.validation.valueextraction.ExtractedValue",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "javax.validation.valueextraction"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "javax.validation.valueextraction.ExtractedValue"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "ExtractedValue"
+  }, {
+    "name" : "elementKind",
+    "value" : "@interface"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jakarta.validation-api-2.0.2.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "@interface javax.validation.valueextraction.UnwrapByDefault",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "javax.validation.valueextraction"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "javax.validation.valueextraction.UnwrapByDefault"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "UnwrapByDefault"
+  }, {
+    "name" : "elementKind",
+    "value" : "@interface"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jakarta.validation-api-2.0.2.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "interface javax.validation.valueextraction.Unwrapping",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "javax.validation.valueextraction"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "javax.validation.valueextraction.Unwrapping"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "Unwrapping"
+  }, {
+    "name" : "elementKind",
+    "value" : "interface"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jakarta.validation-api-2.0.2.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "interface javax.validation.valueextraction.ValueExtractor<T>",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "javax.validation.valueextraction"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "javax.validation.valueextraction.ValueExtractor"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "ValueExtractor"
+  }, {
+    "name" : "elementKind",
+    "value" : "interface"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jakarta.validation-api-2.0.2.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class javax.validation.valueextraction.ValueExtractorDeclarationException",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "javax.validation.valueextraction"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "javax.validation.valueextraction.ValueExtractorDeclarationException"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "ValueExtractorDeclarationException"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jakarta.validation-api-2.0.2.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class javax.validation.valueextraction.ValueExtractorDefinitionException",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "javax.validation.valueextraction"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "javax.validation.valueextraction.ValueExtractorDefinitionException"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "ValueExtractorDefinitionException"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jakarta.validation-api-2.0.2.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+} ]

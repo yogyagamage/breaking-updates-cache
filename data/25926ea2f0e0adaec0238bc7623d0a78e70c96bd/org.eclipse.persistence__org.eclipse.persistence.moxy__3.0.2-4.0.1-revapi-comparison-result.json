@@ -1,0 +1,2935 @@
+[ {
+  "code" : "java.method.returnTypeTypeParametersChanged",
+  "old" : "method java.lang.Class org.eclipse.persistence.mappings.AttributeAccessor::getAttributeClass() @ org.eclipse.persistence.internal.jaxb.CustomAccessorAttributeAccessor",
+  "new" : "method java.lang.Class<?> org.eclipse.persistence.mappings.AttributeAccessor::getAttributeClass() @ org.eclipse.persistence.internal.jaxb.CustomAccessorAttributeAccessor",
+  "name" : "return type changed type parameter",
+  "description" : "The return type changed from 'java.lang.Class' to 'java.lang.Class<?>'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "java.lang.Class"
+  }, {
+    "name" : "newType",
+    "value" : "java.lang.Class<?>"
+  }, {
+    "name" : "package",
+    "value" : "org.eclipse.persistence.internal.jaxb"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.eclipse.persistence.internal.jaxb.CustomAccessorAttributeAccessor"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "CustomAccessorAttributeAccessor"
+  }, {
+    "name" : "methodName",
+    "value" : "getAttributeClass"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "org.eclipse.persistence.moxy-3.0.2.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "org.eclipse.persistence.moxy-4.0.1.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.returnTypeTypeParametersChanged",
+  "old" : "method java.lang.Class org.eclipse.persistence.internal.jaxb.GenericsClassHelper::getClassOfType(java.lang.reflect.Type)",
+  "new" : "method java.lang.Class<?> org.eclipse.persistence.internal.jaxb.GenericsClassHelper::getClassOfType(java.lang.reflect.Type)",
+  "name" : "return type changed type parameter",
+  "description" : "The return type changed from 'java.lang.Class' to 'java.lang.Class<?>'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "java.lang.Class"
+  }, {
+    "name" : "newType",
+    "value" : "java.lang.Class<?>"
+  }, {
+    "name" : "package",
+    "value" : "org.eclipse.persistence.internal.jaxb"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.eclipse.persistence.internal.jaxb.GenericsClassHelper"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "GenericsClassHelper"
+  }, {
+    "name" : "methodName",
+    "value" : "getClassOfType"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "org.eclipse.persistence.moxy-3.0.2.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "org.eclipse.persistence.moxy-4.0.1.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.returnTypeTypeParametersChanged",
+  "old" : "method java.lang.Class org.eclipse.persistence.internal.jaxb.JAXBSetMethodAttributeAccessor::getAttributeClass()",
+  "new" : "method java.lang.Class<?> org.eclipse.persistence.internal.jaxb.JAXBSetMethodAttributeAccessor::getAttributeClass()",
+  "name" : "return type changed type parameter",
+  "description" : "The return type changed from 'java.lang.Class' to 'java.lang.Class<?>'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "java.lang.Class"
+  }, {
+    "name" : "newType",
+    "value" : "java.lang.Class<?>"
+  }, {
+    "name" : "package",
+    "value" : "org.eclipse.persistence.internal.jaxb"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.eclipse.persistence.internal.jaxb.JAXBSetMethodAttributeAccessor"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "JAXBSetMethodAttributeAccessor"
+  }, {
+    "name" : "methodName",
+    "value" : "getAttributeClass"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "org.eclipse.persistence.moxy-3.0.2.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "org.eclipse.persistence.moxy-4.0.1.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.returnTypeTypeParametersChanged",
+  "old" : "method java.lang.Class org.eclipse.persistence.internal.descriptors.MethodAttributeAccessor::getGetMethodReturnType() throws org.eclipse.persistence.exceptions.DescriptorException @ org.eclipse.persistence.internal.jaxb.JAXBSetMethodAttributeAccessor",
+  "new" : "method java.lang.Class<?> org.eclipse.persistence.internal.descriptors.MethodAttributeAccessor::getGetMethodReturnType() throws org.eclipse.persistence.exceptions.DescriptorException @ org.eclipse.persistence.internal.jaxb.JAXBSetMethodAttributeAccessor",
+  "name" : "return type changed type parameter",
+  "description" : "The return type changed from 'java.lang.Class' to 'java.lang.Class<?>'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "java.lang.Class"
+  }, {
+    "name" : "newType",
+    "value" : "java.lang.Class<?>"
+  }, {
+    "name" : "package",
+    "value" : "org.eclipse.persistence.internal.jaxb"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.eclipse.persistence.internal.jaxb.JAXBSetMethodAttributeAccessor"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "JAXBSetMethodAttributeAccessor"
+  }, {
+    "name" : "methodName",
+    "value" : "getGetMethodReturnType"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "org.eclipse.persistence.moxy-3.0.2.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "org.eclipse.persistence.moxy-4.0.1.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.returnTypeTypeParametersChanged",
+  "old" : "method java.lang.Class org.eclipse.persistence.internal.descriptors.MethodAttributeAccessor::getSetMethodParameterType() @ org.eclipse.persistence.internal.jaxb.JAXBSetMethodAttributeAccessor",
+  "new" : "method java.lang.Class<?> org.eclipse.persistence.internal.descriptors.MethodAttributeAccessor::getSetMethodParameterType() @ org.eclipse.persistence.internal.jaxb.JAXBSetMethodAttributeAccessor",
+  "name" : "return type changed type parameter",
+  "description" : "The return type changed from 'java.lang.Class' to 'java.lang.Class<?>'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "java.lang.Class"
+  }, {
+    "name" : "newType",
+    "value" : "java.lang.Class<?>"
+  }, {
+    "name" : "package",
+    "value" : "org.eclipse.persistence.internal.jaxb"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.eclipse.persistence.internal.jaxb.JAXBSetMethodAttributeAccessor"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "JAXBSetMethodAttributeAccessor"
+  }, {
+    "name" : "methodName",
+    "value" : "getSetMethodParameterType"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "org.eclipse.persistence.moxy-3.0.2.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "org.eclipse.persistence.moxy-4.0.1.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.returnTypeTypeParametersChanged",
+  "old" : "method java.lang.Class org.eclipse.persistence.internal.descriptors.MethodAttributeAccessor::getSetMethodParameterType(int) @ org.eclipse.persistence.internal.jaxb.JAXBSetMethodAttributeAccessor",
+  "new" : "method java.lang.Class<?> org.eclipse.persistence.internal.descriptors.MethodAttributeAccessor::getSetMethodParameterType(int) @ org.eclipse.persistence.internal.jaxb.JAXBSetMethodAttributeAccessor",
+  "name" : "return type changed type parameter",
+  "description" : "The return type changed from 'java.lang.Class' to 'java.lang.Class<?>'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "java.lang.Class"
+  }, {
+    "name" : "newType",
+    "value" : "java.lang.Class<?>"
+  }, {
+    "name" : "package",
+    "value" : "org.eclipse.persistence.internal.jaxb"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.eclipse.persistence.internal.jaxb.JAXBSetMethodAttributeAccessor"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "JAXBSetMethodAttributeAccessor"
+  }, {
+    "name" : "methodName",
+    "value" : "getSetMethodParameterType"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "org.eclipse.persistence.moxy-3.0.2.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "org.eclipse.persistence.moxy-4.0.1.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.returnTypeTypeParametersChanged",
+  "old" : "method java.lang.Class[] org.eclipse.persistence.internal.descriptors.MethodAttributeAccessor::getSetMethodParameterTypes() @ org.eclipse.persistence.internal.jaxb.JAXBSetMethodAttributeAccessor",
+  "new" : "method java.lang.Class<?>[] org.eclipse.persistence.internal.descriptors.MethodAttributeAccessor::getSetMethodParameterTypes() @ org.eclipse.persistence.internal.jaxb.JAXBSetMethodAttributeAccessor",
+  "name" : "return type changed type parameter",
+  "description" : "The return type changed from 'java.lang.Class[]' to 'java.lang.Class<?>[]'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "java.lang.Class[]"
+  }, {
+    "name" : "newType",
+    "value" : "java.lang.Class<?>[]"
+  }, {
+    "name" : "package",
+    "value" : "org.eclipse.persistence.internal.jaxb"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.eclipse.persistence.internal.jaxb.JAXBSetMethodAttributeAccessor"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "JAXBSetMethodAttributeAccessor"
+  }, {
+    "name" : "methodName",
+    "value" : "getSetMethodParameterTypes"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "org.eclipse.persistence.moxy-3.0.2.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "org.eclipse.persistence.moxy-4.0.1.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.returnTypeTypeParametersChanged",
+  "old" : "method java.lang.Class org.eclipse.persistence.internal.jaxb.JaxbClassLoader::generateClass(java.lang.String, byte[])",
+  "new" : "method java.lang.Class<?> org.eclipse.persistence.internal.jaxb.JaxbClassLoader::generateClass(java.lang.String, byte[])",
+  "name" : "return type changed type parameter",
+  "description" : "The return type changed from 'java.lang.Class' to 'java.lang.Class<?>'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "java.lang.Class"
+  }, {
+    "name" : "newType",
+    "value" : "java.lang.Class<?>"
+  }, {
+    "name" : "package",
+    "value" : "org.eclipse.persistence.internal.jaxb"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.eclipse.persistence.internal.jaxb.JaxbClassLoader"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "JaxbClassLoader"
+  }, {
+    "name" : "methodName",
+    "value" : "generateClass"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "org.eclipse.persistence.moxy-3.0.2.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "org.eclipse.persistence.moxy-4.0.1.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.returnTypeTypeParametersChanged",
+  "old" : "method java.lang.Class org.eclipse.persistence.internal.jaxb.JaxbClassLoader::loadClass(java.lang.String) throws java.lang.ClassNotFoundException",
+  "new" : "method java.lang.Class<?> org.eclipse.persistence.internal.jaxb.JaxbClassLoader::loadClass(java.lang.String) throws java.lang.ClassNotFoundException",
+  "name" : "return type changed type parameter",
+  "description" : "The return type changed from 'java.lang.Class' to 'java.lang.Class<?>'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "java.lang.Class"
+  }, {
+    "name" : "newType",
+    "value" : "java.lang.Class<?>"
+  }, {
+    "name" : "package",
+    "value" : "org.eclipse.persistence.internal.jaxb"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.eclipse.persistence.internal.jaxb.JaxbClassLoader"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "JaxbClassLoader"
+  }, {
+    "name" : "methodName",
+    "value" : "loadClass"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "org.eclipse.persistence.moxy-3.0.2.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "org.eclipse.persistence.moxy-4.0.1.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.returnTypeTypeParametersChanged",
+  "old" : "method java.lang.Class org.eclipse.persistence.internal.descriptors.InstantiationPolicy::getFactoryClass() @ org.eclipse.persistence.internal.jaxb.MultiArgInstantiationPolicy",
+  "new" : "method java.lang.Class<?> org.eclipse.persistence.internal.descriptors.InstantiationPolicy::getFactoryClass() @ org.eclipse.persistence.internal.jaxb.MultiArgInstantiationPolicy",
+  "name" : "return type changed type parameter",
+  "description" : "The return type changed from 'java.lang.Class' to 'java.lang.Class<?>'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "java.lang.Class"
+  }, {
+    "name" : "newType",
+    "value" : "java.lang.Class<?>"
+  }, {
+    "name" : "package",
+    "value" : "org.eclipse.persistence.internal.jaxb"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.eclipse.persistence.internal.jaxb.MultiArgInstantiationPolicy"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "MultiArgInstantiationPolicy"
+  }, {
+    "name" : "methodName",
+    "value" : "getFactoryClass"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "org.eclipse.persistence.moxy-3.0.2.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "org.eclipse.persistence.moxy-4.0.1.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.returnTypeTypeParametersChanged",
+  "old" : "method java.lang.Class org.eclipse.persistence.internal.jaxb.ObjectGraphImpl::getClassType()",
+  "new" : "method java.lang.Class<?> org.eclipse.persistence.internal.jaxb.ObjectGraphImpl::getClassType()",
+  "name" : "return type changed type parameter",
+  "description" : "The return type changed from 'java.lang.Class' to 'java.lang.Class<?>'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "java.lang.Class"
+  }, {
+    "name" : "newType",
+    "value" : "java.lang.Class<?>"
+  }, {
+    "name" : "package",
+    "value" : "org.eclipse.persistence.internal.jaxb"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.eclipse.persistence.internal.jaxb.ObjectGraphImpl"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "ObjectGraphImpl"
+  }, {
+    "name" : "methodName",
+    "value" : "getClassType"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "org.eclipse.persistence.moxy-3.0.2.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "org.eclipse.persistence.moxy-4.0.1.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.returnTypeTypeParametersChanged",
+  "old" : "method java.lang.Class jakarta.xml.bind.JAXBElement<T>::getScope() @ org.eclipse.persistence.internal.jaxb.WrappedValue",
+  "new" : "method java.lang.Class<?> jakarta.xml.bind.JAXBElement<T>::getScope() @ org.eclipse.persistence.internal.jaxb.WrappedValue",
+  "name" : "return type changed type parameter",
+  "description" : "The return type changed from 'java.lang.Class' to 'java.lang.Class<?>'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "java.lang.Class"
+  }, {
+    "name" : "newType",
+    "value" : "java.lang.Class<?>"
+  }, {
+    "name" : "package",
+    "value" : "org.eclipse.persistence.internal.jaxb"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.eclipse.persistence.internal.jaxb.WrappedValue"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "WrappedValue"
+  }, {
+    "name" : "methodName",
+    "value" : "getScope"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "org.eclipse.persistence.moxy-3.0.2.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "org.eclipse.persistence.moxy-4.0.1.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.returnTypeTypeParametersChanged",
+  "old" : "method org.eclipse.persistence.core.mappings.converters.CoreConverter org.eclipse.persistence.internal.jaxb.XMLJavaTypeConverter::getNestedConverter()",
+  "new" : "method org.eclipse.persistence.core.mappings.converters.CoreConverter<org.eclipse.persistence.mappings.DatabaseMapping, org.eclipse.persistence.sessions.Session> org.eclipse.persistence.internal.jaxb.XMLJavaTypeConverter::getNestedConverter()",
+  "name" : "return type changed type parameter",
+  "description" : "The return type changed from 'org.eclipse.persistence.core.mappings.converters.CoreConverter' to 'org.eclipse.persistence.core.mappings.converters.CoreConverter<org.eclipse.persistence.mappings.DatabaseMapping, org.eclipse.persistence.sessions.Session>'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "org.eclipse.persistence.core.mappings.converters.CoreConverter"
+  }, {
+    "name" : "newType",
+    "value" : "org.eclipse.persistence.core.mappings.converters.CoreConverter<org.eclipse.persistence.mappings.DatabaseMapping, org.eclipse.persistence.sessions.Session>"
+  }, {
+    "name" : "package",
+    "value" : "org.eclipse.persistence.internal.jaxb"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.eclipse.persistence.internal.jaxb.XMLJavaTypeConverter"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "XMLJavaTypeConverter"
+  }, {
+    "name" : "methodName",
+    "value" : "getNestedConverter"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "org.eclipse.persistence.moxy-3.0.2.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "org.eclipse.persistence.moxy-4.0.1.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.returnTypeTypeParametersChanged",
+  "old" : "method java.lang.Class org.eclipse.persistence.internal.jaxb.XMLJavaTypeConverter::getXmlAdapterClass()",
+  "new" : "method java.lang.Class<? extends jakarta.xml.bind.annotation.adapters.XmlAdapter<?, ?>> org.eclipse.persistence.internal.jaxb.XMLJavaTypeConverter::getXmlAdapterClass()",
+  "name" : "return type changed type parameter",
+  "description" : "The return type changed from 'java.lang.Class' to 'java.lang.Class<? extends jakarta.xml.bind.annotation.adapters.XmlAdapter<?, ?>>'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "java.lang.Class"
+  }, {
+    "name" : "newType",
+    "value" : "java.lang.Class<? extends jakarta.xml.bind.annotation.adapters.XmlAdapter<?, ?>>"
+  }, {
+    "name" : "package",
+    "value" : "org.eclipse.persistence.internal.jaxb"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.eclipse.persistence.internal.jaxb.XMLJavaTypeConverter"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "XMLJavaTypeConverter"
+  }, {
+    "name" : "methodName",
+    "value" : "getXmlAdapterClass"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "org.eclipse.persistence.moxy-3.0.2.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "org.eclipse.persistence.moxy-4.0.1.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.returnTypeTypeParametersChanged",
+  "old" : "method java.lang.Class org.eclipse.persistence.mappings.AttributeAccessor::getAttributeClass() @ org.eclipse.persistence.internal.jaxb.many.JAXBArrayAttributeAccessor",
+  "new" : "method java.lang.Class<?> org.eclipse.persistence.mappings.AttributeAccessor::getAttributeClass() @ org.eclipse.persistence.internal.jaxb.many.JAXBArrayAttributeAccessor",
+  "name" : "return type changed type parameter",
+  "description" : "The return type changed from 'java.lang.Class' to 'java.lang.Class<?>'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "java.lang.Class"
+  }, {
+    "name" : "newType",
+    "value" : "java.lang.Class<?>"
+  }, {
+    "name" : "package",
+    "value" : "org.eclipse.persistence.internal.jaxb.many"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.eclipse.persistence.internal.jaxb.many.JAXBArrayAttributeAccessor"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "JAXBArrayAttributeAccessor"
+  }, {
+    "name" : "methodName",
+    "value" : "getAttributeClass"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "org.eclipse.persistence.moxy-3.0.2.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "org.eclipse.persistence.moxy-4.0.1.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.returnTypeTypeParametersChanged",
+  "old" : "method java.lang.Class org.eclipse.persistence.mappings.AttributeAccessor::getAttributeClass() @ org.eclipse.persistence.internal.jaxb.many.MapValueAttributeAccessor",
+  "new" : "method java.lang.Class<?> org.eclipse.persistence.mappings.AttributeAccessor::getAttributeClass() @ org.eclipse.persistence.internal.jaxb.many.MapValueAttributeAccessor",
+  "name" : "return type changed type parameter",
+  "description" : "The return type changed from 'java.lang.Class' to 'java.lang.Class<?>'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "java.lang.Class"
+  }, {
+    "name" : "newType",
+    "value" : "java.lang.Class<?>"
+  }, {
+    "name" : "package",
+    "value" : "org.eclipse.persistence.internal.jaxb.many"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.eclipse.persistence.internal.jaxb.many.MapValueAttributeAccessor"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "MapValueAttributeAccessor"
+  }, {
+    "name" : "methodName",
+    "value" : "getAttributeClass"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "org.eclipse.persistence.moxy-3.0.2.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "org.eclipse.persistence.moxy-4.0.1.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.returnTypeTypeParametersChanged",
+  "old" : "method java.util.Map<java.lang.String, java.lang.Class> org.eclipse.persistence.jaxb.JAXBContext::getArrayClassesToGeneratedClasses()",
+  "new" : "method java.util.Map<java.lang.String, java.lang.Class<?>> org.eclipse.persistence.jaxb.JAXBContext::getArrayClassesToGeneratedClasses()",
+  "name" : "return type changed type parameter",
+  "description" : "The return type changed from 'java.util.Map<java.lang.String, java.lang.Class>' to 'java.util.Map<java.lang.String, java.lang.Class<?>>'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "java.util.Map<java.lang.String, java.lang.Class>"
+  }, {
+    "name" : "newType",
+    "value" : "java.util.Map<java.lang.String, java.lang.Class<?>>"
+  }, {
+    "name" : "package",
+    "value" : "org.eclipse.persistence.jaxb"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.eclipse.persistence.jaxb.JAXBContext"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "JAXBContext"
+  }, {
+    "name" : "methodName",
+    "value" : "getArrayClassesToGeneratedClasses"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "org.eclipse.persistence.moxy-3.0.2.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "org.eclipse.persistence.moxy-4.0.1.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.returnTypeTypeParametersChanged",
+  "old" : "method java.util.Map<java.lang.String, java.lang.Class> org.eclipse.persistence.jaxb.JAXBContext::getClassToGeneratedClasses()",
+  "new" : "method java.util.Map<java.lang.String, java.lang.Class<?>> org.eclipse.persistence.jaxb.JAXBContext::getClassToGeneratedClasses()",
+  "name" : "return type changed type parameter",
+  "description" : "The return type changed from 'java.util.Map<java.lang.String, java.lang.Class>' to 'java.util.Map<java.lang.String, java.lang.Class<?>>'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "java.util.Map<java.lang.String, java.lang.Class>"
+  }, {
+    "name" : "newType",
+    "value" : "java.util.Map<java.lang.String, java.lang.Class<?>>"
+  }, {
+    "name" : "package",
+    "value" : "org.eclipse.persistence.jaxb"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.eclipse.persistence.jaxb.JAXBContext"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "JAXBContext"
+  }, {
+    "name" : "methodName",
+    "value" : "getClassToGeneratedClasses"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "org.eclipse.persistence.moxy-3.0.2.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "org.eclipse.persistence.moxy-4.0.1.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.returnTypeTypeParametersChanged",
+  "old" : "method java.util.Map<java.lang.reflect.Type, java.lang.Class> org.eclipse.persistence.jaxb.JAXBContext::getCollectionClassesToGeneratedClasses()",
+  "new" : "method java.util.Map<java.lang.reflect.Type, java.lang.Class<?>> org.eclipse.persistence.jaxb.JAXBContext::getCollectionClassesToGeneratedClasses()",
+  "name" : "return type changed type parameter",
+  "description" : "The return type changed from 'java.util.Map<java.lang.reflect.Type, java.lang.Class>' to 'java.util.Map<java.lang.reflect.Type, java.lang.Class<?>>'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "java.util.Map<java.lang.reflect.Type, java.lang.Class>"
+  }, {
+    "name" : "newType",
+    "value" : "java.util.Map<java.lang.reflect.Type, java.lang.Class<?>>"
+  }, {
+    "name" : "package",
+    "value" : "org.eclipse.persistence.jaxb"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.eclipse.persistence.jaxb.JAXBContext"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "JAXBContext"
+  }, {
+    "name" : "methodName",
+    "value" : "getCollectionClassesToGeneratedClasses"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "org.eclipse.persistence.moxy-3.0.2.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "org.eclipse.persistence.moxy-4.0.1.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.returnTypeTypeParametersChanged",
+  "old" : "method java.util.Map<javax.xml.namespace.QName, java.lang.Class> org.eclipse.persistence.jaxb.JAXBContext::getQNamesToDeclaredClasses()",
+  "new" : "method java.util.Map<javax.xml.namespace.QName, java.lang.Class<?>> org.eclipse.persistence.jaxb.JAXBContext::getQNamesToDeclaredClasses()",
+  "name" : "return type changed type parameter",
+  "description" : "The return type changed from 'java.util.Map<javax.xml.namespace.QName, java.lang.Class>' to 'java.util.Map<javax.xml.namespace.QName, java.lang.Class<?>>'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "java.util.Map<javax.xml.namespace.QName, java.lang.Class>"
+  }, {
+    "name" : "newType",
+    "value" : "java.util.Map<javax.xml.namespace.QName, java.lang.Class<?>>"
+  }, {
+    "name" : "package",
+    "value" : "org.eclipse.persistence.jaxb"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.eclipse.persistence.jaxb.JAXBContext"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "JAXBContext"
+  }, {
+    "name" : "methodName",
+    "value" : "getQNamesToDeclaredClasses"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "org.eclipse.persistence.moxy-3.0.2.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "org.eclipse.persistence.moxy-4.0.1.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.returnTypeTypeParametersChanged",
+  "old" : "method java.lang.Class org.eclipse.persistence.mappings.converters.ObjectTypeConverter::getFieldClassification() @ org.eclipse.persistence.jaxb.JAXBEnumTypeConverter",
+  "new" : "method java.lang.Class<?> org.eclipse.persistence.mappings.converters.ObjectTypeConverter::getFieldClassification() @ org.eclipse.persistence.jaxb.JAXBEnumTypeConverter",
+  "name" : "return type changed type parameter",
+  "description" : "The return type changed from 'java.lang.Class' to 'java.lang.Class<?>'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "java.lang.Class"
+  }, {
+    "name" : "newType",
+    "value" : "java.lang.Class<?>"
+  }, {
+    "name" : "package",
+    "value" : "org.eclipse.persistence.jaxb"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.eclipse.persistence.jaxb.JAXBEnumTypeConverter"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "JAXBEnumTypeConverter"
+  }, {
+    "name" : "methodName",
+    "value" : "getFieldClassification"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "org.eclipse.persistence.moxy-3.0.2.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "org.eclipse.persistence.moxy-4.0.1.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.returnTypeTypeParametersChanged",
+  "old" : "method java.lang.Class org.eclipse.persistence.mappings.converters.ObjectTypeConverter::getFieldClassification(org.eclipse.persistence.internal.helper.DatabaseField) @ org.eclipse.persistence.jaxb.JAXBEnumTypeConverter",
+  "new" : "method java.lang.Class<?> org.eclipse.persistence.mappings.converters.ObjectTypeConverter::getFieldClassification(org.eclipse.persistence.internal.helper.DatabaseField) @ org.eclipse.persistence.jaxb.JAXBEnumTypeConverter",
+  "name" : "return type changed type parameter",
+  "description" : "The return type changed from 'java.lang.Class' to 'java.lang.Class<?>'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "java.lang.Class"
+  }, {
+    "name" : "newType",
+    "value" : "java.lang.Class<?>"
+  }, {
+    "name" : "package",
+    "value" : "org.eclipse.persistence.jaxb"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.eclipse.persistence.jaxb.JAXBEnumTypeConverter"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "JAXBEnumTypeConverter"
+  }, {
+    "name" : "methodName",
+    "value" : "getFieldClassification"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "org.eclipse.persistence.moxy-3.0.2.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "org.eclipse.persistence.moxy-4.0.1.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.returnTypeTypeParametersChanged",
+  "old" : "method java.lang.Class org.eclipse.persistence.mappings.converters.ObjectTypeConverter::loadClass(java.lang.String, java.lang.ClassLoader) @ org.eclipse.persistence.jaxb.JAXBEnumTypeConverter",
+  "new" : "method java.lang.Class<?> org.eclipse.persistence.mappings.converters.ObjectTypeConverter::loadClass(java.lang.String, java.lang.ClassLoader) @ org.eclipse.persistence.jaxb.JAXBEnumTypeConverter",
+  "name" : "return type changed type parameter",
+  "description" : "The return type changed from 'java.lang.Class' to 'java.lang.Class<?>'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "java.lang.Class"
+  }, {
+    "name" : "newType",
+    "value" : "java.lang.Class<?>"
+  }, {
+    "name" : "package",
+    "value" : "org.eclipse.persistence.jaxb"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.eclipse.persistence.jaxb.JAXBEnumTypeConverter"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "JAXBEnumTypeConverter"
+  }, {
+    "name" : "methodName",
+    "value" : "loadClass"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "org.eclipse.persistence.moxy-3.0.2.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "org.eclipse.persistence.moxy-4.0.1.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.returnTypeTypeParametersChanged",
+  "old" : "method java.lang.Class jakarta.xml.bind.JAXBElement<T>::getScope() @ org.eclipse.persistence.jaxb.JAXBTypeElement",
+  "new" : "method java.lang.Class<?> jakarta.xml.bind.JAXBElement<T>::getScope() @ org.eclipse.persistence.jaxb.JAXBTypeElement",
+  "name" : "return type changed type parameter",
+  "description" : "The return type changed from 'java.lang.Class' to 'java.lang.Class<?>'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "java.lang.Class"
+  }, {
+    "name" : "newType",
+    "value" : "java.lang.Class<?>"
+  }, {
+    "name" : "package",
+    "value" : "org.eclipse.persistence.jaxb"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.eclipse.persistence.jaxb.JAXBTypeElement"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "JAXBTypeElement"
+  }, {
+    "name" : "methodName",
+    "value" : "getScope"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "org.eclipse.persistence.moxy-3.0.2.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "org.eclipse.persistence.moxy-4.0.1.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.returnTypeTypeParametersChanged",
+  "old" : "method java.lang.Class org.eclipse.persistence.jaxb.JAXBTypesafeEnumConverter::getEnumClass()",
+  "new" : "method java.lang.Class<?> org.eclipse.persistence.jaxb.JAXBTypesafeEnumConverter::getEnumClass()",
+  "name" : "return type changed type parameter",
+  "description" : "The return type changed from 'java.lang.Class' to 'java.lang.Class<?>'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "java.lang.Class"
+  }, {
+    "name" : "newType",
+    "value" : "java.lang.Class<?>"
+  }, {
+    "name" : "package",
+    "value" : "org.eclipse.persistence.jaxb"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.eclipse.persistence.jaxb.JAXBTypesafeEnumConverter"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "JAXBTypesafeEnumConverter"
+  }, {
+    "name" : "methodName",
+    "value" : "getEnumClass"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "org.eclipse.persistence.moxy-3.0.2.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "org.eclipse.persistence.moxy-4.0.1.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.noLongerImplementsInterface",
+  "old" : "class org.eclipse.persistence.jaxb.JAXBValidator",
+  "new" : "class org.eclipse.persistence.jaxb.JAXBValidator",
+  "name" : "class no longer implements interface",
+  "description" : "Class no longer implements interface 'jakarta.xml.bind.Validator'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "interface",
+    "value" : "jakarta.xml.bind.Validator"
+  }, {
+    "name" : "package",
+    "value" : "org.eclipse.persistence.jaxb"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.eclipse.persistence.jaxb.JAXBValidator"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "JAXBValidator"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "org.eclipse.persistence.moxy-3.0.2.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "org.eclipse.persistence.moxy-4.0.1.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.returnTypeTypeParametersChanged",
+  "old" : "method java.lang.Class org.eclipse.persistence.jaxb.Subgraph::getClassType()",
+  "new" : "method java.lang.Class<?> org.eclipse.persistence.jaxb.Subgraph::getClassType()",
+  "name" : "return type changed type parameter",
+  "description" : "The return type changed from 'java.lang.Class' to 'java.lang.Class<?>'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "java.lang.Class"
+  }, {
+    "name" : "newType",
+    "value" : "java.lang.Class<?>"
+  }, {
+    "name" : "package",
+    "value" : "org.eclipse.persistence.jaxb"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.eclipse.persistence.jaxb.Subgraph"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "Subgraph"
+  }, {
+    "name" : "methodName",
+    "value" : "getClassType"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "org.eclipse.persistence.moxy-3.0.2.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "org.eclipse.persistence.moxy-4.0.1.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.returnTypeTypeParametersChanged",
+  "old" : "method java.util.Map<java.lang.String, java.lang.Class> org.eclipse.persistence.jaxb.compiler.AnnotationsProcessor::getArrayClassesToGeneratedClasses()",
+  "new" : "method java.util.Map<java.lang.String, java.lang.Class<?>> org.eclipse.persistence.jaxb.compiler.AnnotationsProcessor::getArrayClassesToGeneratedClasses()",
+  "name" : "return type changed type parameter",
+  "description" : "The return type changed from 'java.util.Map<java.lang.String, java.lang.Class>' to 'java.util.Map<java.lang.String, java.lang.Class<?>>'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "java.util.Map<java.lang.String, java.lang.Class>"
+  }, {
+    "name" : "newType",
+    "value" : "java.util.Map<java.lang.String, java.lang.Class<?>>"
+  }, {
+    "name" : "package",
+    "value" : "org.eclipse.persistence.jaxb.compiler"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.eclipse.persistence.jaxb.compiler.AnnotationsProcessor"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "AnnotationsProcessor"
+  }, {
+    "name" : "methodName",
+    "value" : "getArrayClassesToGeneratedClasses"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "org.eclipse.persistence.moxy-3.0.2.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "org.eclipse.persistence.moxy-4.0.1.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.returnTypeTypeParametersChanged",
+  "old" : "method java.util.Map<java.lang.reflect.Type, java.lang.Class> org.eclipse.persistence.jaxb.compiler.AnnotationsProcessor::getCollectionClassesToGeneratedClasses()",
+  "new" : "method java.util.Map<java.lang.reflect.Type, java.lang.Class<?>> org.eclipse.persistence.jaxb.compiler.AnnotationsProcessor::getCollectionClassesToGeneratedClasses()",
+  "name" : "return type changed type parameter",
+  "description" : "The return type changed from 'java.util.Map<java.lang.reflect.Type, java.lang.Class>' to 'java.util.Map<java.lang.reflect.Type, java.lang.Class<?>>'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "java.util.Map<java.lang.reflect.Type, java.lang.Class>"
+  }, {
+    "name" : "newType",
+    "value" : "java.util.Map<java.lang.reflect.Type, java.lang.Class<?>>"
+  }, {
+    "name" : "package",
+    "value" : "org.eclipse.persistence.jaxb.compiler"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.eclipse.persistence.jaxb.compiler.AnnotationsProcessor"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "AnnotationsProcessor"
+  }, {
+    "name" : "methodName",
+    "value" : "getCollectionClassesToGeneratedClasses"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "org.eclipse.persistence.moxy-3.0.2.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "org.eclipse.persistence.moxy-4.0.1.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.returnTypeTypeParametersChanged",
+  "old" : "method java.util.Map<java.lang.Class, org.eclipse.persistence.jaxb.javamodel.JavaClass> org.eclipse.persistence.jaxb.compiler.AnnotationsProcessor::getGeneratedClassesToArrayClasses()",
+  "new" : "method java.util.Map<java.lang.Class<?>, org.eclipse.persistence.jaxb.javamodel.JavaClass> org.eclipse.persistence.jaxb.compiler.AnnotationsProcessor::getGeneratedClassesToArrayClasses()",
+  "name" : "return type changed type parameter",
+  "description" : "The return type changed from 'java.util.Map<java.lang.Class, org.eclipse.persistence.jaxb.javamodel.JavaClass>' to 'java.util.Map<java.lang.Class<?>, org.eclipse.persistence.jaxb.javamodel.JavaClass>'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "java.util.Map<java.lang.Class, org.eclipse.persistence.jaxb.javamodel.JavaClass>"
+  }, {
+    "name" : "newType",
+    "value" : "java.util.Map<java.lang.Class<?>, org.eclipse.persistence.jaxb.javamodel.JavaClass>"
+  }, {
+    "name" : "package",
+    "value" : "org.eclipse.persistence.jaxb.compiler"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.eclipse.persistence.jaxb.compiler.AnnotationsProcessor"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "AnnotationsProcessor"
+  }, {
+    "name" : "methodName",
+    "value" : "getGeneratedClassesToArrayClasses"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "org.eclipse.persistence.moxy-3.0.2.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "org.eclipse.persistence.moxy-4.0.1.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.returnTypeTypeParametersChanged",
+  "old" : "method java.util.Map<java.lang.Class, java.lang.reflect.Type> org.eclipse.persistence.jaxb.compiler.AnnotationsProcessor::getGeneratedClassesToCollectionClasses()",
+  "new" : "method java.util.Map<java.lang.Class<?>, java.lang.reflect.Type> org.eclipse.persistence.jaxb.compiler.AnnotationsProcessor::getGeneratedClassesToCollectionClasses()",
+  "name" : "return type changed type parameter",
+  "description" : "The return type changed from 'java.util.Map<java.lang.Class, java.lang.reflect.Type>' to 'java.util.Map<java.lang.Class<?>, java.lang.reflect.Type>'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "java.util.Map<java.lang.Class, java.lang.reflect.Type>"
+  }, {
+    "name" : "newType",
+    "value" : "java.util.Map<java.lang.Class<?>, java.lang.reflect.Type>"
+  }, {
+    "name" : "package",
+    "value" : "org.eclipse.persistence.jaxb.compiler"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.eclipse.persistence.jaxb.compiler.AnnotationsProcessor"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "AnnotationsProcessor"
+  }, {
+    "name" : "methodName",
+    "value" : "getGeneratedClassesToCollectionClasses"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "org.eclipse.persistence.moxy-3.0.2.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "org.eclipse.persistence.moxy-4.0.1.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.returnTypeTypeParametersChanged",
+  "old" : "method java.util.Map<org.eclipse.persistence.jaxb.TypeMappingInfo, java.lang.Class> org.eclipse.persistence.jaxb.compiler.AnnotationsProcessor::getTypeMappingInfoToAdapterClasses()",
+  "new" : "method java.util.Map<org.eclipse.persistence.jaxb.TypeMappingInfo, java.lang.Class<?>> org.eclipse.persistence.jaxb.compiler.AnnotationsProcessor::getTypeMappingInfoToAdapterClasses()",
+  "name" : "return type changed type parameter",
+  "description" : "The return type changed from 'java.util.Map<org.eclipse.persistence.jaxb.TypeMappingInfo, java.lang.Class>' to 'java.util.Map<org.eclipse.persistence.jaxb.TypeMappingInfo, java.lang.Class<?>>'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "java.util.Map<org.eclipse.persistence.jaxb.TypeMappingInfo, java.lang.Class>"
+  }, {
+    "name" : "newType",
+    "value" : "java.util.Map<org.eclipse.persistence.jaxb.TypeMappingInfo, java.lang.Class<?>>"
+  }, {
+    "name" : "package",
+    "value" : "org.eclipse.persistence.jaxb.compiler"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.eclipse.persistence.jaxb.compiler.AnnotationsProcessor"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "AnnotationsProcessor"
+  }, {
+    "name" : "methodName",
+    "value" : "getTypeMappingInfoToAdapterClasses"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "org.eclipse.persistence.moxy-3.0.2.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "org.eclipse.persistence.moxy-4.0.1.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.returnTypeTypeParametersChanged",
+  "old" : "method java.util.Map<org.eclipse.persistence.jaxb.TypeMappingInfo, java.lang.Class> org.eclipse.persistence.jaxb.compiler.AnnotationsProcessor::getTypeMappingInfosToGeneratedClasses()",
+  "new" : "method java.util.Map<org.eclipse.persistence.jaxb.TypeMappingInfo, java.lang.Class<?>> org.eclipse.persistence.jaxb.compiler.AnnotationsProcessor::getTypeMappingInfosToGeneratedClasses()",
+  "name" : "return type changed type parameter",
+  "description" : "The return type changed from 'java.util.Map<org.eclipse.persistence.jaxb.TypeMappingInfo, java.lang.Class>' to 'java.util.Map<org.eclipse.persistence.jaxb.TypeMappingInfo, java.lang.Class<?>>'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "java.util.Map<org.eclipse.persistence.jaxb.TypeMappingInfo, java.lang.Class>"
+  }, {
+    "name" : "newType",
+    "value" : "java.util.Map<org.eclipse.persistence.jaxb.TypeMappingInfo, java.lang.Class<?>>"
+  }, {
+    "name" : "package",
+    "value" : "org.eclipse.persistence.jaxb.compiler"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.eclipse.persistence.jaxb.compiler.AnnotationsProcessor"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "AnnotationsProcessor"
+  }, {
+    "name" : "methodName",
+    "value" : "getTypeMappingInfosToGeneratedClasses"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "org.eclipse.persistence.moxy-3.0.2.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "org.eclipse.persistence.moxy-4.0.1.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.returnTypeTypeParametersChanged",
+  "old" : "method java.lang.Class org.eclipse.persistence.jaxb.compiler.ElementDeclaration::getJavaTypeAdapterClass()",
+  "new" : "method java.lang.Class<?> org.eclipse.persistence.jaxb.compiler.ElementDeclaration::getJavaTypeAdapterClass()",
+  "name" : "return type changed type parameter",
+  "description" : "The return type changed from 'java.lang.Class' to 'java.lang.Class<?>'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "java.lang.Class"
+  }, {
+    "name" : "newType",
+    "value" : "java.lang.Class<?>"
+  }, {
+    "name" : "package",
+    "value" : "org.eclipse.persistence.jaxb.compiler"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.eclipse.persistence.jaxb.compiler.ElementDeclaration"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "ElementDeclaration"
+  }, {
+    "name" : "methodName",
+    "value" : "getJavaTypeAdapterClass"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "org.eclipse.persistence.moxy-3.0.2.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "org.eclipse.persistence.moxy-4.0.1.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.returnTypeTypeParametersChanged",
+  "old" : "method java.lang.Class org.eclipse.persistence.jaxb.compiler.ElementDeclaration::getScopeClass()",
+  "new" : "method java.lang.Class<?> org.eclipse.persistence.jaxb.compiler.ElementDeclaration::getScopeClass()",
+  "name" : "return type changed type parameter",
+  "description" : "The return type changed from 'java.lang.Class' to 'java.lang.Class<?>'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "java.lang.Class"
+  }, {
+    "name" : "newType",
+    "value" : "java.lang.Class<?>"
+  }, {
+    "name" : "package",
+    "value" : "org.eclipse.persistence.jaxb.compiler"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.eclipse.persistence.jaxb.compiler.ElementDeclaration"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "ElementDeclaration"
+  }, {
+    "name" : "methodName",
+    "value" : "getScopeClass"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "org.eclipse.persistence.moxy-3.0.2.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "org.eclipse.persistence.moxy-4.0.1.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.returnTypeTypeParametersChanged",
+  "old" : "method java.util.Map org.eclipse.persistence.jaxb.compiler.Generator::getMarshalCallbacks()",
+  "new" : "method java.util.Map<java.lang.String, org.eclipse.persistence.jaxb.compiler.MarshalCallback> org.eclipse.persistence.jaxb.compiler.Generator::getMarshalCallbacks()",
+  "name" : "return type changed type parameter",
+  "description" : "The return type changed from 'java.util.Map' to 'java.util.Map<java.lang.String, org.eclipse.persistence.jaxb.compiler.MarshalCallback>'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "java.util.Map"
+  }, {
+    "name" : "newType",
+    "value" : "java.util.Map<java.lang.String, org.eclipse.persistence.jaxb.compiler.MarshalCallback>"
+  }, {
+    "name" : "package",
+    "value" : "org.eclipse.persistence.jaxb.compiler"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.eclipse.persistence.jaxb.compiler.Generator"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "Generator"
+  }, {
+    "name" : "methodName",
+    "value" : "getMarshalCallbacks"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "org.eclipse.persistence.moxy-3.0.2.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "org.eclipse.persistence.moxy-4.0.1.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.returnTypeTypeParametersChanged",
+  "old" : "method java.util.Map org.eclipse.persistence.jaxb.compiler.Generator::getUnmarshalCallbacks()",
+  "new" : "method java.util.Map<java.lang.String, org.eclipse.persistence.jaxb.compiler.UnmarshalCallback> org.eclipse.persistence.jaxb.compiler.Generator::getUnmarshalCallbacks()",
+  "name" : "return type changed type parameter",
+  "description" : "The return type changed from 'java.util.Map' to 'java.util.Map<java.lang.String, org.eclipse.persistence.jaxb.compiler.UnmarshalCallback>'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "java.util.Map"
+  }, {
+    "name" : "newType",
+    "value" : "java.util.Map<java.lang.String, org.eclipse.persistence.jaxb.compiler.UnmarshalCallback>"
+  }, {
+    "name" : "package",
+    "value" : "org.eclipse.persistence.jaxb.compiler"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.eclipse.persistence.jaxb.compiler.Generator"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "Generator"
+  }, {
+    "name" : "methodName",
+    "value" : "getUnmarshalCallbacks"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "org.eclipse.persistence.moxy-3.0.2.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "org.eclipse.persistence.moxy-4.0.1.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.returnTypeTypeParametersChanged",
+  "old" : "method java.lang.Class org.eclipse.persistence.jaxb.compiler.MappingsGenerator::generateWrapperClass(java.lang.String, java.lang.String, boolean, javax.xml.namespace.QName)",
+  "new" : "method java.lang.Class<?> org.eclipse.persistence.jaxb.compiler.MappingsGenerator::generateWrapperClass(java.lang.String, java.lang.String, boolean, javax.xml.namespace.QName)",
+  "name" : "return type changed type parameter",
+  "description" : "The return type changed from 'java.lang.Class' to 'java.lang.Class<?>'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "java.lang.Class"
+  }, {
+    "name" : "newType",
+    "value" : "java.lang.Class<?>"
+  }, {
+    "name" : "package",
+    "value" : "org.eclipse.persistence.jaxb.compiler"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.eclipse.persistence.jaxb.compiler.MappingsGenerator"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "MappingsGenerator"
+  }, {
+    "name" : "methodName",
+    "value" : "generateWrapperClass"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "org.eclipse.persistence.moxy-3.0.2.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "org.eclipse.persistence.moxy-4.0.1.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.returnTypeTypeParametersChanged",
+  "old" : "method java.util.Map<java.lang.String, java.lang.Class> org.eclipse.persistence.jaxb.compiler.MappingsGenerator::getClassToGeneratedClasses()",
+  "new" : "method java.util.Map<java.lang.String, java.lang.Class<?>> org.eclipse.persistence.jaxb.compiler.MappingsGenerator::getClassToGeneratedClasses()",
+  "name" : "return type changed type parameter",
+  "description" : "The return type changed from 'java.util.Map<java.lang.String, java.lang.Class>' to 'java.util.Map<java.lang.String, java.lang.Class<?>>'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "java.util.Map<java.lang.String, java.lang.Class>"
+  }, {
+    "name" : "newType",
+    "value" : "java.util.Map<java.lang.String, java.lang.Class<?>>"
+  }, {
+    "name" : "package",
+    "value" : "org.eclipse.persistence.jaxb.compiler"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.eclipse.persistence.jaxb.compiler.MappingsGenerator"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "MappingsGenerator"
+  }, {
+    "name" : "methodName",
+    "value" : "getClassToGeneratedClasses"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "org.eclipse.persistence.moxy-3.0.2.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "org.eclipse.persistence.moxy-4.0.1.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.returnTypeTypeParametersChanged",
+  "old" : "method java.util.Map<javax.xml.namespace.QName, java.lang.Class> org.eclipse.persistence.jaxb.compiler.MappingsGenerator::getQNamesToDeclaredClasses()",
+  "new" : "method java.util.Map<javax.xml.namespace.QName, java.lang.Class<?>> org.eclipse.persistence.jaxb.compiler.MappingsGenerator::getQNamesToDeclaredClasses()",
+  "name" : "return type changed type parameter",
+  "description" : "The return type changed from 'java.util.Map<javax.xml.namespace.QName, java.lang.Class>' to 'java.util.Map<javax.xml.namespace.QName, java.lang.Class<?>>'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "java.util.Map<javax.xml.namespace.QName, java.lang.Class>"
+  }, {
+    "name" : "newType",
+    "value" : "java.util.Map<javax.xml.namespace.QName, java.lang.Class<?>>"
+  }, {
+    "name" : "package",
+    "value" : "org.eclipse.persistence.jaxb.compiler"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.eclipse.persistence.jaxb.compiler.MappingsGenerator"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "MappingsGenerator"
+  }, {
+    "name" : "methodName",
+    "value" : "getQNamesToDeclaredClasses"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "org.eclipse.persistence.moxy-3.0.2.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "org.eclipse.persistence.moxy-4.0.1.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.returnTypeTypeParametersChanged",
+  "old" : "method java.util.Map<javax.xml.namespace.QName, java.lang.Class> org.eclipse.persistence.jaxb.compiler.MappingsGenerator::getQNamesToGeneratedClasses()",
+  "new" : "method java.util.Map<javax.xml.namespace.QName, java.lang.Class<?>> org.eclipse.persistence.jaxb.compiler.MappingsGenerator::getQNamesToGeneratedClasses()",
+  "name" : "return type changed type parameter",
+  "description" : "The return type changed from 'java.util.Map<javax.xml.namespace.QName, java.lang.Class>' to 'java.util.Map<javax.xml.namespace.QName, java.lang.Class<?>>'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "java.util.Map<javax.xml.namespace.QName, java.lang.Class>"
+  }, {
+    "name" : "newType",
+    "value" : "java.util.Map<javax.xml.namespace.QName, java.lang.Class<?>>"
+  }, {
+    "name" : "package",
+    "value" : "org.eclipse.persistence.jaxb.compiler"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.eclipse.persistence.jaxb.compiler.MappingsGenerator"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "MappingsGenerator"
+  }, {
+    "name" : "methodName",
+    "value" : "getQNamesToGeneratedClasses"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "org.eclipse.persistence.moxy-3.0.2.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "org.eclipse.persistence.moxy-4.0.1.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.returnTypeTypeParametersChanged",
+  "old" : "method java.lang.Class org.eclipse.persistence.jaxb.compiler.MarshalCallback::getDomainClass()",
+  "new" : "method java.lang.Class<?> org.eclipse.persistence.jaxb.compiler.MarshalCallback::getDomainClass()",
+  "name" : "return type changed type parameter",
+  "description" : "The return type changed from 'java.lang.Class' to 'java.lang.Class<?>'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "java.lang.Class"
+  }, {
+    "name" : "newType",
+    "value" : "java.lang.Class<?>"
+  }, {
+    "name" : "package",
+    "value" : "org.eclipse.persistence.jaxb.compiler"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.eclipse.persistence.jaxb.compiler.MarshalCallback"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "MarshalCallback"
+  }, {
+    "name" : "methodName",
+    "value" : "getDomainClass"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "org.eclipse.persistence.moxy-3.0.2.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "org.eclipse.persistence.moxy-4.0.1.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.visibilityReduced",
+  "old" : "method org.eclipse.persistence.jaxb.compiler.SchemaGenerator.AddToSchemaResult org.eclipse.persistence.jaxb.compiler.SchemaGenerator::buildSchemaComponentsForXPath(org.eclipse.persistence.internal.oxm.XPathFragment, org.eclipse.persistence.jaxb.compiler.SchemaGenerator.AddToSchemaResult, boolean, org.eclipse.persistence.jaxb.compiler.Property)",
+  "new" : "method org.eclipse.persistence.jaxb.compiler.SchemaGenerator.AddToSchemaResult org.eclipse.persistence.jaxb.compiler.SchemaGenerator::buildSchemaComponentsForXPath(org.eclipse.persistence.internal.oxm.XPathFragment, org.eclipse.persistence.jaxb.compiler.SchemaGenerator.AddToSchemaResult, boolean, org.eclipse.persistence.jaxb.compiler.Property)",
+  "name" : "visibility reduced",
+  "description" : "visibility reduced",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldVisibility",
+    "value" : "protected"
+  }, {
+    "name" : "newVisibility",
+    "value" : "private"
+  }, {
+    "name" : "package",
+    "value" : "org.eclipse.persistence.jaxb.compiler"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.eclipse.persistence.jaxb.compiler.SchemaGenerator"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "SchemaGenerator"
+  }, {
+    "name" : "methodName",
+    "value" : "buildSchemaComponentsForXPath"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "org.eclipse.persistence.moxy-3.0.2.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "org.eclipse.persistence.moxy-4.0.1.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.returnTypeTypeParametersChanged",
+  "old" : "method java.lang.Class org.eclipse.persistence.jaxb.compiler.UnmarshalCallback::getDomainClass()",
+  "new" : "method java.lang.Class<?> org.eclipse.persistence.jaxb.compiler.UnmarshalCallback::getDomainClass()",
+  "name" : "return type changed type parameter",
+  "description" : "The return type changed from 'java.lang.Class' to 'java.lang.Class<?>'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "java.lang.Class"
+  }, {
+    "name" : "newType",
+    "value" : "java.lang.Class<?>"
+  }, {
+    "name" : "package",
+    "value" : "org.eclipse.persistence.jaxb.compiler"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.eclipse.persistence.jaxb.compiler.UnmarshalCallback"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "UnmarshalCallback"
+  }, {
+    "name" : "methodName",
+    "value" : "getDomainClass"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "org.eclipse.persistence.moxy-3.0.2.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "org.eclipse.persistence.moxy-4.0.1.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.returnTypeTypeParametersChanged",
+  "old" : "method java.lang.Class org.eclipse.persistence.jaxb.javamodel.Helper::getClassForJavaClass(org.eclipse.persistence.jaxb.javamodel.JavaClass)",
+  "new" : "method java.lang.Class<?> org.eclipse.persistence.jaxb.javamodel.Helper::getClassForJavaClass(org.eclipse.persistence.jaxb.javamodel.JavaClass)",
+  "name" : "return type changed type parameter",
+  "description" : "The return type changed from 'java.lang.Class' to 'java.lang.Class<?>'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "java.lang.Class"
+  }, {
+    "name" : "newType",
+    "value" : "java.lang.Class<?>"
+  }, {
+    "name" : "package",
+    "value" : "org.eclipse.persistence.jaxb.javamodel"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.eclipse.persistence.jaxb.javamodel.Helper"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "Helper"
+  }, {
+    "name" : "methodName",
+    "value" : "getClassForJavaClass"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "org.eclipse.persistence.moxy-3.0.2.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "org.eclipse.persistence.moxy-4.0.1.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.returnTypeChanged",
+  "old" : "method java.util.HashMap org.eclipse.persistence.jaxb.javamodel.Helper::getXMLToJavaTypeMap()",
+  "new" : "method java.util.Map<java.lang.String, javax.xml.namespace.QName> org.eclipse.persistence.jaxb.javamodel.Helper::getXMLToJavaTypeMap()",
+  "name" : "return type changed",
+  "description" : "The return type changed from 'java.util.HashMap' to  'java.util.Map<java.lang.String, javax.xml.namespace.QName>'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "POTENTIALLY_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "java.util.HashMap"
+  }, {
+    "name" : "newType",
+    "value" : "java.util.Map<java.lang.String, javax.xml.namespace.QName>"
+  }, {
+    "name" : "package",
+    "value" : "org.eclipse.persistence.jaxb.javamodel"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.eclipse.persistence.jaxb.javamodel.Helper"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "Helper"
+  }, {
+    "name" : "methodName",
+    "value" : "getXMLToJavaTypeMap"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "org.eclipse.persistence.moxy-3.0.2.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "org.eclipse.persistence.moxy-4.0.1.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.returnTypeTypeParametersChanged",
+  "old" : "method java.util.Collection org.eclipse.persistence.jaxb.javamodel.JavaClass::getActualTypeArguments()",
+  "new" : "method java.util.Collection<org.eclipse.persistence.jaxb.javamodel.JavaClass> org.eclipse.persistence.jaxb.javamodel.JavaClass::getActualTypeArguments()",
+  "name" : "return type changed type parameter",
+  "description" : "The return type changed from 'java.util.Collection' to 'java.util.Collection<org.eclipse.persistence.jaxb.javamodel.JavaClass>'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "java.util.Collection"
+  }, {
+    "name" : "newType",
+    "value" : "java.util.Collection<org.eclipse.persistence.jaxb.javamodel.JavaClass>"
+  }, {
+    "name" : "package",
+    "value" : "org.eclipse.persistence.jaxb.javamodel"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.eclipse.persistence.jaxb.javamodel.JavaClass"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "JavaClass"
+  }, {
+    "name" : "methodName",
+    "value" : "getActualTypeArguments"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "org.eclipse.persistence.moxy-3.0.2.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "org.eclipse.persistence.moxy-4.0.1.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.returnTypeTypeParametersChanged",
+  "old" : "method java.util.Collection org.eclipse.persistence.jaxb.javamodel.JavaClass::getConstructors()",
+  "new" : "method java.util.Collection<org.eclipse.persistence.jaxb.javamodel.JavaConstructor> org.eclipse.persistence.jaxb.javamodel.JavaClass::getConstructors()",
+  "name" : "return type changed type parameter",
+  "description" : "The return type changed from 'java.util.Collection' to 'java.util.Collection<org.eclipse.persistence.jaxb.javamodel.JavaConstructor>'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "java.util.Collection"
+  }, {
+    "name" : "newType",
+    "value" : "java.util.Collection<org.eclipse.persistence.jaxb.javamodel.JavaConstructor>"
+  }, {
+    "name" : "package",
+    "value" : "org.eclipse.persistence.jaxb.javamodel"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.eclipse.persistence.jaxb.javamodel.JavaClass"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "JavaClass"
+  }, {
+    "name" : "methodName",
+    "value" : "getConstructors"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "org.eclipse.persistence.moxy-3.0.2.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "org.eclipse.persistence.moxy-4.0.1.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.returnTypeTypeParametersChanged",
+  "old" : "method java.util.Collection org.eclipse.persistence.jaxb.javamodel.JavaClass::getDeclaredClasses()",
+  "new" : "method java.util.Collection<org.eclipse.persistence.jaxb.javamodel.JavaClass> org.eclipse.persistence.jaxb.javamodel.JavaClass::getDeclaredClasses()",
+  "name" : "return type changed type parameter",
+  "description" : "The return type changed from 'java.util.Collection' to 'java.util.Collection<org.eclipse.persistence.jaxb.javamodel.JavaClass>'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "java.util.Collection"
+  }, {
+    "name" : "newType",
+    "value" : "java.util.Collection<org.eclipse.persistence.jaxb.javamodel.JavaClass>"
+  }, {
+    "name" : "package",
+    "value" : "org.eclipse.persistence.jaxb.javamodel"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.eclipse.persistence.jaxb.javamodel.JavaClass"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "JavaClass"
+  }, {
+    "name" : "methodName",
+    "value" : "getDeclaredClasses"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "org.eclipse.persistence.moxy-3.0.2.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "org.eclipse.persistence.moxy-4.0.1.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.returnTypeTypeParametersChanged",
+  "old" : "method java.util.Collection org.eclipse.persistence.jaxb.javamodel.JavaClass::getDeclaredConstructors()",
+  "new" : "method java.util.Collection<org.eclipse.persistence.jaxb.javamodel.JavaConstructor> org.eclipse.persistence.jaxb.javamodel.JavaClass::getDeclaredConstructors()",
+  "name" : "return type changed type parameter",
+  "description" : "The return type changed from 'java.util.Collection' to 'java.util.Collection<org.eclipse.persistence.jaxb.javamodel.JavaConstructor>'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "java.util.Collection"
+  }, {
+    "name" : "newType",
+    "value" : "java.util.Collection<org.eclipse.persistence.jaxb.javamodel.JavaConstructor>"
+  }, {
+    "name" : "package",
+    "value" : "org.eclipse.persistence.jaxb.javamodel"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.eclipse.persistence.jaxb.javamodel.JavaClass"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "JavaClass"
+  }, {
+    "name" : "methodName",
+    "value" : "getDeclaredConstructors"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "org.eclipse.persistence.moxy-3.0.2.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "org.eclipse.persistence.moxy-4.0.1.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.returnTypeTypeParametersChanged",
+  "old" : "method java.util.Collection org.eclipse.persistence.jaxb.javamodel.JavaClass::getDeclaredFields()",
+  "new" : "method java.util.Collection<org.eclipse.persistence.jaxb.javamodel.JavaField> org.eclipse.persistence.jaxb.javamodel.JavaClass::getDeclaredFields()",
+  "name" : "return type changed type parameter",
+  "description" : "The return type changed from 'java.util.Collection' to 'java.util.Collection<org.eclipse.persistence.jaxb.javamodel.JavaField>'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "java.util.Collection"
+  }, {
+    "name" : "newType",
+    "value" : "java.util.Collection<org.eclipse.persistence.jaxb.javamodel.JavaField>"
+  }, {
+    "name" : "package",
+    "value" : "org.eclipse.persistence.jaxb.javamodel"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.eclipse.persistence.jaxb.javamodel.JavaClass"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "JavaClass"
+  }, {
+    "name" : "methodName",
+    "value" : "getDeclaredFields"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "org.eclipse.persistence.moxy-3.0.2.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "org.eclipse.persistence.moxy-4.0.1.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.returnTypeTypeParametersChanged",
+  "old" : "method java.util.Collection org.eclipse.persistence.jaxb.javamodel.JavaClass::getDeclaredMethods()",
+  "new" : "method java.util.Collection<org.eclipse.persistence.jaxb.javamodel.JavaMethod> org.eclipse.persistence.jaxb.javamodel.JavaClass::getDeclaredMethods()",
+  "name" : "return type changed type parameter",
+  "description" : "The return type changed from 'java.util.Collection' to 'java.util.Collection<org.eclipse.persistence.jaxb.javamodel.JavaMethod>'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "java.util.Collection"
+  }, {
+    "name" : "newType",
+    "value" : "java.util.Collection<org.eclipse.persistence.jaxb.javamodel.JavaMethod>"
+  }, {
+    "name" : "package",
+    "value" : "org.eclipse.persistence.jaxb.javamodel"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.eclipse.persistence.jaxb.javamodel.JavaClass"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "JavaClass"
+  }, {
+    "name" : "methodName",
+    "value" : "getDeclaredMethods"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "org.eclipse.persistence.moxy-3.0.2.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "org.eclipse.persistence.moxy-4.0.1.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.returnTypeTypeParametersChanged",
+  "old" : "method java.util.Collection org.eclipse.persistence.jaxb.javamodel.JavaClass::getMethods()",
+  "new" : "method java.util.Collection<org.eclipse.persistence.jaxb.javamodel.JavaMethod> org.eclipse.persistence.jaxb.javamodel.JavaClass::getMethods()",
+  "name" : "return type changed type parameter",
+  "description" : "The return type changed from 'java.util.Collection' to 'java.util.Collection<org.eclipse.persistence.jaxb.javamodel.JavaMethod>'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "java.util.Collection"
+  }, {
+    "name" : "newType",
+    "value" : "java.util.Collection<org.eclipse.persistence.jaxb.javamodel.JavaMethod>"
+  }, {
+    "name" : "package",
+    "value" : "org.eclipse.persistence.jaxb.javamodel"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.eclipse.persistence.jaxb.javamodel.JavaClass"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "JavaClass"
+  }, {
+    "name" : "methodName",
+    "value" : "getMethods"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "org.eclipse.persistence.moxy-3.0.2.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "org.eclipse.persistence.moxy-4.0.1.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.returnTypeTypeParametersChanged",
+  "old" : "method java.util.Collection org.eclipse.persistence.jaxb.javamodel.reflection.JavaClassImpl::getActualTypeArguments()",
+  "new" : "method java.util.Collection<org.eclipse.persistence.jaxb.javamodel.JavaClass> org.eclipse.persistence.jaxb.javamodel.reflection.JavaClassImpl::getActualTypeArguments()",
+  "name" : "return type changed type parameter",
+  "description" : "The return type changed from 'java.util.Collection' to 'java.util.Collection<org.eclipse.persistence.jaxb.javamodel.JavaClass>'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "java.util.Collection"
+  }, {
+    "name" : "newType",
+    "value" : "java.util.Collection<org.eclipse.persistence.jaxb.javamodel.JavaClass>"
+  }, {
+    "name" : "package",
+    "value" : "org.eclipse.persistence.jaxb.javamodel.reflection"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.eclipse.persistence.jaxb.javamodel.reflection.JavaClassImpl"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "JavaClassImpl"
+  }, {
+    "name" : "methodName",
+    "value" : "getActualTypeArguments"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "org.eclipse.persistence.moxy-3.0.2.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "org.eclipse.persistence.moxy-4.0.1.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.returnTypeTypeParametersChanged",
+  "old" : "method java.util.Collection org.eclipse.persistence.jaxb.javamodel.reflection.JavaClassImpl::getConstructors()",
+  "new" : "method java.util.Collection<org.eclipse.persistence.jaxb.javamodel.JavaConstructor> org.eclipse.persistence.jaxb.javamodel.reflection.JavaClassImpl::getConstructors()",
+  "name" : "return type changed type parameter",
+  "description" : "The return type changed from 'java.util.Collection' to 'java.util.Collection<org.eclipse.persistence.jaxb.javamodel.JavaConstructor>'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "java.util.Collection"
+  }, {
+    "name" : "newType",
+    "value" : "java.util.Collection<org.eclipse.persistence.jaxb.javamodel.JavaConstructor>"
+  }, {
+    "name" : "package",
+    "value" : "org.eclipse.persistence.jaxb.javamodel.reflection"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.eclipse.persistence.jaxb.javamodel.reflection.JavaClassImpl"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "JavaClassImpl"
+  }, {
+    "name" : "methodName",
+    "value" : "getConstructors"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "org.eclipse.persistence.moxy-3.0.2.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "org.eclipse.persistence.moxy-4.0.1.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.returnTypeTypeParametersChanged",
+  "old" : "method java.util.Collection org.eclipse.persistence.jaxb.javamodel.reflection.JavaClassImpl::getDeclaredConstructors()",
+  "new" : "method java.util.Collection<org.eclipse.persistence.jaxb.javamodel.JavaConstructor> org.eclipse.persistence.jaxb.javamodel.reflection.JavaClassImpl::getDeclaredConstructors()",
+  "name" : "return type changed type parameter",
+  "description" : "The return type changed from 'java.util.Collection' to 'java.util.Collection<org.eclipse.persistence.jaxb.javamodel.JavaConstructor>'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "java.util.Collection"
+  }, {
+    "name" : "newType",
+    "value" : "java.util.Collection<org.eclipse.persistence.jaxb.javamodel.JavaConstructor>"
+  }, {
+    "name" : "package",
+    "value" : "org.eclipse.persistence.jaxb.javamodel.reflection"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.eclipse.persistence.jaxb.javamodel.reflection.JavaClassImpl"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "JavaClassImpl"
+  }, {
+    "name" : "methodName",
+    "value" : "getDeclaredConstructors"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "org.eclipse.persistence.moxy-3.0.2.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "org.eclipse.persistence.moxy-4.0.1.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.returnTypeTypeParametersChanged",
+  "old" : "method java.util.Collection org.eclipse.persistence.jaxb.javamodel.reflection.JavaClassImpl::getDeclaredMethods()",
+  "new" : "method java.util.Collection<org.eclipse.persistence.jaxb.javamodel.JavaMethod> org.eclipse.persistence.jaxb.javamodel.reflection.JavaClassImpl::getDeclaredMethods()",
+  "name" : "return type changed type parameter",
+  "description" : "The return type changed from 'java.util.Collection' to 'java.util.Collection<org.eclipse.persistence.jaxb.javamodel.JavaMethod>'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "java.util.Collection"
+  }, {
+    "name" : "newType",
+    "value" : "java.util.Collection<org.eclipse.persistence.jaxb.javamodel.JavaMethod>"
+  }, {
+    "name" : "package",
+    "value" : "org.eclipse.persistence.jaxb.javamodel.reflection"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.eclipse.persistence.jaxb.javamodel.reflection.JavaClassImpl"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "JavaClassImpl"
+  }, {
+    "name" : "methodName",
+    "value" : "getDeclaredMethods"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "org.eclipse.persistence.moxy-3.0.2.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "org.eclipse.persistence.moxy-4.0.1.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.returnTypeTypeParametersChanged",
+  "old" : "method java.lang.Class org.eclipse.persistence.jaxb.javamodel.reflection.JavaClassImpl::getJavaClass()",
+  "new" : "method java.lang.Class<?> org.eclipse.persistence.jaxb.javamodel.reflection.JavaClassImpl::getJavaClass()",
+  "name" : "return type changed type parameter",
+  "description" : "The return type changed from 'java.lang.Class' to 'java.lang.Class<?>'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "java.lang.Class"
+  }, {
+    "name" : "newType",
+    "value" : "java.lang.Class<?>"
+  }, {
+    "name" : "package",
+    "value" : "org.eclipse.persistence.jaxb.javamodel.reflection"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.eclipse.persistence.jaxb.javamodel.reflection.JavaClassImpl"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "JavaClassImpl"
+  }, {
+    "name" : "methodName",
+    "value" : "getJavaClass"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "org.eclipse.persistence.moxy-3.0.2.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "org.eclipse.persistence.moxy-4.0.1.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.returnTypeTypeParametersChanged",
+  "old" : "method java.util.Collection org.eclipse.persistence.jaxb.javamodel.reflection.JavaClassImpl::getMethods()",
+  "new" : "method java.util.Collection<org.eclipse.persistence.jaxb.javamodel.JavaMethod> org.eclipse.persistence.jaxb.javamodel.reflection.JavaClassImpl::getMethods()",
+  "name" : "return type changed type parameter",
+  "description" : "The return type changed from 'java.util.Collection' to 'java.util.Collection<org.eclipse.persistence.jaxb.javamodel.JavaMethod>'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "java.util.Collection"
+  }, {
+    "name" : "newType",
+    "value" : "java.util.Collection<org.eclipse.persistence.jaxb.javamodel.JavaMethod>"
+  }, {
+    "name" : "package",
+    "value" : "org.eclipse.persistence.jaxb.javamodel.reflection"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.eclipse.persistence.jaxb.javamodel.reflection.JavaClassImpl"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "JavaClassImpl"
+  }, {
+    "name" : "methodName",
+    "value" : "getMethods"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "org.eclipse.persistence.moxy-3.0.2.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "org.eclipse.persistence.moxy-4.0.1.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.returnTypeTypeParametersChanged",
+  "old" : "method java.lang.Class org.eclipse.persistence.jaxb.json.JsonSchemaOutputResolver::getRootClass()",
+  "new" : "method java.lang.Class<?> org.eclipse.persistence.jaxb.json.JsonSchemaOutputResolver::getRootClass()",
+  "name" : "return type changed type parameter",
+  "description" : "The return type changed from 'java.lang.Class' to 'java.lang.Class<?>'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "java.lang.Class"
+  }, {
+    "name" : "newType",
+    "value" : "java.lang.Class<?>"
+  }, {
+    "name" : "package",
+    "value" : "org.eclipse.persistence.jaxb.json"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.eclipse.persistence.jaxb.json.JsonSchemaOutputResolver"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "JsonSchemaOutputResolver"
+  }, {
+    "name" : "methodName",
+    "value" : "getRootClass"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "org.eclipse.persistence.moxy-3.0.2.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "org.eclipse.persistence.moxy-4.0.1.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+} ]

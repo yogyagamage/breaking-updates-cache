@@ -1,0 +1,240 @@
+[ {
+  "code" : "java.field.constantValueChanged",
+  "old" : "field org.apache.logging.log4j.message.StructuredDataId.RESERVED",
+  "new" : "field org.apache.logging.log4j.message.StructuredDataId.RESERVED",
+  "name" : "constant field changed value",
+  "description" : "Constant field changed value from '-1' to '-1'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SEMANTIC",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldValue",
+    "value" : "-1"
+  }, {
+    "name" : "newValue",
+    "value" : "-1"
+  }, {
+    "name" : "package",
+    "value" : "org.apache.logging.log4j.message"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.logging.log4j.message.StructuredDataId"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "StructuredDataId"
+  }, {
+    "name" : "fieldName",
+    "value" : "RESERVED"
+  }, {
+    "name" : "elementKind",
+    "value" : "field"
+  }, {
+    "name" : "oldArchive",
+    "value" : "log4j-api-2.17.2.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "log4j-api-2.18.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.field.typeChanged",
+  "old" : "field org.apache.logging.log4j.message.StructuredDataId.RESERVED",
+  "new" : "field org.apache.logging.log4j.message.StructuredDataId.RESERVED",
+  "name" : "field type changed",
+  "description" : "The type of the field changed from 'int' to 'java.lang.String'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "int"
+  }, {
+    "name" : "newType",
+    "value" : "java.lang.String"
+  }, {
+    "name" : "package",
+    "value" : "org.apache.logging.log4j.message"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.logging.log4j.message.StructuredDataId"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "StructuredDataId"
+  }, {
+    "name" : "fieldName",
+    "value" : "RESERVED"
+  }, {
+    "name" : "elementKind",
+    "value" : "field"
+  }, {
+    "name" : "oldArchive",
+    "value" : "log4j-api-2.17.2.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "log4j-api-2.18.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.field.serialVersionUIDChanged",
+  "old" : "field org.apache.logging.log4j.message.StructuredDataId.serialVersionUID",
+  "new" : "field org.apache.logging.log4j.message.StructuredDataId.serialVersionUID",
+  "name" : "serialVersionUID constant changed",
+  "description" : "serialVersionUID constant changed. Objects serialized using the old version of the class will no longer be deserializable.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "EQUIVALENT"
+  }, {
+    "compatibility" : "SEMANTIC",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "EQUIVALENT"
+  } ],
+  "attachments" : [ {
+    "name" : "oldSerialVersionUID",
+    "value" : "9031746276396249990"
+  }, {
+    "name" : "newSerialVersionUID",
+    "value" : "-8252896346202183738"
+  }, {
+    "name" : "package",
+    "value" : "org.apache.logging.log4j.message"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.logging.log4j.message.StructuredDataId"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "StructuredDataId"
+  }, {
+    "name" : "fieldName",
+    "value" : "serialVersionUID"
+  }, {
+    "name" : "elementKind",
+    "value" : "field"
+  }, {
+    "name" : "oldArchive",
+    "value" : "log4j-api-2.17.2.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "log4j-api-2.18.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.returnTypeChanged",
+  "old" : "method int org.apache.logging.log4j.message.StructuredDataId::getEnterpriseNumber()",
+  "new" : "method java.lang.String org.apache.logging.log4j.message.StructuredDataId::getEnterpriseNumber()",
+  "name" : "return type changed",
+  "description" : "The return type changed from 'int' to  'java.lang.String'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "POTENTIALLY_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "int"
+  }, {
+    "name" : "newType",
+    "value" : "java.lang.String"
+  }, {
+    "name" : "package",
+    "value" : "org.apache.logging.log4j.message"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.logging.log4j.message.StructuredDataId"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "StructuredDataId"
+  }, {
+    "name" : "methodName",
+    "value" : "getEnterpriseNumber"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "log4j-api-2.17.2.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "log4j-api-2.18.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method java.lang.ClassLoader[] org.apache.logging.log4j.util.LoaderUtil::getClassLoaders()",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.apache.logging.log4j.util"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.logging.log4j.util.LoaderUtil"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "LoaderUtil"
+  }, {
+    "name" : "methodName",
+    "value" : "getClassLoaders"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "log4j-api-2.17.2.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+} ]

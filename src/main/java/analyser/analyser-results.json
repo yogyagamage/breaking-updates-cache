@@ -1,0 +1,293 @@
+{
+  "0a11c04038eae517540051dbf51f7f26b7221f20" : {
+    "japicmpResult" : {
+      "org.yaml.snakeyaml.constructor.Constructor" : [ "CONSTRUCTOR_REMOVED" ]
+    },
+    "revapiResult" : {
+      "org.yaml.snakeyaml.constructor.Constructor" : [ "java.method.numberOfParametersChanged" ]
+    },
+    "allPotentialBreakingElements" : [ "org.yaml.snakeyaml.constructor.Constructor(java.lang.Class)" ]
+  },
+  "14fc5fa696f499cac48401b3a86882b3bf7d9b82" : {
+    "japicmpResult" : {
+      "getProperty" : [ "METHOD_RETURN_TYPE_CHANGED", "CLASS_GENERIC_TEMPLATE_CHANGED", "CONSTRUCTOR_REMOVED", "METHOD_REMOVED", "INTERFACE_ADDED", "METHOD_ADDED_TO_PUBLIC_CLASS", "ANNOTATION_DEPRECATED_ADDED" ],
+      "valueOf" : [ "METHOD_RETURN_TYPE_CHANGED", "CLASS_GENERIC_TEMPLATE_CHANGED", "CONSTRUCTOR_REMOVED", "METHOD_REMOVED", "INTERFACE_ADDED", "METHOD_ADDED_TO_PUBLIC_CLASS", "ANNOTATION_DEPRECATED_ADDED" ],
+      "setLocations" : [ "METHOD_RETURN_TYPE_CHANGED", "CLASS_GENERIC_TEMPLATE_CHANGED", "CONSTRUCTOR_REMOVED", "METHOD_REMOVED", "INTERFACE_ADDED", "METHOD_ADDED_TO_PUBLIC_CLASS", "ANNOTATION_DEPRECATED_ADDED" ],
+      "org.flywaydb.core.Flyway" : [ "METHOD_RETURN_TYPE_CHANGED", "CLASS_GENERIC_TEMPLATE_CHANGED", "CONSTRUCTOR_REMOVED", "METHOD_REMOVED", "INTERFACE_ADDED", "METHOD_ADDED_TO_PUBLIC_CLASS", "ANNOTATION_DEPRECATED_ADDED" ],
+      "setDataSource" : [ "METHOD_RETURN_TYPE_CHANGED", "CLASS_GENERIC_TEMPLATE_CHANGED", "CONSTRUCTOR_REMOVED", "METHOD_REMOVED", "INTERFACE_ADDED", "METHOD_ADDED_TO_PUBLIC_CLASS", "ANNOTATION_DEPRECATED_ADDED" ],
+      "getClassLoader" : [ "METHOD_RETURN_TYPE_CHANGED", "CLASS_GENERIC_TEMPLATE_CHANGED", "CONSTRUCTOR_REMOVED", "METHOD_REMOVED", "INTERFACE_ADDED", "METHOD_ADDED_TO_PUBLIC_CLASS", "ANNOTATION_DEPRECATED_ADDED" ],
+      "dataSource" : [ "METHOD_RETURN_TYPE_CHANGED", "CLASS_GENERIC_TEMPLATE_CHANGED", "CONSTRUCTOR_REMOVED", "METHOD_REMOVED", "INTERFACE_ADDED", "METHOD_ADDED_TO_PUBLIC_CLASS", "ANNOTATION_DEPRECATED_ADDED" ],
+      "setClassLoader" : [ "METHOD_RETURN_TYPE_CHANGED", "CLASS_GENERIC_TEMPLATE_CHANGED", "CONSTRUCTOR_REMOVED", "METHOD_REMOVED", "INTERFACE_ADDED", "METHOD_ADDED_TO_PUBLIC_CLASS", "ANNOTATION_DEPRECATED_ADDED" ],
+      "setValidateOnMigrate" : [ "METHOD_RETURN_TYPE_CHANGED", "CLASS_GENERIC_TEMPLATE_CHANGED", "CONSTRUCTOR_REMOVED", "METHOD_REMOVED", "INTERFACE_ADDED", "METHOD_ADDED_TO_PUBLIC_CLASS", "ANNOTATION_DEPRECATED_ADDED" ]
+    },
+    "revapiResult" : {
+      "getProperty" : [ "java.method.returnTypeChanged", "java.method.nowStatic", "java.method.removed", "java.method.numberOfParametersChanged" ],
+      "valueOf" : [ "java.method.returnTypeChanged", "java.method.nowStatic", "java.method.removed", "java.method.numberOfParametersChanged" ],
+      "setLocations" : [ "java.method.returnTypeChanged", "java.method.nowStatic", "java.method.removed", "java.method.numberOfParametersChanged" ],
+      "org.flywaydb.core.Flyway" : [ "java.method.returnTypeChanged", "java.method.nowStatic", "java.method.removed", "java.method.numberOfParametersChanged" ],
+      "setDataSource" : [ "java.method.returnTypeChanged", "java.method.nowStatic", "java.method.removed", "java.method.numberOfParametersChanged" ],
+      "getClassLoader" : [ "java.method.returnTypeChanged", "java.method.nowStatic", "java.method.removed", "java.method.numberOfParametersChanged" ],
+      "dataSource" : [ "java.method.returnTypeChanged", "java.method.nowStatic", "java.method.removed", "java.method.numberOfParametersChanged" ],
+      "setClassLoader" : [ "java.method.returnTypeChanged", "java.method.nowStatic", "java.method.removed", "java.method.numberOfParametersChanged" ],
+      "setValidateOnMigrate" : [ "java.method.returnTypeChanged", "java.method.nowStatic", "java.method.removed", "java.method.numberOfParametersChanged" ]
+    },
+    "allPotentialBreakingElements" : [ "getClassLoader()", "getProperty(java.lang.String)", "valueOf(java.lang.String)", "setLocations(java.lang.String)", "dataSource()", "org.flywaydb.core.Flyway()", "setValidateOnMigrate(java.lang.Boolean)", "setClassLoader(java.lang.ClassLoader)", "setDataSource(javax.sql.DataSource)" ]
+  },
+  "1053033eef680f0199bf25ec6e3db52cc13ef3da" : {
+    "japicmpResult" : { },
+    "revapiResult" : { },
+    "allPotentialBreakingElements" : [ ]
+  },
+  "13fd75e233a5cb2771a6cb186c0decaed6d6545a" : {
+    "japicmpResult" : {
+      "format" : [ ],
+      "digest" : [ ],
+      "org.hamcrest.core.StringStartsWith" : [ ],
+      "org.hamcrest.core.StringContains" : [ ],
+      "assertThat" : [ ],
+      "layer" : [ ]
+    },
+    "revapiResult" : {
+      "format" : [ ],
+      "digest" : [ ],
+      "org.hamcrest.core.StringStartsWith" : [ ],
+      "org.hamcrest.core.StringContains" : [ ],
+      "assertThat" : [ ],
+      "layer" : [ ]
+    },
+    "allPotentialBreakingElements" : [ "format(java.lang.String,java.lang.Object[])", "assertThat(java.lang.String,boolean)", "digest()", "org.hamcrest.core.StringContains(java.lang.String)", "org.hamcrest.core.StringStartsWith(java.lang.String)", "layer()" ]
+  },
+  "07e4b2894bc68cd3bb1892beaa13ec353564dcf1" : {
+    "japicmpResult" : { },
+    "revapiResult" : { },
+    "allPotentialBreakingElements" : [ "getJavaScriptResult()", "com.gargoylesoftware.htmlunit.ScriptResult(java.lang.Object)" ]
+  },
+  "115827c6675f532a4d33751d1a0c0ba394bbd304" : {
+    "japicmpResult" : { },
+    "revapiResult" : { },
+    "allPotentialBreakingElements" : [ "setClients()", "getName()", "of(java.lang.Enum)", "addFilter(org.pac4j.jee.filter.AbstractConfigFilter)", "servlets()", "getClients()", "getClass()" ]
+  },
+  "0e8625f492854a78c0e1ceff67b2abd7e081d42b" : {
+    "japicmpResult" : { },
+    "revapiResult" : { },
+    "allPotentialBreakingElements" : [ "org.eclipse.jetty.server.nio.SelectChannelConnector()", "setSendDateHeader(boolean)", "setSendServerVersion(boolean)", "setPort(int)", "getLocalPort()" ]
+  },
+  "06c5386831e97e94d9b9fd155d3ea4aa8711c4e7" : {
+    "japicmpResult" : { },
+    "revapiResult" : { },
+    "allPotentialBreakingElements" : [ "getJavaScriptResult()", "com.gargoylesoftware.htmlunit.ScriptResult(java.lang.Object)" ]
+  },
+  "0cdcc1f1319311f383676a89808c9b8eb190145c" : {
+    "japicmpResult" : { },
+    "revapiResult" : { },
+    "allPotentialBreakingElements" : [ ]
+  },
+  "1629113f03956a230738c47397c33f8ba2d11341" : {
+    "japicmpResult" : { },
+    "revapiResult" : { },
+    "allPotentialBreakingElements" : [ ]
+  },
+  "165381d26b2c3d2278fde88c16f95807506451fe" : {
+    "japicmpResult" : {
+      "com.github.javaparser.printer.PrettyPrinterConfiguration" : [ "SUPERCLASS_REMOVED", "CLASS_REMOVED", "FIELD_REMOVED", "INTERFACE_REMOVED", "CONSTRUCTOR_REMOVED", "METHOD_REMOVED", "METHOD_ADDED_TO_PUBLIC_CLASS" ],
+      "setPrintComments" : [ "SUPERCLASS_REMOVED", "CLASS_REMOVED", "FIELD_REMOVED", "INTERFACE_REMOVED", "CONSTRUCTOR_REMOVED", "METHOD_REMOVED", "METHOD_ADDED_TO_PUBLIC_CLASS" ]
+    },
+    "revapiResult" : {
+      "com.github.javaparser.printer.PrettyPrinterConfiguration" : [ "java.method.returnTypeChanged", "java.method.parameterTypeChanged", "java.class.removed", "java.method.removed", "java.field.typeChanged" ],
+      "setPrintComments" : [ "java.method.returnTypeChanged", "java.method.parameterTypeChanged", "java.class.removed", "java.method.removed", "java.field.typeChanged" ]
+    },
+    "allPotentialBreakingElements" : [ "setPrintComments(boolean)", "com.github.javaparser.printer.PrettyPrinterConfiguration()" ]
+  },
+  "18eff0121ded81b30af0924676407bfc663e6557" : {
+    "japicmpResult" : { },
+    "revapiResult" : { },
+    "allPotentialBreakingElements" : [ "getJavaScriptResult()", "com.gargoylesoftware.htmlunit.ScriptResult(java.lang.Object)" ]
+  },
+  "1d43bce1de6a81ac017c233d72f348d3c850299e" : {
+    "japicmpResult" : {
+      "getProperty" : [ "METHOD_RETURN_TYPE_CHANGED", "CLASS_GENERIC_TEMPLATE_CHANGED", "CONSTRUCTOR_REMOVED", "METHOD_REMOVED", "METHOD_ADDED_TO_PUBLIC_CLASS" ],
+      "valueOf" : [ "METHOD_RETURN_TYPE_CHANGED", "CLASS_GENERIC_TEMPLATE_CHANGED", "CONSTRUCTOR_REMOVED", "METHOD_REMOVED", "METHOD_ADDED_TO_PUBLIC_CLASS" ],
+      "setLocations" : [ "METHOD_RETURN_TYPE_CHANGED", "CLASS_GENERIC_TEMPLATE_CHANGED", "CONSTRUCTOR_REMOVED", "METHOD_REMOVED", "METHOD_ADDED_TO_PUBLIC_CLASS" ],
+      "org.flywaydb.core.Flyway" : [ "METHOD_RETURN_TYPE_CHANGED", "CLASS_GENERIC_TEMPLATE_CHANGED", "CONSTRUCTOR_REMOVED", "METHOD_REMOVED", "METHOD_ADDED_TO_PUBLIC_CLASS" ],
+      "setDataSource" : [ "METHOD_RETURN_TYPE_CHANGED", "CLASS_GENERIC_TEMPLATE_CHANGED", "CONSTRUCTOR_REMOVED", "METHOD_REMOVED", "METHOD_ADDED_TO_PUBLIC_CLASS" ],
+      "getClassLoader" : [ "METHOD_RETURN_TYPE_CHANGED", "CLASS_GENERIC_TEMPLATE_CHANGED", "CONSTRUCTOR_REMOVED", "METHOD_REMOVED", "METHOD_ADDED_TO_PUBLIC_CLASS" ],
+      "dataSource" : [ "METHOD_RETURN_TYPE_CHANGED", "CLASS_GENERIC_TEMPLATE_CHANGED", "CONSTRUCTOR_REMOVED", "METHOD_REMOVED", "METHOD_ADDED_TO_PUBLIC_CLASS" ],
+      "setClassLoader" : [ "METHOD_RETURN_TYPE_CHANGED", "CLASS_GENERIC_TEMPLATE_CHANGED", "CONSTRUCTOR_REMOVED", "METHOD_REMOVED", "METHOD_ADDED_TO_PUBLIC_CLASS" ],
+      "setValidateOnMigrate" : [ "METHOD_RETURN_TYPE_CHANGED", "CLASS_GENERIC_TEMPLATE_CHANGED", "CONSTRUCTOR_REMOVED", "METHOD_REMOVED", "METHOD_ADDED_TO_PUBLIC_CLASS" ]
+    },
+    "revapiResult" : {
+      "getProperty" : [ "java.method.returnTypeChanged", "java.method.nowStatic", "java.method.removed", "java.method.numberOfParametersChanged" ],
+      "valueOf" : [ "java.method.returnTypeChanged", "java.method.nowStatic", "java.method.removed", "java.method.numberOfParametersChanged" ],
+      "setLocations" : [ "java.method.returnTypeChanged", "java.method.nowStatic", "java.method.removed", "java.method.numberOfParametersChanged" ],
+      "org.flywaydb.core.Flyway" : [ "java.method.returnTypeChanged", "java.method.nowStatic", "java.method.removed", "java.method.numberOfParametersChanged" ],
+      "setDataSource" : [ "java.method.returnTypeChanged", "java.method.nowStatic", "java.method.removed", "java.method.numberOfParametersChanged" ],
+      "getClassLoader" : [ "java.method.returnTypeChanged", "java.method.nowStatic", "java.method.removed", "java.method.numberOfParametersChanged" ],
+      "dataSource" : [ "java.method.returnTypeChanged", "java.method.nowStatic", "java.method.removed", "java.method.numberOfParametersChanged" ],
+      "setClassLoader" : [ "java.method.returnTypeChanged", "java.method.nowStatic", "java.method.removed", "java.method.numberOfParametersChanged" ],
+      "setValidateOnMigrate" : [ "java.method.returnTypeChanged", "java.method.nowStatic", "java.method.removed", "java.method.numberOfParametersChanged" ]
+    },
+    "allPotentialBreakingElements" : [ "getClassLoader()", "getProperty(java.lang.String)", "valueOf(java.lang.String)", "setLocations(java.lang.String)", "dataSource()", "org.flywaydb.core.Flyway()", "setValidateOnMigrate(java.lang.Boolean)", "setClassLoader(java.lang.ClassLoader)", "setDataSource(javax.sql.DataSource)" ]
+  },
+  "1e1de78344a89be66d2e78f7adb07a479f6677eb" : {
+    "japicmpResult" : { },
+    "revapiResult" : { },
+    "allPotentialBreakingElements" : [ ]
+  },
+  "1ef97ea6c5b6e34151fe6167001b69e003449f95" : {
+    "japicmpResult" : {
+      "java.util.Date" : [ "METHOD_REMOVED", "METHOD_ADDED_TO_PUBLIC_CLASS" ],
+      "getTime" : [ "METHOD_REMOVED", "METHOD_ADDED_TO_PUBLIC_CLASS" ],
+      "between" : [ "METHOD_REMOVED", "METHOD_ADDED_TO_PUBLIC_CLASS" ]
+    },
+    "revapiResult" : {
+      "java.util.Date" : [ "java.method.parameterTypeChanged", "java.method.returnTypeChangedCovariantly" ],
+      "getTime" : [ "java.method.parameterTypeChanged", "java.method.returnTypeChangedCovariantly" ],
+      "between" : [ "java.method.parameterTypeChanged", "java.method.returnTypeChangedCovariantly" ]
+    },
+    "allPotentialBreakingElements" : [ "between(java.util.Date,java.util.Date)", "java.util.Date(java.lang.String)", "getTime()" ]
+  },
+  "1fc5281e0688c44025fe2b390a7d6e3e3088f385" : {
+    "japicmpResult" : { },
+    "revapiResult" : { },
+    "allPotentialBreakingElements" : [ "org.eclipse.jetty.server.nio.SelectChannelConnector()", "setSendDateHeader(boolean)", "setSendServerVersion(boolean)", "setPort(int)", "getLocalPort()" ]
+  },
+  "24d4a90ec1b375751e71f33d18949405c9529d77" : {
+    "japicmpResult" : { },
+    "revapiResult" : { },
+    "allPotentialBreakingElements" : [ ]
+  },
+  "250cafc7d6ae47d5d4803b5a5e58186eb81fa3b5" : {
+    "japicmpResult" : {
+      "getProperty" : [ "METHOD_RETURN_TYPE_CHANGED", "CLASS_GENERIC_TEMPLATE_CHANGED", "CONSTRUCTOR_REMOVED", "METHOD_REMOVED", "INTERFACE_ADDED", "METHOD_ADDED_TO_PUBLIC_CLASS", "ANNOTATION_DEPRECATED_ADDED" ],
+      "valueOf" : [ "METHOD_RETURN_TYPE_CHANGED", "CLASS_GENERIC_TEMPLATE_CHANGED", "CONSTRUCTOR_REMOVED", "METHOD_REMOVED", "INTERFACE_ADDED", "METHOD_ADDED_TO_PUBLIC_CLASS", "ANNOTATION_DEPRECATED_ADDED" ],
+      "setLocations" : [ "METHOD_RETURN_TYPE_CHANGED", "CLASS_GENERIC_TEMPLATE_CHANGED", "CONSTRUCTOR_REMOVED", "METHOD_REMOVED", "INTERFACE_ADDED", "METHOD_ADDED_TO_PUBLIC_CLASS", "ANNOTATION_DEPRECATED_ADDED" ],
+      "org.flywaydb.core.Flyway" : [ "METHOD_RETURN_TYPE_CHANGED", "CLASS_GENERIC_TEMPLATE_CHANGED", "CONSTRUCTOR_REMOVED", "METHOD_REMOVED", "INTERFACE_ADDED", "METHOD_ADDED_TO_PUBLIC_CLASS", "ANNOTATION_DEPRECATED_ADDED" ],
+      "setDataSource" : [ "METHOD_RETURN_TYPE_CHANGED", "CLASS_GENERIC_TEMPLATE_CHANGED", "CONSTRUCTOR_REMOVED", "METHOD_REMOVED", "INTERFACE_ADDED", "METHOD_ADDED_TO_PUBLIC_CLASS", "ANNOTATION_DEPRECATED_ADDED" ],
+      "getClassLoader" : [ "METHOD_RETURN_TYPE_CHANGED", "CLASS_GENERIC_TEMPLATE_CHANGED", "CONSTRUCTOR_REMOVED", "METHOD_REMOVED", "INTERFACE_ADDED", "METHOD_ADDED_TO_PUBLIC_CLASS", "ANNOTATION_DEPRECATED_ADDED" ],
+      "dataSource" : [ "METHOD_RETURN_TYPE_CHANGED", "CLASS_GENERIC_TEMPLATE_CHANGED", "CONSTRUCTOR_REMOVED", "METHOD_REMOVED", "INTERFACE_ADDED", "METHOD_ADDED_TO_PUBLIC_CLASS", "ANNOTATION_DEPRECATED_ADDED" ],
+      "setClassLoader" : [ "METHOD_RETURN_TYPE_CHANGED", "CLASS_GENERIC_TEMPLATE_CHANGED", "CONSTRUCTOR_REMOVED", "METHOD_REMOVED", "INTERFACE_ADDED", "METHOD_ADDED_TO_PUBLIC_CLASS", "ANNOTATION_DEPRECATED_ADDED" ],
+      "setValidateOnMigrate" : [ "METHOD_RETURN_TYPE_CHANGED", "CLASS_GENERIC_TEMPLATE_CHANGED", "CONSTRUCTOR_REMOVED", "METHOD_REMOVED", "INTERFACE_ADDED", "METHOD_ADDED_TO_PUBLIC_CLASS", "ANNOTATION_DEPRECATED_ADDED" ]
+    },
+    "revapiResult" : {
+      "getProperty" : [ "java.method.returnTypeChanged", "java.method.nowStatic", "java.method.removed", "java.method.numberOfParametersChanged" ],
+      "valueOf" : [ "java.method.returnTypeChanged", "java.method.nowStatic", "java.method.removed", "java.method.numberOfParametersChanged" ],
+      "setLocations" : [ "java.method.returnTypeChanged", "java.method.nowStatic", "java.method.removed", "java.method.numberOfParametersChanged" ],
+      "org.flywaydb.core.Flyway" : [ "java.method.returnTypeChanged", "java.method.nowStatic", "java.method.removed", "java.method.numberOfParametersChanged" ],
+      "setDataSource" : [ "java.method.returnTypeChanged", "java.method.nowStatic", "java.method.removed", "java.method.numberOfParametersChanged" ],
+      "getClassLoader" : [ "java.method.returnTypeChanged", "java.method.nowStatic", "java.method.removed", "java.method.numberOfParametersChanged" ],
+      "dataSource" : [ "java.method.returnTypeChanged", "java.method.nowStatic", "java.method.removed", "java.method.numberOfParametersChanged" ],
+      "setClassLoader" : [ "java.method.returnTypeChanged", "java.method.nowStatic", "java.method.removed", "java.method.numberOfParametersChanged" ],
+      "setValidateOnMigrate" : [ "java.method.returnTypeChanged", "java.method.nowStatic", "java.method.removed", "java.method.numberOfParametersChanged" ]
+    },
+    "allPotentialBreakingElements" : [ "getClassLoader()", "getProperty(java.lang.String)", "valueOf(java.lang.String)", "setLocations(java.lang.String)", "dataSource()", "org.flywaydb.core.Flyway()", "setValidateOnMigrate(java.lang.Boolean)", "setClassLoader(java.lang.ClassLoader)", "setDataSource(javax.sql.DataSource)" ]
+  },
+  "26fd1cd7639b7deb7078df5e4cb05c6d463ad07a" : {
+    "japicmpResult" : { },
+    "revapiResult" : { },
+    "allPotentialBreakingElements" : [ "getJavaScriptResult()", "com.gargoylesoftware.htmlunit.ScriptResult(java.lang.Object)" ]
+  },
+  "2b4d49d68112941b8abb818549389709d8327963" : {
+    "japicmpResult" : { },
+    "revapiResult" : { },
+    "allPotentialBreakingElements" : [ ]
+  },
+  "2c04b9834112eba86fbb8ad1f925128d49449c41" : {
+    "japicmpResult" : { },
+    "revapiResult" : { },
+    "allPotentialBreakingElements" : [ ]
+  },
+  "2d733a58045b4bf3669aa00d875e77f9db48c29b" : {
+    "japicmpResult" : {
+      "getProperty" : [ "METHOD_RETURN_TYPE_CHANGED", "CLASS_GENERIC_TEMPLATE_CHANGED", "CONSTRUCTOR_REMOVED", "METHOD_REMOVED", "METHOD_ADDED_TO_PUBLIC_CLASS" ],
+      "valueOf" : [ "METHOD_RETURN_TYPE_CHANGED", "CLASS_GENERIC_TEMPLATE_CHANGED", "CONSTRUCTOR_REMOVED", "METHOD_REMOVED", "METHOD_ADDED_TO_PUBLIC_CLASS" ],
+      "setLocations" : [ "METHOD_RETURN_TYPE_CHANGED", "CLASS_GENERIC_TEMPLATE_CHANGED", "CONSTRUCTOR_REMOVED", "METHOD_REMOVED", "METHOD_ADDED_TO_PUBLIC_CLASS" ],
+      "org.flywaydb.core.Flyway" : [ "METHOD_RETURN_TYPE_CHANGED", "CLASS_GENERIC_TEMPLATE_CHANGED", "CONSTRUCTOR_REMOVED", "METHOD_REMOVED", "METHOD_ADDED_TO_PUBLIC_CLASS" ],
+      "setDataSource" : [ "METHOD_RETURN_TYPE_CHANGED", "CLASS_GENERIC_TEMPLATE_CHANGED", "CONSTRUCTOR_REMOVED", "METHOD_REMOVED", "METHOD_ADDED_TO_PUBLIC_CLASS" ],
+      "getClassLoader" : [ "METHOD_RETURN_TYPE_CHANGED", "CLASS_GENERIC_TEMPLATE_CHANGED", "CONSTRUCTOR_REMOVED", "METHOD_REMOVED", "METHOD_ADDED_TO_PUBLIC_CLASS" ],
+      "dataSource" : [ "METHOD_RETURN_TYPE_CHANGED", "CLASS_GENERIC_TEMPLATE_CHANGED", "CONSTRUCTOR_REMOVED", "METHOD_REMOVED", "METHOD_ADDED_TO_PUBLIC_CLASS" ],
+      "setClassLoader" : [ "METHOD_RETURN_TYPE_CHANGED", "CLASS_GENERIC_TEMPLATE_CHANGED", "CONSTRUCTOR_REMOVED", "METHOD_REMOVED", "METHOD_ADDED_TO_PUBLIC_CLASS" ],
+      "setValidateOnMigrate" : [ "METHOD_RETURN_TYPE_CHANGED", "CLASS_GENERIC_TEMPLATE_CHANGED", "CONSTRUCTOR_REMOVED", "METHOD_REMOVED", "METHOD_ADDED_TO_PUBLIC_CLASS" ]
+    },
+    "revapiResult" : {
+      "getProperty" : [ "java.method.returnTypeChanged", "java.method.nowStatic", "java.method.removed", "java.method.numberOfParametersChanged" ],
+      "valueOf" : [ "java.method.returnTypeChanged", "java.method.nowStatic", "java.method.removed", "java.method.numberOfParametersChanged" ],
+      "setLocations" : [ "java.method.returnTypeChanged", "java.method.nowStatic", "java.method.removed", "java.method.numberOfParametersChanged" ],
+      "org.flywaydb.core.Flyway" : [ "java.method.returnTypeChanged", "java.method.nowStatic", "java.method.removed", "java.method.numberOfParametersChanged" ],
+      "setDataSource" : [ "java.method.returnTypeChanged", "java.method.nowStatic", "java.method.removed", "java.method.numberOfParametersChanged" ],
+      "getClassLoader" : [ "java.method.returnTypeChanged", "java.method.nowStatic", "java.method.removed", "java.method.numberOfParametersChanged" ],
+      "dataSource" : [ "java.method.returnTypeChanged", "java.method.nowStatic", "java.method.removed", "java.method.numberOfParametersChanged" ],
+      "setClassLoader" : [ "java.method.returnTypeChanged", "java.method.nowStatic", "java.method.removed", "java.method.numberOfParametersChanged" ],
+      "setValidateOnMigrate" : [ "java.method.returnTypeChanged", "java.method.nowStatic", "java.method.removed", "java.method.numberOfParametersChanged" ]
+    },
+    "allPotentialBreakingElements" : [ "getClassLoader()", "getProperty(java.lang.String)", "valueOf(java.lang.String)", "setLocations(java.lang.String)", "dataSource()", "org.flywaydb.core.Flyway()", "setValidateOnMigrate(java.lang.Boolean)", "setClassLoader(java.lang.ClassLoader)", "setDataSource(javax.sql.DataSource)" ]
+  },
+  "2e601a969a247b9a680157a705381b5632eb5c44" : {
+    "japicmpResult" : {
+      "getProperty" : [ "METHOD_RETURN_TYPE_CHANGED", "CLASS_GENERIC_TEMPLATE_CHANGED", "CONSTRUCTOR_REMOVED", "METHOD_REMOVED", "METHOD_ADDED_TO_PUBLIC_CLASS" ],
+      "valueOf" : [ "METHOD_RETURN_TYPE_CHANGED", "CLASS_GENERIC_TEMPLATE_CHANGED", "CONSTRUCTOR_REMOVED", "METHOD_REMOVED", "METHOD_ADDED_TO_PUBLIC_CLASS" ],
+      "setLocations" : [ "METHOD_RETURN_TYPE_CHANGED", "CLASS_GENERIC_TEMPLATE_CHANGED", "CONSTRUCTOR_REMOVED", "METHOD_REMOVED", "METHOD_ADDED_TO_PUBLIC_CLASS" ],
+      "org.flywaydb.core.Flyway" : [ "METHOD_RETURN_TYPE_CHANGED", "CLASS_GENERIC_TEMPLATE_CHANGED", "CONSTRUCTOR_REMOVED", "METHOD_REMOVED", "METHOD_ADDED_TO_PUBLIC_CLASS" ],
+      "setDataSource" : [ "METHOD_RETURN_TYPE_CHANGED", "CLASS_GENERIC_TEMPLATE_CHANGED", "CONSTRUCTOR_REMOVED", "METHOD_REMOVED", "METHOD_ADDED_TO_PUBLIC_CLASS" ],
+      "getClassLoader" : [ "METHOD_RETURN_TYPE_CHANGED", "CLASS_GENERIC_TEMPLATE_CHANGED", "CONSTRUCTOR_REMOVED", "METHOD_REMOVED", "METHOD_ADDED_TO_PUBLIC_CLASS" ],
+      "dataSource" : [ "METHOD_RETURN_TYPE_CHANGED", "CLASS_GENERIC_TEMPLATE_CHANGED", "CONSTRUCTOR_REMOVED", "METHOD_REMOVED", "METHOD_ADDED_TO_PUBLIC_CLASS" ],
+      "setClassLoader" : [ "METHOD_RETURN_TYPE_CHANGED", "CLASS_GENERIC_TEMPLATE_CHANGED", "CONSTRUCTOR_REMOVED", "METHOD_REMOVED", "METHOD_ADDED_TO_PUBLIC_CLASS" ],
+      "setValidateOnMigrate" : [ "METHOD_RETURN_TYPE_CHANGED", "CLASS_GENERIC_TEMPLATE_CHANGED", "CONSTRUCTOR_REMOVED", "METHOD_REMOVED", "METHOD_ADDED_TO_PUBLIC_CLASS" ]
+    },
+    "revapiResult" : {
+      "getProperty" : [ "java.method.returnTypeChanged", "java.method.nowStatic", "java.method.removed", "java.method.numberOfParametersChanged" ],
+      "valueOf" : [ "java.method.returnTypeChanged", "java.method.nowStatic", "java.method.removed", "java.method.numberOfParametersChanged" ],
+      "setLocations" : [ "java.method.returnTypeChanged", "java.method.nowStatic", "java.method.removed", "java.method.numberOfParametersChanged" ],
+      "org.flywaydb.core.Flyway" : [ "java.method.returnTypeChanged", "java.method.nowStatic", "java.method.removed", "java.method.numberOfParametersChanged" ],
+      "setDataSource" : [ "java.method.returnTypeChanged", "java.method.nowStatic", "java.method.removed", "java.method.numberOfParametersChanged" ],
+      "getClassLoader" : [ "java.method.returnTypeChanged", "java.method.nowStatic", "java.method.removed", "java.method.numberOfParametersChanged" ],
+      "dataSource" : [ "java.method.returnTypeChanged", "java.method.nowStatic", "java.method.removed", "java.method.numberOfParametersChanged" ],
+      "setClassLoader" : [ "java.method.returnTypeChanged", "java.method.nowStatic", "java.method.removed", "java.method.numberOfParametersChanged" ],
+      "setValidateOnMigrate" : [ "java.method.returnTypeChanged", "java.method.nowStatic", "java.method.removed", "java.method.numberOfParametersChanged" ]
+    },
+    "allPotentialBreakingElements" : [ "getClassLoader()", "getProperty(java.lang.String)", "valueOf(java.lang.String)", "setLocations(java.lang.String)", "dataSource()", "org.flywaydb.core.Flyway()", "setValidateOnMigrate(java.lang.Boolean)", "setClassLoader(java.lang.ClassLoader)", "setDataSource(javax.sql.DataSource)" ]
+  },
+  "2f01c46b96a8edf437edf20e6dbd848edcb27085" : {
+    "japicmpResult" : { },
+    "revapiResult" : { },
+    "allPotentialBreakingElements" : [ ]
+  },
+  "3a4a2b11483689ca3e99e92785a7b27c56d072b8" : {
+    "japicmpResult" : { },
+    "revapiResult" : { },
+    "allPotentialBreakingElements" : [ "getJavaScriptResult()", "com.gargoylesoftware.htmlunit.ScriptResult(java.lang.Object)" ]
+  },
+  "3b4a91979f0d93ca4cbb79e6cfa5029a6b8eaf01" : {
+    "japicmpResult" : { },
+    "revapiResult" : { },
+    "allPotentialBreakingElements" : [ ]
+  },
+  "3d0cc7db9d9c9420fa4f478a72067ef846ba8129" : {
+    "japicmpResult" : {
+      "org.jooq.exception.DataAccessException" : [ ],
+      "using" : [ ],
+      "getProperty" : [ ],
+      "getProperties" : [ ],
+      "getLogger" : [ ],
+      "setConnection" : [ ],
+      "connection" : [ ],
+      "isBlank" : [ ],
+      "safeClose" : [ ],
+      "close" : [ ],
+      "getBasedir" : [ ]
+    },
+    "revapiResult" : {
+      "org.jooq.exception.DataAccessException" : [ "java.field.serialVersionUIDChanged" ],
+      "using" : [ "java.field.serialVersionUIDChanged" ],
+      "getProperty" : [ "java.field.serialVersionUIDChanged" ],
+      "getProperties" : [ "java.field.serialVersionUIDChanged" ],
+      "getLogger" : [ "java.field.serialVersionUIDChanged" ],
+      "setConnection" : [ "java.field.serialVersionUIDChanged" ],
+      "connection" : [ "java.field.serialVersionUIDChanged" ],
+      "isBlank" : [ "java.field.serialVersionUIDChanged" ],
+      "safeClose" : [ "java.field.serialVersionUIDChanged" ],
+      "close" : [ "java.field.serialVersionUIDChanged" ],
+      "getBasedir" : [ "java.field.serialVersionUIDChanged" ]
+    },
+    "allPotentialBreakingElements" : [ "getProperty(java.lang.String)", "org.jooq.exception.DataAccessException(java.lang.String,java.lang.Exception)", "getLogger(java.lang.Class)", "isBlank(java.lang.String)", "safeClose(java.sql.Connection)", "getProperties()", "setConnection(java.sql.Connection)", "using(java.sql.Connection)", "getBasedir()", "connection()", "close()" ]
+  }
+}

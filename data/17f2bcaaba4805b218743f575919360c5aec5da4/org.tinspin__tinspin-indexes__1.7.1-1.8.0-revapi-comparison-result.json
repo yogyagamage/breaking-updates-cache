@@ -1,0 +1,1401 @@
+[ {
+  "code" : "java.class.nonPublicPartOfAPI",
+  "old" : "class org.tinspin.index.array.PointArray<T>.AQueryIterator",
+  "new" : "class org.tinspin.index.array.PointArray<T>.AQueryIterator",
+  "name" : "non-public class in API",
+  "description" : "Class 'org.tinspin.index.array.PointArray<T>.AQueryIterator' is indirectly included in the API (by the means of method return type for example) but the class is not accessible (neither public nor protected).",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SEMANTIC",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "classSimpleName",
+    "value" : "AQueryIterator"
+  }, {
+    "name" : "exampleUseChainInNewApi",
+    "value" : "org.tinspin.index.array.PointArray<T>.AQueryIterator is returned from method org.tinspin.index.array.PointArray<T>.AQueryIterator org.tinspin.index.array.PointArray<T>::query(double[], double[]) (method org.tinspin.index.array.PointArray<T>.AQueryIterator org.tinspin.index.array.PointArray<T>::query(double[], double[]) is part of the API)"
+  }, {
+    "name" : "package",
+    "value" : "org.tinspin.index.array"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.tinspin.index.array.PointArray.AQueryIterator"
+  }, {
+    "name" : "exampleUseChainInOldApi",
+    "value" : "org.tinspin.index.array.PointArray<T>.AQueryIterator is returned from method org.tinspin.index.array.PointArray<T>.AQueryIterator org.tinspin.index.array.PointArray<T>::query(double[], double[]) (method org.tinspin.index.array.PointArray<T>.AQueryIterator org.tinspin.index.array.PointArray<T>::query(double[], double[]) is part of the API)"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "tinspin-indexes-1.7.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "tinspin-indexes-1.8.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.nonPublicPartOfAPI",
+  "old" : "class org.tinspin.index.array.PointArray<T>.AQueryIteratorKNN",
+  "new" : "class org.tinspin.index.array.PointArray<T>.AQueryIteratorKNN",
+  "name" : "non-public class in API",
+  "description" : "Class 'org.tinspin.index.array.PointArray<T>.AQueryIteratorKNN' is indirectly included in the API (by the means of method return type for example) but the class is not accessible (neither public nor protected).",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SEMANTIC",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "classSimpleName",
+    "value" : "AQueryIteratorKNN"
+  }, {
+    "name" : "exampleUseChainInNewApi",
+    "value" : "org.tinspin.index.array.PointArray<T>.AQueryIteratorKNN is returned from method org.tinspin.index.array.PointArray<T>.AQueryIteratorKNN org.tinspin.index.array.PointArray<T>::queryKNN(double[], int) (method org.tinspin.index.array.PointArray<T>.AQueryIteratorKNN org.tinspin.index.array.PointArray<T>::queryKNN(double[], int) is part of the API)"
+  }, {
+    "name" : "package",
+    "value" : "org.tinspin.index.array"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.tinspin.index.array.PointArray.AQueryIteratorKNN"
+  }, {
+    "name" : "exampleUseChainInOldApi",
+    "value" : "org.tinspin.index.array.PointArray<T>.AQueryIteratorKNN is returned from method org.tinspin.index.array.PointArray<T>.AQueryIteratorKNN org.tinspin.index.array.PointArray<T>::queryKNN(double[], int) (method org.tinspin.index.array.PointArray<T>.AQueryIteratorKNN org.tinspin.index.array.PointArray<T>::queryKNN(double[], int) is part of the API)"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "tinspin-indexes-1.7.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "tinspin-indexes-1.8.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.returnTypeTypeParametersChanged",
+  "old" : "method org.tinspin.index.QueryIterator<? extends org.tinspin.index.PointEntry<T>> org.tinspin.index.array.PointArray<T>::iterator()",
+  "new" : "method org.tinspin.index.QueryIterator<org.tinspin.index.PointEntry<T>> org.tinspin.index.array.PointArray<T>::iterator()",
+  "name" : "return type changed type parameter",
+  "description" : "The return type changed from 'org.tinspin.index.QueryIterator<? extends org.tinspin.index.PointEntry<T>>' to 'org.tinspin.index.QueryIterator<org.tinspin.index.PointEntry<T>>'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "org.tinspin.index.QueryIterator<? extends org.tinspin.index.PointEntry<T>>"
+  }, {
+    "name" : "newType",
+    "value" : "org.tinspin.index.QueryIterator<org.tinspin.index.PointEntry<T>>"
+  }, {
+    "name" : "package",
+    "value" : "org.tinspin.index.array"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.tinspin.index.array.PointArray"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "PointArray"
+  }, {
+    "name" : "methodName",
+    "value" : "iterator"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "tinspin-indexes-1.7.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "tinspin-indexes-1.8.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.returnTypeChanged",
+  "old" : "method org.tinspin.index.array.RectArray<T>.AQueryIterator org.tinspin.index.array.RectArray<T>::queryIntersect(double[], double[])",
+  "new" : "method org.tinspin.index.QueryIterator<org.tinspin.index.RectangleEntry<T>> org.tinspin.index.array.RectArray<T>::queryIntersect(double[], double[])",
+  "name" : "return type changed",
+  "description" : "The return type changed from 'org.tinspin.index.array.RectArray<T>.AQueryIterator' to  'org.tinspin.index.QueryIterator<org.tinspin.index.RectangleEntry<T>>'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "POTENTIALLY_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "org.tinspin.index.array.RectArray<T>.AQueryIterator"
+  }, {
+    "name" : "newType",
+    "value" : "org.tinspin.index.QueryIterator<org.tinspin.index.RectangleEntry<T>>"
+  }, {
+    "name" : "package",
+    "value" : "org.tinspin.index.array"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.tinspin.index.array.RectArray"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "RectArray"
+  }, {
+    "name" : "methodName",
+    "value" : "queryIntersect"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "tinspin-indexes-1.7.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "tinspin-indexes-1.8.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.returnTypeChanged",
+  "old" : "method org.tinspin.index.array.RectArray<T>.AQueryIteratorKNN org.tinspin.index.array.RectArray<T>::queryKNN(double[], int)",
+  "new" : "method org.tinspin.index.QueryIteratorKNN<org.tinspin.index.RectangleEntryDist<T>> org.tinspin.index.array.RectArray<T>::queryKNN(double[], int)",
+  "name" : "return type changed",
+  "description" : "The return type changed from 'org.tinspin.index.array.RectArray<T>.AQueryIteratorKNN' to  'org.tinspin.index.QueryIteratorKNN<org.tinspin.index.RectangleEntryDist<T>>'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "POTENTIALLY_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "org.tinspin.index.array.RectArray<T>.AQueryIteratorKNN"
+  }, {
+    "name" : "newType",
+    "value" : "org.tinspin.index.QueryIteratorKNN<org.tinspin.index.RectangleEntryDist<T>>"
+  }, {
+    "name" : "package",
+    "value" : "org.tinspin.index.array"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.tinspin.index.array.RectArray"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "RectArray"
+  }, {
+    "name" : "methodName",
+    "value" : "queryKNN"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "tinspin-indexes-1.7.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "tinspin-indexes-1.8.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.nonPublicPartOfAPI",
+  "old" : "class org.tinspin.index.critbit.CritBit.Node<V>",
+  "new" : "class org.tinspin.index.critbit.CritBit.Node<V>",
+  "name" : "non-public class in API",
+  "description" : "Class 'org.tinspin.index.critbit.CritBit.Node<V>' is indirectly included in the API (by the means of method return type for example) but the class is not accessible (neither public nor protected).",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SEMANTIC",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "classSimpleName",
+    "value" : "Node"
+  }, {
+    "name" : "exampleUseChainInNewApi",
+    "value" : "org.tinspin.index.critbit.CritBit.Node<V> is used as parameter in method <T> void org.tinspin.index.critbit.CritBit<V>::readInfix(org.tinspin.index.critbit.CritBit.Node<T>, long[]) (method <T> void org.tinspin.index.critbit.CritBit<V>::readInfix(org.tinspin.index.critbit.CritBit.Node<T>, long[]) is part of the API)"
+  }, {
+    "name" : "package",
+    "value" : "org.tinspin.index.critbit"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.tinspin.index.critbit.CritBit.Node"
+  }, {
+    "name" : "exampleUseChainInOldApi",
+    "value" : "org.tinspin.index.critbit.CritBit.Node<V> is used as parameter in method <T> void org.tinspin.index.critbit.CritBit<V>::readInfix(org.tinspin.index.critbit.CritBit.Node<T>, long[]) (method <T> void org.tinspin.index.critbit.CritBit<V>::readInfix(org.tinspin.index.critbit.CritBit.Node<T>, long[]) is part of the API)"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "tinspin-indexes-1.7.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "tinspin-indexes-1.8.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.nonPublicPartOfAPI",
+  "old" : "class org.tinspin.index.kdtree.KDEntryDist.QEntryComparator",
+  "new" : "class org.tinspin.index.kdtree.KDEntryDist.QEntryComparator",
+  "name" : "non-public class in API",
+  "description" : "Class 'org.tinspin.index.kdtree.KDEntryDist.QEntryComparator' is indirectly included in the API (by the means of method return type for example) but the class is not accessible (neither public nor protected).",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SEMANTIC",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "classSimpleName",
+    "value" : "QEntryComparator"
+  }, {
+    "name" : "exampleUseChainInNewApi",
+    "value" : "field org.tinspin.index.kdtree.KDEntryDist<T>.COMP has the type org.tinspin.index.kdtree.KDEntryDist.QEntryComparator (field org.tinspin.index.kdtree.KDEntryDist<T>.COMP is part of the API)"
+  }, {
+    "name" : "package",
+    "value" : "org.tinspin.index.kdtree"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.tinspin.index.kdtree.KDEntryDist.QEntryComparator"
+  }, {
+    "name" : "exampleUseChainInOldApi",
+    "value" : "field org.tinspin.index.kdtree.KDEntryDist<T>.COMP has the type org.tinspin.index.kdtree.KDEntryDist.QEntryComparator (field org.tinspin.index.kdtree.KDEntryDist<T>.COMP is part of the API)"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "tinspin-indexes-1.7.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "tinspin-indexes-1.8.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method void org.tinspin.index.kdtree.KDTree<T>::main(java.lang.String[])",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.tinspin.index.kdtree"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.tinspin.index.kdtree.KDTree"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "KDTree"
+  }, {
+    "name" : "methodName",
+    "value" : "main"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "tinspin-indexes-1.7.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.returnTypeChanged",
+  "old" : "method org.tinspin.index.kdtree.KDEntryDist<T> org.tinspin.index.kdtree.KDTree<T>::query1NN(double[])",
+  "new" : "method org.tinspin.index.PointEntryDist<T> org.tinspin.index.kdtree.KDTree<T>::query1NN(double[])",
+  "name" : "return type changed",
+  "description" : "The return type changed from 'org.tinspin.index.kdtree.KDEntryDist<T>' to  'org.tinspin.index.PointEntryDist<T>'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "POTENTIALLY_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "org.tinspin.index.kdtree.KDEntryDist<T>"
+  }, {
+    "name" : "newType",
+    "value" : "org.tinspin.index.PointEntryDist<T>"
+  }, {
+    "name" : "package",
+    "value" : "org.tinspin.index.kdtree"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.tinspin.index.kdtree.KDTree"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "KDTree"
+  }, {
+    "name" : "methodName",
+    "value" : "query1NN"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "tinspin-indexes-1.7.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "tinspin-indexes-1.8.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method boolean org.tinspin.index.qthypercube.QEntry<T>::enclosedBy(double[], double)",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.tinspin.index.qthypercube"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.tinspin.index.qthypercube.QEntry"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "QEntry"
+  }, {
+    "name" : "methodName",
+    "value" : "enclosedBy"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "tinspin-indexes-1.7.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method boolean org.tinspin.index.qthypercube.QEntry<T>::enclosedBy(double[], double[])",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.tinspin.index.qthypercube"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.tinspin.index.qthypercube.QEntry"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "QEntry"
+  }, {
+    "name" : "methodName",
+    "value" : "enclosedBy"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "tinspin-indexes-1.7.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.nonPublicPartOfAPI",
+  "old" : "class org.tinspin.index.qthypercube.QEntryDist.QEntryComparator",
+  "new" : "class org.tinspin.index.qthypercube.QEntryDist.QEntryComparator",
+  "name" : "non-public class in API",
+  "description" : "Class 'org.tinspin.index.qthypercube.QEntryDist.QEntryComparator' is indirectly included in the API (by the means of method return type for example) but the class is not accessible (neither public nor protected).",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SEMANTIC",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "classSimpleName",
+    "value" : "QEntryComparator"
+  }, {
+    "name" : "exampleUseChainInNewApi",
+    "value" : "field org.tinspin.index.qthypercube.QEntryDist<T>.COMP has the type org.tinspin.index.qthypercube.QEntryDist.QEntryComparator (field org.tinspin.index.qthypercube.QEntryDist<T>.COMP is part of the API)"
+  }, {
+    "name" : "package",
+    "value" : "org.tinspin.index.qthypercube"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.tinspin.index.qthypercube.QEntryDist.QEntryComparator"
+  }, {
+    "name" : "exampleUseChainInOldApi",
+    "value" : "field org.tinspin.index.qthypercube.QEntryDist<T>.COMP has the type org.tinspin.index.qthypercube.QEntryDist.QEntryComparator (field org.tinspin.index.qthypercube.QEntryDist<T>.COMP is part of the API)"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "tinspin-indexes-1.7.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "tinspin-indexes-1.8.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method boolean org.tinspin.index.qthypercube.QREntry<T>::enclosedBy(double[], double)",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.tinspin.index.qthypercube"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.tinspin.index.qthypercube.QREntry"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "QREntry"
+  }, {
+    "name" : "methodName",
+    "value" : "enclosedBy"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "tinspin-indexes-1.7.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.nonPublicPartOfAPI",
+  "old" : "class org.tinspin.index.qthypercube.QREntryDist.QEntryComparator",
+  "new" : "class org.tinspin.index.qthypercube.QREntryDist.QEntryComparator",
+  "name" : "non-public class in API",
+  "description" : "Class 'org.tinspin.index.qthypercube.QREntryDist.QEntryComparator' is indirectly included in the API (by the means of method return type for example) but the class is not accessible (neither public nor protected).",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SEMANTIC",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "classSimpleName",
+    "value" : "QEntryComparator"
+  }, {
+    "name" : "exampleUseChainInNewApi",
+    "value" : "field org.tinspin.index.qthypercube.QREntryDist<T>.COMP has the type org.tinspin.index.qthypercube.QREntryDist.QEntryComparator (field org.tinspin.index.qthypercube.QREntryDist<T>.COMP is part of the API)"
+  }, {
+    "name" : "package",
+    "value" : "org.tinspin.index.qthypercube"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.tinspin.index.qthypercube.QREntryDist.QEntryComparator"
+  }, {
+    "name" : "exampleUseChainInOldApi",
+    "value" : "field org.tinspin.index.qthypercube.QREntryDist<T>.COMP has the type org.tinspin.index.qthypercube.QREntryDist.QEntryComparator (field org.tinspin.index.qthypercube.QREntryDist<T>.COMP is part of the API)"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "tinspin-indexes-1.7.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "tinspin-indexes-1.8.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class org.tinspin.index.qthypercube.QUtil",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.tinspin.index.qthypercube"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.tinspin.index.qthypercube.QUtil"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "QUtil"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "tinspin-indexes-1.7.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method boolean org.tinspin.index.qthypercube2.QEntry<T>::enclosedBy(double[], double)",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.tinspin.index.qthypercube2"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.tinspin.index.qthypercube2.QEntry"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "QEntry"
+  }, {
+    "name" : "methodName",
+    "value" : "enclosedBy"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "tinspin-indexes-1.7.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method boolean org.tinspin.index.qthypercube2.QEntry<T>::enclosedBy(double[], double[])",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.tinspin.index.qthypercube2"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.tinspin.index.qthypercube2.QEntry"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "QEntry"
+  }, {
+    "name" : "methodName",
+    "value" : "enclosedBy"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "tinspin-indexes-1.7.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.nonPublicPartOfAPI",
+  "old" : "class org.tinspin.index.qthypercube2.QEntryDist.QEntryComparator",
+  "new" : "class org.tinspin.index.qthypercube2.QEntryDist.QEntryComparator",
+  "name" : "non-public class in API",
+  "description" : "Class 'org.tinspin.index.qthypercube2.QEntryDist.QEntryComparator' is indirectly included in the API (by the means of method return type for example) but the class is not accessible (neither public nor protected).",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SEMANTIC",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "classSimpleName",
+    "value" : "QEntryComparator"
+  }, {
+    "name" : "exampleUseChainInNewApi",
+    "value" : "field org.tinspin.index.qthypercube2.QEntryDist<T>.COMP has the type org.tinspin.index.qthypercube2.QEntryDist.QEntryComparator (field org.tinspin.index.qthypercube2.QEntryDist<T>.COMP is part of the API)"
+  }, {
+    "name" : "package",
+    "value" : "org.tinspin.index.qthypercube2"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.tinspin.index.qthypercube2.QEntryDist.QEntryComparator"
+  }, {
+    "name" : "exampleUseChainInOldApi",
+    "value" : "field org.tinspin.index.qthypercube2.QEntryDist<T>.COMP has the type org.tinspin.index.qthypercube2.QEntryDist.QEntryComparator (field org.tinspin.index.qthypercube2.QEntryDist<T>.COMP is part of the API)"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "tinspin-indexes-1.7.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "tinspin-indexes-1.8.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class org.tinspin.index.qthypercube2.QUtil",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.tinspin.index.qthypercube2"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.tinspin.index.qthypercube2.QUtil"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "QUtil"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "tinspin-indexes-1.7.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method boolean org.tinspin.index.qtplain.QEntry<T>::enclosedBy(double[], double)",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.tinspin.index.qtplain"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.tinspin.index.qtplain.QEntry"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "QEntry"
+  }, {
+    "name" : "methodName",
+    "value" : "enclosedBy"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "tinspin-indexes-1.7.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method boolean org.tinspin.index.qtplain.QEntry<T>::enclosedBy(double[], double[])",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.tinspin.index.qtplain"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.tinspin.index.qtplain.QEntry"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "QEntry"
+  }, {
+    "name" : "methodName",
+    "value" : "enclosedBy"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "tinspin-indexes-1.7.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.nonPublicPartOfAPI",
+  "old" : "class org.tinspin.index.qtplain.QEntryDist.QEntryComparator",
+  "new" : "class org.tinspin.index.qtplain.QEntryDist.QEntryComparator",
+  "name" : "non-public class in API",
+  "description" : "Class 'org.tinspin.index.qtplain.QEntryDist.QEntryComparator' is indirectly included in the API (by the means of method return type for example) but the class is not accessible (neither public nor protected).",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SEMANTIC",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "classSimpleName",
+    "value" : "QEntryComparator"
+  }, {
+    "name" : "exampleUseChainInNewApi",
+    "value" : "field org.tinspin.index.qtplain.QEntryDist<T>.COMP has the type org.tinspin.index.qtplain.QEntryDist.QEntryComparator (field org.tinspin.index.qtplain.QEntryDist<T>.COMP is part of the API)"
+  }, {
+    "name" : "package",
+    "value" : "org.tinspin.index.qtplain"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.tinspin.index.qtplain.QEntryDist.QEntryComparator"
+  }, {
+    "name" : "exampleUseChainInOldApi",
+    "value" : "field org.tinspin.index.qtplain.QEntryDist<T>.COMP has the type org.tinspin.index.qtplain.QEntryDist.QEntryComparator (field org.tinspin.index.qtplain.QEntryDist<T>.COMP is part of the API)"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "tinspin-indexes-1.7.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "tinspin-indexes-1.8.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method boolean org.tinspin.index.qtplain.QREntry<T>::enclosedBy(double[], double)",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.tinspin.index.qtplain"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.tinspin.index.qtplain.QREntry"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "QREntry"
+  }, {
+    "name" : "methodName",
+    "value" : "enclosedBy"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "tinspin-indexes-1.7.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.nonPublicPartOfAPI",
+  "old" : "class org.tinspin.index.qtplain.QREntryDist.QEntryComparator",
+  "new" : "class org.tinspin.index.qtplain.QREntryDist.QEntryComparator",
+  "name" : "non-public class in API",
+  "description" : "Class 'org.tinspin.index.qtplain.QREntryDist.QEntryComparator' is indirectly included in the API (by the means of method return type for example) but the class is not accessible (neither public nor protected).",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SEMANTIC",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "classSimpleName",
+    "value" : "QEntryComparator"
+  }, {
+    "name" : "exampleUseChainInNewApi",
+    "value" : "field org.tinspin.index.qtplain.QREntryDist<T>.COMP has the type org.tinspin.index.qtplain.QREntryDist.QEntryComparator (field org.tinspin.index.qtplain.QREntryDist<T>.COMP is part of the API)"
+  }, {
+    "name" : "package",
+    "value" : "org.tinspin.index.qtplain"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.tinspin.index.qtplain.QREntryDist.QEntryComparator"
+  }, {
+    "name" : "exampleUseChainInOldApi",
+    "value" : "field org.tinspin.index.qtplain.QREntryDist<T>.COMP has the type org.tinspin.index.qtplain.QREntryDist.QEntryComparator (field org.tinspin.index.qtplain.QREntryDist<T>.COMP is part of the API)"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "tinspin-indexes-1.7.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "tinspin-indexes-1.8.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class org.tinspin.index.qtplain.QUtil",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.tinspin.index.qtplain"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.tinspin.index.qtplain.QUtil"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "QUtil"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "tinspin-indexes-1.7.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.returnTypeChanged",
+  "old" : "method org.tinspin.index.qtplain.QuadTreeKD0<T>.QQueryIteratorKNN org.tinspin.index.qtplain.QuadTreeKD0<T>::queryKNN(double[], int)",
+  "new" : "method org.tinspin.index.QueryIteratorKNN<org.tinspin.index.PointEntryDist<T>> org.tinspin.index.qtplain.QuadTreeKD0<T>::queryKNN(double[], int)",
+  "name" : "return type changed",
+  "description" : "The return type changed from 'org.tinspin.index.qtplain.QuadTreeKD0<T>.QQueryIteratorKNN' to  'org.tinspin.index.QueryIteratorKNN<org.tinspin.index.PointEntryDist<T>>'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "POTENTIALLY_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "org.tinspin.index.qtplain.QuadTreeKD0<T>.QQueryIteratorKNN"
+  }, {
+    "name" : "newType",
+    "value" : "org.tinspin.index.QueryIteratorKNN<org.tinspin.index.PointEntryDist<T>>"
+  }, {
+    "name" : "package",
+    "value" : "org.tinspin.index.qtplain"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.tinspin.index.qtplain.QuadTreeKD0"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "QuadTreeKD0"
+  }, {
+    "name" : "methodName",
+    "value" : "queryKNN"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "tinspin-indexes-1.7.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "tinspin-indexes-1.8.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.returnTypeChanged",
+  "old" : "method org.tinspin.index.qtplain.QuadTreeRKD0<T>.QRQueryIteratorKNN org.tinspin.index.qtplain.QuadTreeRKD0<T>::queryKNN(double[], int)",
+  "new" : "method org.tinspin.index.qtplain.QRIteratorKnn<T> org.tinspin.index.qtplain.QuadTreeRKD0<T>::queryKNN(double[], int)",
+  "name" : "return type changed",
+  "description" : "The return type changed from 'org.tinspin.index.qtplain.QuadTreeRKD0<T>.QRQueryIteratorKNN' to  'org.tinspin.index.qtplain.QRIteratorKnn<T>'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "POTENTIALLY_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "org.tinspin.index.qtplain.QuadTreeRKD0<T>.QRQueryIteratorKNN"
+  }, {
+    "name" : "newType",
+    "value" : "org.tinspin.index.qtplain.QRIteratorKnn<T>"
+  }, {
+    "name" : "package",
+    "value" : "org.tinspin.index.qtplain"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.tinspin.index.qtplain.QuadTreeRKD0"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "QuadTreeRKD0"
+  }, {
+    "name" : "methodName",
+    "value" : "queryKNN"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "tinspin-indexes-1.7.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "tinspin-indexes-1.8.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.returnTypeChanged",
+  "old" : "method org.tinspin.index.rtree.RTreeQueryKnn<T> org.tinspin.index.rtree.RTree<T>::queryKNN(double[], int)",
+  "new" : "method org.tinspin.index.rtree.RTreeQueryKnn2<T> org.tinspin.index.rtree.RTree<T>::queryKNN(double[], int)",
+  "name" : "return type changed",
+  "description" : "The return type changed from 'org.tinspin.index.rtree.RTreeQueryKnn<T>' to  'org.tinspin.index.rtree.RTreeQueryKnn2<T>'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "POTENTIALLY_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "org.tinspin.index.rtree.RTreeQueryKnn<T>"
+  }, {
+    "name" : "newType",
+    "value" : "org.tinspin.index.rtree.RTreeQueryKnn2<T>"
+  }, {
+    "name" : "package",
+    "value" : "org.tinspin.index.rtree"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.tinspin.index.rtree.RTree"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "RTree"
+  }, {
+    "name" : "methodName",
+    "value" : "queryKNN"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "tinspin-indexes-1.7.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "tinspin-indexes-1.8.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.returnTypeChanged",
+  "old" : "method org.tinspin.index.rtree.RTreeQueryKnn<T> org.tinspin.index.rtree.RTree<T>::queryKNN(double[], int, org.tinspin.index.RectangleDistanceFunction)",
+  "new" : "method org.tinspin.index.rtree.RTreeQueryKnn2<T> org.tinspin.index.rtree.RTree<T>::queryKNN(double[], int, org.tinspin.index.RectangleDistanceFunction)",
+  "name" : "return type changed",
+  "description" : "The return type changed from 'org.tinspin.index.rtree.RTreeQueryKnn<T>' to  'org.tinspin.index.rtree.RTreeQueryKnn2<T>'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "POTENTIALLY_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "org.tinspin.index.rtree.RTreeQueryKnn<T>"
+  }, {
+    "name" : "newType",
+    "value" : "org.tinspin.index.rtree.RTreeQueryKnn2<T>"
+  }, {
+    "name" : "package",
+    "value" : "org.tinspin.index.rtree"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.tinspin.index.rtree.RTree"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "RTree"
+  }, {
+    "name" : "methodName",
+    "value" : "queryKNN"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "tinspin-indexes-1.7.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "tinspin-indexes-1.8.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.nonPublicPartOfAPI",
+  "old" : "class org.tinspin.index.rtree.RTreeNode<T>",
+  "new" : "class org.tinspin.index.rtree.RTreeNode<T>",
+  "name" : "non-public class in API",
+  "description" : "Class 'org.tinspin.index.rtree.RTreeNode<T>' is indirectly included in the API (by the means of method return type for example) but the class is not accessible (neither public nor protected).",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SEMANTIC",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "classSimpleName",
+    "value" : "RTreeNode"
+  }, {
+    "name" : "exampleUseChainInNewApi",
+    "value" : "org.tinspin.index.rtree.RTreeNode<T> is used as parameter in method <T> org.tinspin.index.rtree.RTreeNode<T> org.tinspin.index.rtree.RStarTreeLogic::split(org.tinspin.index.rtree.RTreeNode<T>, org.tinspin.index.rtree.Entry<T>) (method <T> org.tinspin.index.rtree.RTreeNode<T> org.tinspin.index.rtree.RStarTreeLogic::split(org.tinspin.index.rtree.RTreeNode<T>, org.tinspin.index.rtree.Entry<T>) is part of the API)"
+  }, {
+    "name" : "package",
+    "value" : "org.tinspin.index.rtree"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.tinspin.index.rtree.RTreeNode"
+  }, {
+    "name" : "exampleUseChainInOldApi",
+    "value" : "org.tinspin.index.rtree.RTreeNode<T> is used as parameter in method <T> org.tinspin.index.rtree.RTreeNode<T> org.tinspin.index.rtree.RTreeLogic::chooseSubTree(org.tinspin.index.rtree.RTreeNode<T>, org.tinspin.index.rtree.Entry<T>, int, int) (method <T> org.tinspin.index.rtree.RTreeNode<T> org.tinspin.index.rtree.RTreeLogic::chooseSubTree(org.tinspin.index.rtree.RTreeNode<T>, org.tinspin.index.rtree.Entry<T>, int, int) is part of the API)"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "tinspin-indexes-1.7.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "tinspin-indexes-1.8.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.nonPublicPartOfAPI",
+  "old" : "class org.tinspin.index.rtree.RTreeQuery1NN.IterPos<T>",
+  "new" : "class org.tinspin.index.rtree.RTreeQuery1NN.IterPos<T>",
+  "name" : "non-public class in API",
+  "description" : "Class 'org.tinspin.index.rtree.RTreeQuery1NN.IterPos<T>' is indirectly included in the API (by the means of method return type for example) but the class is not accessible (neither public nor protected).",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SEMANTIC",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "classSimpleName",
+    "value" : "IterPos"
+  }, {
+    "name" : "exampleUseChainInNewApi",
+    "value" : "org.tinspin.index.rtree.RTreeQuery1NN.IterPos<T> is used as parameter in method void org.tinspin.index.rtree.RTreeQuery1NN<T>::sortEntries(org.tinspin.index.rtree.RTreeQuery1NN.IterPos<T>, double) (method void org.tinspin.index.rtree.RTreeQuery1NN<T>::sortEntries(org.tinspin.index.rtree.RTreeQuery1NN.IterPos<T>, double) is part of the API)"
+  }, {
+    "name" : "package",
+    "value" : "org.tinspin.index.rtree"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.tinspin.index.rtree.RTreeQuery1NN.IterPos"
+  }, {
+    "name" : "exampleUseChainInOldApi",
+    "value" : "org.tinspin.index.rtree.RTreeQuery1NN.IterPos<T> is used as parameter in method void org.tinspin.index.rtree.RTreeQuery1NN<T>::sortEntries(org.tinspin.index.rtree.RTreeQuery1NN.IterPos<T>, double) (method void org.tinspin.index.rtree.RTreeQuery1NN<T>::sortEntries(org.tinspin.index.rtree.RTreeQuery1NN.IterPos<T>, double) is part of the API)"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "tinspin-indexes-1.7.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "tinspin-indexes-1.8.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class org.tinspin.index.rtree.RTreeQueryKnnOld<T>",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.tinspin.index.rtree"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.tinspin.index.rtree.RTreeQueryKnnOld"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "RTreeQueryKnnOld"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "tinspin-indexes-1.7.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+} ]

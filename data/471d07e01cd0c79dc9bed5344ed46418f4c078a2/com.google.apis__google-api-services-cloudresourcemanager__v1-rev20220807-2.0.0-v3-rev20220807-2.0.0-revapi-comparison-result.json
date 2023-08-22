@@ -1,0 +1,4761 @@
+[ {
+  "code" : "java.class.removed",
+  "old" : "class com.google.api.services.cloudresourcemanager.CloudResourceManager",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.google.api.services.cloudresourcemanager"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.google.api.services.cloudresourcemanager.CloudResourceManager"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "CloudResourceManager"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "google-api-services-cloudresourcemanager-v1-rev20220807-2.0.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class com.google.api.services.cloudresourcemanager.CloudResourceManagerRequest<T>",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.google.api.services.cloudresourcemanager"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.google.api.services.cloudresourcemanager.CloudResourceManagerRequest"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "CloudResourceManagerRequest"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "google-api-services-cloudresourcemanager-v1-rev20220807-2.0.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class com.google.api.services.cloudresourcemanager.CloudResourceManagerRequestInitializer",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.google.api.services.cloudresourcemanager"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.google.api.services.cloudresourcemanager.CloudResourceManagerRequestInitializer"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "CloudResourceManagerRequestInitializer"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "google-api-services-cloudresourcemanager-v1-rev20220807-2.0.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class com.google.api.services.cloudresourcemanager.CloudResourceManagerScopes",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.google.api.services.cloudresourcemanager"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.google.api.services.cloudresourcemanager.CloudResourceManagerScopes"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "CloudResourceManagerScopes"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "google-api-services-cloudresourcemanager-v1-rev20220807-2.0.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class com.google.api.services.cloudresourcemanager.model.Ancestor",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.google.api.services.cloudresourcemanager.model"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.google.api.services.cloudresourcemanager.model.Ancestor"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "Ancestor"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "google-api-services-cloudresourcemanager-v1-rev20220807-2.0.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class com.google.api.services.cloudresourcemanager.model.AuditConfig",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.google.api.services.cloudresourcemanager.model"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.google.api.services.cloudresourcemanager.model.AuditConfig"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "AuditConfig"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "google-api-services-cloudresourcemanager-v1-rev20220807-2.0.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class com.google.api.services.cloudresourcemanager.model.AuditLogConfig",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.google.api.services.cloudresourcemanager.model"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.google.api.services.cloudresourcemanager.model.AuditLogConfig"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "AuditLogConfig"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "google-api-services-cloudresourcemanager-v1-rev20220807-2.0.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class com.google.api.services.cloudresourcemanager.model.Binding",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.google.api.services.cloudresourcemanager.model"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.google.api.services.cloudresourcemanager.model.Binding"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "Binding"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "google-api-services-cloudresourcemanager-v1-rev20220807-2.0.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class com.google.api.services.cloudresourcemanager.model.BooleanConstraint",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.google.api.services.cloudresourcemanager.model"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.google.api.services.cloudresourcemanager.model.BooleanConstraint"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "BooleanConstraint"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "google-api-services-cloudresourcemanager-v1-rev20220807-2.0.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class com.google.api.services.cloudresourcemanager.model.BooleanPolicy",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.google.api.services.cloudresourcemanager.model"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.google.api.services.cloudresourcemanager.model.BooleanPolicy"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "BooleanPolicy"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "google-api-services-cloudresourcemanager-v1-rev20220807-2.0.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class com.google.api.services.cloudresourcemanager.model.ClearOrgPolicyRequest",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.google.api.services.cloudresourcemanager.model"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.google.api.services.cloudresourcemanager.model.ClearOrgPolicyRequest"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "ClearOrgPolicyRequest"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "google-api-services-cloudresourcemanager-v1-rev20220807-2.0.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class com.google.api.services.cloudresourcemanager.model.CloudresourcemanagerGoogleCloudResourcemanagerV2alpha1FolderOperation",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.google.api.services.cloudresourcemanager.model"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.google.api.services.cloudresourcemanager.model.CloudresourcemanagerGoogleCloudResourcemanagerV2alpha1FolderOperation"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "CloudresourcemanagerGoogleCloudResourcemanagerV2alpha1FolderOperation"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "google-api-services-cloudresourcemanager-v1-rev20220807-2.0.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class com.google.api.services.cloudresourcemanager.model.CloudresourcemanagerGoogleCloudResourcemanagerV2beta1FolderOperation",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.google.api.services.cloudresourcemanager.model"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.google.api.services.cloudresourcemanager.model.CloudresourcemanagerGoogleCloudResourcemanagerV2beta1FolderOperation"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "CloudresourcemanagerGoogleCloudResourcemanagerV2beta1FolderOperation"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "google-api-services-cloudresourcemanager-v1-rev20220807-2.0.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class com.google.api.services.cloudresourcemanager.model.Constraint",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.google.api.services.cloudresourcemanager.model"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.google.api.services.cloudresourcemanager.model.Constraint"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "Constraint"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "google-api-services-cloudresourcemanager-v1-rev20220807-2.0.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class com.google.api.services.cloudresourcemanager.model.CreateFolderMetadata",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.google.api.services.cloudresourcemanager.model"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.google.api.services.cloudresourcemanager.model.CreateFolderMetadata"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "CreateFolderMetadata"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "google-api-services-cloudresourcemanager-v1-rev20220807-2.0.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class com.google.api.services.cloudresourcemanager.model.CreateProjectMetadata",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.google.api.services.cloudresourcemanager.model"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.google.api.services.cloudresourcemanager.model.CreateProjectMetadata"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "CreateProjectMetadata"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "google-api-services-cloudresourcemanager-v1-rev20220807-2.0.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class com.google.api.services.cloudresourcemanager.model.CreateTagBindingMetadata",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.google.api.services.cloudresourcemanager.model"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.google.api.services.cloudresourcemanager.model.CreateTagBindingMetadata"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "CreateTagBindingMetadata"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "google-api-services-cloudresourcemanager-v1-rev20220807-2.0.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class com.google.api.services.cloudresourcemanager.model.CreateTagKeyMetadata",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.google.api.services.cloudresourcemanager.model"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.google.api.services.cloudresourcemanager.model.CreateTagKeyMetadata"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "CreateTagKeyMetadata"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "google-api-services-cloudresourcemanager-v1-rev20220807-2.0.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class com.google.api.services.cloudresourcemanager.model.CreateTagValueMetadata",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.google.api.services.cloudresourcemanager.model"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.google.api.services.cloudresourcemanager.model.CreateTagValueMetadata"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "CreateTagValueMetadata"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "google-api-services-cloudresourcemanager-v1-rev20220807-2.0.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class com.google.api.services.cloudresourcemanager.model.DeleteFolderMetadata",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.google.api.services.cloudresourcemanager.model"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.google.api.services.cloudresourcemanager.model.DeleteFolderMetadata"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "DeleteFolderMetadata"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "google-api-services-cloudresourcemanager-v1-rev20220807-2.0.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class com.google.api.services.cloudresourcemanager.model.DeleteOrganizationMetadata",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.google.api.services.cloudresourcemanager.model"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.google.api.services.cloudresourcemanager.model.DeleteOrganizationMetadata"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "DeleteOrganizationMetadata"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "google-api-services-cloudresourcemanager-v1-rev20220807-2.0.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class com.google.api.services.cloudresourcemanager.model.DeleteProjectMetadata",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.google.api.services.cloudresourcemanager.model"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.google.api.services.cloudresourcemanager.model.DeleteProjectMetadata"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "DeleteProjectMetadata"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "google-api-services-cloudresourcemanager-v1-rev20220807-2.0.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class com.google.api.services.cloudresourcemanager.model.DeleteTagBindingMetadata",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.google.api.services.cloudresourcemanager.model"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.google.api.services.cloudresourcemanager.model.DeleteTagBindingMetadata"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "DeleteTagBindingMetadata"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "google-api-services-cloudresourcemanager-v1-rev20220807-2.0.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class com.google.api.services.cloudresourcemanager.model.DeleteTagKeyMetadata",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.google.api.services.cloudresourcemanager.model"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.google.api.services.cloudresourcemanager.model.DeleteTagKeyMetadata"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "DeleteTagKeyMetadata"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "google-api-services-cloudresourcemanager-v1-rev20220807-2.0.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class com.google.api.services.cloudresourcemanager.model.DeleteTagValueMetadata",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.google.api.services.cloudresourcemanager.model"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.google.api.services.cloudresourcemanager.model.DeleteTagValueMetadata"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "DeleteTagValueMetadata"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "google-api-services-cloudresourcemanager-v1-rev20220807-2.0.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class com.google.api.services.cloudresourcemanager.model.Empty",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.google.api.services.cloudresourcemanager.model"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.google.api.services.cloudresourcemanager.model.Empty"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "Empty"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "google-api-services-cloudresourcemanager-v1-rev20220807-2.0.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class com.google.api.services.cloudresourcemanager.model.Expr",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.google.api.services.cloudresourcemanager.model"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.google.api.services.cloudresourcemanager.model.Expr"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "Expr"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "google-api-services-cloudresourcemanager-v1-rev20220807-2.0.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class com.google.api.services.cloudresourcemanager.model.FolderOperation",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.google.api.services.cloudresourcemanager.model"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.google.api.services.cloudresourcemanager.model.FolderOperation"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "FolderOperation"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "google-api-services-cloudresourcemanager-v1-rev20220807-2.0.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class com.google.api.services.cloudresourcemanager.model.FolderOperationError",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.google.api.services.cloudresourcemanager.model"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.google.api.services.cloudresourcemanager.model.FolderOperationError"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "FolderOperationError"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "google-api-services-cloudresourcemanager-v1-rev20220807-2.0.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class com.google.api.services.cloudresourcemanager.model.GetAncestryRequest",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.google.api.services.cloudresourcemanager.model"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.google.api.services.cloudresourcemanager.model.GetAncestryRequest"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "GetAncestryRequest"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "google-api-services-cloudresourcemanager-v1-rev20220807-2.0.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class com.google.api.services.cloudresourcemanager.model.GetAncestryResponse",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.google.api.services.cloudresourcemanager.model"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.google.api.services.cloudresourcemanager.model.GetAncestryResponse"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "GetAncestryResponse"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "google-api-services-cloudresourcemanager-v1-rev20220807-2.0.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class com.google.api.services.cloudresourcemanager.model.GetEffectiveOrgPolicyRequest",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.google.api.services.cloudresourcemanager.model"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.google.api.services.cloudresourcemanager.model.GetEffectiveOrgPolicyRequest"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "GetEffectiveOrgPolicyRequest"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "google-api-services-cloudresourcemanager-v1-rev20220807-2.0.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class com.google.api.services.cloudresourcemanager.model.GetIamPolicyRequest",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.google.api.services.cloudresourcemanager.model"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.google.api.services.cloudresourcemanager.model.GetIamPolicyRequest"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "GetIamPolicyRequest"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "google-api-services-cloudresourcemanager-v1-rev20220807-2.0.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class com.google.api.services.cloudresourcemanager.model.GetOrgPolicyRequest",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.google.api.services.cloudresourcemanager.model"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.google.api.services.cloudresourcemanager.model.GetOrgPolicyRequest"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "GetOrgPolicyRequest"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "google-api-services-cloudresourcemanager-v1-rev20220807-2.0.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class com.google.api.services.cloudresourcemanager.model.GetPolicyOptions",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.google.api.services.cloudresourcemanager.model"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.google.api.services.cloudresourcemanager.model.GetPolicyOptions"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "GetPolicyOptions"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "google-api-services-cloudresourcemanager-v1-rev20220807-2.0.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class com.google.api.services.cloudresourcemanager.model.Lien",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.google.api.services.cloudresourcemanager.model"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.google.api.services.cloudresourcemanager.model.Lien"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "Lien"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "google-api-services-cloudresourcemanager-v1-rev20220807-2.0.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class com.google.api.services.cloudresourcemanager.model.ListAvailableOrgPolicyConstraintsRequest",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.google.api.services.cloudresourcemanager.model"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.google.api.services.cloudresourcemanager.model.ListAvailableOrgPolicyConstraintsRequest"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "ListAvailableOrgPolicyConstraintsRequest"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "google-api-services-cloudresourcemanager-v1-rev20220807-2.0.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class com.google.api.services.cloudresourcemanager.model.ListAvailableOrgPolicyConstraintsResponse",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.google.api.services.cloudresourcemanager.model"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.google.api.services.cloudresourcemanager.model.ListAvailableOrgPolicyConstraintsResponse"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "ListAvailableOrgPolicyConstraintsResponse"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "google-api-services-cloudresourcemanager-v1-rev20220807-2.0.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class com.google.api.services.cloudresourcemanager.model.ListConstraint",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.google.api.services.cloudresourcemanager.model"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.google.api.services.cloudresourcemanager.model.ListConstraint"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "ListConstraint"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "google-api-services-cloudresourcemanager-v1-rev20220807-2.0.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class com.google.api.services.cloudresourcemanager.model.ListLiensResponse",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.google.api.services.cloudresourcemanager.model"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.google.api.services.cloudresourcemanager.model.ListLiensResponse"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "ListLiensResponse"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "google-api-services-cloudresourcemanager-v1-rev20220807-2.0.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class com.google.api.services.cloudresourcemanager.model.ListOrgPoliciesRequest",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.google.api.services.cloudresourcemanager.model"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.google.api.services.cloudresourcemanager.model.ListOrgPoliciesRequest"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "ListOrgPoliciesRequest"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "google-api-services-cloudresourcemanager-v1-rev20220807-2.0.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class com.google.api.services.cloudresourcemanager.model.ListOrgPoliciesResponse",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.google.api.services.cloudresourcemanager.model"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.google.api.services.cloudresourcemanager.model.ListOrgPoliciesResponse"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "ListOrgPoliciesResponse"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "google-api-services-cloudresourcemanager-v1-rev20220807-2.0.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class com.google.api.services.cloudresourcemanager.model.ListPolicy",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.google.api.services.cloudresourcemanager.model"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.google.api.services.cloudresourcemanager.model.ListPolicy"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "ListPolicy"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "google-api-services-cloudresourcemanager-v1-rev20220807-2.0.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class com.google.api.services.cloudresourcemanager.model.ListProjectsResponse",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.google.api.services.cloudresourcemanager.model"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.google.api.services.cloudresourcemanager.model.ListProjectsResponse"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "ListProjectsResponse"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "google-api-services-cloudresourcemanager-v1-rev20220807-2.0.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class com.google.api.services.cloudresourcemanager.model.MoveFolderMetadata",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.google.api.services.cloudresourcemanager.model"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.google.api.services.cloudresourcemanager.model.MoveFolderMetadata"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "MoveFolderMetadata"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "google-api-services-cloudresourcemanager-v1-rev20220807-2.0.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class com.google.api.services.cloudresourcemanager.model.MoveProjectMetadata",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.google.api.services.cloudresourcemanager.model"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.google.api.services.cloudresourcemanager.model.MoveProjectMetadata"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "MoveProjectMetadata"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "google-api-services-cloudresourcemanager-v1-rev20220807-2.0.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class com.google.api.services.cloudresourcemanager.model.Operation",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.google.api.services.cloudresourcemanager.model"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.google.api.services.cloudresourcemanager.model.Operation"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "Operation"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "google-api-services-cloudresourcemanager-v1-rev20220807-2.0.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class com.google.api.services.cloudresourcemanager.model.OrgPolicy",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.google.api.services.cloudresourcemanager.model"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.google.api.services.cloudresourcemanager.model.OrgPolicy"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "OrgPolicy"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "google-api-services-cloudresourcemanager-v1-rev20220807-2.0.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class com.google.api.services.cloudresourcemanager.model.Organization",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.google.api.services.cloudresourcemanager.model"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.google.api.services.cloudresourcemanager.model.Organization"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "Organization"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "google-api-services-cloudresourcemanager-v1-rev20220807-2.0.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class com.google.api.services.cloudresourcemanager.model.OrganizationOwner",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.google.api.services.cloudresourcemanager.model"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.google.api.services.cloudresourcemanager.model.OrganizationOwner"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "OrganizationOwner"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "google-api-services-cloudresourcemanager-v1-rev20220807-2.0.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class com.google.api.services.cloudresourcemanager.model.Policy",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.google.api.services.cloudresourcemanager.model"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.google.api.services.cloudresourcemanager.model.Policy"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "Policy"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "google-api-services-cloudresourcemanager-v1-rev20220807-2.0.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class com.google.api.services.cloudresourcemanager.model.Project",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.google.api.services.cloudresourcemanager.model"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.google.api.services.cloudresourcemanager.model.Project"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "Project"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "google-api-services-cloudresourcemanager-v1-rev20220807-2.0.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class com.google.api.services.cloudresourcemanager.model.ProjectCreationStatus",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.google.api.services.cloudresourcemanager.model"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.google.api.services.cloudresourcemanager.model.ProjectCreationStatus"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "ProjectCreationStatus"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "google-api-services-cloudresourcemanager-v1-rev20220807-2.0.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class com.google.api.services.cloudresourcemanager.model.ResourceId",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.google.api.services.cloudresourcemanager.model"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.google.api.services.cloudresourcemanager.model.ResourceId"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "ResourceId"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "google-api-services-cloudresourcemanager-v1-rev20220807-2.0.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class com.google.api.services.cloudresourcemanager.model.RestoreDefault",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.google.api.services.cloudresourcemanager.model"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.google.api.services.cloudresourcemanager.model.RestoreDefault"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "RestoreDefault"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "google-api-services-cloudresourcemanager-v1-rev20220807-2.0.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class com.google.api.services.cloudresourcemanager.model.SearchOrganizationsRequest",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.google.api.services.cloudresourcemanager.model"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.google.api.services.cloudresourcemanager.model.SearchOrganizationsRequest"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "SearchOrganizationsRequest"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "google-api-services-cloudresourcemanager-v1-rev20220807-2.0.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class com.google.api.services.cloudresourcemanager.model.SearchOrganizationsResponse",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.google.api.services.cloudresourcemanager.model"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.google.api.services.cloudresourcemanager.model.SearchOrganizationsResponse"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "SearchOrganizationsResponse"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "google-api-services-cloudresourcemanager-v1-rev20220807-2.0.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class com.google.api.services.cloudresourcemanager.model.SetIamPolicyRequest",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.google.api.services.cloudresourcemanager.model"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.google.api.services.cloudresourcemanager.model.SetIamPolicyRequest"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "SetIamPolicyRequest"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "google-api-services-cloudresourcemanager-v1-rev20220807-2.0.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class com.google.api.services.cloudresourcemanager.model.SetOrgPolicyRequest",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.google.api.services.cloudresourcemanager.model"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.google.api.services.cloudresourcemanager.model.SetOrgPolicyRequest"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "SetOrgPolicyRequest"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "google-api-services-cloudresourcemanager-v1-rev20220807-2.0.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class com.google.api.services.cloudresourcemanager.model.Status",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.google.api.services.cloudresourcemanager.model"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.google.api.services.cloudresourcemanager.model.Status"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "Status"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "google-api-services-cloudresourcemanager-v1-rev20220807-2.0.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class com.google.api.services.cloudresourcemanager.model.TestIamPermissionsRequest",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.google.api.services.cloudresourcemanager.model"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.google.api.services.cloudresourcemanager.model.TestIamPermissionsRequest"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "TestIamPermissionsRequest"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "google-api-services-cloudresourcemanager-v1-rev20220807-2.0.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class com.google.api.services.cloudresourcemanager.model.TestIamPermissionsResponse",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.google.api.services.cloudresourcemanager.model"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.google.api.services.cloudresourcemanager.model.TestIamPermissionsResponse"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "TestIamPermissionsResponse"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "google-api-services-cloudresourcemanager-v1-rev20220807-2.0.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class com.google.api.services.cloudresourcemanager.model.UndeleteFolderMetadata",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.google.api.services.cloudresourcemanager.model"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.google.api.services.cloudresourcemanager.model.UndeleteFolderMetadata"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "UndeleteFolderMetadata"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "google-api-services-cloudresourcemanager-v1-rev20220807-2.0.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class com.google.api.services.cloudresourcemanager.model.UndeleteOrganizationMetadata",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.google.api.services.cloudresourcemanager.model"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.google.api.services.cloudresourcemanager.model.UndeleteOrganizationMetadata"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "UndeleteOrganizationMetadata"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "google-api-services-cloudresourcemanager-v1-rev20220807-2.0.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class com.google.api.services.cloudresourcemanager.model.UndeleteProjectMetadata",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.google.api.services.cloudresourcemanager.model"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.google.api.services.cloudresourcemanager.model.UndeleteProjectMetadata"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "UndeleteProjectMetadata"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "google-api-services-cloudresourcemanager-v1-rev20220807-2.0.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class com.google.api.services.cloudresourcemanager.model.UndeleteProjectRequest",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.google.api.services.cloudresourcemanager.model"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.google.api.services.cloudresourcemanager.model.UndeleteProjectRequest"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "UndeleteProjectRequest"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "google-api-services-cloudresourcemanager-v1-rev20220807-2.0.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class com.google.api.services.cloudresourcemanager.model.UpdateFolderMetadata",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.google.api.services.cloudresourcemanager.model"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.google.api.services.cloudresourcemanager.model.UpdateFolderMetadata"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "UpdateFolderMetadata"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "google-api-services-cloudresourcemanager-v1-rev20220807-2.0.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class com.google.api.services.cloudresourcemanager.model.UpdateProjectMetadata",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.google.api.services.cloudresourcemanager.model"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.google.api.services.cloudresourcemanager.model.UpdateProjectMetadata"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "UpdateProjectMetadata"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "google-api-services-cloudresourcemanager-v1-rev20220807-2.0.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class com.google.api.services.cloudresourcemanager.model.UpdateTagKeyMetadata",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.google.api.services.cloudresourcemanager.model"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.google.api.services.cloudresourcemanager.model.UpdateTagKeyMetadata"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "UpdateTagKeyMetadata"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "google-api-services-cloudresourcemanager-v1-rev20220807-2.0.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class com.google.api.services.cloudresourcemanager.model.UpdateTagValueMetadata",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.google.api.services.cloudresourcemanager.model"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.google.api.services.cloudresourcemanager.model.UpdateTagValueMetadata"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "UpdateTagValueMetadata"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "google-api-services-cloudresourcemanager-v1-rev20220807-2.0.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+} ][ {
+  "code" : "java.class.removed",
+  "old" : "class com.google.api.services.cloudresourcemanager.CloudResourceManager",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.google.api.services.cloudresourcemanager"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.google.api.services.cloudresourcemanager.CloudResourceManager"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "CloudResourceManager"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "google-api-services-cloudresourcemanager-v1-rev20220807-2.0.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class com.google.api.services.cloudresourcemanager.CloudResourceManagerRequest<T>",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.google.api.services.cloudresourcemanager"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.google.api.services.cloudresourcemanager.CloudResourceManagerRequest"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "CloudResourceManagerRequest"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "google-api-services-cloudresourcemanager-v1-rev20220807-2.0.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class com.google.api.services.cloudresourcemanager.CloudResourceManagerRequestInitializer",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.google.api.services.cloudresourcemanager"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.google.api.services.cloudresourcemanager.CloudResourceManagerRequestInitializer"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "CloudResourceManagerRequestInitializer"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "google-api-services-cloudresourcemanager-v1-rev20220807-2.0.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class com.google.api.services.cloudresourcemanager.CloudResourceManagerScopes",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.google.api.services.cloudresourcemanager"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.google.api.services.cloudresourcemanager.CloudResourceManagerScopes"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "CloudResourceManagerScopes"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "google-api-services-cloudresourcemanager-v1-rev20220807-2.0.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class com.google.api.services.cloudresourcemanager.model.Ancestor",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.google.api.services.cloudresourcemanager.model"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.google.api.services.cloudresourcemanager.model.Ancestor"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "Ancestor"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "google-api-services-cloudresourcemanager-v1-rev20220807-2.0.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class com.google.api.services.cloudresourcemanager.model.AuditConfig",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.google.api.services.cloudresourcemanager.model"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.google.api.services.cloudresourcemanager.model.AuditConfig"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "AuditConfig"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "google-api-services-cloudresourcemanager-v1-rev20220807-2.0.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class com.google.api.services.cloudresourcemanager.model.AuditLogConfig",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.google.api.services.cloudresourcemanager.model"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.google.api.services.cloudresourcemanager.model.AuditLogConfig"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "AuditLogConfig"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "google-api-services-cloudresourcemanager-v1-rev20220807-2.0.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class com.google.api.services.cloudresourcemanager.model.Binding",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.google.api.services.cloudresourcemanager.model"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.google.api.services.cloudresourcemanager.model.Binding"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "Binding"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "google-api-services-cloudresourcemanager-v1-rev20220807-2.0.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class com.google.api.services.cloudresourcemanager.model.BooleanConstraint",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.google.api.services.cloudresourcemanager.model"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.google.api.services.cloudresourcemanager.model.BooleanConstraint"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "BooleanConstraint"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "google-api-services-cloudresourcemanager-v1-rev20220807-2.0.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class com.google.api.services.cloudresourcemanager.model.BooleanPolicy",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.google.api.services.cloudresourcemanager.model"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.google.api.services.cloudresourcemanager.model.BooleanPolicy"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "BooleanPolicy"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "google-api-services-cloudresourcemanager-v1-rev20220807-2.0.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class com.google.api.services.cloudresourcemanager.model.ClearOrgPolicyRequest",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.google.api.services.cloudresourcemanager.model"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.google.api.services.cloudresourcemanager.model.ClearOrgPolicyRequest"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "ClearOrgPolicyRequest"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "google-api-services-cloudresourcemanager-v1-rev20220807-2.0.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class com.google.api.services.cloudresourcemanager.model.CloudresourcemanagerGoogleCloudResourcemanagerV2alpha1FolderOperation",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.google.api.services.cloudresourcemanager.model"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.google.api.services.cloudresourcemanager.model.CloudresourcemanagerGoogleCloudResourcemanagerV2alpha1FolderOperation"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "CloudresourcemanagerGoogleCloudResourcemanagerV2alpha1FolderOperation"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "google-api-services-cloudresourcemanager-v1-rev20220807-2.0.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class com.google.api.services.cloudresourcemanager.model.CloudresourcemanagerGoogleCloudResourcemanagerV2beta1FolderOperation",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.google.api.services.cloudresourcemanager.model"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.google.api.services.cloudresourcemanager.model.CloudresourcemanagerGoogleCloudResourcemanagerV2beta1FolderOperation"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "CloudresourcemanagerGoogleCloudResourcemanagerV2beta1FolderOperation"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "google-api-services-cloudresourcemanager-v1-rev20220807-2.0.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class com.google.api.services.cloudresourcemanager.model.Constraint",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.google.api.services.cloudresourcemanager.model"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.google.api.services.cloudresourcemanager.model.Constraint"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "Constraint"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "google-api-services-cloudresourcemanager-v1-rev20220807-2.0.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class com.google.api.services.cloudresourcemanager.model.CreateFolderMetadata",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.google.api.services.cloudresourcemanager.model"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.google.api.services.cloudresourcemanager.model.CreateFolderMetadata"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "CreateFolderMetadata"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "google-api-services-cloudresourcemanager-v1-rev20220807-2.0.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class com.google.api.services.cloudresourcemanager.model.CreateProjectMetadata",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.google.api.services.cloudresourcemanager.model"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.google.api.services.cloudresourcemanager.model.CreateProjectMetadata"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "CreateProjectMetadata"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "google-api-services-cloudresourcemanager-v1-rev20220807-2.0.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class com.google.api.services.cloudresourcemanager.model.CreateTagBindingMetadata",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.google.api.services.cloudresourcemanager.model"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.google.api.services.cloudresourcemanager.model.CreateTagBindingMetadata"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "CreateTagBindingMetadata"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "google-api-services-cloudresourcemanager-v1-rev20220807-2.0.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class com.google.api.services.cloudresourcemanager.model.CreateTagKeyMetadata",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.google.api.services.cloudresourcemanager.model"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.google.api.services.cloudresourcemanager.model.CreateTagKeyMetadata"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "CreateTagKeyMetadata"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "google-api-services-cloudresourcemanager-v1-rev20220807-2.0.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class com.google.api.services.cloudresourcemanager.model.CreateTagValueMetadata",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.google.api.services.cloudresourcemanager.model"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.google.api.services.cloudresourcemanager.model.CreateTagValueMetadata"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "CreateTagValueMetadata"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "google-api-services-cloudresourcemanager-v1-rev20220807-2.0.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class com.google.api.services.cloudresourcemanager.model.DeleteFolderMetadata",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.google.api.services.cloudresourcemanager.model"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.google.api.services.cloudresourcemanager.model.DeleteFolderMetadata"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "DeleteFolderMetadata"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "google-api-services-cloudresourcemanager-v1-rev20220807-2.0.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class com.google.api.services.cloudresourcemanager.model.DeleteOrganizationMetadata",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.google.api.services.cloudresourcemanager.model"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.google.api.services.cloudresourcemanager.model.DeleteOrganizationMetadata"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "DeleteOrganizationMetadata"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "google-api-services-cloudresourcemanager-v1-rev20220807-2.0.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class com.google.api.services.cloudresourcemanager.model.DeleteProjectMetadata",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.google.api.services.cloudresourcemanager.model"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.google.api.services.cloudresourcemanager.model.DeleteProjectMetadata"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "DeleteProjectMetadata"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "google-api-services-cloudresourcemanager-v1-rev20220807-2.0.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class com.google.api.services.cloudresourcemanager.model.DeleteTagBindingMetadata",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.google.api.services.cloudresourcemanager.model"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.google.api.services.cloudresourcemanager.model.DeleteTagBindingMetadata"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "DeleteTagBindingMetadata"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "google-api-services-cloudresourcemanager-v1-rev20220807-2.0.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class com.google.api.services.cloudresourcemanager.model.DeleteTagKeyMetadata",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.google.api.services.cloudresourcemanager.model"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.google.api.services.cloudresourcemanager.model.DeleteTagKeyMetadata"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "DeleteTagKeyMetadata"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "google-api-services-cloudresourcemanager-v1-rev20220807-2.0.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class com.google.api.services.cloudresourcemanager.model.DeleteTagValueMetadata",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.google.api.services.cloudresourcemanager.model"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.google.api.services.cloudresourcemanager.model.DeleteTagValueMetadata"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "DeleteTagValueMetadata"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "google-api-services-cloudresourcemanager-v1-rev20220807-2.0.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class com.google.api.services.cloudresourcemanager.model.Empty",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.google.api.services.cloudresourcemanager.model"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.google.api.services.cloudresourcemanager.model.Empty"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "Empty"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "google-api-services-cloudresourcemanager-v1-rev20220807-2.0.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class com.google.api.services.cloudresourcemanager.model.Expr",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.google.api.services.cloudresourcemanager.model"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.google.api.services.cloudresourcemanager.model.Expr"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "Expr"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "google-api-services-cloudresourcemanager-v1-rev20220807-2.0.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class com.google.api.services.cloudresourcemanager.model.FolderOperation",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.google.api.services.cloudresourcemanager.model"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.google.api.services.cloudresourcemanager.model.FolderOperation"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "FolderOperation"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "google-api-services-cloudresourcemanager-v1-rev20220807-2.0.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class com.google.api.services.cloudresourcemanager.model.FolderOperationError",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.google.api.services.cloudresourcemanager.model"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.google.api.services.cloudresourcemanager.model.FolderOperationError"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "FolderOperationError"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "google-api-services-cloudresourcemanager-v1-rev20220807-2.0.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class com.google.api.services.cloudresourcemanager.model.GetAncestryRequest",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.google.api.services.cloudresourcemanager.model"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.google.api.services.cloudresourcemanager.model.GetAncestryRequest"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "GetAncestryRequest"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "google-api-services-cloudresourcemanager-v1-rev20220807-2.0.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class com.google.api.services.cloudresourcemanager.model.GetAncestryResponse",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.google.api.services.cloudresourcemanager.model"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.google.api.services.cloudresourcemanager.model.GetAncestryResponse"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "GetAncestryResponse"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "google-api-services-cloudresourcemanager-v1-rev20220807-2.0.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class com.google.api.services.cloudresourcemanager.model.GetEffectiveOrgPolicyRequest",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.google.api.services.cloudresourcemanager.model"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.google.api.services.cloudresourcemanager.model.GetEffectiveOrgPolicyRequest"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "GetEffectiveOrgPolicyRequest"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "google-api-services-cloudresourcemanager-v1-rev20220807-2.0.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class com.google.api.services.cloudresourcemanager.model.GetIamPolicyRequest",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.google.api.services.cloudresourcemanager.model"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.google.api.services.cloudresourcemanager.model.GetIamPolicyRequest"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "GetIamPolicyRequest"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "google-api-services-cloudresourcemanager-v1-rev20220807-2.0.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class com.google.api.services.cloudresourcemanager.model.GetOrgPolicyRequest",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.google.api.services.cloudresourcemanager.model"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.google.api.services.cloudresourcemanager.model.GetOrgPolicyRequest"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "GetOrgPolicyRequest"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "google-api-services-cloudresourcemanager-v1-rev20220807-2.0.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class com.google.api.services.cloudresourcemanager.model.GetPolicyOptions",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.google.api.services.cloudresourcemanager.model"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.google.api.services.cloudresourcemanager.model.GetPolicyOptions"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "GetPolicyOptions"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "google-api-services-cloudresourcemanager-v1-rev20220807-2.0.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class com.google.api.services.cloudresourcemanager.model.Lien",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.google.api.services.cloudresourcemanager.model"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.google.api.services.cloudresourcemanager.model.Lien"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "Lien"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "google-api-services-cloudresourcemanager-v1-rev20220807-2.0.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class com.google.api.services.cloudresourcemanager.model.ListAvailableOrgPolicyConstraintsRequest",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.google.api.services.cloudresourcemanager.model"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.google.api.services.cloudresourcemanager.model.ListAvailableOrgPolicyConstraintsRequest"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "ListAvailableOrgPolicyConstraintsRequest"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "google-api-services-cloudresourcemanager-v1-rev20220807-2.0.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class com.google.api.services.cloudresourcemanager.model.ListAvailableOrgPolicyConstraintsResponse",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.google.api.services.cloudresourcemanager.model"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.google.api.services.cloudresourcemanager.model.ListAvailableOrgPolicyConstraintsResponse"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "ListAvailableOrgPolicyConstraintsResponse"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "google-api-services-cloudresourcemanager-v1-rev20220807-2.0.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class com.google.api.services.cloudresourcemanager.model.ListConstraint",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.google.api.services.cloudresourcemanager.model"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.google.api.services.cloudresourcemanager.model.ListConstraint"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "ListConstraint"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "google-api-services-cloudresourcemanager-v1-rev20220807-2.0.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class com.google.api.services.cloudresourcemanager.model.ListLiensResponse",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.google.api.services.cloudresourcemanager.model"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.google.api.services.cloudresourcemanager.model.ListLiensResponse"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "ListLiensResponse"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "google-api-services-cloudresourcemanager-v1-rev20220807-2.0.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class com.google.api.services.cloudresourcemanager.model.ListOrgPoliciesRequest",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.google.api.services.cloudresourcemanager.model"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.google.api.services.cloudresourcemanager.model.ListOrgPoliciesRequest"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "ListOrgPoliciesRequest"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "google-api-services-cloudresourcemanager-v1-rev20220807-2.0.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class com.google.api.services.cloudresourcemanager.model.ListOrgPoliciesResponse",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.google.api.services.cloudresourcemanager.model"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.google.api.services.cloudresourcemanager.model.ListOrgPoliciesResponse"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "ListOrgPoliciesResponse"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "google-api-services-cloudresourcemanager-v1-rev20220807-2.0.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class com.google.api.services.cloudresourcemanager.model.ListPolicy",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.google.api.services.cloudresourcemanager.model"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.google.api.services.cloudresourcemanager.model.ListPolicy"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "ListPolicy"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "google-api-services-cloudresourcemanager-v1-rev20220807-2.0.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class com.google.api.services.cloudresourcemanager.model.ListProjectsResponse",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.google.api.services.cloudresourcemanager.model"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.google.api.services.cloudresourcemanager.model.ListProjectsResponse"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "ListProjectsResponse"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "google-api-services-cloudresourcemanager-v1-rev20220807-2.0.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class com.google.api.services.cloudresourcemanager.model.MoveFolderMetadata",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.google.api.services.cloudresourcemanager.model"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.google.api.services.cloudresourcemanager.model.MoveFolderMetadata"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "MoveFolderMetadata"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "google-api-services-cloudresourcemanager-v1-rev20220807-2.0.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class com.google.api.services.cloudresourcemanager.model.MoveProjectMetadata",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.google.api.services.cloudresourcemanager.model"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.google.api.services.cloudresourcemanager.model.MoveProjectMetadata"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "MoveProjectMetadata"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "google-api-services-cloudresourcemanager-v1-rev20220807-2.0.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class com.google.api.services.cloudresourcemanager.model.Operation",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.google.api.services.cloudresourcemanager.model"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.google.api.services.cloudresourcemanager.model.Operation"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "Operation"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "google-api-services-cloudresourcemanager-v1-rev20220807-2.0.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class com.google.api.services.cloudresourcemanager.model.OrgPolicy",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.google.api.services.cloudresourcemanager.model"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.google.api.services.cloudresourcemanager.model.OrgPolicy"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "OrgPolicy"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "google-api-services-cloudresourcemanager-v1-rev20220807-2.0.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class com.google.api.services.cloudresourcemanager.model.Organization",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.google.api.services.cloudresourcemanager.model"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.google.api.services.cloudresourcemanager.model.Organization"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "Organization"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "google-api-services-cloudresourcemanager-v1-rev20220807-2.0.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class com.google.api.services.cloudresourcemanager.model.OrganizationOwner",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.google.api.services.cloudresourcemanager.model"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.google.api.services.cloudresourcemanager.model.OrganizationOwner"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "OrganizationOwner"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "google-api-services-cloudresourcemanager-v1-rev20220807-2.0.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class com.google.api.services.cloudresourcemanager.model.Policy",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.google.api.services.cloudresourcemanager.model"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.google.api.services.cloudresourcemanager.model.Policy"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "Policy"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "google-api-services-cloudresourcemanager-v1-rev20220807-2.0.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class com.google.api.services.cloudresourcemanager.model.Project",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.google.api.services.cloudresourcemanager.model"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.google.api.services.cloudresourcemanager.model.Project"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "Project"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "google-api-services-cloudresourcemanager-v1-rev20220807-2.0.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class com.google.api.services.cloudresourcemanager.model.ProjectCreationStatus",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.google.api.services.cloudresourcemanager.model"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.google.api.services.cloudresourcemanager.model.ProjectCreationStatus"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "ProjectCreationStatus"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "google-api-services-cloudresourcemanager-v1-rev20220807-2.0.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class com.google.api.services.cloudresourcemanager.model.ResourceId",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.google.api.services.cloudresourcemanager.model"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.google.api.services.cloudresourcemanager.model.ResourceId"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "ResourceId"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "google-api-services-cloudresourcemanager-v1-rev20220807-2.0.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class com.google.api.services.cloudresourcemanager.model.RestoreDefault",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.google.api.services.cloudresourcemanager.model"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.google.api.services.cloudresourcemanager.model.RestoreDefault"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "RestoreDefault"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "google-api-services-cloudresourcemanager-v1-rev20220807-2.0.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class com.google.api.services.cloudresourcemanager.model.SearchOrganizationsRequest",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.google.api.services.cloudresourcemanager.model"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.google.api.services.cloudresourcemanager.model.SearchOrganizationsRequest"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "SearchOrganizationsRequest"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "google-api-services-cloudresourcemanager-v1-rev20220807-2.0.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class com.google.api.services.cloudresourcemanager.model.SearchOrganizationsResponse",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.google.api.services.cloudresourcemanager.model"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.google.api.services.cloudresourcemanager.model.SearchOrganizationsResponse"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "SearchOrganizationsResponse"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "google-api-services-cloudresourcemanager-v1-rev20220807-2.0.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class com.google.api.services.cloudresourcemanager.model.SetIamPolicyRequest",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.google.api.services.cloudresourcemanager.model"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.google.api.services.cloudresourcemanager.model.SetIamPolicyRequest"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "SetIamPolicyRequest"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "google-api-services-cloudresourcemanager-v1-rev20220807-2.0.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class com.google.api.services.cloudresourcemanager.model.SetOrgPolicyRequest",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.google.api.services.cloudresourcemanager.model"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.google.api.services.cloudresourcemanager.model.SetOrgPolicyRequest"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "SetOrgPolicyRequest"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "google-api-services-cloudresourcemanager-v1-rev20220807-2.0.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class com.google.api.services.cloudresourcemanager.model.Status",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.google.api.services.cloudresourcemanager.model"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.google.api.services.cloudresourcemanager.model.Status"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "Status"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "google-api-services-cloudresourcemanager-v1-rev20220807-2.0.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class com.google.api.services.cloudresourcemanager.model.TestIamPermissionsRequest",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.google.api.services.cloudresourcemanager.model"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.google.api.services.cloudresourcemanager.model.TestIamPermissionsRequest"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "TestIamPermissionsRequest"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "google-api-services-cloudresourcemanager-v1-rev20220807-2.0.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class com.google.api.services.cloudresourcemanager.model.TestIamPermissionsResponse",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.google.api.services.cloudresourcemanager.model"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.google.api.services.cloudresourcemanager.model.TestIamPermissionsResponse"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "TestIamPermissionsResponse"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "google-api-services-cloudresourcemanager-v1-rev20220807-2.0.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class com.google.api.services.cloudresourcemanager.model.UndeleteFolderMetadata",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.google.api.services.cloudresourcemanager.model"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.google.api.services.cloudresourcemanager.model.UndeleteFolderMetadata"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "UndeleteFolderMetadata"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "google-api-services-cloudresourcemanager-v1-rev20220807-2.0.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class com.google.api.services.cloudresourcemanager.model.UndeleteOrganizationMetadata",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.google.api.services.cloudresourcemanager.model"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.google.api.services.cloudresourcemanager.model.UndeleteOrganizationMetadata"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "UndeleteOrganizationMetadata"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "google-api-services-cloudresourcemanager-v1-rev20220807-2.0.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class com.google.api.services.cloudresourcemanager.model.UndeleteProjectMetadata",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.google.api.services.cloudresourcemanager.model"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.google.api.services.cloudresourcemanager.model.UndeleteProjectMetadata"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "UndeleteProjectMetadata"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "google-api-services-cloudresourcemanager-v1-rev20220807-2.0.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class com.google.api.services.cloudresourcemanager.model.UndeleteProjectRequest",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.google.api.services.cloudresourcemanager.model"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.google.api.services.cloudresourcemanager.model.UndeleteProjectRequest"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "UndeleteProjectRequest"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "google-api-services-cloudresourcemanager-v1-rev20220807-2.0.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class com.google.api.services.cloudresourcemanager.model.UpdateFolderMetadata",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.google.api.services.cloudresourcemanager.model"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.google.api.services.cloudresourcemanager.model.UpdateFolderMetadata"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "UpdateFolderMetadata"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "google-api-services-cloudresourcemanager-v1-rev20220807-2.0.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class com.google.api.services.cloudresourcemanager.model.UpdateProjectMetadata",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.google.api.services.cloudresourcemanager.model"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.google.api.services.cloudresourcemanager.model.UpdateProjectMetadata"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "UpdateProjectMetadata"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "google-api-services-cloudresourcemanager-v1-rev20220807-2.0.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class com.google.api.services.cloudresourcemanager.model.UpdateTagKeyMetadata",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.google.api.services.cloudresourcemanager.model"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.google.api.services.cloudresourcemanager.model.UpdateTagKeyMetadata"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "UpdateTagKeyMetadata"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "google-api-services-cloudresourcemanager-v1-rev20220807-2.0.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class com.google.api.services.cloudresourcemanager.model.UpdateTagValueMetadata",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.google.api.services.cloudresourcemanager.model"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.google.api.services.cloudresourcemanager.model.UpdateTagValueMetadata"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "UpdateTagValueMetadata"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "google-api-services-cloudresourcemanager-v1-rev20220807-2.0.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+} ]

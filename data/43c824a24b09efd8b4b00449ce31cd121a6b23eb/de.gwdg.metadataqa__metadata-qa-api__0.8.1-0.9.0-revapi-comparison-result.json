@@ -1,0 +1,4933 @@
+[ {
+  "code" : "java.class.defaultSerializationChanged",
+  "old" : "class de.gwdg.metadataqa.api.calculator.CompletenessCalculator<T extends de.gwdg.metadataqa.api.model.XmlFieldInstance>",
+  "new" : "class de.gwdg.metadataqa.api.calculator.CompletenessCalculator<T extends de.gwdg.metadataqa.api.model.XmlFieldInstance>",
+  "name" : "default serialization changed",
+  "description" : "The default serialization ID for the class has changed. This means that the new version of the class is not deserializable from the byte stream of a serialized old class.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "EQUIVALENT"
+  }, {
+    "compatibility" : "SEMANTIC",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "EQUIVALENT"
+  } ],
+  "attachments" : [ {
+    "name" : "oldSerialVersionUID",
+    "value" : "5085274360659901687"
+  }, {
+    "name" : "newSerialVersionUID",
+    "value" : "3230655023810813055"
+  }, {
+    "name" : "package",
+    "value" : "de.gwdg.metadataqa.api.calculator"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "de.gwdg.metadataqa.api.calculator.CompletenessCalculator"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "CompletenessCalculator"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "metadata-qa-api-0.8.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "metadata-qa-api-0.9.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method void de.gwdg.metadataqa.api.calculator.CompletenessCalculator<T extends de.gwdg.metadataqa.api.model.XmlFieldInstance>::evaluateJsonBranch(de.gwdg.metadataqa.api.json.JsonBranch, de.gwdg.metadataqa.api.model.pathcache.PathCache, de.gwdg.metadataqa.api.counter.CompletenessCounter, java.lang.String, java.lang.Object)",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "de.gwdg.metadataqa.api.calculator"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "de.gwdg.metadataqa.api.calculator.CompletenessCalculator"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "CompletenessCalculator"
+  }, {
+    "name" : "methodName",
+    "value" : "evaluateJsonBranch"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "metadata-qa-api-0.8.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.parameterTypeChanged",
+  "old" : "parameter void de.gwdg.metadataqa.api.calculator.CompletenessCalculator<T extends de.gwdg.metadataqa.api.model.XmlFieldInstance>::handleEmptyFragment(===de.gwdg.metadataqa.api.json.JsonBranch===)",
+  "new" : "parameter void de.gwdg.metadataqa.api.calculator.CompletenessCalculator<T extends de.gwdg.metadataqa.api.model.XmlFieldInstance>::handleEmptyFragment(===de.gwdg.metadataqa.api.json.DataElement===)",
+  "name" : "parameter type changed",
+  "description" : "The type of the parameter changed from 'de.gwdg.metadataqa.api.json.JsonBranch' to 'de.gwdg.metadataqa.api.json.DataElement'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "POTENTIALLY_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "de.gwdg.metadataqa.api.json.JsonBranch"
+  }, {
+    "name" : "newType",
+    "value" : "de.gwdg.metadataqa.api.json.DataElement"
+  }, {
+    "name" : "package",
+    "value" : "de.gwdg.metadataqa.api.calculator"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "de.gwdg.metadataqa.api.calculator.CompletenessCalculator"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "CompletenessCalculator"
+  }, {
+    "name" : "methodName",
+    "value" : "handleEmptyFragment"
+  }, {
+    "name" : "parameterIndex",
+    "value" : "0"
+  }, {
+    "name" : "elementKind",
+    "value" : "parameter"
+  }, {
+    "name" : "oldArchive",
+    "value" : "metadata-qa-api-0.8.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "metadata-qa-api-0.9.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.defaultSerializationChanged",
+  "old" : "class de.gwdg.metadataqa.api.calculator.FieldExtractor",
+  "new" : "class de.gwdg.metadataqa.api.calculator.FieldExtractor",
+  "name" : "default serialization changed",
+  "description" : "The default serialization ID for the class has changed. This means that the new version of the class is not deserializable from the byte stream of a serialized old class.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "EQUIVALENT"
+  }, {
+    "compatibility" : "SEMANTIC",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "EQUIVALENT"
+  } ],
+  "attachments" : [ {
+    "name" : "oldSerialVersionUID",
+    "value" : "709798667680736038"
+  }, {
+    "name" : "newSerialVersionUID",
+    "value" : "5534773980931550641"
+  }, {
+    "name" : "package",
+    "value" : "de.gwdg.metadataqa.api.calculator"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "de.gwdg.metadataqa.api.calculator.FieldExtractor"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "FieldExtractor"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "metadata-qa-api-0.8.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "metadata-qa-api-0.9.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method void de.gwdg.metadataqa.api.calculator.LanguageCalculator::<init>()",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "de.gwdg.metadataqa.api.calculator"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "de.gwdg.metadataqa.api.calculator.LanguageCalculator"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "LanguageCalculator"
+  }, {
+    "name" : "methodName",
+    "value" : "<init>"
+  }, {
+    "name" : "elementKind",
+    "value" : "constructor"
+  }, {
+    "name" : "oldArchive",
+    "value" : "metadata-qa-api-0.8.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.defaultSerializationChanged",
+  "old" : "class de.gwdg.metadataqa.api.calculator.TfIdfCalculator",
+  "new" : "class de.gwdg.metadataqa.api.calculator.TfIdfCalculator",
+  "name" : "default serialization changed",
+  "description" : "The default serialization ID for the class has changed. This means that the new version of the class is not deserializable from the byte stream of a serialized old class.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "EQUIVALENT"
+  }, {
+    "compatibility" : "SEMANTIC",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "EQUIVALENT"
+  } ],
+  "attachments" : [ {
+    "name" : "oldSerialVersionUID",
+    "value" : "230558702729639318"
+  }, {
+    "name" : "newSerialVersionUID",
+    "value" : "3192081465657952165"
+  }, {
+    "name" : "package",
+    "value" : "de.gwdg.metadataqa.api.calculator"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "de.gwdg.metadataqa.api.calculator.TfIdfCalculator"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "TfIdfCalculator"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "metadata-qa-api-0.8.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "metadata-qa-api-0.9.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class de.gwdg.metadataqa.api.calculator.output.CSVResultWriter",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "de.gwdg.metadataqa.api.calculator.output"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "de.gwdg.metadataqa.api.calculator.output.CSVResultWriter"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "CSVResultWriter"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "metadata-qa-api-0.8.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class de.gwdg.metadataqa.api.calculator.output.JSONResultWriter",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "de.gwdg.metadataqa.api.calculator.output"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "de.gwdg.metadataqa.api.calculator.output.JSONResultWriter"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "JSONResultWriter"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "metadata-qa-api-0.8.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class de.gwdg.metadataqa.api.calculator.output.ResultWriter",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "de.gwdg.metadataqa.api.calculator.output"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "de.gwdg.metadataqa.api.calculator.output.ResultWriter"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "ResultWriter"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "metadata-qa-api-0.8.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class de.gwdg.metadataqa.api.json.JsonBranch",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "de.gwdg.metadataqa.api.json"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "de.gwdg.metadataqa.api.json.JsonBranch"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "JsonBranch"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "metadata-qa-api-0.8.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method java.lang.Object de.gwdg.metadataqa.api.problemcatalog.ProblemCatalog::getJsonDocument()",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "de.gwdg.metadataqa.api.problemcatalog"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "de.gwdg.metadataqa.api.problemcatalog.ProblemCatalog"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "ProblemCatalog"
+  }, {
+    "name" : "methodName",
+    "value" : "getJsonDocument"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "metadata-qa-api-0.8.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method java.lang.String de.gwdg.metadataqa.api.problemcatalog.ProblemCatalog::getJsonString()",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "de.gwdg.metadataqa.api.problemcatalog"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "de.gwdg.metadataqa.api.problemcatalog.ProblemCatalog"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "ProblemCatalog"
+  }, {
+    "name" : "methodName",
+    "value" : "getJsonString"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "metadata-qa-api-0.8.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.defaultSerializationChanged",
+  "old" : "class de.gwdg.metadataqa.api.rule.RuleCatalog",
+  "new" : "class de.gwdg.metadataqa.api.rule.RuleCatalog",
+  "name" : "default serialization changed",
+  "description" : "The default serialization ID for the class has changed. This means that the new version of the class is not deserializable from the byte stream of a serialized old class.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "EQUIVALENT"
+  }, {
+    "compatibility" : "SEMANTIC",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "EQUIVALENT"
+  } ],
+  "attachments" : [ {
+    "name" : "oldSerialVersionUID",
+    "value" : "-3064223460838001817"
+  }, {
+    "name" : "newSerialVersionUID",
+    "value" : "-6092358837349669867"
+  }, {
+    "name" : "package",
+    "value" : "de.gwdg.metadataqa.api.rule"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "de.gwdg.metadataqa.api.rule.RuleCatalog"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "RuleCatalog"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "metadata-qa-api-0.8.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "metadata-qa-api-0.9.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.addedToInterface",
+  "old" : null,
+  "new" : "method boolean de.gwdg.metadataqa.api.rule.RuleChecker::isHidden()",
+  "name" : "method added to interface",
+  "description" : "Method was added to an interface.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SEMANTIC",
+    "severity" : "POTENTIALLY_BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "de.gwdg.metadataqa.api.rule"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "de.gwdg.metadataqa.api.rule.RuleChecker"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "RuleChecker"
+  }, {
+    "name" : "methodName",
+    "value" : "isHidden"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "newArchive",
+    "value" : "metadata-qa-api-0.9.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.addedToInterface",
+  "old" : null,
+  "new" : "method void de.gwdg.metadataqa.api.rule.RuleChecker::setDebug()",
+  "name" : "method added to interface",
+  "description" : "Method was added to an interface.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SEMANTIC",
+    "severity" : "POTENTIALLY_BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "de.gwdg.metadataqa.api.rule"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "de.gwdg.metadataqa.api.rule.RuleChecker"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "RuleChecker"
+  }, {
+    "name" : "methodName",
+    "value" : "setDebug"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "newArchive",
+    "value" : "metadata-qa-api-0.9.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.addedToInterface",
+  "old" : null,
+  "new" : "method void de.gwdg.metadataqa.api.rule.RuleChecker::setHidden()",
+  "name" : "method added to interface",
+  "description" : "Method was added to an interface.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SEMANTIC",
+    "severity" : "POTENTIALLY_BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "de.gwdg.metadataqa.api.rule"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "de.gwdg.metadataqa.api.rule.RuleChecker"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "RuleChecker"
+  }, {
+    "name" : "methodName",
+    "value" : "setHidden"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "newArchive",
+    "value" : "metadata-qa-api-0.9.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.parameterTypeChanged",
+  "old" : "parameter void de.gwdg.metadataqa.api.rule.logical.AndChecker::<init>(===de.gwdg.metadataqa.api.json.JsonBranch===, java.lang.String, java.util.List<de.gwdg.metadataqa.api.rule.RuleChecker>)",
+  "new" : "parameter void de.gwdg.metadataqa.api.rule.logical.AndChecker::<init>(===de.gwdg.metadataqa.api.json.DataElement===, java.lang.String, java.util.List<de.gwdg.metadataqa.api.rule.RuleChecker>)",
+  "name" : "parameter type changed",
+  "description" : "The type of the parameter changed from 'de.gwdg.metadataqa.api.json.JsonBranch' to 'de.gwdg.metadataqa.api.json.DataElement'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "POTENTIALLY_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "de.gwdg.metadataqa.api.json.JsonBranch"
+  }, {
+    "name" : "newType",
+    "value" : "de.gwdg.metadataqa.api.json.DataElement"
+  }, {
+    "name" : "package",
+    "value" : "de.gwdg.metadataqa.api.rule.logical"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "de.gwdg.metadataqa.api.rule.logical.AndChecker"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "AndChecker"
+  }, {
+    "name" : "methodName",
+    "value" : "<init>"
+  }, {
+    "name" : "parameterIndex",
+    "value" : "0"
+  }, {
+    "name" : "elementKind",
+    "value" : "parameter"
+  }, {
+    "name" : "oldArchive",
+    "value" : "metadata-qa-api-0.8.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "metadata-qa-api-0.9.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.parameterTypeChanged",
+  "old" : "parameter void de.gwdg.metadataqa.api.rule.logical.AndChecker::<init>(===de.gwdg.metadataqa.api.json.JsonBranch===, java.util.List<de.gwdg.metadataqa.api.rule.RuleChecker>)",
+  "new" : "parameter void de.gwdg.metadataqa.api.rule.logical.AndChecker::<init>(===de.gwdg.metadataqa.api.json.DataElement===, java.util.List<de.gwdg.metadataqa.api.rule.RuleChecker>)",
+  "name" : "parameter type changed",
+  "description" : "The type of the parameter changed from 'de.gwdg.metadataqa.api.json.JsonBranch' to 'de.gwdg.metadataqa.api.json.DataElement'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "POTENTIALLY_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "de.gwdg.metadataqa.api.json.JsonBranch"
+  }, {
+    "name" : "newType",
+    "value" : "de.gwdg.metadataqa.api.json.DataElement"
+  }, {
+    "name" : "package",
+    "value" : "de.gwdg.metadataqa.api.rule.logical"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "de.gwdg.metadataqa.api.rule.logical.AndChecker"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "AndChecker"
+  }, {
+    "name" : "methodName",
+    "value" : "<init>"
+  }, {
+    "name" : "parameterIndex",
+    "value" : "0"
+  }, {
+    "name" : "elementKind",
+    "value" : "parameter"
+  }, {
+    "name" : "oldArchive",
+    "value" : "metadata-qa-api-0.8.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "metadata-qa-api-0.9.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.field.typeChanged",
+  "old" : "field de.gwdg.metadataqa.api.rule.logical.LogicalChecker.field",
+  "new" : "field de.gwdg.metadataqa.api.rule.logical.LogicalChecker.field",
+  "name" : "field type changed",
+  "description" : "The type of the field changed from 'de.gwdg.metadataqa.api.json.JsonBranch' to 'de.gwdg.metadataqa.api.json.DataElement'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "de.gwdg.metadataqa.api.json.JsonBranch"
+  }, {
+    "name" : "newType",
+    "value" : "de.gwdg.metadataqa.api.json.DataElement"
+  }, {
+    "name" : "package",
+    "value" : "de.gwdg.metadataqa.api.rule.logical"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "de.gwdg.metadataqa.api.rule.logical.LogicalChecker"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "LogicalChecker"
+  }, {
+    "name" : "fieldName",
+    "value" : "field"
+  }, {
+    "name" : "elementKind",
+    "value" : "field"
+  }, {
+    "name" : "oldArchive",
+    "value" : "metadata-qa-api-0.8.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "metadata-qa-api-0.9.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.parameterTypeChanged",
+  "old" : "parameter void de.gwdg.metadataqa.api.rule.logical.LogicalChecker::<init>(===de.gwdg.metadataqa.api.json.JsonBranch===, java.lang.String)",
+  "new" : "parameter void de.gwdg.metadataqa.api.rule.logical.LogicalChecker::<init>(===de.gwdg.metadataqa.api.json.DataElement===, java.lang.String)",
+  "name" : "parameter type changed",
+  "description" : "The type of the parameter changed from 'de.gwdg.metadataqa.api.json.JsonBranch' to 'de.gwdg.metadataqa.api.json.DataElement'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "POTENTIALLY_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "de.gwdg.metadataqa.api.json.JsonBranch"
+  }, {
+    "name" : "newType",
+    "value" : "de.gwdg.metadataqa.api.json.DataElement"
+  }, {
+    "name" : "package",
+    "value" : "de.gwdg.metadataqa.api.rule.logical"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "de.gwdg.metadataqa.api.rule.logical.LogicalChecker"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "LogicalChecker"
+  }, {
+    "name" : "methodName",
+    "value" : "<init>"
+  }, {
+    "name" : "parameterIndex",
+    "value" : "0"
+  }, {
+    "name" : "elementKind",
+    "value" : "parameter"
+  }, {
+    "name" : "oldArchive",
+    "value" : "metadata-qa-api-0.8.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "metadata-qa-api-0.9.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.parameterTypeChanged",
+  "old" : "parameter void de.gwdg.metadataqa.api.rule.logical.NotChecker::<init>(===de.gwdg.metadataqa.api.json.JsonBranch===, java.lang.String, java.util.List<de.gwdg.metadataqa.api.rule.RuleChecker>)",
+  "new" : "parameter void de.gwdg.metadataqa.api.rule.logical.NotChecker::<init>(===de.gwdg.metadataqa.api.json.DataElement===, java.lang.String, java.util.List<de.gwdg.metadataqa.api.rule.RuleChecker>)",
+  "name" : "parameter type changed",
+  "description" : "The type of the parameter changed from 'de.gwdg.metadataqa.api.json.JsonBranch' to 'de.gwdg.metadataqa.api.json.DataElement'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "POTENTIALLY_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "de.gwdg.metadataqa.api.json.JsonBranch"
+  }, {
+    "name" : "newType",
+    "value" : "de.gwdg.metadataqa.api.json.DataElement"
+  }, {
+    "name" : "package",
+    "value" : "de.gwdg.metadataqa.api.rule.logical"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "de.gwdg.metadataqa.api.rule.logical.NotChecker"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "NotChecker"
+  }, {
+    "name" : "methodName",
+    "value" : "<init>"
+  }, {
+    "name" : "parameterIndex",
+    "value" : "0"
+  }, {
+    "name" : "elementKind",
+    "value" : "parameter"
+  }, {
+    "name" : "oldArchive",
+    "value" : "metadata-qa-api-0.8.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "metadata-qa-api-0.9.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.parameterTypeChanged",
+  "old" : "parameter void de.gwdg.metadataqa.api.rule.logical.NotChecker::<init>(===de.gwdg.metadataqa.api.json.JsonBranch===, java.util.List<de.gwdg.metadataqa.api.rule.RuleChecker>)",
+  "new" : "parameter void de.gwdg.metadataqa.api.rule.logical.NotChecker::<init>(===de.gwdg.metadataqa.api.json.DataElement===, java.util.List<de.gwdg.metadataqa.api.rule.RuleChecker>)",
+  "name" : "parameter type changed",
+  "description" : "The type of the parameter changed from 'de.gwdg.metadataqa.api.json.JsonBranch' to 'de.gwdg.metadataqa.api.json.DataElement'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "POTENTIALLY_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "de.gwdg.metadataqa.api.json.JsonBranch"
+  }, {
+    "name" : "newType",
+    "value" : "de.gwdg.metadataqa.api.json.DataElement"
+  }, {
+    "name" : "package",
+    "value" : "de.gwdg.metadataqa.api.rule.logical"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "de.gwdg.metadataqa.api.rule.logical.NotChecker"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "NotChecker"
+  }, {
+    "name" : "methodName",
+    "value" : "<init>"
+  }, {
+    "name" : "parameterIndex",
+    "value" : "0"
+  }, {
+    "name" : "elementKind",
+    "value" : "parameter"
+  }, {
+    "name" : "oldArchive",
+    "value" : "metadata-qa-api-0.8.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "metadata-qa-api-0.9.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.parameterTypeChanged",
+  "old" : "parameter void de.gwdg.metadataqa.api.rule.logical.OrChecker::<init>(===de.gwdg.metadataqa.api.json.JsonBranch===, java.lang.String, java.util.List<de.gwdg.metadataqa.api.rule.RuleChecker>)",
+  "new" : "parameter void de.gwdg.metadataqa.api.rule.logical.OrChecker::<init>(===de.gwdg.metadataqa.api.json.DataElement===, java.lang.String, java.util.List<de.gwdg.metadataqa.api.rule.RuleChecker>)",
+  "name" : "parameter type changed",
+  "description" : "The type of the parameter changed from 'de.gwdg.metadataqa.api.json.JsonBranch' to 'de.gwdg.metadataqa.api.json.DataElement'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "POTENTIALLY_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "de.gwdg.metadataqa.api.json.JsonBranch"
+  }, {
+    "name" : "newType",
+    "value" : "de.gwdg.metadataqa.api.json.DataElement"
+  }, {
+    "name" : "package",
+    "value" : "de.gwdg.metadataqa.api.rule.logical"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "de.gwdg.metadataqa.api.rule.logical.OrChecker"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "OrChecker"
+  }, {
+    "name" : "methodName",
+    "value" : "<init>"
+  }, {
+    "name" : "parameterIndex",
+    "value" : "0"
+  }, {
+    "name" : "elementKind",
+    "value" : "parameter"
+  }, {
+    "name" : "oldArchive",
+    "value" : "metadata-qa-api-0.8.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "metadata-qa-api-0.9.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.parameterTypeChanged",
+  "old" : "parameter void de.gwdg.metadataqa.api.rule.logical.OrChecker::<init>(===de.gwdg.metadataqa.api.json.JsonBranch===, java.util.List<de.gwdg.metadataqa.api.rule.RuleChecker>)",
+  "new" : "parameter void de.gwdg.metadataqa.api.rule.logical.OrChecker::<init>(===de.gwdg.metadataqa.api.json.DataElement===, java.util.List<de.gwdg.metadataqa.api.rule.RuleChecker>)",
+  "name" : "parameter type changed",
+  "description" : "The type of the parameter changed from 'de.gwdg.metadataqa.api.json.JsonBranch' to 'de.gwdg.metadataqa.api.json.DataElement'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "POTENTIALLY_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "de.gwdg.metadataqa.api.json.JsonBranch"
+  }, {
+    "name" : "newType",
+    "value" : "de.gwdg.metadataqa.api.json.DataElement"
+  }, {
+    "name" : "package",
+    "value" : "de.gwdg.metadataqa.api.rule.logical"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "de.gwdg.metadataqa.api.rule.logical.OrChecker"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "OrChecker"
+  }, {
+    "name" : "methodName",
+    "value" : "<init>"
+  }, {
+    "name" : "parameterIndex",
+    "value" : "0"
+  }, {
+    "name" : "elementKind",
+    "value" : "parameter"
+  }, {
+    "name" : "oldArchive",
+    "value" : "metadata-qa-api-0.8.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "metadata-qa-api-0.9.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.parameterTypeChanged",
+  "old" : "parameter void de.gwdg.metadataqa.api.rule.pairchecker.DisjointChecker::<init>(===de.gwdg.metadataqa.api.json.JsonBranch===, de.gwdg.metadataqa.api.json.JsonBranch)",
+  "new" : "parameter void de.gwdg.metadataqa.api.rule.pairchecker.DisjointChecker::<init>(===de.gwdg.metadataqa.api.json.DataElement===, de.gwdg.metadataqa.api.json.DataElement)",
+  "name" : "parameter type changed",
+  "description" : "The type of the parameter changed from 'de.gwdg.metadataqa.api.json.JsonBranch' to 'de.gwdg.metadataqa.api.json.DataElement'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "POTENTIALLY_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "de.gwdg.metadataqa.api.json.JsonBranch"
+  }, {
+    "name" : "newType",
+    "value" : "de.gwdg.metadataqa.api.json.DataElement"
+  }, {
+    "name" : "package",
+    "value" : "de.gwdg.metadataqa.api.rule.pairchecker"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "de.gwdg.metadataqa.api.rule.pairchecker.DisjointChecker"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "DisjointChecker"
+  }, {
+    "name" : "methodName",
+    "value" : "<init>"
+  }, {
+    "name" : "parameterIndex",
+    "value" : "0"
+  }, {
+    "name" : "elementKind",
+    "value" : "parameter"
+  }, {
+    "name" : "oldArchive",
+    "value" : "metadata-qa-api-0.8.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "metadata-qa-api-0.9.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.parameterTypeChanged",
+  "old" : "parameter void de.gwdg.metadataqa.api.rule.pairchecker.DisjointChecker::<init>(de.gwdg.metadataqa.api.json.JsonBranch, ===de.gwdg.metadataqa.api.json.JsonBranch===)",
+  "new" : "parameter void de.gwdg.metadataqa.api.rule.pairchecker.DisjointChecker::<init>(de.gwdg.metadataqa.api.json.DataElement, ===de.gwdg.metadataqa.api.json.DataElement===)",
+  "name" : "parameter type changed",
+  "description" : "The type of the parameter changed from 'de.gwdg.metadataqa.api.json.JsonBranch' to 'de.gwdg.metadataqa.api.json.DataElement'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "POTENTIALLY_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "de.gwdg.metadataqa.api.json.JsonBranch"
+  }, {
+    "name" : "newType",
+    "value" : "de.gwdg.metadataqa.api.json.DataElement"
+  }, {
+    "name" : "package",
+    "value" : "de.gwdg.metadataqa.api.rule.pairchecker"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "de.gwdg.metadataqa.api.rule.pairchecker.DisjointChecker"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "DisjointChecker"
+  }, {
+    "name" : "methodName",
+    "value" : "<init>"
+  }, {
+    "name" : "parameterIndex",
+    "value" : "1"
+  }, {
+    "name" : "elementKind",
+    "value" : "parameter"
+  }, {
+    "name" : "oldArchive",
+    "value" : "metadata-qa-api-0.8.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "metadata-qa-api-0.9.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.parameterTypeChanged",
+  "old" : "parameter void de.gwdg.metadataqa.api.rule.pairchecker.EqualityChecker::<init>(===de.gwdg.metadataqa.api.json.JsonBranch===, de.gwdg.metadataqa.api.json.JsonBranch)",
+  "new" : "parameter void de.gwdg.metadataqa.api.rule.pairchecker.EqualityChecker::<init>(===de.gwdg.metadataqa.api.json.DataElement===, de.gwdg.metadataqa.api.json.DataElement)",
+  "name" : "parameter type changed",
+  "description" : "The type of the parameter changed from 'de.gwdg.metadataqa.api.json.JsonBranch' to 'de.gwdg.metadataqa.api.json.DataElement'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "POTENTIALLY_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "de.gwdg.metadataqa.api.json.JsonBranch"
+  }, {
+    "name" : "newType",
+    "value" : "de.gwdg.metadataqa.api.json.DataElement"
+  }, {
+    "name" : "package",
+    "value" : "de.gwdg.metadataqa.api.rule.pairchecker"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "de.gwdg.metadataqa.api.rule.pairchecker.EqualityChecker"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "EqualityChecker"
+  }, {
+    "name" : "methodName",
+    "value" : "<init>"
+  }, {
+    "name" : "parameterIndex",
+    "value" : "0"
+  }, {
+    "name" : "elementKind",
+    "value" : "parameter"
+  }, {
+    "name" : "oldArchive",
+    "value" : "metadata-qa-api-0.8.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "metadata-qa-api-0.9.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.parameterTypeChanged",
+  "old" : "parameter void de.gwdg.metadataqa.api.rule.pairchecker.EqualityChecker::<init>(de.gwdg.metadataqa.api.json.JsonBranch, ===de.gwdg.metadataqa.api.json.JsonBranch===)",
+  "new" : "parameter void de.gwdg.metadataqa.api.rule.pairchecker.EqualityChecker::<init>(de.gwdg.metadataqa.api.json.DataElement, ===de.gwdg.metadataqa.api.json.DataElement===)",
+  "name" : "parameter type changed",
+  "description" : "The type of the parameter changed from 'de.gwdg.metadataqa.api.json.JsonBranch' to 'de.gwdg.metadataqa.api.json.DataElement'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "POTENTIALLY_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "de.gwdg.metadataqa.api.json.JsonBranch"
+  }, {
+    "name" : "newType",
+    "value" : "de.gwdg.metadataqa.api.json.DataElement"
+  }, {
+    "name" : "package",
+    "value" : "de.gwdg.metadataqa.api.rule.pairchecker"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "de.gwdg.metadataqa.api.rule.pairchecker.EqualityChecker"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "EqualityChecker"
+  }, {
+    "name" : "methodName",
+    "value" : "<init>"
+  }, {
+    "name" : "parameterIndex",
+    "value" : "1"
+  }, {
+    "name" : "elementKind",
+    "value" : "parameter"
+  }, {
+    "name" : "oldArchive",
+    "value" : "metadata-qa-api-0.8.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "metadata-qa-api-0.9.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.parameterTypeChanged",
+  "old" : "parameter void de.gwdg.metadataqa.api.rule.pairchecker.LessThanPairChecker::<init>(===de.gwdg.metadataqa.api.json.JsonBranch===, de.gwdg.metadataqa.api.json.JsonBranch, de.gwdg.metadataqa.api.rule.pairchecker.LessThanPairChecker.TYPE)",
+  "new" : "parameter void de.gwdg.metadataqa.api.rule.pairchecker.LessThanPairChecker::<init>(===de.gwdg.metadataqa.api.json.DataElement===, de.gwdg.metadataqa.api.json.DataElement, de.gwdg.metadataqa.api.rule.pairchecker.LessThanPairChecker.TYPE)",
+  "name" : "parameter type changed",
+  "description" : "The type of the parameter changed from 'de.gwdg.metadataqa.api.json.JsonBranch' to 'de.gwdg.metadataqa.api.json.DataElement'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "POTENTIALLY_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "de.gwdg.metadataqa.api.json.JsonBranch"
+  }, {
+    "name" : "newType",
+    "value" : "de.gwdg.metadataqa.api.json.DataElement"
+  }, {
+    "name" : "package",
+    "value" : "de.gwdg.metadataqa.api.rule.pairchecker"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "de.gwdg.metadataqa.api.rule.pairchecker.LessThanPairChecker"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "LessThanPairChecker"
+  }, {
+    "name" : "methodName",
+    "value" : "<init>"
+  }, {
+    "name" : "parameterIndex",
+    "value" : "0"
+  }, {
+    "name" : "elementKind",
+    "value" : "parameter"
+  }, {
+    "name" : "oldArchive",
+    "value" : "metadata-qa-api-0.8.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "metadata-qa-api-0.9.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.parameterTypeChanged",
+  "old" : "parameter void de.gwdg.metadataqa.api.rule.pairchecker.LessThanPairChecker::<init>(de.gwdg.metadataqa.api.json.JsonBranch, ===de.gwdg.metadataqa.api.json.JsonBranch===, de.gwdg.metadataqa.api.rule.pairchecker.LessThanPairChecker.TYPE)",
+  "new" : "parameter void de.gwdg.metadataqa.api.rule.pairchecker.LessThanPairChecker::<init>(de.gwdg.metadataqa.api.json.DataElement, ===de.gwdg.metadataqa.api.json.DataElement===, de.gwdg.metadataqa.api.rule.pairchecker.LessThanPairChecker.TYPE)",
+  "name" : "parameter type changed",
+  "description" : "The type of the parameter changed from 'de.gwdg.metadataqa.api.json.JsonBranch' to 'de.gwdg.metadataqa.api.json.DataElement'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "POTENTIALLY_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "de.gwdg.metadataqa.api.json.JsonBranch"
+  }, {
+    "name" : "newType",
+    "value" : "de.gwdg.metadataqa.api.json.DataElement"
+  }, {
+    "name" : "package",
+    "value" : "de.gwdg.metadataqa.api.rule.pairchecker"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "de.gwdg.metadataqa.api.rule.pairchecker.LessThanPairChecker"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "LessThanPairChecker"
+  }, {
+    "name" : "methodName",
+    "value" : "<init>"
+  }, {
+    "name" : "parameterIndex",
+    "value" : "1"
+  }, {
+    "name" : "elementKind",
+    "value" : "parameter"
+  }, {
+    "name" : "oldArchive",
+    "value" : "metadata-qa-api-0.8.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "metadata-qa-api-0.9.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.field.typeChanged",
+  "old" : "field de.gwdg.metadataqa.api.rule.pairchecker.PropertyPairChecker.field1",
+  "new" : "field de.gwdg.metadataqa.api.rule.pairchecker.PropertyPairChecker.field1",
+  "name" : "field type changed",
+  "description" : "The type of the field changed from 'de.gwdg.metadataqa.api.json.JsonBranch' to 'de.gwdg.metadataqa.api.json.DataElement'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "de.gwdg.metadataqa.api.json.JsonBranch"
+  }, {
+    "name" : "newType",
+    "value" : "de.gwdg.metadataqa.api.json.DataElement"
+  }, {
+    "name" : "package",
+    "value" : "de.gwdg.metadataqa.api.rule.pairchecker"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "de.gwdg.metadataqa.api.rule.pairchecker.PropertyPairChecker"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "PropertyPairChecker"
+  }, {
+    "name" : "fieldName",
+    "value" : "field1"
+  }, {
+    "name" : "elementKind",
+    "value" : "field"
+  }, {
+    "name" : "oldArchive",
+    "value" : "metadata-qa-api-0.8.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "metadata-qa-api-0.9.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.field.typeChanged",
+  "old" : "field de.gwdg.metadataqa.api.rule.pairchecker.PropertyPairChecker.field2",
+  "new" : "field de.gwdg.metadataqa.api.rule.pairchecker.PropertyPairChecker.field2",
+  "name" : "field type changed",
+  "description" : "The type of the field changed from 'de.gwdg.metadataqa.api.json.JsonBranch' to 'de.gwdg.metadataqa.api.json.DataElement'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "de.gwdg.metadataqa.api.json.JsonBranch"
+  }, {
+    "name" : "newType",
+    "value" : "de.gwdg.metadataqa.api.json.DataElement"
+  }, {
+    "name" : "package",
+    "value" : "de.gwdg.metadataqa.api.rule.pairchecker"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "de.gwdg.metadataqa.api.rule.pairchecker.PropertyPairChecker"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "PropertyPairChecker"
+  }, {
+    "name" : "fieldName",
+    "value" : "field2"
+  }, {
+    "name" : "elementKind",
+    "value" : "field"
+  }, {
+    "name" : "oldArchive",
+    "value" : "metadata-qa-api-0.8.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "metadata-qa-api-0.9.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.parameterTypeChanged",
+  "old" : "parameter void de.gwdg.metadataqa.api.rule.pairchecker.PropertyPairChecker::<init>(===de.gwdg.metadataqa.api.json.JsonBranch===, de.gwdg.metadataqa.api.json.JsonBranch, java.lang.String)",
+  "new" : "parameter void de.gwdg.metadataqa.api.rule.pairchecker.PropertyPairChecker::<init>(===de.gwdg.metadataqa.api.json.DataElement===, de.gwdg.metadataqa.api.json.DataElement, java.lang.String)",
+  "name" : "parameter type changed",
+  "description" : "The type of the parameter changed from 'de.gwdg.metadataqa.api.json.JsonBranch' to 'de.gwdg.metadataqa.api.json.DataElement'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "POTENTIALLY_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "de.gwdg.metadataqa.api.json.JsonBranch"
+  }, {
+    "name" : "newType",
+    "value" : "de.gwdg.metadataqa.api.json.DataElement"
+  }, {
+    "name" : "package",
+    "value" : "de.gwdg.metadataqa.api.rule.pairchecker"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "de.gwdg.metadataqa.api.rule.pairchecker.PropertyPairChecker"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "PropertyPairChecker"
+  }, {
+    "name" : "methodName",
+    "value" : "<init>"
+  }, {
+    "name" : "parameterIndex",
+    "value" : "0"
+  }, {
+    "name" : "elementKind",
+    "value" : "parameter"
+  }, {
+    "name" : "oldArchive",
+    "value" : "metadata-qa-api-0.8.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "metadata-qa-api-0.9.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.parameterTypeChanged",
+  "old" : "parameter void de.gwdg.metadataqa.api.rule.pairchecker.PropertyPairChecker::<init>(de.gwdg.metadataqa.api.json.JsonBranch, ===de.gwdg.metadataqa.api.json.JsonBranch===, java.lang.String)",
+  "new" : "parameter void de.gwdg.metadataqa.api.rule.pairchecker.PropertyPairChecker::<init>(de.gwdg.metadataqa.api.json.DataElement, ===de.gwdg.metadataqa.api.json.DataElement===, java.lang.String)",
+  "name" : "parameter type changed",
+  "description" : "The type of the parameter changed from 'de.gwdg.metadataqa.api.json.JsonBranch' to 'de.gwdg.metadataqa.api.json.DataElement'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "POTENTIALLY_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "de.gwdg.metadataqa.api.json.JsonBranch"
+  }, {
+    "name" : "newType",
+    "value" : "de.gwdg.metadataqa.api.json.DataElement"
+  }, {
+    "name" : "package",
+    "value" : "de.gwdg.metadataqa.api.rule.pairchecker"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "de.gwdg.metadataqa.api.rule.pairchecker.PropertyPairChecker"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "PropertyPairChecker"
+  }, {
+    "name" : "methodName",
+    "value" : "<init>"
+  }, {
+    "name" : "parameterIndex",
+    "value" : "1"
+  }, {
+    "name" : "elementKind",
+    "value" : "parameter"
+  }, {
+    "name" : "oldArchive",
+    "value" : "metadata-qa-api-0.8.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "metadata-qa-api-0.9.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.parameterTypeChanged",
+  "old" : "parameter void de.gwdg.metadataqa.api.rule.singlefieldchecker.ContentTypeChecker::<init>(===de.gwdg.metadataqa.api.json.JsonBranch===, java.lang.String, java.util.List<java.lang.String>)",
+  "new" : "parameter void de.gwdg.metadataqa.api.rule.singlefieldchecker.ContentTypeChecker::<init>(===de.gwdg.metadataqa.api.json.DataElement===, java.lang.String, java.util.List<java.lang.String>)",
+  "name" : "parameter type changed",
+  "description" : "The type of the parameter changed from 'de.gwdg.metadataqa.api.json.JsonBranch' to 'de.gwdg.metadataqa.api.json.DataElement'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "POTENTIALLY_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "de.gwdg.metadataqa.api.json.JsonBranch"
+  }, {
+    "name" : "newType",
+    "value" : "de.gwdg.metadataqa.api.json.DataElement"
+  }, {
+    "name" : "package",
+    "value" : "de.gwdg.metadataqa.api.rule.singlefieldchecker"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "de.gwdg.metadataqa.api.rule.singlefieldchecker.ContentTypeChecker"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "ContentTypeChecker"
+  }, {
+    "name" : "methodName",
+    "value" : "<init>"
+  }, {
+    "name" : "parameterIndex",
+    "value" : "0"
+  }, {
+    "name" : "elementKind",
+    "value" : "parameter"
+  }, {
+    "name" : "oldArchive",
+    "value" : "metadata-qa-api-0.8.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "metadata-qa-api-0.9.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.parameterTypeChanged",
+  "old" : "parameter void de.gwdg.metadataqa.api.rule.singlefieldchecker.ContentTypeChecker::<init>(===de.gwdg.metadataqa.api.json.JsonBranch===, java.util.List<java.lang.String>)",
+  "new" : "parameter void de.gwdg.metadataqa.api.rule.singlefieldchecker.ContentTypeChecker::<init>(===de.gwdg.metadataqa.api.json.DataElement===, java.util.List<java.lang.String>)",
+  "name" : "parameter type changed",
+  "description" : "The type of the parameter changed from 'de.gwdg.metadataqa.api.json.JsonBranch' to 'de.gwdg.metadataqa.api.json.DataElement'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "POTENTIALLY_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "de.gwdg.metadataqa.api.json.JsonBranch"
+  }, {
+    "name" : "newType",
+    "value" : "de.gwdg.metadataqa.api.json.DataElement"
+  }, {
+    "name" : "package",
+    "value" : "de.gwdg.metadataqa.api.rule.singlefieldchecker"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "de.gwdg.metadataqa.api.rule.singlefieldchecker.ContentTypeChecker"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "ContentTypeChecker"
+  }, {
+    "name" : "methodName",
+    "value" : "<init>"
+  }, {
+    "name" : "parameterIndex",
+    "value" : "0"
+  }, {
+    "name" : "elementKind",
+    "value" : "parameter"
+  }, {
+    "name" : "oldArchive",
+    "value" : "metadata-qa-api-0.8.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "metadata-qa-api-0.9.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.parameterTypeChanged",
+  "old" : "parameter void de.gwdg.metadataqa.api.rule.singlefieldchecker.EnumerationChecker::<init>(===de.gwdg.metadataqa.api.json.JsonBranch===, java.lang.String, java.util.List<java.lang.String>)",
+  "new" : "parameter void de.gwdg.metadataqa.api.rule.singlefieldchecker.EnumerationChecker::<init>(===de.gwdg.metadataqa.api.json.DataElement===, java.lang.String, java.util.List<java.lang.String>)",
+  "name" : "parameter type changed",
+  "description" : "The type of the parameter changed from 'de.gwdg.metadataqa.api.json.JsonBranch' to 'de.gwdg.metadataqa.api.json.DataElement'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "POTENTIALLY_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "de.gwdg.metadataqa.api.json.JsonBranch"
+  }, {
+    "name" : "newType",
+    "value" : "de.gwdg.metadataqa.api.json.DataElement"
+  }, {
+    "name" : "package",
+    "value" : "de.gwdg.metadataqa.api.rule.singlefieldchecker"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "de.gwdg.metadataqa.api.rule.singlefieldchecker.EnumerationChecker"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "EnumerationChecker"
+  }, {
+    "name" : "methodName",
+    "value" : "<init>"
+  }, {
+    "name" : "parameterIndex",
+    "value" : "0"
+  }, {
+    "name" : "elementKind",
+    "value" : "parameter"
+  }, {
+    "name" : "oldArchive",
+    "value" : "metadata-qa-api-0.8.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "metadata-qa-api-0.9.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.parameterTypeChanged",
+  "old" : "parameter void de.gwdg.metadataqa.api.rule.singlefieldchecker.EnumerationChecker::<init>(===de.gwdg.metadataqa.api.json.JsonBranch===, java.util.List<java.lang.String>)",
+  "new" : "parameter void de.gwdg.metadataqa.api.rule.singlefieldchecker.EnumerationChecker::<init>(===de.gwdg.metadataqa.api.json.DataElement===, java.util.List<java.lang.String>)",
+  "name" : "parameter type changed",
+  "description" : "The type of the parameter changed from 'de.gwdg.metadataqa.api.json.JsonBranch' to 'de.gwdg.metadataqa.api.json.DataElement'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "POTENTIALLY_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "de.gwdg.metadataqa.api.json.JsonBranch"
+  }, {
+    "name" : "newType",
+    "value" : "de.gwdg.metadataqa.api.json.DataElement"
+  }, {
+    "name" : "package",
+    "value" : "de.gwdg.metadataqa.api.rule.singlefieldchecker"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "de.gwdg.metadataqa.api.rule.singlefieldchecker.EnumerationChecker"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "EnumerationChecker"
+  }, {
+    "name" : "methodName",
+    "value" : "<init>"
+  }, {
+    "name" : "parameterIndex",
+    "value" : "0"
+  }, {
+    "name" : "elementKind",
+    "value" : "parameter"
+  }, {
+    "name" : "oldArchive",
+    "value" : "metadata-qa-api-0.8.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "metadata-qa-api-0.9.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.parameterTypeChanged",
+  "old" : "parameter void de.gwdg.metadataqa.api.rule.singlefieldchecker.HasValueChecker::<init>(===de.gwdg.metadataqa.api.json.JsonBranch===, java.lang.String)",
+  "new" : "parameter void de.gwdg.metadataqa.api.rule.singlefieldchecker.HasValueChecker::<init>(===de.gwdg.metadataqa.api.json.DataElement===, java.lang.String)",
+  "name" : "parameter type changed",
+  "description" : "The type of the parameter changed from 'de.gwdg.metadataqa.api.json.JsonBranch' to 'de.gwdg.metadataqa.api.json.DataElement'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "POTENTIALLY_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "de.gwdg.metadataqa.api.json.JsonBranch"
+  }, {
+    "name" : "newType",
+    "value" : "de.gwdg.metadataqa.api.json.DataElement"
+  }, {
+    "name" : "package",
+    "value" : "de.gwdg.metadataqa.api.rule.singlefieldchecker"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "de.gwdg.metadataqa.api.rule.singlefieldchecker.HasValueChecker"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "HasValueChecker"
+  }, {
+    "name" : "methodName",
+    "value" : "<init>"
+  }, {
+    "name" : "parameterIndex",
+    "value" : "0"
+  }, {
+    "name" : "elementKind",
+    "value" : "parameter"
+  }, {
+    "name" : "oldArchive",
+    "value" : "metadata-qa-api-0.8.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "metadata-qa-api-0.9.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.parameterTypeChanged",
+  "old" : "parameter void de.gwdg.metadataqa.api.rule.singlefieldchecker.HasValueChecker::<init>(===de.gwdg.metadataqa.api.json.JsonBranch===, java.lang.String, java.lang.String)",
+  "new" : "parameter void de.gwdg.metadataqa.api.rule.singlefieldchecker.HasValueChecker::<init>(===de.gwdg.metadataqa.api.json.DataElement===, java.lang.String, java.lang.String)",
+  "name" : "parameter type changed",
+  "description" : "The type of the parameter changed from 'de.gwdg.metadataqa.api.json.JsonBranch' to 'de.gwdg.metadataqa.api.json.DataElement'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "POTENTIALLY_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "de.gwdg.metadataqa.api.json.JsonBranch"
+  }, {
+    "name" : "newType",
+    "value" : "de.gwdg.metadataqa.api.json.DataElement"
+  }, {
+    "name" : "package",
+    "value" : "de.gwdg.metadataqa.api.rule.singlefieldchecker"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "de.gwdg.metadataqa.api.rule.singlefieldchecker.HasValueChecker"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "HasValueChecker"
+  }, {
+    "name" : "methodName",
+    "value" : "<init>"
+  }, {
+    "name" : "parameterIndex",
+    "value" : "0"
+  }, {
+    "name" : "elementKind",
+    "value" : "parameter"
+  }, {
+    "name" : "oldArchive",
+    "value" : "metadata-qa-api-0.8.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "metadata-qa-api-0.9.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.parameterTypeChanged",
+  "old" : "parameter void de.gwdg.metadataqa.api.rule.singlefieldchecker.MaxCountChecker::<init>(===de.gwdg.metadataqa.api.json.JsonBranch===, int)",
+  "new" : "parameter void de.gwdg.metadataqa.api.rule.singlefieldchecker.MaxCountChecker::<init>(===de.gwdg.metadataqa.api.json.DataElement===, int)",
+  "name" : "parameter type changed",
+  "description" : "The type of the parameter changed from 'de.gwdg.metadataqa.api.json.JsonBranch' to 'de.gwdg.metadataqa.api.json.DataElement'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "POTENTIALLY_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "de.gwdg.metadataqa.api.json.JsonBranch"
+  }, {
+    "name" : "newType",
+    "value" : "de.gwdg.metadataqa.api.json.DataElement"
+  }, {
+    "name" : "package",
+    "value" : "de.gwdg.metadataqa.api.rule.singlefieldchecker"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "de.gwdg.metadataqa.api.rule.singlefieldchecker.MaxCountChecker"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "MaxCountChecker"
+  }, {
+    "name" : "methodName",
+    "value" : "<init>"
+  }, {
+    "name" : "parameterIndex",
+    "value" : "0"
+  }, {
+    "name" : "elementKind",
+    "value" : "parameter"
+  }, {
+    "name" : "oldArchive",
+    "value" : "metadata-qa-api-0.8.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "metadata-qa-api-0.9.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.parameterTypeChanged",
+  "old" : "parameter void de.gwdg.metadataqa.api.rule.singlefieldchecker.MaxCountChecker::<init>(===de.gwdg.metadataqa.api.json.JsonBranch===, java.lang.String, int)",
+  "new" : "parameter void de.gwdg.metadataqa.api.rule.singlefieldchecker.MaxCountChecker::<init>(===de.gwdg.metadataqa.api.json.DataElement===, java.lang.String, int)",
+  "name" : "parameter type changed",
+  "description" : "The type of the parameter changed from 'de.gwdg.metadataqa.api.json.JsonBranch' to 'de.gwdg.metadataqa.api.json.DataElement'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "POTENTIALLY_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "de.gwdg.metadataqa.api.json.JsonBranch"
+  }, {
+    "name" : "newType",
+    "value" : "de.gwdg.metadataqa.api.json.DataElement"
+  }, {
+    "name" : "package",
+    "value" : "de.gwdg.metadataqa.api.rule.singlefieldchecker"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "de.gwdg.metadataqa.api.rule.singlefieldchecker.MaxCountChecker"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "MaxCountChecker"
+  }, {
+    "name" : "methodName",
+    "value" : "<init>"
+  }, {
+    "name" : "parameterIndex",
+    "value" : "0"
+  }, {
+    "name" : "elementKind",
+    "value" : "parameter"
+  }, {
+    "name" : "oldArchive",
+    "value" : "metadata-qa-api-0.8.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "metadata-qa-api-0.9.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.parameterTypeChanged",
+  "old" : "parameter void de.gwdg.metadataqa.api.rule.singlefieldchecker.MaxLengthChecker::<init>(===de.gwdg.metadataqa.api.json.JsonBranch===, java.lang.Integer)",
+  "new" : "parameter void de.gwdg.metadataqa.api.rule.singlefieldchecker.MaxLengthChecker::<init>(===de.gwdg.metadataqa.api.json.DataElement===, java.lang.Integer)",
+  "name" : "parameter type changed",
+  "description" : "The type of the parameter changed from 'de.gwdg.metadataqa.api.json.JsonBranch' to 'de.gwdg.metadataqa.api.json.DataElement'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "POTENTIALLY_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "de.gwdg.metadataqa.api.json.JsonBranch"
+  }, {
+    "name" : "newType",
+    "value" : "de.gwdg.metadataqa.api.json.DataElement"
+  }, {
+    "name" : "package",
+    "value" : "de.gwdg.metadataqa.api.rule.singlefieldchecker"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "de.gwdg.metadataqa.api.rule.singlefieldchecker.MaxLengthChecker"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "MaxLengthChecker"
+  }, {
+    "name" : "methodName",
+    "value" : "<init>"
+  }, {
+    "name" : "parameterIndex",
+    "value" : "0"
+  }, {
+    "name" : "elementKind",
+    "value" : "parameter"
+  }, {
+    "name" : "oldArchive",
+    "value" : "metadata-qa-api-0.8.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "metadata-qa-api-0.9.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.parameterTypeChanged",
+  "old" : "parameter void de.gwdg.metadataqa.api.rule.singlefieldchecker.MaxLengthChecker::<init>(===de.gwdg.metadataqa.api.json.JsonBranch===, java.lang.String, java.lang.Integer)",
+  "new" : "parameter void de.gwdg.metadataqa.api.rule.singlefieldchecker.MaxLengthChecker::<init>(===de.gwdg.metadataqa.api.json.DataElement===, java.lang.String, java.lang.Integer)",
+  "name" : "parameter type changed",
+  "description" : "The type of the parameter changed from 'de.gwdg.metadataqa.api.json.JsonBranch' to 'de.gwdg.metadataqa.api.json.DataElement'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "POTENTIALLY_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "de.gwdg.metadataqa.api.json.JsonBranch"
+  }, {
+    "name" : "newType",
+    "value" : "de.gwdg.metadataqa.api.json.DataElement"
+  }, {
+    "name" : "package",
+    "value" : "de.gwdg.metadataqa.api.rule.singlefieldchecker"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "de.gwdg.metadataqa.api.rule.singlefieldchecker.MaxLengthChecker"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "MaxLengthChecker"
+  }, {
+    "name" : "methodName",
+    "value" : "<init>"
+  }, {
+    "name" : "parameterIndex",
+    "value" : "0"
+  }, {
+    "name" : "elementKind",
+    "value" : "parameter"
+  }, {
+    "name" : "oldArchive",
+    "value" : "metadata-qa-api-0.8.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "metadata-qa-api-0.9.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.parameterTypeChanged",
+  "old" : "parameter void de.gwdg.metadataqa.api.rule.singlefieldchecker.MaxWordsChecker::<init>(===de.gwdg.metadataqa.api.json.JsonBranch===, int)",
+  "new" : "parameter void de.gwdg.metadataqa.api.rule.singlefieldchecker.MaxWordsChecker::<init>(===de.gwdg.metadataqa.api.json.DataElement===, int)",
+  "name" : "parameter type changed",
+  "description" : "The type of the parameter changed from 'de.gwdg.metadataqa.api.json.JsonBranch' to 'de.gwdg.metadataqa.api.json.DataElement'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "POTENTIALLY_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "de.gwdg.metadataqa.api.json.JsonBranch"
+  }, {
+    "name" : "newType",
+    "value" : "de.gwdg.metadataqa.api.json.DataElement"
+  }, {
+    "name" : "package",
+    "value" : "de.gwdg.metadataqa.api.rule.singlefieldchecker"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "de.gwdg.metadataqa.api.rule.singlefieldchecker.MaxWordsChecker"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "MaxWordsChecker"
+  }, {
+    "name" : "methodName",
+    "value" : "<init>"
+  }, {
+    "name" : "parameterIndex",
+    "value" : "0"
+  }, {
+    "name" : "elementKind",
+    "value" : "parameter"
+  }, {
+    "name" : "oldArchive",
+    "value" : "metadata-qa-api-0.8.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "metadata-qa-api-0.9.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.parameterTypeChanged",
+  "old" : "parameter void de.gwdg.metadataqa.api.rule.singlefieldchecker.MaxWordsChecker::<init>(===de.gwdg.metadataqa.api.json.JsonBranch===, java.lang.String, int)",
+  "new" : "parameter void de.gwdg.metadataqa.api.rule.singlefieldchecker.MaxWordsChecker::<init>(===de.gwdg.metadataqa.api.json.DataElement===, java.lang.String, int)",
+  "name" : "parameter type changed",
+  "description" : "The type of the parameter changed from 'de.gwdg.metadataqa.api.json.JsonBranch' to 'de.gwdg.metadataqa.api.json.DataElement'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "POTENTIALLY_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "de.gwdg.metadataqa.api.json.JsonBranch"
+  }, {
+    "name" : "newType",
+    "value" : "de.gwdg.metadataqa.api.json.DataElement"
+  }, {
+    "name" : "package",
+    "value" : "de.gwdg.metadataqa.api.rule.singlefieldchecker"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "de.gwdg.metadataqa.api.rule.singlefieldchecker.MaxWordsChecker"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "MaxWordsChecker"
+  }, {
+    "name" : "methodName",
+    "value" : "<init>"
+  }, {
+    "name" : "parameterIndex",
+    "value" : "0"
+  }, {
+    "name" : "elementKind",
+    "value" : "parameter"
+  }, {
+    "name" : "oldArchive",
+    "value" : "metadata-qa-api-0.8.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "metadata-qa-api-0.9.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.parameterTypeChanged",
+  "old" : "parameter void de.gwdg.metadataqa.api.rule.singlefieldchecker.MinCountChecker::<init>(===de.gwdg.metadataqa.api.json.JsonBranch===, java.lang.Integer)",
+  "new" : "parameter void de.gwdg.metadataqa.api.rule.singlefieldchecker.MinCountChecker::<init>(===de.gwdg.metadataqa.api.json.DataElement===, java.lang.Integer)",
+  "name" : "parameter type changed",
+  "description" : "The type of the parameter changed from 'de.gwdg.metadataqa.api.json.JsonBranch' to 'de.gwdg.metadataqa.api.json.DataElement'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "POTENTIALLY_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "de.gwdg.metadataqa.api.json.JsonBranch"
+  }, {
+    "name" : "newType",
+    "value" : "de.gwdg.metadataqa.api.json.DataElement"
+  }, {
+    "name" : "package",
+    "value" : "de.gwdg.metadataqa.api.rule.singlefieldchecker"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "de.gwdg.metadataqa.api.rule.singlefieldchecker.MinCountChecker"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "MinCountChecker"
+  }, {
+    "name" : "methodName",
+    "value" : "<init>"
+  }, {
+    "name" : "parameterIndex",
+    "value" : "0"
+  }, {
+    "name" : "elementKind",
+    "value" : "parameter"
+  }, {
+    "name" : "oldArchive",
+    "value" : "metadata-qa-api-0.8.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "metadata-qa-api-0.9.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.parameterTypeChanged",
+  "old" : "parameter void de.gwdg.metadataqa.api.rule.singlefieldchecker.MinCountChecker::<init>(===de.gwdg.metadataqa.api.json.JsonBranch===, java.lang.String, java.lang.Integer)",
+  "new" : "parameter void de.gwdg.metadataqa.api.rule.singlefieldchecker.MinCountChecker::<init>(===de.gwdg.metadataqa.api.json.DataElement===, java.lang.String, java.lang.Integer)",
+  "name" : "parameter type changed",
+  "description" : "The type of the parameter changed from 'de.gwdg.metadataqa.api.json.JsonBranch' to 'de.gwdg.metadataqa.api.json.DataElement'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "POTENTIALLY_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "de.gwdg.metadataqa.api.json.JsonBranch"
+  }, {
+    "name" : "newType",
+    "value" : "de.gwdg.metadataqa.api.json.DataElement"
+  }, {
+    "name" : "package",
+    "value" : "de.gwdg.metadataqa.api.rule.singlefieldchecker"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "de.gwdg.metadataqa.api.rule.singlefieldchecker.MinCountChecker"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "MinCountChecker"
+  }, {
+    "name" : "methodName",
+    "value" : "<init>"
+  }, {
+    "name" : "parameterIndex",
+    "value" : "0"
+  }, {
+    "name" : "elementKind",
+    "value" : "parameter"
+  }, {
+    "name" : "oldArchive",
+    "value" : "metadata-qa-api-0.8.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "metadata-qa-api-0.9.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.parameterTypeChanged",
+  "old" : "parameter void de.gwdg.metadataqa.api.rule.singlefieldchecker.MinLengthChecker::<init>(===de.gwdg.metadataqa.api.json.JsonBranch===, java.lang.Integer)",
+  "new" : "parameter void de.gwdg.metadataqa.api.rule.singlefieldchecker.MinLengthChecker::<init>(===de.gwdg.metadataqa.api.json.DataElement===, java.lang.Integer)",
+  "name" : "parameter type changed",
+  "description" : "The type of the parameter changed from 'de.gwdg.metadataqa.api.json.JsonBranch' to 'de.gwdg.metadataqa.api.json.DataElement'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "POTENTIALLY_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "de.gwdg.metadataqa.api.json.JsonBranch"
+  }, {
+    "name" : "newType",
+    "value" : "de.gwdg.metadataqa.api.json.DataElement"
+  }, {
+    "name" : "package",
+    "value" : "de.gwdg.metadataqa.api.rule.singlefieldchecker"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "de.gwdg.metadataqa.api.rule.singlefieldchecker.MinLengthChecker"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "MinLengthChecker"
+  }, {
+    "name" : "methodName",
+    "value" : "<init>"
+  }, {
+    "name" : "parameterIndex",
+    "value" : "0"
+  }, {
+    "name" : "elementKind",
+    "value" : "parameter"
+  }, {
+    "name" : "oldArchive",
+    "value" : "metadata-qa-api-0.8.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "metadata-qa-api-0.9.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.parameterTypeChanged",
+  "old" : "parameter void de.gwdg.metadataqa.api.rule.singlefieldchecker.MinLengthChecker::<init>(===de.gwdg.metadataqa.api.json.JsonBranch===, java.lang.String, java.lang.Integer)",
+  "new" : "parameter void de.gwdg.metadataqa.api.rule.singlefieldchecker.MinLengthChecker::<init>(===de.gwdg.metadataqa.api.json.DataElement===, java.lang.String, java.lang.Integer)",
+  "name" : "parameter type changed",
+  "description" : "The type of the parameter changed from 'de.gwdg.metadataqa.api.json.JsonBranch' to 'de.gwdg.metadataqa.api.json.DataElement'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "POTENTIALLY_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "de.gwdg.metadataqa.api.json.JsonBranch"
+  }, {
+    "name" : "newType",
+    "value" : "de.gwdg.metadataqa.api.json.DataElement"
+  }, {
+    "name" : "package",
+    "value" : "de.gwdg.metadataqa.api.rule.singlefieldchecker"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "de.gwdg.metadataqa.api.rule.singlefieldchecker.MinLengthChecker"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "MinLengthChecker"
+  }, {
+    "name" : "methodName",
+    "value" : "<init>"
+  }, {
+    "name" : "parameterIndex",
+    "value" : "0"
+  }, {
+    "name" : "elementKind",
+    "value" : "parameter"
+  }, {
+    "name" : "oldArchive",
+    "value" : "metadata-qa-api-0.8.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "metadata-qa-api-0.9.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.field.constantValueChanged",
+  "old" : "field de.gwdg.metadataqa.api.rule.singlefieldchecker.MinWordsChecker.PREFIX",
+  "new" : "field de.gwdg.metadataqa.api.rule.singlefieldchecker.MinWordsChecker.PREFIX",
+  "name" : "constant field changed value",
+  "description" : "Constant field changed value from 'maxWords' to 'minWords'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SEMANTIC",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldValue",
+    "value" : "maxWords"
+  }, {
+    "name" : "newValue",
+    "value" : "minWords"
+  }, {
+    "name" : "package",
+    "value" : "de.gwdg.metadataqa.api.rule.singlefieldchecker"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "de.gwdg.metadataqa.api.rule.singlefieldchecker.MinWordsChecker"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "MinWordsChecker"
+  }, {
+    "name" : "fieldName",
+    "value" : "PREFIX"
+  }, {
+    "name" : "elementKind",
+    "value" : "field"
+  }, {
+    "name" : "oldArchive",
+    "value" : "metadata-qa-api-0.8.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "metadata-qa-api-0.9.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.field.removed",
+  "old" : "field de.gwdg.metadataqa.api.rule.singlefieldchecker.MinWordsChecker.maxWords",
+  "new" : null,
+  "name" : "field removed",
+  "description" : "Field removed from class.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "de.gwdg.metadataqa.api.rule.singlefieldchecker"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "de.gwdg.metadataqa.api.rule.singlefieldchecker.MinWordsChecker"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "MinWordsChecker"
+  }, {
+    "name" : "fieldName",
+    "value" : "maxWords"
+  }, {
+    "name" : "elementKind",
+    "value" : "field"
+  }, {
+    "name" : "oldArchive",
+    "value" : "metadata-qa-api-0.8.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.parameterTypeChanged",
+  "old" : "parameter void de.gwdg.metadataqa.api.rule.singlefieldchecker.MinWordsChecker::<init>(===de.gwdg.metadataqa.api.json.JsonBranch===, int)",
+  "new" : "parameter void de.gwdg.metadataqa.api.rule.singlefieldchecker.MinWordsChecker::<init>(===de.gwdg.metadataqa.api.json.DataElement===, int)",
+  "name" : "parameter type changed",
+  "description" : "The type of the parameter changed from 'de.gwdg.metadataqa.api.json.JsonBranch' to 'de.gwdg.metadataqa.api.json.DataElement'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "POTENTIALLY_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "de.gwdg.metadataqa.api.json.JsonBranch"
+  }, {
+    "name" : "newType",
+    "value" : "de.gwdg.metadataqa.api.json.DataElement"
+  }, {
+    "name" : "package",
+    "value" : "de.gwdg.metadataqa.api.rule.singlefieldchecker"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "de.gwdg.metadataqa.api.rule.singlefieldchecker.MinWordsChecker"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "MinWordsChecker"
+  }, {
+    "name" : "methodName",
+    "value" : "<init>"
+  }, {
+    "name" : "parameterIndex",
+    "value" : "0"
+  }, {
+    "name" : "elementKind",
+    "value" : "parameter"
+  }, {
+    "name" : "oldArchive",
+    "value" : "metadata-qa-api-0.8.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "metadata-qa-api-0.9.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.parameterTypeChanged",
+  "old" : "parameter void de.gwdg.metadataqa.api.rule.singlefieldchecker.MinWordsChecker::<init>(===de.gwdg.metadataqa.api.json.JsonBranch===, java.lang.String, int)",
+  "new" : "parameter void de.gwdg.metadataqa.api.rule.singlefieldchecker.MinWordsChecker::<init>(===de.gwdg.metadataqa.api.json.DataElement===, java.lang.String, int)",
+  "name" : "parameter type changed",
+  "description" : "The type of the parameter changed from 'de.gwdg.metadataqa.api.json.JsonBranch' to 'de.gwdg.metadataqa.api.json.DataElement'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "POTENTIALLY_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "de.gwdg.metadataqa.api.json.JsonBranch"
+  }, {
+    "name" : "newType",
+    "value" : "de.gwdg.metadataqa.api.json.DataElement"
+  }, {
+    "name" : "package",
+    "value" : "de.gwdg.metadataqa.api.rule.singlefieldchecker"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "de.gwdg.metadataqa.api.rule.singlefieldchecker.MinWordsChecker"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "MinWordsChecker"
+  }, {
+    "name" : "methodName",
+    "value" : "<init>"
+  }, {
+    "name" : "parameterIndex",
+    "value" : "0"
+  }, {
+    "name" : "elementKind",
+    "value" : "parameter"
+  }, {
+    "name" : "oldArchive",
+    "value" : "metadata-qa-api-0.8.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "metadata-qa-api-0.9.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.parameterTypeChanged",
+  "old" : "parameter void de.gwdg.metadataqa.api.rule.singlefieldchecker.NumericValueChecker::<init>(===de.gwdg.metadataqa.api.json.JsonBranch===, double, de.gwdg.metadataqa.api.rule.singlefieldchecker.NumericValueChecker.TYPE)",
+  "new" : "parameter void de.gwdg.metadataqa.api.rule.singlefieldchecker.NumericValueChecker::<init>(===de.gwdg.metadataqa.api.json.DataElement===, double, de.gwdg.metadataqa.api.rule.singlefieldchecker.NumericValueChecker.TYPE)",
+  "name" : "parameter type changed",
+  "description" : "The type of the parameter changed from 'de.gwdg.metadataqa.api.json.JsonBranch' to 'de.gwdg.metadataqa.api.json.DataElement'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "POTENTIALLY_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "de.gwdg.metadataqa.api.json.JsonBranch"
+  }, {
+    "name" : "newType",
+    "value" : "de.gwdg.metadataqa.api.json.DataElement"
+  }, {
+    "name" : "package",
+    "value" : "de.gwdg.metadataqa.api.rule.singlefieldchecker"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "de.gwdg.metadataqa.api.rule.singlefieldchecker.NumericValueChecker"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "NumericValueChecker"
+  }, {
+    "name" : "methodName",
+    "value" : "<init>"
+  }, {
+    "name" : "parameterIndex",
+    "value" : "0"
+  }, {
+    "name" : "elementKind",
+    "value" : "parameter"
+  }, {
+    "name" : "oldArchive",
+    "value" : "metadata-qa-api-0.8.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "metadata-qa-api-0.9.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.parameterTypeChanged",
+  "old" : "parameter void de.gwdg.metadataqa.api.rule.singlefieldchecker.NumericValueChecker::<init>(===de.gwdg.metadataqa.api.json.JsonBranch===, int, de.gwdg.metadataqa.api.rule.singlefieldchecker.NumericValueChecker.TYPE)",
+  "new" : "parameter void de.gwdg.metadataqa.api.rule.singlefieldchecker.NumericValueChecker::<init>(===de.gwdg.metadataqa.api.json.DataElement===, int, de.gwdg.metadataqa.api.rule.singlefieldchecker.NumericValueChecker.TYPE)",
+  "name" : "parameter type changed",
+  "description" : "The type of the parameter changed from 'de.gwdg.metadataqa.api.json.JsonBranch' to 'de.gwdg.metadataqa.api.json.DataElement'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "POTENTIALLY_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "de.gwdg.metadataqa.api.json.JsonBranch"
+  }, {
+    "name" : "newType",
+    "value" : "de.gwdg.metadataqa.api.json.DataElement"
+  }, {
+    "name" : "package",
+    "value" : "de.gwdg.metadataqa.api.rule.singlefieldchecker"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "de.gwdg.metadataqa.api.rule.singlefieldchecker.NumericValueChecker"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "NumericValueChecker"
+  }, {
+    "name" : "methodName",
+    "value" : "<init>"
+  }, {
+    "name" : "parameterIndex",
+    "value" : "0"
+  }, {
+    "name" : "elementKind",
+    "value" : "parameter"
+  }, {
+    "name" : "oldArchive",
+    "value" : "metadata-qa-api-0.8.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "metadata-qa-api-0.9.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.parameterTypeChanged",
+  "old" : "parameter void de.gwdg.metadataqa.api.rule.singlefieldchecker.PatternChecker::<init>(===de.gwdg.metadataqa.api.json.JsonBranch===, java.lang.String)",
+  "new" : "parameter void de.gwdg.metadataqa.api.rule.singlefieldchecker.PatternChecker::<init>(===de.gwdg.metadataqa.api.json.DataElement===, java.lang.String)",
+  "name" : "parameter type changed",
+  "description" : "The type of the parameter changed from 'de.gwdg.metadataqa.api.json.JsonBranch' to 'de.gwdg.metadataqa.api.json.DataElement'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "POTENTIALLY_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "de.gwdg.metadataqa.api.json.JsonBranch"
+  }, {
+    "name" : "newType",
+    "value" : "de.gwdg.metadataqa.api.json.DataElement"
+  }, {
+    "name" : "package",
+    "value" : "de.gwdg.metadataqa.api.rule.singlefieldchecker"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "de.gwdg.metadataqa.api.rule.singlefieldchecker.PatternChecker"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "PatternChecker"
+  }, {
+    "name" : "methodName",
+    "value" : "<init>"
+  }, {
+    "name" : "parameterIndex",
+    "value" : "0"
+  }, {
+    "name" : "elementKind",
+    "value" : "parameter"
+  }, {
+    "name" : "oldArchive",
+    "value" : "metadata-qa-api-0.8.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "metadata-qa-api-0.9.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.parameterTypeChanged",
+  "old" : "parameter void de.gwdg.metadataqa.api.rule.singlefieldchecker.PatternChecker::<init>(===de.gwdg.metadataqa.api.json.JsonBranch===, java.lang.String, java.lang.String)",
+  "new" : "parameter void de.gwdg.metadataqa.api.rule.singlefieldchecker.PatternChecker::<init>(===de.gwdg.metadataqa.api.json.DataElement===, java.lang.String, java.lang.String)",
+  "name" : "parameter type changed",
+  "description" : "The type of the parameter changed from 'de.gwdg.metadataqa.api.json.JsonBranch' to 'de.gwdg.metadataqa.api.json.DataElement'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "POTENTIALLY_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "de.gwdg.metadataqa.api.json.JsonBranch"
+  }, {
+    "name" : "newType",
+    "value" : "de.gwdg.metadataqa.api.json.DataElement"
+  }, {
+    "name" : "package",
+    "value" : "de.gwdg.metadataqa.api.rule.singlefieldchecker"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "de.gwdg.metadataqa.api.rule.singlefieldchecker.PatternChecker"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "PatternChecker"
+  }, {
+    "name" : "methodName",
+    "value" : "<init>"
+  }, {
+    "name" : "parameterIndex",
+    "value" : "0"
+  }, {
+    "name" : "elementKind",
+    "value" : "parameter"
+  }, {
+    "name" : "oldArchive",
+    "value" : "metadata-qa-api-0.8.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "metadata-qa-api-0.9.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.field.typeChanged",
+  "old" : "field de.gwdg.metadataqa.api.rule.singlefieldchecker.SingleFieldChecker.field",
+  "new" : "field de.gwdg.metadataqa.api.rule.singlefieldchecker.SingleFieldChecker.field",
+  "name" : "field type changed",
+  "description" : "The type of the field changed from 'de.gwdg.metadataqa.api.json.JsonBranch' to 'de.gwdg.metadataqa.api.json.DataElement'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "de.gwdg.metadataqa.api.json.JsonBranch"
+  }, {
+    "name" : "newType",
+    "value" : "de.gwdg.metadataqa.api.json.DataElement"
+  }, {
+    "name" : "package",
+    "value" : "de.gwdg.metadataqa.api.rule.singlefieldchecker"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "de.gwdg.metadataqa.api.rule.singlefieldchecker.SingleFieldChecker"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "SingleFieldChecker"
+  }, {
+    "name" : "fieldName",
+    "value" : "field"
+  }, {
+    "name" : "elementKind",
+    "value" : "field"
+  }, {
+    "name" : "oldArchive",
+    "value" : "metadata-qa-api-0.8.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "metadata-qa-api-0.9.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.parameterTypeChanged",
+  "old" : "parameter void de.gwdg.metadataqa.api.rule.singlefieldchecker.SingleFieldChecker::<init>(===de.gwdg.metadataqa.api.json.JsonBranch===, java.lang.String)",
+  "new" : "parameter void de.gwdg.metadataqa.api.rule.singlefieldchecker.SingleFieldChecker::<init>(===de.gwdg.metadataqa.api.json.DataElement===, java.lang.String)",
+  "name" : "parameter type changed",
+  "description" : "The type of the parameter changed from 'de.gwdg.metadataqa.api.json.JsonBranch' to 'de.gwdg.metadataqa.api.json.DataElement'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "POTENTIALLY_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "de.gwdg.metadataqa.api.json.JsonBranch"
+  }, {
+    "name" : "newType",
+    "value" : "de.gwdg.metadataqa.api.json.DataElement"
+  }, {
+    "name" : "package",
+    "value" : "de.gwdg.metadataqa.api.rule.singlefieldchecker"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "de.gwdg.metadataqa.api.rule.singlefieldchecker.SingleFieldChecker"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "SingleFieldChecker"
+  }, {
+    "name" : "methodName",
+    "value" : "<init>"
+  }, {
+    "name" : "parameterIndex",
+    "value" : "0"
+  }, {
+    "name" : "elementKind",
+    "value" : "parameter"
+  }, {
+    "name" : "oldArchive",
+    "value" : "metadata-qa-api-0.8.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "metadata-qa-api-0.9.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.parameterTypeChanged",
+  "old" : "parameter de.gwdg.metadataqa.api.schema.BaseSchema de.gwdg.metadataqa.api.schema.BaseSchema::addField(===de.gwdg.metadataqa.api.json.JsonBranch===)",
+  "new" : "parameter de.gwdg.metadataqa.api.schema.BaseSchema de.gwdg.metadataqa.api.schema.BaseSchema::addField(===de.gwdg.metadataqa.api.json.DataElement===)",
+  "name" : "parameter type changed",
+  "description" : "The type of the parameter changed from 'de.gwdg.metadataqa.api.json.JsonBranch' to 'de.gwdg.metadataqa.api.json.DataElement'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "POTENTIALLY_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "de.gwdg.metadataqa.api.json.JsonBranch"
+  }, {
+    "name" : "newType",
+    "value" : "de.gwdg.metadataqa.api.json.DataElement"
+  }, {
+    "name" : "package",
+    "value" : "de.gwdg.metadataqa.api.schema"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "de.gwdg.metadataqa.api.schema.BaseSchema"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "BaseSchema"
+  }, {
+    "name" : "methodName",
+    "value" : "addField"
+  }, {
+    "name" : "parameterIndex",
+    "value" : "0"
+  }, {
+    "name" : "elementKind",
+    "value" : "parameter"
+  }, {
+    "name" : "oldArchive",
+    "value" : "metadata-qa-api-0.8.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "metadata-qa-api-0.9.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.returnTypeTypeParametersChanged",
+  "old" : "method java.util.List<de.gwdg.metadataqa.api.json.JsonBranch> de.gwdg.metadataqa.api.schema.BaseSchema::getCollectionPaths()",
+  "new" : "method java.util.List<de.gwdg.metadataqa.api.json.DataElement> de.gwdg.metadataqa.api.schema.BaseSchema::getCollectionPaths()",
+  "name" : "return type changed type parameter",
+  "description" : "The return type changed from 'java.util.List<de.gwdg.metadataqa.api.json.JsonBranch>' to 'java.util.List<de.gwdg.metadataqa.api.json.DataElement>'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "java.util.List<de.gwdg.metadataqa.api.json.JsonBranch>"
+  }, {
+    "name" : "newType",
+    "value" : "java.util.List<de.gwdg.metadataqa.api.json.DataElement>"
+  }, {
+    "name" : "package",
+    "value" : "de.gwdg.metadataqa.api.schema"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "de.gwdg.metadataqa.api.schema.BaseSchema"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "BaseSchema"
+  }, {
+    "name" : "methodName",
+    "value" : "getCollectionPaths"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "metadata-qa-api-0.8.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "metadata-qa-api-0.9.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.returnTypeTypeParametersChanged",
+  "old" : "method java.util.List<de.gwdg.metadataqa.api.json.JsonBranch> de.gwdg.metadataqa.api.schema.BaseSchema::getIndexFields()",
+  "new" : "method java.util.List<de.gwdg.metadataqa.api.json.DataElement> de.gwdg.metadataqa.api.schema.BaseSchema::getIndexFields()",
+  "name" : "return type changed type parameter",
+  "description" : "The return type changed from 'java.util.List<de.gwdg.metadataqa.api.json.JsonBranch>' to 'java.util.List<de.gwdg.metadataqa.api.json.DataElement>'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "java.util.List<de.gwdg.metadataqa.api.json.JsonBranch>"
+  }, {
+    "name" : "newType",
+    "value" : "java.util.List<de.gwdg.metadataqa.api.json.DataElement>"
+  }, {
+    "name" : "package",
+    "value" : "de.gwdg.metadataqa.api.schema"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "de.gwdg.metadataqa.api.schema.BaseSchema"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "BaseSchema"
+  }, {
+    "name" : "methodName",
+    "value" : "getIndexFields"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "metadata-qa-api-0.8.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "metadata-qa-api-0.9.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.returnTypeChanged",
+  "old" : "method de.gwdg.metadataqa.api.json.JsonBranch de.gwdg.metadataqa.api.schema.BaseSchema::getPathByLabel(java.lang.String)",
+  "new" : "method de.gwdg.metadataqa.api.json.DataElement de.gwdg.metadataqa.api.schema.BaseSchema::getPathByLabel(java.lang.String)",
+  "name" : "return type changed",
+  "description" : "The return type changed from 'de.gwdg.metadataqa.api.json.JsonBranch' to  'de.gwdg.metadataqa.api.json.DataElement'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "POTENTIALLY_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "de.gwdg.metadataqa.api.json.JsonBranch"
+  }, {
+    "name" : "newType",
+    "value" : "de.gwdg.metadataqa.api.json.DataElement"
+  }, {
+    "name" : "package",
+    "value" : "de.gwdg.metadataqa.api.schema"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "de.gwdg.metadataqa.api.schema.BaseSchema"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "BaseSchema"
+  }, {
+    "name" : "methodName",
+    "value" : "getPathByLabel"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "metadata-qa-api-0.8.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "metadata-qa-api-0.9.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.returnTypeTypeParametersChanged",
+  "old" : "method java.util.List<de.gwdg.metadataqa.api.json.JsonBranch> de.gwdg.metadataqa.api.schema.BaseSchema::getPaths()",
+  "new" : "method java.util.List<de.gwdg.metadataqa.api.json.DataElement> de.gwdg.metadataqa.api.schema.BaseSchema::getPaths()",
+  "name" : "return type changed type parameter",
+  "description" : "The return type changed from 'java.util.List<de.gwdg.metadataqa.api.json.JsonBranch>' to 'java.util.List<de.gwdg.metadataqa.api.json.DataElement>'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "java.util.List<de.gwdg.metadataqa.api.json.JsonBranch>"
+  }, {
+    "name" : "newType",
+    "value" : "java.util.List<de.gwdg.metadataqa.api.json.DataElement>"
+  }, {
+    "name" : "package",
+    "value" : "de.gwdg.metadataqa.api.schema"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "de.gwdg.metadataqa.api.schema.BaseSchema"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "BaseSchema"
+  }, {
+    "name" : "methodName",
+    "value" : "getPaths"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "metadata-qa-api-0.8.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "metadata-qa-api-0.9.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.returnTypeChanged",
+  "old" : "method de.gwdg.metadataqa.api.json.JsonBranch de.gwdg.metadataqa.api.schema.BaseSchema::getRecordId()",
+  "new" : "method de.gwdg.metadataqa.api.json.DataElement de.gwdg.metadataqa.api.schema.BaseSchema::getRecordId()",
+  "name" : "return type changed",
+  "description" : "The return type changed from 'de.gwdg.metadataqa.api.json.JsonBranch' to  'de.gwdg.metadataqa.api.json.DataElement'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "POTENTIALLY_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "de.gwdg.metadataqa.api.json.JsonBranch"
+  }, {
+    "name" : "newType",
+    "value" : "de.gwdg.metadataqa.api.json.DataElement"
+  }, {
+    "name" : "package",
+    "value" : "de.gwdg.metadataqa.api.schema"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "de.gwdg.metadataqa.api.schema.BaseSchema"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "BaseSchema"
+  }, {
+    "name" : "methodName",
+    "value" : "getRecordId"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "metadata-qa-api-0.8.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "metadata-qa-api-0.9.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.returnTypeTypeParametersChanged",
+  "old" : "method java.util.List<de.gwdg.metadataqa.api.json.JsonBranch> de.gwdg.metadataqa.api.schema.BaseSchema::getRootChildrenPaths()",
+  "new" : "method java.util.List<de.gwdg.metadataqa.api.json.DataElement> de.gwdg.metadataqa.api.schema.BaseSchema::getRootChildrenPaths()",
+  "name" : "return type changed type parameter",
+  "description" : "The return type changed from 'java.util.List<de.gwdg.metadataqa.api.json.JsonBranch>' to 'java.util.List<de.gwdg.metadataqa.api.json.DataElement>'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "java.util.List<de.gwdg.metadataqa.api.json.JsonBranch>"
+  }, {
+    "name" : "newType",
+    "value" : "java.util.List<de.gwdg.metadataqa.api.json.DataElement>"
+  }, {
+    "name" : "package",
+    "value" : "de.gwdg.metadataqa.api.schema"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "de.gwdg.metadataqa.api.schema.BaseSchema"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "BaseSchema"
+  }, {
+    "name" : "methodName",
+    "value" : "getRootChildrenPaths"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "metadata-qa-api-0.8.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "metadata-qa-api-0.9.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.parameterTypeChanged",
+  "old" : "parameter void de.gwdg.metadataqa.api.schema.BaseSchema::setRecordId(===de.gwdg.metadataqa.api.json.JsonBranch===)",
+  "new" : "parameter void de.gwdg.metadataqa.api.schema.BaseSchema::setRecordId(===de.gwdg.metadataqa.api.json.DataElement===)",
+  "name" : "parameter type changed",
+  "description" : "The type of the parameter changed from 'de.gwdg.metadataqa.api.json.JsonBranch' to 'de.gwdg.metadataqa.api.json.DataElement'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "POTENTIALLY_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "de.gwdg.metadataqa.api.json.JsonBranch"
+  }, {
+    "name" : "newType",
+    "value" : "de.gwdg.metadataqa.api.json.DataElement"
+  }, {
+    "name" : "package",
+    "value" : "de.gwdg.metadataqa.api.schema"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "de.gwdg.metadataqa.api.schema.BaseSchema"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "BaseSchema"
+  }, {
+    "name" : "methodName",
+    "value" : "setRecordId"
+  }, {
+    "name" : "parameterIndex",
+    "value" : "0"
+  }, {
+    "name" : "elementKind",
+    "value" : "parameter"
+  }, {
+    "name" : "oldArchive",
+    "value" : "metadata-qa-api-0.8.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "metadata-qa-api-0.9.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.returnTypeTypeParametersChanged",
+  "old" : "method java.util.List<de.gwdg.metadataqa.api.json.JsonBranch> de.gwdg.metadataqa.api.schema.MarcJsonSchema::getCollectionPaths()",
+  "new" : "method java.util.List<de.gwdg.metadataqa.api.json.DataElement> de.gwdg.metadataqa.api.schema.MarcJsonSchema::getCollectionPaths()",
+  "name" : "return type changed type parameter",
+  "description" : "The return type changed from 'java.util.List<de.gwdg.metadataqa.api.json.JsonBranch>' to 'java.util.List<de.gwdg.metadataqa.api.json.DataElement>'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "java.util.List<de.gwdg.metadataqa.api.json.JsonBranch>"
+  }, {
+    "name" : "newType",
+    "value" : "java.util.List<de.gwdg.metadataqa.api.json.DataElement>"
+  }, {
+    "name" : "package",
+    "value" : "de.gwdg.metadataqa.api.schema"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "de.gwdg.metadataqa.api.schema.MarcJsonSchema"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "MarcJsonSchema"
+  }, {
+    "name" : "methodName",
+    "value" : "getCollectionPaths"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "metadata-qa-api-0.8.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "metadata-qa-api-0.9.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.returnTypeTypeParametersChanged",
+  "old" : "method java.util.List<de.gwdg.metadataqa.api.json.JsonBranch> de.gwdg.metadataqa.api.schema.MarcJsonSchema::getIndexFields()",
+  "new" : "method java.util.List<de.gwdg.metadataqa.api.json.DataElement> de.gwdg.metadataqa.api.schema.MarcJsonSchema::getIndexFields()",
+  "name" : "return type changed type parameter",
+  "description" : "The return type changed from 'java.util.List<de.gwdg.metadataqa.api.json.JsonBranch>' to 'java.util.List<de.gwdg.metadataqa.api.json.DataElement>'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "java.util.List<de.gwdg.metadataqa.api.json.JsonBranch>"
+  }, {
+    "name" : "newType",
+    "value" : "java.util.List<de.gwdg.metadataqa.api.json.DataElement>"
+  }, {
+    "name" : "package",
+    "value" : "de.gwdg.metadataqa.api.schema"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "de.gwdg.metadataqa.api.schema.MarcJsonSchema"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "MarcJsonSchema"
+  }, {
+    "name" : "methodName",
+    "value" : "getIndexFields"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "metadata-qa-api-0.8.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "metadata-qa-api-0.9.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.returnTypeChanged",
+  "old" : "method de.gwdg.metadataqa.api.json.JsonBranch de.gwdg.metadataqa.api.schema.MarcJsonSchema::getPathByLabel(java.lang.String)",
+  "new" : "method de.gwdg.metadataqa.api.json.DataElement de.gwdg.metadataqa.api.schema.MarcJsonSchema::getPathByLabel(java.lang.String)",
+  "name" : "return type changed",
+  "description" : "The return type changed from 'de.gwdg.metadataqa.api.json.JsonBranch' to  'de.gwdg.metadataqa.api.json.DataElement'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "POTENTIALLY_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "de.gwdg.metadataqa.api.json.JsonBranch"
+  }, {
+    "name" : "newType",
+    "value" : "de.gwdg.metadataqa.api.json.DataElement"
+  }, {
+    "name" : "package",
+    "value" : "de.gwdg.metadataqa.api.schema"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "de.gwdg.metadataqa.api.schema.MarcJsonSchema"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "MarcJsonSchema"
+  }, {
+    "name" : "methodName",
+    "value" : "getPathByLabel"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "metadata-qa-api-0.8.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "metadata-qa-api-0.9.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.returnTypeTypeParametersChanged",
+  "old" : "method java.util.List<de.gwdg.metadataqa.api.json.JsonBranch> de.gwdg.metadataqa.api.schema.MarcJsonSchema::getPaths()",
+  "new" : "method java.util.List<de.gwdg.metadataqa.api.json.DataElement> de.gwdg.metadataqa.api.schema.MarcJsonSchema::getPaths()",
+  "name" : "return type changed type parameter",
+  "description" : "The return type changed from 'java.util.List<de.gwdg.metadataqa.api.json.JsonBranch>' to 'java.util.List<de.gwdg.metadataqa.api.json.DataElement>'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "java.util.List<de.gwdg.metadataqa.api.json.JsonBranch>"
+  }, {
+    "name" : "newType",
+    "value" : "java.util.List<de.gwdg.metadataqa.api.json.DataElement>"
+  }, {
+    "name" : "package",
+    "value" : "de.gwdg.metadataqa.api.schema"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "de.gwdg.metadataqa.api.schema.MarcJsonSchema"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "MarcJsonSchema"
+  }, {
+    "name" : "methodName",
+    "value" : "getPaths"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "metadata-qa-api-0.8.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "metadata-qa-api-0.9.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.returnTypeChanged",
+  "old" : "method de.gwdg.metadataqa.api.json.JsonBranch de.gwdg.metadataqa.api.schema.MarcJsonSchema::getRecordId()",
+  "new" : "method de.gwdg.metadataqa.api.json.DataElement de.gwdg.metadataqa.api.schema.MarcJsonSchema::getRecordId()",
+  "name" : "return type changed",
+  "description" : "The return type changed from 'de.gwdg.metadataqa.api.json.JsonBranch' to  'de.gwdg.metadataqa.api.json.DataElement'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "POTENTIALLY_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "de.gwdg.metadataqa.api.json.JsonBranch"
+  }, {
+    "name" : "newType",
+    "value" : "de.gwdg.metadataqa.api.json.DataElement"
+  }, {
+    "name" : "package",
+    "value" : "de.gwdg.metadataqa.api.schema"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "de.gwdg.metadataqa.api.schema.MarcJsonSchema"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "MarcJsonSchema"
+  }, {
+    "name" : "methodName",
+    "value" : "getRecordId"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "metadata-qa-api-0.8.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "metadata-qa-api-0.9.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.returnTypeTypeParametersChanged",
+  "old" : "method java.util.List<de.gwdg.metadataqa.api.json.JsonBranch> de.gwdg.metadataqa.api.schema.MarcJsonSchema::getRootChildrenPaths()",
+  "new" : "method java.util.List<de.gwdg.metadataqa.api.json.DataElement> de.gwdg.metadataqa.api.schema.MarcJsonSchema::getRootChildrenPaths()",
+  "name" : "return type changed type parameter",
+  "description" : "The return type changed from 'java.util.List<de.gwdg.metadataqa.api.json.JsonBranch>' to 'java.util.List<de.gwdg.metadataqa.api.json.DataElement>'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "java.util.List<de.gwdg.metadataqa.api.json.JsonBranch>"
+  }, {
+    "name" : "newType",
+    "value" : "java.util.List<de.gwdg.metadataqa.api.json.DataElement>"
+  }, {
+    "name" : "package",
+    "value" : "de.gwdg.metadataqa.api.schema"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "de.gwdg.metadataqa.api.schema.MarcJsonSchema"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "MarcJsonSchema"
+  }, {
+    "name" : "methodName",
+    "value" : "getRootChildrenPaths"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "metadata-qa-api-0.8.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "metadata-qa-api-0.9.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.returnTypeTypeParametersChanged",
+  "old" : "method java.util.List<de.gwdg.metadataqa.api.json.JsonBranch> de.gwdg.metadataqa.api.schema.Schema::getCollectionPaths()",
+  "new" : "method java.util.List<de.gwdg.metadataqa.api.json.DataElement> de.gwdg.metadataqa.api.schema.Schema::getCollectionPaths()",
+  "name" : "return type changed type parameter",
+  "description" : "The return type changed from 'java.util.List<de.gwdg.metadataqa.api.json.JsonBranch>' to 'java.util.List<de.gwdg.metadataqa.api.json.DataElement>'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "java.util.List<de.gwdg.metadataqa.api.json.JsonBranch>"
+  }, {
+    "name" : "newType",
+    "value" : "java.util.List<de.gwdg.metadataqa.api.json.DataElement>"
+  }, {
+    "name" : "package",
+    "value" : "de.gwdg.metadataqa.api.schema"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "de.gwdg.metadataqa.api.schema.Schema"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "Schema"
+  }, {
+    "name" : "methodName",
+    "value" : "getCollectionPaths"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "metadata-qa-api-0.8.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "metadata-qa-api-0.9.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.returnTypeTypeParametersChanged",
+  "old" : "method java.util.List<de.gwdg.metadataqa.api.json.JsonBranch> de.gwdg.metadataqa.api.schema.Schema::getIndexFields()",
+  "new" : "method java.util.List<de.gwdg.metadataqa.api.json.DataElement> de.gwdg.metadataqa.api.schema.Schema::getIndexFields()",
+  "name" : "return type changed type parameter",
+  "description" : "The return type changed from 'java.util.List<de.gwdg.metadataqa.api.json.JsonBranch>' to 'java.util.List<de.gwdg.metadataqa.api.json.DataElement>'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "java.util.List<de.gwdg.metadataqa.api.json.JsonBranch>"
+  }, {
+    "name" : "newType",
+    "value" : "java.util.List<de.gwdg.metadataqa.api.json.DataElement>"
+  }, {
+    "name" : "package",
+    "value" : "de.gwdg.metadataqa.api.schema"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "de.gwdg.metadataqa.api.schema.Schema"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "Schema"
+  }, {
+    "name" : "methodName",
+    "value" : "getIndexFields"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "metadata-qa-api-0.8.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "metadata-qa-api-0.9.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.returnTypeChanged",
+  "old" : "method de.gwdg.metadataqa.api.json.JsonBranch de.gwdg.metadataqa.api.schema.Schema::getPathByLabel(java.lang.String)",
+  "new" : "method de.gwdg.metadataqa.api.json.DataElement de.gwdg.metadataqa.api.schema.Schema::getPathByLabel(java.lang.String)",
+  "name" : "return type changed",
+  "description" : "The return type changed from 'de.gwdg.metadataqa.api.json.JsonBranch' to  'de.gwdg.metadataqa.api.json.DataElement'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "POTENTIALLY_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "de.gwdg.metadataqa.api.json.JsonBranch"
+  }, {
+    "name" : "newType",
+    "value" : "de.gwdg.metadataqa.api.json.DataElement"
+  }, {
+    "name" : "package",
+    "value" : "de.gwdg.metadataqa.api.schema"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "de.gwdg.metadataqa.api.schema.Schema"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "Schema"
+  }, {
+    "name" : "methodName",
+    "value" : "getPathByLabel"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "metadata-qa-api-0.8.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "metadata-qa-api-0.9.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.returnTypeTypeParametersChanged",
+  "old" : "method java.util.List<de.gwdg.metadataqa.api.json.JsonBranch> de.gwdg.metadataqa.api.schema.Schema::getPaths()",
+  "new" : "method java.util.List<de.gwdg.metadataqa.api.json.DataElement> de.gwdg.metadataqa.api.schema.Schema::getPaths()",
+  "name" : "return type changed type parameter",
+  "description" : "The return type changed from 'java.util.List<de.gwdg.metadataqa.api.json.JsonBranch>' to 'java.util.List<de.gwdg.metadataqa.api.json.DataElement>'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "java.util.List<de.gwdg.metadataqa.api.json.JsonBranch>"
+  }, {
+    "name" : "newType",
+    "value" : "java.util.List<de.gwdg.metadataqa.api.json.DataElement>"
+  }, {
+    "name" : "package",
+    "value" : "de.gwdg.metadataqa.api.schema"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "de.gwdg.metadataqa.api.schema.Schema"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "Schema"
+  }, {
+    "name" : "methodName",
+    "value" : "getPaths"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "metadata-qa-api-0.8.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "metadata-qa-api-0.9.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.returnTypeChanged",
+  "old" : "method de.gwdg.metadataqa.api.json.JsonBranch de.gwdg.metadataqa.api.schema.Schema::getRecordId()",
+  "new" : "method de.gwdg.metadataqa.api.json.DataElement de.gwdg.metadataqa.api.schema.Schema::getRecordId()",
+  "name" : "return type changed",
+  "description" : "The return type changed from 'de.gwdg.metadataqa.api.json.JsonBranch' to  'de.gwdg.metadataqa.api.json.DataElement'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "POTENTIALLY_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "de.gwdg.metadataqa.api.json.JsonBranch"
+  }, {
+    "name" : "newType",
+    "value" : "de.gwdg.metadataqa.api.json.DataElement"
+  }, {
+    "name" : "package",
+    "value" : "de.gwdg.metadataqa.api.schema"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "de.gwdg.metadataqa.api.schema.Schema"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "Schema"
+  }, {
+    "name" : "methodName",
+    "value" : "getRecordId"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "metadata-qa-api-0.8.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "metadata-qa-api-0.9.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.returnTypeTypeParametersChanged",
+  "old" : "method java.util.List<de.gwdg.metadataqa.api.json.JsonBranch> de.gwdg.metadataqa.api.schema.Schema::getRootChildrenPaths()",
+  "new" : "method java.util.List<de.gwdg.metadataqa.api.json.DataElement> de.gwdg.metadataqa.api.schema.Schema::getRootChildrenPaths()",
+  "name" : "return type changed type parameter",
+  "description" : "The return type changed from 'java.util.List<de.gwdg.metadataqa.api.json.JsonBranch>' to 'java.util.List<de.gwdg.metadataqa.api.json.DataElement>'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "java.util.List<de.gwdg.metadataqa.api.json.JsonBranch>"
+  }, {
+    "name" : "newType",
+    "value" : "java.util.List<de.gwdg.metadataqa.api.json.DataElement>"
+  }, {
+    "name" : "package",
+    "value" : "de.gwdg.metadataqa.api.schema"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "de.gwdg.metadataqa.api.schema.Schema"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "Schema"
+  }, {
+    "name" : "methodName",
+    "value" : "getRootChildrenPaths"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "metadata-qa-api-0.8.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "metadata-qa-api-0.9.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.returnTypeTypeParametersChanged",
+  "old" : "method java.util.List<de.gwdg.metadataqa.api.json.JsonBranch> de.gwdg.metadataqa.api.schema.edm.EdmFullBeanLimitedSchema::getCollectionPaths()",
+  "new" : "method java.util.List<de.gwdg.metadataqa.api.json.DataElement> de.gwdg.metadataqa.api.schema.edm.EdmFullBeanLimitedSchema::getCollectionPaths()",
+  "name" : "return type changed type parameter",
+  "description" : "The return type changed from 'java.util.List<de.gwdg.metadataqa.api.json.JsonBranch>' to 'java.util.List<de.gwdg.metadataqa.api.json.DataElement>'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "java.util.List<de.gwdg.metadataqa.api.json.JsonBranch>"
+  }, {
+    "name" : "newType",
+    "value" : "java.util.List<de.gwdg.metadataqa.api.json.DataElement>"
+  }, {
+    "name" : "package",
+    "value" : "de.gwdg.metadataqa.api.schema.edm"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "de.gwdg.metadataqa.api.schema.edm.EdmFullBeanLimitedSchema"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "EdmFullBeanLimitedSchema"
+  }, {
+    "name" : "methodName",
+    "value" : "getCollectionPaths"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "metadata-qa-api-0.8.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "metadata-qa-api-0.9.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.returnTypeTypeParametersChanged",
+  "old" : "method java.util.List<de.gwdg.metadataqa.api.json.JsonBranch> de.gwdg.metadataqa.api.schema.edm.EdmFullBeanSchema::getCollectionPaths()",
+  "new" : "method java.util.List<de.gwdg.metadataqa.api.json.DataElement> de.gwdg.metadataqa.api.schema.edm.EdmFullBeanSchema::getCollectionPaths()",
+  "name" : "return type changed type parameter",
+  "description" : "The return type changed from 'java.util.List<de.gwdg.metadataqa.api.json.JsonBranch>' to 'java.util.List<de.gwdg.metadataqa.api.json.DataElement>'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "java.util.List<de.gwdg.metadataqa.api.json.JsonBranch>"
+  }, {
+    "name" : "newType",
+    "value" : "java.util.List<de.gwdg.metadataqa.api.json.DataElement>"
+  }, {
+    "name" : "package",
+    "value" : "de.gwdg.metadataqa.api.schema.edm"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "de.gwdg.metadataqa.api.schema.edm.EdmFullBeanSchema"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "EdmFullBeanSchema"
+  }, {
+    "name" : "methodName",
+    "value" : "getCollectionPaths"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "metadata-qa-api-0.8.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "metadata-qa-api-0.9.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.returnTypeTypeParametersChanged",
+  "old" : "method java.util.List<de.gwdg.metadataqa.api.json.JsonBranch> de.gwdg.metadataqa.api.schema.edm.EdmOaiPmLimitedJsonSchema::getCollectionPaths()",
+  "new" : "method java.util.List<de.gwdg.metadataqa.api.json.DataElement> de.gwdg.metadataqa.api.schema.edm.EdmOaiPmLimitedJsonSchema::getCollectionPaths()",
+  "name" : "return type changed type parameter",
+  "description" : "The return type changed from 'java.util.List<de.gwdg.metadataqa.api.json.JsonBranch>' to 'java.util.List<de.gwdg.metadataqa.api.json.DataElement>'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "java.util.List<de.gwdg.metadataqa.api.json.JsonBranch>"
+  }, {
+    "name" : "newType",
+    "value" : "java.util.List<de.gwdg.metadataqa.api.json.DataElement>"
+  }, {
+    "name" : "package",
+    "value" : "de.gwdg.metadataqa.api.schema.edm"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "de.gwdg.metadataqa.api.schema.edm.EdmOaiPmLimitedJsonSchema"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "EdmOaiPmLimitedJsonSchema"
+  }, {
+    "name" : "methodName",
+    "value" : "getCollectionPaths"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "metadata-qa-api-0.8.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "metadata-qa-api-0.9.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.returnTypeChanged",
+  "old" : "method de.gwdg.metadataqa.api.json.JsonBranch de.gwdg.metadataqa.api.schema.edm.EdmOaiPmLimitedJsonSchema::getPathByLabel(java.lang.String)",
+  "new" : "method de.gwdg.metadataqa.api.json.DataElement de.gwdg.metadataqa.api.schema.edm.EdmOaiPmLimitedJsonSchema::getPathByLabel(java.lang.String)",
+  "name" : "return type changed",
+  "description" : "The return type changed from 'de.gwdg.metadataqa.api.json.JsonBranch' to  'de.gwdg.metadataqa.api.json.DataElement'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "POTENTIALLY_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "de.gwdg.metadataqa.api.json.JsonBranch"
+  }, {
+    "name" : "newType",
+    "value" : "de.gwdg.metadataqa.api.json.DataElement"
+  }, {
+    "name" : "package",
+    "value" : "de.gwdg.metadataqa.api.schema.edm"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "de.gwdg.metadataqa.api.schema.edm.EdmOaiPmLimitedJsonSchema"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "EdmOaiPmLimitedJsonSchema"
+  }, {
+    "name" : "methodName",
+    "value" : "getPathByLabel"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "metadata-qa-api-0.8.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "metadata-qa-api-0.9.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.returnTypeTypeParametersChanged",
+  "old" : "method java.util.List<de.gwdg.metadataqa.api.json.JsonBranch> de.gwdg.metadataqa.api.schema.edm.EdmOaiPmLimitedJsonSchema::getRootChildrenPaths()",
+  "new" : "method java.util.List<de.gwdg.metadataqa.api.json.DataElement> de.gwdg.metadataqa.api.schema.edm.EdmOaiPmLimitedJsonSchema::getRootChildrenPaths()",
+  "name" : "return type changed type parameter",
+  "description" : "The return type changed from 'java.util.List<de.gwdg.metadataqa.api.json.JsonBranch>' to 'java.util.List<de.gwdg.metadataqa.api.json.DataElement>'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "java.util.List<de.gwdg.metadataqa.api.json.JsonBranch>"
+  }, {
+    "name" : "newType",
+    "value" : "java.util.List<de.gwdg.metadataqa.api.json.DataElement>"
+  }, {
+    "name" : "package",
+    "value" : "de.gwdg.metadataqa.api.schema.edm"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "de.gwdg.metadataqa.api.schema.edm.EdmOaiPmLimitedJsonSchema"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "EdmOaiPmLimitedJsonSchema"
+  }, {
+    "name" : "methodName",
+    "value" : "getRootChildrenPaths"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "metadata-qa-api-0.8.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "metadata-qa-api-0.9.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.returnTypeTypeParametersChanged",
+  "old" : "method java.util.List<de.gwdg.metadataqa.api.json.JsonBranch> de.gwdg.metadataqa.api.schema.edm.EdmOaiPmhJsonSchema::getCollectionPaths()",
+  "new" : "method java.util.List<de.gwdg.metadataqa.api.json.DataElement> de.gwdg.metadataqa.api.schema.edm.EdmOaiPmhJsonSchema::getCollectionPaths()",
+  "name" : "return type changed type parameter",
+  "description" : "The return type changed from 'java.util.List<de.gwdg.metadataqa.api.json.JsonBranch>' to 'java.util.List<de.gwdg.metadataqa.api.json.DataElement>'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "java.util.List<de.gwdg.metadataqa.api.json.JsonBranch>"
+  }, {
+    "name" : "newType",
+    "value" : "java.util.List<de.gwdg.metadataqa.api.json.DataElement>"
+  }, {
+    "name" : "package",
+    "value" : "de.gwdg.metadataqa.api.schema.edm"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "de.gwdg.metadataqa.api.schema.edm.EdmOaiPmhJsonSchema"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "EdmOaiPmhJsonSchema"
+  }, {
+    "name" : "methodName",
+    "value" : "getCollectionPaths"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "metadata-qa-api-0.8.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "metadata-qa-api-0.9.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.returnTypeTypeParametersChanged",
+  "old" : "method java.util.List<de.gwdg.metadataqa.api.json.JsonBranch> de.gwdg.metadataqa.api.schema.edm.EdmOaiPmhXmlSchema::getCollectionPaths()",
+  "new" : "method java.util.List<de.gwdg.metadataqa.api.json.DataElement> de.gwdg.metadataqa.api.schema.edm.EdmOaiPmhXmlSchema::getCollectionPaths()",
+  "name" : "return type changed type parameter",
+  "description" : "The return type changed from 'java.util.List<de.gwdg.metadataqa.api.json.JsonBranch>' to 'java.util.List<de.gwdg.metadataqa.api.json.DataElement>'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "java.util.List<de.gwdg.metadataqa.api.json.JsonBranch>"
+  }, {
+    "name" : "newType",
+    "value" : "java.util.List<de.gwdg.metadataqa.api.json.DataElement>"
+  }, {
+    "name" : "package",
+    "value" : "de.gwdg.metadataqa.api.schema.edm"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "de.gwdg.metadataqa.api.schema.edm.EdmOaiPmhXmlSchema"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "EdmOaiPmhXmlSchema"
+  }, {
+    "name" : "methodName",
+    "value" : "getCollectionPaths"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "metadata-qa-api-0.8.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "metadata-qa-api-0.9.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.parameterTypeChanged",
+  "old" : "parameter void de.gwdg.metadataqa.api.schema.edm.EdmSchema::addPath(===de.gwdg.metadataqa.api.json.JsonBranch===)",
+  "new" : "parameter void de.gwdg.metadataqa.api.schema.edm.EdmSchema::addPath(===de.gwdg.metadataqa.api.json.DataElement===)",
+  "name" : "parameter type changed",
+  "description" : "The type of the parameter changed from 'de.gwdg.metadataqa.api.json.JsonBranch' to 'de.gwdg.metadataqa.api.json.DataElement'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "POTENTIALLY_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "de.gwdg.metadataqa.api.json.JsonBranch"
+  }, {
+    "name" : "newType",
+    "value" : "de.gwdg.metadataqa.api.json.DataElement"
+  }, {
+    "name" : "package",
+    "value" : "de.gwdg.metadataqa.api.schema.edm"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "de.gwdg.metadataqa.api.schema.edm.EdmSchema"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "EdmSchema"
+  }, {
+    "name" : "methodName",
+    "value" : "addPath"
+  }, {
+    "name" : "parameterIndex",
+    "value" : "0"
+  }, {
+    "name" : "elementKind",
+    "value" : "parameter"
+  }, {
+    "name" : "oldArchive",
+    "value" : "metadata-qa-api-0.8.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "metadata-qa-api-0.9.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.returnTypeTypeParametersChanged",
+  "old" : "method java.util.List<de.gwdg.metadataqa.api.json.JsonBranch> de.gwdg.metadataqa.api.schema.edm.EdmSchema::getIndexFields()",
+  "new" : "method java.util.List<de.gwdg.metadataqa.api.json.DataElement> de.gwdg.metadataqa.api.schema.edm.EdmSchema::getIndexFields()",
+  "name" : "return type changed type parameter",
+  "description" : "The return type changed from 'java.util.List<de.gwdg.metadataqa.api.json.JsonBranch>' to 'java.util.List<de.gwdg.metadataqa.api.json.DataElement>'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "java.util.List<de.gwdg.metadataqa.api.json.JsonBranch>"
+  }, {
+    "name" : "newType",
+    "value" : "java.util.List<de.gwdg.metadataqa.api.json.DataElement>"
+  }, {
+    "name" : "package",
+    "value" : "de.gwdg.metadataqa.api.schema.edm"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "de.gwdg.metadataqa.api.schema.edm.EdmSchema"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "EdmSchema"
+  }, {
+    "name" : "methodName",
+    "value" : "getIndexFields"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "metadata-qa-api-0.8.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "metadata-qa-api-0.9.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.returnTypeChanged",
+  "old" : "method de.gwdg.metadataqa.api.json.JsonBranch de.gwdg.metadataqa.api.schema.edm.EdmSchema::getPathByLabel(java.lang.String)",
+  "new" : "method de.gwdg.metadataqa.api.json.DataElement de.gwdg.metadataqa.api.schema.edm.EdmSchema::getPathByLabel(java.lang.String)",
+  "name" : "return type changed",
+  "description" : "The return type changed from 'de.gwdg.metadataqa.api.json.JsonBranch' to  'de.gwdg.metadataqa.api.json.DataElement'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "POTENTIALLY_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "de.gwdg.metadataqa.api.json.JsonBranch"
+  }, {
+    "name" : "newType",
+    "value" : "de.gwdg.metadataqa.api.json.DataElement"
+  }, {
+    "name" : "package",
+    "value" : "de.gwdg.metadataqa.api.schema.edm"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "de.gwdg.metadataqa.api.schema.edm.EdmSchema"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "EdmSchema"
+  }, {
+    "name" : "methodName",
+    "value" : "getPathByLabel"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "metadata-qa-api-0.8.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "metadata-qa-api-0.9.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.returnTypeTypeParametersChanged",
+  "old" : "method java.util.List<de.gwdg.metadataqa.api.json.JsonBranch> de.gwdg.metadataqa.api.schema.edm.EdmSchema::getPaths()",
+  "new" : "method java.util.List<de.gwdg.metadataqa.api.json.DataElement> de.gwdg.metadataqa.api.schema.edm.EdmSchema::getPaths()",
+  "name" : "return type changed type parameter",
+  "description" : "The return type changed from 'java.util.List<de.gwdg.metadataqa.api.json.JsonBranch>' to 'java.util.List<de.gwdg.metadataqa.api.json.DataElement>'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "java.util.List<de.gwdg.metadataqa.api.json.JsonBranch>"
+  }, {
+    "name" : "newType",
+    "value" : "java.util.List<de.gwdg.metadataqa.api.json.DataElement>"
+  }, {
+    "name" : "package",
+    "value" : "de.gwdg.metadataqa.api.schema.edm"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "de.gwdg.metadataqa.api.schema.edm.EdmSchema"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "EdmSchema"
+  }, {
+    "name" : "methodName",
+    "value" : "getPaths"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "metadata-qa-api-0.8.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "metadata-qa-api-0.9.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.returnTypeChanged",
+  "old" : "method de.gwdg.metadataqa.api.json.JsonBranch de.gwdg.metadataqa.api.schema.edm.EdmSchema::getRecordId()",
+  "new" : "method de.gwdg.metadataqa.api.json.DataElement de.gwdg.metadataqa.api.schema.edm.EdmSchema::getRecordId()",
+  "name" : "return type changed",
+  "description" : "The return type changed from 'de.gwdg.metadataqa.api.json.JsonBranch' to  'de.gwdg.metadataqa.api.json.DataElement'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "POTENTIALLY_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "de.gwdg.metadataqa.api.json.JsonBranch"
+  }, {
+    "name" : "newType",
+    "value" : "de.gwdg.metadataqa.api.json.DataElement"
+  }, {
+    "name" : "package",
+    "value" : "de.gwdg.metadataqa.api.schema.edm"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "de.gwdg.metadataqa.api.schema.edm.EdmSchema"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "EdmSchema"
+  }, {
+    "name" : "methodName",
+    "value" : "getRecordId"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "metadata-qa-api-0.8.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "metadata-qa-api-0.9.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.returnTypeTypeParametersChanged",
+  "old" : "method java.util.List<de.gwdg.metadataqa.api.json.JsonBranch> de.gwdg.metadataqa.api.schema.edm.EdmSchema::getRootChildrenPaths()",
+  "new" : "method java.util.List<de.gwdg.metadataqa.api.json.DataElement> de.gwdg.metadataqa.api.schema.edm.EdmSchema::getRootChildrenPaths()",
+  "name" : "return type changed type parameter",
+  "description" : "The return type changed from 'java.util.List<de.gwdg.metadataqa.api.json.JsonBranch>' to 'java.util.List<de.gwdg.metadataqa.api.json.DataElement>'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "java.util.List<de.gwdg.metadataqa.api.json.JsonBranch>"
+  }, {
+    "name" : "newType",
+    "value" : "java.util.List<de.gwdg.metadataqa.api.json.DataElement>"
+  }, {
+    "name" : "package",
+    "value" : "de.gwdg.metadataqa.api.schema.edm"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "de.gwdg.metadataqa.api.schema.edm.EdmSchema"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "EdmSchema"
+  }, {
+    "name" : "methodName",
+    "value" : "getRootChildrenPaths"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "metadata-qa-api-0.8.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "metadata-qa-api-0.9.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.defaultSerializationChanged",
+  "old" : "class de.gwdg.metadataqa.api.uniqueness.DefaultSolrClient",
+  "new" : "class de.gwdg.metadataqa.api.uniqueness.DefaultSolrClient",
+  "name" : "default serialization changed",
+  "description" : "The default serialization ID for the class has changed. This means that the new version of the class is not deserializable from the byte stream of a serialized old class.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "EQUIVALENT"
+  }, {
+    "compatibility" : "SEMANTIC",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "EQUIVALENT"
+  } ],
+  "attachments" : [ {
+    "name" : "oldSerialVersionUID",
+    "value" : "-2669445225671404900"
+  }, {
+    "name" : "newSerialVersionUID",
+    "value" : "7736891990426641234"
+  }, {
+    "name" : "package",
+    "value" : "de.gwdg.metadataqa.api.uniqueness"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "de.gwdg.metadataqa.api.uniqueness.DefaultSolrClient"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "DefaultSolrClient"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "metadata-qa-api-0.8.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "metadata-qa-api-0.9.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.addedToInterface",
+  "old" : null,
+  "new" : "method java.lang.String de.gwdg.metadataqa.api.uniqueness.SolrClient::getTfIdfResponse(java.lang.String, java.lang.String)",
+  "name" : "method added to interface",
+  "description" : "Method was added to an interface.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SEMANTIC",
+    "severity" : "POTENTIALLY_BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "de.gwdg.metadataqa.api.uniqueness"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "de.gwdg.metadataqa.api.uniqueness.SolrClient"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "SolrClient"
+  }, {
+    "name" : "methodName",
+    "value" : "getTfIdfResponse"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "newArchive",
+    "value" : "metadata-qa-api-0.9.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.numberOfParametersChanged",
+  "old" : "method java.lang.Integer de.gwdg.metadataqa.api.uniqueness.UniquenessExtractor::extractNumFound(java.lang.String, java.lang.String)",
+  "new" : "method java.lang.Integer de.gwdg.metadataqa.api.uniqueness.UniquenessExtractor::extractNumFound(java.lang.String)",
+  "name" : "number of parameters changed",
+  "description" : "The number of parameters of the method have changed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "de.gwdg.metadataqa.api.uniqueness"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "de.gwdg.metadataqa.api.uniqueness.UniquenessExtractor"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "UniquenessExtractor"
+  }, {
+    "name" : "methodName",
+    "value" : "extractNumFound"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "metadata-qa-api-0.8.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "metadata-qa-api-0.9.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.nowStatic",
+  "old" : "method java.lang.Integer de.gwdg.metadataqa.api.uniqueness.UniquenessExtractor::extractNumFound(java.lang.String, java.lang.String)",
+  "new" : "method java.lang.Integer de.gwdg.metadataqa.api.uniqueness.UniquenessExtractor::extractNumFound(java.lang.String)",
+  "name" : "method now static",
+  "description" : "method now static",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldModifiers",
+    "value" : "public"
+  }, {
+    "name" : "newModifiers",
+    "value" : "public static"
+  }, {
+    "name" : "package",
+    "value" : "de.gwdg.metadataqa.api.uniqueness"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "de.gwdg.metadataqa.api.uniqueness.UniquenessExtractor"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "UniquenessExtractor"
+  }, {
+    "name" : "methodName",
+    "value" : "extractNumFound"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "metadata-qa-api-0.8.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "metadata-qa-api-0.9.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method java.lang.String de.gwdg.metadataqa.api.uniqueness.UniquenessField::getJsonPath()",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "de.gwdg.metadataqa.api.uniqueness"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "de.gwdg.metadataqa.api.uniqueness.UniquenessField"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "UniquenessField"
+  }, {
+    "name" : "methodName",
+    "value" : "getJsonPath"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "metadata-qa-api-0.8.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method void de.gwdg.metadataqa.api.uniqueness.UniquenessField::setJsonPath(java.lang.String)",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "de.gwdg.metadataqa.api.uniqueness"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "de.gwdg.metadataqa.api.uniqueness.UniquenessField"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "UniquenessField"
+  }, {
+    "name" : "methodName",
+    "value" : "setJsonPath"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "metadata-qa-api-0.8.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.parameterTypeChanged",
+  "old" : "parameter void de.gwdg.metadataqa.api.util.InstanceCounter::<init>(de.gwdg.metadataqa.api.model.pathcache.PathCache, ===de.gwdg.metadataqa.api.json.JsonBranch===)",
+  "new" : "parameter void de.gwdg.metadataqa.api.util.InstanceCounter::<init>(de.gwdg.metadataqa.api.model.pathcache.PathCache, ===de.gwdg.metadataqa.api.json.DataElement===)",
+  "name" : "parameter type changed",
+  "description" : "The type of the parameter changed from 'de.gwdg.metadataqa.api.json.JsonBranch' to 'de.gwdg.metadataqa.api.json.DataElement'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "POTENTIALLY_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "de.gwdg.metadataqa.api.json.JsonBranch"
+  }, {
+    "name" : "newType",
+    "value" : "de.gwdg.metadataqa.api.json.DataElement"
+  }, {
+    "name" : "package",
+    "value" : "de.gwdg.metadataqa.api.util"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "de.gwdg.metadataqa.api.util.InstanceCounter"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "InstanceCounter"
+  }, {
+    "name" : "methodName",
+    "value" : "<init>"
+  }, {
+    "name" : "parameterIndex",
+    "value" : "1"
+  }, {
+    "name" : "elementKind",
+    "value" : "parameter"
+  }, {
+    "name" : "oldArchive",
+    "value" : "metadata-qa-api-0.8.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "metadata-qa-api-0.9.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.parameterTypeChanged",
+  "old" : "parameter boolean de.gwdg.metadataqa.api.util.SkippedEntitySelector<T extends de.gwdg.metadataqa.api.model.XmlFieldInstance>::isCollectionSkippable(java.util.List<java.lang.String>, ===de.gwdg.metadataqa.api.json.JsonBranch===, int, de.gwdg.metadataqa.api.model.pathcache.PathCache<T>, java.lang.Object)",
+  "new" : "parameter boolean de.gwdg.metadataqa.api.util.SkippedEntitySelector<T extends de.gwdg.metadataqa.api.model.XmlFieldInstance>::isCollectionSkippable(java.util.List<java.lang.String>, ===de.gwdg.metadataqa.api.json.DataElement===, int, de.gwdg.metadataqa.api.model.pathcache.PathCache<T>, java.lang.Object)",
+  "name" : "parameter type changed",
+  "description" : "The type of the parameter changed from 'de.gwdg.metadataqa.api.json.JsonBranch' to 'de.gwdg.metadataqa.api.json.DataElement'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "POTENTIALLY_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "de.gwdg.metadataqa.api.json.JsonBranch"
+  }, {
+    "name" : "newType",
+    "value" : "de.gwdg.metadataqa.api.json.DataElement"
+  }, {
+    "name" : "package",
+    "value" : "de.gwdg.metadataqa.api.util"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "de.gwdg.metadataqa.api.util.SkippedEntitySelector"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "SkippedEntitySelector"
+  }, {
+    "name" : "methodName",
+    "value" : "isCollectionSkippable"
+  }, {
+    "name" : "parameterIndex",
+    "value" : "1"
+  }, {
+    "name" : "elementKind",
+    "value" : "parameter"
+  }, {
+    "name" : "oldArchive",
+    "value" : "metadata-qa-api-0.8.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "metadata-qa-api-0.9.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class de.gwdg.metadataqa.api.xml.OaiPmhXPath",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "de.gwdg.metadataqa.api.xml"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "de.gwdg.metadataqa.api.xml.OaiPmhXPath"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "OaiPmhXPath"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "metadata-qa-api-0.8.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+} ]

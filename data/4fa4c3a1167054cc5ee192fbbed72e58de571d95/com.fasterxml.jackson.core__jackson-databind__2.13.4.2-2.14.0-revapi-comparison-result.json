@@ -1,0 +1,1919 @@
+[ {
+  "code" : "java.method.abstractMethodAdded",
+  "old" : null,
+  "new" : "method boolean com.fasterxml.jackson.databind.DatabindContext::isEnabled(com.fasterxml.jackson.databind.cfg.DatatypeFeature)",
+  "name" : "abstract method added",
+  "description" : "Abstract method was added.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.fasterxml.jackson.databind"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.fasterxml.jackson.databind.DatabindContext"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "DatabindContext"
+  }, {
+    "name" : "methodName",
+    "value" : "isEnabled"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "newArchive",
+    "value" : "jackson-databind-2.14.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.numberOfParametersChanged",
+  "old" : "method void com.fasterxml.jackson.databind.DeserializationConfig::<init>(com.fasterxml.jackson.databind.DeserializationConfig, com.fasterxml.jackson.databind.introspect.SimpleMixInResolver, com.fasterxml.jackson.databind.util.RootNameLookup, com.fasterxml.jackson.databind.cfg.ConfigOverrides)",
+  "new" : "method void com.fasterxml.jackson.databind.DeserializationConfig::<init>(com.fasterxml.jackson.databind.DeserializationConfig, com.fasterxml.jackson.databind.cfg.DatatypeFeatures)",
+  "name" : "number of parameters changed",
+  "description" : "The number of parameters of the method have changed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.fasterxml.jackson.databind"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.fasterxml.jackson.databind.DeserializationConfig"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "DeserializationConfig"
+  }, {
+    "name" : "methodName",
+    "value" : "<init>"
+  }, {
+    "name" : "elementKind",
+    "value" : "constructor"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jackson-databind-2.13.4.2.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "jackson-databind-2.14.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.element.noLongerDeprecated",
+  "old" : "method void com.fasterxml.jackson.databind.DeserializationConfig::<init>(com.fasterxml.jackson.databind.DeserializationConfig, com.fasterxml.jackson.databind.introspect.SimpleMixInResolver, com.fasterxml.jackson.databind.util.RootNameLookup, com.fasterxml.jackson.databind.cfg.ConfigOverrides)",
+  "new" : "method void com.fasterxml.jackson.databind.DeserializationConfig::<init>(com.fasterxml.jackson.databind.DeserializationConfig, com.fasterxml.jackson.databind.cfg.DatatypeFeatures)",
+  "name" : "element no longer deprecated",
+  "description" : "The element is no longer deprecated.",
+  "criticality" : "allowed",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "EQUIVALENT"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "EQUIVALENT"
+  } ],
+  "attachments" : [ {
+    "name" : "annotationType",
+    "value" : "java.lang.Deprecated"
+  }, {
+    "name" : "annotation",
+    "value" : "@java.lang.Deprecated"
+  }, {
+    "name" : "package",
+    "value" : "com.fasterxml.jackson.databind"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.fasterxml.jackson.databind.DeserializationConfig"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "DeserializationConfig"
+  }, {
+    "name" : "methodName",
+    "value" : "<init>"
+  }, {
+    "name" : "elementKind",
+    "value" : "constructor"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jackson-databind-2.13.4.2.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "jackson-databind-2.14.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method void com.fasterxml.jackson.databind.DeserializationConfig::<init>(com.fasterxml.jackson.databind.cfg.BaseSettings, com.fasterxml.jackson.databind.jsontype.SubtypeResolver, com.fasterxml.jackson.databind.introspect.SimpleMixInResolver, com.fasterxml.jackson.databind.util.RootNameLookup, com.fasterxml.jackson.databind.cfg.ConfigOverrides, com.fasterxml.jackson.databind.cfg.CoercionConfigs)",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.fasterxml.jackson.databind"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.fasterxml.jackson.databind.DeserializationConfig"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "DeserializationConfig"
+  }, {
+    "name" : "methodName",
+    "value" : "<init>"
+  }, {
+    "name" : "elementKind",
+    "value" : "constructor"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jackson-databind-2.13.4.2.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.numberOfParametersChanged",
+  "old" : "method void com.fasterxml.jackson.databind.DeserializationConfig::<init>(com.fasterxml.jackson.databind.cfg.BaseSettings, com.fasterxml.jackson.databind.jsontype.SubtypeResolver, com.fasterxml.jackson.databind.introspect.SimpleMixInResolver, com.fasterxml.jackson.databind.util.RootNameLookup, com.fasterxml.jackson.databind.cfg.ConfigOverrides)",
+  "new" : "method void com.fasterxml.jackson.databind.DeserializationConfig::<init>(com.fasterxml.jackson.databind.cfg.BaseSettings, com.fasterxml.jackson.databind.jsontype.SubtypeResolver, com.fasterxml.jackson.databind.introspect.SimpleMixInResolver, com.fasterxml.jackson.databind.util.RootNameLookup, com.fasterxml.jackson.databind.cfg.ConfigOverrides, com.fasterxml.jackson.databind.cfg.CoercionConfigs, com.fasterxml.jackson.databind.cfg.DatatypeFeatures)",
+  "name" : "number of parameters changed",
+  "description" : "The number of parameters of the method have changed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.fasterxml.jackson.databind"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.fasterxml.jackson.databind.DeserializationConfig"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "DeserializationConfig"
+  }, {
+    "name" : "methodName",
+    "value" : "<init>"
+  }, {
+    "name" : "elementKind",
+    "value" : "constructor"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jackson-databind-2.13.4.2.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "jackson-databind-2.14.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.element.noLongerDeprecated",
+  "old" : "method void com.fasterxml.jackson.databind.DeserializationConfig::<init>(com.fasterxml.jackson.databind.cfg.BaseSettings, com.fasterxml.jackson.databind.jsontype.SubtypeResolver, com.fasterxml.jackson.databind.introspect.SimpleMixInResolver, com.fasterxml.jackson.databind.util.RootNameLookup, com.fasterxml.jackson.databind.cfg.ConfigOverrides)",
+  "new" : "method void com.fasterxml.jackson.databind.DeserializationConfig::<init>(com.fasterxml.jackson.databind.cfg.BaseSettings, com.fasterxml.jackson.databind.jsontype.SubtypeResolver, com.fasterxml.jackson.databind.introspect.SimpleMixInResolver, com.fasterxml.jackson.databind.util.RootNameLookup, com.fasterxml.jackson.databind.cfg.ConfigOverrides, com.fasterxml.jackson.databind.cfg.CoercionConfigs, com.fasterxml.jackson.databind.cfg.DatatypeFeatures)",
+  "name" : "element no longer deprecated",
+  "description" : "The element is no longer deprecated.",
+  "criticality" : "allowed",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "EQUIVALENT"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "EQUIVALENT"
+  } ],
+  "attachments" : [ {
+    "name" : "annotationType",
+    "value" : "java.lang.Deprecated"
+  }, {
+    "name" : "annotation",
+    "value" : "@java.lang.Deprecated"
+  }, {
+    "name" : "package",
+    "value" : "com.fasterxml.jackson.databind"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.fasterxml.jackson.databind.DeserializationConfig"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "DeserializationConfig"
+  }, {
+    "name" : "methodName",
+    "value" : "<init>"
+  }, {
+    "name" : "elementKind",
+    "value" : "constructor"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jackson-databind-2.13.4.2.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "jackson-databind-2.14.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.numberOfParametersChanged",
+  "old" : "method void com.fasterxml.jackson.databind.SerializationConfig::<init>(com.fasterxml.jackson.databind.SerializationConfig, com.fasterxml.jackson.databind.introspect.SimpleMixInResolver, com.fasterxml.jackson.databind.util.RootNameLookup, com.fasterxml.jackson.databind.cfg.ConfigOverrides)",
+  "new" : "method void com.fasterxml.jackson.databind.SerializationConfig::<init>(com.fasterxml.jackson.databind.SerializationConfig, com.fasterxml.jackson.databind.cfg.DatatypeFeatures)",
+  "name" : "number of parameters changed",
+  "description" : "The number of parameters of the method have changed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.fasterxml.jackson.databind"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.fasterxml.jackson.databind.SerializationConfig"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "SerializationConfig"
+  }, {
+    "name" : "methodName",
+    "value" : "<init>"
+  }, {
+    "name" : "elementKind",
+    "value" : "constructor"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jackson-databind-2.13.4.2.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "jackson-databind-2.14.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.element.noLongerDeprecated",
+  "old" : "method void com.fasterxml.jackson.databind.SerializationConfig::<init>(com.fasterxml.jackson.databind.SerializationConfig, com.fasterxml.jackson.databind.introspect.SimpleMixInResolver, com.fasterxml.jackson.databind.util.RootNameLookup, com.fasterxml.jackson.databind.cfg.ConfigOverrides)",
+  "new" : "method void com.fasterxml.jackson.databind.SerializationConfig::<init>(com.fasterxml.jackson.databind.SerializationConfig, com.fasterxml.jackson.databind.cfg.DatatypeFeatures)",
+  "name" : "element no longer deprecated",
+  "description" : "The element is no longer deprecated.",
+  "criticality" : "allowed",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "EQUIVALENT"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "EQUIVALENT"
+  } ],
+  "attachments" : [ {
+    "name" : "annotationType",
+    "value" : "java.lang.Deprecated"
+  }, {
+    "name" : "annotation",
+    "value" : "@java.lang.Deprecated"
+  }, {
+    "name" : "package",
+    "value" : "com.fasterxml.jackson.databind"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.fasterxml.jackson.databind.SerializationConfig"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "SerializationConfig"
+  }, {
+    "name" : "methodName",
+    "value" : "<init>"
+  }, {
+    "name" : "elementKind",
+    "value" : "constructor"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jackson-databind-2.13.4.2.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "jackson-databind-2.14.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.defaultSerializationChanged",
+  "old" : "class com.fasterxml.jackson.databind.cfg.MapperConfigBase<CFG extends com.fasterxml.jackson.databind.cfg.ConfigFeature, T extends com.fasterxml.jackson.databind.cfg.MapperConfigBase<CFG, T>>",
+  "new" : "class com.fasterxml.jackson.databind.cfg.MapperConfigBase<CFG extends com.fasterxml.jackson.databind.cfg.ConfigFeature, T extends com.fasterxml.jackson.databind.cfg.MapperConfigBase<CFG, T>>",
+  "name" : "default serialization changed",
+  "description" : "The default serialization ID for the class has changed. This means that the new version of the class is not deserializable from the byte stream of a serialized old class.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "EQUIVALENT"
+  }, {
+    "compatibility" : "SEMANTIC",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "EQUIVALENT"
+  } ],
+  "attachments" : [ {
+    "name" : "oldSerialVersionUID",
+    "value" : "-4246326649322462812"
+  }, {
+    "name" : "newSerialVersionUID",
+    "value" : "2652078236739812502"
+  }, {
+    "name" : "package",
+    "value" : "com.fasterxml.jackson.databind.cfg"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.fasterxml.jackson.databind.cfg.MapperConfigBase"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "MapperConfigBase"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jackson-databind-2.13.4.2.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "jackson-databind-2.14.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.numberOfParametersChanged",
+  "old" : "method void com.fasterxml.jackson.databind.cfg.MapperConfigBase<CFG extends com.fasterxml.jackson.databind.cfg.ConfigFeature, T extends com.fasterxml.jackson.databind.cfg.MapperConfigBase<CFG, T>>::<init>(com.fasterxml.jackson.databind.cfg.BaseSettings, com.fasterxml.jackson.databind.jsontype.SubtypeResolver, com.fasterxml.jackson.databind.introspect.SimpleMixInResolver, com.fasterxml.jackson.databind.util.RootNameLookup, com.fasterxml.jackson.databind.cfg.ConfigOverrides)",
+  "new" : "method void com.fasterxml.jackson.databind.cfg.MapperConfigBase<CFG extends com.fasterxml.jackson.databind.cfg.ConfigFeature, T extends com.fasterxml.jackson.databind.cfg.MapperConfigBase<CFG, T>>::<init>(com.fasterxml.jackson.databind.cfg.MapperConfigBase<CFG, T>, com.fasterxml.jackson.databind.cfg.DatatypeFeatures)",
+  "name" : "number of parameters changed",
+  "description" : "The number of parameters of the method have changed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.fasterxml.jackson.databind.cfg"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.fasterxml.jackson.databind.cfg.MapperConfigBase"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "MapperConfigBase"
+  }, {
+    "name" : "methodName",
+    "value" : "<init>"
+  }, {
+    "name" : "elementKind",
+    "value" : "constructor"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jackson-databind-2.13.4.2.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "jackson-databind-2.14.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.abstractMethodAdded",
+  "old" : null,
+  "new" : "method T com.fasterxml.jackson.databind.cfg.MapperConfigBase<CFG extends com.fasterxml.jackson.databind.cfg.ConfigFeature, T extends com.fasterxml.jackson.databind.cfg.MapperConfigBase<CFG, T>>::_with(com.fasterxml.jackson.databind.cfg.DatatypeFeatures)",
+  "name" : "abstract method added",
+  "description" : "Abstract method was added.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.fasterxml.jackson.databind.cfg"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.fasterxml.jackson.databind.cfg.MapperConfigBase"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "MapperConfigBase"
+  }, {
+    "name" : "methodName",
+    "value" : "_with"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "newArchive",
+    "value" : "jackson-databind-2.14.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.nowAbstract",
+  "old" : "class com.fasterxml.jackson.databind.deser.SettableAnyProperty",
+  "new" : "class com.fasterxml.jackson.databind.deser.SettableAnyProperty",
+  "name" : "class now abstract",
+  "description" : "Class is now abstract.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldModifiers",
+    "value" : "public"
+  }, {
+    "name" : "newModifiers",
+    "value" : "public abstract"
+  }, {
+    "name" : "package",
+    "value" : "com.fasterxml.jackson.databind.deser"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.fasterxml.jackson.databind.deser.SettableAnyProperty"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "SettableAnyProperty"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jackson-databind-2.13.4.2.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "jackson-databind-2.14.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method void com.fasterxml.jackson.databind.deser.SettableAnyProperty::<init>(com.fasterxml.jackson.databind.BeanProperty, com.fasterxml.jackson.databind.introspect.AnnotatedMember, com.fasterxml.jackson.databind.JavaType, com.fasterxml.jackson.databind.JsonDeserializer<java.lang.Object>, com.fasterxml.jackson.databind.jsontype.TypeDeserializer)",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.fasterxml.jackson.databind.deser"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.fasterxml.jackson.databind.deser.SettableAnyProperty"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "SettableAnyProperty"
+  }, {
+    "name" : "methodName",
+    "value" : "<init>"
+  }, {
+    "name" : "elementKind",
+    "value" : "constructor"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jackson-databind-2.13.4.2.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.abstractMethodAdded",
+  "old" : null,
+  "new" : "method void com.fasterxml.jackson.databind.deser.SettableAnyProperty::_set(java.lang.Object, java.lang.Object, java.lang.Object) throws java.lang.Exception",
+  "name" : "abstract method added",
+  "description" : "Abstract method was added.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.fasterxml.jackson.databind.deser"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.fasterxml.jackson.databind.deser.SettableAnyProperty"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "SettableAnyProperty"
+  }, {
+    "name" : "methodName",
+    "value" : "_set"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "newArchive",
+    "value" : "jackson-databind-2.14.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.nowAbstract",
+  "old" : "method com.fasterxml.jackson.databind.deser.SettableAnyProperty com.fasterxml.jackson.databind.deser.SettableAnyProperty::withValueDeserializer(com.fasterxml.jackson.databind.JsonDeserializer<java.lang.Object>)",
+  "new" : "method com.fasterxml.jackson.databind.deser.SettableAnyProperty com.fasterxml.jackson.databind.deser.SettableAnyProperty::withValueDeserializer(com.fasterxml.jackson.databind.JsonDeserializer<java.lang.Object>)",
+  "name" : "Method now abstract",
+  "description" : "Method now abstract",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldModifiers",
+    "value" : "public"
+  }, {
+    "name" : "newModifiers",
+    "value" : "public abstract"
+  }, {
+    "name" : "package",
+    "value" : "com.fasterxml.jackson.databind.deser"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.fasterxml.jackson.databind.deser.SettableAnyProperty"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "SettableAnyProperty"
+  }, {
+    "name" : "methodName",
+    "value" : "withValueDeserializer"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jackson-databind-2.13.4.2.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "jackson-databind-2.14.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method void com.fasterxml.jackson.databind.deser.UnresolvedForwardReference::<init>(java.lang.String)",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.fasterxml.jackson.databind.deser"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.fasterxml.jackson.databind.deser.UnresolvedForwardReference"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "UnresolvedForwardReference"
+  }, {
+    "name" : "methodName",
+    "value" : "<init>"
+  }, {
+    "name" : "elementKind",
+    "value" : "constructor"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jackson-databind-2.13.4.2.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method void com.fasterxml.jackson.databind.deser.UnresolvedForwardReference::<init>(java.lang.String, com.fasterxml.jackson.core.JsonLocation, com.fasterxml.jackson.databind.deser.impl.ReadableObjectId)",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.fasterxml.jackson.databind.deser"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.fasterxml.jackson.databind.deser.UnresolvedForwardReference"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "UnresolvedForwardReference"
+  }, {
+    "name" : "methodName",
+    "value" : "<init>"
+  }, {
+    "name" : "elementKind",
+    "value" : "constructor"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jackson-databind-2.13.4.2.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.nonPublicPartOfAPI",
+  "old" : "class com.fasterxml.jackson.databind.deser.impl.ExternalTypeHandler.ExtTypedProperty",
+  "new" : "class com.fasterxml.jackson.databind.deser.impl.ExternalTypeHandler.ExtTypedProperty",
+  "name" : "non-public class in API",
+  "description" : "Class 'com.fasterxml.jackson.databind.deser.impl.ExternalTypeHandler.ExtTypedProperty' is indirectly included in the API (by the means of method return type for example) but the class is not accessible (neither public nor protected).",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SEMANTIC",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "classSimpleName",
+    "value" : "ExtTypedProperty"
+  }, {
+    "name" : "exampleUseChainInNewApi",
+    "value" : "com.fasterxml.jackson.databind.deser.impl.ExternalTypeHandler.ExtTypedProperty is used as a type parameter or type variable bound on method void com.fasterxml.jackson.databind.deser.impl.ExternalTypeHandler::<init>(com.fasterxml.jackson.databind.JavaType, com.fasterxml.jackson.databind.deser.impl.ExternalTypeHandler.ExtTypedProperty[], java.util.Map<java.lang.String, java.lang.Object>, java.lang.String[], com.fasterxml.jackson.databind.util.TokenBuffer[]) (method void com.fasterxml.jackson.databind.deser.impl.ExternalTypeHandler::<init>(com.fasterxml.jackson.databind.JavaType, com.fasterxml.jackson.databind.deser.impl.ExternalTypeHandler.ExtTypedProperty[], java.util.Map<java.lang.String, java.lang.Object>, java.lang.String[], com.fasterxml.jackson.databind.util.TokenBuffer[]) is part of the API)"
+  }, {
+    "name" : "package",
+    "value" : "com.fasterxml.jackson.databind.deser.impl"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.fasterxml.jackson.databind.deser.impl.ExternalTypeHandler.ExtTypedProperty"
+  }, {
+    "name" : "exampleUseChainInOldApi",
+    "value" : "com.fasterxml.jackson.databind.deser.impl.ExternalTypeHandler.ExtTypedProperty is used as parameter in method void com.fasterxml.jackson.databind.deser.impl.ExternalTypeHandler::<init>(com.fasterxml.jackson.databind.JavaType, com.fasterxml.jackson.databind.deser.impl.ExternalTypeHandler.ExtTypedProperty[], java.util.Map<java.lang.String, java.lang.Object>, java.lang.String[], com.fasterxml.jackson.databind.util.TokenBuffer[]) (method void com.fasterxml.jackson.databind.deser.impl.ExternalTypeHandler::<init>(com.fasterxml.jackson.databind.JavaType, com.fasterxml.jackson.databind.deser.impl.ExternalTypeHandler.ExtTypedProperty[], java.util.Map<java.lang.String, java.lang.Object>, java.lang.String[], com.fasterxml.jackson.databind.util.TokenBuffer[]) is part of the API)"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jackson-databind-2.13.4.2.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "jackson-databind-2.14.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.nonPublicPartOfAPI",
+  "old" : "class com.fasterxml.jackson.databind.deser.std.BaseNodeDeserializer.ContainerStack",
+  "new" : "class com.fasterxml.jackson.databind.deser.std.BaseNodeDeserializer.ContainerStack",
+  "name" : "non-public class in API",
+  "description" : "Class 'com.fasterxml.jackson.databind.deser.std.BaseNodeDeserializer.ContainerStack' is indirectly included in the API (by the means of method return type for example) but the class is not accessible (neither public nor protected).",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SEMANTIC",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "classSimpleName",
+    "value" : "ContainerStack"
+  }, {
+    "name" : "exampleUseChainInNewApi",
+    "value" : "com.fasterxml.jackson.databind.deser.std.BaseNodeDeserializer.ContainerStack is used as parameter in method com.fasterxml.jackson.databind.node.ObjectNode com.fasterxml.jackson.databind.deser.std.BaseNodeDeserializer<T extends com.fasterxml.jackson.databind.JsonNode>::_deserializeObjectAtName(com.fasterxml.jackson.core.JsonParser, com.fasterxml.jackson.databind.DeserializationContext, com.fasterxml.jackson.databind.node.JsonNodeFactory, com.fasterxml.jackson.databind.deser.std.BaseNodeDeserializer.ContainerStack) throws java.io.IOException @ com.fasterxml.jackson.databind.deser.std.JsonNodeDeserializer (method com.fasterxml.jackson.databind.node.ObjectNode com.fasterxml.jackson.databind.deser.std.BaseNodeDeserializer<T extends com.fasterxml.jackson.databind.JsonNode>::_deserializeObjectAtName(com.fasterxml.jackson.core.JsonParser, com.fasterxml.jackson.databind.DeserializationContext, com.fasterxml.jackson.databind.node.JsonNodeFactory, com.fasterxml.jackson.databind.deser.std.BaseNodeDeserializer.ContainerStack) throws java.io.IOException @ com.fasterxml.jackson.databind.deser.std.JsonNodeDeserializer is part of the API)"
+  }, {
+    "name" : "package",
+    "value" : "com.fasterxml.jackson.databind.deser.std"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.fasterxml.jackson.databind.deser.std.BaseNodeDeserializer.ContainerStack"
+  }, {
+    "name" : "exampleUseChainInOldApi",
+    "value" : "com.fasterxml.jackson.databind.deser.std.BaseNodeDeserializer.ContainerStack is used as parameter in method com.fasterxml.jackson.databind.node.ObjectNode com.fasterxml.jackson.databind.deser.std.BaseNodeDeserializer<T extends com.fasterxml.jackson.databind.JsonNode>::_deserializeObjectAtName(com.fasterxml.jackson.core.JsonParser, com.fasterxml.jackson.databind.DeserializationContext, com.fasterxml.jackson.databind.node.JsonNodeFactory, com.fasterxml.jackson.databind.deser.std.BaseNodeDeserializer.ContainerStack) throws java.io.IOException @ com.fasterxml.jackson.databind.deser.std.JsonNodeDeserializer (method com.fasterxml.jackson.databind.node.ObjectNode com.fasterxml.jackson.databind.deser.std.BaseNodeDeserializer<T extends com.fasterxml.jackson.databind.JsonNode>::_deserializeObjectAtName(com.fasterxml.jackson.core.JsonParser, com.fasterxml.jackson.databind.DeserializationContext, com.fasterxml.jackson.databind.node.JsonNodeFactory, com.fasterxml.jackson.databind.deser.std.BaseNodeDeserializer.ContainerStack) throws java.io.IOException @ com.fasterxml.jackson.databind.deser.std.JsonNodeDeserializer is part of the API)"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jackson-databind-2.13.4.2.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "jackson-databind-2.14.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.exception.checkedAdded",
+  "old" : "method com.fasterxml.jackson.databind.JsonDeserializer<?> com.fasterxml.jackson.databind.deser.std.JdkDeserializers::find(java.lang.Class<?>, java.lang.String)",
+  "new" : "method com.fasterxml.jackson.databind.JsonDeserializer<?> com.fasterxml.jackson.databind.deser.std.JdkDeserializers::find(java.lang.Class<?>, java.lang.String) throws com.fasterxml.jackson.databind.JsonMappingException",
+  "name" : "Method newly throws checked exceptions",
+  "description" : "Method newly throws checked exceptions: com.fasterxml.jackson.databind.JsonMappingException.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "exception",
+    "value" : "com.fasterxml.jackson.databind.JsonMappingException"
+  }, {
+    "name" : "package",
+    "value" : "com.fasterxml.jackson.databind.deser.std"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.fasterxml.jackson.databind.deser.std.JdkDeserializers"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "JdkDeserializers"
+  }, {
+    "name" : "methodName",
+    "value" : "find"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jackson-databind-2.13.4.2.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "jackson-databind-2.14.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.element.nowDeprecated",
+  "old" : "method com.fasterxml.jackson.databind.JsonDeserializer<?> com.fasterxml.jackson.databind.deser.std.JdkDeserializers::find(java.lang.Class<?>, java.lang.String)",
+  "new" : "method com.fasterxml.jackson.databind.JsonDeserializer<?> com.fasterxml.jackson.databind.deser.std.JdkDeserializers::find(java.lang.Class<?>, java.lang.String) throws com.fasterxml.jackson.databind.JsonMappingException",
+  "name" : "element now deprecated",
+  "description" : "The element is now deprecated.",
+  "criticality" : "allowed",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "EQUIVALENT"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "EQUIVALENT"
+  } ],
+  "attachments" : [ {
+    "name" : "annotationType",
+    "value" : "java.lang.Deprecated"
+  }, {
+    "name" : "annotation",
+    "value" : "@java.lang.Deprecated"
+  }, {
+    "name" : "package",
+    "value" : "com.fasterxml.jackson.databind.deser.std"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.fasterxml.jackson.databind.deser.std.JdkDeserializers"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "JdkDeserializers"
+  }, {
+    "name" : "methodName",
+    "value" : "find"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jackson-databind-2.13.4.2.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "jackson-databind-2.14.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.returnTypeChanged",
+  "old" : "method void com.fasterxml.jackson.databind.deser.std.MapDeserializer::_readAndBind(com.fasterxml.jackson.core.JsonParser, com.fasterxml.jackson.databind.DeserializationContext, java.util.Map<java.lang.Object, java.lang.Object>) throws java.io.IOException",
+  "new" : "method java.util.Map<java.lang.Object, java.lang.Object> com.fasterxml.jackson.databind.deser.std.MapDeserializer::_readAndBind(com.fasterxml.jackson.core.JsonParser, com.fasterxml.jackson.databind.DeserializationContext, java.util.Map<java.lang.Object, java.lang.Object>) throws java.io.IOException",
+  "name" : "return type changed",
+  "description" : "The return type changed from 'void' to  'java.util.Map<java.lang.Object, java.lang.Object>'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "POTENTIALLY_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "void"
+  }, {
+    "name" : "newType",
+    "value" : "java.util.Map<java.lang.Object, java.lang.Object>"
+  }, {
+    "name" : "package",
+    "value" : "com.fasterxml.jackson.databind.deser.std"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.fasterxml.jackson.databind.deser.std.MapDeserializer"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "MapDeserializer"
+  }, {
+    "name" : "methodName",
+    "value" : "_readAndBind"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jackson-databind-2.13.4.2.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "jackson-databind-2.14.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.returnTypeChanged",
+  "old" : "method void com.fasterxml.jackson.databind.deser.std.MapDeserializer::_readAndBindStringKeyMap(com.fasterxml.jackson.core.JsonParser, com.fasterxml.jackson.databind.DeserializationContext, java.util.Map<java.lang.Object, java.lang.Object>) throws java.io.IOException",
+  "new" : "method java.util.Map<java.lang.Object, java.lang.Object> com.fasterxml.jackson.databind.deser.std.MapDeserializer::_readAndBindStringKeyMap(com.fasterxml.jackson.core.JsonParser, com.fasterxml.jackson.databind.DeserializationContext, java.util.Map<java.lang.Object, java.lang.Object>) throws java.io.IOException",
+  "name" : "return type changed",
+  "description" : "The return type changed from 'void' to  'java.util.Map<java.lang.Object, java.lang.Object>'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "POTENTIALLY_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "void"
+  }, {
+    "name" : "newType",
+    "value" : "java.util.Map<java.lang.Object, java.lang.Object>"
+  }, {
+    "name" : "package",
+    "value" : "com.fasterxml.jackson.databind.deser.std"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.fasterxml.jackson.databind.deser.std.MapDeserializer"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "MapDeserializer"
+  }, {
+    "name" : "methodName",
+    "value" : "_readAndBindStringKeyMap"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jackson-databind-2.13.4.2.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "jackson-databind-2.14.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method java.lang.Object com.fasterxml.jackson.databind.deser.std.UntypedObjectDeserializer.Vanilla::mapArray(com.fasterxml.jackson.core.JsonParser, com.fasterxml.jackson.databind.DeserializationContext, int) throws java.io.IOException",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.fasterxml.jackson.databind.deser.std"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.fasterxml.jackson.databind.deser.std.UntypedObjectDeserializer.Vanilla"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "Vanilla"
+  }, {
+    "name" : "methodName",
+    "value" : "mapArray"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jackson-databind-2.13.4.2.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method java.lang.Object[] com.fasterxml.jackson.databind.deser.std.UntypedObjectDeserializer.Vanilla::mapArrayToArray(com.fasterxml.jackson.core.JsonParser, com.fasterxml.jackson.databind.DeserializationContext, int) throws java.io.IOException",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.fasterxml.jackson.databind.deser.std"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.fasterxml.jackson.databind.deser.std.UntypedObjectDeserializer.Vanilla"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "Vanilla"
+  }, {
+    "name" : "methodName",
+    "value" : "mapArrayToArray"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jackson-databind-2.13.4.2.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method java.lang.Object com.fasterxml.jackson.databind.deser.std.UntypedObjectDeserializer.Vanilla::mapObject(com.fasterxml.jackson.core.JsonParser, com.fasterxml.jackson.databind.DeserializationContext, int) throws java.io.IOException",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.fasterxml.jackson.databind.deser.std"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.fasterxml.jackson.databind.deser.std.UntypedObjectDeserializer.Vanilla"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "Vanilla"
+  }, {
+    "name" : "methodName",
+    "value" : "mapObject"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jackson-databind-2.13.4.2.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.nonPublicPartOfAPI",
+  "old" : "class com.fasterxml.jackson.databind.introspect.AnnotatedMethodCollector.MethodBuilder",
+  "new" : "class com.fasterxml.jackson.databind.introspect.AnnotatedMethodCollector.MethodBuilder",
+  "name" : "non-public class in API",
+  "description" : "Class 'com.fasterxml.jackson.databind.introspect.AnnotatedMethodCollector.MethodBuilder' is indirectly included in the API (by the means of method return type for example) but the class is not accessible (neither public nor protected).",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SEMANTIC",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "classSimpleName",
+    "value" : "MethodBuilder"
+  }, {
+    "name" : "exampleUseChainInNewApi",
+    "value" : "com.fasterxml.jackson.databind.introspect.AnnotatedMethodCollector.MethodBuilder is used as a type parameter or type variable bound on method void com.fasterxml.jackson.databind.introspect.AnnotatedMethodCollector::_addMethodMixIns(com.fasterxml.jackson.databind.introspect.TypeResolutionContext, java.lang.Class<?>, java.util.Map<com.fasterxml.jackson.databind.introspect.MemberKey, com.fasterxml.jackson.databind.introspect.AnnotatedMethodCollector.MethodBuilder>, java.lang.Class<?>) (method void com.fasterxml.jackson.databind.introspect.AnnotatedMethodCollector::_addMethodMixIns(com.fasterxml.jackson.databind.introspect.TypeResolutionContext, java.lang.Class<?>, java.util.Map<com.fasterxml.jackson.databind.introspect.MemberKey, com.fasterxml.jackson.databind.introspect.AnnotatedMethodCollector.MethodBuilder>, java.lang.Class<?>) is part of the API)"
+  }, {
+    "name" : "package",
+    "value" : "com.fasterxml.jackson.databind.introspect"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.fasterxml.jackson.databind.introspect.AnnotatedMethodCollector.MethodBuilder"
+  }, {
+    "name" : "exampleUseChainInOldApi",
+    "value" : "com.fasterxml.jackson.databind.introspect.AnnotatedMethodCollector.MethodBuilder is used as a type parameter or type variable bound on method void com.fasterxml.jackson.databind.introspect.AnnotatedMethodCollector::_addMethodMixIns(com.fasterxml.jackson.databind.introspect.TypeResolutionContext, java.lang.Class<?>, java.util.Map<com.fasterxml.jackson.databind.introspect.MemberKey, com.fasterxml.jackson.databind.introspect.AnnotatedMethodCollector.MethodBuilder>, java.lang.Class<?>) (method void com.fasterxml.jackson.databind.introspect.AnnotatedMethodCollector::_addMethodMixIns(com.fasterxml.jackson.databind.introspect.TypeResolutionContext, java.lang.Class<?>, java.util.Map<com.fasterxml.jackson.databind.introspect.MemberKey, com.fasterxml.jackson.databind.introspect.AnnotatedMethodCollector.MethodBuilder>, java.lang.Class<?>) is part of the API)"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jackson-databind-2.13.4.2.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "jackson-databind-2.14.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.nonPublicPartOfAPI",
+  "old" : "interface com.fasterxml.jackson.databind.introspect.POJOPropertyBuilder.WithMember<T>",
+  "new" : "interface com.fasterxml.jackson.databind.introspect.POJOPropertyBuilder.WithMember<T>",
+  "name" : "non-public class in API",
+  "description" : "Class 'com.fasterxml.jackson.databind.introspect.POJOPropertyBuilder.WithMember<T>' is indirectly included in the API (by the means of method return type for example) but the class is not accessible (neither public nor protected).",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SEMANTIC",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "classSimpleName",
+    "value" : "WithMember"
+  }, {
+    "name" : "exampleUseChainInNewApi",
+    "value" : "com.fasterxml.jackson.databind.introspect.POJOPropertyBuilder.WithMember<T> is used as parameter in method <T> T com.fasterxml.jackson.databind.introspect.POJOPropertyBuilder::fromMemberAnnotationsExcept(com.fasterxml.jackson.databind.introspect.POJOPropertyBuilder.WithMember<T>, T) (method <T> T com.fasterxml.jackson.databind.introspect.POJOPropertyBuilder::fromMemberAnnotationsExcept(com.fasterxml.jackson.databind.introspect.POJOPropertyBuilder.WithMember<T>, T) is part of the API)"
+  }, {
+    "name" : "package",
+    "value" : "com.fasterxml.jackson.databind.introspect"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.fasterxml.jackson.databind.introspect.POJOPropertyBuilder.WithMember"
+  }, {
+    "name" : "exampleUseChainInOldApi",
+    "value" : "com.fasterxml.jackson.databind.introspect.POJOPropertyBuilder.WithMember<T> is used as parameter in method <T> T com.fasterxml.jackson.databind.introspect.POJOPropertyBuilder::fromMemberAnnotations(com.fasterxml.jackson.databind.introspect.POJOPropertyBuilder.WithMember<T>) (method <T> T com.fasterxml.jackson.databind.introspect.POJOPropertyBuilder::fromMemberAnnotations(com.fasterxml.jackson.databind.introspect.POJOPropertyBuilder.WithMember<T>) is part of the API)"
+  }, {
+    "name" : "elementKind",
+    "value" : "interface"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jackson-databind-2.13.4.2.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "jackson-databind-2.14.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.returnTypeChangedCovariantly",
+  "old" : "method <T extends com.fasterxml.jackson.databind.JsonNode> T com.fasterxml.jackson.databind.JsonNode::with(java.lang.String) @ com.fasterxml.jackson.databind.node.ArrayNode",
+  "new" : "method com.fasterxml.jackson.databind.node.ObjectNode com.fasterxml.jackson.databind.node.ArrayNode::with(java.lang.String)",
+  "name" : "return type changed covariantly",
+  "description" : "The return type changed covariantly from 'T extends com.fasterxml.jackson.databind.JsonNode' to 'com.fasterxml.jackson.databind.node.ObjectNode'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "T extends com.fasterxml.jackson.databind.JsonNode"
+  }, {
+    "name" : "newType",
+    "value" : "com.fasterxml.jackson.databind.node.ObjectNode"
+  }, {
+    "name" : "package",
+    "value" : "com.fasterxml.jackson.databind.node"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.fasterxml.jackson.databind.node.ArrayNode"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "ArrayNode"
+  }, {
+    "name" : "methodName",
+    "value" : "with"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jackson-databind-2.13.4.2.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "jackson-databind-2.14.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.inheritedMovedToClass",
+  "old" : "method <T extends com.fasterxml.jackson.databind.JsonNode> T com.fasterxml.jackson.databind.JsonNode::with(java.lang.String) @ com.fasterxml.jackson.databind.node.ArrayNode",
+  "new" : "method com.fasterxml.jackson.databind.node.ObjectNode com.fasterxml.jackson.databind.node.ArrayNode::with(java.lang.String)",
+  "name" : "inherited method moved to class",
+  "description" : "The method was previously declared in superclass 'com.fasterxml.jackson.databind.JsonNode' but is now declared in class 'com.fasterxml.jackson.databind.node.ArrayNode'.",
+  "criticality" : "allowed",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "EQUIVALENT"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "EQUIVALENT"
+  } ],
+  "attachments" : [ {
+    "name" : "oldClass",
+    "value" : "com.fasterxml.jackson.databind.JsonNode"
+  }, {
+    "name" : "newClass",
+    "value" : "com.fasterxml.jackson.databind.node.ArrayNode"
+  }, {
+    "name" : "package",
+    "value" : "com.fasterxml.jackson.databind.node"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.fasterxml.jackson.databind.node.ArrayNode"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "ArrayNode"
+  }, {
+    "name" : "methodName",
+    "value" : "with"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jackson-databind-2.13.4.2.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "jackson-databind-2.14.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.generics.formalTypeParameterRemoved",
+  "old" : "method <T extends com.fasterxml.jackson.databind.JsonNode> T com.fasterxml.jackson.databind.JsonNode::with(java.lang.String) @ com.fasterxml.jackson.databind.node.ArrayNode",
+  "new" : "method com.fasterxml.jackson.databind.node.ObjectNode com.fasterxml.jackson.databind.node.ArrayNode::with(java.lang.String)",
+  "name" : "formal type parameter removed",
+  "description" : "The formal type parameter 'T extends com.fasterxml.jackson.databind.JsonNode' was removed from the element.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "typeParameter",
+    "value" : "T extends com.fasterxml.jackson.databind.JsonNode"
+  }, {
+    "name" : "package",
+    "value" : "com.fasterxml.jackson.databind.node"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.fasterxml.jackson.databind.node.ArrayNode"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "ArrayNode"
+  }, {
+    "name" : "methodName",
+    "value" : "with"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jackson-databind-2.13.4.2.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "jackson-databind-2.14.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.element.nowDeprecated",
+  "old" : "method <T extends com.fasterxml.jackson.databind.JsonNode> T com.fasterxml.jackson.databind.JsonNode::with(java.lang.String) @ com.fasterxml.jackson.databind.node.ArrayNode",
+  "new" : "method com.fasterxml.jackson.databind.node.ObjectNode com.fasterxml.jackson.databind.node.ArrayNode::with(java.lang.String)",
+  "name" : "element now deprecated",
+  "description" : "The element is now deprecated.",
+  "criticality" : "allowed",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "EQUIVALENT"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "EQUIVALENT"
+  } ],
+  "attachments" : [ {
+    "name" : "annotationType",
+    "value" : "java.lang.Deprecated"
+  }, {
+    "name" : "annotation",
+    "value" : "@java.lang.Deprecated"
+  }, {
+    "name" : "package",
+    "value" : "com.fasterxml.jackson.databind.node"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.fasterxml.jackson.databind.node.ArrayNode"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "ArrayNode"
+  }, {
+    "name" : "methodName",
+    "value" : "with"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jackson-databind-2.13.4.2.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "jackson-databind-2.14.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.abstractMethodAdded",
+  "old" : null,
+  "new" : "method com.fasterxml.jackson.databind.node.ObjectNode com.fasterxml.jackson.databind.node.ContainerNode<T extends com.fasterxml.jackson.databind.node.ContainerNode<T>>::_withObject(com.fasterxml.jackson.core.JsonPointer, com.fasterxml.jackson.core.JsonPointer, com.fasterxml.jackson.databind.JsonNode.OverwriteMode, boolean)",
+  "name" : "abstract method added",
+  "description" : "Abstract method was added.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.fasterxml.jackson.databind.node"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.fasterxml.jackson.databind.node.ContainerNode"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "ContainerNode"
+  }, {
+    "name" : "methodName",
+    "value" : "_withObject"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "newArchive",
+    "value" : "jackson-databind-2.14.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.nonPublicPartOfAPI",
+  "old" : "class com.fasterxml.jackson.databind.node.NodeCursor",
+  "new" : "class com.fasterxml.jackson.databind.node.NodeCursor",
+  "name" : "non-public class in API",
+  "description" : "Class 'com.fasterxml.jackson.databind.node.NodeCursor' is indirectly included in the API (by the means of method return type for example) but the class is not accessible (neither public nor protected).",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SEMANTIC",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "classSimpleName",
+    "value" : "NodeCursor"
+  }, {
+    "name" : "exampleUseChainInNewApi",
+    "value" : "field com.fasterxml.jackson.databind.node.NodeCursor._parent has the type com.fasterxml.jackson.databind.node.NodeCursor <- field com.fasterxml.jackson.databind.node.TreeTraversingParser._nodeCursor has the type com.fasterxml.jackson.databind.node.NodeCursor (field com.fasterxml.jackson.databind.node.TreeTraversingParser._nodeCursor is part of the API)"
+  }, {
+    "name" : "package",
+    "value" : "com.fasterxml.jackson.databind.node"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.fasterxml.jackson.databind.node.NodeCursor"
+  }, {
+    "name" : "exampleUseChainInOldApi",
+    "value" : "com.fasterxml.jackson.databind.node.NodeCursor is used as parameter in method void com.fasterxml.jackson.databind.node.NodeCursor::<init>(int, com.fasterxml.jackson.databind.node.NodeCursor) <- field com.fasterxml.jackson.databind.node.TreeTraversingParser._nodeCursor has the type com.fasterxml.jackson.databind.node.NodeCursor (field com.fasterxml.jackson.databind.node.TreeTraversingParser._nodeCursor is part of the API)"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jackson-databind-2.13.4.2.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "jackson-databind-2.14.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.parameterTypeChanged",
+  "old" : "parameter void com.fasterxml.jackson.databind.ser.impl.ReadOnlyClassToSerializerMap::<init>(===java.util.Map<com.fasterxml.jackson.databind.util.TypeKey, com.fasterxml.jackson.databind.JsonSerializer<java.lang.Object>>===)",
+  "new" : "parameter void com.fasterxml.jackson.databind.ser.impl.ReadOnlyClassToSerializerMap::<init>(===com.fasterxml.jackson.databind.util.LRUMap<com.fasterxml.jackson.databind.util.TypeKey, com.fasterxml.jackson.databind.JsonSerializer<java.lang.Object>>===)",
+  "name" : "parameter type changed",
+  "description" : "The type of the parameter changed from 'java.util.Map<com.fasterxml.jackson.databind.util.TypeKey, com.fasterxml.jackson.databind.JsonSerializer<java.lang.Object>>' to 'com.fasterxml.jackson.databind.util.LRUMap<com.fasterxml.jackson.databind.util.TypeKey, com.fasterxml.jackson.databind.JsonSerializer<java.lang.Object>>'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "POTENTIALLY_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "java.util.Map<com.fasterxml.jackson.databind.util.TypeKey, com.fasterxml.jackson.databind.JsonSerializer<java.lang.Object>>"
+  }, {
+    "name" : "newType",
+    "value" : "com.fasterxml.jackson.databind.util.LRUMap<com.fasterxml.jackson.databind.util.TypeKey, com.fasterxml.jackson.databind.JsonSerializer<java.lang.Object>>"
+  }, {
+    "name" : "package",
+    "value" : "com.fasterxml.jackson.databind.ser.impl"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.fasterxml.jackson.databind.ser.impl.ReadOnlyClassToSerializerMap"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "ReadOnlyClassToSerializerMap"
+  }, {
+    "name" : "methodName",
+    "value" : "<init>"
+  }, {
+    "name" : "parameterIndex",
+    "value" : "0"
+  }, {
+    "name" : "elementKind",
+    "value" : "parameter"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jackson-databind-2.13.4.2.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "jackson-databind-2.14.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.parameterTypeChanged",
+  "old" : "parameter com.fasterxml.jackson.databind.ser.impl.ReadOnlyClassToSerializerMap com.fasterxml.jackson.databind.ser.impl.ReadOnlyClassToSerializerMap::from(===java.util.HashMap<com.fasterxml.jackson.databind.util.TypeKey, com.fasterxml.jackson.databind.JsonSerializer<java.lang.Object>>===)",
+  "new" : "parameter com.fasterxml.jackson.databind.ser.impl.ReadOnlyClassToSerializerMap com.fasterxml.jackson.databind.ser.impl.ReadOnlyClassToSerializerMap::from(===com.fasterxml.jackson.databind.util.LRUMap<com.fasterxml.jackson.databind.util.TypeKey, com.fasterxml.jackson.databind.JsonSerializer<java.lang.Object>>===)",
+  "name" : "parameter type changed",
+  "description" : "The type of the parameter changed from 'java.util.HashMap<com.fasterxml.jackson.databind.util.TypeKey, com.fasterxml.jackson.databind.JsonSerializer<java.lang.Object>>' to 'com.fasterxml.jackson.databind.util.LRUMap<com.fasterxml.jackson.databind.util.TypeKey, com.fasterxml.jackson.databind.JsonSerializer<java.lang.Object>>'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "POTENTIALLY_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "java.util.HashMap<com.fasterxml.jackson.databind.util.TypeKey, com.fasterxml.jackson.databind.JsonSerializer<java.lang.Object>>"
+  }, {
+    "name" : "newType",
+    "value" : "com.fasterxml.jackson.databind.util.LRUMap<com.fasterxml.jackson.databind.util.TypeKey, com.fasterxml.jackson.databind.JsonSerializer<java.lang.Object>>"
+  }, {
+    "name" : "package",
+    "value" : "com.fasterxml.jackson.databind.ser.impl"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.fasterxml.jackson.databind.ser.impl.ReadOnlyClassToSerializerMap"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "ReadOnlyClassToSerializerMap"
+  }, {
+    "name" : "methodName",
+    "value" : "from"
+  }, {
+    "name" : "parameterIndex",
+    "value" : "0"
+  }, {
+    "name" : "elementKind",
+    "value" : "parameter"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jackson-databind-2.13.4.2.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "jackson-databind-2.14.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.field.removed",
+  "old" : "field com.fasterxml.jackson.databind.type.TypeFactory.CORE_TYPE_CLASS",
+  "new" : null,
+  "name" : "field removed",
+  "description" : "Field removed from class.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.fasterxml.jackson.databind.type"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.fasterxml.jackson.databind.type.TypeFactory"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "TypeFactory"
+  }, {
+    "name" : "fieldName",
+    "value" : "CORE_TYPE_CLASS"
+  }, {
+    "name" : "elementKind",
+    "value" : "field"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jackson-databind-2.13.4.2.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.nonPublicPartOfAPI",
+  "old" : "class com.fasterxml.jackson.databind.type.TypeParser.MyTokenizer",
+  "new" : "class com.fasterxml.jackson.databind.type.TypeParser.MyTokenizer",
+  "name" : "non-public class in API",
+  "description" : "Class 'com.fasterxml.jackson.databind.type.TypeParser.MyTokenizer' is indirectly included in the API (by the means of method return type for example) but the class is not accessible (neither public nor protected).",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SEMANTIC",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "classSimpleName",
+    "value" : "MyTokenizer"
+  }, {
+    "name" : "exampleUseChainInNewApi",
+    "value" : "com.fasterxml.jackson.databind.type.TypeParser.MyTokenizer is used as parameter in method java.lang.Class<?> com.fasterxml.jackson.databind.type.TypeParser::findClass(java.lang.String, com.fasterxml.jackson.databind.type.TypeParser.MyTokenizer) (method java.lang.Class<?> com.fasterxml.jackson.databind.type.TypeParser::findClass(java.lang.String, com.fasterxml.jackson.databind.type.TypeParser.MyTokenizer) is part of the API)"
+  }, {
+    "name" : "package",
+    "value" : "com.fasterxml.jackson.databind.type"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.fasterxml.jackson.databind.type.TypeParser.MyTokenizer"
+  }, {
+    "name" : "exampleUseChainInOldApi",
+    "value" : "com.fasterxml.jackson.databind.type.TypeParser.MyTokenizer is used as parameter in method java.lang.Class<?> com.fasterxml.jackson.databind.type.TypeParser::findClass(java.lang.String, com.fasterxml.jackson.databind.type.TypeParser.MyTokenizer) (method java.lang.Class<?> com.fasterxml.jackson.databind.type.TypeParser::findClass(java.lang.String, com.fasterxml.jackson.databind.type.TypeParser.MyTokenizer) is part of the API)"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jackson-databind-2.13.4.2.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "jackson-databind-2.14.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.field.removed",
+  "old" : "field com.fasterxml.jackson.databind.util.LRUMap<K, V>._jdkSerializeMaxEntries",
+  "new" : null,
+  "name" : "field removed",
+  "description" : "Field removed from class.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.fasterxml.jackson.databind.util"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.fasterxml.jackson.databind.util.LRUMap"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "LRUMap"
+  }, {
+    "name" : "fieldName",
+    "value" : "_jdkSerializeMaxEntries"
+  }, {
+    "name" : "elementKind",
+    "value" : "field"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jackson-databind-2.13.4.2.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.field.typeChanged",
+  "old" : "field com.fasterxml.jackson.databind.util.LRUMap<K, V>._map",
+  "new" : "field com.fasterxml.jackson.databind.util.LRUMap<K, V>._map",
+  "name" : "field type changed",
+  "description" : "The type of the field changed from 'java.util.concurrent.ConcurrentHashMap<K, V>' to 'com.fasterxml.jackson.databind.util.internal.PrivateMaxEntriesMap<K, V>'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "java.util.concurrent.ConcurrentHashMap<K, V>"
+  }, {
+    "name" : "newType",
+    "value" : "com.fasterxml.jackson.databind.util.internal.PrivateMaxEntriesMap<K, V>"
+  }, {
+    "name" : "package",
+    "value" : "com.fasterxml.jackson.databind.util"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.fasterxml.jackson.databind.util.LRUMap"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "LRUMap"
+  }, {
+    "name" : "fieldName",
+    "value" : "_map"
+  }, {
+    "name" : "elementKind",
+    "value" : "field"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jackson-databind-2.13.4.2.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "jackson-databind-2.14.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.field.serialVersionUIDChanged",
+  "old" : "field com.fasterxml.jackson.databind.util.LRUMap<K, V>.serialVersionUID",
+  "new" : "field com.fasterxml.jackson.databind.util.LRUMap<K, V>.serialVersionUID",
+  "name" : "serialVersionUID constant changed",
+  "description" : "serialVersionUID constant changed. Objects serialized using the old version of the class will no longer be deserializable.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "EQUIVALENT"
+  }, {
+    "compatibility" : "SEMANTIC",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "EQUIVALENT"
+  } ],
+  "attachments" : [ {
+    "name" : "oldSerialVersionUID",
+    "value" : "1"
+  }, {
+    "name" : "newSerialVersionUID",
+    "value" : "2"
+  }, {
+    "name" : "package",
+    "value" : "com.fasterxml.jackson.databind.util"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.fasterxml.jackson.databind.util.LRUMap"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "LRUMap"
+  }, {
+    "name" : "fieldName",
+    "value" : "serialVersionUID"
+  }, {
+    "name" : "elementKind",
+    "value" : "field"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jackson-databind-2.13.4.2.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "jackson-databind-2.14.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.nonPublicPartOfAPI",
+  "old" : "class com.fasterxml.jackson.databind.util.PrimitiveArrayBuilder.Node<T>",
+  "new" : "class com.fasterxml.jackson.databind.util.PrimitiveArrayBuilder.Node<T>",
+  "name" : "non-public class in API",
+  "description" : "Class 'com.fasterxml.jackson.databind.util.PrimitiveArrayBuilder.Node<T>' is indirectly included in the API (by the means of method return type for example) but the class is not accessible (neither public nor protected).",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SEMANTIC",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "classSimpleName",
+    "value" : "Node"
+  }, {
+    "name" : "exampleUseChainInNewApi",
+    "value" : "field com.fasterxml.jackson.databind.util.PrimitiveArrayBuilder<T>._bufferTail has the type com.fasterxml.jackson.databind.util.PrimitiveArrayBuilder.Node<T> (field com.fasterxml.jackson.databind.util.PrimitiveArrayBuilder<T>._bufferTail is part of the API)"
+  }, {
+    "name" : "package",
+    "value" : "com.fasterxml.jackson.databind.util"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.fasterxml.jackson.databind.util.PrimitiveArrayBuilder.Node"
+  }, {
+    "name" : "exampleUseChainInOldApi",
+    "value" : "com.fasterxml.jackson.databind.util.PrimitiveArrayBuilder.Node<T> is used as parameter in method void com.fasterxml.jackson.databind.util.PrimitiveArrayBuilder.Node<T>::linkNext(com.fasterxml.jackson.databind.util.PrimitiveArrayBuilder.Node<T>) <- field com.fasterxml.jackson.databind.util.PrimitiveArrayBuilder<T>._bufferTail @ com.fasterxml.jackson.databind.util.ArrayBuilders.ShortBuilder has the type com.fasterxml.jackson.databind.util.PrimitiveArrayBuilder.Node<T> (field com.fasterxml.jackson.databind.util.PrimitiveArrayBuilder<T>._bufferTail @ com.fasterxml.jackson.databind.util.ArrayBuilders.ShortBuilder is part of the API)"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jackson-databind-2.13.4.2.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "jackson-databind-2.14.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.nonPublicPartOfAPI",
+  "old" : null,
+  "new" : "interface com.fasterxml.jackson.databind.util.internal.EvictionListener<K, V>",
+  "name" : "non-public class in API",
+  "description" : "Class 'com.fasterxml.jackson.databind.util.internal.EvictionListener<K, V>' is indirectly included in the API (by the means of method return type for example) but the class is not accessible (neither public nor protected).",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SEMANTIC",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "classSimpleName",
+    "value" : "EvictionListener"
+  }, {
+    "name" : "exampleUseChainInNewApi",
+    "value" : "com.fasterxml.jackson.databind.util.internal.EvictionListener<K, V> is used as parameter in method com.fasterxml.jackson.databind.util.internal.PrivateMaxEntriesMap.Builder<K, V> com.fasterxml.jackson.databind.util.internal.PrivateMaxEntriesMap.Builder<K, V>::listener(com.fasterxml.jackson.databind.util.internal.EvictionListener<K, V>) (method com.fasterxml.jackson.databind.util.internal.PrivateMaxEntriesMap.Builder<K, V> com.fasterxml.jackson.databind.util.internal.PrivateMaxEntriesMap.Builder<K, V>::listener(com.fasterxml.jackson.databind.util.internal.EvictionListener<K, V>) is part of the API)"
+  }, {
+    "name" : "package",
+    "value" : "com.fasterxml.jackson.databind.util.internal"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.fasterxml.jackson.databind.util.internal.EvictionListener"
+  }, {
+    "name" : "elementKind",
+    "value" : "interface"
+  }, {
+    "name" : "newArchive",
+    "value" : "jackson-databind-2.14.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+} ]

@@ -1,0 +1,81 @@
+[ {
+  "code" : "java.method.addedToInterface",
+  "old" : null,
+  "new" : "method java.util.List<java.lang.String> com.artipie.asto.Key::parts()",
+  "name" : "method added to interface",
+  "description" : "Method was added to an interface.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SEMANTIC",
+    "severity" : "POTENTIALLY_BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.artipie.asto"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.artipie.asto.Key"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "Key"
+  }, {
+    "name" : "methodName",
+    "value" : "parts"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "newArchive",
+    "value" : "asto-v1.10.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.addedToInterface",
+  "old" : null,
+  "new" : "method java.util.concurrent.CompletableFuture<? extends com.artipie.asto.Meta> com.artipie.asto.Storage::metadata(com.artipie.asto.Key)",
+  "name" : "method added to interface",
+  "description" : "Method was added to an interface.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SEMANTIC",
+    "severity" : "POTENTIALLY_BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.artipie.asto"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.artipie.asto.Storage"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "Storage"
+  }, {
+    "name" : "methodName",
+    "value" : "metadata"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "newArchive",
+    "value" : "asto-v1.10.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+} ]

@@ -1,0 +1,1625 @@
+[ {
+  "code" : "java.method.removed",
+  "old" : "method org.yaml.snakeyaml.DumperOptions.FlowStyle org.yaml.snakeyaml.DumperOptions.FlowStyle::fromBoolean(java.lang.Boolean)",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.yaml.snakeyaml"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.yaml.snakeyaml.DumperOptions.FlowStyle"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "FlowStyle"
+  }, {
+    "name" : "methodName",
+    "value" : "fromBoolean"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "snakeyaml-1.32.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method java.lang.Boolean org.yaml.snakeyaml.DumperOptions.FlowStyle::getStyleBoolean()",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.yaml.snakeyaml"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.yaml.snakeyaml.DumperOptions.FlowStyle"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "FlowStyle"
+  }, {
+    "name" : "methodName",
+    "value" : "getStyleBoolean"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "snakeyaml-1.32.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method java.lang.Class<? extends java.lang.Object> org.yaml.snakeyaml.TypeDescription::getListPropertyType(java.lang.String)",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.yaml.snakeyaml"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.yaml.snakeyaml.TypeDescription"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "TypeDescription"
+  }, {
+    "name" : "methodName",
+    "value" : "getListPropertyType"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "snakeyaml-1.32.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method java.lang.Class<? extends java.lang.Object> org.yaml.snakeyaml.TypeDescription::getMapKeyType(java.lang.String)",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.yaml.snakeyaml"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.yaml.snakeyaml.TypeDescription"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "TypeDescription"
+  }, {
+    "name" : "methodName",
+    "value" : "getMapKeyType"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "snakeyaml-1.32.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method java.lang.Class<? extends java.lang.Object> org.yaml.snakeyaml.TypeDescription::getMapValueType(java.lang.String)",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.yaml.snakeyaml"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.yaml.snakeyaml.TypeDescription"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "TypeDescription"
+  }, {
+    "name" : "methodName",
+    "value" : "getMapValueType"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "snakeyaml-1.32.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method void org.yaml.snakeyaml.TypeDescription::setTag(java.lang.String)",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.yaml.snakeyaml"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.yaml.snakeyaml.TypeDescription"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "TypeDescription"
+  }, {
+    "name" : "methodName",
+    "value" : "setTag"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "snakeyaml-1.32.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method void org.yaml.snakeyaml.TypeDescription::setTag(org.yaml.snakeyaml.nodes.Tag)",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.yaml.snakeyaml"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.yaml.snakeyaml.TypeDescription"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "TypeDescription"
+  }, {
+    "name" : "methodName",
+    "value" : "setTag"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "snakeyaml-1.32.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method void org.yaml.snakeyaml.composer.Composer::<init>(org.yaml.snakeyaml.parser.Parser, org.yaml.snakeyaml.resolver.Resolver)",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.yaml.snakeyaml.composer"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.yaml.snakeyaml.composer.Composer"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "Composer"
+  }, {
+    "name" : "methodName",
+    "value" : "<init>"
+  }, {
+    "name" : "elementKind",
+    "value" : "constructor"
+  }, {
+    "name" : "oldArchive",
+    "value" : "snakeyaml-1.32.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method void org.yaml.snakeyaml.constructor.BaseConstructor::<init>()",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.yaml.snakeyaml.constructor"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.yaml.snakeyaml.constructor.BaseConstructor"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "BaseConstructor"
+  }, {
+    "name" : "methodName",
+    "value" : "<init>"
+  }, {
+    "name" : "elementKind",
+    "value" : "constructor"
+  }, {
+    "name" : "oldArchive",
+    "value" : "snakeyaml-1.32.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method void org.yaml.snakeyaml.constructor.Constructor::<init>()",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.yaml.snakeyaml.constructor"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.yaml.snakeyaml.constructor.Constructor"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "Constructor"
+  }, {
+    "name" : "methodName",
+    "value" : "<init>"
+  }, {
+    "name" : "elementKind",
+    "value" : "constructor"
+  }, {
+    "name" : "oldArchive",
+    "value" : "snakeyaml-1.32.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method void org.yaml.snakeyaml.constructor.Constructor::<init>(java.lang.Class<? extends java.lang.Object>)",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.yaml.snakeyaml.constructor"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.yaml.snakeyaml.constructor.Constructor"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "Constructor"
+  }, {
+    "name" : "methodName",
+    "value" : "<init>"
+  }, {
+    "name" : "elementKind",
+    "value" : "constructor"
+  }, {
+    "name" : "oldArchive",
+    "value" : "snakeyaml-1.32.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method void org.yaml.snakeyaml.constructor.Constructor::<init>(java.lang.String) throws java.lang.ClassNotFoundException",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.yaml.snakeyaml.constructor"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.yaml.snakeyaml.constructor.Constructor"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "Constructor"
+  }, {
+    "name" : "methodName",
+    "value" : "<init>"
+  }, {
+    "name" : "elementKind",
+    "value" : "constructor"
+  }, {
+    "name" : "oldArchive",
+    "value" : "snakeyaml-1.32.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method void org.yaml.snakeyaml.constructor.Constructor::<init>(org.yaml.snakeyaml.TypeDescription)",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.yaml.snakeyaml.constructor"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.yaml.snakeyaml.constructor.Constructor"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "Constructor"
+  }, {
+    "name" : "methodName",
+    "value" : "<init>"
+  }, {
+    "name" : "elementKind",
+    "value" : "constructor"
+  }, {
+    "name" : "oldArchive",
+    "value" : "snakeyaml-1.32.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method void org.yaml.snakeyaml.constructor.Constructor::<init>(org.yaml.snakeyaml.TypeDescription, java.util.Collection<org.yaml.snakeyaml.TypeDescription>)",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.yaml.snakeyaml.constructor"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.yaml.snakeyaml.constructor.Constructor"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "Constructor"
+  }, {
+    "name" : "methodName",
+    "value" : "<init>"
+  }, {
+    "name" : "elementKind",
+    "value" : "constructor"
+  }, {
+    "name" : "oldArchive",
+    "value" : "snakeyaml-1.32.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.numberOfParametersChanged",
+  "old" : "method void org.yaml.snakeyaml.constructor.CustomClassLoaderConstructor::<init>(java.lang.Class<? extends java.lang.Object>, java.lang.ClassLoader)",
+  "new" : "method void org.yaml.snakeyaml.constructor.CustomClassLoaderConstructor::<init>(java.lang.Class<? extends java.lang.Object>, java.lang.ClassLoader, org.yaml.snakeyaml.LoaderOptions)",
+  "name" : "number of parameters changed",
+  "description" : "The number of parameters of the method have changed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.yaml.snakeyaml.constructor"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.yaml.snakeyaml.constructor.CustomClassLoaderConstructor"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "CustomClassLoaderConstructor"
+  }, {
+    "name" : "methodName",
+    "value" : "<init>"
+  }, {
+    "name" : "elementKind",
+    "value" : "constructor"
+  }, {
+    "name" : "oldArchive",
+    "value" : "snakeyaml-1.32.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "snakeyaml-2.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.numberOfParametersChanged",
+  "old" : "method void org.yaml.snakeyaml.constructor.CustomClassLoaderConstructor::<init>(java.lang.ClassLoader)",
+  "new" : "method void org.yaml.snakeyaml.constructor.CustomClassLoaderConstructor::<init>(java.lang.ClassLoader, org.yaml.snakeyaml.LoaderOptions)",
+  "name" : "number of parameters changed",
+  "description" : "The number of parameters of the method have changed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.yaml.snakeyaml.constructor"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.yaml.snakeyaml.constructor.CustomClassLoaderConstructor"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "CustomClassLoaderConstructor"
+  }, {
+    "name" : "methodName",
+    "value" : "<init>"
+  }, {
+    "name" : "elementKind",
+    "value" : "constructor"
+  }, {
+    "name" : "oldArchive",
+    "value" : "snakeyaml-1.32.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "snakeyaml-2.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method void org.yaml.snakeyaml.constructor.SafeConstructor::<init>()",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.yaml.snakeyaml.constructor"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.yaml.snakeyaml.constructor.SafeConstructor"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "SafeConstructor"
+  }, {
+    "name" : "methodName",
+    "value" : "<init>"
+  }, {
+    "name" : "elementKind",
+    "value" : "constructor"
+  }, {
+    "name" : "oldArchive",
+    "value" : "snakeyaml-1.32.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.defaultSerializationChanged",
+  "old" : "class org.yaml.snakeyaml.error.Mark",
+  "new" : "class org.yaml.snakeyaml.error.Mark",
+  "name" : "default serialization changed",
+  "description" : "The default serialization ID for the class has changed. This means that the new version of the class is not deserializable from the byte stream of a serialized old class.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "EQUIVALENT"
+  }, {
+    "compatibility" : "SEMANTIC",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "EQUIVALENT"
+  } ],
+  "attachments" : [ {
+    "name" : "oldSerialVersionUID",
+    "value" : "7950854572711885000"
+  }, {
+    "name" : "newSerialVersionUID",
+    "value" : "245832440591759268"
+  }, {
+    "name" : "package",
+    "value" : "org.yaml.snakeyaml.error"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.yaml.snakeyaml.error.Mark"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "Mark"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "snakeyaml-1.32.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "snakeyaml-2.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method void org.yaml.snakeyaml.error.Mark::<init>(java.lang.String, int, int, int, java.lang.String, int)",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.yaml.snakeyaml.error"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.yaml.snakeyaml.error.Mark"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "Mark"
+  }, {
+    "name" : "methodName",
+    "value" : "<init>"
+  }, {
+    "name" : "elementKind",
+    "value" : "constructor"
+  }, {
+    "name" : "oldArchive",
+    "value" : "snakeyaml-1.32.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method void org.yaml.snakeyaml.events.CollectionStartEvent::<init>(java.lang.String, java.lang.String, boolean, org.yaml.snakeyaml.error.Mark, org.yaml.snakeyaml.error.Mark, java.lang.Boolean)",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.yaml.snakeyaml.events"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.yaml.snakeyaml.events.CollectionStartEvent"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "CollectionStartEvent"
+  }, {
+    "name" : "methodName",
+    "value" : "<init>"
+  }, {
+    "name" : "elementKind",
+    "value" : "constructor"
+  }, {
+    "name" : "oldArchive",
+    "value" : "snakeyaml-1.32.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method void org.yaml.snakeyaml.events.MappingStartEvent::<init>(java.lang.String, java.lang.String, boolean, org.yaml.snakeyaml.error.Mark, org.yaml.snakeyaml.error.Mark, java.lang.Boolean)",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.yaml.snakeyaml.events"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.yaml.snakeyaml.events.MappingStartEvent"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "MappingStartEvent"
+  }, {
+    "name" : "methodName",
+    "value" : "<init>"
+  }, {
+    "name" : "elementKind",
+    "value" : "constructor"
+  }, {
+    "name" : "oldArchive",
+    "value" : "snakeyaml-1.32.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method void org.yaml.snakeyaml.events.ScalarEvent::<init>(java.lang.String, java.lang.String, org.yaml.snakeyaml.events.ImplicitTuple, java.lang.String, org.yaml.snakeyaml.error.Mark, org.yaml.snakeyaml.error.Mark, java.lang.Character)",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.yaml.snakeyaml.events"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.yaml.snakeyaml.events.ScalarEvent"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "ScalarEvent"
+  }, {
+    "name" : "methodName",
+    "value" : "<init>"
+  }, {
+    "name" : "elementKind",
+    "value" : "constructor"
+  }, {
+    "name" : "oldArchive",
+    "value" : "snakeyaml-1.32.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method java.lang.Character org.yaml.snakeyaml.events.ScalarEvent::getStyle()",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.yaml.snakeyaml.events"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.yaml.snakeyaml.events.ScalarEvent"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "ScalarEvent"
+  }, {
+    "name" : "methodName",
+    "value" : "getStyle"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "snakeyaml-1.32.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method void org.yaml.snakeyaml.events.SequenceStartEvent::<init>(java.lang.String, java.lang.String, boolean, org.yaml.snakeyaml.error.Mark, org.yaml.snakeyaml.error.Mark, java.lang.Boolean)",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.yaml.snakeyaml.events"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.yaml.snakeyaml.events.SequenceStartEvent"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "SequenceStartEvent"
+  }, {
+    "name" : "methodName",
+    "value" : "<init>"
+  }, {
+    "name" : "elementKind",
+    "value" : "constructor"
+  }, {
+    "name" : "oldArchive",
+    "value" : "snakeyaml-1.32.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method void org.yaml.snakeyaml.nodes.CollectionNode<T>::<init>(org.yaml.snakeyaml.nodes.Tag, org.yaml.snakeyaml.error.Mark, org.yaml.snakeyaml.error.Mark, java.lang.Boolean)",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.yaml.snakeyaml.nodes"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.yaml.snakeyaml.nodes.CollectionNode"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "CollectionNode"
+  }, {
+    "name" : "methodName",
+    "value" : "<init>"
+  }, {
+    "name" : "elementKind",
+    "value" : "constructor"
+  }, {
+    "name" : "oldArchive",
+    "value" : "snakeyaml-1.32.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method void org.yaml.snakeyaml.nodes.CollectionNode<T>::setFlowStyle(java.lang.Boolean)",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.yaml.snakeyaml.nodes"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.yaml.snakeyaml.nodes.CollectionNode"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "CollectionNode"
+  }, {
+    "name" : "methodName",
+    "value" : "setFlowStyle"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "snakeyaml-1.32.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method void org.yaml.snakeyaml.nodes.MappingNode::<init>(org.yaml.snakeyaml.nodes.Tag, boolean, java.util.List<org.yaml.snakeyaml.nodes.NodeTuple>, org.yaml.snakeyaml.error.Mark, org.yaml.snakeyaml.error.Mark, java.lang.Boolean)",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.yaml.snakeyaml.nodes"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.yaml.snakeyaml.nodes.MappingNode"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "MappingNode"
+  }, {
+    "name" : "methodName",
+    "value" : "<init>"
+  }, {
+    "name" : "elementKind",
+    "value" : "constructor"
+  }, {
+    "name" : "oldArchive",
+    "value" : "snakeyaml-1.32.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method void org.yaml.snakeyaml.nodes.MappingNode::<init>(org.yaml.snakeyaml.nodes.Tag, java.util.List<org.yaml.snakeyaml.nodes.NodeTuple>, java.lang.Boolean)",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.yaml.snakeyaml.nodes"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.yaml.snakeyaml.nodes.MappingNode"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "MappingNode"
+  }, {
+    "name" : "methodName",
+    "value" : "<init>"
+  }, {
+    "name" : "elementKind",
+    "value" : "constructor"
+  }, {
+    "name" : "oldArchive",
+    "value" : "snakeyaml-1.32.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method boolean org.yaml.snakeyaml.nodes.Node::isResolved()",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.yaml.snakeyaml.nodes"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.yaml.snakeyaml.nodes.Node"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "Node"
+  }, {
+    "name" : "methodName",
+    "value" : "isResolved"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "snakeyaml-1.32.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method void org.yaml.snakeyaml.nodes.ScalarNode::<init>(org.yaml.snakeyaml.nodes.Tag, boolean, java.lang.String, org.yaml.snakeyaml.error.Mark, org.yaml.snakeyaml.error.Mark, java.lang.Character)",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.yaml.snakeyaml.nodes"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.yaml.snakeyaml.nodes.ScalarNode"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "ScalarNode"
+  }, {
+    "name" : "methodName",
+    "value" : "<init>"
+  }, {
+    "name" : "elementKind",
+    "value" : "constructor"
+  }, {
+    "name" : "oldArchive",
+    "value" : "snakeyaml-1.32.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method void org.yaml.snakeyaml.nodes.ScalarNode::<init>(org.yaml.snakeyaml.nodes.Tag, java.lang.String, org.yaml.snakeyaml.error.Mark, org.yaml.snakeyaml.error.Mark, java.lang.Character)",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.yaml.snakeyaml.nodes"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.yaml.snakeyaml.nodes.ScalarNode"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "ScalarNode"
+  }, {
+    "name" : "methodName",
+    "value" : "<init>"
+  }, {
+    "name" : "elementKind",
+    "value" : "constructor"
+  }, {
+    "name" : "oldArchive",
+    "value" : "snakeyaml-1.32.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method java.lang.Character org.yaml.snakeyaml.nodes.ScalarNode::getStyle()",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.yaml.snakeyaml.nodes"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.yaml.snakeyaml.nodes.ScalarNode"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "ScalarNode"
+  }, {
+    "name" : "methodName",
+    "value" : "getStyle"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "snakeyaml-1.32.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method void org.yaml.snakeyaml.nodes.SequenceNode::<init>(org.yaml.snakeyaml.nodes.Tag, boolean, java.util.List<org.yaml.snakeyaml.nodes.Node>, org.yaml.snakeyaml.error.Mark, org.yaml.snakeyaml.error.Mark, java.lang.Boolean)",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.yaml.snakeyaml.nodes"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.yaml.snakeyaml.nodes.SequenceNode"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "SequenceNode"
+  }, {
+    "name" : "methodName",
+    "value" : "<init>"
+  }, {
+    "name" : "elementKind",
+    "value" : "constructor"
+  }, {
+    "name" : "oldArchive",
+    "value" : "snakeyaml-1.32.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method void org.yaml.snakeyaml.nodes.SequenceNode::<init>(org.yaml.snakeyaml.nodes.Tag, java.util.List<org.yaml.snakeyaml.nodes.Node>, java.lang.Boolean)",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.yaml.snakeyaml.nodes"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.yaml.snakeyaml.nodes.SequenceNode"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "SequenceNode"
+  }, {
+    "name" : "methodName",
+    "value" : "<init>"
+  }, {
+    "name" : "elementKind",
+    "value" : "constructor"
+  }, {
+    "name" : "oldArchive",
+    "value" : "snakeyaml-1.32.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method void org.yaml.snakeyaml.nodes.Tag::<init>(java.net.URI)",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.yaml.snakeyaml.nodes"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.yaml.snakeyaml.nodes.Tag"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "Tag"
+  }, {
+    "name" : "methodName",
+    "value" : "<init>"
+  }, {
+    "name" : "elementKind",
+    "value" : "constructor"
+  }, {
+    "name" : "oldArchive",
+    "value" : "snakeyaml-1.32.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method void org.yaml.snakeyaml.parser.ParserImpl::<init>(org.yaml.snakeyaml.reader.StreamReader)",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.yaml.snakeyaml.parser"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.yaml.snakeyaml.parser.ParserImpl"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "ParserImpl"
+  }, {
+    "name" : "methodName",
+    "value" : "<init>"
+  }, {
+    "name" : "elementKind",
+    "value" : "constructor"
+  }, {
+    "name" : "oldArchive",
+    "value" : "snakeyaml-1.32.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method void org.yaml.snakeyaml.parser.ParserImpl::<init>(org.yaml.snakeyaml.reader.StreamReader, boolean)",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.yaml.snakeyaml.parser"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.yaml.snakeyaml.parser.ParserImpl"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "ParserImpl"
+  }, {
+    "name" : "methodName",
+    "value" : "<init>"
+  }, {
+    "name" : "elementKind",
+    "value" : "constructor"
+  }, {
+    "name" : "oldArchive",
+    "value" : "snakeyaml-1.32.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method void org.yaml.snakeyaml.representer.Representer::<init>()",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.yaml.snakeyaml.representer"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.yaml.snakeyaml.representer.Representer"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "Representer"
+  }, {
+    "name" : "methodName",
+    "value" : "<init>"
+  }, {
+    "name" : "elementKind",
+    "value" : "constructor"
+  }, {
+    "name" : "oldArchive",
+    "value" : "snakeyaml-1.32.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.nonPublicPartOfAPI",
+  "old" : "class org.yaml.snakeyaml.resolver.ResolverTuple",
+  "new" : "class org.yaml.snakeyaml.resolver.ResolverTuple",
+  "name" : "non-public class in API",
+  "description" : "Class 'org.yaml.snakeyaml.resolver.ResolverTuple' is indirectly included in the API (by the means of method return type for example) but the class is not accessible (neither public nor protected).",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SEMANTIC",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "classSimpleName",
+    "value" : "ResolverTuple"
+  }, {
+    "name" : "exampleUseChainInNewApi",
+    "value" : "org.yaml.snakeyaml.resolver.ResolverTuple is used as a type parameter or type variable bound on field org.yaml.snakeyaml.resolver.Resolver.yamlImplicitResolvers (field org.yaml.snakeyaml.resolver.Resolver.yamlImplicitResolvers is part of the API)"
+  }, {
+    "name" : "package",
+    "value" : "org.yaml.snakeyaml.resolver"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.yaml.snakeyaml.resolver.ResolverTuple"
+  }, {
+    "name" : "exampleUseChainInOldApi",
+    "value" : "org.yaml.snakeyaml.resolver.ResolverTuple is used as a type parameter or type variable bound on field org.yaml.snakeyaml.resolver.Resolver.yamlImplicitResolvers (field org.yaml.snakeyaml.resolver.Resolver.yamlImplicitResolvers is part of the API)"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "snakeyaml-1.32.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "snakeyaml-2.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method void org.yaml.snakeyaml.scanner.ScannerImpl::<init>(org.yaml.snakeyaml.reader.StreamReader)",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.yaml.snakeyaml.scanner"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.yaml.snakeyaml.scanner.ScannerImpl"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "ScannerImpl"
+  }, {
+    "name" : "methodName",
+    "value" : "<init>"
+  }, {
+    "name" : "elementKind",
+    "value" : "constructor"
+  }, {
+    "name" : "oldArchive",
+    "value" : "snakeyaml-1.32.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method boolean org.yaml.snakeyaml.scanner.ScannerImpl::isParseComments()",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.yaml.snakeyaml.scanner"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.yaml.snakeyaml.scanner.ScannerImpl"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "ScannerImpl"
+  }, {
+    "name" : "methodName",
+    "value" : "isParseComments"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "snakeyaml-1.32.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method org.yaml.snakeyaml.scanner.ScannerImpl org.yaml.snakeyaml.scanner.ScannerImpl::setParseComments(boolean)",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.yaml.snakeyaml.scanner"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.yaml.snakeyaml.scanner.ScannerImpl"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "ScannerImpl"
+  }, {
+    "name" : "methodName",
+    "value" : "setParseComments"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "snakeyaml-1.32.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class org.yaml.snakeyaml.tokens.WhitespaceToken",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.yaml.snakeyaml.tokens"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.yaml.snakeyaml.tokens.WhitespaceToken"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "WhitespaceToken"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "snakeyaml-1.32.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+} ]

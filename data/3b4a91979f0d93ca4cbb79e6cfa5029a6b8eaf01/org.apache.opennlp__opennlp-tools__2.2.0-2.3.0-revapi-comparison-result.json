@@ -1,0 +1,4459 @@
+[ {
+  "code" : "java.class.nonPublicPartOfAPI",
+  "old" : "class opennlp.tools.cmdline.ArgumentParser.Argument",
+  "new" : "class opennlp.tools.cmdline.ArgumentParser.Argument",
+  "name" : "non-public class in API",
+  "description" : "Class 'opennlp.tools.cmdline.ArgumentParser.Argument' is indirectly included in the API (by the means of method return type for example) but the class is not accessible (neither public nor protected).",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SEMANTIC",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "classSimpleName",
+    "value" : "Argument"
+  }, {
+    "name" : "exampleUseChainInNewApi",
+    "value" : "opennlp.tools.cmdline.ArgumentParser.Argument is used as a type parameter or type variable bound on method java.util.List<opennlp.tools.cmdline.ArgumentParser.Argument> opennlp.tools.cmdline.ArgumentParser::createArguments(java.lang.Class<?>[]) (method java.util.List<opennlp.tools.cmdline.ArgumentParser.Argument> opennlp.tools.cmdline.ArgumentParser::createArguments(java.lang.Class<?>[]) is part of the API)"
+  }, {
+    "name" : "package",
+    "value" : "opennlp.tools.cmdline"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "opennlp.tools.cmdline.ArgumentParser.Argument"
+  }, {
+    "name" : "exampleUseChainInOldApi",
+    "value" : "opennlp.tools.cmdline.ArgumentParser.Argument is used as a type parameter or type variable bound on method java.util.List<opennlp.tools.cmdline.ArgumentParser.Argument> opennlp.tools.cmdline.ArgumentParser::createArguments(java.lang.Class<?>[]) (method java.util.List<opennlp.tools.cmdline.ArgumentParser.Argument> opennlp.tools.cmdline.ArgumentParser::createArguments(java.lang.Class<?>[]) is part of the API)"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "opennlp-tools-2.2.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "opennlp-tools-2.3.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.nonPublicPartOfAPI",
+  "old" : "interface opennlp.tools.cmdline.chunker.ChunkerTrainerTool.TrainerToolParams",
+  "new" : "interface opennlp.tools.cmdline.chunker.ChunkerTrainerTool.TrainerToolParams",
+  "name" : "non-public class in API",
+  "description" : "Class 'opennlp.tools.cmdline.chunker.ChunkerTrainerTool.TrainerToolParams' is indirectly included in the API (by the means of method return type for example) but the class is not accessible (neither public nor protected).",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SEMANTIC",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "classSimpleName",
+    "value" : "TrainerToolParams"
+  }, {
+    "name" : "exampleUseChainInNewApi",
+    "value" : "opennlp.tools.cmdline.chunker.ChunkerTrainerTool.TrainerToolParams is used as a type parameter or type variable bound on method opennlp.tools.cmdline.ObjectStreamFactory<T, P> opennlp.tools.cmdline.TypedCmdLineTool<T, P>::getStreamFactory(java.lang.String) @ opennlp.tools.cmdline.chunker.ChunkerTrainerTool (method opennlp.tools.cmdline.ObjectStreamFactory<T, P> opennlp.tools.cmdline.TypedCmdLineTool<T, P>::getStreamFactory(java.lang.String) @ opennlp.tools.cmdline.chunker.ChunkerTrainerTool is part of the API)"
+  }, {
+    "name" : "package",
+    "value" : "opennlp.tools.cmdline.chunker"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "opennlp.tools.cmdline.chunker.ChunkerTrainerTool.TrainerToolParams"
+  }, {
+    "name" : "exampleUseChainInOldApi",
+    "value" : "opennlp.tools.cmdline.chunker.ChunkerTrainerTool.TrainerToolParams is used as a type parameter or type variable bound on field opennlp.tools.cmdline.AbstractTypedParamTool<T, P>.paramsClass @ opennlp.tools.cmdline.chunker.ChunkerTrainerTool (field opennlp.tools.cmdline.AbstractTypedParamTool<T, P>.paramsClass @ opennlp.tools.cmdline.chunker.ChunkerTrainerTool is part of the API)"
+  }, {
+    "name" : "elementKind",
+    "value" : "interface"
+  }, {
+    "name" : "oldArchive",
+    "value" : "opennlp-tools-2.2.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "opennlp-tools-2.3.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.nonPublicPartOfAPI",
+  "old" : "interface opennlp.tools.cmdline.doccat.DoccatTrainerTool.TrainerToolParams",
+  "new" : "interface opennlp.tools.cmdline.doccat.DoccatTrainerTool.TrainerToolParams",
+  "name" : "non-public class in API",
+  "description" : "Class 'opennlp.tools.cmdline.doccat.DoccatTrainerTool.TrainerToolParams' is indirectly included in the API (by the means of method return type for example) but the class is not accessible (neither public nor protected).",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SEMANTIC",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "classSimpleName",
+    "value" : "TrainerToolParams"
+  }, {
+    "name" : "exampleUseChainInNewApi",
+    "value" : "field opennlp.tools.cmdline.AbstractEvaluatorTool<T, P>.params @ opennlp.tools.cmdline.doccat.DoccatTrainerTool has the type opennlp.tools.cmdline.doccat.DoccatTrainerTool.TrainerToolParams (field opennlp.tools.cmdline.AbstractEvaluatorTool<T, P>.params @ opennlp.tools.cmdline.doccat.DoccatTrainerTool is part of the API)"
+  }, {
+    "name" : "package",
+    "value" : "opennlp.tools.cmdline.doccat"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "opennlp.tools.cmdline.doccat.DoccatTrainerTool.TrainerToolParams"
+  }, {
+    "name" : "exampleUseChainInOldApi",
+    "value" : "field opennlp.tools.cmdline.AbstractEvaluatorTool<T, P>.params @ opennlp.tools.cmdline.doccat.DoccatTrainerTool has the type opennlp.tools.cmdline.doccat.DoccatTrainerTool.TrainerToolParams (field opennlp.tools.cmdline.AbstractEvaluatorTool<T, P>.params @ opennlp.tools.cmdline.doccat.DoccatTrainerTool is part of the API)"
+  }, {
+    "name" : "elementKind",
+    "value" : "interface"
+  }, {
+    "name" : "oldArchive",
+    "value" : "opennlp-tools-2.2.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "opennlp-tools-2.3.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.nonPublicPartOfAPI",
+  "old" : "interface opennlp.tools.cmdline.langdetect.LanguageDetectorTrainerTool.TrainerToolParams",
+  "new" : "interface opennlp.tools.cmdline.langdetect.LanguageDetectorTrainerTool.TrainerToolParams",
+  "name" : "non-public class in API",
+  "description" : "Class 'opennlp.tools.cmdline.langdetect.LanguageDetectorTrainerTool.TrainerToolParams' is indirectly included in the API (by the means of method return type for example) but the class is not accessible (neither public nor protected).",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SEMANTIC",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "classSimpleName",
+    "value" : "TrainerToolParams"
+  }, {
+    "name" : "exampleUseChainInNewApi",
+    "value" : "opennlp.tools.cmdline.langdetect.LanguageDetectorTrainerTool.TrainerToolParams is used as a type parameter or type variable bound on field opennlp.tools.cmdline.AbstractTypedParamTool<T, P>.paramsClass @ opennlp.tools.cmdline.langdetect.LanguageDetectorTrainerTool (field opennlp.tools.cmdline.AbstractTypedParamTool<T, P>.paramsClass @ opennlp.tools.cmdline.langdetect.LanguageDetectorTrainerTool is part of the API)"
+  }, {
+    "name" : "package",
+    "value" : "opennlp.tools.cmdline.langdetect"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "opennlp.tools.cmdline.langdetect.LanguageDetectorTrainerTool.TrainerToolParams"
+  }, {
+    "name" : "exampleUseChainInOldApi",
+    "value" : "opennlp.tools.cmdline.langdetect.LanguageDetectorTrainerTool.TrainerToolParams is used as a type parameter or type variable bound on method opennlp.tools.cmdline.ObjectStreamFactory<T, P> opennlp.tools.cmdline.TypedCmdLineTool<T, P>::getStreamFactory(java.lang.String) @ opennlp.tools.cmdline.langdetect.LanguageDetectorTrainerTool (method opennlp.tools.cmdline.ObjectStreamFactory<T, P> opennlp.tools.cmdline.TypedCmdLineTool<T, P>::getStreamFactory(java.lang.String) @ opennlp.tools.cmdline.langdetect.LanguageDetectorTrainerTool is part of the API)"
+  }, {
+    "name" : "elementKind",
+    "value" : "interface"
+  }, {
+    "name" : "oldArchive",
+    "value" : "opennlp-tools-2.2.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "opennlp-tools-2.3.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.nonPublicPartOfAPI",
+  "old" : "interface opennlp.tools.cmdline.lemmatizer.LemmatizerTrainerTool.TrainerToolParams",
+  "new" : "interface opennlp.tools.cmdline.lemmatizer.LemmatizerTrainerTool.TrainerToolParams",
+  "name" : "non-public class in API",
+  "description" : "Class 'opennlp.tools.cmdline.lemmatizer.LemmatizerTrainerTool.TrainerToolParams' is indirectly included in the API (by the means of method return type for example) but the class is not accessible (neither public nor protected).",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SEMANTIC",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "classSimpleName",
+    "value" : "TrainerToolParams"
+  }, {
+    "name" : "exampleUseChainInNewApi",
+    "value" : "opennlp.tools.cmdline.lemmatizer.LemmatizerTrainerTool.TrainerToolParams is used as a type parameter or type variable bound on method void opennlp.tools.cmdline.TypedCmdLineTool<T, P>::validateFactoryArgs(opennlp.tools.cmdline.ObjectStreamFactory<T, P>, java.lang.String[]) @ opennlp.tools.cmdline.lemmatizer.LemmatizerTrainerTool (method void opennlp.tools.cmdline.TypedCmdLineTool<T, P>::validateFactoryArgs(opennlp.tools.cmdline.ObjectStreamFactory<T, P>, java.lang.String[]) @ opennlp.tools.cmdline.lemmatizer.LemmatizerTrainerTool is part of the API)"
+  }, {
+    "name" : "package",
+    "value" : "opennlp.tools.cmdline.lemmatizer"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "opennlp.tools.cmdline.lemmatizer.LemmatizerTrainerTool.TrainerToolParams"
+  }, {
+    "name" : "exampleUseChainInOldApi",
+    "value" : "opennlp.tools.cmdline.lemmatizer.LemmatizerTrainerTool.TrainerToolParams is used as a type parameter or type variable bound on method opennlp.tools.cmdline.ObjectStreamFactory<T, P> opennlp.tools.cmdline.TypedCmdLineTool<T, P>::getStreamFactory(java.lang.String) @ opennlp.tools.cmdline.lemmatizer.LemmatizerTrainerTool (method opennlp.tools.cmdline.ObjectStreamFactory<T, P> opennlp.tools.cmdline.TypedCmdLineTool<T, P>::getStreamFactory(java.lang.String) @ opennlp.tools.cmdline.lemmatizer.LemmatizerTrainerTool is part of the API)"
+  }, {
+    "name" : "elementKind",
+    "value" : "interface"
+  }, {
+    "name" : "oldArchive",
+    "value" : "opennlp-tools-2.2.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "opennlp-tools-2.3.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "interface opennlp.tools.cmdline.params.DetailedFMeasureEvaluatorParams",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "opennlp.tools.cmdline.params"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "opennlp.tools.cmdline.params.DetailedFMeasureEvaluatorParams"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "DetailedFMeasureEvaluatorParams"
+  }, {
+    "name" : "elementKind",
+    "value" : "interface"
+  }, {
+    "name" : "oldArchive",
+    "value" : "opennlp-tools-2.2.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.nonFinalClassInheritsFromNewClass",
+  "old" : "class opennlp.tools.dictionary.serializer.Entry",
+  "new" : "class opennlp.tools.dictionary.serializer.Entry",
+  "name" : "new super class of non-final class",
+  "description" : "Non-final class now inherits from 'java.lang.Record'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "POTENTIALLY_BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "POTENTIALLY_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "superClass",
+    "value" : "java.lang.Record"
+  }, {
+    "name" : "package",
+    "value" : "opennlp.tools.dictionary.serializer"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "opennlp.tools.dictionary.serializer.Entry"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "Entry"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "opennlp-tools-2.2.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "opennlp-tools-2.3.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.kindChanged",
+  "old" : "class opennlp.tools.dictionary.serializer.Entry",
+  "new" : "class opennlp.tools.dictionary.serializer.Entry",
+  "name" : "class kind changed",
+  "description" : "Class kind changed from 'class' to 'unexpected (RECORD)'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldKind",
+    "value" : "class"
+  }, {
+    "name" : "newKind",
+    "value" : "unexpected (RECORD)"
+  }, {
+    "name" : "package",
+    "value" : "opennlp.tools.dictionary.serializer"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "opennlp.tools.dictionary.serializer.Entry"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "Entry"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "opennlp-tools-2.2.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "opennlp-tools-2.3.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.nowFinal",
+  "old" : "class opennlp.tools.dictionary.serializer.Entry",
+  "new" : "class opennlp.tools.dictionary.serializer.Entry",
+  "name" : "class now final",
+  "description" : "Class is now final.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldModifiers",
+    "value" : "public"
+  }, {
+    "name" : "newModifiers",
+    "value" : "public final"
+  }, {
+    "name" : "package",
+    "value" : "opennlp.tools.dictionary.serializer"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "opennlp.tools.dictionary.serializer.Entry"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "Entry"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "opennlp-tools-2.2.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "opennlp-tools-2.3.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.nonPublicPartOfAPI",
+  "old" : "interface opennlp.tools.formats.brat.BratNameSampleStreamFactory.Parameters",
+  "new" : "interface opennlp.tools.formats.brat.BratNameSampleStreamFactory.Parameters",
+  "name" : "non-public class in API",
+  "description" : "Class 'opennlp.tools.formats.brat.BratNameSampleStreamFactory.Parameters' is indirectly included in the API (by the means of method return type for example) but the class is not accessible (neither public nor protected).",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SEMANTIC",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "classSimpleName",
+    "value" : "Parameters"
+  }, {
+    "name" : "exampleUseChainInNewApi",
+    "value" : "opennlp.tools.formats.brat.BratNameSampleStreamFactory.Parameters is used as a type parameter or type variable bound on field opennlp.tools.formats.AbstractSampleStreamFactory<T, P>.params @ opennlp.tools.formats.brat.BratNameSampleStreamFactory (field opennlp.tools.formats.AbstractSampleStreamFactory<T, P>.params @ opennlp.tools.formats.brat.BratNameSampleStreamFactory is part of the API)"
+  }, {
+    "name" : "package",
+    "value" : "opennlp.tools.formats.brat"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "opennlp.tools.formats.brat.BratNameSampleStreamFactory.Parameters"
+  }, {
+    "name" : "exampleUseChainInOldApi",
+    "value" : "opennlp.tools.formats.brat.BratNameSampleStreamFactory.Parameters is used as a type parameter or type variable bound on method java.lang.Class<P> opennlp.tools.formats.AbstractSampleStreamFactory<T, P>::getParameters() @ opennlp.tools.formats.brat.BratNameSampleStreamFactory (method java.lang.Class<P> opennlp.tools.formats.AbstractSampleStreamFactory<T, P>::getParameters() @ opennlp.tools.formats.brat.BratNameSampleStreamFactory is part of the API)"
+  }, {
+    "name" : "elementKind",
+    "value" : "interface"
+  }, {
+    "name" : "oldArchive",
+    "value" : "opennlp-tools-2.2.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "opennlp-tools-2.3.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.nonPublicPartOfAPI",
+  "old" : "interface opennlp.tools.formats.convert.ParseToSentenceSampleStreamFactory.Parameters",
+  "new" : "interface opennlp.tools.formats.convert.ParseToSentenceSampleStreamFactory.Parameters",
+  "name" : "non-public class in API",
+  "description" : "Class 'opennlp.tools.formats.convert.ParseToSentenceSampleStreamFactory.Parameters' is indirectly included in the API (by the means of method return type for example) but the class is not accessible (neither public nor protected).",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SEMANTIC",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "classSimpleName",
+    "value" : "Parameters"
+  }, {
+    "name" : "exampleUseChainInNewApi",
+    "value" : "opennlp.tools.formats.convert.ParseToSentenceSampleStreamFactory.Parameters is used as a type parameter or type variable bound on field opennlp.tools.formats.AbstractSampleStreamFactory<T, P>.params @ opennlp.tools.formats.convert.ParseToSentenceSampleStreamFactory (field opennlp.tools.formats.AbstractSampleStreamFactory<T, P>.params @ opennlp.tools.formats.convert.ParseToSentenceSampleStreamFactory is part of the API)"
+  }, {
+    "name" : "package",
+    "value" : "opennlp.tools.formats.convert"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "opennlp.tools.formats.convert.ParseToSentenceSampleStreamFactory.Parameters"
+  }, {
+    "name" : "exampleUseChainInOldApi",
+    "value" : "opennlp.tools.formats.convert.ParseToSentenceSampleStreamFactory.Parameters is used as a type parameter or type variable bound on field opennlp.tools.formats.AbstractSampleStreamFactory<T, P>.params @ opennlp.tools.formats.convert.ParseToSentenceSampleStreamFactory (field opennlp.tools.formats.AbstractSampleStreamFactory<T, P>.params @ opennlp.tools.formats.convert.ParseToSentenceSampleStreamFactory is part of the API)"
+  }, {
+    "name" : "elementKind",
+    "value" : "interface"
+  }, {
+    "name" : "oldArchive",
+    "value" : "opennlp-tools-2.2.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "opennlp-tools-2.3.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.nonPublicPartOfAPI",
+  "old" : "interface opennlp.tools.formats.convert.ParseToTokenSampleStreamFactory.Parameters",
+  "new" : "interface opennlp.tools.formats.convert.ParseToTokenSampleStreamFactory.Parameters",
+  "name" : "non-public class in API",
+  "description" : "Class 'opennlp.tools.formats.convert.ParseToTokenSampleStreamFactory.Parameters' is indirectly included in the API (by the means of method return type for example) but the class is not accessible (neither public nor protected).",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SEMANTIC",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "classSimpleName",
+    "value" : "Parameters"
+  }, {
+    "name" : "exampleUseChainInNewApi",
+    "value" : "opennlp.tools.formats.convert.ParseToTokenSampleStreamFactory.Parameters is used as a type parameter or type variable bound on field opennlp.tools.formats.AbstractSampleStreamFactory<T, P>.params @ opennlp.tools.formats.convert.ParseToTokenSampleStreamFactory (field opennlp.tools.formats.AbstractSampleStreamFactory<T, P>.params @ opennlp.tools.formats.convert.ParseToTokenSampleStreamFactory is part of the API)"
+  }, {
+    "name" : "package",
+    "value" : "opennlp.tools.formats.convert"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "opennlp.tools.formats.convert.ParseToTokenSampleStreamFactory.Parameters"
+  }, {
+    "name" : "exampleUseChainInOldApi",
+    "value" : "opennlp.tools.formats.convert.ParseToTokenSampleStreamFactory.Parameters is used as a type parameter or type variable bound on field opennlp.tools.formats.AbstractSampleStreamFactory<T, P>.params @ opennlp.tools.formats.convert.ParseToTokenSampleStreamFactory (field opennlp.tools.formats.AbstractSampleStreamFactory<T, P>.params @ opennlp.tools.formats.convert.ParseToTokenSampleStreamFactory is part of the API)"
+  }, {
+    "name" : "elementKind",
+    "value" : "interface"
+  }, {
+    "name" : "oldArchive",
+    "value" : "opennlp-tools-2.2.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "opennlp-tools-2.3.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.nonPublicPartOfAPI",
+  "old" : "interface opennlp.tools.formats.frenchtreebank.ConstitParseSampleStreamFactory.Parameters",
+  "new" : "interface opennlp.tools.formats.frenchtreebank.ConstitParseSampleStreamFactory.Parameters",
+  "name" : "non-public class in API",
+  "description" : "Class 'opennlp.tools.formats.frenchtreebank.ConstitParseSampleStreamFactory.Parameters' is indirectly included in the API (by the means of method return type for example) but the class is not accessible (neither public nor protected).",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SEMANTIC",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "classSimpleName",
+    "value" : "Parameters"
+  }, {
+    "name" : "exampleUseChainInNewApi",
+    "value" : "opennlp.tools.formats.frenchtreebank.ConstitParseSampleStreamFactory.Parameters is used as a type parameter or type variable bound on field opennlp.tools.formats.AbstractSampleStreamFactory<T, P>.params @ opennlp.tools.formats.frenchtreebank.ConstitParseSampleStreamFactory (field opennlp.tools.formats.AbstractSampleStreamFactory<T, P>.params @ opennlp.tools.formats.frenchtreebank.ConstitParseSampleStreamFactory is part of the API)"
+  }, {
+    "name" : "package",
+    "value" : "opennlp.tools.formats.frenchtreebank"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "opennlp.tools.formats.frenchtreebank.ConstitParseSampleStreamFactory.Parameters"
+  }, {
+    "name" : "exampleUseChainInOldApi",
+    "value" : "opennlp.tools.formats.frenchtreebank.ConstitParseSampleStreamFactory.Parameters is used as a type parameter or type variable bound on method java.lang.Class<P> opennlp.tools.formats.AbstractSampleStreamFactory<T, P>::getParameters() @ opennlp.tools.formats.frenchtreebank.ConstitParseSampleStreamFactory (method java.lang.Class<P> opennlp.tools.formats.AbstractSampleStreamFactory<T, P>::getParameters() @ opennlp.tools.formats.frenchtreebank.ConstitParseSampleStreamFactory is part of the API)"
+  }, {
+    "name" : "elementKind",
+    "value" : "interface"
+  }, {
+    "name" : "oldArchive",
+    "value" : "opennlp-tools-2.2.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "opennlp-tools-2.3.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.nonPublicPartOfAPI",
+  "old" : "interface opennlp.tools.formats.muc.Muc6NameSampleStreamFactory.Parameters",
+  "new" : "interface opennlp.tools.formats.muc.Muc6NameSampleStreamFactory.Parameters",
+  "name" : "non-public class in API",
+  "description" : "Class 'opennlp.tools.formats.muc.Muc6NameSampleStreamFactory.Parameters' is indirectly included in the API (by the means of method return type for example) but the class is not accessible (neither public nor protected).",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SEMANTIC",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "classSimpleName",
+    "value" : "Parameters"
+  }, {
+    "name" : "exampleUseChainInNewApi",
+    "value" : "opennlp.tools.formats.muc.Muc6NameSampleStreamFactory.Parameters is used as a type parameter or type variable bound on field opennlp.tools.formats.AbstractSampleStreamFactory<T, P>.params @ opennlp.tools.formats.muc.Muc6NameSampleStreamFactory (field opennlp.tools.formats.AbstractSampleStreamFactory<T, P>.params @ opennlp.tools.formats.muc.Muc6NameSampleStreamFactory is part of the API)"
+  }, {
+    "name" : "package",
+    "value" : "opennlp.tools.formats.muc"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "opennlp.tools.formats.muc.Muc6NameSampleStreamFactory.Parameters"
+  }, {
+    "name" : "exampleUseChainInOldApi",
+    "value" : "opennlp.tools.formats.muc.Muc6NameSampleStreamFactory.Parameters is used as a type parameter or type variable bound on method java.lang.Class<P> opennlp.tools.formats.AbstractSampleStreamFactory<T, P>::getParameters() @ opennlp.tools.formats.muc.Muc6NameSampleStreamFactory (method java.lang.Class<P> opennlp.tools.formats.AbstractSampleStreamFactory<T, P>::getParameters() @ opennlp.tools.formats.muc.Muc6NameSampleStreamFactory is part of the API)"
+  }, {
+    "name" : "elementKind",
+    "value" : "interface"
+  }, {
+    "name" : "oldArchive",
+    "value" : "opennlp-tools-2.2.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "opennlp-tools-2.3.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.returnTypeChanged",
+  "old" : "method java.lang.String[] opennlp.tools.langdetect.DefaultLanguageDetectorContextGenerator::getContext(java.lang.CharSequence)",
+  "new" : "method <T extends java.lang.CharSequence> T[] opennlp.tools.langdetect.DefaultLanguageDetectorContextGenerator::getContext(java.lang.CharSequence)",
+  "name" : "return type changed",
+  "description" : "The return type changed from 'java.lang.String[]' to  'T extends java.lang.CharSequence[]'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "POTENTIALLY_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "java.lang.String[]"
+  }, {
+    "name" : "newType",
+    "value" : "T extends java.lang.CharSequence[]"
+  }, {
+    "name" : "package",
+    "value" : "opennlp.tools.langdetect"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "opennlp.tools.langdetect.DefaultLanguageDetectorContextGenerator"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "DefaultLanguageDetectorContextGenerator"
+  }, {
+    "name" : "methodName",
+    "value" : "getContext"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "opennlp-tools-2.2.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "opennlp-tools-2.3.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.generics.elementNowParameterized",
+  "old" : "method java.lang.String[] opennlp.tools.langdetect.DefaultLanguageDetectorContextGenerator::getContext(java.lang.CharSequence)",
+  "new" : "method <T extends java.lang.CharSequence> T[] opennlp.tools.langdetect.DefaultLanguageDetectorContextGenerator::getContext(java.lang.CharSequence)",
+  "name" : "element now parameterized",
+  "description" : "Element now defines formal type parameters.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SEMANTIC",
+    "severity" : "POTENTIALLY_BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "opennlp.tools.langdetect"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "opennlp.tools.langdetect.DefaultLanguageDetectorContextGenerator"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "DefaultLanguageDetectorContextGenerator"
+  }, {
+    "name" : "methodName",
+    "value" : "getContext"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "opennlp-tools-2.2.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "opennlp-tools-2.3.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.generics.formalTypeParameterAdded",
+  "old" : "method java.lang.String[] opennlp.tools.langdetect.DefaultLanguageDetectorContextGenerator::getContext(java.lang.CharSequence)",
+  "new" : "method <T extends java.lang.CharSequence> T[] opennlp.tools.langdetect.DefaultLanguageDetectorContextGenerator::getContext(java.lang.CharSequence)",
+  "name" : "formal type parameter added",
+  "description" : "A new formal type parameter added to element: 'T extends java.lang.CharSequence'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "typeParameter",
+    "value" : "T extends java.lang.CharSequence"
+  }, {
+    "name" : "package",
+    "value" : "opennlp.tools.langdetect"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "opennlp.tools.langdetect.DefaultLanguageDetectorContextGenerator"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "DefaultLanguageDetectorContextGenerator"
+  }, {
+    "name" : "methodName",
+    "value" : "getContext"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "opennlp-tools-2.2.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "opennlp-tools-2.3.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.returnTypeChanged",
+  "old" : "method java.lang.String[] opennlp.tools.langdetect.LanguageDetectorContextGenerator::getContext(java.lang.CharSequence)",
+  "new" : "method <T extends java.lang.CharSequence> T[] opennlp.tools.langdetect.LanguageDetectorContextGenerator::getContext(java.lang.CharSequence)",
+  "name" : "return type changed",
+  "description" : "The return type changed from 'java.lang.String[]' to  'T extends java.lang.CharSequence[]'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "POTENTIALLY_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "java.lang.String[]"
+  }, {
+    "name" : "newType",
+    "value" : "T extends java.lang.CharSequence[]"
+  }, {
+    "name" : "package",
+    "value" : "opennlp.tools.langdetect"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "opennlp.tools.langdetect.LanguageDetectorContextGenerator"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "LanguageDetectorContextGenerator"
+  }, {
+    "name" : "methodName",
+    "value" : "getContext"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "opennlp-tools-2.2.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "opennlp-tools-2.3.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.generics.elementNowParameterized",
+  "old" : "method java.lang.String[] opennlp.tools.langdetect.LanguageDetectorContextGenerator::getContext(java.lang.CharSequence)",
+  "new" : "method <T extends java.lang.CharSequence> T[] opennlp.tools.langdetect.LanguageDetectorContextGenerator::getContext(java.lang.CharSequence)",
+  "name" : "element now parameterized",
+  "description" : "Element now defines formal type parameters.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SEMANTIC",
+    "severity" : "POTENTIALLY_BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "opennlp.tools.langdetect"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "opennlp.tools.langdetect.LanguageDetectorContextGenerator"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "LanguageDetectorContextGenerator"
+  }, {
+    "name" : "methodName",
+    "value" : "getContext"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "opennlp-tools-2.2.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "opennlp-tools-2.3.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.generics.formalTypeParameterAdded",
+  "old" : "method java.lang.String[] opennlp.tools.langdetect.LanguageDetectorContextGenerator::getContext(java.lang.CharSequence)",
+  "new" : "method <T extends java.lang.CharSequence> T[] opennlp.tools.langdetect.LanguageDetectorContextGenerator::getContext(java.lang.CharSequence)",
+  "name" : "formal type parameter added",
+  "description" : "A new formal type parameter added to element: 'T extends java.lang.CharSequence'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "typeParameter",
+    "value" : "T extends java.lang.CharSequence"
+  }, {
+    "name" : "package",
+    "value" : "opennlp.tools.langdetect"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "opennlp.tools.langdetect.LanguageDetectorContextGenerator"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "LanguageDetectorContextGenerator"
+  }, {
+    "name" : "methodName",
+    "value" : "getContext"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "opennlp-tools-2.2.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "opennlp-tools-2.3.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.nonFinalClassInheritsFromNewClass",
+  "old" : "class opennlp.tools.langdetect.LanguageSample",
+  "new" : "class opennlp.tools.langdetect.LanguageSample",
+  "name" : "new super class of non-final class",
+  "description" : "Non-final class now inherits from 'java.lang.Record'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "POTENTIALLY_BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "POTENTIALLY_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "superClass",
+    "value" : "java.lang.Record"
+  }, {
+    "name" : "package",
+    "value" : "opennlp.tools.langdetect"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "opennlp.tools.langdetect.LanguageSample"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "LanguageSample"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "opennlp-tools-2.2.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "opennlp-tools-2.3.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.kindChanged",
+  "old" : "class opennlp.tools.langdetect.LanguageSample",
+  "new" : "class opennlp.tools.langdetect.LanguageSample",
+  "name" : "class kind changed",
+  "description" : "Class kind changed from 'class' to 'unexpected (RECORD)'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldKind",
+    "value" : "class"
+  }, {
+    "name" : "newKind",
+    "value" : "unexpected (RECORD)"
+  }, {
+    "name" : "package",
+    "value" : "opennlp.tools.langdetect"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "opennlp.tools.langdetect.LanguageSample"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "LanguageSample"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "opennlp-tools-2.2.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "opennlp-tools-2.3.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.nowFinal",
+  "old" : "class opennlp.tools.langdetect.LanguageSample",
+  "new" : "class opennlp.tools.langdetect.LanguageSample",
+  "name" : "class now final",
+  "description" : "Class is now final.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldModifiers",
+    "value" : "public"
+  }, {
+    "name" : "newModifiers",
+    "value" : "public final"
+  }, {
+    "name" : "package",
+    "value" : "opennlp.tools.langdetect"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "opennlp.tools.langdetect.LanguageSample"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "LanguageSample"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "opennlp-tools-2.2.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "opennlp-tools-2.3.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.field.serialVersionUIDChanged",
+  "old" : "field opennlp.tools.langdetect.LanguageSample.serialVersionUID",
+  "new" : "field opennlp.tools.langdetect.LanguageSample.serialVersionUID",
+  "name" : "serialVersionUID constant changed",
+  "description" : "serialVersionUID constant changed. Objects serialized using the old version of the class will no longer be deserializable.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "EQUIVALENT"
+  }, {
+    "compatibility" : "SEMANTIC",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "EQUIVALENT"
+  } ],
+  "attachments" : [ {
+    "name" : "oldSerialVersionUID",
+    "value" : "-5206320996868984440"
+  }, {
+    "name" : "newSerialVersionUID",
+    "value" : "-2222893493240468729"
+  }, {
+    "name" : "package",
+    "value" : "opennlp.tools.langdetect"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "opennlp.tools.langdetect.LanguageSample"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "LanguageSample"
+  }, {
+    "name" : "fieldName",
+    "value" : "serialVersionUID"
+  }, {
+    "name" : "elementKind",
+    "value" : "field"
+  }, {
+    "name" : "oldArchive",
+    "value" : "opennlp-tools-2.2.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "opennlp-tools-2.3.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.nonFinalClassInheritsFromNewClass",
+  "old" : "class opennlp.tools.langdetect.ProbingLanguageDetectionResult",
+  "new" : "class opennlp.tools.langdetect.ProbingLanguageDetectionResult",
+  "name" : "new super class of non-final class",
+  "description" : "Non-final class now inherits from 'java.lang.Record'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "POTENTIALLY_BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "POTENTIALLY_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "superClass",
+    "value" : "java.lang.Record"
+  }, {
+    "name" : "package",
+    "value" : "opennlp.tools.langdetect"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "opennlp.tools.langdetect.ProbingLanguageDetectionResult"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "ProbingLanguageDetectionResult"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "opennlp-tools-2.2.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "opennlp-tools-2.3.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.kindChanged",
+  "old" : "class opennlp.tools.langdetect.ProbingLanguageDetectionResult",
+  "new" : "class opennlp.tools.langdetect.ProbingLanguageDetectionResult",
+  "name" : "class kind changed",
+  "description" : "Class kind changed from 'class' to 'unexpected (RECORD)'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldKind",
+    "value" : "class"
+  }, {
+    "name" : "newKind",
+    "value" : "unexpected (RECORD)"
+  }, {
+    "name" : "package",
+    "value" : "opennlp.tools.langdetect"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "opennlp.tools.langdetect.ProbingLanguageDetectionResult"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "ProbingLanguageDetectionResult"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "opennlp-tools-2.2.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "opennlp-tools-2.3.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.nowFinal",
+  "old" : "class opennlp.tools.langdetect.ProbingLanguageDetectionResult",
+  "new" : "class opennlp.tools.langdetect.ProbingLanguageDetectionResult",
+  "name" : "class now final",
+  "description" : "Class is now final.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldModifiers",
+    "value" : "public"
+  }, {
+    "name" : "newModifiers",
+    "value" : "public final"
+  }, {
+    "name" : "package",
+    "value" : "opennlp.tools.langdetect"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "opennlp.tools.langdetect.ProbingLanguageDetectionResult"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "ProbingLanguageDetectionResult"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "opennlp-tools-2.2.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "opennlp-tools-2.3.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method boolean opennlp.tools.ml.AbstractEventTrainer::isValid()",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "opennlp.tools.ml"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "opennlp.tools.ml.AbstractEventTrainer"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "AbstractEventTrainer"
+  }, {
+    "name" : "methodName",
+    "value" : "isValid"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "opennlp-tools-2.2.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method int opennlp.tools.ml.AbstractTrainer::TrainingParameters(java.lang.String, int)",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "opennlp.tools.ml"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "opennlp.tools.ml.AbstractTrainer"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "AbstractTrainer"
+  }, {
+    "name" : "methodName",
+    "value" : "TrainingParameters"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "opennlp-tools-2.2.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method boolean opennlp.tools.ml.AbstractTrainer::getBooleanParam(java.lang.String, boolean)",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "opennlp.tools.ml"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "opennlp.tools.ml.AbstractTrainer"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "AbstractTrainer"
+  }, {
+    "name" : "methodName",
+    "value" : "getBooleanParam"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "opennlp-tools-2.2.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method double opennlp.tools.ml.AbstractTrainer::getDoubleParam(java.lang.String, double)",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "opennlp.tools.ml"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "opennlp.tools.ml.AbstractTrainer"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "AbstractTrainer"
+  }, {
+    "name" : "methodName",
+    "value" : "getDoubleParam"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "opennlp-tools-2.2.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method java.lang.String opennlp.tools.ml.AbstractTrainer::getStringParam(java.lang.String, java.lang.String)",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "opennlp.tools.ml"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "opennlp.tools.ml.AbstractTrainer"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "AbstractTrainer"
+  }, {
+    "name" : "methodName",
+    "value" : "getStringParam"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "opennlp-tools-2.2.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method void opennlp.tools.ml.AbstractTrainer::init(java.util.Map<java.lang.String, java.lang.Object>, java.util.Map<java.lang.String, java.lang.String>)",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "opennlp.tools.ml"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "opennlp.tools.ml.AbstractTrainer"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "AbstractTrainer"
+  }, {
+    "name" : "methodName",
+    "value" : "init"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "opennlp-tools-2.2.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method boolean opennlp.tools.ml.AbstractTrainer::isValid()",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "opennlp.tools.ml"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "opennlp.tools.ml.AbstractTrainer"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "AbstractTrainer"
+  }, {
+    "name" : "methodName",
+    "value" : "isValid"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "opennlp-tools-2.2.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.field.removedWithConstant",
+  "old" : "field opennlp.tools.ml.maxent.GISTrainer.OLD_LL_THRESHOLD_PARAM",
+  "new" : null,
+  "name" : "field with constant removed",
+  "description" : "Field with constant value has been removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SEMANTIC",
+    "severity" : "POTENTIALLY_BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "opennlp.tools.ml.maxent"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "opennlp.tools.ml.maxent.GISTrainer"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "GISTrainer"
+  }, {
+    "name" : "fieldName",
+    "value" : "OLD_LL_THRESHOLD_PARAM"
+  }, {
+    "name" : "elementKind",
+    "value" : "field"
+  }, {
+    "name" : "oldArchive",
+    "value" : "opennlp-tools-2.2.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class opennlp.tools.ml.maxent.quasinewton.ArrayMath",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "opennlp.tools.ml.maxent.quasinewton"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "opennlp.tools.ml.maxent.quasinewton.ArrayMath"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "ArrayMath"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "opennlp-tools-2.2.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method void opennlp.tools.ml.maxent.quasinewton.QNTrainer::init(java.util.Map<java.lang.String, java.lang.Object>, java.util.Map<java.lang.String, java.lang.String>)",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "opennlp.tools.ml.maxent.quasinewton"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "opennlp.tools.ml.maxent.quasinewton.QNTrainer"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "QNTrainer"
+  }, {
+    "name" : "methodName",
+    "value" : "init"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "opennlp-tools-2.2.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method boolean opennlp.tools.ml.maxent.quasinewton.QNTrainer::isValid()",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "opennlp.tools.ml.maxent.quasinewton"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "opennlp.tools.ml.maxent.quasinewton.QNTrainer"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "QNTrainer"
+  }, {
+    "name" : "methodName",
+    "value" : "isValid"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "opennlp-tools-2.2.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.parameterTypeChanged",
+  "old" : "parameter void opennlp.tools.ml.model.Event::<init>(java.lang.String, ===java.lang.String[]===)",
+  "new" : "parameter void opennlp.tools.ml.model.Event::<init>(java.lang.String, ===java.lang.CharSequence[]===)",
+  "name" : "parameter type changed",
+  "description" : "The type of the parameter changed from 'java.lang.String[]' to 'java.lang.CharSequence[]'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "POTENTIALLY_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "java.lang.String[]"
+  }, {
+    "name" : "newType",
+    "value" : "java.lang.CharSequence[]"
+  }, {
+    "name" : "package",
+    "value" : "opennlp.tools.ml.model"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "opennlp.tools.ml.model.Event"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "Event"
+  }, {
+    "name" : "methodName",
+    "value" : "<init>"
+  }, {
+    "name" : "parameterIndex",
+    "value" : "1"
+  }, {
+    "name" : "elementKind",
+    "value" : "parameter"
+  }, {
+    "name" : "oldArchive",
+    "value" : "opennlp-tools-2.2.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "opennlp-tools-2.3.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method boolean opennlp.tools.ml.perceptron.PerceptronTrainer::isValid()",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "opennlp.tools.ml.perceptron"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "opennlp.tools.ml.perceptron.PerceptronTrainer"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "PerceptronTrainer"
+  }, {
+    "name" : "methodName",
+    "value" : "isValid"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "opennlp-tools-2.2.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method boolean opennlp.tools.ml.perceptron.SimplePerceptronSequenceTrainer::isValid()",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "opennlp.tools.ml.perceptron"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "opennlp.tools.ml.perceptron.SimplePerceptronSequenceTrainer"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "SimplePerceptronSequenceTrainer"
+  }, {
+    "name" : "methodName",
+    "value" : "isValid"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "opennlp-tools-2.2.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.noLongerImplementsInterface",
+  "old" : "class opennlp.tools.ngram.NGramCharModel",
+  "new" : "class opennlp.tools.ngram.NGramCharModel",
+  "name" : "class no longer implements interface",
+  "description" : "Class no longer implements interface 'java.lang.Iterable<java.lang.String>'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "interface",
+    "value" : "java.lang.Iterable<java.lang.String>"
+  }, {
+    "name" : "package",
+    "value" : "opennlp.tools.ngram"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "opennlp.tools.ngram.NGramCharModel"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "NGramCharModel"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "opennlp-tools-2.2.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "opennlp-tools-2.3.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.nowImplementsInterface",
+  "old" : "class opennlp.tools.ngram.NGramCharModel",
+  "new" : "class opennlp.tools.ngram.NGramCharModel",
+  "name" : "class implements interface",
+  "description" : "Class now implements interface 'java.lang.Iterable<java.lang.CharSequence>'.",
+  "criticality" : "documented",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "interface",
+    "value" : "java.lang.Iterable<java.lang.CharSequence>"
+  }, {
+    "name" : "package",
+    "value" : "opennlp.tools.ngram"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "opennlp.tools.ngram.NGramCharModel"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "NGramCharModel"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "opennlp-tools-2.2.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "opennlp-tools-2.3.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.superTypeTypeParametersChanged",
+  "old" : "class opennlp.tools.ngram.NGramCharModel",
+  "new" : "class opennlp.tools.ngram.NGramCharModel",
+  "name" : "type parameters of super-type changed",
+  "description" : "Super type's type parameters changed from 'java.lang.Iterable<java.lang.String>' to 'java.lang.Iterable<java.lang.CharSequence>'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "POTENTIALLY_BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "POTENTIALLY_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldSuperType",
+    "value" : "java.lang.Iterable<java.lang.String>"
+  }, {
+    "name" : "newSuperType",
+    "value" : "java.lang.Iterable<java.lang.CharSequence>"
+  }, {
+    "name" : "package",
+    "value" : "opennlp.tools.ngram"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "opennlp.tools.ngram.NGramCharModel"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "NGramCharModel"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "opennlp-tools-2.2.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "opennlp-tools-2.3.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.parameterTypeChanged",
+  "old" : "parameter void opennlp.tools.ngram.NGramCharModel::add(===java.lang.String===)",
+  "new" : "parameter void opennlp.tools.ngram.NGramCharModel::add(===java.lang.CharSequence===)",
+  "name" : "parameter type changed",
+  "description" : "The type of the parameter changed from 'java.lang.String' to 'java.lang.CharSequence'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "POTENTIALLY_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "java.lang.String"
+  }, {
+    "name" : "newType",
+    "value" : "java.lang.CharSequence"
+  }, {
+    "name" : "package",
+    "value" : "opennlp.tools.ngram"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "opennlp.tools.ngram.NGramCharModel"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "NGramCharModel"
+  }, {
+    "name" : "methodName",
+    "value" : "add"
+  }, {
+    "name" : "parameterIndex",
+    "value" : "0"
+  }, {
+    "name" : "elementKind",
+    "value" : "parameter"
+  }, {
+    "name" : "oldArchive",
+    "value" : "opennlp-tools-2.2.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "opennlp-tools-2.3.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.parameterTypeChanged",
+  "old" : "parameter boolean opennlp.tools.ngram.NGramCharModel::contains(===java.lang.String===)",
+  "new" : "parameter boolean opennlp.tools.ngram.NGramCharModel::contains(===java.lang.CharSequence===)",
+  "name" : "parameter type changed",
+  "description" : "The type of the parameter changed from 'java.lang.String' to 'java.lang.CharSequence'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "POTENTIALLY_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "java.lang.String"
+  }, {
+    "name" : "newType",
+    "value" : "java.lang.CharSequence"
+  }, {
+    "name" : "package",
+    "value" : "opennlp.tools.ngram"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "opennlp.tools.ngram.NGramCharModel"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "NGramCharModel"
+  }, {
+    "name" : "methodName",
+    "value" : "contains"
+  }, {
+    "name" : "parameterIndex",
+    "value" : "0"
+  }, {
+    "name" : "elementKind",
+    "value" : "parameter"
+  }, {
+    "name" : "oldArchive",
+    "value" : "opennlp-tools-2.2.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "opennlp-tools-2.3.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.parameterTypeChanged",
+  "old" : "parameter int opennlp.tools.ngram.NGramCharModel::getCount(===java.lang.String===)",
+  "new" : "parameter int opennlp.tools.ngram.NGramCharModel::getCount(===java.lang.CharSequence===)",
+  "name" : "parameter type changed",
+  "description" : "The type of the parameter changed from 'java.lang.String' to 'java.lang.CharSequence'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "POTENTIALLY_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "java.lang.String"
+  }, {
+    "name" : "newType",
+    "value" : "java.lang.CharSequence"
+  }, {
+    "name" : "package",
+    "value" : "opennlp.tools.ngram"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "opennlp.tools.ngram.NGramCharModel"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "NGramCharModel"
+  }, {
+    "name" : "methodName",
+    "value" : "getCount"
+  }, {
+    "name" : "parameterIndex",
+    "value" : "0"
+  }, {
+    "name" : "elementKind",
+    "value" : "parameter"
+  }, {
+    "name" : "oldArchive",
+    "value" : "opennlp-tools-2.2.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "opennlp-tools-2.3.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.returnTypeTypeParametersChanged",
+  "old" : "method java.util.Iterator<java.lang.String> opennlp.tools.ngram.NGramCharModel::iterator()",
+  "new" : "method java.util.Iterator<java.lang.CharSequence> opennlp.tools.ngram.NGramCharModel::iterator()",
+  "name" : "return type changed type parameter",
+  "description" : "The return type changed from 'java.util.Iterator<java.lang.String>' to 'java.util.Iterator<java.lang.CharSequence>'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "java.util.Iterator<java.lang.String>"
+  }, {
+    "name" : "newType",
+    "value" : "java.util.Iterator<java.lang.CharSequence>"
+  }, {
+    "name" : "package",
+    "value" : "opennlp.tools.ngram"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "opennlp.tools.ngram.NGramCharModel"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "NGramCharModel"
+  }, {
+    "name" : "methodName",
+    "value" : "iterator"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "opennlp-tools-2.2.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "opennlp-tools-2.3.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.parameterTypeChanged",
+  "old" : "parameter void opennlp.tools.ngram.NGramCharModel::remove(===java.lang.String===)",
+  "new" : "parameter void opennlp.tools.ngram.NGramCharModel::remove(===java.lang.CharSequence===)",
+  "name" : "parameter type changed",
+  "description" : "The type of the parameter changed from 'java.lang.String' to 'java.lang.CharSequence'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "POTENTIALLY_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "java.lang.String"
+  }, {
+    "name" : "newType",
+    "value" : "java.lang.CharSequence"
+  }, {
+    "name" : "package",
+    "value" : "opennlp.tools.ngram"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "opennlp.tools.ngram.NGramCharModel"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "NGramCharModel"
+  }, {
+    "name" : "methodName",
+    "value" : "remove"
+  }, {
+    "name" : "parameterIndex",
+    "value" : "0"
+  }, {
+    "name" : "elementKind",
+    "value" : "parameter"
+  }, {
+    "name" : "oldArchive",
+    "value" : "opennlp-tools-2.2.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "opennlp-tools-2.3.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.parameterTypeChanged",
+  "old" : "parameter void opennlp.tools.ngram.NGramCharModel::setCount(===java.lang.String===, int)",
+  "new" : "parameter void opennlp.tools.ngram.NGramCharModel::setCount(===java.lang.CharSequence===, int)",
+  "name" : "parameter type changed",
+  "description" : "The type of the parameter changed from 'java.lang.String' to 'java.lang.CharSequence'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "POTENTIALLY_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "java.lang.String"
+  }, {
+    "name" : "newType",
+    "value" : "java.lang.CharSequence"
+  }, {
+    "name" : "package",
+    "value" : "opennlp.tools.ngram"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "opennlp.tools.ngram.NGramCharModel"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "NGramCharModel"
+  }, {
+    "name" : "methodName",
+    "value" : "setCount"
+  }, {
+    "name" : "parameterIndex",
+    "value" : "0"
+  }, {
+    "name" : "elementKind",
+    "value" : "parameter"
+  }, {
+    "name" : "oldArchive",
+    "value" : "opennlp-tools-2.2.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "opennlp-tools-2.3.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.returnTypeTypeParametersChanged",
+  "old" : "method java.util.Spliterator<T> java.lang.Iterable<T>::spliterator() @ opennlp.tools.ngram.NGramCharModel",
+  "new" : "method java.util.Spliterator<T> java.lang.Iterable<T>::spliterator() @ opennlp.tools.ngram.NGramCharModel",
+  "name" : "return type changed type parameter",
+  "description" : "The return type changed from 'java.util.Spliterator<java.lang.String>' to 'java.util.Spliterator<java.lang.CharSequence>'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "java.util.Spliterator<java.lang.String>"
+  }, {
+    "name" : "newType",
+    "value" : "java.util.Spliterator<java.lang.CharSequence>"
+  }, {
+    "name" : "package",
+    "value" : "opennlp.tools.ngram"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "opennlp.tools.ngram.NGramCharModel"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "NGramCharModel"
+  }, {
+    "name" : "methodName",
+    "value" : "spliterator"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "opennlp-tools-2.2.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "opennlp-tools-2.3.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method char[] opennlp.tools.sentdetect.DefaultEndOfSentenceScanner::getEndOfSentenceCharacters()",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "opennlp.tools.sentdetect"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "opennlp.tools.sentdetect.DefaultEndOfSentenceScanner"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "DefaultEndOfSentenceScanner"
+  }, {
+    "name" : "methodName",
+    "value" : "getEndOfSentenceCharacters"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "opennlp-tools-2.2.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method char[] opennlp.tools.sentdetect.EndOfSentenceScanner::getEndOfSentenceCharacters()",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "opennlp.tools.sentdetect"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "opennlp.tools.sentdetect.EndOfSentenceScanner"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "EndOfSentenceScanner"
+  }, {
+    "name" : "methodName",
+    "value" : "getEndOfSentenceCharacters"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "opennlp-tools-2.2.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method opennlp.tools.sentdetect.SentenceModel opennlp.tools.sentdetect.SentenceDetectorME::train(java.lang.String, opennlp.tools.util.ObjectStream<opennlp.tools.sentdetect.SentenceSample>, boolean, opennlp.tools.dictionary.Dictionary) throws java.io.IOException",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "opennlp.tools.sentdetect"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "opennlp.tools.sentdetect.SentenceDetectorME"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "SentenceDetectorME"
+  }, {
+    "name" : "methodName",
+    "value" : "train"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "opennlp-tools-2.2.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.nonPublicPartOfAPI",
+  "old" : "class opennlp.tools.stemmer.snowball.Among",
+  "new" : "class opennlp.tools.stemmer.snowball.Among",
+  "name" : "non-public class in API",
+  "description" : "Class 'opennlp.tools.stemmer.snowball.Among' is indirectly included in the API (by the means of method return type for example) but the class is not accessible (neither public nor protected).",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SEMANTIC",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "classSimpleName",
+    "value" : "Among"
+  }, {
+    "name" : "exampleUseChainInNewApi",
+    "value" : "opennlp.tools.stemmer.snowball.Among is used as parameter in method int opennlp.tools.stemmer.snowball.SnowballProgram::find_among_b(opennlp.tools.stemmer.snowball.Among[], int) @ opennlp.tools.stemmer.snowball.indonesianStemmer (method int opennlp.tools.stemmer.snowball.SnowballProgram::find_among_b(opennlp.tools.stemmer.snowball.Among[], int) @ opennlp.tools.stemmer.snowball.indonesianStemmer is part of the API)"
+  }, {
+    "name" : "package",
+    "value" : "opennlp.tools.stemmer.snowball"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "opennlp.tools.stemmer.snowball.Among"
+  }, {
+    "name" : "exampleUseChainInOldApi",
+    "value" : "opennlp.tools.stemmer.snowball.Among is used as parameter in method int opennlp.tools.stemmer.snowball.SnowballProgram::find_among(opennlp.tools.stemmer.snowball.Among[], int) @ opennlp.tools.stemmer.snowball.catalanStemmer (method int opennlp.tools.stemmer.snowball.SnowballProgram::find_among(opennlp.tools.stemmer.snowball.Among[], int) @ opennlp.tools.stemmer.snowball.catalanStemmer is part of the API)"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "opennlp-tools-2.2.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "opennlp-tools-2.3.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.nonPublicPartOfAPI",
+  "old" : "class opennlp.tools.stemmer.snowball.SnowballProgram",
+  "new" : "class opennlp.tools.stemmer.snowball.SnowballProgram",
+  "name" : "non-public class in API",
+  "description" : "Class 'opennlp.tools.stemmer.snowball.SnowballProgram' is indirectly included in the API (by the means of method return type for example) but the class is not accessible (neither public nor protected).",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SEMANTIC",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "classSimpleName",
+    "value" : "SnowballProgram"
+  }, {
+    "name" : "exampleUseChainInNewApi",
+    "value" : "opennlp.tools.stemmer.snowball.SnowballProgram is used as parameter in method void opennlp.tools.stemmer.snowball.Among::<init>(java.lang.String, int, int, java.lang.String, opennlp.tools.stemmer.snowball.SnowballProgram) <- opennlp.tools.stemmer.snowball.Among is used as parameter in method int opennlp.tools.stemmer.snowball.SnowballProgram::find_among_b(opennlp.tools.stemmer.snowball.Among[], int) @ opennlp.tools.stemmer.snowball.indonesianStemmer (method int opennlp.tools.stemmer.snowball.SnowballProgram::find_among_b(opennlp.tools.stemmer.snowball.Among[], int) @ opennlp.tools.stemmer.snowball.indonesianStemmer is part of the API)"
+  }, {
+    "name" : "package",
+    "value" : "opennlp.tools.stemmer.snowball"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "opennlp.tools.stemmer.snowball.SnowballProgram"
+  }, {
+    "name" : "exampleUseChainInOldApi",
+    "value" : "opennlp.tools.stemmer.snowball.SnowballProgram is used as parameter in method void opennlp.tools.stemmer.snowball.SnowballProgram::copy_from(opennlp.tools.stemmer.snowball.SnowballProgram) @ opennlp.tools.stemmer.snowball.irishStemmer (method void opennlp.tools.stemmer.snowball.SnowballProgram::copy_from(opennlp.tools.stemmer.snowball.SnowballProgram) @ opennlp.tools.stemmer.snowball.irishStemmer is part of the API)"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "opennlp-tools-2.2.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "opennlp-tools-2.3.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.nonFinalClassInheritsFromNewClass",
+  "old" : "class opennlp.tools.util.TokenTag",
+  "new" : "class opennlp.tools.util.TokenTag",
+  "name" : "new super class of non-final class",
+  "description" : "Non-final class now inherits from 'java.lang.Record'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "POTENTIALLY_BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "POTENTIALLY_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "superClass",
+    "value" : "java.lang.Record"
+  }, {
+    "name" : "package",
+    "value" : "opennlp.tools.util"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "opennlp.tools.util.TokenTag"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "TokenTag"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "opennlp-tools-2.2.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "opennlp-tools-2.3.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.kindChanged",
+  "old" : "class opennlp.tools.util.TokenTag",
+  "new" : "class opennlp.tools.util.TokenTag",
+  "name" : "class kind changed",
+  "description" : "Class kind changed from 'class' to 'unexpected (RECORD)'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldKind",
+    "value" : "class"
+  }, {
+    "name" : "newKind",
+    "value" : "unexpected (RECORD)"
+  }, {
+    "name" : "package",
+    "value" : "opennlp.tools.util"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "opennlp.tools.util.TokenTag"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "TokenTag"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "opennlp-tools-2.2.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "opennlp-tools-2.3.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.nowFinal",
+  "old" : "class opennlp.tools.util.TokenTag",
+  "new" : "class opennlp.tools.util.TokenTag",
+  "name" : "class now final",
+  "description" : "Class is now final.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldModifiers",
+    "value" : "public"
+  }, {
+    "name" : "newModifiers",
+    "value" : "public final"
+  }, {
+    "name" : "package",
+    "value" : "opennlp.tools.util"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "opennlp.tools.util.TokenTag"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "TokenTag"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "opennlp-tools-2.2.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "opennlp-tools-2.3.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.noLongerImplementsInterface",
+  "old" : "class opennlp.tools.util.featuregen.AggregatedFeatureGeneratorFactory",
+  "new" : "class opennlp.tools.util.featuregen.AggregatedFeatureGeneratorFactory",
+  "name" : "class no longer implements interface",
+  "description" : "Class no longer implements interface 'opennlp.tools.util.featuregen.GeneratorFactory.XmlFeatureGeneratorFactory'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "interface",
+    "value" : "opennlp.tools.util.featuregen.GeneratorFactory.XmlFeatureGeneratorFactory"
+  }, {
+    "name" : "package",
+    "value" : "opennlp.tools.util.featuregen"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "opennlp.tools.util.featuregen.AggregatedFeatureGeneratorFactory"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "AggregatedFeatureGeneratorFactory"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "opennlp-tools-2.2.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "opennlp-tools-2.3.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method opennlp.tools.util.featuregen.AdaptiveFeatureGenerator opennlp.tools.util.featuregen.AggregatedFeatureGeneratorFactory::create(org.w3c.dom.Element, opennlp.tools.util.featuregen.FeatureGeneratorResourceProvider) throws opennlp.tools.util.InvalidFormatException",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "opennlp.tools.util.featuregen"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "opennlp.tools.util.featuregen.AggregatedFeatureGeneratorFactory"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "AggregatedFeatureGeneratorFactory"
+  }, {
+    "name" : "methodName",
+    "value" : "create"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "opennlp-tools-2.2.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "interface opennlp.tools.util.featuregen.ArtifactToSerializerMapper",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "opennlp.tools.util.featuregen"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "opennlp.tools.util.featuregen.ArtifactToSerializerMapper"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "ArtifactToSerializerMapper"
+  }, {
+    "name" : "elementKind",
+    "value" : "interface"
+  }, {
+    "name" : "oldArchive",
+    "value" : "opennlp-tools-2.2.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.noLongerImplementsInterface",
+  "old" : "class opennlp.tools.util.featuregen.BigramNameFeatureGeneratorFactory",
+  "new" : "class opennlp.tools.util.featuregen.BigramNameFeatureGeneratorFactory",
+  "name" : "class no longer implements interface",
+  "description" : "Class no longer implements interface 'opennlp.tools.util.featuregen.GeneratorFactory.XmlFeatureGeneratorFactory'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "interface",
+    "value" : "opennlp.tools.util.featuregen.GeneratorFactory.XmlFeatureGeneratorFactory"
+  }, {
+    "name" : "package",
+    "value" : "opennlp.tools.util.featuregen"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "opennlp.tools.util.featuregen.BigramNameFeatureGeneratorFactory"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "BigramNameFeatureGeneratorFactory"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "opennlp-tools-2.2.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "opennlp-tools-2.3.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method opennlp.tools.util.featuregen.AdaptiveFeatureGenerator opennlp.tools.util.featuregen.BigramNameFeatureGeneratorFactory::create(org.w3c.dom.Element, opennlp.tools.util.featuregen.FeatureGeneratorResourceProvider)",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "opennlp.tools.util.featuregen"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "opennlp.tools.util.featuregen.BigramNameFeatureGeneratorFactory"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "BigramNameFeatureGeneratorFactory"
+  }, {
+    "name" : "methodName",
+    "value" : "create"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "opennlp-tools-2.2.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.noLongerImplementsInterface",
+  "old" : "class opennlp.tools.util.featuregen.BrownClusterBigramFeatureGeneratorFactory",
+  "new" : "class opennlp.tools.util.featuregen.BrownClusterBigramFeatureGeneratorFactory",
+  "name" : "class no longer implements interface",
+  "description" : "Class no longer implements interface 'opennlp.tools.util.featuregen.GeneratorFactory.XmlFeatureGeneratorFactory'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "interface",
+    "value" : "opennlp.tools.util.featuregen.GeneratorFactory.XmlFeatureGeneratorFactory"
+  }, {
+    "name" : "package",
+    "value" : "opennlp.tools.util.featuregen"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "opennlp.tools.util.featuregen.BrownClusterBigramFeatureGeneratorFactory"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "BrownClusterBigramFeatureGeneratorFactory"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "opennlp-tools-2.2.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "opennlp-tools-2.3.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method opennlp.tools.util.featuregen.AdaptiveFeatureGenerator opennlp.tools.util.featuregen.BrownClusterBigramFeatureGeneratorFactory::create(org.w3c.dom.Element, opennlp.tools.util.featuregen.FeatureGeneratorResourceProvider) throws opennlp.tools.util.InvalidFormatException",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "opennlp.tools.util.featuregen"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "opennlp.tools.util.featuregen.BrownClusterBigramFeatureGeneratorFactory"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "BrownClusterBigramFeatureGeneratorFactory"
+  }, {
+    "name" : "methodName",
+    "value" : "create"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "opennlp-tools-2.2.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.noLongerImplementsInterface",
+  "old" : "class opennlp.tools.util.featuregen.BrownClusterTokenClassFeatureGeneratorFactory",
+  "new" : "class opennlp.tools.util.featuregen.BrownClusterTokenClassFeatureGeneratorFactory",
+  "name" : "class no longer implements interface",
+  "description" : "Class no longer implements interface 'opennlp.tools.util.featuregen.GeneratorFactory.XmlFeatureGeneratorFactory'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "interface",
+    "value" : "opennlp.tools.util.featuregen.GeneratorFactory.XmlFeatureGeneratorFactory"
+  }, {
+    "name" : "package",
+    "value" : "opennlp.tools.util.featuregen"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "opennlp.tools.util.featuregen.BrownClusterTokenClassFeatureGeneratorFactory"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "BrownClusterTokenClassFeatureGeneratorFactory"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "opennlp-tools-2.2.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "opennlp-tools-2.3.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method opennlp.tools.util.featuregen.AdaptiveFeatureGenerator opennlp.tools.util.featuregen.BrownClusterTokenClassFeatureGeneratorFactory::create(org.w3c.dom.Element, opennlp.tools.util.featuregen.FeatureGeneratorResourceProvider) throws opennlp.tools.util.InvalidFormatException",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "opennlp.tools.util.featuregen"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "opennlp.tools.util.featuregen.BrownClusterTokenClassFeatureGeneratorFactory"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "BrownClusterTokenClassFeatureGeneratorFactory"
+  }, {
+    "name" : "methodName",
+    "value" : "create"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "opennlp-tools-2.2.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.noLongerImplementsInterface",
+  "old" : "class opennlp.tools.util.featuregen.BrownClusterTokenFeatureGeneratorFactory",
+  "new" : "class opennlp.tools.util.featuregen.BrownClusterTokenFeatureGeneratorFactory",
+  "name" : "class no longer implements interface",
+  "description" : "Class no longer implements interface 'opennlp.tools.util.featuregen.GeneratorFactory.XmlFeatureGeneratorFactory'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "interface",
+    "value" : "opennlp.tools.util.featuregen.GeneratorFactory.XmlFeatureGeneratorFactory"
+  }, {
+    "name" : "package",
+    "value" : "opennlp.tools.util.featuregen"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "opennlp.tools.util.featuregen.BrownClusterTokenFeatureGeneratorFactory"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "BrownClusterTokenFeatureGeneratorFactory"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "opennlp-tools-2.2.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "opennlp-tools-2.3.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method opennlp.tools.util.featuregen.AdaptiveFeatureGenerator opennlp.tools.util.featuregen.BrownClusterTokenFeatureGeneratorFactory::create(org.w3c.dom.Element, opennlp.tools.util.featuregen.FeatureGeneratorResourceProvider) throws opennlp.tools.util.InvalidFormatException",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "opennlp.tools.util.featuregen"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "opennlp.tools.util.featuregen.BrownClusterTokenFeatureGeneratorFactory"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "BrownClusterTokenFeatureGeneratorFactory"
+  }, {
+    "name" : "methodName",
+    "value" : "create"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "opennlp-tools-2.2.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.noLongerImplementsInterface",
+  "old" : "class opennlp.tools.util.featuregen.CachedFeatureGeneratorFactory",
+  "new" : "class opennlp.tools.util.featuregen.CachedFeatureGeneratorFactory",
+  "name" : "class no longer implements interface",
+  "description" : "Class no longer implements interface 'opennlp.tools.util.featuregen.GeneratorFactory.XmlFeatureGeneratorFactory'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "interface",
+    "value" : "opennlp.tools.util.featuregen.GeneratorFactory.XmlFeatureGeneratorFactory"
+  }, {
+    "name" : "package",
+    "value" : "opennlp.tools.util.featuregen"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "opennlp.tools.util.featuregen.CachedFeatureGeneratorFactory"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "CachedFeatureGeneratorFactory"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "opennlp-tools-2.2.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "opennlp-tools-2.3.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method opennlp.tools.util.featuregen.AdaptiveFeatureGenerator opennlp.tools.util.featuregen.CachedFeatureGeneratorFactory::create(org.w3c.dom.Element, opennlp.tools.util.featuregen.FeatureGeneratorResourceProvider) throws opennlp.tools.util.InvalidFormatException",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "opennlp.tools.util.featuregen"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "opennlp.tools.util.featuregen.CachedFeatureGeneratorFactory"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "CachedFeatureGeneratorFactory"
+  }, {
+    "name" : "methodName",
+    "value" : "create"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "opennlp-tools-2.2.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.noLongerImplementsInterface",
+  "old" : "class opennlp.tools.util.featuregen.CharacterNgramFeatureGeneratorFactory",
+  "new" : "class opennlp.tools.util.featuregen.CharacterNgramFeatureGeneratorFactory",
+  "name" : "class no longer implements interface",
+  "description" : "Class no longer implements interface 'opennlp.tools.util.featuregen.GeneratorFactory.XmlFeatureGeneratorFactory'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "interface",
+    "value" : "opennlp.tools.util.featuregen.GeneratorFactory.XmlFeatureGeneratorFactory"
+  }, {
+    "name" : "package",
+    "value" : "opennlp.tools.util.featuregen"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "opennlp.tools.util.featuregen.CharacterNgramFeatureGeneratorFactory"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "CharacterNgramFeatureGeneratorFactory"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "opennlp-tools-2.2.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "opennlp-tools-2.3.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method opennlp.tools.util.featuregen.AdaptiveFeatureGenerator opennlp.tools.util.featuregen.CharacterNgramFeatureGeneratorFactory::create(org.w3c.dom.Element, opennlp.tools.util.featuregen.FeatureGeneratorResourceProvider) throws opennlp.tools.util.InvalidFormatException",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "opennlp.tools.util.featuregen"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "opennlp.tools.util.featuregen.CharacterNgramFeatureGeneratorFactory"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "CharacterNgramFeatureGeneratorFactory"
+  }, {
+    "name" : "methodName",
+    "value" : "create"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "opennlp-tools-2.2.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class opennlp.tools.util.featuregen.CustomFeatureGenerator",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "opennlp.tools.util.featuregen"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "opennlp.tools.util.featuregen.CustomFeatureGenerator"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "CustomFeatureGenerator"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "opennlp-tools-2.2.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.noLongerImplementsInterface",
+  "old" : "class opennlp.tools.util.featuregen.DefinitionFeatureGeneratorFactory",
+  "new" : "class opennlp.tools.util.featuregen.DefinitionFeatureGeneratorFactory",
+  "name" : "class no longer implements interface",
+  "description" : "Class no longer implements interface 'opennlp.tools.util.featuregen.GeneratorFactory.XmlFeatureGeneratorFactory'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "interface",
+    "value" : "opennlp.tools.util.featuregen.GeneratorFactory.XmlFeatureGeneratorFactory"
+  }, {
+    "name" : "package",
+    "value" : "opennlp.tools.util.featuregen"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "opennlp.tools.util.featuregen.DefinitionFeatureGeneratorFactory"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "DefinitionFeatureGeneratorFactory"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "opennlp-tools-2.2.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "opennlp-tools-2.3.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method opennlp.tools.util.featuregen.AdaptiveFeatureGenerator opennlp.tools.util.featuregen.DefinitionFeatureGeneratorFactory::create(org.w3c.dom.Element, opennlp.tools.util.featuregen.FeatureGeneratorResourceProvider) throws opennlp.tools.util.InvalidFormatException",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "opennlp.tools.util.featuregen"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "opennlp.tools.util.featuregen.DefinitionFeatureGeneratorFactory"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "DefinitionFeatureGeneratorFactory"
+  }, {
+    "name" : "methodName",
+    "value" : "create"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "opennlp-tools-2.2.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.noLongerImplementsInterface",
+  "old" : "class opennlp.tools.util.featuregen.DictionaryFeatureGeneratorFactory",
+  "new" : "class opennlp.tools.util.featuregen.DictionaryFeatureGeneratorFactory",
+  "name" : "class no longer implements interface",
+  "description" : "Class no longer implements interface 'opennlp.tools.util.featuregen.GeneratorFactory.XmlFeatureGeneratorFactory'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "interface",
+    "value" : "opennlp.tools.util.featuregen.GeneratorFactory.XmlFeatureGeneratorFactory"
+  }, {
+    "name" : "package",
+    "value" : "opennlp.tools.util.featuregen"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "opennlp.tools.util.featuregen.DictionaryFeatureGeneratorFactory"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "DictionaryFeatureGeneratorFactory"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "opennlp-tools-2.2.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "opennlp-tools-2.3.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method opennlp.tools.util.featuregen.AdaptiveFeatureGenerator opennlp.tools.util.featuregen.DictionaryFeatureGeneratorFactory::create(org.w3c.dom.Element, opennlp.tools.util.featuregen.FeatureGeneratorResourceProvider) throws opennlp.tools.util.InvalidFormatException",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "opennlp.tools.util.featuregen"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "opennlp.tools.util.featuregen.DictionaryFeatureGeneratorFactory"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "DictionaryFeatureGeneratorFactory"
+  }, {
+    "name" : "methodName",
+    "value" : "create"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "opennlp-tools-2.2.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.noLongerImplementsInterface",
+  "old" : "class opennlp.tools.util.featuregen.DocumentBeginFeatureGeneratorFactory",
+  "new" : "class opennlp.tools.util.featuregen.DocumentBeginFeatureGeneratorFactory",
+  "name" : "class no longer implements interface",
+  "description" : "Class no longer implements interface 'opennlp.tools.util.featuregen.GeneratorFactory.XmlFeatureGeneratorFactory'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "interface",
+    "value" : "opennlp.tools.util.featuregen.GeneratorFactory.XmlFeatureGeneratorFactory"
+  }, {
+    "name" : "package",
+    "value" : "opennlp.tools.util.featuregen"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "opennlp.tools.util.featuregen.DocumentBeginFeatureGeneratorFactory"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "DocumentBeginFeatureGeneratorFactory"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "opennlp-tools-2.2.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "opennlp-tools-2.3.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method opennlp.tools.util.featuregen.AdaptiveFeatureGenerator opennlp.tools.util.featuregen.DocumentBeginFeatureGeneratorFactory::create(org.w3c.dom.Element, opennlp.tools.util.featuregen.FeatureGeneratorResourceProvider)",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "opennlp.tools.util.featuregen"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "opennlp.tools.util.featuregen.DocumentBeginFeatureGeneratorFactory"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "DocumentBeginFeatureGeneratorFactory"
+  }, {
+    "name" : "methodName",
+    "value" : "create"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "opennlp-tools-2.2.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.noLongerImplementsInterface",
+  "old" : "class opennlp.tools.util.featuregen.POSTaggerNameFeatureGeneratorFactory",
+  "new" : "class opennlp.tools.util.featuregen.POSTaggerNameFeatureGeneratorFactory",
+  "name" : "class no longer implements interface",
+  "description" : "Class no longer implements interface 'opennlp.tools.util.featuregen.GeneratorFactory.XmlFeatureGeneratorFactory'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "interface",
+    "value" : "opennlp.tools.util.featuregen.GeneratorFactory.XmlFeatureGeneratorFactory"
+  }, {
+    "name" : "package",
+    "value" : "opennlp.tools.util.featuregen"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "opennlp.tools.util.featuregen.POSTaggerNameFeatureGeneratorFactory"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "POSTaggerNameFeatureGeneratorFactory"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "opennlp-tools-2.2.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "opennlp-tools-2.3.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method opennlp.tools.util.featuregen.AdaptiveFeatureGenerator opennlp.tools.util.featuregen.POSTaggerNameFeatureGeneratorFactory::create(org.w3c.dom.Element, opennlp.tools.util.featuregen.FeatureGeneratorResourceProvider) throws opennlp.tools.util.InvalidFormatException",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "opennlp.tools.util.featuregen"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "opennlp.tools.util.featuregen.POSTaggerNameFeatureGeneratorFactory"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "POSTaggerNameFeatureGeneratorFactory"
+  }, {
+    "name" : "methodName",
+    "value" : "create"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "opennlp-tools-2.2.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.noLongerImplementsInterface",
+  "old" : "class opennlp.tools.util.featuregen.PosTaggerFeatureGeneratorFactory",
+  "new" : "class opennlp.tools.util.featuregen.PosTaggerFeatureGeneratorFactory",
+  "name" : "class no longer implements interface",
+  "description" : "Class no longer implements interface 'opennlp.tools.util.featuregen.GeneratorFactory.XmlFeatureGeneratorFactory'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "interface",
+    "value" : "opennlp.tools.util.featuregen.GeneratorFactory.XmlFeatureGeneratorFactory"
+  }, {
+    "name" : "package",
+    "value" : "opennlp.tools.util.featuregen"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "opennlp.tools.util.featuregen.PosTaggerFeatureGeneratorFactory"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "PosTaggerFeatureGeneratorFactory"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "opennlp-tools-2.2.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "opennlp-tools-2.3.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method opennlp.tools.util.featuregen.AdaptiveFeatureGenerator opennlp.tools.util.featuregen.PosTaggerFeatureGeneratorFactory::create(org.w3c.dom.Element, opennlp.tools.util.featuregen.FeatureGeneratorResourceProvider)",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "opennlp.tools.util.featuregen"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "opennlp.tools.util.featuregen.PosTaggerFeatureGeneratorFactory"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "PosTaggerFeatureGeneratorFactory"
+  }, {
+    "name" : "methodName",
+    "value" : "create"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "opennlp-tools-2.2.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.noLongerImplementsInterface",
+  "old" : "class opennlp.tools.util.featuregen.PrefixFeatureGeneratorFactory",
+  "new" : "class opennlp.tools.util.featuregen.PrefixFeatureGeneratorFactory",
+  "name" : "class no longer implements interface",
+  "description" : "Class no longer implements interface 'opennlp.tools.util.featuregen.GeneratorFactory.XmlFeatureGeneratorFactory'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "interface",
+    "value" : "opennlp.tools.util.featuregen.GeneratorFactory.XmlFeatureGeneratorFactory"
+  }, {
+    "name" : "package",
+    "value" : "opennlp.tools.util.featuregen"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "opennlp.tools.util.featuregen.PrefixFeatureGeneratorFactory"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "PrefixFeatureGeneratorFactory"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "opennlp-tools-2.2.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "opennlp-tools-2.3.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method opennlp.tools.util.featuregen.AdaptiveFeatureGenerator opennlp.tools.util.featuregen.PrefixFeatureGeneratorFactory::create(org.w3c.dom.Element, opennlp.tools.util.featuregen.FeatureGeneratorResourceProvider)",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "opennlp.tools.util.featuregen"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "opennlp.tools.util.featuregen.PrefixFeatureGeneratorFactory"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "PrefixFeatureGeneratorFactory"
+  }, {
+    "name" : "methodName",
+    "value" : "create"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "opennlp-tools-2.2.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.noLongerImplementsInterface",
+  "old" : "class opennlp.tools.util.featuregen.PreviousMapFeatureGeneratorFactory",
+  "new" : "class opennlp.tools.util.featuregen.PreviousMapFeatureGeneratorFactory",
+  "name" : "class no longer implements interface",
+  "description" : "Class no longer implements interface 'opennlp.tools.util.featuregen.GeneratorFactory.XmlFeatureGeneratorFactory'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "interface",
+    "value" : "opennlp.tools.util.featuregen.GeneratorFactory.XmlFeatureGeneratorFactory"
+  }, {
+    "name" : "package",
+    "value" : "opennlp.tools.util.featuregen"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "opennlp.tools.util.featuregen.PreviousMapFeatureGeneratorFactory"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "PreviousMapFeatureGeneratorFactory"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "opennlp-tools-2.2.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "opennlp-tools-2.3.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method opennlp.tools.util.featuregen.AdaptiveFeatureGenerator opennlp.tools.util.featuregen.PreviousMapFeatureGeneratorFactory::create(org.w3c.dom.Element, opennlp.tools.util.featuregen.FeatureGeneratorResourceProvider)",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "opennlp.tools.util.featuregen"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "opennlp.tools.util.featuregen.PreviousMapFeatureGeneratorFactory"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "PreviousMapFeatureGeneratorFactory"
+  }, {
+    "name" : "methodName",
+    "value" : "create"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "opennlp-tools-2.2.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.noLongerImplementsInterface",
+  "old" : "class opennlp.tools.util.featuregen.SentenceFeatureGeneratorFactory",
+  "new" : "class opennlp.tools.util.featuregen.SentenceFeatureGeneratorFactory",
+  "name" : "class no longer implements interface",
+  "description" : "Class no longer implements interface 'opennlp.tools.util.featuregen.GeneratorFactory.XmlFeatureGeneratorFactory'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "interface",
+    "value" : "opennlp.tools.util.featuregen.GeneratorFactory.XmlFeatureGeneratorFactory"
+  }, {
+    "name" : "package",
+    "value" : "opennlp.tools.util.featuregen"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "opennlp.tools.util.featuregen.SentenceFeatureGeneratorFactory"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "SentenceFeatureGeneratorFactory"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "opennlp-tools-2.2.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "opennlp-tools-2.3.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method opennlp.tools.util.featuregen.AdaptiveFeatureGenerator opennlp.tools.util.featuregen.SentenceFeatureGeneratorFactory::create(org.w3c.dom.Element, opennlp.tools.util.featuregen.FeatureGeneratorResourceProvider)",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "opennlp.tools.util.featuregen"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "opennlp.tools.util.featuregen.SentenceFeatureGeneratorFactory"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "SentenceFeatureGeneratorFactory"
+  }, {
+    "name" : "methodName",
+    "value" : "create"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "opennlp-tools-2.2.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.noLongerImplementsInterface",
+  "old" : "class opennlp.tools.util.featuregen.SuffixFeatureGeneratorFactory",
+  "new" : "class opennlp.tools.util.featuregen.SuffixFeatureGeneratorFactory",
+  "name" : "class no longer implements interface",
+  "description" : "Class no longer implements interface 'opennlp.tools.util.featuregen.GeneratorFactory.XmlFeatureGeneratorFactory'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "interface",
+    "value" : "opennlp.tools.util.featuregen.GeneratorFactory.XmlFeatureGeneratorFactory"
+  }, {
+    "name" : "package",
+    "value" : "opennlp.tools.util.featuregen"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "opennlp.tools.util.featuregen.SuffixFeatureGeneratorFactory"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "SuffixFeatureGeneratorFactory"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "opennlp-tools-2.2.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "opennlp-tools-2.3.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method opennlp.tools.util.featuregen.AdaptiveFeatureGenerator opennlp.tools.util.featuregen.SuffixFeatureGeneratorFactory::create(org.w3c.dom.Element, opennlp.tools.util.featuregen.FeatureGeneratorResourceProvider)",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "opennlp.tools.util.featuregen"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "opennlp.tools.util.featuregen.SuffixFeatureGeneratorFactory"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "SuffixFeatureGeneratorFactory"
+  }, {
+    "name" : "methodName",
+    "value" : "create"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "opennlp-tools-2.2.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.noLongerImplementsInterface",
+  "old" : "class opennlp.tools.util.featuregen.TokenClassFeatureGeneratorFactory",
+  "new" : "class opennlp.tools.util.featuregen.TokenClassFeatureGeneratorFactory",
+  "name" : "class no longer implements interface",
+  "description" : "Class no longer implements interface 'opennlp.tools.util.featuregen.GeneratorFactory.XmlFeatureGeneratorFactory'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "interface",
+    "value" : "opennlp.tools.util.featuregen.GeneratorFactory.XmlFeatureGeneratorFactory"
+  }, {
+    "name" : "package",
+    "value" : "opennlp.tools.util.featuregen"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "opennlp.tools.util.featuregen.TokenClassFeatureGeneratorFactory"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "TokenClassFeatureGeneratorFactory"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "opennlp-tools-2.2.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "opennlp-tools-2.3.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method opennlp.tools.util.featuregen.AdaptiveFeatureGenerator opennlp.tools.util.featuregen.TokenClassFeatureGeneratorFactory::create(org.w3c.dom.Element, opennlp.tools.util.featuregen.FeatureGeneratorResourceProvider)",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "opennlp.tools.util.featuregen"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "opennlp.tools.util.featuregen.TokenClassFeatureGeneratorFactory"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "TokenClassFeatureGeneratorFactory"
+  }, {
+    "name" : "methodName",
+    "value" : "create"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "opennlp-tools-2.2.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.noLongerImplementsInterface",
+  "old" : "class opennlp.tools.util.featuregen.TokenFeatureGeneratorFactory",
+  "new" : "class opennlp.tools.util.featuregen.TokenFeatureGeneratorFactory",
+  "name" : "class no longer implements interface",
+  "description" : "Class no longer implements interface 'opennlp.tools.util.featuregen.GeneratorFactory.XmlFeatureGeneratorFactory'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "interface",
+    "value" : "opennlp.tools.util.featuregen.GeneratorFactory.XmlFeatureGeneratorFactory"
+  }, {
+    "name" : "package",
+    "value" : "opennlp.tools.util.featuregen"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "opennlp.tools.util.featuregen.TokenFeatureGeneratorFactory"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "TokenFeatureGeneratorFactory"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "opennlp-tools-2.2.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "opennlp-tools-2.3.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method opennlp.tools.util.featuregen.AdaptiveFeatureGenerator opennlp.tools.util.featuregen.TokenFeatureGeneratorFactory::create(org.w3c.dom.Element, opennlp.tools.util.featuregen.FeatureGeneratorResourceProvider)",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "opennlp.tools.util.featuregen"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "opennlp.tools.util.featuregen.TokenFeatureGeneratorFactory"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "TokenFeatureGeneratorFactory"
+  }, {
+    "name" : "methodName",
+    "value" : "create"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "opennlp-tools-2.2.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.noLongerImplementsInterface",
+  "old" : "class opennlp.tools.util.featuregen.TokenPatternFeatureGeneratorFactory",
+  "new" : "class opennlp.tools.util.featuregen.TokenPatternFeatureGeneratorFactory",
+  "name" : "class no longer implements interface",
+  "description" : "Class no longer implements interface 'opennlp.tools.util.featuregen.GeneratorFactory.XmlFeatureGeneratorFactory'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "interface",
+    "value" : "opennlp.tools.util.featuregen.GeneratorFactory.XmlFeatureGeneratorFactory"
+  }, {
+    "name" : "package",
+    "value" : "opennlp.tools.util.featuregen"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "opennlp.tools.util.featuregen.TokenPatternFeatureGeneratorFactory"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "TokenPatternFeatureGeneratorFactory"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "opennlp-tools-2.2.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "opennlp-tools-2.3.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method opennlp.tools.util.featuregen.AdaptiveFeatureGenerator opennlp.tools.util.featuregen.TokenPatternFeatureGeneratorFactory::create(org.w3c.dom.Element, opennlp.tools.util.featuregen.FeatureGeneratorResourceProvider)",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "opennlp.tools.util.featuregen"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "opennlp.tools.util.featuregen.TokenPatternFeatureGeneratorFactory"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "TokenPatternFeatureGeneratorFactory"
+  }, {
+    "name" : "methodName",
+    "value" : "create"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "opennlp-tools-2.2.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.noLongerImplementsInterface",
+  "old" : "class opennlp.tools.util.featuregen.TrigramNameFeatureGeneratorFactory",
+  "new" : "class opennlp.tools.util.featuregen.TrigramNameFeatureGeneratorFactory",
+  "name" : "class no longer implements interface",
+  "description" : "Class no longer implements interface 'opennlp.tools.util.featuregen.GeneratorFactory.XmlFeatureGeneratorFactory'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "interface",
+    "value" : "opennlp.tools.util.featuregen.GeneratorFactory.XmlFeatureGeneratorFactory"
+  }, {
+    "name" : "package",
+    "value" : "opennlp.tools.util.featuregen"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "opennlp.tools.util.featuregen.TrigramNameFeatureGeneratorFactory"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "TrigramNameFeatureGeneratorFactory"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "opennlp-tools-2.2.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "opennlp-tools-2.3.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method opennlp.tools.util.featuregen.AdaptiveFeatureGenerator opennlp.tools.util.featuregen.TrigramNameFeatureGeneratorFactory::create(org.w3c.dom.Element, opennlp.tools.util.featuregen.FeatureGeneratorResourceProvider)",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "opennlp.tools.util.featuregen"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "opennlp.tools.util.featuregen.TrigramNameFeatureGeneratorFactory"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "TrigramNameFeatureGeneratorFactory"
+  }, {
+    "name" : "methodName",
+    "value" : "create"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "opennlp-tools-2.2.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.noLongerImplementsInterface",
+  "old" : "class opennlp.tools.util.featuregen.WindowFeatureGeneratorFactory",
+  "new" : "class opennlp.tools.util.featuregen.WindowFeatureGeneratorFactory",
+  "name" : "class no longer implements interface",
+  "description" : "Class no longer implements interface 'opennlp.tools.util.featuregen.GeneratorFactory.XmlFeatureGeneratorFactory'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "interface",
+    "value" : "opennlp.tools.util.featuregen.GeneratorFactory.XmlFeatureGeneratorFactory"
+  }, {
+    "name" : "package",
+    "value" : "opennlp.tools.util.featuregen"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "opennlp.tools.util.featuregen.WindowFeatureGeneratorFactory"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "WindowFeatureGeneratorFactory"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "opennlp-tools-2.2.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "opennlp-tools-2.3.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method opennlp.tools.util.featuregen.AdaptiveFeatureGenerator opennlp.tools.util.featuregen.WindowFeatureGeneratorFactory::create(org.w3c.dom.Element, opennlp.tools.util.featuregen.FeatureGeneratorResourceProvider) throws opennlp.tools.util.InvalidFormatException",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "opennlp.tools.util.featuregen"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "opennlp.tools.util.featuregen.WindowFeatureGeneratorFactory"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "WindowFeatureGeneratorFactory"
+  }, {
+    "name" : "methodName",
+    "value" : "create"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "opennlp-tools-2.2.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.noLongerImplementsInterface",
+  "old" : "class opennlp.tools.util.featuregen.WordClusterFeatureGeneratorFactory",
+  "new" : "class opennlp.tools.util.featuregen.WordClusterFeatureGeneratorFactory",
+  "name" : "class no longer implements interface",
+  "description" : "Class no longer implements interface 'opennlp.tools.util.featuregen.GeneratorFactory.XmlFeatureGeneratorFactory'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "interface",
+    "value" : "opennlp.tools.util.featuregen.GeneratorFactory.XmlFeatureGeneratorFactory"
+  }, {
+    "name" : "package",
+    "value" : "opennlp.tools.util.featuregen"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "opennlp.tools.util.featuregen.WordClusterFeatureGeneratorFactory"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "WordClusterFeatureGeneratorFactory"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "opennlp-tools-2.2.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "opennlp-tools-2.3.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method opennlp.tools.util.featuregen.AdaptiveFeatureGenerator opennlp.tools.util.featuregen.WordClusterFeatureGeneratorFactory::create(org.w3c.dom.Element, opennlp.tools.util.featuregen.FeatureGeneratorResourceProvider) throws opennlp.tools.util.InvalidFormatException",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "opennlp.tools.util.featuregen"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "opennlp.tools.util.featuregen.WordClusterFeatureGeneratorFactory"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "WordClusterFeatureGeneratorFactory"
+  }, {
+    "name" : "methodName",
+    "value" : "create"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "opennlp-tools-2.2.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+} ]

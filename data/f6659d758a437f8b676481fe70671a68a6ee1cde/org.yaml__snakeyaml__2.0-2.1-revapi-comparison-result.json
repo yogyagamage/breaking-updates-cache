@@ -1,0 +1,158 @@
+[ {
+  "code" : "java.class.removed",
+  "old" : "class org.yaml.snakeyaml.inspector.TrustedPrefixesTagInspector",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.yaml.snakeyaml.inspector"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.yaml.snakeyaml.inspector.TrustedPrefixesTagInspector"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "TrustedPrefixesTagInspector"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "snakeyaml-2.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class org.yaml.snakeyaml.inspector.TrustedTagInspector",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.yaml.snakeyaml.inspector"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.yaml.snakeyaml.inspector.TrustedTagInspector"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "TrustedTagInspector"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "snakeyaml-2.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.nonPublicPartOfAPI",
+  "old" : "class org.yaml.snakeyaml.resolver.ResolverTuple",
+  "new" : "class org.yaml.snakeyaml.resolver.ResolverTuple",
+  "name" : "non-public class in API",
+  "description" : "Class 'org.yaml.snakeyaml.resolver.ResolverTuple' is indirectly included in the API (by the means of method return type for example) but the class is not accessible (neither public nor protected).",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SEMANTIC",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "classSimpleName",
+    "value" : "ResolverTuple"
+  }, {
+    "name" : "exampleUseChainInNewApi",
+    "value" : "org.yaml.snakeyaml.resolver.ResolverTuple is used as a type parameter or type variable bound on field org.yaml.snakeyaml.resolver.Resolver.yamlImplicitResolvers (field org.yaml.snakeyaml.resolver.Resolver.yamlImplicitResolvers is part of the API)"
+  }, {
+    "name" : "package",
+    "value" : "org.yaml.snakeyaml.resolver"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.yaml.snakeyaml.resolver.ResolverTuple"
+  }, {
+    "name" : "exampleUseChainInOldApi",
+    "value" : "org.yaml.snakeyaml.resolver.ResolverTuple is used as a type parameter or type variable bound on field org.yaml.snakeyaml.resolver.Resolver.yamlImplicitResolvers (field org.yaml.snakeyaml.resolver.Resolver.yamlImplicitResolvers is part of the API)"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "snakeyaml-2.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "snakeyaml-2.1.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.addedToInterface",
+  "old" : null,
+  "new" : "method void org.yaml.snakeyaml.scanner.Scanner::resetDocumentIndex()",
+  "name" : "method added to interface",
+  "description" : "Method was added to an interface.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SEMANTIC",
+    "severity" : "POTENTIALLY_BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.yaml.snakeyaml.scanner"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.yaml.snakeyaml.scanner.Scanner"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "Scanner"
+  }, {
+    "name" : "methodName",
+    "value" : "resetDocumentIndex"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "newArchive",
+    "value" : "snakeyaml-2.1.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+} ]

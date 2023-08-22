@@ -1,0 +1,879 @@
+[ {
+  "code" : "java.field.constantValueChanged",
+  "old" : "field org.antlr.v4.runtime.RuntimeMetaData.VERSION",
+  "new" : "field org.antlr.v4.runtime.RuntimeMetaData.VERSION",
+  "name" : "constant field changed value",
+  "description" : "Constant field changed value from '4.9.3' to '4.10'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SEMANTIC",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldValue",
+    "value" : "4.9.3"
+  }, {
+    "name" : "newValue",
+    "value" : "4.10"
+  }, {
+    "name" : "package",
+    "value" : "org.antlr.v4.runtime"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.antlr.v4.runtime.RuntimeMetaData"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "RuntimeMetaData"
+  }, {
+    "name" : "fieldName",
+    "value" : "VERSION"
+  }, {
+    "name" : "elementKind",
+    "value" : "field"
+  }, {
+    "name" : "oldArchive",
+    "value" : "antlr4-runtime-4.9.3.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "antlr4-runtime-4.10.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.field.removed",
+  "old" : "field org.antlr.v4.runtime.atn.ATNDeserializer.SERIALIZED_UUID",
+  "new" : null,
+  "name" : "field removed",
+  "description" : "Field removed from class.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.antlr.v4.runtime.atn"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.antlr.v4.runtime.atn.ATNDeserializer"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "ATNDeserializer"
+  }, {
+    "name" : "fieldName",
+    "value" : "SERIALIZED_UUID"
+  }, {
+    "name" : "elementKind",
+    "value" : "field"
+  }, {
+    "name" : "oldArchive",
+    "value" : "antlr4-runtime-4.9.3.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method boolean org.antlr.v4.runtime.atn.ATNDeserializer::isFeatureSupported(java.util.UUID, java.util.UUID)",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.antlr.v4.runtime.atn"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.antlr.v4.runtime.atn.ATNDeserializer"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "ATNDeserializer"
+  }, {
+    "name" : "methodName",
+    "value" : "isFeatureSupported"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "antlr4-runtime-4.9.3.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method long org.antlr.v4.runtime.atn.ATNDeserializer::toLong(char[], int)",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.antlr.v4.runtime.atn"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.antlr.v4.runtime.atn.ATNDeserializer"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "ATNDeserializer"
+  }, {
+    "name" : "methodName",
+    "value" : "toLong"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "antlr4-runtime-4.9.3.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method java.util.UUID org.antlr.v4.runtime.atn.ATNDeserializer::toUUID(char[], int)",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.antlr.v4.runtime.atn"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.antlr.v4.runtime.atn.ATNDeserializer"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "ATNDeserializer"
+  }, {
+    "name" : "methodName",
+    "value" : "toUUID"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "antlr4-runtime-4.9.3.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method void org.antlr.v4.runtime.atn.ATNSerializer::<init>(org.antlr.v4.runtime.atn.ATN, java.util.List<java.lang.String>)",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.antlr.v4.runtime.atn"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.antlr.v4.runtime.atn.ATNSerializer"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "ATNSerializer"
+  }, {
+    "name" : "methodName",
+    "value" : "<init>"
+  }, {
+    "name" : "elementKind",
+    "value" : "constructor"
+  }, {
+    "name" : "oldArchive",
+    "value" : "antlr4-runtime-4.9.3.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method java.lang.String org.antlr.v4.runtime.atn.ATNSerializer::decode(char[])",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.antlr.v4.runtime.atn"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.antlr.v4.runtime.atn.ATNSerializer"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "ATNSerializer"
+  }, {
+    "name" : "methodName",
+    "value" : "decode"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "antlr4-runtime-4.9.3.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method java.lang.String org.antlr.v4.runtime.atn.ATNSerializer::getDecoded(org.antlr.v4.runtime.atn.ATN, java.util.List<java.lang.String>)",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.antlr.v4.runtime.atn"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.antlr.v4.runtime.atn.ATNSerializer"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "ATNSerializer"
+  }, {
+    "name" : "methodName",
+    "value" : "getDecoded"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "antlr4-runtime-4.9.3.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method char[] org.antlr.v4.runtime.atn.ATNSerializer::getSerializedAsChars(org.antlr.v4.runtime.atn.ATN)",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.antlr.v4.runtime.atn"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.antlr.v4.runtime.atn.ATNSerializer"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "ATNSerializer"
+  }, {
+    "name" : "methodName",
+    "value" : "getSerializedAsChars"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "antlr4-runtime-4.9.3.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method java.lang.String org.antlr.v4.runtime.atn.ATNSerializer::getSerializedAsString(org.antlr.v4.runtime.atn.ATN)",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.antlr.v4.runtime.atn"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.antlr.v4.runtime.atn.ATNSerializer"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "ATNSerializer"
+  }, {
+    "name" : "methodName",
+    "value" : "getSerializedAsString"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "antlr4-runtime-4.9.3.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method java.lang.String org.antlr.v4.runtime.atn.ATNSerializer::getTokenName(int)",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.antlr.v4.runtime.atn"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.antlr.v4.runtime.atn.ATNSerializer"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "ATNSerializer"
+  }, {
+    "name" : "methodName",
+    "value" : "getTokenName"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "antlr4-runtime-4.9.3.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.field.removed",
+  "old" : "field org.antlr.v4.runtime.atn.ATNSimulator.SERIALIZED_UUID",
+  "new" : null,
+  "name" : "field removed",
+  "description" : "Field removed from class.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.antlr.v4.runtime.atn"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.antlr.v4.runtime.atn.ATNSimulator"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "ATNSimulator"
+  }, {
+    "name" : "fieldName",
+    "value" : "SERIALIZED_UUID"
+  }, {
+    "name" : "elementKind",
+    "value" : "field"
+  }, {
+    "name" : "oldArchive",
+    "value" : "antlr4-runtime-4.9.3.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.field.removed",
+  "old" : "field org.antlr.v4.runtime.atn.ATNSimulator.SERIALIZED_VERSION",
+  "new" : null,
+  "name" : "field removed",
+  "description" : "Field removed from class.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.antlr.v4.runtime.atn"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.antlr.v4.runtime.atn.ATNSimulator"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "ATNSimulator"
+  }, {
+    "name" : "fieldName",
+    "value" : "SERIALIZED_VERSION"
+  }, {
+    "name" : "elementKind",
+    "value" : "field"
+  }, {
+    "name" : "oldArchive",
+    "value" : "antlr4-runtime-4.9.3.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method void org.antlr.v4.runtime.atn.ATNSimulator::checkCondition(boolean)",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.antlr.v4.runtime.atn"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.antlr.v4.runtime.atn.ATNSimulator"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "ATNSimulator"
+  }, {
+    "name" : "methodName",
+    "value" : "checkCondition"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "antlr4-runtime-4.9.3.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method void org.antlr.v4.runtime.atn.ATNSimulator::checkCondition(boolean, java.lang.String)",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.antlr.v4.runtime.atn"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.antlr.v4.runtime.atn.ATNSimulator"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "ATNSimulator"
+  }, {
+    "name" : "methodName",
+    "value" : "checkCondition"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "antlr4-runtime-4.9.3.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method org.antlr.v4.runtime.atn.ATN org.antlr.v4.runtime.atn.ATNSimulator::deserialize(char[])",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.antlr.v4.runtime.atn"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.antlr.v4.runtime.atn.ATNSimulator"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "ATNSimulator"
+  }, {
+    "name" : "methodName",
+    "value" : "deserialize"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "antlr4-runtime-4.9.3.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method org.antlr.v4.runtime.atn.Transition org.antlr.v4.runtime.atn.ATNSimulator::edgeFactory(org.antlr.v4.runtime.atn.ATN, int, int, int, int, int, int, java.util.List<org.antlr.v4.runtime.misc.IntervalSet>)",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.antlr.v4.runtime.atn"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.antlr.v4.runtime.atn.ATNSimulator"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "ATNSimulator"
+  }, {
+    "name" : "methodName",
+    "value" : "edgeFactory"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "antlr4-runtime-4.9.3.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method org.antlr.v4.runtime.atn.ATNState org.antlr.v4.runtime.atn.ATNSimulator::stateFactory(int, int)",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.antlr.v4.runtime.atn"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.antlr.v4.runtime.atn.ATNSimulator"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "ATNSimulator"
+  }, {
+    "name" : "methodName",
+    "value" : "stateFactory"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "antlr4-runtime-4.9.3.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method int org.antlr.v4.runtime.atn.ATNSimulator::toInt(char)",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.antlr.v4.runtime.atn"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.antlr.v4.runtime.atn.ATNSimulator"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "ATNSimulator"
+  }, {
+    "name" : "methodName",
+    "value" : "toInt"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "antlr4-runtime-4.9.3.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method int org.antlr.v4.runtime.atn.ATNSimulator::toInt32(char[], int)",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.antlr.v4.runtime.atn"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.antlr.v4.runtime.atn.ATNSimulator"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "ATNSimulator"
+  }, {
+    "name" : "methodName",
+    "value" : "toInt32"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "antlr4-runtime-4.9.3.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method long org.antlr.v4.runtime.atn.ATNSimulator::toLong(char[], int)",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.antlr.v4.runtime.atn"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.antlr.v4.runtime.atn.ATNSimulator"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "ATNSimulator"
+  }, {
+    "name" : "methodName",
+    "value" : "toLong"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "antlr4-runtime-4.9.3.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method java.util.UUID org.antlr.v4.runtime.atn.ATNSimulator::toUUID(char[], int)",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.antlr.v4.runtime.atn"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.antlr.v4.runtime.atn.ATNSimulator"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "ATNSimulator"
+  }, {
+    "name" : "methodName",
+    "value" : "toUUID"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "antlr4-runtime-4.9.3.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.nonPublicPartOfAPI",
+  "old" : "class org.antlr.v4.runtime.tree.pattern.Chunk",
+  "new" : "class org.antlr.v4.runtime.tree.pattern.Chunk",
+  "name" : "non-public class in API",
+  "description" : "Class 'org.antlr.v4.runtime.tree.pattern.Chunk' is indirectly included in the API (by the means of method return type for example) but the class is not accessible (neither public nor protected).",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SEMANTIC",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "classSimpleName",
+    "value" : "Chunk"
+  }, {
+    "name" : "exampleUseChainInNewApi",
+    "value" : "org.antlr.v4.runtime.tree.pattern.Chunk is used as a type parameter or type variable bound on method java.util.List<org.antlr.v4.runtime.tree.pattern.Chunk> org.antlr.v4.runtime.tree.pattern.ParseTreePatternMatcher::split(java.lang.String) (method java.util.List<org.antlr.v4.runtime.tree.pattern.Chunk> org.antlr.v4.runtime.tree.pattern.ParseTreePatternMatcher::split(java.lang.String) is part of the API)"
+  }, {
+    "name" : "package",
+    "value" : "org.antlr.v4.runtime.tree.pattern"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.antlr.v4.runtime.tree.pattern.Chunk"
+  }, {
+    "name" : "exampleUseChainInOldApi",
+    "value" : "org.antlr.v4.runtime.tree.pattern.Chunk is used as a type parameter or type variable bound on method java.util.List<org.antlr.v4.runtime.tree.pattern.Chunk> org.antlr.v4.runtime.tree.pattern.ParseTreePatternMatcher::split(java.lang.String) (method java.util.List<org.antlr.v4.runtime.tree.pattern.Chunk> org.antlr.v4.runtime.tree.pattern.ParseTreePatternMatcher::split(java.lang.String) is part of the API)"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "antlr4-runtime-4.9.3.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "antlr4-runtime-4.10.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+} ]

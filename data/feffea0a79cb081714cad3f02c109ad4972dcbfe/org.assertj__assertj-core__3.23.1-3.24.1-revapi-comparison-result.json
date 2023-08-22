@@ -1,0 +1,513 @@
+[ {
+  "code" : "java.method.addedToInterface",
+  "old" : null,
+  "new" : "method SELF org.assertj.core.api.ObjectEnumerableAssert<SELF extends org.assertj.core.api.ObjectEnumerableAssert<SELF, ELEMENT>, ELEMENT>::satisfiesOnlyOnce(java.util.function.Consumer<? super ELEMENT>)",
+  "name" : "method added to interface",
+  "description" : "Method was added to an interface.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SEMANTIC",
+    "severity" : "POTENTIALLY_BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.assertj.core.api"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.assertj.core.api.ObjectEnumerableAssert"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "ObjectEnumerableAssert"
+  }, {
+    "name" : "methodName",
+    "value" : "satisfiesOnlyOnce"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "newArchive",
+    "value" : "assertj-core-3.24.1.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.addedToInterface",
+  "old" : null,
+  "new" : "method SELF org.assertj.core.api.ObjectEnumerableAssert<SELF extends org.assertj.core.api.ObjectEnumerableAssert<SELF, ELEMENT>, ELEMENT>::satisfiesOnlyOnce(org.assertj.core.api.ThrowingConsumer<? super ELEMENT>)",
+  "name" : "method added to interface",
+  "description" : "Method was added to an interface.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SEMANTIC",
+    "severity" : "POTENTIALLY_BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.assertj.core.api"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.assertj.core.api.ObjectEnumerableAssert"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "ObjectEnumerableAssert"
+  }, {
+    "name" : "methodName",
+    "value" : "satisfiesOnlyOnce"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "newArchive",
+    "value" : "assertj-core-3.24.1.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.returnTypeChangedCovariantly",
+  "old" : "method SELF org.assertj.core.api.AbstractAssert<SELF extends org.assertj.core.api.AbstractAssert<SELF, ACTUAL>, ACTUAL>::isIn(java.lang.Iterable<?>) @ org.assertj.core.api.RecursiveComparisonAssert<SELF extends org.assertj.core.api.RecursiveComparisonAssert<SELF>>",
+  "new" : "method SELF org.assertj.core.api.RecursiveComparisonAssert<SELF extends org.assertj.core.api.RecursiveComparisonAssert<SELF>>::isIn(java.lang.Iterable<?>)",
+  "name" : "return type changed covariantly",
+  "description" : "The return type changed covariantly from 'SELF extends org.assertj.core.api.RecursiveComparisonAssert<SELF>' to 'SELF extends org.assertj.core.api.RecursiveComparisonAssert<SELF>'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "SELF extends org.assertj.core.api.RecursiveComparisonAssert<SELF>"
+  }, {
+    "name" : "newType",
+    "value" : "SELF extends org.assertj.core.api.RecursiveComparisonAssert<SELF>"
+  }, {
+    "name" : "package",
+    "value" : "org.assertj.core.api"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.assertj.core.api.RecursiveComparisonAssert"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "RecursiveComparisonAssert"
+  }, {
+    "name" : "methodName",
+    "value" : "isIn"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "assertj-core-3.23.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "assertj-core-3.24.1.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.inheritedMovedToClass",
+  "old" : "method SELF org.assertj.core.api.AbstractAssert<SELF extends org.assertj.core.api.AbstractAssert<SELF, ACTUAL>, ACTUAL>::isIn(java.lang.Iterable<?>) @ org.assertj.core.api.RecursiveComparisonAssert<SELF extends org.assertj.core.api.RecursiveComparisonAssert<SELF>>",
+  "new" : "method SELF org.assertj.core.api.RecursiveComparisonAssert<SELF extends org.assertj.core.api.RecursiveComparisonAssert<SELF>>::isIn(java.lang.Iterable<?>)",
+  "name" : "inherited method moved to class",
+  "description" : "The method was previously declared in superclass 'org.assertj.core.api.AbstractAssert<SELF extends org.assertj.core.api.AbstractAssert<SELF, ACTUAL>, ACTUAL>' but is now declared in class 'org.assertj.core.api.RecursiveComparisonAssert<SELF extends org.assertj.core.api.RecursiveComparisonAssert<SELF>>'.",
+  "criticality" : "allowed",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "EQUIVALENT"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "EQUIVALENT"
+  } ],
+  "attachments" : [ {
+    "name" : "oldClass",
+    "value" : "org.assertj.core.api.AbstractAssert<SELF extends org.assertj.core.api.AbstractAssert<SELF, ACTUAL>, ACTUAL>"
+  }, {
+    "name" : "newClass",
+    "value" : "org.assertj.core.api.RecursiveComparisonAssert<SELF extends org.assertj.core.api.RecursiveComparisonAssert<SELF>>"
+  }, {
+    "name" : "package",
+    "value" : "org.assertj.core.api"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.assertj.core.api.RecursiveComparisonAssert"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "RecursiveComparisonAssert"
+  }, {
+    "name" : "methodName",
+    "value" : "isIn"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "assertj-core-3.23.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "assertj-core-3.24.1.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.returnTypeChangedCovariantly",
+  "old" : "method SELF org.assertj.core.api.AbstractAssert<SELF extends org.assertj.core.api.AbstractAssert<SELF, ACTUAL>, ACTUAL>::isIn(java.lang.Object[]) @ org.assertj.core.api.RecursiveComparisonAssert<SELF extends org.assertj.core.api.RecursiveComparisonAssert<SELF>>",
+  "new" : "method SELF org.assertj.core.api.RecursiveComparisonAssert<SELF extends org.assertj.core.api.RecursiveComparisonAssert<SELF>>::isIn(java.lang.Object[])",
+  "name" : "return type changed covariantly",
+  "description" : "The return type changed covariantly from 'SELF extends org.assertj.core.api.RecursiveComparisonAssert<SELF>' to 'SELF extends org.assertj.core.api.RecursiveComparisonAssert<SELF>'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "SELF extends org.assertj.core.api.RecursiveComparisonAssert<SELF>"
+  }, {
+    "name" : "newType",
+    "value" : "SELF extends org.assertj.core.api.RecursiveComparisonAssert<SELF>"
+  }, {
+    "name" : "package",
+    "value" : "org.assertj.core.api"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.assertj.core.api.RecursiveComparisonAssert"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "RecursiveComparisonAssert"
+  }, {
+    "name" : "methodName",
+    "value" : "isIn"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "assertj-core-3.23.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "assertj-core-3.24.1.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.inheritedMovedToClass",
+  "old" : "method SELF org.assertj.core.api.AbstractAssert<SELF extends org.assertj.core.api.AbstractAssert<SELF, ACTUAL>, ACTUAL>::isIn(java.lang.Object[]) @ org.assertj.core.api.RecursiveComparisonAssert<SELF extends org.assertj.core.api.RecursiveComparisonAssert<SELF>>",
+  "new" : "method SELF org.assertj.core.api.RecursiveComparisonAssert<SELF extends org.assertj.core.api.RecursiveComparisonAssert<SELF>>::isIn(java.lang.Object[])",
+  "name" : "inherited method moved to class",
+  "description" : "The method was previously declared in superclass 'org.assertj.core.api.AbstractAssert<SELF extends org.assertj.core.api.AbstractAssert<SELF, ACTUAL>, ACTUAL>' but is now declared in class 'org.assertj.core.api.RecursiveComparisonAssert<SELF extends org.assertj.core.api.RecursiveComparisonAssert<SELF>>'.",
+  "criticality" : "allowed",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "EQUIVALENT"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "EQUIVALENT"
+  } ],
+  "attachments" : [ {
+    "name" : "oldClass",
+    "value" : "org.assertj.core.api.AbstractAssert<SELF extends org.assertj.core.api.AbstractAssert<SELF, ACTUAL>, ACTUAL>"
+  }, {
+    "name" : "newClass",
+    "value" : "org.assertj.core.api.RecursiveComparisonAssert<SELF extends org.assertj.core.api.RecursiveComparisonAssert<SELF>>"
+  }, {
+    "name" : "package",
+    "value" : "org.assertj.core.api"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.assertj.core.api.RecursiveComparisonAssert"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "RecursiveComparisonAssert"
+  }, {
+    "name" : "methodName",
+    "value" : "isIn"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "assertj-core-3.23.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "assertj-core-3.24.1.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.returnTypeChangedCovariantly",
+  "old" : "method SELF org.assertj.core.api.AbstractAssert<SELF extends org.assertj.core.api.AbstractAssert<SELF, ACTUAL>, ACTUAL>::isNotIn(java.lang.Iterable<?>) @ org.assertj.core.api.RecursiveComparisonAssert<SELF extends org.assertj.core.api.RecursiveComparisonAssert<SELF>>",
+  "new" : "method SELF org.assertj.core.api.RecursiveComparisonAssert<SELF extends org.assertj.core.api.RecursiveComparisonAssert<SELF>>::isNotIn(java.lang.Iterable<?>)",
+  "name" : "return type changed covariantly",
+  "description" : "The return type changed covariantly from 'SELF extends org.assertj.core.api.RecursiveComparisonAssert<SELF>' to 'SELF extends org.assertj.core.api.RecursiveComparisonAssert<SELF>'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "SELF extends org.assertj.core.api.RecursiveComparisonAssert<SELF>"
+  }, {
+    "name" : "newType",
+    "value" : "SELF extends org.assertj.core.api.RecursiveComparisonAssert<SELF>"
+  }, {
+    "name" : "package",
+    "value" : "org.assertj.core.api"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.assertj.core.api.RecursiveComparisonAssert"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "RecursiveComparisonAssert"
+  }, {
+    "name" : "methodName",
+    "value" : "isNotIn"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "assertj-core-3.23.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "assertj-core-3.24.1.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.inheritedMovedToClass",
+  "old" : "method SELF org.assertj.core.api.AbstractAssert<SELF extends org.assertj.core.api.AbstractAssert<SELF, ACTUAL>, ACTUAL>::isNotIn(java.lang.Iterable<?>) @ org.assertj.core.api.RecursiveComparisonAssert<SELF extends org.assertj.core.api.RecursiveComparisonAssert<SELF>>",
+  "new" : "method SELF org.assertj.core.api.RecursiveComparisonAssert<SELF extends org.assertj.core.api.RecursiveComparisonAssert<SELF>>::isNotIn(java.lang.Iterable<?>)",
+  "name" : "inherited method moved to class",
+  "description" : "The method was previously declared in superclass 'org.assertj.core.api.AbstractAssert<SELF extends org.assertj.core.api.AbstractAssert<SELF, ACTUAL>, ACTUAL>' but is now declared in class 'org.assertj.core.api.RecursiveComparisonAssert<SELF extends org.assertj.core.api.RecursiveComparisonAssert<SELF>>'.",
+  "criticality" : "allowed",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "EQUIVALENT"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "EQUIVALENT"
+  } ],
+  "attachments" : [ {
+    "name" : "oldClass",
+    "value" : "org.assertj.core.api.AbstractAssert<SELF extends org.assertj.core.api.AbstractAssert<SELF, ACTUAL>, ACTUAL>"
+  }, {
+    "name" : "newClass",
+    "value" : "org.assertj.core.api.RecursiveComparisonAssert<SELF extends org.assertj.core.api.RecursiveComparisonAssert<SELF>>"
+  }, {
+    "name" : "package",
+    "value" : "org.assertj.core.api"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.assertj.core.api.RecursiveComparisonAssert"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "RecursiveComparisonAssert"
+  }, {
+    "name" : "methodName",
+    "value" : "isNotIn"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "assertj-core-3.23.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "assertj-core-3.24.1.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.returnTypeChangedCovariantly",
+  "old" : "method SELF org.assertj.core.api.AbstractAssert<SELF extends org.assertj.core.api.AbstractAssert<SELF, ACTUAL>, ACTUAL>::isNotIn(java.lang.Object[]) @ org.assertj.core.api.RecursiveComparisonAssert<SELF extends org.assertj.core.api.RecursiveComparisonAssert<SELF>>",
+  "new" : "method SELF org.assertj.core.api.RecursiveComparisonAssert<SELF extends org.assertj.core.api.RecursiveComparisonAssert<SELF>>::isNotIn(java.lang.Object[])",
+  "name" : "return type changed covariantly",
+  "description" : "The return type changed covariantly from 'SELF extends org.assertj.core.api.RecursiveComparisonAssert<SELF>' to 'SELF extends org.assertj.core.api.RecursiveComparisonAssert<SELF>'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "SELF extends org.assertj.core.api.RecursiveComparisonAssert<SELF>"
+  }, {
+    "name" : "newType",
+    "value" : "SELF extends org.assertj.core.api.RecursiveComparisonAssert<SELF>"
+  }, {
+    "name" : "package",
+    "value" : "org.assertj.core.api"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.assertj.core.api.RecursiveComparisonAssert"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "RecursiveComparisonAssert"
+  }, {
+    "name" : "methodName",
+    "value" : "isNotIn"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "assertj-core-3.23.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "assertj-core-3.24.1.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.inheritedMovedToClass",
+  "old" : "method SELF org.assertj.core.api.AbstractAssert<SELF extends org.assertj.core.api.AbstractAssert<SELF, ACTUAL>, ACTUAL>::isNotIn(java.lang.Object[]) @ org.assertj.core.api.RecursiveComparisonAssert<SELF extends org.assertj.core.api.RecursiveComparisonAssert<SELF>>",
+  "new" : "method SELF org.assertj.core.api.RecursiveComparisonAssert<SELF extends org.assertj.core.api.RecursiveComparisonAssert<SELF>>::isNotIn(java.lang.Object[])",
+  "name" : "inherited method moved to class",
+  "description" : "The method was previously declared in superclass 'org.assertj.core.api.AbstractAssert<SELF extends org.assertj.core.api.AbstractAssert<SELF, ACTUAL>, ACTUAL>' but is now declared in class 'org.assertj.core.api.RecursiveComparisonAssert<SELF extends org.assertj.core.api.RecursiveComparisonAssert<SELF>>'.",
+  "criticality" : "allowed",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "EQUIVALENT"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "EQUIVALENT"
+  } ],
+  "attachments" : [ {
+    "name" : "oldClass",
+    "value" : "org.assertj.core.api.AbstractAssert<SELF extends org.assertj.core.api.AbstractAssert<SELF, ACTUAL>, ACTUAL>"
+  }, {
+    "name" : "newClass",
+    "value" : "org.assertj.core.api.RecursiveComparisonAssert<SELF extends org.assertj.core.api.RecursiveComparisonAssert<SELF>>"
+  }, {
+    "name" : "package",
+    "value" : "org.assertj.core.api"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.assertj.core.api.RecursiveComparisonAssert"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "RecursiveComparisonAssert"
+  }, {
+    "name" : "methodName",
+    "value" : "isNotIn"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "assertj-core-3.23.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "assertj-core-3.24.1.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.nonPublicPartOfAPI",
+  "old" : null,
+  "new" : "class org.assertj.core.api.recursive.comparison.ComparatorForPatterns",
+  "name" : "non-public class in API",
+  "description" : "Class 'org.assertj.core.api.recursive.comparison.ComparatorForPatterns' is indirectly included in the API (by the means of method return type for example) but the class is not accessible (neither public nor protected).",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SEMANTIC",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "classSimpleName",
+    "value" : "ComparatorForPatterns"
+  }, {
+    "name" : "exampleUseChainInNewApi",
+    "value" : "org.assertj.core.api.recursive.comparison.ComparatorForPatterns is used as a type parameter or type variable bound on field org.assertj.core.api.recursive.comparison.FieldComparators.comparatorByPatterns (field org.assertj.core.api.recursive.comparison.FieldComparators.comparatorByPatterns is part of the API)"
+  }, {
+    "name" : "package",
+    "value" : "org.assertj.core.api.recursive.comparison"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.assertj.core.api.recursive.comparison.ComparatorForPatterns"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "newArchive",
+    "value" : "assertj-core-3.24.1.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+} ]

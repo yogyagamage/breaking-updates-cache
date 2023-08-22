@@ -1,0 +1,1351 @@
+[ {
+  "code" : "java.method.exception.checkedRemoved",
+  "old" : "method org.json.JSONObject org.json.Cookie::toJSONObject(java.lang.String) throws org.json.JSONException",
+  "new" : "method org.json.JSONObject org.json.Cookie::toJSONObject(java.lang.String)",
+  "name" : "Method no longer throws checked exceptions",
+  "description" : "Method no longer throws checked exceptions: org.json.JSONException.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "exception",
+    "value" : "org.json.JSONException"
+  }, {
+    "name" : "package",
+    "value" : "org.json"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.json.Cookie"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "Cookie"
+  }, {
+    "name" : "methodName",
+    "value" : "toJSONObject"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "json-20090211.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "json-20230227.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.numberOfParametersChanged",
+  "old" : "method void org.json.JSONArray::<init>(java.lang.Object, boolean) throws org.json.JSONException",
+  "new" : "method void org.json.JSONArray::<init>(int) throws org.json.JSONException",
+  "name" : "number of parameters changed",
+  "description" : "The number of parameters of the method have changed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.json"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.json.JSONArray"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "JSONArray"
+  }, {
+    "name" : "methodName",
+    "value" : "<init>"
+  }, {
+    "name" : "elementKind",
+    "value" : "constructor"
+  }, {
+    "name" : "oldArchive",
+    "value" : "json-20090211.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "json-20230227.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.numberOfParametersChanged",
+  "old" : "method void org.json.JSONArray::<init>(java.util.Collection, boolean)",
+  "new" : "method void org.json.JSONArray::<init>(java.lang.Iterable<?>)",
+  "name" : "number of parameters changed",
+  "description" : "The number of parameters of the method have changed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.json"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.json.JSONArray"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "JSONArray"
+  }, {
+    "name" : "methodName",
+    "value" : "<init>"
+  }, {
+    "name" : "elementKind",
+    "value" : "constructor"
+  }, {
+    "name" : "oldArchive",
+    "value" : "json-20090211.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "json-20230227.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.numberOfParametersChanged",
+  "old" : "method void org.json.JSONObject::<init>(java.lang.Object, boolean)",
+  "new" : "method void org.json.JSONObject::<init>(int)",
+  "name" : "number of parameters changed",
+  "description" : "The number of parameters of the method have changed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.json"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.json.JSONObject"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "JSONObject"
+  }, {
+    "name" : "methodName",
+    "value" : "<init>"
+  }, {
+    "name" : "elementKind",
+    "value" : "constructor"
+  }, {
+    "name" : "oldArchive",
+    "value" : "json-20090211.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "json-20230227.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.publicConstructorOfAbstractClassNowProtected",
+  "old" : "method void org.json.JSONObject::<init>(java.lang.Object, boolean)",
+  "new" : "method void org.json.JSONObject::<init>(int)",
+  "name" : "Public constructor of abstract class now protected",
+  "description" : "Public constructor of abstract class is now protected.",
+  "criticality" : "documented",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.json"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.json.JSONObject"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "JSONObject"
+  }, {
+    "name" : "methodName",
+    "value" : "<init>"
+  }, {
+    "name" : "elementKind",
+    "value" : "constructor"
+  }, {
+    "name" : "oldArchive",
+    "value" : "json-20090211.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "json-20230227.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.visibilityReduced",
+  "old" : "method void org.json.JSONObject::<init>(java.util.Map, boolean)",
+  "new" : "method void org.json.JSONObject::<init>(java.lang.Object, java.util.Set<java.lang.Object>)",
+  "name" : "visibility reduced",
+  "description" : "visibility reduced",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldVisibility",
+    "value" : "public"
+  }, {
+    "name" : "newVisibility",
+    "value" : "private"
+  }, {
+    "name" : "package",
+    "value" : "org.json"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.json.JSONObject"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "JSONObject"
+  }, {
+    "name" : "methodName",
+    "value" : "<init>"
+  }, {
+    "name" : "elementKind",
+    "value" : "constructor"
+  }, {
+    "name" : "oldArchive",
+    "value" : "json-20090211.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "json-20230227.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.exception.checkedRemoved",
+  "old" : "method void org.json.JSONObject::<init>(org.json.JSONObject, java.lang.String[]) throws org.json.JSONException",
+  "new" : "method void org.json.JSONObject::<init>(org.json.JSONObject, java.lang.String[])",
+  "name" : "Method no longer throws checked exceptions",
+  "description" : "Method no longer throws checked exceptions: org.json.JSONException.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "exception",
+    "value" : "org.json.JSONException"
+  }, {
+    "name" : "package",
+    "value" : "org.json"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.json.JSONObject"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "JSONObject"
+  }, {
+    "name" : "methodName",
+    "value" : "<init>"
+  }, {
+    "name" : "elementKind",
+    "value" : "constructor"
+  }, {
+    "name" : "oldArchive",
+    "value" : "json-20090211.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "json-20230227.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.returnTypeTypeParametersChanged",
+  "old" : "method java.util.Iterator org.json.JSONObject::keys()",
+  "new" : "method java.util.Iterator<java.lang.String> org.json.JSONObject::keys()",
+  "name" : "return type changed type parameter",
+  "description" : "The return type changed from 'java.util.Iterator' to 'java.util.Iterator<java.lang.String>'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "java.util.Iterator"
+  }, {
+    "name" : "newType",
+    "value" : "java.util.Iterator<java.lang.String>"
+  }, {
+    "name" : "package",
+    "value" : "org.json"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.json.JSONObject"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "JSONObject"
+  }, {
+    "name" : "methodName",
+    "value" : "keys"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "json-20090211.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "json-20230227.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method java.util.Iterator org.json.JSONObject::sortedKeys()",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.json"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.json.JSONObject"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "JSONObject"
+  }, {
+    "name" : "methodName",
+    "value" : "sortedKeys"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "json-20090211.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.field.typeChanged",
+  "old" : "field org.json.JSONWriter.writer",
+  "new" : "field org.json.JSONWriter.writer",
+  "name" : "field type changed",
+  "description" : "The type of the field changed from 'java.io.Writer' to 'java.lang.Appendable'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "java.io.Writer"
+  }, {
+    "name" : "newType",
+    "value" : "java.lang.Appendable"
+  }, {
+    "name" : "package",
+    "value" : "org.json"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.json.JSONWriter"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "JSONWriter"
+  }, {
+    "name" : "fieldName",
+    "value" : "writer"
+  }, {
+    "name" : "elementKind",
+    "value" : "field"
+  }, {
+    "name" : "oldArchive",
+    "value" : "json-20090211.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "json-20230227.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.parameterTypeChanged",
+  "old" : "parameter void org.json.JSONWriter::<init>(===java.io.Writer===)",
+  "new" : "parameter void org.json.JSONWriter::<init>(===java.lang.Appendable===)",
+  "name" : "parameter type changed",
+  "description" : "The type of the parameter changed from 'java.io.Writer' to 'java.lang.Appendable'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "POTENTIALLY_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "java.io.Writer"
+  }, {
+    "name" : "newType",
+    "value" : "java.lang.Appendable"
+  }, {
+    "name" : "package",
+    "value" : "org.json"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.json.JSONWriter"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "JSONWriter"
+  }, {
+    "name" : "methodName",
+    "value" : "<init>"
+  }, {
+    "name" : "parameterIndex",
+    "value" : "0"
+  }, {
+    "name" : "elementKind",
+    "value" : "parameter"
+  }, {
+    "name" : "oldArchive",
+    "value" : "json-20090211.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "json-20230227.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class org.json.Test",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.json"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.json.Test"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "Test"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "json-20090211.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.exception.checkedRemoved",
+  "old" : "method java.lang.String org.json.XML::toString(java.lang.Object, java.lang.String) throws org.json.JSONException",
+  "new" : "method java.lang.String org.json.XML::toString(java.lang.Object, java.lang.String)",
+  "name" : "Method no longer throws checked exceptions",
+  "description" : "Method no longer throws checked exceptions: org.json.JSONException.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "exception",
+    "value" : "org.json.JSONException"
+  }, {
+    "name" : "package",
+    "value" : "org.json"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.json.XML"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "XML"
+  }, {
+    "name" : "methodName",
+    "value" : "toString"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "json-20090211.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "json-20230227.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.returnTypeChanged",
+  "old" : "method boolean org.json.XMLTokener::skipPast(java.lang.String) throws org.json.JSONException",
+  "new" : "method void org.json.XMLTokener::skipPast(java.lang.String)",
+  "name" : "return type changed",
+  "description" : "The return type changed from 'boolean' to  'void'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "POTENTIALLY_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "boolean"
+  }, {
+    "name" : "newType",
+    "value" : "void"
+  }, {
+    "name" : "package",
+    "value" : "org.json"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.json.XMLTokener"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "XMLTokener"
+  }, {
+    "name" : "methodName",
+    "value" : "skipPast"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "json-20090211.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "json-20230227.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.exception.checkedRemoved",
+  "old" : "method boolean org.json.XMLTokener::skipPast(java.lang.String) throws org.json.JSONException",
+  "new" : "method void org.json.XMLTokener::skipPast(java.lang.String)",
+  "name" : "Method no longer throws checked exceptions",
+  "description" : "Method no longer throws checked exceptions: org.json.JSONException.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "exception",
+    "value" : "org.json.JSONException"
+  }, {
+    "name" : "package",
+    "value" : "org.json"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.json.XMLTokener"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "XMLTokener"
+  }, {
+    "name" : "methodName",
+    "value" : "skipPast"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "json-20090211.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "json-20230227.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+} ][ {
+  "code" : "java.method.exception.checkedRemoved",
+  "old" : "method org.json.JSONObject org.json.Cookie::toJSONObject(java.lang.String) throws org.json.JSONException",
+  "new" : "method org.json.JSONObject org.json.Cookie::toJSONObject(java.lang.String)",
+  "name" : "Method no longer throws checked exceptions",
+  "description" : "Method no longer throws checked exceptions: org.json.JSONException.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "exception",
+    "value" : "org.json.JSONException"
+  }, {
+    "name" : "package",
+    "value" : "org.json"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.json.Cookie"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "Cookie"
+  }, {
+    "name" : "methodName",
+    "value" : "toJSONObject"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "json-20090211.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "json-20230227.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.numberOfParametersChanged",
+  "old" : "method void org.json.JSONArray::<init>(java.lang.Object, boolean) throws org.json.JSONException",
+  "new" : "method void org.json.JSONArray::<init>(int) throws org.json.JSONException",
+  "name" : "number of parameters changed",
+  "description" : "The number of parameters of the method have changed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.json"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.json.JSONArray"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "JSONArray"
+  }, {
+    "name" : "methodName",
+    "value" : "<init>"
+  }, {
+    "name" : "elementKind",
+    "value" : "constructor"
+  }, {
+    "name" : "oldArchive",
+    "value" : "json-20090211.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "json-20230227.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.numberOfParametersChanged",
+  "old" : "method void org.json.JSONArray::<init>(java.util.Collection, boolean)",
+  "new" : "method void org.json.JSONArray::<init>(java.lang.Iterable<?>)",
+  "name" : "number of parameters changed",
+  "description" : "The number of parameters of the method have changed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.json"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.json.JSONArray"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "JSONArray"
+  }, {
+    "name" : "methodName",
+    "value" : "<init>"
+  }, {
+    "name" : "elementKind",
+    "value" : "constructor"
+  }, {
+    "name" : "oldArchive",
+    "value" : "json-20090211.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "json-20230227.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.numberOfParametersChanged",
+  "old" : "method void org.json.JSONObject::<init>(java.lang.Object, boolean)",
+  "new" : "method void org.json.JSONObject::<init>(int)",
+  "name" : "number of parameters changed",
+  "description" : "The number of parameters of the method have changed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.json"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.json.JSONObject"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "JSONObject"
+  }, {
+    "name" : "methodName",
+    "value" : "<init>"
+  }, {
+    "name" : "elementKind",
+    "value" : "constructor"
+  }, {
+    "name" : "oldArchive",
+    "value" : "json-20090211.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "json-20230227.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.publicConstructorOfAbstractClassNowProtected",
+  "old" : "method void org.json.JSONObject::<init>(java.lang.Object, boolean)",
+  "new" : "method void org.json.JSONObject::<init>(int)",
+  "name" : "Public constructor of abstract class now protected",
+  "description" : "Public constructor of abstract class is now protected.",
+  "criticality" : "documented",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.json"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.json.JSONObject"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "JSONObject"
+  }, {
+    "name" : "methodName",
+    "value" : "<init>"
+  }, {
+    "name" : "elementKind",
+    "value" : "constructor"
+  }, {
+    "name" : "oldArchive",
+    "value" : "json-20090211.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "json-20230227.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.visibilityReduced",
+  "old" : "method void org.json.JSONObject::<init>(java.util.Map, boolean)",
+  "new" : "method void org.json.JSONObject::<init>(java.lang.Object, java.util.Set<java.lang.Object>)",
+  "name" : "visibility reduced",
+  "description" : "visibility reduced",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldVisibility",
+    "value" : "public"
+  }, {
+    "name" : "newVisibility",
+    "value" : "private"
+  }, {
+    "name" : "package",
+    "value" : "org.json"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.json.JSONObject"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "JSONObject"
+  }, {
+    "name" : "methodName",
+    "value" : "<init>"
+  }, {
+    "name" : "elementKind",
+    "value" : "constructor"
+  }, {
+    "name" : "oldArchive",
+    "value" : "json-20090211.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "json-20230227.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.exception.checkedRemoved",
+  "old" : "method void org.json.JSONObject::<init>(org.json.JSONObject, java.lang.String[]) throws org.json.JSONException",
+  "new" : "method void org.json.JSONObject::<init>(org.json.JSONObject, java.lang.String[])",
+  "name" : "Method no longer throws checked exceptions",
+  "description" : "Method no longer throws checked exceptions: org.json.JSONException.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "exception",
+    "value" : "org.json.JSONException"
+  }, {
+    "name" : "package",
+    "value" : "org.json"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.json.JSONObject"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "JSONObject"
+  }, {
+    "name" : "methodName",
+    "value" : "<init>"
+  }, {
+    "name" : "elementKind",
+    "value" : "constructor"
+  }, {
+    "name" : "oldArchive",
+    "value" : "json-20090211.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "json-20230227.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.returnTypeTypeParametersChanged",
+  "old" : "method java.util.Iterator org.json.JSONObject::keys()",
+  "new" : "method java.util.Iterator<java.lang.String> org.json.JSONObject::keys()",
+  "name" : "return type changed type parameter",
+  "description" : "The return type changed from 'java.util.Iterator' to 'java.util.Iterator<java.lang.String>'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "java.util.Iterator"
+  }, {
+    "name" : "newType",
+    "value" : "java.util.Iterator<java.lang.String>"
+  }, {
+    "name" : "package",
+    "value" : "org.json"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.json.JSONObject"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "JSONObject"
+  }, {
+    "name" : "methodName",
+    "value" : "keys"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "json-20090211.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "json-20230227.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method java.util.Iterator org.json.JSONObject::sortedKeys()",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.json"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.json.JSONObject"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "JSONObject"
+  }, {
+    "name" : "methodName",
+    "value" : "sortedKeys"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "json-20090211.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.field.typeChanged",
+  "old" : "field org.json.JSONWriter.writer",
+  "new" : "field org.json.JSONWriter.writer",
+  "name" : "field type changed",
+  "description" : "The type of the field changed from 'java.io.Writer' to 'java.lang.Appendable'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "java.io.Writer"
+  }, {
+    "name" : "newType",
+    "value" : "java.lang.Appendable"
+  }, {
+    "name" : "package",
+    "value" : "org.json"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.json.JSONWriter"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "JSONWriter"
+  }, {
+    "name" : "fieldName",
+    "value" : "writer"
+  }, {
+    "name" : "elementKind",
+    "value" : "field"
+  }, {
+    "name" : "oldArchive",
+    "value" : "json-20090211.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "json-20230227.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.parameterTypeChanged",
+  "old" : "parameter void org.json.JSONWriter::<init>(===java.io.Writer===)",
+  "new" : "parameter void org.json.JSONWriter::<init>(===java.lang.Appendable===)",
+  "name" : "parameter type changed",
+  "description" : "The type of the parameter changed from 'java.io.Writer' to 'java.lang.Appendable'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "POTENTIALLY_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "java.io.Writer"
+  }, {
+    "name" : "newType",
+    "value" : "java.lang.Appendable"
+  }, {
+    "name" : "package",
+    "value" : "org.json"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.json.JSONWriter"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "JSONWriter"
+  }, {
+    "name" : "methodName",
+    "value" : "<init>"
+  }, {
+    "name" : "parameterIndex",
+    "value" : "0"
+  }, {
+    "name" : "elementKind",
+    "value" : "parameter"
+  }, {
+    "name" : "oldArchive",
+    "value" : "json-20090211.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "json-20230227.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class org.json.Test",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.json"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.json.Test"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "Test"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "json-20090211.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.exception.checkedRemoved",
+  "old" : "method java.lang.String org.json.XML::toString(java.lang.Object, java.lang.String) throws org.json.JSONException",
+  "new" : "method java.lang.String org.json.XML::toString(java.lang.Object, java.lang.String)",
+  "name" : "Method no longer throws checked exceptions",
+  "description" : "Method no longer throws checked exceptions: org.json.JSONException.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "exception",
+    "value" : "org.json.JSONException"
+  }, {
+    "name" : "package",
+    "value" : "org.json"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.json.XML"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "XML"
+  }, {
+    "name" : "methodName",
+    "value" : "toString"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "json-20090211.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "json-20230227.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.returnTypeChanged",
+  "old" : "method boolean org.json.XMLTokener::skipPast(java.lang.String) throws org.json.JSONException",
+  "new" : "method void org.json.XMLTokener::skipPast(java.lang.String)",
+  "name" : "return type changed",
+  "description" : "The return type changed from 'boolean' to  'void'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "POTENTIALLY_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "boolean"
+  }, {
+    "name" : "newType",
+    "value" : "void"
+  }, {
+    "name" : "package",
+    "value" : "org.json"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.json.XMLTokener"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "XMLTokener"
+  }, {
+    "name" : "methodName",
+    "value" : "skipPast"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "json-20090211.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "json-20230227.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.exception.checkedRemoved",
+  "old" : "method boolean org.json.XMLTokener::skipPast(java.lang.String) throws org.json.JSONException",
+  "new" : "method void org.json.XMLTokener::skipPast(java.lang.String)",
+  "name" : "Method no longer throws checked exceptions",
+  "description" : "Method no longer throws checked exceptions: org.json.JSONException.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "exception",
+    "value" : "org.json.JSONException"
+  }, {
+    "name" : "package",
+    "value" : "org.json"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.json.XMLTokener"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "XMLTokener"
+  }, {
+    "name" : "methodName",
+    "value" : "skipPast"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "json-20090211.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "json-20230227.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+} ]

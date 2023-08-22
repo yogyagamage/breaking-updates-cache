@@ -1,0 +1,1620 @@
+[ {
+  "code" : "java.method.removed",
+  "old" : "method org.mockito.stubbing.Answer<java.lang.Object> org.mockito.Answers::get()",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.mockito"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.mockito.Answers"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "Answers"
+  }, {
+    "name" : "methodName",
+    "value" : "get"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "mockito-core-3.12.4.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method <T> java.util.Collection<T> org.mockito.ArgumentMatchers::anyCollectionOf(java.lang.Class<T>)",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.mockito"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.mockito.ArgumentMatchers"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "ArgumentMatchers"
+  }, {
+    "name" : "methodName",
+    "value" : "anyCollectionOf"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "mockito-core-3.12.4.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method <T> java.lang.Iterable<T> org.mockito.ArgumentMatchers::anyIterableOf(java.lang.Class<T>)",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.mockito"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.mockito.ArgumentMatchers"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "ArgumentMatchers"
+  }, {
+    "name" : "methodName",
+    "value" : "anyIterableOf"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "mockito-core-3.12.4.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method <T> java.util.List<T> org.mockito.ArgumentMatchers::anyListOf(java.lang.Class<T>)",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.mockito"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.mockito.ArgumentMatchers"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "ArgumentMatchers"
+  }, {
+    "name" : "methodName",
+    "value" : "anyListOf"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "mockito-core-3.12.4.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method <K, V> java.util.Map<K, V> org.mockito.ArgumentMatchers::anyMapOf(java.lang.Class<K>, java.lang.Class<V>)",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.mockito"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.mockito.ArgumentMatchers"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "ArgumentMatchers"
+  }, {
+    "name" : "methodName",
+    "value" : "anyMapOf"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "mockito-core-3.12.4.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method <T> T org.mockito.ArgumentMatchers::anyObject()",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.mockito"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.mockito.ArgumentMatchers"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "ArgumentMatchers"
+  }, {
+    "name" : "methodName",
+    "value" : "anyObject"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "mockito-core-3.12.4.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method <T> java.util.Set<T> org.mockito.ArgumentMatchers::anySetOf(java.lang.Class<T>)",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.mockito"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.mockito.ArgumentMatchers"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "ArgumentMatchers"
+  }, {
+    "name" : "methodName",
+    "value" : "anySetOf"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "mockito-core-3.12.4.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method <T> T org.mockito.ArgumentMatchers::anyVararg()",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.mockito"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.mockito.ArgumentMatchers"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "ArgumentMatchers"
+  }, {
+    "name" : "methodName",
+    "value" : "anyVararg"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "mockito-core-3.12.4.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method <T> T org.mockito.ArgumentMatchers::isNotNull(java.lang.Class<T>)",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.mockito"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.mockito.ArgumentMatchers"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "ArgumentMatchers"
+  }, {
+    "name" : "methodName",
+    "value" : "isNotNull"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "mockito-core-3.12.4.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method <T> T org.mockito.ArgumentMatchers::isNull(java.lang.Class<T>)",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.mockito"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.mockito.ArgumentMatchers"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "ArgumentMatchers"
+  }, {
+    "name" : "methodName",
+    "value" : "isNull"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "mockito-core-3.12.4.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method <T> T org.mockito.ArgumentMatchers::notNull(java.lang.Class<T>)",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.mockito"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.mockito.ArgumentMatchers"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "ArgumentMatchers"
+  }, {
+    "name" : "methodName",
+    "value" : "notNull"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "mockito-core-3.12.4.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method org.mockito.BDDMockito.BDDStubber org.mockito.BDDMockito.BDDStubber::willNothing()",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.mockito"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.mockito.BDDMockito.BDDStubber"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "BDDStubber"
+  }, {
+    "name" : "methodName",
+    "value" : "willNothing"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "mockito-core-3.12.4.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method void org.mockito.BDDMockito.Then<T>::shouldHaveZeroInteractions()",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.mockito"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.mockito.BDDMockito.Then"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "Then"
+  }, {
+    "name" : "methodName",
+    "value" : "shouldHaveZeroInteractions"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "mockito-core-3.12.4.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class org.mockito.Matchers",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.mockito"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.mockito.Matchers"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "Matchers"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "mockito-core-3.12.4.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method void org.mockito.MockedStatic<T>::verify(org.mockito.verification.VerificationMode, org.mockito.MockedStatic.Verification)",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.mockito"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.mockito.MockedStatic"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "MockedStatic"
+  }, {
+    "name" : "methodName",
+    "value" : "verify"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "mockito-core-3.12.4.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method void org.mockito.Mockito::verifyZeroInteractions(java.lang.Object[])",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.mockito"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.mockito.Mockito"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "Mockito"
+  }, {
+    "name" : "methodName",
+    "value" : "verifyZeroInteractions"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "mockito-core-3.12.4.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "interface org.mockito.MockitoDebugger",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.mockito"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.mockito.MockitoDebugger"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "MockitoDebugger"
+  }, {
+    "name" : "elementKind",
+    "value" : "interface"
+  }, {
+    "name" : "oldArchive",
+    "value" : "mockito-core-3.12.4.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "interface org.mockito.configuration.AnnotationEngine",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.mockito.configuration"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.mockito.configuration.AnnotationEngine"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "AnnotationEngine"
+  }, {
+    "name" : "elementKind",
+    "value" : "interface"
+  }, {
+    "name" : "oldArchive",
+    "value" : "mockito-core-3.12.4.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method org.mockito.configuration.AnnotationEngine org.mockito.configuration.DefaultMockitoConfiguration::getAnnotationEngine()",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.mockito.configuration"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.mockito.configuration.DefaultMockitoConfiguration"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "DefaultMockitoConfiguration"
+  }, {
+    "name" : "methodName",
+    "value" : "getAnnotationEngine"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "mockito-core-3.12.4.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method org.mockito.configuration.AnnotationEngine org.mockito.configuration.IMockitoConfiguration::getAnnotationEngine()",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.mockito.configuration"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.mockito.configuration.IMockitoConfiguration"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "IMockitoConfiguration"
+  }, {
+    "name" : "methodName",
+    "value" : "getAnnotationEngine"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "mockito-core-3.12.4.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.noLongerInheritsFromClass",
+  "old" : "class org.mockito.exceptions.verification.TooFewActualInvocations",
+  "new" : "class org.mockito.exceptions.verification.TooFewActualInvocations",
+  "name" : "removed super class",
+  "description" : "Class no longer inherits from 'org.mockito.exceptions.verification.TooLittleActualInvocations'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "superClass",
+    "value" : "org.mockito.exceptions.verification.TooLittleActualInvocations"
+  }, {
+    "name" : "package",
+    "value" : "org.mockito.exceptions.verification"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.mockito.exceptions.verification.TooFewActualInvocations"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "TooFewActualInvocations"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "mockito-core-3.12.4.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "mockito-core-4.1.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class org.mockito.exceptions.verification.TooLittleActualInvocations",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.mockito.exceptions.verification"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.mockito.exceptions.verification.TooLittleActualInvocations"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "TooLittleActualInvocations"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "mockito-core-3.12.4.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "interface org.mockito.internal.InternalMockHandler<T>",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.mockito.internal"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.mockito.internal.InternalMockHandler"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "InternalMockHandler"
+  }, {
+    "name" : "elementKind",
+    "value" : "interface"
+  }, {
+    "name" : "oldArchive",
+    "value" : "mockito-core-3.12.4.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method void org.mockito.internal.MockedStaticImpl<T>::verify(org.mockito.verification.VerificationMode, org.mockito.MockedStatic.Verification)",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.mockito.internal"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.mockito.internal.MockedStaticImpl"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "MockedStaticImpl"
+  }, {
+    "name" : "methodName",
+    "value" : "verify"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "mockito-core-3.12.4.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method org.mockito.configuration.AnnotationEngine org.mockito.internal.configuration.GlobalConfiguration::getAnnotationEngine()",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.mockito.internal.configuration"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.mockito.internal.configuration.GlobalConfiguration"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "GlobalConfiguration"
+  }, {
+    "name" : "methodName",
+    "value" : "getAnnotationEngine"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "mockito-core-3.12.4.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.nonPublicPartOfAPI",
+  "old" : "class org.mockito.internal.creation.bytebuddy.ByteBuddyCrossClassLoaderSerializationSupport",
+  "new" : "class org.mockito.internal.creation.bytebuddy.ByteBuddyCrossClassLoaderSerializationSupport",
+  "name" : "non-public class in API",
+  "description" : "Class 'org.mockito.internal.creation.bytebuddy.ByteBuddyCrossClassLoaderSerializationSupport' is indirectly included in the API (by the means of method return type for example) but the class is not accessible (neither public nor protected).",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SEMANTIC",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "classSimpleName",
+    "value" : "ByteBuddyCrossClassLoaderSerializationSupport"
+  }, {
+    "name" : "exampleUseChainInNewApi",
+    "value" : "org.mockito.internal.creation.bytebuddy.ByteBuddyCrossClassLoaderSerializationSupport is returned from method org.mockito.internal.creation.bytebuddy.ByteBuddyCrossClassLoaderSerializationSupport org.mockito.internal.creation.bytebuddy.MockMethodInterceptor::getSerializationSupport() (method org.mockito.internal.creation.bytebuddy.ByteBuddyCrossClassLoaderSerializationSupport org.mockito.internal.creation.bytebuddy.MockMethodInterceptor::getSerializationSupport() is part of the API)"
+  }, {
+    "name" : "package",
+    "value" : "org.mockito.internal.creation.bytebuddy"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.mockito.internal.creation.bytebuddy.ByteBuddyCrossClassLoaderSerializationSupport"
+  }, {
+    "name" : "exampleUseChainInOldApi",
+    "value" : "org.mockito.internal.creation.bytebuddy.ByteBuddyCrossClassLoaderSerializationSupport is returned from method org.mockito.internal.creation.bytebuddy.ByteBuddyCrossClassLoaderSerializationSupport org.mockito.internal.creation.bytebuddy.MockMethodInterceptor::getSerializationSupport() (method org.mockito.internal.creation.bytebuddy.ByteBuddyCrossClassLoaderSerializationSupport org.mockito.internal.creation.bytebuddy.MockMethodInterceptor::getSerializationSupport() is part of the API)"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "mockito-core-3.12.4.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "mockito-core-4.1.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.nonPublicPartOfAPI",
+  "old" : "class org.mockito.internal.creation.bytebuddy.MockFeatures<T>",
+  "new" : "class org.mockito.internal.creation.bytebuddy.MockFeatures<T>",
+  "name" : "non-public class in API",
+  "description" : "Class 'org.mockito.internal.creation.bytebuddy.MockFeatures<T>' is indirectly included in the API (by the means of method return type for example) but the class is not accessible (neither public nor protected).",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SEMANTIC",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "classSimpleName",
+    "value" : "MockFeatures"
+  }, {
+    "name" : "exampleUseChainInNewApi",
+    "value" : "org.mockito.internal.creation.bytebuddy.MockFeatures<T> is returned from method <T> org.mockito.internal.creation.bytebuddy.MockFeatures<T> org.mockito.internal.creation.bytebuddy.MockFeatures<T>::withMockFeatures(java.lang.Class<T>, java.util.Set<java.lang.Class<?>>, org.mockito.mock.SerializableMode, boolean, org.mockito.stubbing.Answer) <- org.mockito.internal.creation.bytebuddy.MockFeatures<T> is used as parameter in method <T> java.lang.Class<? extends T> org.mockito.internal.creation.bytebuddy.InlineBytecodeGenerator::mockClass(org.mockito.internal.creation.bytebuddy.MockFeatures<T>) (method <T> java.lang.Class<? extends T> org.mockito.internal.creation.bytebuddy.InlineBytecodeGenerator::mockClass(org.mockito.internal.creation.bytebuddy.MockFeatures<T>) is part of the API)"
+  }, {
+    "name" : "package",
+    "value" : "org.mockito.internal.creation.bytebuddy"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.mockito.internal.creation.bytebuddy.MockFeatures"
+  }, {
+    "name" : "exampleUseChainInOldApi",
+    "value" : "org.mockito.internal.creation.bytebuddy.MockFeatures<T> is used as parameter in method <T> java.lang.Class<? extends T> org.mockito.internal.creation.bytebuddy.InlineBytecodeGenerator::mockClass(org.mockito.internal.creation.bytebuddy.MockFeatures<T>) (method <T> java.lang.Class<? extends T> org.mockito.internal.creation.bytebuddy.InlineBytecodeGenerator::mockClass(org.mockito.internal.creation.bytebuddy.MockFeatures<T>) is part of the API)"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "mockito-core-3.12.4.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "mockito-core-4.1.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class org.mockito.internal.creation.instance.InstantiationException",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.mockito.internal.creation.instance"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.mockito.internal.creation.instance.InstantiationException"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "InstantiationException"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "mockito-core-3.12.4.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "interface org.mockito.internal.creation.instance.Instantiator",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.mockito.internal.creation.instance"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.mockito.internal.creation.instance.Instantiator"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "Instantiator"
+  }, {
+    "name" : "elementKind",
+    "value" : "interface"
+  }, {
+    "name" : "oldArchive",
+    "value" : "mockito-core-3.12.4.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class org.mockito.internal.creation.instance.InstantiatorProvider2Adapter",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.mockito.internal.creation.instance"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.mockito.internal.creation.instance.InstantiatorProvider2Adapter"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "InstantiatorProvider2Adapter"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "mockito-core-3.12.4.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class org.mockito.internal.creation.instance.InstantiatorProviderAdapter",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.mockito.internal.creation.instance"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.mockito.internal.creation.instance.InstantiatorProviderAdapter"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "InstantiatorProviderAdapter"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "mockito-core-3.12.4.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class org.mockito.internal.debugging.MockitoDebuggerImpl",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.mockito.internal.debugging"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.mockito.internal.debugging.MockitoDebuggerImpl"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "MockitoDebuggerImpl"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "mockito-core-3.12.4.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class org.mockito.internal.debugging.WarningsCollector",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.mockito.internal.debugging"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.mockito.internal.debugging.WarningsCollector"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "WarningsCollector"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "mockito-core-3.12.4.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class org.mockito.internal.invocation.UnusedStubsFinder",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.mockito.internal.invocation"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.mockito.internal.invocation.UnusedStubsFinder"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "UnusedStubsFinder"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "mockito-core-3.12.4.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class org.mockito.internal.junit.util.JUnitFailureHacker",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.mockito.internal.junit.util"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.mockito.internal.junit.util.JUnitFailureHacker"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "JUnitFailureHacker"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "mockito-core-3.12.4.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method org.mockito.invocation.MatchableInvocation org.mockito.internal.stubbing.InvocationContainerImpl::getInvocationForStubbing()",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.mockito.internal.stubbing"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.mockito.internal.stubbing.InvocationContainerImpl"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "InvocationContainerImpl"
+  }, {
+    "name" : "methodName",
+    "value" : "getInvocationForStubbing"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "mockito-core-3.12.4.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.nonPublicPartOfAPI",
+  "old" : "class org.mockito.internal.util.concurrent.WeakConcurrentMap.WeakKey<T>",
+  "new" : "class org.mockito.internal.util.concurrent.WeakConcurrentMap.WeakKey<T>",
+  "name" : "non-public class in API",
+  "description" : "Class 'org.mockito.internal.util.concurrent.WeakConcurrentMap.WeakKey<T>' is indirectly included in the API (by the means of method return type for example) but the class is not accessible (neither public nor protected).",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SEMANTIC",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "classSimpleName",
+    "value" : "WeakKey"
+  }, {
+    "name" : "exampleUseChainInNewApi",
+    "value" : "org.mockito.internal.util.concurrent.WeakConcurrentMap.WeakKey<T> is used as a type parameter or type variable bound on field org.mockito.internal.util.concurrent.WeakConcurrentMap<K, V>.target (field org.mockito.internal.util.concurrent.WeakConcurrentMap<K, V>.target is part of the API)"
+  }, {
+    "name" : "package",
+    "value" : "org.mockito.internal.util.concurrent"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.mockito.internal.util.concurrent.WeakConcurrentMap.WeakKey"
+  }, {
+    "name" : "exampleUseChainInOldApi",
+    "value" : "org.mockito.internal.util.concurrent.WeakConcurrentMap.WeakKey<T> is used as a type parameter or type variable bound on field org.mockito.internal.util.concurrent.WeakConcurrentMap<K, V>.target @ org.mockito.internal.util.concurrent.WeakConcurrentMap.WithInlinedExpunction<K, V> (field org.mockito.internal.util.concurrent.WeakConcurrentMap<K, V>.target @ org.mockito.internal.util.concurrent.WeakConcurrentMap.WithInlinedExpunction<K, V> is part of the API)"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "mockito-core-3.12.4.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "mockito-core-4.1.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method org.mockito.internal.invocation.InvocationMatcher org.mockito.internal.verification.VerificationDataImpl::getWanted()",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.mockito.internal.verification"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.mockito.internal.verification.VerificationDataImpl"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "VerificationDataImpl"
+  }, {
+    "name" : "methodName",
+    "value" : "getWanted"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "mockito-core-3.12.4.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method org.mockito.internal.invocation.InvocationMatcher org.mockito.internal.verification.api.VerificationData::getWanted()",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.mockito.internal.verification.api"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.mockito.internal.verification.api.VerificationData"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "VerificationData"
+  }, {
+    "name" : "methodName",
+    "value" : "getWanted"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "mockito-core-3.12.4.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method org.mockito.invocation.Invocation org.mockito.invocation.InvocationFactory::createInvocation(java.lang.Object, org.mockito.mock.MockCreationSettings, java.lang.reflect.Method, java.util.concurrent.Callable, java.lang.Object[])",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.mockito.invocation"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.mockito.invocation.InvocationFactory"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "InvocationFactory"
+  }, {
+    "name" : "methodName",
+    "value" : "createInvocation"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "mockito-core-3.12.4.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "interface org.mockito.plugins.InstantiatorProvider",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.mockito.plugins"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.mockito.plugins.InstantiatorProvider"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "InstantiatorProvider"
+  }, {
+    "name" : "elementKind",
+    "value" : "interface"
+  }, {
+    "name" : "oldArchive",
+    "value" : "mockito-core-3.12.4.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class org.mockito.runners.ConsoleSpammingMockitoJUnitRunner",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.mockito.runners"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.mockito.runners.ConsoleSpammingMockitoJUnitRunner"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "ConsoleSpammingMockitoJUnitRunner"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "mockito-core-3.12.4.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class org.mockito.runners.MockitoJUnitRunner",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.mockito.runners"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.mockito.runners.MockitoJUnitRunner"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "MockitoJUnitRunner"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "mockito-core-3.12.4.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class org.mockito.runners.VerboseMockitoJUnitRunner",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.mockito.runners"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.mockito.runners.VerboseMockitoJUnitRunner"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "VerboseMockitoJUnitRunner"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "mockito-core-3.12.4.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+} ]

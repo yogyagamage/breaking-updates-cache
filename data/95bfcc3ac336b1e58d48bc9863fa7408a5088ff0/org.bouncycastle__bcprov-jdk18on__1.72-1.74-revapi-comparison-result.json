@@ -1,0 +1,4620 @@
+[ {
+  "code" : "java.field.removed",
+  "old" : "field org.bouncycastle.asn1.ASN1Set.isSorted",
+  "new" : null,
+  "name" : "field removed",
+  "description" : "Field removed from class.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.bouncycastle.asn1"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.bouncycastle.asn1.ASN1Set"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "ASN1Set"
+  }, {
+    "name" : "fieldName",
+    "value" : "isSorted"
+  }, {
+    "name" : "elementKind",
+    "value" : "field"
+  }, {
+    "name" : "oldArchive",
+    "value" : "bcprov-jdk18on-1.72.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.field.removed",
+  "old" : "field org.bouncycastle.asn1.bc.BCObjectIdentifiers.sphincsPlus_haraka",
+  "new" : null,
+  "name" : "field removed",
+  "description" : "Field removed from class.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.bouncycastle.asn1.bc"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.bouncycastle.asn1.bc.BCObjectIdentifiers"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "BCObjectIdentifiers"
+  }, {
+    "name" : "fieldName",
+    "value" : "sphincsPlus_haraka"
+  }, {
+    "name" : "elementKind",
+    "value" : "field"
+  }, {
+    "name" : "oldArchive",
+    "value" : "bcprov-jdk18on-1.72.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.field.removed",
+  "old" : "field org.bouncycastle.asn1.bc.BCObjectIdentifiers.sphincsPlus_sha_256",
+  "new" : null,
+  "name" : "field removed",
+  "description" : "Field removed from class.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.bouncycastle.asn1.bc"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.bouncycastle.asn1.bc.BCObjectIdentifiers"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "BCObjectIdentifiers"
+  }, {
+    "name" : "fieldName",
+    "value" : "sphincsPlus_sha_256"
+  }, {
+    "name" : "elementKind",
+    "value" : "field"
+  }, {
+    "name" : "oldArchive",
+    "value" : "bcprov-jdk18on-1.72.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.field.removed",
+  "old" : "field org.bouncycastle.asn1.bc.BCObjectIdentifiers.sphincsPlus_sha_512",
+  "new" : null,
+  "name" : "field removed",
+  "description" : "Field removed from class.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.bouncycastle.asn1.bc"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.bouncycastle.asn1.bc.BCObjectIdentifiers"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "BCObjectIdentifiers"
+  }, {
+    "name" : "fieldName",
+    "value" : "sphincsPlus_sha_512"
+  }, {
+    "name" : "elementKind",
+    "value" : "field"
+  }, {
+    "name" : "oldArchive",
+    "value" : "bcprov-jdk18on-1.72.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.field.removed",
+  "old" : "field org.bouncycastle.asn1.bc.BCObjectIdentifiers.sphincsPlus_shake_256",
+  "new" : null,
+  "name" : "field removed",
+  "description" : "Field removed from class.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.bouncycastle.asn1.bc"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.bouncycastle.asn1.bc.BCObjectIdentifiers"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "BCObjectIdentifiers"
+  }, {
+    "name" : "fieldName",
+    "value" : "sphincsPlus_shake_256"
+  }, {
+    "name" : "elementKind",
+    "value" : "field"
+  }, {
+    "name" : "oldArchive",
+    "value" : "bcprov-jdk18on-1.72.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.field.removed",
+  "old" : "field org.bouncycastle.asn1.bc.BCObjectIdentifiers.xmss_mt_with_SHA256",
+  "new" : null,
+  "name" : "field removed",
+  "description" : "Field removed from class.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.bouncycastle.asn1.bc"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.bouncycastle.asn1.bc.BCObjectIdentifiers"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "BCObjectIdentifiers"
+  }, {
+    "name" : "fieldName",
+    "value" : "xmss_mt_with_SHA256"
+  }, {
+    "name" : "elementKind",
+    "value" : "field"
+  }, {
+    "name" : "oldArchive",
+    "value" : "bcprov-jdk18on-1.72.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.field.removed",
+  "old" : "field org.bouncycastle.asn1.bc.BCObjectIdentifiers.xmss_mt_with_SHA512",
+  "new" : null,
+  "name" : "field removed",
+  "description" : "Field removed from class.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.bouncycastle.asn1.bc"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.bouncycastle.asn1.bc.BCObjectIdentifiers"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "BCObjectIdentifiers"
+  }, {
+    "name" : "fieldName",
+    "value" : "xmss_mt_with_SHA512"
+  }, {
+    "name" : "elementKind",
+    "value" : "field"
+  }, {
+    "name" : "oldArchive",
+    "value" : "bcprov-jdk18on-1.72.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.field.removed",
+  "old" : "field org.bouncycastle.asn1.bc.BCObjectIdentifiers.xmss_mt_with_SHAKE128",
+  "new" : null,
+  "name" : "field removed",
+  "description" : "Field removed from class.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.bouncycastle.asn1.bc"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.bouncycastle.asn1.bc.BCObjectIdentifiers"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "BCObjectIdentifiers"
+  }, {
+    "name" : "fieldName",
+    "value" : "xmss_mt_with_SHAKE128"
+  }, {
+    "name" : "elementKind",
+    "value" : "field"
+  }, {
+    "name" : "oldArchive",
+    "value" : "bcprov-jdk18on-1.72.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.field.removed",
+  "old" : "field org.bouncycastle.asn1.bc.BCObjectIdentifiers.xmss_mt_with_SHAKE256",
+  "new" : null,
+  "name" : "field removed",
+  "description" : "Field removed from class.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.bouncycastle.asn1.bc"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.bouncycastle.asn1.bc.BCObjectIdentifiers"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "BCObjectIdentifiers"
+  }, {
+    "name" : "fieldName",
+    "value" : "xmss_mt_with_SHAKE256"
+  }, {
+    "name" : "elementKind",
+    "value" : "field"
+  }, {
+    "name" : "oldArchive",
+    "value" : "bcprov-jdk18on-1.72.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.field.removed",
+  "old" : "field org.bouncycastle.asn1.bc.BCObjectIdentifiers.xmss_with_SHA256",
+  "new" : null,
+  "name" : "field removed",
+  "description" : "Field removed from class.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.bouncycastle.asn1.bc"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.bouncycastle.asn1.bc.BCObjectIdentifiers"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "BCObjectIdentifiers"
+  }, {
+    "name" : "fieldName",
+    "value" : "xmss_with_SHA256"
+  }, {
+    "name" : "elementKind",
+    "value" : "field"
+  }, {
+    "name" : "oldArchive",
+    "value" : "bcprov-jdk18on-1.72.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.field.removed",
+  "old" : "field org.bouncycastle.asn1.bc.BCObjectIdentifiers.xmss_with_SHA512",
+  "new" : null,
+  "name" : "field removed",
+  "description" : "Field removed from class.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.bouncycastle.asn1.bc"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.bouncycastle.asn1.bc.BCObjectIdentifiers"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "BCObjectIdentifiers"
+  }, {
+    "name" : "fieldName",
+    "value" : "xmss_with_SHA512"
+  }, {
+    "name" : "elementKind",
+    "value" : "field"
+  }, {
+    "name" : "oldArchive",
+    "value" : "bcprov-jdk18on-1.72.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.field.removed",
+  "old" : "field org.bouncycastle.asn1.bc.BCObjectIdentifiers.xmss_with_SHAKE128",
+  "new" : null,
+  "name" : "field removed",
+  "description" : "Field removed from class.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.bouncycastle.asn1.bc"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.bouncycastle.asn1.bc.BCObjectIdentifiers"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "BCObjectIdentifiers"
+  }, {
+    "name" : "fieldName",
+    "value" : "xmss_with_SHAKE128"
+  }, {
+    "name" : "elementKind",
+    "value" : "field"
+  }, {
+    "name" : "oldArchive",
+    "value" : "bcprov-jdk18on-1.72.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.field.removed",
+  "old" : "field org.bouncycastle.asn1.bc.BCObjectIdentifiers.xmss_with_SHAKE256",
+  "new" : null,
+  "name" : "field removed",
+  "description" : "Field removed from class.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.bouncycastle.asn1.bc"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.bouncycastle.asn1.bc.BCObjectIdentifiers"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "BCObjectIdentifiers"
+  }, {
+    "name" : "fieldName",
+    "value" : "xmss_with_SHAKE256"
+  }, {
+    "name" : "elementKind",
+    "value" : "field"
+  }, {
+    "name" : "oldArchive",
+    "value" : "bcprov-jdk18on-1.72.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.field.typeChanged",
+  "old" : "field org.bouncycastle.asn1.pkcs.CertificationRequest.sigBits",
+  "new" : "field org.bouncycastle.asn1.pkcs.CertificationRequest.sigBits",
+  "name" : "field type changed",
+  "description" : "The type of the field changed from 'org.bouncycastle.asn1.DERBitString' to 'org.bouncycastle.asn1.ASN1BitString'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "org.bouncycastle.asn1.DERBitString"
+  }, {
+    "name" : "newType",
+    "value" : "org.bouncycastle.asn1.ASN1BitString"
+  }, {
+    "name" : "package",
+    "value" : "org.bouncycastle.asn1.pkcs"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.bouncycastle.asn1.pkcs.CertificationRequest"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "CertificationRequest"
+  }, {
+    "name" : "fieldName",
+    "value" : "sigBits"
+  }, {
+    "name" : "elementKind",
+    "value" : "field"
+  }, {
+    "name" : "oldArchive",
+    "value" : "bcprov-jdk18on-1.72.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "bcprov-jdk18on-1.74.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.parameterTypeChanged",
+  "old" : "parameter void org.bouncycastle.asn1.pkcs.CertificationRequest::<init>(org.bouncycastle.asn1.pkcs.CertificationRequestInfo, org.bouncycastle.asn1.x509.AlgorithmIdentifier, ===org.bouncycastle.asn1.DERBitString===)",
+  "new" : "parameter void org.bouncycastle.asn1.pkcs.CertificationRequest::<init>(org.bouncycastle.asn1.pkcs.CertificationRequestInfo, org.bouncycastle.asn1.x509.AlgorithmIdentifier, ===org.bouncycastle.asn1.ASN1BitString===)",
+  "name" : "parameter type changed",
+  "description" : "The type of the parameter changed from 'org.bouncycastle.asn1.DERBitString' to 'org.bouncycastle.asn1.ASN1BitString'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "POTENTIALLY_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "org.bouncycastle.asn1.DERBitString"
+  }, {
+    "name" : "newType",
+    "value" : "org.bouncycastle.asn1.ASN1BitString"
+  }, {
+    "name" : "package",
+    "value" : "org.bouncycastle.asn1.pkcs"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.bouncycastle.asn1.pkcs.CertificationRequest"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "CertificationRequest"
+  }, {
+    "name" : "methodName",
+    "value" : "<init>"
+  }, {
+    "name" : "parameterIndex",
+    "value" : "2"
+  }, {
+    "name" : "elementKind",
+    "value" : "parameter"
+  }, {
+    "name" : "oldArchive",
+    "value" : "bcprov-jdk18on-1.72.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "bcprov-jdk18on-1.74.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.returnTypeChanged",
+  "old" : "method org.bouncycastle.asn1.DERBitString org.bouncycastle.asn1.pkcs.CertificationRequest::getSignature()",
+  "new" : "method org.bouncycastle.asn1.ASN1BitString org.bouncycastle.asn1.pkcs.CertificationRequest::getSignature()",
+  "name" : "return type changed",
+  "description" : "The return type changed from 'org.bouncycastle.asn1.DERBitString' to  'org.bouncycastle.asn1.ASN1BitString'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "POTENTIALLY_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "org.bouncycastle.asn1.DERBitString"
+  }, {
+    "name" : "newType",
+    "value" : "org.bouncycastle.asn1.ASN1BitString"
+  }, {
+    "name" : "package",
+    "value" : "org.bouncycastle.asn1.pkcs"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.bouncycastle.asn1.pkcs.CertificationRequest"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "CertificationRequest"
+  }, {
+    "name" : "methodName",
+    "value" : "getSignature"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "bcprov-jdk18on-1.72.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "bcprov-jdk18on-1.74.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.nonPublicPartOfAPI",
+  "old" : null,
+  "new" : "class org.bouncycastle.crypto.hpke.HKDF",
+  "name" : "non-public class in API",
+  "description" : "Class 'org.bouncycastle.crypto.hpke.HKDF' is indirectly included in the API (by the means of method return type for example) but the class is not accessible (neither public nor protected).",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SEMANTIC",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "classSimpleName",
+    "value" : "HKDF"
+  }, {
+    "name" : "exampleUseChainInNewApi",
+    "value" : "field org.bouncycastle.crypto.hpke.HPKEContext.hkdf @ org.bouncycastle.crypto.hpke.HPKEContextWithEncapsulation has the type org.bouncycastle.crypto.hpke.HKDF (field org.bouncycastle.crypto.hpke.HPKEContext.hkdf @ org.bouncycastle.crypto.hpke.HPKEContextWithEncapsulation is part of the API)"
+  }, {
+    "name" : "package",
+    "value" : "org.bouncycastle.crypto.hpke"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.bouncycastle.crypto.hpke.HKDF"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "newArchive",
+    "value" : "bcprov-jdk18on-1.74.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.parameterTypeChanged",
+  "old" : "parameter void org.bouncycastle.crypto.macs.GMac::<init>(===org.bouncycastle.crypto.modes.GCMBlockCipher===)",
+  "new" : "parameter void org.bouncycastle.crypto.macs.GMac::<init>(===org.bouncycastle.crypto.modes.GCMModeCipher===)",
+  "name" : "parameter type changed",
+  "description" : "The type of the parameter changed from 'org.bouncycastle.crypto.modes.GCMBlockCipher' to 'org.bouncycastle.crypto.modes.GCMModeCipher'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "POTENTIALLY_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "org.bouncycastle.crypto.modes.GCMBlockCipher"
+  }, {
+    "name" : "newType",
+    "value" : "org.bouncycastle.crypto.modes.GCMModeCipher"
+  }, {
+    "name" : "package",
+    "value" : "org.bouncycastle.crypto.macs"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.bouncycastle.crypto.macs.GMac"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "GMac"
+  }, {
+    "name" : "methodName",
+    "value" : "<init>"
+  }, {
+    "name" : "parameterIndex",
+    "value" : "0"
+  }, {
+    "name" : "elementKind",
+    "value" : "parameter"
+  }, {
+    "name" : "oldArchive",
+    "value" : "bcprov-jdk18on-1.72.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "bcprov-jdk18on-1.74.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.parameterTypeChanged",
+  "old" : "parameter void org.bouncycastle.crypto.macs.GMac::<init>(===org.bouncycastle.crypto.modes.GCMBlockCipher===, int)",
+  "new" : "parameter void org.bouncycastle.crypto.macs.GMac::<init>(===org.bouncycastle.crypto.modes.GCMModeCipher===, int)",
+  "name" : "parameter type changed",
+  "description" : "The type of the parameter changed from 'org.bouncycastle.crypto.modes.GCMBlockCipher' to 'org.bouncycastle.crypto.modes.GCMModeCipher'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "POTENTIALLY_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "org.bouncycastle.crypto.modes.GCMBlockCipher"
+  }, {
+    "name" : "newType",
+    "value" : "org.bouncycastle.crypto.modes.GCMModeCipher"
+  }, {
+    "name" : "package",
+    "value" : "org.bouncycastle.crypto.macs"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.bouncycastle.crypto.macs.GMac"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "GMac"
+  }, {
+    "name" : "methodName",
+    "value" : "<init>"
+  }, {
+    "name" : "parameterIndex",
+    "value" : "0"
+  }, {
+    "name" : "elementKind",
+    "value" : "parameter"
+  }, {
+    "name" : "oldArchive",
+    "value" : "bcprov-jdk18on-1.72.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "bcprov-jdk18on-1.74.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.addedToInterface",
+  "old" : null,
+  "new" : "method org.bouncycastle.crypto.BlockCipher org.bouncycastle.crypto.modes.CBCModeCipher::getUnderlyingCipher()",
+  "name" : "method added to interface",
+  "description" : "Method was added to an interface.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SEMANTIC",
+    "severity" : "POTENTIALLY_BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.bouncycastle.crypto.modes"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.bouncycastle.crypto.modes.CBCModeCipher"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "CBCModeCipher"
+  }, {
+    "name" : "methodName",
+    "value" : "getUnderlyingCipher"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "newArchive",
+    "value" : "bcprov-jdk18on-1.74.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.nonPublicPartOfAPI",
+  "old" : "class org.bouncycastle.crypto.util.SSHBuffer",
+  "new" : "class org.bouncycastle.crypto.util.SSHBuffer",
+  "name" : "non-public class in API",
+  "description" : "Class 'org.bouncycastle.crypto.util.SSHBuffer' is indirectly included in the API (by the means of method return type for example) but the class is not accessible (neither public nor protected).",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SEMANTIC",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "classSimpleName",
+    "value" : "SSHBuffer"
+  }, {
+    "name" : "exampleUseChainInNewApi",
+    "value" : "org.bouncycastle.crypto.util.SSHBuffer is used as parameter in method org.bouncycastle.crypto.params.AsymmetricKeyParameter org.bouncycastle.crypto.util.OpenSSHPublicKeyUtil::parsePublicKey(org.bouncycastle.crypto.util.SSHBuffer) (method org.bouncycastle.crypto.params.AsymmetricKeyParameter org.bouncycastle.crypto.util.OpenSSHPublicKeyUtil::parsePublicKey(org.bouncycastle.crypto.util.SSHBuffer) is part of the API)"
+  }, {
+    "name" : "package",
+    "value" : "org.bouncycastle.crypto.util"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.bouncycastle.crypto.util.SSHBuffer"
+  }, {
+    "name" : "exampleUseChainInOldApi",
+    "value" : "org.bouncycastle.crypto.util.SSHBuffer is used as parameter in method org.bouncycastle.crypto.params.AsymmetricKeyParameter org.bouncycastle.crypto.util.OpenSSHPublicKeyUtil::parsePublicKey(org.bouncycastle.crypto.util.SSHBuffer) (method org.bouncycastle.crypto.params.AsymmetricKeyParameter org.bouncycastle.crypto.util.OpenSSHPublicKeyUtil::parsePublicKey(org.bouncycastle.crypto.util.SSHBuffer) is part of the API)"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "bcprov-jdk18on-1.72.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "bcprov-jdk18on-1.74.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.returnTypeChanged",
+  "old" : "method int org.bouncycastle.jcajce.spec.FPEParameterSpec::getRadixConverter()",
+  "new" : "method org.bouncycastle.crypto.util.RadixConverter org.bouncycastle.jcajce.spec.FPEParameterSpec::getRadixConverter()",
+  "name" : "return type changed",
+  "description" : "The return type changed from 'int' to  'org.bouncycastle.crypto.util.RadixConverter'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "POTENTIALLY_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "int"
+  }, {
+    "name" : "newType",
+    "value" : "org.bouncycastle.crypto.util.RadixConverter"
+  }, {
+    "name" : "package",
+    "value" : "org.bouncycastle.jcajce.spec"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.bouncycastle.jcajce.spec.FPEParameterSpec"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "FPEParameterSpec"
+  }, {
+    "name" : "methodName",
+    "value" : "getRadixConverter"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "bcprov-jdk18on-1.72.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "bcprov-jdk18on-1.74.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.nonPublicPartOfAPI",
+  "old" : null,
+  "new" : "class org.bouncycastle.pqc.crypto.gemss.GeMSSEngine",
+  "name" : "non-public class in API",
+  "description" : "Class 'org.bouncycastle.pqc.crypto.gemss.GeMSSEngine' is indirectly included in the API (by the means of method return type for example) but the class is not accessible (neither public nor protected).",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SEMANTIC",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "classSimpleName",
+    "value" : "GeMSSEngine"
+  }, {
+    "name" : "exampleUseChainInNewApi",
+    "value" : "org.bouncycastle.pqc.crypto.gemss.GeMSSEngine is returned from method org.bouncycastle.pqc.crypto.gemss.GeMSSEngine org.bouncycastle.pqc.crypto.gemss.GeMSSEngineProvider::get() (method org.bouncycastle.pqc.crypto.gemss.GeMSSEngine org.bouncycastle.pqc.crypto.gemss.GeMSSEngineProvider::get() is part of the API)"
+  }, {
+    "name" : "package",
+    "value" : "org.bouncycastle.pqc.crypto.gemss"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.bouncycastle.pqc.crypto.gemss.GeMSSEngine"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "newArchive",
+    "value" : "bcprov-jdk18on-1.74.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.nonPublicPartOfAPI",
+  "old" : "class org.bouncycastle.pqc.crypto.lms.LMOtsPrivateKey",
+  "new" : "class org.bouncycastle.pqc.crypto.lms.LMOtsPrivateKey",
+  "name" : "non-public class in API",
+  "description" : "Class 'org.bouncycastle.pqc.crypto.lms.LMOtsPrivateKey' is indirectly included in the API (by the means of method return type for example) but the class is not accessible (neither public nor protected).",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SEMANTIC",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "classSimpleName",
+    "value" : "LMOtsPrivateKey"
+  }, {
+    "name" : "exampleUseChainInNewApi",
+    "value" : "org.bouncycastle.pqc.crypto.lms.LMOtsPrivateKey is used as parameter in method void org.bouncycastle.pqc.crypto.lms.LMSContext::<init>(org.bouncycastle.pqc.crypto.lms.LMOtsPrivateKey, org.bouncycastle.pqc.crypto.lms.LMSigParameters, org.bouncycastle.crypto.Digest, byte[], byte[][]) (method void org.bouncycastle.pqc.crypto.lms.LMSContext::<init>(org.bouncycastle.pqc.crypto.lms.LMOtsPrivateKey, org.bouncycastle.pqc.crypto.lms.LMSigParameters, org.bouncycastle.crypto.Digest, byte[], byte[][]) is part of the API)"
+  }, {
+    "name" : "package",
+    "value" : "org.bouncycastle.pqc.crypto.lms"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.bouncycastle.pqc.crypto.lms.LMOtsPrivateKey"
+  }, {
+    "name" : "exampleUseChainInOldApi",
+    "value" : "org.bouncycastle.pqc.crypto.lms.LMOtsPrivateKey is used as parameter in method void org.bouncycastle.pqc.crypto.lms.LMSContext::<init>(org.bouncycastle.pqc.crypto.lms.LMOtsPrivateKey, org.bouncycastle.pqc.crypto.lms.LMSigParameters, org.bouncycastle.crypto.Digest, byte[], byte[][]) (method void org.bouncycastle.pqc.crypto.lms.LMSContext::<init>(org.bouncycastle.pqc.crypto.lms.LMOtsPrivateKey, org.bouncycastle.pqc.crypto.lms.LMSigParameters, org.bouncycastle.crypto.Digest, byte[], byte[][]) is part of the API)"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "bcprov-jdk18on-1.72.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "bcprov-jdk18on-1.74.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.nonPublicPartOfAPI",
+  "old" : "class org.bouncycastle.pqc.crypto.lms.LMOtsPublicKey",
+  "new" : "class org.bouncycastle.pqc.crypto.lms.LMOtsPublicKey",
+  "name" : "non-public class in API",
+  "description" : "Class 'org.bouncycastle.pqc.crypto.lms.LMOtsPublicKey' is indirectly included in the API (by the means of method return type for example) but the class is not accessible (neither public nor protected).",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SEMANTIC",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "classSimpleName",
+    "value" : "LMOtsPublicKey"
+  }, {
+    "name" : "exampleUseChainInNewApi",
+    "value" : "org.bouncycastle.pqc.crypto.lms.LMOtsPublicKey is returned from method org.bouncycastle.pqc.crypto.lms.LMOtsPublicKey org.bouncycastle.pqc.crypto.lms.LMSContext::getPublicKey() (method org.bouncycastle.pqc.crypto.lms.LMOtsPublicKey org.bouncycastle.pqc.crypto.lms.LMSContext::getPublicKey() is part of the API)"
+  }, {
+    "name" : "package",
+    "value" : "org.bouncycastle.pqc.crypto.lms"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.bouncycastle.pqc.crypto.lms.LMOtsPublicKey"
+  }, {
+    "name" : "exampleUseChainInOldApi",
+    "value" : "org.bouncycastle.pqc.crypto.lms.LMOtsPublicKey is used as parameter in method void org.bouncycastle.pqc.crypto.lms.LMSContext::<init>(org.bouncycastle.pqc.crypto.lms.LMOtsPublicKey, java.lang.Object, org.bouncycastle.crypto.Digest) (method void org.bouncycastle.pqc.crypto.lms.LMSContext::<init>(org.bouncycastle.pqc.crypto.lms.LMOtsPublicKey, java.lang.Object, org.bouncycastle.crypto.Digest) is part of the API)"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "bcprov-jdk18on-1.72.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "bcprov-jdk18on-1.74.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.nonPublicPartOfAPI",
+  "old" : "class org.bouncycastle.pqc.crypto.lms.LMSSignature",
+  "new" : "class org.bouncycastle.pqc.crypto.lms.LMSSignature",
+  "name" : "non-public class in API",
+  "description" : "Class 'org.bouncycastle.pqc.crypto.lms.LMSSignature' is indirectly included in the API (by the means of method return type for example) but the class is not accessible (neither public nor protected).",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SEMANTIC",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "classSimpleName",
+    "value" : "LMSSignature"
+  }, {
+    "name" : "exampleUseChainInNewApi",
+    "value" : "org.bouncycastle.pqc.crypto.lms.LMSSignature is used as parameter in method void org.bouncycastle.pqc.crypto.lms.HSSPrivateKeyParameters::updateHierarchy(org.bouncycastle.pqc.crypto.lms.LMSPrivateKeyParameters[], org.bouncycastle.pqc.crypto.lms.LMSSignature[]) (method void org.bouncycastle.pqc.crypto.lms.HSSPrivateKeyParameters::updateHierarchy(org.bouncycastle.pqc.crypto.lms.LMSPrivateKeyParameters[], org.bouncycastle.pqc.crypto.lms.LMSSignature[]) is part of the API)"
+  }, {
+    "name" : "package",
+    "value" : "org.bouncycastle.pqc.crypto.lms"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.bouncycastle.pqc.crypto.lms.LMSSignature"
+  }, {
+    "name" : "exampleUseChainInOldApi",
+    "value" : "org.bouncycastle.pqc.crypto.lms.LMSSignature is returned from method org.bouncycastle.pqc.crypto.lms.LMSSignature org.bouncycastle.pqc.crypto.lms.LMSSignedPubKey::getSignature() <- org.bouncycastle.pqc.crypto.lms.LMSSignedPubKey is returned from method org.bouncycastle.pqc.crypto.lms.LMSSignedPubKey[] org.bouncycastle.pqc.crypto.lms.HSSSignature::getSignedPubKey() (method org.bouncycastle.pqc.crypto.lms.LMSSignedPubKey[] org.bouncycastle.pqc.crypto.lms.HSSSignature::getSignedPubKey() is part of the API)"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "bcprov-jdk18on-1.72.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "bcprov-jdk18on-1.74.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.nonPublicPartOfAPI",
+  "old" : "class org.bouncycastle.pqc.crypto.lms.LMSSignedPubKey",
+  "new" : "class org.bouncycastle.pqc.crypto.lms.LMSSignedPubKey",
+  "name" : "non-public class in API",
+  "description" : "Class 'org.bouncycastle.pqc.crypto.lms.LMSSignedPubKey' is indirectly included in the API (by the means of method return type for example) but the class is not accessible (neither public nor protected).",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SEMANTIC",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "classSimpleName",
+    "value" : "LMSSignedPubKey"
+  }, {
+    "name" : "exampleUseChainInNewApi",
+    "value" : "org.bouncycastle.pqc.crypto.lms.LMSSignedPubKey is used as a type parameter or type variable bound on method void org.bouncycastle.pqc.crypto.lms.HSSSignature::<init>(int, org.bouncycastle.pqc.crypto.lms.LMSSignedPubKey[], org.bouncycastle.pqc.crypto.lms.LMSSignature) (method void org.bouncycastle.pqc.crypto.lms.HSSSignature::<init>(int, org.bouncycastle.pqc.crypto.lms.LMSSignedPubKey[], org.bouncycastle.pqc.crypto.lms.LMSSignature) is part of the API)"
+  }, {
+    "name" : "package",
+    "value" : "org.bouncycastle.pqc.crypto.lms"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.bouncycastle.pqc.crypto.lms.LMSSignedPubKey"
+  }, {
+    "name" : "exampleUseChainInOldApi",
+    "value" : "org.bouncycastle.pqc.crypto.lms.LMSSignedPubKey is returned from method org.bouncycastle.pqc.crypto.lms.LMSSignedPubKey[] org.bouncycastle.pqc.crypto.lms.HSSSignature::getSignedPubKey() (method org.bouncycastle.pqc.crypto.lms.LMSSignedPubKey[] org.bouncycastle.pqc.crypto.lms.HSSSignature::getSignedPubKey() is part of the API)"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "bcprov-jdk18on-1.72.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "bcprov-jdk18on-1.74.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.nonPublicPartOfAPI",
+  "old" : null,
+  "new" : "class org.bouncycastle.pqc.crypto.picnic.KMatrices",
+  "name" : "non-public class in API",
+  "description" : "Class 'org.bouncycastle.pqc.crypto.picnic.KMatrices' is indirectly included in the API (by the means of method return type for example) but the class is not accessible (neither public nor protected).",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SEMANTIC",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "classSimpleName",
+    "value" : "KMatrices"
+  }, {
+    "name" : "exampleUseChainInNewApi",
+    "value" : "field org.bouncycastle.pqc.crypto.picnic.LowmcConstants.KMatrix_full @ org.bouncycastle.pqc.crypto.picnic.LowmcConstantsL5 has the type org.bouncycastle.pqc.crypto.picnic.KMatrices (field org.bouncycastle.pqc.crypto.picnic.LowmcConstants.KMatrix_full @ org.bouncycastle.pqc.crypto.picnic.LowmcConstantsL5 is part of the API)"
+  }, {
+    "name" : "package",
+    "value" : "org.bouncycastle.pqc.crypto.picnic"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.bouncycastle.pqc.crypto.picnic.KMatrices"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "newArchive",
+    "value" : "bcprov-jdk18on-1.74.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.nonPublicPartOfAPI",
+  "old" : null,
+  "new" : "class org.bouncycastle.pqc.crypto.picnic.KMatricesWithPointer",
+  "name" : "non-public class in API",
+  "description" : "Class 'org.bouncycastle.pqc.crypto.picnic.KMatricesWithPointer' is indirectly included in the API (by the means of method return type for example) but the class is not accessible (neither public nor protected).",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SEMANTIC",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "classSimpleName",
+    "value" : "KMatricesWithPointer"
+  }, {
+    "name" : "exampleUseChainInNewApi",
+    "value" : "org.bouncycastle.pqc.crypto.picnic.KMatricesWithPointer is returned from method org.bouncycastle.pqc.crypto.picnic.KMatricesWithPointer org.bouncycastle.pqc.crypto.picnic.LowmcConstants::LMatrix(org.bouncycastle.pqc.crypto.picnic.PicnicEngine, int) @ org.bouncycastle.pqc.crypto.picnic.LowmcConstantsL1 (method org.bouncycastle.pqc.crypto.picnic.KMatricesWithPointer org.bouncycastle.pqc.crypto.picnic.LowmcConstants::LMatrix(org.bouncycastle.pqc.crypto.picnic.PicnicEngine, int) @ org.bouncycastle.pqc.crypto.picnic.LowmcConstantsL1 is part of the API)"
+  }, {
+    "name" : "package",
+    "value" : "org.bouncycastle.pqc.crypto.picnic"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.bouncycastle.pqc.crypto.picnic.KMatricesWithPointer"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "newArchive",
+    "value" : "bcprov-jdk18on-1.74.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.nonPublicPartOfAPI",
+  "old" : null,
+  "new" : "class org.bouncycastle.pqc.crypto.picnic.PicnicEngine",
+  "name" : "non-public class in API",
+  "description" : "Class 'org.bouncycastle.pqc.crypto.picnic.PicnicEngine' is indirectly included in the API (by the means of method return type for example) but the class is not accessible (neither public nor protected).",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SEMANTIC",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "classSimpleName",
+    "value" : "PicnicEngine"
+  }, {
+    "name" : "exampleUseChainInNewApi",
+    "value" : "org.bouncycastle.pqc.crypto.picnic.PicnicEngine is used as parameter in method org.bouncycastle.pqc.crypto.picnic.KMatricesWithPointer org.bouncycastle.pqc.crypto.picnic.LowmcConstants::LMatrix(org.bouncycastle.pqc.crypto.picnic.PicnicEngine, int) @ org.bouncycastle.pqc.crypto.picnic.LowmcConstantsL3 (method org.bouncycastle.pqc.crypto.picnic.KMatricesWithPointer org.bouncycastle.pqc.crypto.picnic.LowmcConstants::LMatrix(org.bouncycastle.pqc.crypto.picnic.PicnicEngine, int) @ org.bouncycastle.pqc.crypto.picnic.LowmcConstantsL3 is part of the API)"
+  }, {
+    "name" : "package",
+    "value" : "org.bouncycastle.pqc.crypto.picnic"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.bouncycastle.pqc.crypto.picnic.PicnicEngine"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "newArchive",
+    "value" : "bcprov-jdk18on-1.74.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.nonPublicPartOfAPI",
+  "old" : "class org.bouncycastle.pqc.crypto.saber.SABEREngine",
+  "new" : "class org.bouncycastle.pqc.crypto.saber.SABEREngine",
+  "name" : "non-public class in API",
+  "description" : "Class 'org.bouncycastle.pqc.crypto.saber.SABEREngine' is indirectly included in the API (by the means of method return type for example) but the class is not accessible (neither public nor protected).",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SEMANTIC",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "classSimpleName",
+    "value" : "SABEREngine"
+  }, {
+    "name" : "exampleUseChainInNewApi",
+    "value" : "org.bouncycastle.pqc.crypto.saber.SABEREngine is returned from method org.bouncycastle.pqc.crypto.saber.SABEREngine org.bouncycastle.pqc.crypto.saber.SABERParameters::getEngine() (method org.bouncycastle.pqc.crypto.saber.SABEREngine org.bouncycastle.pqc.crypto.saber.SABERParameters::getEngine() is part of the API)"
+  }, {
+    "name" : "package",
+    "value" : "org.bouncycastle.pqc.crypto.saber"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.bouncycastle.pqc.crypto.saber.SABEREngine"
+  }, {
+    "name" : "exampleUseChainInOldApi",
+    "value" : "org.bouncycastle.pqc.crypto.saber.SABEREngine is returned from method org.bouncycastle.pqc.crypto.saber.SABEREngine org.bouncycastle.pqc.crypto.saber.SABERParameters::getEngine() (method org.bouncycastle.pqc.crypto.saber.SABEREngine org.bouncycastle.pqc.crypto.saber.SABERParameters::getEngine() is part of the API)"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "bcprov-jdk18on-1.72.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "bcprov-jdk18on-1.74.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.numberOfParametersChanged",
+  "old" : "method void org.bouncycastle.pqc.crypto.saber.SABERParameters::<init>(java.lang.String, int, int)",
+  "new" : "method void org.bouncycastle.pqc.crypto.saber.SABERParameters::<init>(java.lang.String, int, int, boolean, boolean)",
+  "name" : "number of parameters changed",
+  "description" : "The number of parameters of the method have changed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.bouncycastle.pqc.crypto.saber"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.bouncycastle.pqc.crypto.saber.SABERParameters"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "SABERParameters"
+  }, {
+    "name" : "methodName",
+    "value" : "<init>"
+  }, {
+    "name" : "elementKind",
+    "value" : "constructor"
+  }, {
+    "name" : "oldArchive",
+    "value" : "bcprov-jdk18on-1.72.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "bcprov-jdk18on-1.74.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class org.bouncycastle.pqc.crypto.sike.SIKEKEMExtractor",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.bouncycastle.pqc.crypto.sike"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.bouncycastle.pqc.crypto.sike.SIKEKEMExtractor"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "SIKEKEMExtractor"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "bcprov-jdk18on-1.72.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class org.bouncycastle.pqc.crypto.sike.SIKEKEMGenerator",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.bouncycastle.pqc.crypto.sike"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.bouncycastle.pqc.crypto.sike.SIKEKEMGenerator"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "SIKEKEMGenerator"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "bcprov-jdk18on-1.72.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class org.bouncycastle.pqc.crypto.sike.SIKEKeyGenerationParameters",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.bouncycastle.pqc.crypto.sike"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.bouncycastle.pqc.crypto.sike.SIKEKeyGenerationParameters"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "SIKEKeyGenerationParameters"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "bcprov-jdk18on-1.72.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class org.bouncycastle.pqc.crypto.sike.SIKEKeyPairGenerator",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.bouncycastle.pqc.crypto.sike"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.bouncycastle.pqc.crypto.sike.SIKEKeyPairGenerator"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "SIKEKeyPairGenerator"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "bcprov-jdk18on-1.72.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class org.bouncycastle.pqc.crypto.sike.SIKEKeyParameters",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.bouncycastle.pqc.crypto.sike"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.bouncycastle.pqc.crypto.sike.SIKEKeyParameters"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "SIKEKeyParameters"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "bcprov-jdk18on-1.72.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class org.bouncycastle.pqc.crypto.sike.SIKEParameters",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.bouncycastle.pqc.crypto.sike"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.bouncycastle.pqc.crypto.sike.SIKEParameters"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "SIKEParameters"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "bcprov-jdk18on-1.72.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class org.bouncycastle.pqc.crypto.sike.SIKEPrivateKeyParameters",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.bouncycastle.pqc.crypto.sike"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.bouncycastle.pqc.crypto.sike.SIKEPrivateKeyParameters"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "SIKEPrivateKeyParameters"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "bcprov-jdk18on-1.72.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class org.bouncycastle.pqc.crypto.sike.SIKEPublicKeyParameters",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.bouncycastle.pqc.crypto.sike"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.bouncycastle.pqc.crypto.sike.SIKEPublicKeyParameters"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "SIKEPublicKeyParameters"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "bcprov-jdk18on-1.72.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.nonPublicPartOfAPI",
+  "old" : "class org.bouncycastle.pqc.crypto.xmss.OTSHashAddress",
+  "new" : "class org.bouncycastle.pqc.crypto.xmss.OTSHashAddress",
+  "name" : "non-public class in API",
+  "description" : "Class 'org.bouncycastle.pqc.crypto.xmss.OTSHashAddress' is indirectly included in the API (by the means of method return type for example) but the class is not accessible (neither public nor protected).",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SEMANTIC",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "classSimpleName",
+    "value" : "OTSHashAddress"
+  }, {
+    "name" : "exampleUseChainInNewApi",
+    "value" : "org.bouncycastle.pqc.crypto.xmss.OTSHashAddress is used as parameter in method byte[] org.bouncycastle.pqc.crypto.xmss.WOTSPlus::getWOTSPlusSecretKey(byte[], org.bouncycastle.pqc.crypto.xmss.OTSHashAddress) <- org.bouncycastle.pqc.crypto.xmss.WOTSPlus is returned from method org.bouncycastle.pqc.crypto.xmss.WOTSPlus org.bouncycastle.pqc.crypto.xmss.XMSSMTParameters::getWOTSPlus() (method org.bouncycastle.pqc.crypto.xmss.WOTSPlus org.bouncycastle.pqc.crypto.xmss.XMSSMTParameters::getWOTSPlus() is part of the API)"
+  }, {
+    "name" : "package",
+    "value" : "org.bouncycastle.pqc.crypto.xmss"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.bouncycastle.pqc.crypto.xmss.OTSHashAddress"
+  }, {
+    "name" : "exampleUseChainInOldApi",
+    "value" : "org.bouncycastle.pqc.crypto.xmss.OTSHashAddress is used as parameter in method org.bouncycastle.pqc.crypto.xmss.BDS org.bouncycastle.pqc.crypto.xmss.BDS::getNextState(byte[], byte[], org.bouncycastle.pqc.crypto.xmss.OTSHashAddress) (method org.bouncycastle.pqc.crypto.xmss.BDS org.bouncycastle.pqc.crypto.xmss.BDS::getNextState(byte[], byte[], org.bouncycastle.pqc.crypto.xmss.OTSHashAddress) is part of the API)"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "bcprov-jdk18on-1.72.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "bcprov-jdk18on-1.74.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.nonPublicPartOfAPI",
+  "old" : "class org.bouncycastle.pqc.crypto.xmss.WOTSPlus",
+  "new" : "class org.bouncycastle.pqc.crypto.xmss.WOTSPlus",
+  "name" : "non-public class in API",
+  "description" : "Class 'org.bouncycastle.pqc.crypto.xmss.WOTSPlus' is indirectly included in the API (by the means of method return type for example) but the class is not accessible (neither public nor protected).",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SEMANTIC",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "classSimpleName",
+    "value" : "WOTSPlus"
+  }, {
+    "name" : "exampleUseChainInNewApi",
+    "value" : "org.bouncycastle.pqc.crypto.xmss.WOTSPlus is returned from method org.bouncycastle.pqc.crypto.xmss.WOTSPlus org.bouncycastle.pqc.crypto.xmss.XMSSMTParameters::getWOTSPlus() (method org.bouncycastle.pqc.crypto.xmss.WOTSPlus org.bouncycastle.pqc.crypto.xmss.XMSSMTParameters::getWOTSPlus() is part of the API)"
+  }, {
+    "name" : "package",
+    "value" : "org.bouncycastle.pqc.crypto.xmss"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.bouncycastle.pqc.crypto.xmss.WOTSPlus"
+  }, {
+    "name" : "exampleUseChainInOldApi",
+    "value" : "org.bouncycastle.pqc.crypto.xmss.WOTSPlus is returned from method org.bouncycastle.pqc.crypto.xmss.WOTSPlus org.bouncycastle.pqc.crypto.xmss.XMSS::getWOTSPlus() (method org.bouncycastle.pqc.crypto.xmss.WOTSPlus org.bouncycastle.pqc.crypto.xmss.XMSS::getWOTSPlus() is part of the API)"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "bcprov-jdk18on-1.72.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "bcprov-jdk18on-1.74.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.nonPublicPartOfAPI",
+  "old" : "class org.bouncycastle.pqc.crypto.xmss.WOTSPlusSignature",
+  "new" : "class org.bouncycastle.pqc.crypto.xmss.WOTSPlusSignature",
+  "name" : "non-public class in API",
+  "description" : "Class 'org.bouncycastle.pqc.crypto.xmss.WOTSPlusSignature' is indirectly included in the API (by the means of method return type for example) but the class is not accessible (neither public nor protected).",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SEMANTIC",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "classSimpleName",
+    "value" : "WOTSPlusSignature"
+  }, {
+    "name" : "exampleUseChainInNewApi",
+    "value" : "org.bouncycastle.pqc.crypto.xmss.WOTSPlusSignature is used as parameter in method org.bouncycastle.pqc.crypto.xmss.XMSSReducedSignature.Builder org.bouncycastle.pqc.crypto.xmss.XMSSReducedSignature.Builder::withWOTSPlusSignature(org.bouncycastle.pqc.crypto.xmss.WOTSPlusSignature) @ org.bouncycastle.pqc.crypto.xmss.XMSSSignature.Builder (method org.bouncycastle.pqc.crypto.xmss.XMSSReducedSignature.Builder org.bouncycastle.pqc.crypto.xmss.XMSSReducedSignature.Builder::withWOTSPlusSignature(org.bouncycastle.pqc.crypto.xmss.WOTSPlusSignature) @ org.bouncycastle.pqc.crypto.xmss.XMSSSignature.Builder is part of the API)"
+  }, {
+    "name" : "package",
+    "value" : "org.bouncycastle.pqc.crypto.xmss"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.bouncycastle.pqc.crypto.xmss.WOTSPlusSignature"
+  }, {
+    "name" : "exampleUseChainInOldApi",
+    "value" : "org.bouncycastle.pqc.crypto.xmss.WOTSPlusSignature is returned from method org.bouncycastle.pqc.crypto.xmss.WOTSPlusSignature org.bouncycastle.pqc.crypto.xmss.XMSSReducedSignature::getWOTSPlusSignature() (method org.bouncycastle.pqc.crypto.xmss.WOTSPlusSignature org.bouncycastle.pqc.crypto.xmss.XMSSReducedSignature::getWOTSPlusSignature() is part of the API)"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "bcprov-jdk18on-1.72.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "bcprov-jdk18on-1.74.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "interface org.bouncycastle.pqc.jcajce.interfaces.SIKEKey",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.bouncycastle.pqc.jcajce.interfaces"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.bouncycastle.pqc.jcajce.interfaces.SIKEKey"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "SIKEKey"
+  }, {
+    "name" : "elementKind",
+    "value" : "interface"
+  }, {
+    "name" : "oldArchive",
+    "value" : "bcprov-jdk18on-1.72.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class org.bouncycastle.pqc.jcajce.provider.QTESLA",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.bouncycastle.pqc.jcajce.provider"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.bouncycastle.pqc.jcajce.provider.QTESLA"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "QTESLA"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "bcprov-jdk18on-1.72.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class org.bouncycastle.pqc.jcajce.provider.SIKE",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.bouncycastle.pqc.jcajce.provider"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.bouncycastle.pqc.jcajce.provider.SIKE"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "SIKE"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "bcprov-jdk18on-1.72.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.exception.checkedRemoved",
+  "old" : "method void org.bouncycastle.pqc.jcajce.provider.dilithium.SignatureSpi.Base::<init>() throws java.security.NoSuchAlgorithmException",
+  "new" : "method void org.bouncycastle.pqc.jcajce.provider.dilithium.SignatureSpi.Base::<init>()",
+  "name" : "Method no longer throws checked exceptions",
+  "description" : "Method no longer throws checked exceptions: java.security.NoSuchAlgorithmException.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "exception",
+    "value" : "java.security.NoSuchAlgorithmException"
+  }, {
+    "name" : "package",
+    "value" : "org.bouncycastle.pqc.jcajce.provider.dilithium"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.bouncycastle.pqc.jcajce.provider.dilithium.SignatureSpi.Base"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "Base"
+  }, {
+    "name" : "methodName",
+    "value" : "<init>"
+  }, {
+    "name" : "elementKind",
+    "value" : "constructor"
+  }, {
+    "name" : "oldArchive",
+    "value" : "bcprov-jdk18on-1.72.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "bcprov-jdk18on-1.74.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.exception.checkedRemoved",
+  "old" : "method void org.bouncycastle.pqc.jcajce.provider.falcon.SignatureSpi.Base::<init>() throws java.security.NoSuchAlgorithmException",
+  "new" : "method void org.bouncycastle.pqc.jcajce.provider.falcon.SignatureSpi.Base::<init>()",
+  "name" : "Method no longer throws checked exceptions",
+  "description" : "Method no longer throws checked exceptions: java.security.NoSuchAlgorithmException.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "exception",
+    "value" : "java.security.NoSuchAlgorithmException"
+  }, {
+    "name" : "package",
+    "value" : "org.bouncycastle.pqc.jcajce.provider.falcon"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.bouncycastle.pqc.jcajce.provider.falcon.SignatureSpi.Base"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "Base"
+  }, {
+    "name" : "methodName",
+    "value" : "<init>"
+  }, {
+    "name" : "elementKind",
+    "value" : "constructor"
+  }, {
+    "name" : "oldArchive",
+    "value" : "bcprov-jdk18on-1.72.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "bcprov-jdk18on-1.74.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.exception.checkedRemoved",
+  "old" : "method void org.bouncycastle.pqc.jcajce.provider.picnic.SignatureSpi.Base::<init>() throws java.security.NoSuchAlgorithmException",
+  "new" : "method void org.bouncycastle.pqc.jcajce.provider.picnic.SignatureSpi.Base::<init>()",
+  "name" : "Method no longer throws checked exceptions",
+  "description" : "Method no longer throws checked exceptions: java.security.NoSuchAlgorithmException.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "exception",
+    "value" : "java.security.NoSuchAlgorithmException"
+  }, {
+    "name" : "package",
+    "value" : "org.bouncycastle.pqc.jcajce.provider.picnic"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.bouncycastle.pqc.jcajce.provider.picnic.SignatureSpi.Base"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "Base"
+  }, {
+    "name" : "methodName",
+    "value" : "<init>"
+  }, {
+    "name" : "elementKind",
+    "value" : "constructor"
+  }, {
+    "name" : "oldArchive",
+    "value" : "bcprov-jdk18on-1.72.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "bcprov-jdk18on-1.74.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.exception.checkedRemoved",
+  "old" : "method void org.bouncycastle.pqc.jcajce.provider.picnic.SignatureSpi.withSha3512::<init>() throws java.security.NoSuchAlgorithmException",
+  "new" : "method void org.bouncycastle.pqc.jcajce.provider.picnic.SignatureSpi.withSha3512::<init>()",
+  "name" : "Method no longer throws checked exceptions",
+  "description" : "Method no longer throws checked exceptions: java.security.NoSuchAlgorithmException.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "exception",
+    "value" : "java.security.NoSuchAlgorithmException"
+  }, {
+    "name" : "package",
+    "value" : "org.bouncycastle.pqc.jcajce.provider.picnic"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.bouncycastle.pqc.jcajce.provider.picnic.SignatureSpi.withSha3512"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "withSha3512"
+  }, {
+    "name" : "methodName",
+    "value" : "<init>"
+  }, {
+    "name" : "elementKind",
+    "value" : "constructor"
+  }, {
+    "name" : "oldArchive",
+    "value" : "bcprov-jdk18on-1.72.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "bcprov-jdk18on-1.74.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.exception.checkedRemoved",
+  "old" : "method void org.bouncycastle.pqc.jcajce.provider.picnic.SignatureSpi.withSha512::<init>() throws java.security.NoSuchAlgorithmException",
+  "new" : "method void org.bouncycastle.pqc.jcajce.provider.picnic.SignatureSpi.withSha512::<init>()",
+  "name" : "Method no longer throws checked exceptions",
+  "description" : "Method no longer throws checked exceptions: java.security.NoSuchAlgorithmException.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "exception",
+    "value" : "java.security.NoSuchAlgorithmException"
+  }, {
+    "name" : "package",
+    "value" : "org.bouncycastle.pqc.jcajce.provider.picnic"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.bouncycastle.pqc.jcajce.provider.picnic.SignatureSpi.withSha512"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "withSha512"
+  }, {
+    "name" : "methodName",
+    "value" : "<init>"
+  }, {
+    "name" : "elementKind",
+    "value" : "constructor"
+  }, {
+    "name" : "oldArchive",
+    "value" : "bcprov-jdk18on-1.72.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "bcprov-jdk18on-1.74.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.exception.checkedRemoved",
+  "old" : "method void org.bouncycastle.pqc.jcajce.provider.picnic.SignatureSpi.withShake256::<init>() throws java.security.NoSuchAlgorithmException",
+  "new" : "method void org.bouncycastle.pqc.jcajce.provider.picnic.SignatureSpi.withShake256::<init>()",
+  "name" : "Method no longer throws checked exceptions",
+  "description" : "Method no longer throws checked exceptions: java.security.NoSuchAlgorithmException.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "exception",
+    "value" : "java.security.NoSuchAlgorithmException"
+  }, {
+    "name" : "package",
+    "value" : "org.bouncycastle.pqc.jcajce.provider.picnic"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.bouncycastle.pqc.jcajce.provider.picnic.SignatureSpi.withShake256"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "withShake256"
+  }, {
+    "name" : "methodName",
+    "value" : "<init>"
+  }, {
+    "name" : "elementKind",
+    "value" : "constructor"
+  }, {
+    "name" : "oldArchive",
+    "value" : "bcprov-jdk18on-1.72.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "bcprov-jdk18on-1.74.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class org.bouncycastle.pqc.jcajce.provider.qtesla.BCqTESLAPrivateKey",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.bouncycastle.pqc.jcajce.provider.qtesla"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.bouncycastle.pqc.jcajce.provider.qtesla.BCqTESLAPrivateKey"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "BCqTESLAPrivateKey"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "bcprov-jdk18on-1.72.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class org.bouncycastle.pqc.jcajce.provider.qtesla.BCqTESLAPublicKey",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.bouncycastle.pqc.jcajce.provider.qtesla"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.bouncycastle.pqc.jcajce.provider.qtesla.BCqTESLAPublicKey"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "BCqTESLAPublicKey"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "bcprov-jdk18on-1.72.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class org.bouncycastle.pqc.jcajce.provider.qtesla.KeyPairGeneratorSpi",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.bouncycastle.pqc.jcajce.provider.qtesla"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.bouncycastle.pqc.jcajce.provider.qtesla.KeyPairGeneratorSpi"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "KeyPairGeneratorSpi"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "bcprov-jdk18on-1.72.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class org.bouncycastle.pqc.jcajce.provider.qtesla.QTESLAKeyFactorySpi",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.bouncycastle.pqc.jcajce.provider.qtesla"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.bouncycastle.pqc.jcajce.provider.qtesla.QTESLAKeyFactorySpi"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "QTESLAKeyFactorySpi"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "bcprov-jdk18on-1.72.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class org.bouncycastle.pqc.jcajce.provider.qtesla.SignatureSpi",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.bouncycastle.pqc.jcajce.provider.qtesla"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.bouncycastle.pqc.jcajce.provider.qtesla.SignatureSpi"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "SignatureSpi"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "bcprov-jdk18on-1.72.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.exception.checkedAdded",
+  "old" : "method void org.bouncycastle.pqc.jcajce.provider.rainbow.BCRainbowPrivateKey::<init>(org.bouncycastle.pqc.jcajce.spec.RainbowPrivateKeySpec)",
+  "new" : "method void org.bouncycastle.pqc.jcajce.provider.rainbow.BCRainbowPrivateKey::<init>(org.bouncycastle.asn1.pkcs.PrivateKeyInfo) throws java.io.IOException",
+  "name" : "Method newly throws checked exceptions",
+  "description" : "Method newly throws checked exceptions: java.io.IOException.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "exception",
+    "value" : "java.io.IOException"
+  }, {
+    "name" : "package",
+    "value" : "org.bouncycastle.pqc.jcajce.provider.rainbow"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.bouncycastle.pqc.jcajce.provider.rainbow.BCRainbowPrivateKey"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "BCRainbowPrivateKey"
+  }, {
+    "name" : "methodName",
+    "value" : "<init>"
+  }, {
+    "name" : "elementKind",
+    "value" : "constructor"
+  }, {
+    "name" : "oldArchive",
+    "value" : "bcprov-jdk18on-1.72.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "bcprov-jdk18on-1.74.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.parameterTypeChanged",
+  "old" : "parameter void org.bouncycastle.pqc.jcajce.provider.rainbow.BCRainbowPrivateKey::<init>(===org.bouncycastle.pqc.jcajce.spec.RainbowPrivateKeySpec===)",
+  "new" : "parameter void org.bouncycastle.pqc.jcajce.provider.rainbow.BCRainbowPrivateKey::<init>(===org.bouncycastle.asn1.pkcs.PrivateKeyInfo===) throws java.io.IOException",
+  "name" : "parameter type changed",
+  "description" : "The type of the parameter changed from 'org.bouncycastle.pqc.jcajce.spec.RainbowPrivateKeySpec' to 'org.bouncycastle.asn1.pkcs.PrivateKeyInfo'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "POTENTIALLY_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "org.bouncycastle.pqc.jcajce.spec.RainbowPrivateKeySpec"
+  }, {
+    "name" : "newType",
+    "value" : "org.bouncycastle.asn1.pkcs.PrivateKeyInfo"
+  }, {
+    "name" : "package",
+    "value" : "org.bouncycastle.pqc.jcajce.provider.rainbow"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.bouncycastle.pqc.jcajce.provider.rainbow.BCRainbowPrivateKey"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "BCRainbowPrivateKey"
+  }, {
+    "name" : "methodName",
+    "value" : "<init>"
+  }, {
+    "name" : "parameterIndex",
+    "value" : "0"
+  }, {
+    "name" : "elementKind",
+    "value" : "parameter"
+  }, {
+    "name" : "oldArchive",
+    "value" : "bcprov-jdk18on-1.72.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "bcprov-jdk18on-1.74.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.parameterTypeChanged",
+  "old" : "parameter void org.bouncycastle.pqc.jcajce.provider.rainbow.BCRainbowPrivateKey::<init>(===org.bouncycastle.pqc.legacy.crypto.rainbow.RainbowPrivateKeyParameters===)",
+  "new" : "parameter void org.bouncycastle.pqc.jcajce.provider.rainbow.BCRainbowPrivateKey::<init>(===org.bouncycastle.pqc.crypto.rainbow.RainbowPrivateKeyParameters===)",
+  "name" : "parameter type changed",
+  "description" : "The type of the parameter changed from 'org.bouncycastle.pqc.legacy.crypto.rainbow.RainbowPrivateKeyParameters' to 'org.bouncycastle.pqc.crypto.rainbow.RainbowPrivateKeyParameters'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "POTENTIALLY_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "org.bouncycastle.pqc.legacy.crypto.rainbow.RainbowPrivateKeyParameters"
+  }, {
+    "name" : "newType",
+    "value" : "org.bouncycastle.pqc.crypto.rainbow.RainbowPrivateKeyParameters"
+  }, {
+    "name" : "package",
+    "value" : "org.bouncycastle.pqc.jcajce.provider.rainbow"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.bouncycastle.pqc.jcajce.provider.rainbow.BCRainbowPrivateKey"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "BCRainbowPrivateKey"
+  }, {
+    "name" : "methodName",
+    "value" : "<init>"
+  }, {
+    "name" : "parameterIndex",
+    "value" : "0"
+  }, {
+    "name" : "elementKind",
+    "value" : "parameter"
+  }, {
+    "name" : "oldArchive",
+    "value" : "bcprov-jdk18on-1.72.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "bcprov-jdk18on-1.74.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method void org.bouncycastle.pqc.jcajce.provider.rainbow.BCRainbowPrivateKey::<init>(short[][], short[], short[][], short[], int[], org.bouncycastle.pqc.legacy.crypto.rainbow.Layer[])",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.bouncycastle.pqc.jcajce.provider.rainbow"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.bouncycastle.pqc.jcajce.provider.rainbow.BCRainbowPrivateKey"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "BCRainbowPrivateKey"
+  }, {
+    "name" : "methodName",
+    "value" : "<init>"
+  }, {
+    "name" : "elementKind",
+    "value" : "constructor"
+  }, {
+    "name" : "oldArchive",
+    "value" : "bcprov-jdk18on-1.72.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method short[] org.bouncycastle.pqc.jcajce.provider.rainbow.BCRainbowPrivateKey::getB1()",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.bouncycastle.pqc.jcajce.provider.rainbow"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.bouncycastle.pqc.jcajce.provider.rainbow.BCRainbowPrivateKey"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "BCRainbowPrivateKey"
+  }, {
+    "name" : "methodName",
+    "value" : "getB1"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "bcprov-jdk18on-1.72.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method short[] org.bouncycastle.pqc.jcajce.provider.rainbow.BCRainbowPrivateKey::getB2()",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.bouncycastle.pqc.jcajce.provider.rainbow"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.bouncycastle.pqc.jcajce.provider.rainbow.BCRainbowPrivateKey"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "BCRainbowPrivateKey"
+  }, {
+    "name" : "methodName",
+    "value" : "getB2"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "bcprov-jdk18on-1.72.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method short[][] org.bouncycastle.pqc.jcajce.provider.rainbow.BCRainbowPrivateKey::getInvA1()",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.bouncycastle.pqc.jcajce.provider.rainbow"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.bouncycastle.pqc.jcajce.provider.rainbow.BCRainbowPrivateKey"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "BCRainbowPrivateKey"
+  }, {
+    "name" : "methodName",
+    "value" : "getInvA1"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "bcprov-jdk18on-1.72.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method short[][] org.bouncycastle.pqc.jcajce.provider.rainbow.BCRainbowPrivateKey::getInvA2()",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.bouncycastle.pqc.jcajce.provider.rainbow"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.bouncycastle.pqc.jcajce.provider.rainbow.BCRainbowPrivateKey"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "BCRainbowPrivateKey"
+  }, {
+    "name" : "methodName",
+    "value" : "getInvA2"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "bcprov-jdk18on-1.72.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method org.bouncycastle.pqc.legacy.crypto.rainbow.Layer[] org.bouncycastle.pqc.jcajce.provider.rainbow.BCRainbowPrivateKey::getLayers()",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.bouncycastle.pqc.jcajce.provider.rainbow"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.bouncycastle.pqc.jcajce.provider.rainbow.BCRainbowPrivateKey"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "BCRainbowPrivateKey"
+  }, {
+    "name" : "methodName",
+    "value" : "getLayers"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "bcprov-jdk18on-1.72.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method int[] org.bouncycastle.pqc.jcajce.provider.rainbow.BCRainbowPrivateKey::getVi()",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.bouncycastle.pqc.jcajce.provider.rainbow"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.bouncycastle.pqc.jcajce.provider.rainbow.BCRainbowPrivateKey"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "BCRainbowPrivateKey"
+  }, {
+    "name" : "methodName",
+    "value" : "getVi"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "bcprov-jdk18on-1.72.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method void org.bouncycastle.pqc.jcajce.provider.rainbow.BCRainbowPublicKey::<init>(int, short[][], short[][], short[])",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.bouncycastle.pqc.jcajce.provider.rainbow"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.bouncycastle.pqc.jcajce.provider.rainbow.BCRainbowPublicKey"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "BCRainbowPublicKey"
+  }, {
+    "name" : "methodName",
+    "value" : "<init>"
+  }, {
+    "name" : "elementKind",
+    "value" : "constructor"
+  }, {
+    "name" : "oldArchive",
+    "value" : "bcprov-jdk18on-1.72.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.exception.checkedAdded",
+  "old" : "method void org.bouncycastle.pqc.jcajce.provider.rainbow.BCRainbowPublicKey::<init>(org.bouncycastle.pqc.jcajce.spec.RainbowPublicKeySpec)",
+  "new" : "method void org.bouncycastle.pqc.jcajce.provider.rainbow.BCRainbowPublicKey::<init>(org.bouncycastle.asn1.x509.SubjectPublicKeyInfo) throws java.io.IOException",
+  "name" : "Method newly throws checked exceptions",
+  "description" : "Method newly throws checked exceptions: java.io.IOException.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "exception",
+    "value" : "java.io.IOException"
+  }, {
+    "name" : "package",
+    "value" : "org.bouncycastle.pqc.jcajce.provider.rainbow"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.bouncycastle.pqc.jcajce.provider.rainbow.BCRainbowPublicKey"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "BCRainbowPublicKey"
+  }, {
+    "name" : "methodName",
+    "value" : "<init>"
+  }, {
+    "name" : "elementKind",
+    "value" : "constructor"
+  }, {
+    "name" : "oldArchive",
+    "value" : "bcprov-jdk18on-1.72.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "bcprov-jdk18on-1.74.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.parameterTypeChanged",
+  "old" : "parameter void org.bouncycastle.pqc.jcajce.provider.rainbow.BCRainbowPublicKey::<init>(===org.bouncycastle.pqc.jcajce.spec.RainbowPublicKeySpec===)",
+  "new" : "parameter void org.bouncycastle.pqc.jcajce.provider.rainbow.BCRainbowPublicKey::<init>(===org.bouncycastle.asn1.x509.SubjectPublicKeyInfo===) throws java.io.IOException",
+  "name" : "parameter type changed",
+  "description" : "The type of the parameter changed from 'org.bouncycastle.pqc.jcajce.spec.RainbowPublicKeySpec' to 'org.bouncycastle.asn1.x509.SubjectPublicKeyInfo'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "POTENTIALLY_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "org.bouncycastle.pqc.jcajce.spec.RainbowPublicKeySpec"
+  }, {
+    "name" : "newType",
+    "value" : "org.bouncycastle.asn1.x509.SubjectPublicKeyInfo"
+  }, {
+    "name" : "package",
+    "value" : "org.bouncycastle.pqc.jcajce.provider.rainbow"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.bouncycastle.pqc.jcajce.provider.rainbow.BCRainbowPublicKey"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "BCRainbowPublicKey"
+  }, {
+    "name" : "methodName",
+    "value" : "<init>"
+  }, {
+    "name" : "parameterIndex",
+    "value" : "0"
+  }, {
+    "name" : "elementKind",
+    "value" : "parameter"
+  }, {
+    "name" : "oldArchive",
+    "value" : "bcprov-jdk18on-1.72.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "bcprov-jdk18on-1.74.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.parameterTypeChanged",
+  "old" : "parameter void org.bouncycastle.pqc.jcajce.provider.rainbow.BCRainbowPublicKey::<init>(===org.bouncycastle.pqc.legacy.crypto.rainbow.RainbowPublicKeyParameters===)",
+  "new" : "parameter void org.bouncycastle.pqc.jcajce.provider.rainbow.BCRainbowPublicKey::<init>(===org.bouncycastle.pqc.crypto.rainbow.RainbowPublicKeyParameters===)",
+  "name" : "parameter type changed",
+  "description" : "The type of the parameter changed from 'org.bouncycastle.pqc.legacy.crypto.rainbow.RainbowPublicKeyParameters' to 'org.bouncycastle.pqc.crypto.rainbow.RainbowPublicKeyParameters'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "POTENTIALLY_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "org.bouncycastle.pqc.legacy.crypto.rainbow.RainbowPublicKeyParameters"
+  }, {
+    "name" : "newType",
+    "value" : "org.bouncycastle.pqc.crypto.rainbow.RainbowPublicKeyParameters"
+  }, {
+    "name" : "package",
+    "value" : "org.bouncycastle.pqc.jcajce.provider.rainbow"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.bouncycastle.pqc.jcajce.provider.rainbow.BCRainbowPublicKey"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "BCRainbowPublicKey"
+  }, {
+    "name" : "methodName",
+    "value" : "<init>"
+  }, {
+    "name" : "parameterIndex",
+    "value" : "0"
+  }, {
+    "name" : "elementKind",
+    "value" : "parameter"
+  }, {
+    "name" : "oldArchive",
+    "value" : "bcprov-jdk18on-1.72.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "bcprov-jdk18on-1.74.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method short[][] org.bouncycastle.pqc.jcajce.provider.rainbow.BCRainbowPublicKey::getCoeffQuadratic()",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.bouncycastle.pqc.jcajce.provider.rainbow"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.bouncycastle.pqc.jcajce.provider.rainbow.BCRainbowPublicKey"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "BCRainbowPublicKey"
+  }, {
+    "name" : "methodName",
+    "value" : "getCoeffQuadratic"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "bcprov-jdk18on-1.72.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method short[] org.bouncycastle.pqc.jcajce.provider.rainbow.BCRainbowPublicKey::getCoeffScalar()",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.bouncycastle.pqc.jcajce.provider.rainbow"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.bouncycastle.pqc.jcajce.provider.rainbow.BCRainbowPublicKey"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "BCRainbowPublicKey"
+  }, {
+    "name" : "methodName",
+    "value" : "getCoeffScalar"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "bcprov-jdk18on-1.72.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method short[][] org.bouncycastle.pqc.jcajce.provider.rainbow.BCRainbowPublicKey::getCoeffSingular()",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.bouncycastle.pqc.jcajce.provider.rainbow"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.bouncycastle.pqc.jcajce.provider.rainbow.BCRainbowPublicKey"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "BCRainbowPublicKey"
+  }, {
+    "name" : "methodName",
+    "value" : "getCoeffSingular"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "bcprov-jdk18on-1.72.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method int org.bouncycastle.pqc.jcajce.provider.rainbow.BCRainbowPublicKey::getDocLength()",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.bouncycastle.pqc.jcajce.provider.rainbow"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.bouncycastle.pqc.jcajce.provider.rainbow.BCRainbowPublicKey"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "BCRainbowPublicKey"
+  }, {
+    "name" : "methodName",
+    "value" : "getDocLength"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "bcprov-jdk18on-1.72.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class org.bouncycastle.pqc.jcajce.provider.rainbow.RainbowKeysToParams",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.bouncycastle.pqc.jcajce.provider.rainbow"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.bouncycastle.pqc.jcajce.provider.rainbow.RainbowKeysToParams"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "RainbowKeysToParams"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "bcprov-jdk18on-1.72.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class org.bouncycastle.pqc.jcajce.provider.rainbow.SignatureSpi.withSha224",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.bouncycastle.pqc.jcajce.provider.rainbow"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.bouncycastle.pqc.jcajce.provider.rainbow.SignatureSpi.withSha224"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "withSha224"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "bcprov-jdk18on-1.72.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class org.bouncycastle.pqc.jcajce.provider.rainbow.SignatureSpi.withSha256",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.bouncycastle.pqc.jcajce.provider.rainbow"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.bouncycastle.pqc.jcajce.provider.rainbow.SignatureSpi.withSha256"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "withSha256"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "bcprov-jdk18on-1.72.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class org.bouncycastle.pqc.jcajce.provider.rainbow.SignatureSpi.withSha384",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.bouncycastle.pqc.jcajce.provider.rainbow"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.bouncycastle.pqc.jcajce.provider.rainbow.SignatureSpi.withSha384"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "withSha384"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "bcprov-jdk18on-1.72.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class org.bouncycastle.pqc.jcajce.provider.rainbow.SignatureSpi.withSha512",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.bouncycastle.pqc.jcajce.provider.rainbow"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.bouncycastle.pqc.jcajce.provider.rainbow.SignatureSpi.withSha512"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "withSha512"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "bcprov-jdk18on-1.72.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.numberOfParametersChanged",
+  "old" : "method void org.bouncycastle.pqc.jcajce.provider.rainbow.SignatureSpi::<init>(org.bouncycastle.crypto.Digest, org.bouncycastle.pqc.legacy.crypto.rainbow.RainbowSigner)",
+  "new" : "method void org.bouncycastle.pqc.jcajce.provider.rainbow.SignatureSpi::<init>(org.bouncycastle.pqc.crypto.rainbow.RainbowSigner)",
+  "name" : "number of parameters changed",
+  "description" : "The number of parameters of the method have changed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.bouncycastle.pqc.jcajce.provider.rainbow"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.bouncycastle.pqc.jcajce.provider.rainbow.SignatureSpi"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "SignatureSpi"
+  }, {
+    "name" : "methodName",
+    "value" : "<init>"
+  }, {
+    "name" : "elementKind",
+    "value" : "constructor"
+  }, {
+    "name" : "oldArchive",
+    "value" : "bcprov-jdk18on-1.72.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "bcprov-jdk18on-1.74.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class org.bouncycastle.pqc.jcajce.provider.sike.BCSIKEPrivateKey",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.bouncycastle.pqc.jcajce.provider.sike"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.bouncycastle.pqc.jcajce.provider.sike.BCSIKEPrivateKey"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "BCSIKEPrivateKey"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "bcprov-jdk18on-1.72.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class org.bouncycastle.pqc.jcajce.provider.sike.BCSIKEPublicKey",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.bouncycastle.pqc.jcajce.provider.sike"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.bouncycastle.pqc.jcajce.provider.sike.BCSIKEPublicKey"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "BCSIKEPublicKey"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "bcprov-jdk18on-1.72.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class org.bouncycastle.pqc.jcajce.provider.sike.SIKEKeyFactorySpi",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.bouncycastle.pqc.jcajce.provider.sike"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.bouncycastle.pqc.jcajce.provider.sike.SIKEKeyFactorySpi"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "SIKEKeyFactorySpi"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "bcprov-jdk18on-1.72.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class org.bouncycastle.pqc.jcajce.provider.sike.SIKEKeyGeneratorSpi",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.bouncycastle.pqc.jcajce.provider.sike"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.bouncycastle.pqc.jcajce.provider.sike.SIKEKeyGeneratorSpi"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "SIKEKeyGeneratorSpi"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "bcprov-jdk18on-1.72.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class org.bouncycastle.pqc.jcajce.provider.sike.SIKEKeyPairGeneratorSpi",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.bouncycastle.pqc.jcajce.provider.sike"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.bouncycastle.pqc.jcajce.provider.sike.SIKEKeyPairGeneratorSpi"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "SIKEKeyPairGeneratorSpi"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "bcprov-jdk18on-1.72.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method void org.bouncycastle.pqc.jcajce.spec.RainbowParameterSpec::<init>(int[])",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.bouncycastle.pqc.jcajce.spec"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.bouncycastle.pqc.jcajce.spec.RainbowParameterSpec"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "RainbowParameterSpec"
+  }, {
+    "name" : "methodName",
+    "value" : "<init>"
+  }, {
+    "name" : "elementKind",
+    "value" : "constructor"
+  }, {
+    "name" : "oldArchive",
+    "value" : "bcprov-jdk18on-1.72.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.visibilityReduced",
+  "old" : "method void org.bouncycastle.pqc.jcajce.spec.RainbowParameterSpec::<init>()",
+  "new" : "method void org.bouncycastle.pqc.jcajce.spec.RainbowParameterSpec::<init>(org.bouncycastle.pqc.crypto.rainbow.RainbowParameters)",
+  "name" : "visibility reduced",
+  "description" : "visibility reduced",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldVisibility",
+    "value" : "public"
+  }, {
+    "name" : "newVisibility",
+    "value" : "private"
+  }, {
+    "name" : "package",
+    "value" : "org.bouncycastle.pqc.jcajce.spec"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.bouncycastle.pqc.jcajce.spec.RainbowParameterSpec"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "RainbowParameterSpec"
+  }, {
+    "name" : "methodName",
+    "value" : "<init>"
+  }, {
+    "name" : "elementKind",
+    "value" : "constructor"
+  }, {
+    "name" : "oldArchive",
+    "value" : "bcprov-jdk18on-1.72.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "bcprov-jdk18on-1.74.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method int org.bouncycastle.pqc.jcajce.spec.RainbowParameterSpec::getDocumentLength()",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.bouncycastle.pqc.jcajce.spec"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.bouncycastle.pqc.jcajce.spec.RainbowParameterSpec"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "RainbowParameterSpec"
+  }, {
+    "name" : "methodName",
+    "value" : "getDocumentLength"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "bcprov-jdk18on-1.72.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method int org.bouncycastle.pqc.jcajce.spec.RainbowParameterSpec::getNumOfLayers()",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.bouncycastle.pqc.jcajce.spec"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.bouncycastle.pqc.jcajce.spec.RainbowParameterSpec"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "RainbowParameterSpec"
+  }, {
+    "name" : "methodName",
+    "value" : "getNumOfLayers"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "bcprov-jdk18on-1.72.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method int[] org.bouncycastle.pqc.jcajce.spec.RainbowParameterSpec::getVi()",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.bouncycastle.pqc.jcajce.spec"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.bouncycastle.pqc.jcajce.spec.RainbowParameterSpec"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "RainbowParameterSpec"
+  }, {
+    "name" : "methodName",
+    "value" : "getVi"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "bcprov-jdk18on-1.72.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class org.bouncycastle.pqc.jcajce.spec.RainbowPrivateKeySpec",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.bouncycastle.pqc.jcajce.spec"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.bouncycastle.pqc.jcajce.spec.RainbowPrivateKeySpec"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "RainbowPrivateKeySpec"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "bcprov-jdk18on-1.72.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class org.bouncycastle.pqc.jcajce.spec.RainbowPublicKeySpec",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.bouncycastle.pqc.jcajce.spec"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.bouncycastle.pqc.jcajce.spec.RainbowPublicKeySpec"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "RainbowPublicKeySpec"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "bcprov-jdk18on-1.72.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class org.bouncycastle.pqc.jcajce.spec.SIKEParameterSpec",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.bouncycastle.pqc.jcajce.spec"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.bouncycastle.pqc.jcajce.spec.SIKEParameterSpec"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "SIKEParameterSpec"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "bcprov-jdk18on-1.72.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class org.bouncycastle.pqc.math.linearalgebra.GF2Matrix",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.bouncycastle.pqc.math.linearalgebra"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.bouncycastle.pqc.math.linearalgebra.GF2Matrix"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "GF2Matrix"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "bcprov-jdk18on-1.72.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class org.bouncycastle.pqc.math.linearalgebra.GF2Polynomial",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.bouncycastle.pqc.math.linearalgebra"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.bouncycastle.pqc.math.linearalgebra.GF2Polynomial"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "GF2Polynomial"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "bcprov-jdk18on-1.72.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class org.bouncycastle.pqc.math.linearalgebra.GF2Vector",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.bouncycastle.pqc.math.linearalgebra"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.bouncycastle.pqc.math.linearalgebra.GF2Vector"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "GF2Vector"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "bcprov-jdk18on-1.72.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class org.bouncycastle.pqc.math.linearalgebra.GF2mField",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.bouncycastle.pqc.math.linearalgebra"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.bouncycastle.pqc.math.linearalgebra.GF2mField"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "GF2mField"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "bcprov-jdk18on-1.72.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class org.bouncycastle.pqc.math.linearalgebra.GF2mMatrix",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.bouncycastle.pqc.math.linearalgebra"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.bouncycastle.pqc.math.linearalgebra.GF2mMatrix"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "GF2mMatrix"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "bcprov-jdk18on-1.72.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class org.bouncycastle.pqc.math.linearalgebra.GF2mVector",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.bouncycastle.pqc.math.linearalgebra"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.bouncycastle.pqc.math.linearalgebra.GF2mVector"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "GF2mVector"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "bcprov-jdk18on-1.72.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class org.bouncycastle.pqc.math.linearalgebra.GF2nElement",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.bouncycastle.pqc.math.linearalgebra"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.bouncycastle.pqc.math.linearalgebra.GF2nElement"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "GF2nElement"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "bcprov-jdk18on-1.72.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class org.bouncycastle.pqc.math.linearalgebra.GF2nField",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.bouncycastle.pqc.math.linearalgebra"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.bouncycastle.pqc.math.linearalgebra.GF2nField"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "GF2nField"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "bcprov-jdk18on-1.72.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class org.bouncycastle.pqc.math.linearalgebra.GF2nONBElement",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.bouncycastle.pqc.math.linearalgebra"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.bouncycastle.pqc.math.linearalgebra.GF2nONBElement"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "GF2nONBElement"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "bcprov-jdk18on-1.72.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class org.bouncycastle.pqc.math.linearalgebra.GF2nONBField",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.bouncycastle.pqc.math.linearalgebra"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.bouncycastle.pqc.math.linearalgebra.GF2nONBField"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "GF2nONBField"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "bcprov-jdk18on-1.72.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class org.bouncycastle.pqc.math.linearalgebra.GF2nPolynomial",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.bouncycastle.pqc.math.linearalgebra"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.bouncycastle.pqc.math.linearalgebra.GF2nPolynomial"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "GF2nPolynomial"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "bcprov-jdk18on-1.72.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class org.bouncycastle.pqc.math.linearalgebra.GF2nPolynomialElement",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.bouncycastle.pqc.math.linearalgebra"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.bouncycastle.pqc.math.linearalgebra.GF2nPolynomialElement"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "GF2nPolynomialElement"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "bcprov-jdk18on-1.72.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class org.bouncycastle.pqc.math.linearalgebra.GF2nPolynomialField",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.bouncycastle.pqc.math.linearalgebra"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.bouncycastle.pqc.math.linearalgebra.GF2nPolynomialField"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "GF2nPolynomialField"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "bcprov-jdk18on-1.72.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "interface org.bouncycastle.pqc.math.linearalgebra.GFElement",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.bouncycastle.pqc.math.linearalgebra"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.bouncycastle.pqc.math.linearalgebra.GFElement"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "GFElement"
+  }, {
+    "name" : "elementKind",
+    "value" : "interface"
+  }, {
+    "name" : "oldArchive",
+    "value" : "bcprov-jdk18on-1.72.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class org.bouncycastle.pqc.math.linearalgebra.GoppaCode",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.bouncycastle.pqc.math.linearalgebra"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.bouncycastle.pqc.math.linearalgebra.GoppaCode"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "GoppaCode"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "bcprov-jdk18on-1.72.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class org.bouncycastle.pqc.math.linearalgebra.IntUtils",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.bouncycastle.pqc.math.linearalgebra"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.bouncycastle.pqc.math.linearalgebra.IntUtils"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "IntUtils"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "bcprov-jdk18on-1.72.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class org.bouncycastle.pqc.math.linearalgebra.IntegerFunctions",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.bouncycastle.pqc.math.linearalgebra"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.bouncycastle.pqc.math.linearalgebra.IntegerFunctions"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "IntegerFunctions"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "bcprov-jdk18on-1.72.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class org.bouncycastle.pqc.math.linearalgebra.Matrix",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.bouncycastle.pqc.math.linearalgebra"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.bouncycastle.pqc.math.linearalgebra.Matrix"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "Matrix"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "bcprov-jdk18on-1.72.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class org.bouncycastle.pqc.math.linearalgebra.Permutation",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.bouncycastle.pqc.math.linearalgebra"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.bouncycastle.pqc.math.linearalgebra.Permutation"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "Permutation"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "bcprov-jdk18on-1.72.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class org.bouncycastle.pqc.math.linearalgebra.PolynomialGF2mSmallM",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.bouncycastle.pqc.math.linearalgebra"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.bouncycastle.pqc.math.linearalgebra.PolynomialGF2mSmallM"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "PolynomialGF2mSmallM"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "bcprov-jdk18on-1.72.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class org.bouncycastle.pqc.math.linearalgebra.PolynomialRingGF2",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.bouncycastle.pqc.math.linearalgebra"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.bouncycastle.pqc.math.linearalgebra.PolynomialRingGF2"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "PolynomialRingGF2"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "bcprov-jdk18on-1.72.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class org.bouncycastle.pqc.math.linearalgebra.PolynomialRingGF2m",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.bouncycastle.pqc.math.linearalgebra"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.bouncycastle.pqc.math.linearalgebra.PolynomialRingGF2m"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "PolynomialRingGF2m"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "bcprov-jdk18on-1.72.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class org.bouncycastle.pqc.math.linearalgebra.RandUtils",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.bouncycastle.pqc.math.linearalgebra"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.bouncycastle.pqc.math.linearalgebra.RandUtils"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "RandUtils"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "bcprov-jdk18on-1.72.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class org.bouncycastle.pqc.math.linearalgebra.Vector",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.bouncycastle.pqc.math.linearalgebra"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.bouncycastle.pqc.math.linearalgebra.Vector"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "Vector"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "bcprov-jdk18on-1.72.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.nonPublicPartOfAPI",
+  "old" : "class org.bouncycastle.x509.CertStatus",
+  "new" : "class org.bouncycastle.x509.CertStatus",
+  "name" : "non-public class in API",
+  "description" : "Class 'org.bouncycastle.x509.CertStatus' is indirectly included in the API (by the means of method return type for example) but the class is not accessible (neither public nor protected).",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SEMANTIC",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "classSimpleName",
+    "value" : "CertStatus"
+  }, {
+    "name" : "exampleUseChainInNewApi",
+    "value" : "org.bouncycastle.x509.CertStatus is used as parameter in method void org.bouncycastle.x509.CertPathValidatorUtilities::getCertStatus(java.util.Date, java.security.cert.X509CRL, java.lang.Object, org.bouncycastle.x509.CertStatus) throws org.bouncycastle.jce.provider.AnnotatedException @ org.bouncycastle.x509.PKIXCertPathReviewer (method void org.bouncycastle.x509.CertPathValidatorUtilities::getCertStatus(java.util.Date, java.security.cert.X509CRL, java.lang.Object, org.bouncycastle.x509.CertStatus) throws org.bouncycastle.jce.provider.AnnotatedException @ org.bouncycastle.x509.PKIXCertPathReviewer is part of the API)"
+  }, {
+    "name" : "package",
+    "value" : "org.bouncycastle.x509"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.bouncycastle.x509.CertStatus"
+  }, {
+    "name" : "exampleUseChainInOldApi",
+    "value" : "org.bouncycastle.x509.CertStatus is used as parameter in method void org.bouncycastle.x509.CertPathValidatorUtilities::getCertStatus(java.util.Date, java.security.cert.X509CRL, java.lang.Object, org.bouncycastle.x509.CertStatus) throws org.bouncycastle.jce.provider.AnnotatedException @ org.bouncycastle.x509.PKIXCertPathReviewer (method void org.bouncycastle.x509.CertPathValidatorUtilities::getCertStatus(java.util.Date, java.security.cert.X509CRL, java.lang.Object, org.bouncycastle.x509.CertStatus) throws org.bouncycastle.jce.provider.AnnotatedException @ org.bouncycastle.x509.PKIXCertPathReviewer is part of the API)"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "bcprov-jdk18on-1.72.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "bcprov-jdk18on-1.74.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+} ]

@@ -1,0 +1,1180 @@
+[ {
+  "code" : "java.method.parameterTypeChanged",
+  "old" : "parameter org.apache.maven.shared.dependency.graph.DependencyNode org.apache.maven.shared.dependency.graph.DependencyGraphBuilder::buildDependencyGraph(===org.apache.maven.project.MavenProject===, org.apache.maven.artifact.resolver.filter.ArtifactFilter) throws org.apache.maven.shared.dependency.graph.DependencyGraphBuilderException",
+  "new" : "parameter org.apache.maven.shared.dependency.graph.DependencyNode org.apache.maven.shared.dependency.graph.DependencyGraphBuilder::buildDependencyGraph(===org.apache.maven.project.ProjectBuildingRequest===, org.apache.maven.artifact.resolver.filter.ArtifactFilter) throws org.apache.maven.shared.dependency.graph.DependencyGraphBuilderException",
+  "name" : "parameter type changed",
+  "description" : "The type of the parameter changed from 'org.apache.maven.project.MavenProject' to 'org.apache.maven.project.ProjectBuildingRequest'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "POTENTIALLY_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "org.apache.maven.project.MavenProject"
+  }, {
+    "name" : "newType",
+    "value" : "org.apache.maven.project.ProjectBuildingRequest"
+  }, {
+    "name" : "package",
+    "value" : "org.apache.maven.shared.dependency.graph"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.maven.shared.dependency.graph.DependencyGraphBuilder"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "DependencyGraphBuilder"
+  }, {
+    "name" : "methodName",
+    "value" : "buildDependencyGraph"
+  }, {
+    "name" : "parameterIndex",
+    "value" : "0"
+  }, {
+    "name" : "elementKind",
+    "value" : "parameter"
+  }, {
+    "name" : "oldArchive",
+    "value" : "maven-dependency-tree-2.2.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "maven-dependency-tree-3.1.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.parameterTypeChanged",
+  "old" : "parameter org.apache.maven.shared.dependency.graph.DependencyNode org.apache.maven.shared.dependency.graph.DependencyGraphBuilder::buildDependencyGraph(===org.apache.maven.project.MavenProject===, org.apache.maven.artifact.resolver.filter.ArtifactFilter, java.util.Collection<org.apache.maven.project.MavenProject>) throws org.apache.maven.shared.dependency.graph.DependencyGraphBuilderException",
+  "new" : "parameter org.apache.maven.shared.dependency.graph.DependencyNode org.apache.maven.shared.dependency.graph.DependencyGraphBuilder::buildDependencyGraph(===org.apache.maven.project.ProjectBuildingRequest===, org.apache.maven.artifact.resolver.filter.ArtifactFilter, java.util.Collection<org.apache.maven.project.MavenProject>) throws org.apache.maven.shared.dependency.graph.DependencyGraphBuilderException",
+  "name" : "parameter type changed",
+  "description" : "The type of the parameter changed from 'org.apache.maven.project.MavenProject' to 'org.apache.maven.project.ProjectBuildingRequest'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "POTENTIALLY_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "org.apache.maven.project.MavenProject"
+  }, {
+    "name" : "newType",
+    "value" : "org.apache.maven.project.ProjectBuildingRequest"
+  }, {
+    "name" : "package",
+    "value" : "org.apache.maven.shared.dependency.graph"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.maven.shared.dependency.graph.DependencyGraphBuilder"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "DependencyGraphBuilder"
+  }, {
+    "name" : "methodName",
+    "value" : "buildDependencyGraph"
+  }, {
+    "name" : "parameterIndex",
+    "value" : "0"
+  }, {
+    "name" : "elementKind",
+    "value" : "parameter"
+  }, {
+    "name" : "oldArchive",
+    "value" : "maven-dependency-tree-2.2.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "maven-dependency-tree-3.1.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.addedToInterface",
+  "old" : null,
+  "new" : "method java.util.List<org.apache.maven.model.Exclusion> org.apache.maven.shared.dependency.graph.DependencyNode::getExclusions()",
+  "name" : "method added to interface",
+  "description" : "Method was added to an interface.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SEMANTIC",
+    "severity" : "POTENTIALLY_BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.apache.maven.shared.dependency.graph"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.maven.shared.dependency.graph.DependencyNode"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "DependencyNode"
+  }, {
+    "name" : "methodName",
+    "value" : "getExclusions"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "newArchive",
+    "value" : "maven-dependency-tree-3.1.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.addedToInterface",
+  "old" : null,
+  "new" : "method java.lang.Boolean org.apache.maven.shared.dependency.graph.DependencyNode::getOptional()",
+  "name" : "method added to interface",
+  "description" : "Method was added to an interface.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SEMANTIC",
+    "severity" : "POTENTIALLY_BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.apache.maven.shared.dependency.graph"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.maven.shared.dependency.graph.DependencyNode"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "DependencyNode"
+  }, {
+    "name" : "methodName",
+    "value" : "getOptional"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "newArchive",
+    "value" : "maven-dependency-tree-3.1.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.parameterTypeChanged",
+  "old" : "parameter org.apache.maven.shared.dependency.graph.DependencyNode org.apache.maven.shared.dependency.graph.internal.DefaultDependencyGraphBuilder::buildDependencyGraph(===org.apache.maven.project.MavenProject===, org.apache.maven.artifact.resolver.filter.ArtifactFilter) throws org.apache.maven.shared.dependency.graph.DependencyGraphBuilderException",
+  "new" : "parameter org.apache.maven.shared.dependency.graph.DependencyNode org.apache.maven.shared.dependency.graph.internal.DefaultDependencyGraphBuilder::buildDependencyGraph(===org.apache.maven.project.ProjectBuildingRequest===, org.apache.maven.artifact.resolver.filter.ArtifactFilter) throws org.apache.maven.shared.dependency.graph.DependencyGraphBuilderException",
+  "name" : "parameter type changed",
+  "description" : "The type of the parameter changed from 'org.apache.maven.project.MavenProject' to 'org.apache.maven.project.ProjectBuildingRequest'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "POTENTIALLY_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "org.apache.maven.project.MavenProject"
+  }, {
+    "name" : "newType",
+    "value" : "org.apache.maven.project.ProjectBuildingRequest"
+  }, {
+    "name" : "package",
+    "value" : "org.apache.maven.shared.dependency.graph.internal"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.maven.shared.dependency.graph.internal.DefaultDependencyGraphBuilder"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "DefaultDependencyGraphBuilder"
+  }, {
+    "name" : "methodName",
+    "value" : "buildDependencyGraph"
+  }, {
+    "name" : "parameterIndex",
+    "value" : "0"
+  }, {
+    "name" : "elementKind",
+    "value" : "parameter"
+  }, {
+    "name" : "oldArchive",
+    "value" : "maven-dependency-tree-2.2.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "maven-dependency-tree-3.1.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.parameterTypeChanged",
+  "old" : "parameter org.apache.maven.shared.dependency.graph.DependencyNode org.apache.maven.shared.dependency.graph.internal.DefaultDependencyGraphBuilder::buildDependencyGraph(===org.apache.maven.project.MavenProject===, org.apache.maven.artifact.resolver.filter.ArtifactFilter, java.util.Collection<org.apache.maven.project.MavenProject>) throws org.apache.maven.shared.dependency.graph.DependencyGraphBuilderException",
+  "new" : "parameter org.apache.maven.shared.dependency.graph.DependencyNode org.apache.maven.shared.dependency.graph.DependencyGraphBuilder::buildDependencyGraph(===org.apache.maven.project.ProjectBuildingRequest===, org.apache.maven.artifact.resolver.filter.ArtifactFilter, java.util.Collection<org.apache.maven.project.MavenProject>) throws org.apache.maven.shared.dependency.graph.DependencyGraphBuilderException @ org.apache.maven.shared.dependency.graph.internal.DefaultDependencyGraphBuilder",
+  "name" : "parameter type changed",
+  "description" : "The type of the parameter changed from 'org.apache.maven.project.MavenProject' to 'org.apache.maven.project.ProjectBuildingRequest'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "POTENTIALLY_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "org.apache.maven.project.MavenProject"
+  }, {
+    "name" : "newType",
+    "value" : "org.apache.maven.project.ProjectBuildingRequest"
+  }, {
+    "name" : "package",
+    "value" : "org.apache.maven.shared.dependency.graph.internal"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.maven.shared.dependency.graph.internal.DefaultDependencyGraphBuilder"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "DefaultDependencyGraphBuilder"
+  }, {
+    "name" : "methodName",
+    "value" : "buildDependencyGraph"
+  }, {
+    "name" : "parameterIndex",
+    "value" : "0"
+  }, {
+    "name" : "elementKind",
+    "value" : "parameter"
+  }, {
+    "name" : "oldArchive",
+    "value" : "maven-dependency-tree-2.2.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "maven-dependency-tree-3.1.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method boolean org.apache.maven.shared.dependency.graph.internal.DefaultDependencyGraphBuilder::isMaven2x()",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.apache.maven.shared.dependency.graph.internal"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.maven.shared.dependency.graph.internal.DefaultDependencyGraphBuilder"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "DefaultDependencyGraphBuilder"
+  }, {
+    "name" : "methodName",
+    "value" : "isMaven2x"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "maven-dependency-tree-2.2.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class org.apache.maven.shared.dependency.graph.internal.Maven2DependencyGraphBuilder",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.apache.maven.shared.dependency.graph.internal"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.maven.shared.dependency.graph.internal.Maven2DependencyGraphBuilder"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "Maven2DependencyGraphBuilder"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "maven-dependency-tree-2.2.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.parameterTypeChanged",
+  "old" : "parameter org.apache.maven.shared.dependency.graph.DependencyNode org.apache.maven.shared.dependency.graph.internal.Maven31DependencyGraphBuilder::buildDependencyGraph(===org.apache.maven.project.MavenProject===, org.apache.maven.artifact.resolver.filter.ArtifactFilter) throws org.apache.maven.shared.dependency.graph.DependencyGraphBuilderException",
+  "new" : "parameter org.apache.maven.shared.dependency.graph.DependencyNode org.apache.maven.shared.dependency.graph.internal.Maven31DependencyGraphBuilder::buildDependencyGraph(===org.apache.maven.project.ProjectBuildingRequest===, org.apache.maven.artifact.resolver.filter.ArtifactFilter) throws org.apache.maven.shared.dependency.graph.DependencyGraphBuilderException",
+  "name" : "parameter type changed",
+  "description" : "The type of the parameter changed from 'org.apache.maven.project.MavenProject' to 'org.apache.maven.project.ProjectBuildingRequest'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "POTENTIALLY_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "org.apache.maven.project.MavenProject"
+  }, {
+    "name" : "newType",
+    "value" : "org.apache.maven.project.ProjectBuildingRequest"
+  }, {
+    "name" : "package",
+    "value" : "org.apache.maven.shared.dependency.graph.internal"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.maven.shared.dependency.graph.internal.Maven31DependencyGraphBuilder"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "Maven31DependencyGraphBuilder"
+  }, {
+    "name" : "methodName",
+    "value" : "buildDependencyGraph"
+  }, {
+    "name" : "parameterIndex",
+    "value" : "0"
+  }, {
+    "name" : "elementKind",
+    "value" : "parameter"
+  }, {
+    "name" : "oldArchive",
+    "value" : "maven-dependency-tree-2.2.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "maven-dependency-tree-3.1.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.parameterTypeChanged",
+  "old" : "parameter org.apache.maven.shared.dependency.graph.DependencyNode org.apache.maven.shared.dependency.graph.internal.Maven31DependencyGraphBuilder::buildDependencyGraph(===org.apache.maven.project.MavenProject===, org.apache.maven.artifact.resolver.filter.ArtifactFilter, java.util.Collection<org.apache.maven.project.MavenProject>) throws org.apache.maven.shared.dependency.graph.DependencyGraphBuilderException",
+  "new" : "parameter org.apache.maven.shared.dependency.graph.DependencyNode org.apache.maven.shared.dependency.graph.DependencyGraphBuilder::buildDependencyGraph(===org.apache.maven.project.ProjectBuildingRequest===, org.apache.maven.artifact.resolver.filter.ArtifactFilter, java.util.Collection<org.apache.maven.project.MavenProject>) throws org.apache.maven.shared.dependency.graph.DependencyGraphBuilderException @ org.apache.maven.shared.dependency.graph.internal.Maven31DependencyGraphBuilder",
+  "name" : "parameter type changed",
+  "description" : "The type of the parameter changed from 'org.apache.maven.project.MavenProject' to 'org.apache.maven.project.ProjectBuildingRequest'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "POTENTIALLY_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "org.apache.maven.project.MavenProject"
+  }, {
+    "name" : "newType",
+    "value" : "org.apache.maven.project.ProjectBuildingRequest"
+  }, {
+    "name" : "package",
+    "value" : "org.apache.maven.shared.dependency.graph.internal"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.maven.shared.dependency.graph.internal.Maven31DependencyGraphBuilder"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "Maven31DependencyGraphBuilder"
+  }, {
+    "name" : "methodName",
+    "value" : "buildDependencyGraph"
+  }, {
+    "name" : "parameterIndex",
+    "value" : "0"
+  }, {
+    "name" : "elementKind",
+    "value" : "parameter"
+  }, {
+    "name" : "oldArchive",
+    "value" : "maven-dependency-tree-2.2.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "maven-dependency-tree-3.1.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.parameterTypeChanged",
+  "old" : "parameter org.apache.maven.shared.dependency.graph.DependencyNode org.apache.maven.shared.dependency.graph.internal.Maven3DependencyGraphBuilder::buildDependencyGraph(===org.apache.maven.project.MavenProject===, org.apache.maven.artifact.resolver.filter.ArtifactFilter) throws org.apache.maven.shared.dependency.graph.DependencyGraphBuilderException",
+  "new" : "parameter org.apache.maven.shared.dependency.graph.DependencyNode org.apache.maven.shared.dependency.graph.internal.Maven3DependencyGraphBuilder::buildDependencyGraph(===org.apache.maven.project.ProjectBuildingRequest===, org.apache.maven.artifact.resolver.filter.ArtifactFilter) throws org.apache.maven.shared.dependency.graph.DependencyGraphBuilderException",
+  "name" : "parameter type changed",
+  "description" : "The type of the parameter changed from 'org.apache.maven.project.MavenProject' to 'org.apache.maven.project.ProjectBuildingRequest'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "POTENTIALLY_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "org.apache.maven.project.MavenProject"
+  }, {
+    "name" : "newType",
+    "value" : "org.apache.maven.project.ProjectBuildingRequest"
+  }, {
+    "name" : "package",
+    "value" : "org.apache.maven.shared.dependency.graph.internal"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.maven.shared.dependency.graph.internal.Maven3DependencyGraphBuilder"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "Maven3DependencyGraphBuilder"
+  }, {
+    "name" : "methodName",
+    "value" : "buildDependencyGraph"
+  }, {
+    "name" : "parameterIndex",
+    "value" : "0"
+  }, {
+    "name" : "elementKind",
+    "value" : "parameter"
+  }, {
+    "name" : "oldArchive",
+    "value" : "maven-dependency-tree-2.2.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "maven-dependency-tree-3.1.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.parameterTypeChanged",
+  "old" : "parameter org.apache.maven.shared.dependency.graph.DependencyNode org.apache.maven.shared.dependency.graph.internal.Maven3DependencyGraphBuilder::buildDependencyGraph(===org.apache.maven.project.MavenProject===, org.apache.maven.artifact.resolver.filter.ArtifactFilter, java.util.Collection<org.apache.maven.project.MavenProject>) throws org.apache.maven.shared.dependency.graph.DependencyGraphBuilderException",
+  "new" : "parameter org.apache.maven.shared.dependency.graph.DependencyNode org.apache.maven.shared.dependency.graph.DependencyGraphBuilder::buildDependencyGraph(===org.apache.maven.project.ProjectBuildingRequest===, org.apache.maven.artifact.resolver.filter.ArtifactFilter, java.util.Collection<org.apache.maven.project.MavenProject>) throws org.apache.maven.shared.dependency.graph.DependencyGraphBuilderException @ org.apache.maven.shared.dependency.graph.internal.Maven3DependencyGraphBuilder",
+  "name" : "parameter type changed",
+  "description" : "The type of the parameter changed from 'org.apache.maven.project.MavenProject' to 'org.apache.maven.project.ProjectBuildingRequest'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "POTENTIALLY_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "org.apache.maven.project.MavenProject"
+  }, {
+    "name" : "newType",
+    "value" : "org.apache.maven.project.ProjectBuildingRequest"
+  }, {
+    "name" : "package",
+    "value" : "org.apache.maven.shared.dependency.graph.internal"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.maven.shared.dependency.graph.internal.Maven3DependencyGraphBuilder"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "Maven3DependencyGraphBuilder"
+  }, {
+    "name" : "methodName",
+    "value" : "buildDependencyGraph"
+  }, {
+    "name" : "parameterIndex",
+    "value" : "0"
+  }, {
+    "name" : "elementKind",
+    "value" : "parameter"
+  }, {
+    "name" : "oldArchive",
+    "value" : "maven-dependency-tree-2.2.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "maven-dependency-tree-3.1.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class org.apache.maven.shared.dependency.tree.DefaultDependencyTreeBuilder",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.apache.maven.shared.dependency.tree"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.maven.shared.dependency.tree.DefaultDependencyTreeBuilder"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "DefaultDependencyTreeBuilder"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "maven-dependency-tree-2.2.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class org.apache.maven.shared.dependency.tree.DependencyNode",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.apache.maven.shared.dependency.tree"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.maven.shared.dependency.tree.DependencyNode"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "DependencyNode"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "maven-dependency-tree-2.2.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class org.apache.maven.shared.dependency.tree.DependencyTree",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.apache.maven.shared.dependency.tree"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.maven.shared.dependency.tree.DependencyTree"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "DependencyTree"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "maven-dependency-tree-2.2.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "interface org.apache.maven.shared.dependency.tree.DependencyTreeBuilder",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.apache.maven.shared.dependency.tree"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.maven.shared.dependency.tree.DependencyTreeBuilder"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "DependencyTreeBuilder"
+  }, {
+    "name" : "elementKind",
+    "value" : "interface"
+  }, {
+    "name" : "oldArchive",
+    "value" : "maven-dependency-tree-2.2.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class org.apache.maven.shared.dependency.tree.DependencyTreeBuilderException",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.apache.maven.shared.dependency.tree"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.maven.shared.dependency.tree.DependencyTreeBuilderException"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "DependencyTreeBuilderException"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "maven-dependency-tree-2.2.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class org.apache.maven.shared.dependency.tree.DependencyTreeInverseIterator",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.apache.maven.shared.dependency.tree"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.maven.shared.dependency.tree.DependencyTreeInverseIterator"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "DependencyTreeInverseIterator"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "maven-dependency-tree-2.2.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class org.apache.maven.shared.dependency.tree.DependencyTreePreorderIterator",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.apache.maven.shared.dependency.tree"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.maven.shared.dependency.tree.DependencyTreePreorderIterator"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "DependencyTreePreorderIterator"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "maven-dependency-tree-2.2.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class org.apache.maven.shared.dependency.tree.DependencyTreeResolutionListener",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.apache.maven.shared.dependency.tree"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.maven.shared.dependency.tree.DependencyTreeResolutionListener"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "DependencyTreeResolutionListener"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "maven-dependency-tree-2.2.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class org.apache.maven.shared.dependency.tree.filter.AncestorOrSelfDependencyNodeFilter",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.apache.maven.shared.dependency.tree.filter"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.maven.shared.dependency.tree.filter.AncestorOrSelfDependencyNodeFilter"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "AncestorOrSelfDependencyNodeFilter"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "maven-dependency-tree-2.2.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class org.apache.maven.shared.dependency.tree.filter.AndDependencyNodeFilter",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.apache.maven.shared.dependency.tree.filter"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.maven.shared.dependency.tree.filter.AndDependencyNodeFilter"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "AndDependencyNodeFilter"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "maven-dependency-tree-2.2.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class org.apache.maven.shared.dependency.tree.filter.ArtifactDependencyNodeFilter",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.apache.maven.shared.dependency.tree.filter"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.maven.shared.dependency.tree.filter.ArtifactDependencyNodeFilter"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "ArtifactDependencyNodeFilter"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "maven-dependency-tree-2.2.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "interface org.apache.maven.shared.dependency.tree.filter.DependencyNodeFilter",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.apache.maven.shared.dependency.tree.filter"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.maven.shared.dependency.tree.filter.DependencyNodeFilter"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "DependencyNodeFilter"
+  }, {
+    "name" : "elementKind",
+    "value" : "interface"
+  }, {
+    "name" : "oldArchive",
+    "value" : "maven-dependency-tree-2.2.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class org.apache.maven.shared.dependency.tree.filter.StateDependencyNodeFilter",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.apache.maven.shared.dependency.tree.filter"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.maven.shared.dependency.tree.filter.StateDependencyNodeFilter"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "StateDependencyNodeFilter"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "maven-dependency-tree-2.2.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class org.apache.maven.shared.dependency.tree.traversal.BuildingDependencyNodeVisitor",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.apache.maven.shared.dependency.tree.traversal"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.maven.shared.dependency.tree.traversal.BuildingDependencyNodeVisitor"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "BuildingDependencyNodeVisitor"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "maven-dependency-tree-2.2.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class org.apache.maven.shared.dependency.tree.traversal.CollectingDependencyNodeVisitor",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.apache.maven.shared.dependency.tree.traversal"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.maven.shared.dependency.tree.traversal.CollectingDependencyNodeVisitor"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "CollectingDependencyNodeVisitor"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "maven-dependency-tree-2.2.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "interface org.apache.maven.shared.dependency.tree.traversal.DependencyNodeVisitor",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.apache.maven.shared.dependency.tree.traversal"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.maven.shared.dependency.tree.traversal.DependencyNodeVisitor"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "DependencyNodeVisitor"
+  }, {
+    "name" : "elementKind",
+    "value" : "interface"
+  }, {
+    "name" : "oldArchive",
+    "value" : "maven-dependency-tree-2.2.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class org.apache.maven.shared.dependency.tree.traversal.FilteringDependencyNodeVisitor",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.apache.maven.shared.dependency.tree.traversal"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.maven.shared.dependency.tree.traversal.FilteringDependencyNodeVisitor"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "FilteringDependencyNodeVisitor"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "maven-dependency-tree-2.2.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class org.apache.maven.shared.dependency.tree.traversal.SerializingDependencyNodeVisitor",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.apache.maven.shared.dependency.tree.traversal"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.maven.shared.dependency.tree.traversal.SerializingDependencyNodeVisitor"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "SerializingDependencyNodeVisitor"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "maven-dependency-tree-2.2.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+} ]

@@ -1,0 +1,832 @@
+[ {
+  "code" : "java.method.returnTypeTypeParametersChanged",
+  "old" : "method java.lang.Class<? extends javax.inject.Provider<?>> com.google.inject.ProvidedBy::value()",
+  "new" : "method java.lang.Class<? extends jakarta.inject.Provider<?>> com.google.inject.ProvidedBy::value()",
+  "name" : "return type changed type parameter",
+  "description" : "The return type changed from 'java.lang.Class<? extends javax.inject.Provider<?>>' to 'java.lang.Class<? extends jakarta.inject.Provider<?>>'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "java.lang.Class<? extends javax.inject.Provider<?>>"
+  }, {
+    "name" : "newType",
+    "value" : "java.lang.Class<? extends jakarta.inject.Provider<?>>"
+  }, {
+    "name" : "package",
+    "value" : "com.google.inject"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.google.inject.ProvidedBy"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "ProvidedBy"
+  }, {
+    "name" : "methodName",
+    "value" : "value"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "guice-5.1.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "guice-7.0.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.noLongerImplementsInterface",
+  "old" : "interface com.google.inject.Provider<T>",
+  "new" : "interface com.google.inject.Provider<T>",
+  "name" : "class no longer implements interface",
+  "description" : "Class no longer implements interface 'javax.inject.Provider<T>'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "interface",
+    "value" : "javax.inject.Provider<T>"
+  }, {
+    "name" : "package",
+    "value" : "com.google.inject"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.google.inject.Provider"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "Provider"
+  }, {
+    "name" : "elementKind",
+    "value" : "interface"
+  }, {
+    "name" : "oldArchive",
+    "value" : "guice-5.1.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "guice-7.0.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.nowImplementsInterface",
+  "old" : "interface com.google.inject.Provider<T>",
+  "new" : "interface com.google.inject.Provider<T>",
+  "name" : "class implements interface",
+  "description" : "Class now implements interface 'jakarta.inject.Provider<T>'.",
+  "criticality" : "documented",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "interface",
+    "value" : "jakarta.inject.Provider<T>"
+  }, {
+    "name" : "package",
+    "value" : "com.google.inject"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.google.inject.Provider"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "Provider"
+  }, {
+    "name" : "elementKind",
+    "value" : "interface"
+  }, {
+    "name" : "oldArchive",
+    "value" : "guice-5.1.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "guice-7.0.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.parameterTypeChanged",
+  "old" : "parameter com.google.inject.binder.ScopedBindingBuilder com.google.inject.binder.LinkedBindingBuilder<T>::toProvider(===javax.inject.Provider<? extends T>===)",
+  "new" : "parameter com.google.inject.binder.ScopedBindingBuilder com.google.inject.binder.LinkedBindingBuilder<T>::toProvider(===jakarta.inject.Provider<? extends T>===)",
+  "name" : "parameter type changed",
+  "description" : "The type of the parameter changed from 'javax.inject.Provider<? extends T>' to 'jakarta.inject.Provider<? extends T>'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "POTENTIALLY_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "javax.inject.Provider<? extends T>"
+  }, {
+    "name" : "newType",
+    "value" : "jakarta.inject.Provider<? extends T>"
+  }, {
+    "name" : "package",
+    "value" : "com.google.inject.binder"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.google.inject.binder.LinkedBindingBuilder"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "LinkedBindingBuilder"
+  }, {
+    "name" : "methodName",
+    "value" : "toProvider"
+  }, {
+    "name" : "parameterIndex",
+    "value" : "0"
+  }, {
+    "name" : "elementKind",
+    "value" : "parameter"
+  }, {
+    "name" : "oldArchive",
+    "value" : "guice-5.1.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "guice-7.0.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.parameterTypeChanged",
+  "old" : "parameter com.google.inject.internal.BindingBuilder<T> com.google.inject.internal.BindingBuilder<T>::toProvider(===javax.inject.Provider<? extends T>===)",
+  "new" : "parameter com.google.inject.internal.BindingBuilder<T> com.google.inject.internal.BindingBuilder<T>::toProvider(===jakarta.inject.Provider<? extends T>===)",
+  "name" : "parameter type changed",
+  "description" : "The type of the parameter changed from 'javax.inject.Provider<? extends T>' to 'jakarta.inject.Provider<? extends T>'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "POTENTIALLY_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "javax.inject.Provider<? extends T>"
+  }, {
+    "name" : "newType",
+    "value" : "jakarta.inject.Provider<? extends T>"
+  }, {
+    "name" : "package",
+    "value" : "com.google.inject.internal"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.google.inject.internal.BindingBuilder"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "BindingBuilder"
+  }, {
+    "name" : "methodName",
+    "value" : "toProvider"
+  }, {
+    "name" : "parameterIndex",
+    "value" : "0"
+  }, {
+    "name" : "elementKind",
+    "value" : "parameter"
+  }, {
+    "name" : "oldArchive",
+    "value" : "guice-5.1.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "guice-7.0.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.defaultSerializationChanged",
+  "old" : "class com.google.inject.internal.Errors",
+  "new" : "class com.google.inject.internal.Errors",
+  "name" : "default serialization changed",
+  "description" : "The default serialization ID for the class has changed. This means that the new version of the class is not deserializable from the byte stream of a serialized old class.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "EQUIVALENT"
+  }, {
+    "compatibility" : "SEMANTIC",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "EQUIVALENT"
+  } ],
+  "attachments" : [ {
+    "name" : "oldSerialVersionUID",
+    "value" : "-5336596833172227946"
+  }, {
+    "name" : "newSerialVersionUID",
+    "value" : "-8808575188537361892"
+  }, {
+    "name" : "package",
+    "value" : "com.google.inject.internal"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.google.inject.internal.Errors"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "Errors"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "guice-5.1.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "guice-7.0.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.nonPublicPartOfAPI",
+  "old" : "class com.google.inject.internal.InjectorImpl",
+  "new" : "class com.google.inject.internal.InjectorImpl",
+  "name" : "non-public class in API",
+  "description" : "Class 'com.google.inject.internal.InjectorImpl' is indirectly included in the API (by the means of method return type for example) but the class is not accessible (neither public nor protected).",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SEMANTIC",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "classSimpleName",
+    "value" : "InjectorImpl"
+  }, {
+    "name" : "exampleUseChainInNewApi",
+    "value" : "com.google.inject.internal.InjectorImpl is returned from method com.google.inject.internal.InjectorImpl com.google.inject.internal.BindingImpl<T>::getInjector() (method com.google.inject.internal.InjectorImpl com.google.inject.internal.BindingImpl<T>::getInjector() is part of the API)"
+  }, {
+    "name" : "package",
+    "value" : "com.google.inject.internal"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.google.inject.internal.InjectorImpl"
+  }, {
+    "name" : "exampleUseChainInOldApi",
+    "value" : "com.google.inject.internal.InjectorImpl is returned from method com.google.inject.internal.InjectorImpl com.google.inject.internal.BindingImpl<T>::getInjector() (method com.google.inject.internal.InjectorImpl com.google.inject.internal.BindingImpl<T>::getInjector() is part of the API)"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "guice-5.1.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "guice-7.0.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.nonPublicPartOfAPI",
+  "old" : "class com.google.inject.internal.InternalContext",
+  "new" : "class com.google.inject.internal.InternalContext",
+  "name" : "non-public class in API",
+  "description" : "Class 'com.google.inject.internal.InternalContext' is indirectly included in the API (by the means of method return type for example) but the class is not accessible (neither public nor protected).",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SEMANTIC",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "classSimpleName",
+    "value" : "InternalContext"
+  }, {
+    "name" : "exampleUseChainInNewApi",
+    "value" : "com.google.inject.internal.InternalContext is used as parameter in method T com.google.inject.internal.InternalFactory<T>::get(com.google.inject.internal.InternalContext, com.google.inject.spi.Dependency<?>, boolean) throws com.google.inject.internal.InternalProvisionException <- com.google.inject.internal.InternalFactory<T> is returned from method com.google.inject.internal.InternalFactory<? extends T> com.google.inject.internal.BindingImpl<T>::getInternalFactory() (method com.google.inject.internal.InternalFactory<? extends T> com.google.inject.internal.BindingImpl<T>::getInternalFactory() is part of the API)"
+  }, {
+    "name" : "package",
+    "value" : "com.google.inject.internal"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.google.inject.internal.InternalContext"
+  }, {
+    "name" : "exampleUseChainInOldApi",
+    "value" : "com.google.inject.internal.InternalContext is used as parameter in method T com.google.inject.internal.ProviderMethod<T>::doProvision(com.google.inject.internal.InternalContext, com.google.inject.spi.Dependency<?>) throws com.google.inject.internal.InternalProvisionException (method T com.google.inject.internal.ProviderMethod<T>::doProvision(com.google.inject.internal.InternalContext, com.google.inject.spi.Dependency<?>) throws com.google.inject.internal.InternalProvisionException is part of the API)"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "guice-5.1.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "guice-7.0.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.nonPublicPartOfAPI",
+  "old" : "interface com.google.inject.internal.InternalFactory<T>",
+  "new" : "interface com.google.inject.internal.InternalFactory<T>",
+  "name" : "non-public class in API",
+  "description" : "Class 'com.google.inject.internal.InternalFactory<T>' is indirectly included in the API (by the means of method return type for example) but the class is not accessible (neither public nor protected).",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SEMANTIC",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "classSimpleName",
+    "value" : "InternalFactory"
+  }, {
+    "name" : "exampleUseChainInNewApi",
+    "value" : "com.google.inject.internal.InternalFactory<T> is returned from method com.google.inject.internal.InternalFactory<? extends T> com.google.inject.internal.BindingImpl<T>::getInternalFactory() (method com.google.inject.internal.InternalFactory<? extends T> com.google.inject.internal.BindingImpl<T>::getInternalFactory() is part of the API)"
+  }, {
+    "name" : "package",
+    "value" : "com.google.inject.internal"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.google.inject.internal.InternalFactory"
+  }, {
+    "name" : "exampleUseChainInOldApi",
+    "value" : "com.google.inject.internal.InternalFactory<T> is returned from method com.google.inject.internal.InternalFactory<? extends T> com.google.inject.internal.BindingImpl<T>::getInternalFactory() (method com.google.inject.internal.InternalFactory<? extends T> com.google.inject.internal.BindingImpl<T>::getInternalFactory() is part of the API)"
+  }, {
+    "name" : "elementKind",
+    "value" : "interface"
+  }, {
+    "name" : "oldArchive",
+    "value" : "guice-5.1.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "guice-7.0.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.noLongerImplementsInterface",
+  "old" : "class com.google.inject.internal.ProviderMethod<T>",
+  "new" : "class com.google.inject.internal.ProviderMethod<T>",
+  "name" : "class no longer implements interface",
+  "description" : "Class no longer implements interface 'javax.inject.Provider<T>'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "interface",
+    "value" : "javax.inject.Provider<T>"
+  }, {
+    "name" : "package",
+    "value" : "com.google.inject.internal"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.google.inject.internal.ProviderMethod"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "ProviderMethod"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "guice-5.1.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "guice-7.0.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.noLongerImplementsInterface",
+  "old" : "class com.google.inject.internal.ProviderMethod<T>",
+  "new" : "class com.google.inject.internal.ProviderMethod<T>",
+  "name" : "class no longer implements interface",
+  "description" : "Class no longer implements interface 'javax.inject.Provider<T>'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "interface",
+    "value" : "javax.inject.Provider<T>"
+  }, {
+    "name" : "package",
+    "value" : "com.google.inject.internal"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.google.inject.internal.ProviderMethod"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "ProviderMethod"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "guice-5.1.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "guice-7.0.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method java.lang.StackTraceElement com.google.inject.internal.util.SourceProvider::get(java.lang.StackTraceElement[])",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.google.inject.internal.util"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.google.inject.internal.util.SourceProvider"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "SourceProvider"
+  }, {
+    "name" : "methodName",
+    "value" : "get"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "guice-5.1.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.returnTypeChanged",
+  "old" : "method javax.inject.Provider<? extends T> com.google.inject.spi.ProviderInstanceBinding<T>::getUserSuppliedProvider()",
+  "new" : "method jakarta.inject.Provider<? extends T> com.google.inject.spi.ProviderInstanceBinding<T>::getUserSuppliedProvider()",
+  "name" : "return type changed",
+  "description" : "The return type changed from 'javax.inject.Provider<? extends T>' to  'jakarta.inject.Provider<? extends T>'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "POTENTIALLY_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "javax.inject.Provider<? extends T>"
+  }, {
+    "name" : "newType",
+    "value" : "jakarta.inject.Provider<? extends T>"
+  }, {
+    "name" : "package",
+    "value" : "com.google.inject.spi"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.google.inject.spi.ProviderInstanceBinding"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "ProviderInstanceBinding"
+  }, {
+    "name" : "methodName",
+    "value" : "getUserSuppliedProvider"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "guice-5.1.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "guice-7.0.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.returnTypeTypeParametersChanged",
+  "old" : "method com.google.inject.Key<? extends javax.inject.Provider<? extends T>> com.google.inject.spi.ProviderKeyBinding<T>::getProviderKey()",
+  "new" : "method com.google.inject.Key<? extends jakarta.inject.Provider<? extends T>> com.google.inject.spi.ProviderKeyBinding<T>::getProviderKey()",
+  "name" : "return type changed type parameter",
+  "description" : "The return type changed from 'com.google.inject.Key<? extends javax.inject.Provider<? extends T>>' to 'com.google.inject.Key<? extends jakarta.inject.Provider<? extends T>>'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "com.google.inject.Key<? extends javax.inject.Provider<? extends T>>"
+  }, {
+    "name" : "newType",
+    "value" : "com.google.inject.Key<? extends jakarta.inject.Provider<? extends T>>"
+  }, {
+    "name" : "package",
+    "value" : "com.google.inject.spi"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.google.inject.spi.ProviderKeyBinding"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "ProviderKeyBinding"
+  }, {
+    "name" : "methodName",
+    "value" : "getProviderKey"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "guice-5.1.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "guice-7.0.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.noLongerImplementsInterface",
+  "old" : "interface com.google.inject.spi.ProviderWithDependencies<T>",
+  "new" : "interface com.google.inject.spi.ProviderWithDependencies<T>",
+  "name" : "class no longer implements interface",
+  "description" : "Class no longer implements interface 'javax.inject.Provider<T>'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "interface",
+    "value" : "javax.inject.Provider<T>"
+  }, {
+    "name" : "package",
+    "value" : "com.google.inject.spi"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.google.inject.spi.ProviderWithDependencies"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "ProviderWithDependencies"
+  }, {
+    "name" : "elementKind",
+    "value" : "interface"
+  }, {
+    "name" : "oldArchive",
+    "value" : "guice-5.1.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "guice-7.0.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.noLongerImplementsInterface",
+  "old" : "interface com.google.inject.spi.ProviderWithExtensionVisitor<T>",
+  "new" : "interface com.google.inject.spi.ProviderWithExtensionVisitor<T>",
+  "name" : "class no longer implements interface",
+  "description" : "Class no longer implements interface 'javax.inject.Provider<T>'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "interface",
+    "value" : "javax.inject.Provider<T>"
+  }, {
+    "name" : "package",
+    "value" : "com.google.inject.spi"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.google.inject.spi.ProviderWithExtensionVisitor"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "ProviderWithExtensionVisitor"
+  }, {
+    "name" : "elementKind",
+    "value" : "interface"
+  }, {
+    "name" : "oldArchive",
+    "value" : "guice-5.1.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "guice-7.0.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.parameterTypeChanged",
+  "old" : "parameter <T> com.google.inject.Provider<T> com.google.inject.util.Providers::guicify(===javax.inject.Provider<T>===)",
+  "new" : "parameter <T> com.google.inject.Provider<T> com.google.inject.util.Providers::guicify(===com.google.inject.Provider<T>===)",
+  "name" : "parameter type changed",
+  "description" : "The type of the parameter changed from 'javax.inject.Provider<T>' to 'com.google.inject.Provider<T>'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "POTENTIALLY_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "javax.inject.Provider<T>"
+  }, {
+    "name" : "newType",
+    "value" : "com.google.inject.Provider<T>"
+  }, {
+    "name" : "package",
+    "value" : "com.google.inject.util"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.google.inject.util.Providers"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "Providers"
+  }, {
+    "name" : "methodName",
+    "value" : "guicify"
+  }, {
+    "name" : "parameterIndex",
+    "value" : "0"
+  }, {
+    "name" : "elementKind",
+    "value" : "parameter"
+  }, {
+    "name" : "oldArchive",
+    "value" : "guice-5.1.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "guice-7.0.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method java.lang.reflect.Type com.google.inject.util.Types::javaxProviderOf(java.lang.reflect.Type)",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.google.inject.util"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.google.inject.util.Types"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "Types"
+  }, {
+    "name" : "methodName",
+    "value" : "javaxProviderOf"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "guice-5.1.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+} ]

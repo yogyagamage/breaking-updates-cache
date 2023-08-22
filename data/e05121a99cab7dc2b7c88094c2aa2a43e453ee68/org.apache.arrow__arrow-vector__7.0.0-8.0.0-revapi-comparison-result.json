@@ -1,0 +1,99 @@
+[ {
+  "code" : "java.class.nonPublicPartOfAPI",
+  "old" : "class org.apache.arrow.vector.complex.impl.AbstractFieldWriter",
+  "new" : "class org.apache.arrow.vector.complex.impl.AbstractFieldWriter",
+  "name" : "non-public class in API",
+  "description" : "Class 'org.apache.arrow.vector.complex.impl.AbstractFieldWriter' is indirectly included in the API (by the means of method return type for example) but the class is not accessible (neither public nor protected).",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SEMANTIC",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "classSimpleName",
+    "value" : "AbstractFieldWriter"
+  }, {
+    "name" : "exampleUseChainInNewApi",
+    "value" : "org.apache.arrow.vector.complex.impl.AbstractFieldWriter is used as parameter in method void org.apache.arrow.vector.complex.impl.UnionLargeListWriter::<init>(org.apache.arrow.vector.complex.LargeListVector, org.apache.arrow.vector.complex.impl.AbstractFieldWriter) (method void org.apache.arrow.vector.complex.impl.UnionLargeListWriter::<init>(org.apache.arrow.vector.complex.LargeListVector, org.apache.arrow.vector.complex.impl.AbstractFieldWriter) is part of the API)"
+  }, {
+    "name" : "package",
+    "value" : "org.apache.arrow.vector.complex.impl"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.arrow.vector.complex.impl.AbstractFieldWriter"
+  }, {
+    "name" : "exampleUseChainInOldApi",
+    "value" : "org.apache.arrow.vector.complex.impl.AbstractFieldWriter is used as parameter in method void org.apache.arrow.vector.complex.impl.UnionListWriter::<init>(org.apache.arrow.vector.complex.ListVector, org.apache.arrow.vector.complex.impl.AbstractFieldWriter) (method void org.apache.arrow.vector.complex.impl.UnionListWriter::<init>(org.apache.arrow.vector.complex.ListVector, org.apache.arrow.vector.complex.impl.AbstractFieldWriter) is part of the API)"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "arrow-vector-7.0.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "arrow-vector-8.0.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+} ][ {
+  "code" : "java.class.nonPublicPartOfAPI",
+  "old" : "class org.apache.arrow.vector.complex.impl.AbstractFieldWriter",
+  "new" : "class org.apache.arrow.vector.complex.impl.AbstractFieldWriter",
+  "name" : "non-public class in API",
+  "description" : "Class 'org.apache.arrow.vector.complex.impl.AbstractFieldWriter' is indirectly included in the API (by the means of method return type for example) but the class is not accessible (neither public nor protected).",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SEMANTIC",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "classSimpleName",
+    "value" : "AbstractFieldWriter"
+  }, {
+    "name" : "exampleUseChainInNewApi",
+    "value" : "org.apache.arrow.vector.complex.impl.AbstractFieldWriter is used as parameter in method void org.apache.arrow.vector.complex.impl.UnionLargeListWriter::<init>(org.apache.arrow.vector.complex.LargeListVector, org.apache.arrow.vector.complex.impl.AbstractFieldWriter) (method void org.apache.arrow.vector.complex.impl.UnionLargeListWriter::<init>(org.apache.arrow.vector.complex.LargeListVector, org.apache.arrow.vector.complex.impl.AbstractFieldWriter) is part of the API)"
+  }, {
+    "name" : "package",
+    "value" : "org.apache.arrow.vector.complex.impl"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.apache.arrow.vector.complex.impl.AbstractFieldWriter"
+  }, {
+    "name" : "exampleUseChainInOldApi",
+    "value" : "org.apache.arrow.vector.complex.impl.AbstractFieldWriter is used as parameter in method void org.apache.arrow.vector.complex.impl.UnionListWriter::<init>(org.apache.arrow.vector.complex.ListVector, org.apache.arrow.vector.complex.impl.AbstractFieldWriter) (method void org.apache.arrow.vector.complex.impl.UnionListWriter::<init>(org.apache.arrow.vector.complex.ListVector, org.apache.arrow.vector.complex.impl.AbstractFieldWriter) is part of the API)"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "arrow-vector-7.0.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "arrow-vector-8.0.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+} ]

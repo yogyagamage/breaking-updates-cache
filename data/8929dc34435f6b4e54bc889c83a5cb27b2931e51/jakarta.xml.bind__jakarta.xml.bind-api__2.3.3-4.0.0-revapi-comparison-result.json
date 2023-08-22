@@ -1,0 +1,2789 @@
+[ {
+  "code" : "java.class.removed",
+  "old" : "class javax.xml.bind.Binder<XmlNode>",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "javax.xml.bind"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "javax.xml.bind.Binder"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "Binder"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jakarta.xml.bind-api-2.3.3.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class javax.xml.bind.DataBindingException",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "javax.xml.bind"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "javax.xml.bind.DataBindingException"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "DataBindingException"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jakarta.xml.bind-api-2.3.3.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class javax.xml.bind.DatatypeConverter",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "javax.xml.bind"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "javax.xml.bind.DatatypeConverter"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "DatatypeConverter"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jakarta.xml.bind-api-2.3.3.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "interface javax.xml.bind.DatatypeConverterInterface",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "javax.xml.bind"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "javax.xml.bind.DatatypeConverterInterface"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "DatatypeConverterInterface"
+  }, {
+    "name" : "elementKind",
+    "value" : "interface"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jakarta.xml.bind-api-2.3.3.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "interface javax.xml.bind.Element",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "javax.xml.bind"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "javax.xml.bind.Element"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "Element"
+  }, {
+    "name" : "elementKind",
+    "value" : "interface"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jakarta.xml.bind-api-2.3.3.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class javax.xml.bind.JAXB",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "javax.xml.bind"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "javax.xml.bind.JAXB"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "JAXB"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jakarta.xml.bind-api-2.3.3.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class javax.xml.bind.JAXBContext",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "javax.xml.bind"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "javax.xml.bind.JAXBContext"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "JAXBContext"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jakarta.xml.bind-api-2.3.3.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "interface javax.xml.bind.JAXBContextFactory",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "javax.xml.bind"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "javax.xml.bind.JAXBContextFactory"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "JAXBContextFactory"
+  }, {
+    "name" : "elementKind",
+    "value" : "interface"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jakarta.xml.bind-api-2.3.3.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class javax.xml.bind.JAXBElement<T>",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "javax.xml.bind"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "javax.xml.bind.JAXBElement"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "JAXBElement"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jakarta.xml.bind-api-2.3.3.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class javax.xml.bind.JAXBException",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "javax.xml.bind"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "javax.xml.bind.JAXBException"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "JAXBException"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jakarta.xml.bind-api-2.3.3.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class javax.xml.bind.JAXBIntrospector",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "javax.xml.bind"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "javax.xml.bind.JAXBIntrospector"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "JAXBIntrospector"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jakarta.xml.bind-api-2.3.3.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class javax.xml.bind.JAXBPermission",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "javax.xml.bind"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "javax.xml.bind.JAXBPermission"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "JAXBPermission"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jakarta.xml.bind-api-2.3.3.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class javax.xml.bind.MarshalException",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "javax.xml.bind"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "javax.xml.bind.MarshalException"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "MarshalException"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jakarta.xml.bind-api-2.3.3.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "interface javax.xml.bind.Marshaller",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "javax.xml.bind"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "javax.xml.bind.Marshaller"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "Marshaller"
+  }, {
+    "name" : "elementKind",
+    "value" : "interface"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jakarta.xml.bind-api-2.3.3.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "interface javax.xml.bind.NotIdentifiableEvent",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "javax.xml.bind"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "javax.xml.bind.NotIdentifiableEvent"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "NotIdentifiableEvent"
+  }, {
+    "name" : "elementKind",
+    "value" : "interface"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jakarta.xml.bind-api-2.3.3.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "interface javax.xml.bind.ParseConversionEvent",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "javax.xml.bind"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "javax.xml.bind.ParseConversionEvent"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "ParseConversionEvent"
+  }, {
+    "name" : "elementKind",
+    "value" : "interface"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jakarta.xml.bind-api-2.3.3.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "interface javax.xml.bind.PrintConversionEvent",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "javax.xml.bind"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "javax.xml.bind.PrintConversionEvent"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "PrintConversionEvent"
+  }, {
+    "name" : "elementKind",
+    "value" : "interface"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jakarta.xml.bind-api-2.3.3.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class javax.xml.bind.PropertyException",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "javax.xml.bind"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "javax.xml.bind.PropertyException"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "PropertyException"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jakarta.xml.bind-api-2.3.3.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class javax.xml.bind.SchemaOutputResolver",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "javax.xml.bind"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "javax.xml.bind.SchemaOutputResolver"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "SchemaOutputResolver"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jakarta.xml.bind-api-2.3.3.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class javax.xml.bind.TypeConstraintException",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "javax.xml.bind"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "javax.xml.bind.TypeConstraintException"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "TypeConstraintException"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jakarta.xml.bind-api-2.3.3.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class javax.xml.bind.UnmarshalException",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "javax.xml.bind"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "javax.xml.bind.UnmarshalException"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "UnmarshalException"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jakarta.xml.bind-api-2.3.3.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "interface javax.xml.bind.Unmarshaller",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "javax.xml.bind"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "javax.xml.bind.Unmarshaller"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "Unmarshaller"
+  }, {
+    "name" : "elementKind",
+    "value" : "interface"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jakarta.xml.bind-api-2.3.3.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "interface javax.xml.bind.UnmarshallerHandler",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "javax.xml.bind"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "javax.xml.bind.UnmarshallerHandler"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "UnmarshallerHandler"
+  }, {
+    "name" : "elementKind",
+    "value" : "interface"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jakarta.xml.bind-api-2.3.3.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "interface javax.xml.bind.ValidationEvent",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "javax.xml.bind"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "javax.xml.bind.ValidationEvent"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "ValidationEvent"
+  }, {
+    "name" : "elementKind",
+    "value" : "interface"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jakarta.xml.bind-api-2.3.3.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "interface javax.xml.bind.ValidationEventHandler",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "javax.xml.bind"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "javax.xml.bind.ValidationEventHandler"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "ValidationEventHandler"
+  }, {
+    "name" : "elementKind",
+    "value" : "interface"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jakarta.xml.bind-api-2.3.3.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "interface javax.xml.bind.ValidationEventLocator",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "javax.xml.bind"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "javax.xml.bind.ValidationEventLocator"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "ValidationEventLocator"
+  }, {
+    "name" : "elementKind",
+    "value" : "interface"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jakarta.xml.bind-api-2.3.3.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class javax.xml.bind.ValidationException",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "javax.xml.bind"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "javax.xml.bind.ValidationException"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "ValidationException"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jakarta.xml.bind-api-2.3.3.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "interface javax.xml.bind.Validator",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "javax.xml.bind"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "javax.xml.bind.Validator"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "Validator"
+  }, {
+    "name" : "elementKind",
+    "value" : "interface"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jakarta.xml.bind-api-2.3.3.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "interface javax.xml.bind.annotation.DomHandler<ElementT, ResultT extends javax.xml.transform.Result>",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "javax.xml.bind.annotation"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "javax.xml.bind.annotation.DomHandler"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "DomHandler"
+  }, {
+    "name" : "elementKind",
+    "value" : "interface"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jakarta.xml.bind-api-2.3.3.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class javax.xml.bind.annotation.W3CDomHandler",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "javax.xml.bind.annotation"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "javax.xml.bind.annotation.W3CDomHandler"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "W3CDomHandler"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jakarta.xml.bind-api-2.3.3.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "enum javax.xml.bind.annotation.XmlAccessOrder",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "javax.xml.bind.annotation"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "javax.xml.bind.annotation.XmlAccessOrder"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "XmlAccessOrder"
+  }, {
+    "name" : "elementKind",
+    "value" : "enum"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jakarta.xml.bind-api-2.3.3.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "enum javax.xml.bind.annotation.XmlAccessType",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "javax.xml.bind.annotation"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "javax.xml.bind.annotation.XmlAccessType"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "XmlAccessType"
+  }, {
+    "name" : "elementKind",
+    "value" : "enum"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jakarta.xml.bind-api-2.3.3.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "@interface javax.xml.bind.annotation.XmlAccessorOrder",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "javax.xml.bind.annotation"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "javax.xml.bind.annotation.XmlAccessorOrder"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "XmlAccessorOrder"
+  }, {
+    "name" : "elementKind",
+    "value" : "@interface"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jakarta.xml.bind-api-2.3.3.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "@interface javax.xml.bind.annotation.XmlAccessorType",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "javax.xml.bind.annotation"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "javax.xml.bind.annotation.XmlAccessorType"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "XmlAccessorType"
+  }, {
+    "name" : "elementKind",
+    "value" : "@interface"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jakarta.xml.bind-api-2.3.3.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "@interface javax.xml.bind.annotation.XmlAnyAttribute",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "javax.xml.bind.annotation"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "javax.xml.bind.annotation.XmlAnyAttribute"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "XmlAnyAttribute"
+  }, {
+    "name" : "elementKind",
+    "value" : "@interface"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jakarta.xml.bind-api-2.3.3.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "@interface javax.xml.bind.annotation.XmlAnyElement",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "javax.xml.bind.annotation"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "javax.xml.bind.annotation.XmlAnyElement"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "XmlAnyElement"
+  }, {
+    "name" : "elementKind",
+    "value" : "@interface"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jakarta.xml.bind-api-2.3.3.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "@interface javax.xml.bind.annotation.XmlAttachmentRef",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "javax.xml.bind.annotation"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "javax.xml.bind.annotation.XmlAttachmentRef"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "XmlAttachmentRef"
+  }, {
+    "name" : "elementKind",
+    "value" : "@interface"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jakarta.xml.bind-api-2.3.3.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "@interface javax.xml.bind.annotation.XmlAttribute",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "javax.xml.bind.annotation"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "javax.xml.bind.annotation.XmlAttribute"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "XmlAttribute"
+  }, {
+    "name" : "elementKind",
+    "value" : "@interface"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jakarta.xml.bind-api-2.3.3.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "@interface javax.xml.bind.annotation.XmlElement",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "javax.xml.bind.annotation"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "javax.xml.bind.annotation.XmlElement"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "XmlElement"
+  }, {
+    "name" : "elementKind",
+    "value" : "@interface"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jakarta.xml.bind-api-2.3.3.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "@interface javax.xml.bind.annotation.XmlElementDecl",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "javax.xml.bind.annotation"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "javax.xml.bind.annotation.XmlElementDecl"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "XmlElementDecl"
+  }, {
+    "name" : "elementKind",
+    "value" : "@interface"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jakarta.xml.bind-api-2.3.3.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "@interface javax.xml.bind.annotation.XmlElementRef",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "javax.xml.bind.annotation"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "javax.xml.bind.annotation.XmlElementRef"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "XmlElementRef"
+  }, {
+    "name" : "elementKind",
+    "value" : "@interface"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jakarta.xml.bind-api-2.3.3.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "@interface javax.xml.bind.annotation.XmlElementRefs",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "javax.xml.bind.annotation"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "javax.xml.bind.annotation.XmlElementRefs"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "XmlElementRefs"
+  }, {
+    "name" : "elementKind",
+    "value" : "@interface"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jakarta.xml.bind-api-2.3.3.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "@interface javax.xml.bind.annotation.XmlElementWrapper",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "javax.xml.bind.annotation"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "javax.xml.bind.annotation.XmlElementWrapper"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "XmlElementWrapper"
+  }, {
+    "name" : "elementKind",
+    "value" : "@interface"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jakarta.xml.bind-api-2.3.3.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "@interface javax.xml.bind.annotation.XmlElements",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "javax.xml.bind.annotation"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "javax.xml.bind.annotation.XmlElements"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "XmlElements"
+  }, {
+    "name" : "elementKind",
+    "value" : "@interface"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jakarta.xml.bind-api-2.3.3.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "@interface javax.xml.bind.annotation.XmlEnum",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "javax.xml.bind.annotation"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "javax.xml.bind.annotation.XmlEnum"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "XmlEnum"
+  }, {
+    "name" : "elementKind",
+    "value" : "@interface"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jakarta.xml.bind-api-2.3.3.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "@interface javax.xml.bind.annotation.XmlEnumValue",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "javax.xml.bind.annotation"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "javax.xml.bind.annotation.XmlEnumValue"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "XmlEnumValue"
+  }, {
+    "name" : "elementKind",
+    "value" : "@interface"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jakarta.xml.bind-api-2.3.3.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "@interface javax.xml.bind.annotation.XmlID",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "javax.xml.bind.annotation"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "javax.xml.bind.annotation.XmlID"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "XmlID"
+  }, {
+    "name" : "elementKind",
+    "value" : "@interface"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jakarta.xml.bind-api-2.3.3.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "@interface javax.xml.bind.annotation.XmlIDREF",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "javax.xml.bind.annotation"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "javax.xml.bind.annotation.XmlIDREF"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "XmlIDREF"
+  }, {
+    "name" : "elementKind",
+    "value" : "@interface"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jakarta.xml.bind-api-2.3.3.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "@interface javax.xml.bind.annotation.XmlInlineBinaryData",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "javax.xml.bind.annotation"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "javax.xml.bind.annotation.XmlInlineBinaryData"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "XmlInlineBinaryData"
+  }, {
+    "name" : "elementKind",
+    "value" : "@interface"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jakarta.xml.bind-api-2.3.3.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "@interface javax.xml.bind.annotation.XmlList",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "javax.xml.bind.annotation"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "javax.xml.bind.annotation.XmlList"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "XmlList"
+  }, {
+    "name" : "elementKind",
+    "value" : "@interface"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jakarta.xml.bind-api-2.3.3.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "@interface javax.xml.bind.annotation.XmlMimeType",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "javax.xml.bind.annotation"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "javax.xml.bind.annotation.XmlMimeType"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "XmlMimeType"
+  }, {
+    "name" : "elementKind",
+    "value" : "@interface"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jakarta.xml.bind-api-2.3.3.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "@interface javax.xml.bind.annotation.XmlMixed",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "javax.xml.bind.annotation"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "javax.xml.bind.annotation.XmlMixed"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "XmlMixed"
+  }, {
+    "name" : "elementKind",
+    "value" : "@interface"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jakarta.xml.bind-api-2.3.3.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "@interface javax.xml.bind.annotation.XmlNs",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "javax.xml.bind.annotation"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "javax.xml.bind.annotation.XmlNs"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "XmlNs"
+  }, {
+    "name" : "elementKind",
+    "value" : "@interface"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jakarta.xml.bind-api-2.3.3.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "enum javax.xml.bind.annotation.XmlNsForm",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "javax.xml.bind.annotation"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "javax.xml.bind.annotation.XmlNsForm"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "XmlNsForm"
+  }, {
+    "name" : "elementKind",
+    "value" : "enum"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jakarta.xml.bind-api-2.3.3.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "@interface javax.xml.bind.annotation.XmlRegistry",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "javax.xml.bind.annotation"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "javax.xml.bind.annotation.XmlRegistry"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "XmlRegistry"
+  }, {
+    "name" : "elementKind",
+    "value" : "@interface"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jakarta.xml.bind-api-2.3.3.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "@interface javax.xml.bind.annotation.XmlRootElement",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "javax.xml.bind.annotation"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "javax.xml.bind.annotation.XmlRootElement"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "XmlRootElement"
+  }, {
+    "name" : "elementKind",
+    "value" : "@interface"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jakarta.xml.bind-api-2.3.3.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "@interface javax.xml.bind.annotation.XmlSchema",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "javax.xml.bind.annotation"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "javax.xml.bind.annotation.XmlSchema"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "XmlSchema"
+  }, {
+    "name" : "elementKind",
+    "value" : "@interface"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jakarta.xml.bind-api-2.3.3.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "@interface javax.xml.bind.annotation.XmlSchemaType",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "javax.xml.bind.annotation"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "javax.xml.bind.annotation.XmlSchemaType"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "XmlSchemaType"
+  }, {
+    "name" : "elementKind",
+    "value" : "@interface"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jakarta.xml.bind-api-2.3.3.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "@interface javax.xml.bind.annotation.XmlSchemaTypes",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "javax.xml.bind.annotation"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "javax.xml.bind.annotation.XmlSchemaTypes"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "XmlSchemaTypes"
+  }, {
+    "name" : "elementKind",
+    "value" : "@interface"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jakarta.xml.bind-api-2.3.3.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "@interface javax.xml.bind.annotation.XmlSeeAlso",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "javax.xml.bind.annotation"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "javax.xml.bind.annotation.XmlSeeAlso"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "XmlSeeAlso"
+  }, {
+    "name" : "elementKind",
+    "value" : "@interface"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jakarta.xml.bind-api-2.3.3.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "@interface javax.xml.bind.annotation.XmlTransient",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "javax.xml.bind.annotation"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "javax.xml.bind.annotation.XmlTransient"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "XmlTransient"
+  }, {
+    "name" : "elementKind",
+    "value" : "@interface"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jakarta.xml.bind-api-2.3.3.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "@interface javax.xml.bind.annotation.XmlType",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "javax.xml.bind.annotation"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "javax.xml.bind.annotation.XmlType"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "XmlType"
+  }, {
+    "name" : "elementKind",
+    "value" : "@interface"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jakarta.xml.bind-api-2.3.3.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "@interface javax.xml.bind.annotation.XmlValue",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "javax.xml.bind.annotation"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "javax.xml.bind.annotation.XmlValue"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "XmlValue"
+  }, {
+    "name" : "elementKind",
+    "value" : "@interface"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jakarta.xml.bind-api-2.3.3.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class javax.xml.bind.annotation.adapters.CollapsedStringAdapter",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "javax.xml.bind.annotation.adapters"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "javax.xml.bind.annotation.adapters.CollapsedStringAdapter"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "CollapsedStringAdapter"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jakarta.xml.bind-api-2.3.3.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class javax.xml.bind.annotation.adapters.HexBinaryAdapter",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "javax.xml.bind.annotation.adapters"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "javax.xml.bind.annotation.adapters.HexBinaryAdapter"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "HexBinaryAdapter"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jakarta.xml.bind-api-2.3.3.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class javax.xml.bind.annotation.adapters.NormalizedStringAdapter",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "javax.xml.bind.annotation.adapters"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "javax.xml.bind.annotation.adapters.NormalizedStringAdapter"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "NormalizedStringAdapter"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jakarta.xml.bind-api-2.3.3.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class javax.xml.bind.annotation.adapters.XmlAdapter<ValueType, BoundType>",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "javax.xml.bind.annotation.adapters"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "javax.xml.bind.annotation.adapters.XmlAdapter"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "XmlAdapter"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jakarta.xml.bind-api-2.3.3.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "@interface javax.xml.bind.annotation.adapters.XmlJavaTypeAdapter",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "javax.xml.bind.annotation.adapters"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "javax.xml.bind.annotation.adapters.XmlJavaTypeAdapter"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "XmlJavaTypeAdapter"
+  }, {
+    "name" : "elementKind",
+    "value" : "@interface"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jakarta.xml.bind-api-2.3.3.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "@interface javax.xml.bind.annotation.adapters.XmlJavaTypeAdapters",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "javax.xml.bind.annotation.adapters"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "javax.xml.bind.annotation.adapters.XmlJavaTypeAdapters"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "XmlJavaTypeAdapters"
+  }, {
+    "name" : "elementKind",
+    "value" : "@interface"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jakarta.xml.bind-api-2.3.3.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class javax.xml.bind.attachment.AttachmentMarshaller",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "javax.xml.bind.attachment"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "javax.xml.bind.attachment.AttachmentMarshaller"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "AttachmentMarshaller"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jakarta.xml.bind-api-2.3.3.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class javax.xml.bind.attachment.AttachmentUnmarshaller",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "javax.xml.bind.attachment"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "javax.xml.bind.attachment.AttachmentUnmarshaller"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "AttachmentUnmarshaller"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jakarta.xml.bind-api-2.3.3.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class javax.xml.bind.helpers.AbstractMarshallerImpl",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "javax.xml.bind.helpers"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "javax.xml.bind.helpers.AbstractMarshallerImpl"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "AbstractMarshallerImpl"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jakarta.xml.bind-api-2.3.3.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class javax.xml.bind.helpers.AbstractUnmarshallerImpl",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "javax.xml.bind.helpers"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "javax.xml.bind.helpers.AbstractUnmarshallerImpl"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "AbstractUnmarshallerImpl"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jakarta.xml.bind-api-2.3.3.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class javax.xml.bind.helpers.DefaultValidationEventHandler",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "javax.xml.bind.helpers"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "javax.xml.bind.helpers.DefaultValidationEventHandler"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "DefaultValidationEventHandler"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jakarta.xml.bind-api-2.3.3.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class javax.xml.bind.helpers.NotIdentifiableEventImpl",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "javax.xml.bind.helpers"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "javax.xml.bind.helpers.NotIdentifiableEventImpl"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "NotIdentifiableEventImpl"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jakarta.xml.bind-api-2.3.3.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class javax.xml.bind.helpers.ParseConversionEventImpl",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "javax.xml.bind.helpers"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "javax.xml.bind.helpers.ParseConversionEventImpl"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "ParseConversionEventImpl"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jakarta.xml.bind-api-2.3.3.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class javax.xml.bind.helpers.PrintConversionEventImpl",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "javax.xml.bind.helpers"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "javax.xml.bind.helpers.PrintConversionEventImpl"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "PrintConversionEventImpl"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jakarta.xml.bind-api-2.3.3.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class javax.xml.bind.helpers.ValidationEventImpl",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "javax.xml.bind.helpers"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "javax.xml.bind.helpers.ValidationEventImpl"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "ValidationEventImpl"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jakarta.xml.bind-api-2.3.3.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class javax.xml.bind.helpers.ValidationEventLocatorImpl",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "javax.xml.bind.helpers"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "javax.xml.bind.helpers.ValidationEventLocatorImpl"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "ValidationEventLocatorImpl"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jakarta.xml.bind-api-2.3.3.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class javax.xml.bind.util.JAXBResult",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "javax.xml.bind.util"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "javax.xml.bind.util.JAXBResult"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "JAXBResult"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jakarta.xml.bind-api-2.3.3.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class javax.xml.bind.util.JAXBSource",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "javax.xml.bind.util"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "javax.xml.bind.util.JAXBSource"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "JAXBSource"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jakarta.xml.bind-api-2.3.3.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class javax.xml.bind.util.ValidationEventCollector",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "javax.xml.bind.util"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "javax.xml.bind.util.ValidationEventCollector"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "ValidationEventCollector"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jakarta.xml.bind-api-2.3.3.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+} ]

@@ -1,0 +1,4862 @@
+[ {
+  "code" : "java.generics.formalTypeParameterChanged",
+  "old" : "interface org.jsoup.Connection.Base<T extends org.jsoup.Connection.Base>",
+  "new" : "interface org.jsoup.Connection.Base<T extends org.jsoup.Connection.Base<T>>",
+  "name" : "formal type parameter changed",
+  "description" : "The formal type parameter changed from 'T extends org.jsoup.Connection.Base' to 'T extends org.jsoup.Connection.Base<T>'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldTypeParameter",
+    "value" : "T extends org.jsoup.Connection.Base"
+  }, {
+    "name" : "newTypeParameter",
+    "value" : "T extends org.jsoup.Connection.Base<T>"
+  }, {
+    "name" : "package",
+    "value" : "org.jsoup"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.jsoup.Connection.Base"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "Base"
+  }, {
+    "name" : "elementKind",
+    "value" : "interface"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jsoup-1.11.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "jsoup-1.15.3.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.returnTypeTypeParametersChanged",
+  "old" : "method T org.jsoup.Connection.Base<T extends org.jsoup.Connection.Base>::addHeader(java.lang.String, java.lang.String)",
+  "new" : "method T org.jsoup.Connection.Base<T extends org.jsoup.Connection.Base<T>>::addHeader(java.lang.String, java.lang.String)",
+  "name" : "return type changed type parameter",
+  "description" : "The return type changed from 'T extends org.jsoup.Connection.Base' to 'T extends org.jsoup.Connection.Base<T>'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "T extends org.jsoup.Connection.Base"
+  }, {
+    "name" : "newType",
+    "value" : "T extends org.jsoup.Connection.Base<T>"
+  }, {
+    "name" : "package",
+    "value" : "org.jsoup"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.jsoup.Connection.Base"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "Base"
+  }, {
+    "name" : "methodName",
+    "value" : "addHeader"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jsoup-1.11.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "jsoup-1.15.3.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.returnTypeTypeParametersChanged",
+  "old" : "method T org.jsoup.Connection.Base<T extends org.jsoup.Connection.Base>::cookie(java.lang.String, java.lang.String)",
+  "new" : "method T org.jsoup.Connection.Base<T extends org.jsoup.Connection.Base<T>>::cookie(java.lang.String, java.lang.String)",
+  "name" : "return type changed type parameter",
+  "description" : "The return type changed from 'T extends org.jsoup.Connection.Base' to 'T extends org.jsoup.Connection.Base<T>'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "T extends org.jsoup.Connection.Base"
+  }, {
+    "name" : "newType",
+    "value" : "T extends org.jsoup.Connection.Base<T>"
+  }, {
+    "name" : "package",
+    "value" : "org.jsoup"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.jsoup.Connection.Base"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "Base"
+  }, {
+    "name" : "methodName",
+    "value" : "cookie"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jsoup-1.11.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "jsoup-1.15.3.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.returnTypeTypeParametersChanged",
+  "old" : "method T org.jsoup.Connection.Base<T extends org.jsoup.Connection.Base>::header(java.lang.String, java.lang.String)",
+  "new" : "method T org.jsoup.Connection.Base<T extends org.jsoup.Connection.Base<T>>::header(java.lang.String, java.lang.String)",
+  "name" : "return type changed type parameter",
+  "description" : "The return type changed from 'T extends org.jsoup.Connection.Base' to 'T extends org.jsoup.Connection.Base<T>'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "T extends org.jsoup.Connection.Base"
+  }, {
+    "name" : "newType",
+    "value" : "T extends org.jsoup.Connection.Base<T>"
+  }, {
+    "name" : "package",
+    "value" : "org.jsoup"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.jsoup.Connection.Base"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "Base"
+  }, {
+    "name" : "methodName",
+    "value" : "header"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jsoup-1.11.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "jsoup-1.15.3.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.returnTypeTypeParametersChanged",
+  "old" : "method T org.jsoup.Connection.Base<T extends org.jsoup.Connection.Base>::method(org.jsoup.Connection.Method)",
+  "new" : "method T org.jsoup.Connection.Base<T extends org.jsoup.Connection.Base<T>>::method(org.jsoup.Connection.Method)",
+  "name" : "return type changed type parameter",
+  "description" : "The return type changed from 'T extends org.jsoup.Connection.Base' to 'T extends org.jsoup.Connection.Base<T>'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "T extends org.jsoup.Connection.Base"
+  }, {
+    "name" : "newType",
+    "value" : "T extends org.jsoup.Connection.Base<T>"
+  }, {
+    "name" : "package",
+    "value" : "org.jsoup"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.jsoup.Connection.Base"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "Base"
+  }, {
+    "name" : "methodName",
+    "value" : "method"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jsoup-1.11.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "jsoup-1.15.3.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.returnTypeTypeParametersChanged",
+  "old" : "method T org.jsoup.Connection.Base<T extends org.jsoup.Connection.Base>::removeCookie(java.lang.String)",
+  "new" : "method T org.jsoup.Connection.Base<T extends org.jsoup.Connection.Base<T>>::removeCookie(java.lang.String)",
+  "name" : "return type changed type parameter",
+  "description" : "The return type changed from 'T extends org.jsoup.Connection.Base' to 'T extends org.jsoup.Connection.Base<T>'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "T extends org.jsoup.Connection.Base"
+  }, {
+    "name" : "newType",
+    "value" : "T extends org.jsoup.Connection.Base<T>"
+  }, {
+    "name" : "package",
+    "value" : "org.jsoup"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.jsoup.Connection.Base"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "Base"
+  }, {
+    "name" : "methodName",
+    "value" : "removeCookie"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jsoup-1.11.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "jsoup-1.15.3.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.returnTypeTypeParametersChanged",
+  "old" : "method T org.jsoup.Connection.Base<T extends org.jsoup.Connection.Base>::removeHeader(java.lang.String)",
+  "new" : "method T org.jsoup.Connection.Base<T extends org.jsoup.Connection.Base<T>>::removeHeader(java.lang.String)",
+  "name" : "return type changed type parameter",
+  "description" : "The return type changed from 'T extends org.jsoup.Connection.Base' to 'T extends org.jsoup.Connection.Base<T>'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "T extends org.jsoup.Connection.Base"
+  }, {
+    "name" : "newType",
+    "value" : "T extends org.jsoup.Connection.Base<T>"
+  }, {
+    "name" : "package",
+    "value" : "org.jsoup"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.jsoup.Connection.Base"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "Base"
+  }, {
+    "name" : "methodName",
+    "value" : "removeHeader"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jsoup-1.11.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "jsoup-1.15.3.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.returnTypeTypeParametersChanged",
+  "old" : "method T org.jsoup.Connection.Base<T extends org.jsoup.Connection.Base>::url(java.net.URL)",
+  "new" : "method T org.jsoup.Connection.Base<T extends org.jsoup.Connection.Base<T>>::url(java.net.URL)",
+  "name" : "return type changed type parameter",
+  "description" : "The return type changed from 'T extends org.jsoup.Connection.Base' to 'T extends org.jsoup.Connection.Base<T>'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "T extends org.jsoup.Connection.Base"
+  }, {
+    "name" : "newType",
+    "value" : "T extends org.jsoup.Connection.Base<T>"
+  }, {
+    "name" : "package",
+    "value" : "org.jsoup"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.jsoup.Connection.Base"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "Base"
+  }, {
+    "name" : "methodName",
+    "value" : "url"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jsoup-1.11.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "jsoup-1.15.3.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.addedToInterface",
+  "old" : null,
+  "new" : "method javax.net.ssl.SSLSocketFactory org.jsoup.Connection.Request::sslSocketFactory()",
+  "name" : "method added to interface",
+  "description" : "Method was added to an interface.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SEMANTIC",
+    "severity" : "POTENTIALLY_BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.jsoup"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.jsoup.Connection.Request"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "Request"
+  }, {
+    "name" : "methodName",
+    "value" : "sslSocketFactory"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "newArchive",
+    "value" : "jsoup-1.15.3.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.addedToInterface",
+  "old" : null,
+  "new" : "method void org.jsoup.Connection.Request::sslSocketFactory(javax.net.ssl.SSLSocketFactory)",
+  "name" : "method added to interface",
+  "description" : "Method was added to an interface.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SEMANTIC",
+    "severity" : "POTENTIALLY_BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.jsoup"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.jsoup.Connection.Request"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "Request"
+  }, {
+    "name" : "methodName",
+    "value" : "sslSocketFactory"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "newArchive",
+    "value" : "jsoup-1.15.3.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method boolean org.jsoup.Connection.Request::validateTLSCertificates()",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.jsoup"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.jsoup.Connection.Request"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "Request"
+  }, {
+    "name" : "methodName",
+    "value" : "validateTLSCertificates"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jsoup-1.11.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method void org.jsoup.Connection.Request::validateTLSCertificates(boolean)",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.jsoup"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.jsoup.Connection.Request"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "Request"
+  }, {
+    "name" : "methodName",
+    "value" : "validateTLSCertificates"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jsoup-1.11.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.addedToInterface",
+  "old" : null,
+  "new" : "method java.net.CookieStore org.jsoup.Connection::cookieStore()",
+  "name" : "method added to interface",
+  "description" : "Method was added to an interface.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SEMANTIC",
+    "severity" : "POTENTIALLY_BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.jsoup"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.jsoup.Connection"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "Connection"
+  }, {
+    "name" : "methodName",
+    "value" : "cookieStore"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "newArchive",
+    "value" : "jsoup-1.15.3.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.addedToInterface",
+  "old" : null,
+  "new" : "method org.jsoup.Connection org.jsoup.Connection::cookieStore(java.net.CookieStore)",
+  "name" : "method added to interface",
+  "description" : "Method was added to an interface.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SEMANTIC",
+    "severity" : "POTENTIALLY_BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.jsoup"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.jsoup.Connection"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "Connection"
+  }, {
+    "name" : "methodName",
+    "value" : "cookieStore"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "newArchive",
+    "value" : "jsoup-1.15.3.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.addedToInterface",
+  "old" : null,
+  "new" : "method org.jsoup.Connection org.jsoup.Connection::newRequest()",
+  "name" : "method added to interface",
+  "description" : "Method was added to an interface.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SEMANTIC",
+    "severity" : "POTENTIALLY_BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.jsoup"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.jsoup.Connection"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "Connection"
+  }, {
+    "name" : "methodName",
+    "value" : "newRequest"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "newArchive",
+    "value" : "jsoup-1.15.3.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.addedToInterface",
+  "old" : null,
+  "new" : "method org.jsoup.Connection org.jsoup.Connection::sslSocketFactory(javax.net.ssl.SSLSocketFactory)",
+  "name" : "method added to interface",
+  "description" : "Method was added to an interface.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SEMANTIC",
+    "severity" : "POTENTIALLY_BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.jsoup"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.jsoup.Connection"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "Connection"
+  }, {
+    "name" : "methodName",
+    "value" : "sslSocketFactory"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "newArchive",
+    "value" : "jsoup-1.15.3.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method org.jsoup.Connection org.jsoup.Connection::validateTLSCertificates(boolean)",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.jsoup"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.jsoup.Connection"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "Connection"
+  }, {
+    "name" : "methodName",
+    "value" : "validateTLSCertificates"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jsoup-1.11.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.parameterTypeChanged",
+  "old" : "parameter java.lang.String org.jsoup.Jsoup::clean(java.lang.String, java.lang.String, ===org.jsoup.safety.Whitelist===)",
+  "new" : "parameter java.lang.String org.jsoup.Jsoup::clean(java.lang.String, java.lang.String, ===org.jsoup.safety.Safelist===)",
+  "name" : "parameter type changed",
+  "description" : "The type of the parameter changed from 'org.jsoup.safety.Whitelist' to 'org.jsoup.safety.Safelist'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "POTENTIALLY_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "org.jsoup.safety.Whitelist"
+  }, {
+    "name" : "newType",
+    "value" : "org.jsoup.safety.Safelist"
+  }, {
+    "name" : "package",
+    "value" : "org.jsoup"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.jsoup.Jsoup"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "Jsoup"
+  }, {
+    "name" : "methodName",
+    "value" : "clean"
+  }, {
+    "name" : "parameterIndex",
+    "value" : "2"
+  }, {
+    "name" : "elementKind",
+    "value" : "parameter"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jsoup-1.11.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "jsoup-1.15.3.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.parameterTypeChanged",
+  "old" : "parameter java.lang.String org.jsoup.Jsoup::clean(java.lang.String, java.lang.String, ===org.jsoup.safety.Whitelist===, org.jsoup.nodes.Document.OutputSettings)",
+  "new" : "parameter java.lang.String org.jsoup.Jsoup::clean(java.lang.String, java.lang.String, ===org.jsoup.safety.Safelist===, org.jsoup.nodes.Document.OutputSettings)",
+  "name" : "parameter type changed",
+  "description" : "The type of the parameter changed from 'org.jsoup.safety.Whitelist' to 'org.jsoup.safety.Safelist'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "POTENTIALLY_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "org.jsoup.safety.Whitelist"
+  }, {
+    "name" : "newType",
+    "value" : "org.jsoup.safety.Safelist"
+  }, {
+    "name" : "package",
+    "value" : "org.jsoup"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.jsoup.Jsoup"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "Jsoup"
+  }, {
+    "name" : "methodName",
+    "value" : "clean"
+  }, {
+    "name" : "parameterIndex",
+    "value" : "2"
+  }, {
+    "name" : "elementKind",
+    "value" : "parameter"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jsoup-1.11.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "jsoup-1.15.3.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.parameterTypeChanged",
+  "old" : "parameter java.lang.String org.jsoup.Jsoup::clean(java.lang.String, ===org.jsoup.safety.Whitelist===)",
+  "new" : "parameter java.lang.String org.jsoup.Jsoup::clean(java.lang.String, ===org.jsoup.safety.Safelist===)",
+  "name" : "parameter type changed",
+  "description" : "The type of the parameter changed from 'org.jsoup.safety.Whitelist' to 'org.jsoup.safety.Safelist'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "POTENTIALLY_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "org.jsoup.safety.Whitelist"
+  }, {
+    "name" : "newType",
+    "value" : "org.jsoup.safety.Safelist"
+  }, {
+    "name" : "package",
+    "value" : "org.jsoup"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.jsoup.Jsoup"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "Jsoup"
+  }, {
+    "name" : "methodName",
+    "value" : "clean"
+  }, {
+    "name" : "parameterIndex",
+    "value" : "1"
+  }, {
+    "name" : "elementKind",
+    "value" : "parameter"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jsoup-1.11.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "jsoup-1.15.3.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.parameterTypeChanged",
+  "old" : "parameter boolean org.jsoup.Jsoup::isValid(java.lang.String, ===org.jsoup.safety.Whitelist===)",
+  "new" : "parameter boolean org.jsoup.Jsoup::isValid(java.lang.String, ===org.jsoup.safety.Safelist===)",
+  "name" : "parameter type changed",
+  "description" : "The type of the parameter changed from 'org.jsoup.safety.Whitelist' to 'org.jsoup.safety.Safelist'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "POTENTIALLY_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "org.jsoup.safety.Whitelist"
+  }, {
+    "name" : "newType",
+    "value" : "org.jsoup.safety.Safelist"
+  }, {
+    "name" : "package",
+    "value" : "org.jsoup"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.jsoup.Jsoup"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "Jsoup"
+  }, {
+    "name" : "methodName",
+    "value" : "isValid"
+  }, {
+    "name" : "parameterIndex",
+    "value" : "1"
+  }, {
+    "name" : "elementKind",
+    "value" : "parameter"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jsoup-1.11.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "jsoup-1.15.3.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.noLongerInheritsFromClass",
+  "old" : "class org.jsoup.UncheckedIOException",
+  "new" : "class org.jsoup.UncheckedIOException",
+  "name" : "removed super class",
+  "description" : "Class no longer inherits from 'java.lang.Error'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "superClass",
+    "value" : "java.lang.Error"
+  }, {
+    "name" : "package",
+    "value" : "org.jsoup"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.jsoup.UncheckedIOException"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "UncheckedIOException"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jsoup-1.11.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "jsoup-1.15.3.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.nonFinalClassInheritsFromNewClass",
+  "old" : "class org.jsoup.UncheckedIOException",
+  "new" : "class org.jsoup.UncheckedIOException",
+  "name" : "new super class of non-final class",
+  "description" : "Non-final class now inherits from 'java.lang.Exception'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "POTENTIALLY_BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "POTENTIALLY_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "superClass",
+    "value" : "java.lang.Exception"
+  }, {
+    "name" : "package",
+    "value" : "org.jsoup"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.jsoup.UncheckedIOException"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "UncheckedIOException"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jsoup-1.11.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "jsoup-1.15.3.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class org.jsoup.examples.HtmlToPlainText",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.jsoup.examples"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.jsoup.examples.HtmlToPlainText"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "HtmlToPlainText"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jsoup-1.11.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class org.jsoup.examples.ListLinks",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.jsoup.examples"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.jsoup.examples.ListLinks"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "ListLinks"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jsoup-1.11.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method boolean org.jsoup.helper.HttpConnection.Request::validateTLSCertificates()",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.jsoup.helper"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.jsoup.helper.HttpConnection.Request"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "Request"
+  }, {
+    "name" : "methodName",
+    "value" : "validateTLSCertificates"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jsoup-1.11.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method void org.jsoup.helper.HttpConnection.Request::validateTLSCertificates(boolean)",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.jsoup.helper"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.jsoup.helper.HttpConnection.Request"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "Request"
+  }, {
+    "name" : "methodName",
+    "value" : "validateTLSCertificates"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jsoup-1.11.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.field.constantValueChanged",
+  "old" : "field org.jsoup.helper.HttpConnection.DEFAULT_UA",
+  "new" : "field org.jsoup.helper.HttpConnection.DEFAULT_UA",
+  "name" : "constant field changed value",
+  "description" : "Constant field changed value from 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.143 Safari/537.36' to 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SEMANTIC",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldValue",
+    "value" : "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.143 Safari/537.36"
+  }, {
+    "name" : "newValue",
+    "value" : "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36"
+  }, {
+    "name" : "package",
+    "value" : "org.jsoup.helper"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.jsoup.helper.HttpConnection"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "HttpConnection"
+  }, {
+    "name" : "fieldName",
+    "value" : "DEFAULT_UA"
+  }, {
+    "name" : "elementKind",
+    "value" : "field"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jsoup-1.11.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "jsoup-1.15.3.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method org.jsoup.Connection org.jsoup.helper.HttpConnection::validateTLSCertificates(boolean)",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.jsoup.helper"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.jsoup.helper.HttpConnection"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "HttpConnection"
+  }, {
+    "name" : "methodName",
+    "value" : "validateTLSCertificates"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jsoup-1.11.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class org.jsoup.helper.StringUtil",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.jsoup.helper"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.jsoup.helper.StringUtil"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "StringUtil"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jsoup-1.11.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method boolean org.jsoup.nodes.Attribute::isBooleanAttribute()",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.jsoup.nodes"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.jsoup.nodes.Attribute"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "Attribute"
+  }, {
+    "name" : "methodName",
+    "value" : "isBooleanAttribute"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jsoup-1.11.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class org.jsoup.nodes.BooleanAttribute",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.jsoup.nodes"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.jsoup.nodes.BooleanAttribute"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "BooleanAttribute"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jsoup-1.11.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method void org.jsoup.nodes.Comment::<init>(java.lang.String, java.lang.String)",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.jsoup.nodes"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.jsoup.nodes.Comment"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "Comment"
+  }, {
+    "name" : "methodName",
+    "value" : "<init>"
+  }, {
+    "name" : "elementKind",
+    "value" : "constructor"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jsoup-1.11.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.returnTypeChangedCovariantly",
+  "old" : "method java.lang.Object java.lang.Object::clone() throws java.lang.CloneNotSupportedException @ org.jsoup.nodes.Comment",
+  "new" : "method org.jsoup.nodes.Comment org.jsoup.nodes.Comment::clone()",
+  "name" : "return type changed covariantly",
+  "description" : "The return type changed covariantly from 'java.lang.Object' to 'org.jsoup.nodes.Comment'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "java.lang.Object"
+  }, {
+    "name" : "newType",
+    "value" : "org.jsoup.nodes.Comment"
+  }, {
+    "name" : "package",
+    "value" : "org.jsoup.nodes"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.jsoup.nodes.Comment"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "Comment"
+  }, {
+    "name" : "methodName",
+    "value" : "clone"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jsoup-1.11.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "jsoup-1.15.3.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.visibilityIncreased",
+  "old" : "method java.lang.Object java.lang.Object::clone() throws java.lang.CloneNotSupportedException @ org.jsoup.nodes.Comment",
+  "new" : "method org.jsoup.nodes.Comment org.jsoup.nodes.Comment::clone()",
+  "name" : "visibility increased",
+  "description" : "visibility increased",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "EQUIVALENT"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "POTENTIALLY_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldVisibility",
+    "value" : "protected"
+  }, {
+    "name" : "newVisibility",
+    "value" : "public"
+  }, {
+    "name" : "package",
+    "value" : "org.jsoup.nodes"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.jsoup.nodes.Comment"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "Comment"
+  }, {
+    "name" : "methodName",
+    "value" : "clone"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jsoup-1.11.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "jsoup-1.15.3.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.exception.checkedRemoved",
+  "old" : "method java.lang.Object java.lang.Object::clone() throws java.lang.CloneNotSupportedException @ org.jsoup.nodes.Comment",
+  "new" : "method org.jsoup.nodes.Comment org.jsoup.nodes.Comment::clone()",
+  "name" : "Method no longer throws checked exceptions",
+  "description" : "Method no longer throws checked exceptions: java.lang.CloneNotSupportedException.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "exception",
+    "value" : "java.lang.CloneNotSupportedException"
+  }, {
+    "name" : "package",
+    "value" : "org.jsoup.nodes"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.jsoup.nodes.Comment"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "Comment"
+  }, {
+    "name" : "methodName",
+    "value" : "clone"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jsoup-1.11.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "jsoup-1.15.3.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.inheritedMovedToClass",
+  "old" : "method java.lang.Object java.lang.Object::clone() throws java.lang.CloneNotSupportedException @ org.jsoup.nodes.Comment",
+  "new" : "method org.jsoup.nodes.Comment org.jsoup.nodes.Comment::clone()",
+  "name" : "inherited method moved to class",
+  "description" : "The method was previously declared in superclass 'java.lang.Object' but is now declared in class 'org.jsoup.nodes.Comment'.",
+  "criticality" : "allowed",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "EQUIVALENT"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "EQUIVALENT"
+  } ],
+  "attachments" : [ {
+    "name" : "oldClass",
+    "value" : "java.lang.Object"
+  }, {
+    "name" : "newClass",
+    "value" : "org.jsoup.nodes.Comment"
+  }, {
+    "name" : "package",
+    "value" : "org.jsoup.nodes"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.jsoup.nodes.Comment"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "Comment"
+  }, {
+    "name" : "methodName",
+    "value" : "clone"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jsoup-1.11.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "jsoup-1.15.3.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.annotation.removed",
+  "old" : "method java.lang.Object java.lang.Object::clone() throws java.lang.CloneNotSupportedException @ org.jsoup.nodes.Comment",
+  "new" : "method org.jsoup.nodes.Comment org.jsoup.nodes.Comment::clone()",
+  "name" : "removed annotation",
+  "description" : "Element no longer annotated with 'jdk.internal.vm.annotation.IntrinsicCandidate'.",
+  "criticality" : "allowed",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "EQUIVALENT"
+  }, {
+    "compatibility" : "SEMANTIC",
+    "severity" : "EQUIVALENT"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "EQUIVALENT"
+  } ],
+  "attachments" : [ {
+    "name" : "annotationType",
+    "value" : "jdk.internal.vm.annotation.IntrinsicCandidate"
+  }, {
+    "name" : "annotation",
+    "value" : "@jdk.internal.vm.annotation.IntrinsicCandidate"
+  }, {
+    "name" : "package",
+    "value" : "org.jsoup.nodes"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.jsoup.nodes.Comment"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "Comment"
+  }, {
+    "name" : "methodName",
+    "value" : "clone"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jsoup-1.11.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "jsoup-1.15.3.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method void org.jsoup.nodes.DataNode::<init>(java.lang.String, java.lang.String)",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.jsoup.nodes"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.jsoup.nodes.DataNode"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "DataNode"
+  }, {
+    "name" : "methodName",
+    "value" : "<init>"
+  }, {
+    "name" : "elementKind",
+    "value" : "constructor"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jsoup-1.11.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.returnTypeChangedCovariantly",
+  "old" : "method java.lang.Object java.lang.Object::clone() throws java.lang.CloneNotSupportedException @ org.jsoup.nodes.DataNode",
+  "new" : "method org.jsoup.nodes.DataNode org.jsoup.nodes.DataNode::clone()",
+  "name" : "return type changed covariantly",
+  "description" : "The return type changed covariantly from 'java.lang.Object' to 'org.jsoup.nodes.DataNode'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "java.lang.Object"
+  }, {
+    "name" : "newType",
+    "value" : "org.jsoup.nodes.DataNode"
+  }, {
+    "name" : "package",
+    "value" : "org.jsoup.nodes"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.jsoup.nodes.DataNode"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "DataNode"
+  }, {
+    "name" : "methodName",
+    "value" : "clone"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jsoup-1.11.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "jsoup-1.15.3.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.visibilityIncreased",
+  "old" : "method java.lang.Object java.lang.Object::clone() throws java.lang.CloneNotSupportedException @ org.jsoup.nodes.DataNode",
+  "new" : "method org.jsoup.nodes.DataNode org.jsoup.nodes.DataNode::clone()",
+  "name" : "visibility increased",
+  "description" : "visibility increased",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "EQUIVALENT"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "POTENTIALLY_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldVisibility",
+    "value" : "protected"
+  }, {
+    "name" : "newVisibility",
+    "value" : "public"
+  }, {
+    "name" : "package",
+    "value" : "org.jsoup.nodes"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.jsoup.nodes.DataNode"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "DataNode"
+  }, {
+    "name" : "methodName",
+    "value" : "clone"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jsoup-1.11.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "jsoup-1.15.3.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.exception.checkedRemoved",
+  "old" : "method java.lang.Object java.lang.Object::clone() throws java.lang.CloneNotSupportedException @ org.jsoup.nodes.DataNode",
+  "new" : "method org.jsoup.nodes.DataNode org.jsoup.nodes.DataNode::clone()",
+  "name" : "Method no longer throws checked exceptions",
+  "description" : "Method no longer throws checked exceptions: java.lang.CloneNotSupportedException.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "exception",
+    "value" : "java.lang.CloneNotSupportedException"
+  }, {
+    "name" : "package",
+    "value" : "org.jsoup.nodes"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.jsoup.nodes.DataNode"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "DataNode"
+  }, {
+    "name" : "methodName",
+    "value" : "clone"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jsoup-1.11.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "jsoup-1.15.3.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.inheritedMovedToClass",
+  "old" : "method java.lang.Object java.lang.Object::clone() throws java.lang.CloneNotSupportedException @ org.jsoup.nodes.DataNode",
+  "new" : "method org.jsoup.nodes.DataNode org.jsoup.nodes.DataNode::clone()",
+  "name" : "inherited method moved to class",
+  "description" : "The method was previously declared in superclass 'java.lang.Object' but is now declared in class 'org.jsoup.nodes.DataNode'.",
+  "criticality" : "allowed",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "EQUIVALENT"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "EQUIVALENT"
+  } ],
+  "attachments" : [ {
+    "name" : "oldClass",
+    "value" : "java.lang.Object"
+  }, {
+    "name" : "newClass",
+    "value" : "org.jsoup.nodes.DataNode"
+  }, {
+    "name" : "package",
+    "value" : "org.jsoup.nodes"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.jsoup.nodes.DataNode"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "DataNode"
+  }, {
+    "name" : "methodName",
+    "value" : "clone"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jsoup-1.11.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "jsoup-1.15.3.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.annotation.removed",
+  "old" : "method java.lang.Object java.lang.Object::clone() throws java.lang.CloneNotSupportedException @ org.jsoup.nodes.DataNode",
+  "new" : "method org.jsoup.nodes.DataNode org.jsoup.nodes.DataNode::clone()",
+  "name" : "removed annotation",
+  "description" : "Element no longer annotated with 'jdk.internal.vm.annotation.IntrinsicCandidate'.",
+  "criticality" : "allowed",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "EQUIVALENT"
+  }, {
+    "compatibility" : "SEMANTIC",
+    "severity" : "EQUIVALENT"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "EQUIVALENT"
+  } ],
+  "attachments" : [ {
+    "name" : "annotationType",
+    "value" : "jdk.internal.vm.annotation.IntrinsicCandidate"
+  }, {
+    "name" : "annotation",
+    "value" : "@jdk.internal.vm.annotation.IntrinsicCandidate"
+  }, {
+    "name" : "package",
+    "value" : "org.jsoup.nodes"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.jsoup.nodes.DataNode"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "DataNode"
+  }, {
+    "name" : "methodName",
+    "value" : "clone"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jsoup-1.11.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "jsoup-1.15.3.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method org.jsoup.nodes.DataNode org.jsoup.nodes.DataNode::createFromEncoded(java.lang.String, java.lang.String)",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.jsoup.nodes"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.jsoup.nodes.DataNode"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "DataNode"
+  }, {
+    "name" : "methodName",
+    "value" : "createFromEncoded"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jsoup-1.11.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.returnTypeChangedCovariantly",
+  "old" : "method org.jsoup.nodes.Element org.jsoup.nodes.Element::shallowClone() @ org.jsoup.nodes.Document",
+  "new" : "method org.jsoup.nodes.Document org.jsoup.nodes.Document::shallowClone()",
+  "name" : "return type changed covariantly",
+  "description" : "The return type changed covariantly from 'org.jsoup.nodes.Element' to 'org.jsoup.nodes.Document'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "org.jsoup.nodes.Element"
+  }, {
+    "name" : "newType",
+    "value" : "org.jsoup.nodes.Document"
+  }, {
+    "name" : "package",
+    "value" : "org.jsoup.nodes"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.jsoup.nodes.Document"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "Document"
+  }, {
+    "name" : "methodName",
+    "value" : "shallowClone"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jsoup-1.11.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "jsoup-1.15.3.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.inheritedMovedToClass",
+  "old" : "method org.jsoup.nodes.Element org.jsoup.nodes.Element::shallowClone() @ org.jsoup.nodes.Document",
+  "new" : "method org.jsoup.nodes.Document org.jsoup.nodes.Document::shallowClone()",
+  "name" : "inherited method moved to class",
+  "description" : "The method was previously declared in superclass 'org.jsoup.nodes.Element' but is now declared in class 'org.jsoup.nodes.Document'.",
+  "criticality" : "allowed",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "EQUIVALENT"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "EQUIVALENT"
+  } ],
+  "attachments" : [ {
+    "name" : "oldClass",
+    "value" : "org.jsoup.nodes.Element"
+  }, {
+    "name" : "newClass",
+    "value" : "org.jsoup.nodes.Document"
+  }, {
+    "name" : "package",
+    "value" : "org.jsoup.nodes"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.jsoup.nodes.Document"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "Document"
+  }, {
+    "name" : "methodName",
+    "value" : "shallowClone"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jsoup-1.11.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "jsoup-1.15.3.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method void org.jsoup.nodes.DocumentType::<init>(java.lang.String, java.lang.String, java.lang.String, java.lang.String)",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.jsoup.nodes"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.jsoup.nodes.DocumentType"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "DocumentType"
+  }, {
+    "name" : "methodName",
+    "value" : "<init>"
+  }, {
+    "name" : "elementKind",
+    "value" : "constructor"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jsoup-1.11.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method void org.jsoup.nodes.DocumentType::<init>(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.jsoup.nodes"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.jsoup.nodes.DocumentType"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "DocumentType"
+  }, {
+    "name" : "methodName",
+    "value" : "<init>"
+  }, {
+    "name" : "elementKind",
+    "value" : "constructor"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jsoup-1.11.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.returnTypeChangedCovariantly",
+  "old" : "method org.jsoup.nodes.Node org.jsoup.nodes.Node::clearAttributes() @ org.jsoup.nodes.Element",
+  "new" : "method org.jsoup.nodes.Element org.jsoup.nodes.Element::clearAttributes()",
+  "name" : "return type changed covariantly",
+  "description" : "The return type changed covariantly from 'org.jsoup.nodes.Node' to 'org.jsoup.nodes.Element'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "org.jsoup.nodes.Node"
+  }, {
+    "name" : "newType",
+    "value" : "org.jsoup.nodes.Element"
+  }, {
+    "name" : "package",
+    "value" : "org.jsoup.nodes"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.jsoup.nodes.Element"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "Element"
+  }, {
+    "name" : "methodName",
+    "value" : "clearAttributes"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jsoup-1.11.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "jsoup-1.15.3.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.inheritedMovedToClass",
+  "old" : "method org.jsoup.nodes.Node org.jsoup.nodes.Node::clearAttributes() @ org.jsoup.nodes.Element",
+  "new" : "method org.jsoup.nodes.Element org.jsoup.nodes.Element::clearAttributes()",
+  "name" : "inherited method moved to class",
+  "description" : "The method was previously declared in superclass 'org.jsoup.nodes.Node' but is now declared in class 'org.jsoup.nodes.Element'.",
+  "criticality" : "allowed",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "EQUIVALENT"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "EQUIVALENT"
+  } ],
+  "attachments" : [ {
+    "name" : "oldClass",
+    "value" : "org.jsoup.nodes.Node"
+  }, {
+    "name" : "newClass",
+    "value" : "org.jsoup.nodes.Element"
+  }, {
+    "name" : "package",
+    "value" : "org.jsoup.nodes"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.jsoup.nodes.Element"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "Element"
+  }, {
+    "name" : "methodName",
+    "value" : "clearAttributes"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jsoup-1.11.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "jsoup-1.15.3.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.returnTypeChangedCovariantly",
+  "old" : "method org.jsoup.nodes.Node org.jsoup.nodes.Node::filter(org.jsoup.select.NodeFilter) @ org.jsoup.nodes.Element",
+  "new" : "method org.jsoup.nodes.Element org.jsoup.nodes.Element::filter(org.jsoup.select.NodeFilter)",
+  "name" : "return type changed covariantly",
+  "description" : "The return type changed covariantly from 'org.jsoup.nodes.Node' to 'org.jsoup.nodes.Element'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "org.jsoup.nodes.Node"
+  }, {
+    "name" : "newType",
+    "value" : "org.jsoup.nodes.Element"
+  }, {
+    "name" : "package",
+    "value" : "org.jsoup.nodes"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.jsoup.nodes.Element"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "Element"
+  }, {
+    "name" : "methodName",
+    "value" : "filter"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jsoup-1.11.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "jsoup-1.15.3.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.inheritedMovedToClass",
+  "old" : "method org.jsoup.nodes.Node org.jsoup.nodes.Node::filter(org.jsoup.select.NodeFilter) @ org.jsoup.nodes.Element",
+  "new" : "method org.jsoup.nodes.Element org.jsoup.nodes.Element::filter(org.jsoup.select.NodeFilter)",
+  "name" : "inherited method moved to class",
+  "description" : "The method was previously declared in superclass 'org.jsoup.nodes.Node' but is now declared in class 'org.jsoup.nodes.Element'.",
+  "criticality" : "allowed",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "EQUIVALENT"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "EQUIVALENT"
+  } ],
+  "attachments" : [ {
+    "name" : "oldClass",
+    "value" : "org.jsoup.nodes.Node"
+  }, {
+    "name" : "newClass",
+    "value" : "org.jsoup.nodes.Element"
+  }, {
+    "name" : "package",
+    "value" : "org.jsoup.nodes"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.jsoup.nodes.Element"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "Element"
+  }, {
+    "name" : "methodName",
+    "value" : "filter"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jsoup-1.11.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "jsoup-1.15.3.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.returnTypeChangedCovariantly",
+  "old" : "method org.jsoup.nodes.Node org.jsoup.nodes.Node::removeAttr(java.lang.String) @ org.jsoup.nodes.Element",
+  "new" : "method org.jsoup.nodes.Element org.jsoup.nodes.Element::removeAttr(java.lang.String)",
+  "name" : "return type changed covariantly",
+  "description" : "The return type changed covariantly from 'org.jsoup.nodes.Node' to 'org.jsoup.nodes.Element'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "org.jsoup.nodes.Node"
+  }, {
+    "name" : "newType",
+    "value" : "org.jsoup.nodes.Element"
+  }, {
+    "name" : "package",
+    "value" : "org.jsoup.nodes"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.jsoup.nodes.Element"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "Element"
+  }, {
+    "name" : "methodName",
+    "value" : "removeAttr"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jsoup-1.11.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "jsoup-1.15.3.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.inheritedMovedToClass",
+  "old" : "method org.jsoup.nodes.Node org.jsoup.nodes.Node::removeAttr(java.lang.String) @ org.jsoup.nodes.Element",
+  "new" : "method org.jsoup.nodes.Element org.jsoup.nodes.Element::removeAttr(java.lang.String)",
+  "name" : "inherited method moved to class",
+  "description" : "The method was previously declared in superclass 'org.jsoup.nodes.Node' but is now declared in class 'org.jsoup.nodes.Element'.",
+  "criticality" : "allowed",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "EQUIVALENT"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "EQUIVALENT"
+  } ],
+  "attachments" : [ {
+    "name" : "oldClass",
+    "value" : "org.jsoup.nodes.Node"
+  }, {
+    "name" : "newClass",
+    "value" : "org.jsoup.nodes.Element"
+  }, {
+    "name" : "package",
+    "value" : "org.jsoup.nodes"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.jsoup.nodes.Element"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "Element"
+  }, {
+    "name" : "methodName",
+    "value" : "removeAttr"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jsoup-1.11.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "jsoup-1.15.3.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.returnTypeChangedCovariantly",
+  "old" : "method org.jsoup.nodes.Node org.jsoup.nodes.Node::root() @ org.jsoup.nodes.Element",
+  "new" : "method org.jsoup.nodes.Element org.jsoup.nodes.Element::root()",
+  "name" : "return type changed covariantly",
+  "description" : "The return type changed covariantly from 'org.jsoup.nodes.Node' to 'org.jsoup.nodes.Element'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "org.jsoup.nodes.Node"
+  }, {
+    "name" : "newType",
+    "value" : "org.jsoup.nodes.Element"
+  }, {
+    "name" : "package",
+    "value" : "org.jsoup.nodes"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.jsoup.nodes.Element"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "Element"
+  }, {
+    "name" : "methodName",
+    "value" : "root"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jsoup-1.11.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "jsoup-1.15.3.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.inheritedMovedToClass",
+  "old" : "method org.jsoup.nodes.Node org.jsoup.nodes.Node::root() @ org.jsoup.nodes.Element",
+  "new" : "method org.jsoup.nodes.Element org.jsoup.nodes.Element::root()",
+  "name" : "inherited method moved to class",
+  "description" : "The method was previously declared in superclass 'org.jsoup.nodes.Node' but is now declared in class 'org.jsoup.nodes.Element'.",
+  "criticality" : "allowed",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "EQUIVALENT"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "EQUIVALENT"
+  } ],
+  "attachments" : [ {
+    "name" : "oldClass",
+    "value" : "org.jsoup.nodes.Node"
+  }, {
+    "name" : "newClass",
+    "value" : "org.jsoup.nodes.Element"
+  }, {
+    "name" : "package",
+    "value" : "org.jsoup.nodes"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.jsoup.nodes.Element"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "Element"
+  }, {
+    "name" : "methodName",
+    "value" : "root"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jsoup-1.11.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "jsoup-1.15.3.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.returnTypeChangedCovariantly",
+  "old" : "method org.jsoup.nodes.Node org.jsoup.nodes.Node::traverse(org.jsoup.select.NodeVisitor) @ org.jsoup.nodes.Element",
+  "new" : "method org.jsoup.nodes.Element org.jsoup.nodes.Element::traverse(org.jsoup.select.NodeVisitor)",
+  "name" : "return type changed covariantly",
+  "description" : "The return type changed covariantly from 'org.jsoup.nodes.Node' to 'org.jsoup.nodes.Element'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "org.jsoup.nodes.Node"
+  }, {
+    "name" : "newType",
+    "value" : "org.jsoup.nodes.Element"
+  }, {
+    "name" : "package",
+    "value" : "org.jsoup.nodes"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.jsoup.nodes.Element"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "Element"
+  }, {
+    "name" : "methodName",
+    "value" : "traverse"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jsoup-1.11.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "jsoup-1.15.3.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.inheritedMovedToClass",
+  "old" : "method org.jsoup.nodes.Node org.jsoup.nodes.Node::traverse(org.jsoup.select.NodeVisitor) @ org.jsoup.nodes.Element",
+  "new" : "method org.jsoup.nodes.Element org.jsoup.nodes.Element::traverse(org.jsoup.select.NodeVisitor)",
+  "name" : "inherited method moved to class",
+  "description" : "The method was previously declared in superclass 'org.jsoup.nodes.Node' but is now declared in class 'org.jsoup.nodes.Element'.",
+  "criticality" : "allowed",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "EQUIVALENT"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "EQUIVALENT"
+  } ],
+  "attachments" : [ {
+    "name" : "oldClass",
+    "value" : "org.jsoup.nodes.Node"
+  }, {
+    "name" : "newClass",
+    "value" : "org.jsoup.nodes.Element"
+  }, {
+    "name" : "package",
+    "value" : "org.jsoup.nodes"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.jsoup.nodes.Element"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "Element"
+  }, {
+    "name" : "methodName",
+    "value" : "traverse"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jsoup-1.11.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "jsoup-1.15.3.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method java.lang.Character org.jsoup.nodes.Entities::getCharacterByName(java.lang.String)",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.jsoup.nodes"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.jsoup.nodes.Entities"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "Entities"
+  }, {
+    "name" : "methodName",
+    "value" : "getCharacterByName"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jsoup-1.11.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.returnTypeChangedCovariantly",
+  "old" : "method java.lang.Object java.lang.Object::clone() throws java.lang.CloneNotSupportedException @ org.jsoup.nodes.FormElement",
+  "new" : "method org.jsoup.nodes.FormElement org.jsoup.nodes.FormElement::clone()",
+  "name" : "return type changed covariantly",
+  "description" : "The return type changed covariantly from 'java.lang.Object' to 'org.jsoup.nodes.FormElement'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "java.lang.Object"
+  }, {
+    "name" : "newType",
+    "value" : "org.jsoup.nodes.FormElement"
+  }, {
+    "name" : "package",
+    "value" : "org.jsoup.nodes"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.jsoup.nodes.FormElement"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "FormElement"
+  }, {
+    "name" : "methodName",
+    "value" : "clone"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jsoup-1.11.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "jsoup-1.15.3.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.visibilityIncreased",
+  "old" : "method java.lang.Object java.lang.Object::clone() throws java.lang.CloneNotSupportedException @ org.jsoup.nodes.FormElement",
+  "new" : "method org.jsoup.nodes.FormElement org.jsoup.nodes.FormElement::clone()",
+  "name" : "visibility increased",
+  "description" : "visibility increased",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "EQUIVALENT"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "POTENTIALLY_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldVisibility",
+    "value" : "protected"
+  }, {
+    "name" : "newVisibility",
+    "value" : "public"
+  }, {
+    "name" : "package",
+    "value" : "org.jsoup.nodes"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.jsoup.nodes.FormElement"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "FormElement"
+  }, {
+    "name" : "methodName",
+    "value" : "clone"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jsoup-1.11.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "jsoup-1.15.3.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.exception.checkedRemoved",
+  "old" : "method java.lang.Object java.lang.Object::clone() throws java.lang.CloneNotSupportedException @ org.jsoup.nodes.FormElement",
+  "new" : "method org.jsoup.nodes.FormElement org.jsoup.nodes.FormElement::clone()",
+  "name" : "Method no longer throws checked exceptions",
+  "description" : "Method no longer throws checked exceptions: java.lang.CloneNotSupportedException.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "exception",
+    "value" : "java.lang.CloneNotSupportedException"
+  }, {
+    "name" : "package",
+    "value" : "org.jsoup.nodes"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.jsoup.nodes.FormElement"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "FormElement"
+  }, {
+    "name" : "methodName",
+    "value" : "clone"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jsoup-1.11.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "jsoup-1.15.3.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.inheritedMovedToClass",
+  "old" : "method java.lang.Object java.lang.Object::clone() throws java.lang.CloneNotSupportedException @ org.jsoup.nodes.FormElement",
+  "new" : "method org.jsoup.nodes.FormElement org.jsoup.nodes.FormElement::clone()",
+  "name" : "inherited method moved to class",
+  "description" : "The method was previously declared in superclass 'java.lang.Object' but is now declared in class 'org.jsoup.nodes.FormElement'.",
+  "criticality" : "allowed",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "EQUIVALENT"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "EQUIVALENT"
+  } ],
+  "attachments" : [ {
+    "name" : "oldClass",
+    "value" : "java.lang.Object"
+  }, {
+    "name" : "newClass",
+    "value" : "org.jsoup.nodes.FormElement"
+  }, {
+    "name" : "package",
+    "value" : "org.jsoup.nodes"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.jsoup.nodes.FormElement"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "FormElement"
+  }, {
+    "name" : "methodName",
+    "value" : "clone"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jsoup-1.11.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "jsoup-1.15.3.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.annotation.removed",
+  "old" : "method java.lang.Object java.lang.Object::clone() throws java.lang.CloneNotSupportedException @ org.jsoup.nodes.FormElement",
+  "new" : "method org.jsoup.nodes.FormElement org.jsoup.nodes.FormElement::clone()",
+  "name" : "removed annotation",
+  "description" : "Element no longer annotated with 'jdk.internal.vm.annotation.IntrinsicCandidate'.",
+  "criticality" : "allowed",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "EQUIVALENT"
+  }, {
+    "compatibility" : "SEMANTIC",
+    "severity" : "EQUIVALENT"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "EQUIVALENT"
+  } ],
+  "attachments" : [ {
+    "name" : "annotationType",
+    "value" : "jdk.internal.vm.annotation.IntrinsicCandidate"
+  }, {
+    "name" : "annotation",
+    "value" : "@jdk.internal.vm.annotation.IntrinsicCandidate"
+  }, {
+    "name" : "package",
+    "value" : "org.jsoup.nodes"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.jsoup.nodes.FormElement"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "FormElement"
+  }, {
+    "name" : "methodName",
+    "value" : "clone"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jsoup-1.11.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "jsoup-1.15.3.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.nonPublicPartOfAPI",
+  "old" : null,
+  "new" : "class org.jsoup.nodes.LeafNode",
+  "name" : "non-public class in API",
+  "description" : "Class 'org.jsoup.nodes.LeafNode' is indirectly included in the API (by the means of method return type for example) but the class is not accessible (neither public nor protected).",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SEMANTIC",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "classSimpleName",
+    "value" : "LeafNode"
+  }, {
+    "name" : "exampleUseChainInNewApi",
+    "value" : "org.jsoup.nodes.LeafNode is returned from method org.jsoup.nodes.LeafNode org.jsoup.nodes.LeafNode::doClone(org.jsoup.nodes.Node) @ org.jsoup.nodes.DocumentType (method org.jsoup.nodes.LeafNode org.jsoup.nodes.LeafNode::doClone(org.jsoup.nodes.Node) @ org.jsoup.nodes.DocumentType is part of the API)"
+  }, {
+    "name" : "package",
+    "value" : "org.jsoup.nodes"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.jsoup.nodes.LeafNode"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "newArchive",
+    "value" : "jsoup-1.15.3.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.abstractMethodAdded",
+  "old" : null,
+  "new" : "method org.jsoup.nodes.Node org.jsoup.nodes.Node::empty()",
+  "name" : "abstract method added",
+  "description" : "Abstract method was added.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.jsoup.nodes"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.jsoup.nodes.Node"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "Node"
+  }, {
+    "name" : "methodName",
+    "value" : "empty"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "newArchive",
+    "value" : "jsoup-1.15.3.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method void org.jsoup.nodes.TextNode::<init>(java.lang.String, java.lang.String)",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.jsoup.nodes"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.jsoup.nodes.TextNode"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "TextNode"
+  }, {
+    "name" : "methodName",
+    "value" : "<init>"
+  }, {
+    "name" : "elementKind",
+    "value" : "constructor"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jsoup-1.11.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.returnTypeChangedCovariantly",
+  "old" : "method java.lang.Object java.lang.Object::clone() throws java.lang.CloneNotSupportedException @ org.jsoup.nodes.TextNode",
+  "new" : "method org.jsoup.nodes.TextNode org.jsoup.nodes.TextNode::clone()",
+  "name" : "return type changed covariantly",
+  "description" : "The return type changed covariantly from 'java.lang.Object' to 'org.jsoup.nodes.TextNode'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "java.lang.Object"
+  }, {
+    "name" : "newType",
+    "value" : "org.jsoup.nodes.TextNode"
+  }, {
+    "name" : "package",
+    "value" : "org.jsoup.nodes"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.jsoup.nodes.TextNode"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "TextNode"
+  }, {
+    "name" : "methodName",
+    "value" : "clone"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jsoup-1.11.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "jsoup-1.15.3.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.visibilityIncreased",
+  "old" : "method java.lang.Object java.lang.Object::clone() throws java.lang.CloneNotSupportedException @ org.jsoup.nodes.TextNode",
+  "new" : "method org.jsoup.nodes.TextNode org.jsoup.nodes.TextNode::clone()",
+  "name" : "visibility increased",
+  "description" : "visibility increased",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "EQUIVALENT"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "POTENTIALLY_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldVisibility",
+    "value" : "protected"
+  }, {
+    "name" : "newVisibility",
+    "value" : "public"
+  }, {
+    "name" : "package",
+    "value" : "org.jsoup.nodes"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.jsoup.nodes.TextNode"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "TextNode"
+  }, {
+    "name" : "methodName",
+    "value" : "clone"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jsoup-1.11.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "jsoup-1.15.3.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.exception.checkedRemoved",
+  "old" : "method java.lang.Object java.lang.Object::clone() throws java.lang.CloneNotSupportedException @ org.jsoup.nodes.TextNode",
+  "new" : "method org.jsoup.nodes.TextNode org.jsoup.nodes.TextNode::clone()",
+  "name" : "Method no longer throws checked exceptions",
+  "description" : "Method no longer throws checked exceptions: java.lang.CloneNotSupportedException.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "exception",
+    "value" : "java.lang.CloneNotSupportedException"
+  }, {
+    "name" : "package",
+    "value" : "org.jsoup.nodes"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.jsoup.nodes.TextNode"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "TextNode"
+  }, {
+    "name" : "methodName",
+    "value" : "clone"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jsoup-1.11.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "jsoup-1.15.3.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.inheritedMovedToClass",
+  "old" : "method java.lang.Object java.lang.Object::clone() throws java.lang.CloneNotSupportedException @ org.jsoup.nodes.TextNode",
+  "new" : "method org.jsoup.nodes.TextNode org.jsoup.nodes.TextNode::clone()",
+  "name" : "inherited method moved to class",
+  "description" : "The method was previously declared in superclass 'java.lang.Object' but is now declared in class 'org.jsoup.nodes.TextNode'.",
+  "criticality" : "allowed",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "EQUIVALENT"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "EQUIVALENT"
+  } ],
+  "attachments" : [ {
+    "name" : "oldClass",
+    "value" : "java.lang.Object"
+  }, {
+    "name" : "newClass",
+    "value" : "org.jsoup.nodes.TextNode"
+  }, {
+    "name" : "package",
+    "value" : "org.jsoup.nodes"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.jsoup.nodes.TextNode"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "TextNode"
+  }, {
+    "name" : "methodName",
+    "value" : "clone"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jsoup-1.11.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "jsoup-1.15.3.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.annotation.removed",
+  "old" : "method java.lang.Object java.lang.Object::clone() throws java.lang.CloneNotSupportedException @ org.jsoup.nodes.TextNode",
+  "new" : "method org.jsoup.nodes.TextNode org.jsoup.nodes.TextNode::clone()",
+  "name" : "removed annotation",
+  "description" : "Element no longer annotated with 'jdk.internal.vm.annotation.IntrinsicCandidate'.",
+  "criticality" : "allowed",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "EQUIVALENT"
+  }, {
+    "compatibility" : "SEMANTIC",
+    "severity" : "EQUIVALENT"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "EQUIVALENT"
+  } ],
+  "attachments" : [ {
+    "name" : "annotationType",
+    "value" : "jdk.internal.vm.annotation.IntrinsicCandidate"
+  }, {
+    "name" : "annotation",
+    "value" : "@jdk.internal.vm.annotation.IntrinsicCandidate"
+  }, {
+    "name" : "package",
+    "value" : "org.jsoup.nodes"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.jsoup.nodes.TextNode"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "TextNode"
+  }, {
+    "name" : "methodName",
+    "value" : "clone"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jsoup-1.11.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "jsoup-1.15.3.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method org.jsoup.nodes.TextNode org.jsoup.nodes.TextNode::createFromEncoded(java.lang.String, java.lang.String)",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.jsoup.nodes"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.jsoup.nodes.TextNode"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "TextNode"
+  }, {
+    "name" : "methodName",
+    "value" : "createFromEncoded"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jsoup-1.11.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method void org.jsoup.nodes.XmlDeclaration::<init>(java.lang.String, java.lang.String, boolean)",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.jsoup.nodes"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.jsoup.nodes.XmlDeclaration"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "XmlDeclaration"
+  }, {
+    "name" : "methodName",
+    "value" : "<init>"
+  }, {
+    "name" : "elementKind",
+    "value" : "constructor"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jsoup-1.11.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.returnTypeChangedCovariantly",
+  "old" : "method java.lang.Object java.lang.Object::clone() throws java.lang.CloneNotSupportedException @ org.jsoup.nodes.XmlDeclaration",
+  "new" : "method org.jsoup.nodes.XmlDeclaration org.jsoup.nodes.XmlDeclaration::clone()",
+  "name" : "return type changed covariantly",
+  "description" : "The return type changed covariantly from 'java.lang.Object' to 'org.jsoup.nodes.XmlDeclaration'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "java.lang.Object"
+  }, {
+    "name" : "newType",
+    "value" : "org.jsoup.nodes.XmlDeclaration"
+  }, {
+    "name" : "package",
+    "value" : "org.jsoup.nodes"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.jsoup.nodes.XmlDeclaration"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "XmlDeclaration"
+  }, {
+    "name" : "methodName",
+    "value" : "clone"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jsoup-1.11.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "jsoup-1.15.3.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.visibilityIncreased",
+  "old" : "method java.lang.Object java.lang.Object::clone() throws java.lang.CloneNotSupportedException @ org.jsoup.nodes.XmlDeclaration",
+  "new" : "method org.jsoup.nodes.XmlDeclaration org.jsoup.nodes.XmlDeclaration::clone()",
+  "name" : "visibility increased",
+  "description" : "visibility increased",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "EQUIVALENT"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "POTENTIALLY_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldVisibility",
+    "value" : "protected"
+  }, {
+    "name" : "newVisibility",
+    "value" : "public"
+  }, {
+    "name" : "package",
+    "value" : "org.jsoup.nodes"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.jsoup.nodes.XmlDeclaration"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "XmlDeclaration"
+  }, {
+    "name" : "methodName",
+    "value" : "clone"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jsoup-1.11.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "jsoup-1.15.3.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.exception.checkedRemoved",
+  "old" : "method java.lang.Object java.lang.Object::clone() throws java.lang.CloneNotSupportedException @ org.jsoup.nodes.XmlDeclaration",
+  "new" : "method org.jsoup.nodes.XmlDeclaration org.jsoup.nodes.XmlDeclaration::clone()",
+  "name" : "Method no longer throws checked exceptions",
+  "description" : "Method no longer throws checked exceptions: java.lang.CloneNotSupportedException.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "exception",
+    "value" : "java.lang.CloneNotSupportedException"
+  }, {
+    "name" : "package",
+    "value" : "org.jsoup.nodes"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.jsoup.nodes.XmlDeclaration"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "XmlDeclaration"
+  }, {
+    "name" : "methodName",
+    "value" : "clone"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jsoup-1.11.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "jsoup-1.15.3.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.inheritedMovedToClass",
+  "old" : "method java.lang.Object java.lang.Object::clone() throws java.lang.CloneNotSupportedException @ org.jsoup.nodes.XmlDeclaration",
+  "new" : "method org.jsoup.nodes.XmlDeclaration org.jsoup.nodes.XmlDeclaration::clone()",
+  "name" : "inherited method moved to class",
+  "description" : "The method was previously declared in superclass 'java.lang.Object' but is now declared in class 'org.jsoup.nodes.XmlDeclaration'.",
+  "criticality" : "allowed",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "EQUIVALENT"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "EQUIVALENT"
+  } ],
+  "attachments" : [ {
+    "name" : "oldClass",
+    "value" : "java.lang.Object"
+  }, {
+    "name" : "newClass",
+    "value" : "org.jsoup.nodes.XmlDeclaration"
+  }, {
+    "name" : "package",
+    "value" : "org.jsoup.nodes"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.jsoup.nodes.XmlDeclaration"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "XmlDeclaration"
+  }, {
+    "name" : "methodName",
+    "value" : "clone"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jsoup-1.11.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "jsoup-1.15.3.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.annotation.removed",
+  "old" : "method java.lang.Object java.lang.Object::clone() throws java.lang.CloneNotSupportedException @ org.jsoup.nodes.XmlDeclaration",
+  "new" : "method org.jsoup.nodes.XmlDeclaration org.jsoup.nodes.XmlDeclaration::clone()",
+  "name" : "removed annotation",
+  "description" : "Element no longer annotated with 'jdk.internal.vm.annotation.IntrinsicCandidate'.",
+  "criticality" : "allowed",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "EQUIVALENT"
+  }, {
+    "compatibility" : "SEMANTIC",
+    "severity" : "EQUIVALENT"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "EQUIVALENT"
+  } ],
+  "attachments" : [ {
+    "name" : "annotationType",
+    "value" : "jdk.internal.vm.annotation.IntrinsicCandidate"
+  }, {
+    "name" : "annotation",
+    "value" : "@jdk.internal.vm.annotation.IntrinsicCandidate"
+  }, {
+    "name" : "package",
+    "value" : "org.jsoup.nodes"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.jsoup.nodes.XmlDeclaration"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "XmlDeclaration"
+  }, {
+    "name" : "methodName",
+    "value" : "clone"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jsoup-1.11.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "jsoup-1.15.3.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.numberOfParametersChanged",
+  "old" : "method void org.jsoup.parser.HtmlTreeBuilder::initialiseParse(java.io.Reader, java.lang.String, org.jsoup.parser.ParseErrorList, org.jsoup.parser.ParseSettings)",
+  "new" : "method void org.jsoup.parser.HtmlTreeBuilder::initialiseParse(java.io.Reader, java.lang.String, org.jsoup.parser.Parser)",
+  "name" : "number of parameters changed",
+  "description" : "The number of parameters of the method have changed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.jsoup.parser"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.jsoup.parser.HtmlTreeBuilder"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "HtmlTreeBuilder"
+  }, {
+    "name" : "methodName",
+    "value" : "initialiseParse"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jsoup-1.11.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "jsoup-1.15.3.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.annotation.added",
+  "old" : "method void org.jsoup.parser.HtmlTreeBuilder::initialiseParse(java.io.Reader, java.lang.String, org.jsoup.parser.ParseErrorList, org.jsoup.parser.ParseSettings)",
+  "new" : "method void org.jsoup.parser.HtmlTreeBuilder::initialiseParse(java.io.Reader, java.lang.String, org.jsoup.parser.Parser)",
+  "name" : "new annotation",
+  "description" : "Element newly annotated with 'javax.annotation.ParametersAreNonnullByDefault'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "EQUIVALENT"
+  }, {
+    "compatibility" : "SEMANTIC",
+    "severity" : "POTENTIALLY_BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "EQUIVALENT"
+  } ],
+  "attachments" : [ {
+    "name" : "annotationType",
+    "value" : "javax.annotation.ParametersAreNonnullByDefault"
+  }, {
+    "name" : "annotation",
+    "value" : "@javax.annotation.ParametersAreNonnullByDefault"
+  }, {
+    "name" : "package",
+    "value" : "org.jsoup.parser"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.jsoup.parser.HtmlTreeBuilder"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "HtmlTreeBuilder"
+  }, {
+    "name" : "methodName",
+    "value" : "initialiseParse"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jsoup-1.11.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "jsoup-1.15.3.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.visibilityIncreased",
+  "old" : "method java.lang.Object java.lang.Object::clone() throws java.lang.CloneNotSupportedException @ org.jsoup.parser.ParseErrorList",
+  "new" : "method java.lang.Object org.jsoup.parser.ParseErrorList::clone()",
+  "name" : "visibility increased",
+  "description" : "visibility increased",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "EQUIVALENT"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "POTENTIALLY_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldVisibility",
+    "value" : "protected"
+  }, {
+    "name" : "newVisibility",
+    "value" : "public"
+  }, {
+    "name" : "package",
+    "value" : "org.jsoup.parser"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.jsoup.parser.ParseErrorList"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "ParseErrorList"
+  }, {
+    "name" : "methodName",
+    "value" : "clone"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jsoup-1.11.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "jsoup-1.15.3.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.exception.checkedRemoved",
+  "old" : "method java.lang.Object java.lang.Object::clone() throws java.lang.CloneNotSupportedException @ org.jsoup.parser.ParseErrorList",
+  "new" : "method java.lang.Object org.jsoup.parser.ParseErrorList::clone()",
+  "name" : "Method no longer throws checked exceptions",
+  "description" : "Method no longer throws checked exceptions: java.lang.CloneNotSupportedException.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "exception",
+    "value" : "java.lang.CloneNotSupportedException"
+  }, {
+    "name" : "package",
+    "value" : "org.jsoup.parser"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.jsoup.parser.ParseErrorList"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "ParseErrorList"
+  }, {
+    "name" : "methodName",
+    "value" : "clone"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jsoup-1.11.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "jsoup-1.15.3.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.inheritedMovedToClass",
+  "old" : "method java.lang.Object java.lang.Object::clone() throws java.lang.CloneNotSupportedException @ org.jsoup.parser.ParseErrorList",
+  "new" : "method java.lang.Object org.jsoup.parser.ParseErrorList::clone()",
+  "name" : "inherited method moved to class",
+  "description" : "The method was previously declared in superclass 'java.lang.Object' but is now declared in class 'org.jsoup.parser.ParseErrorList'.",
+  "criticality" : "allowed",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "EQUIVALENT"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "EQUIVALENT"
+  } ],
+  "attachments" : [ {
+    "name" : "oldClass",
+    "value" : "java.lang.Object"
+  }, {
+    "name" : "newClass",
+    "value" : "org.jsoup.parser.ParseErrorList"
+  }, {
+    "name" : "package",
+    "value" : "org.jsoup.parser"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.jsoup.parser.ParseErrorList"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "ParseErrorList"
+  }, {
+    "name" : "methodName",
+    "value" : "clone"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jsoup-1.11.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "jsoup-1.15.3.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.annotation.removed",
+  "old" : "method java.lang.Object java.lang.Object::clone() throws java.lang.CloneNotSupportedException @ org.jsoup.parser.ParseErrorList",
+  "new" : "method java.lang.Object org.jsoup.parser.ParseErrorList::clone()",
+  "name" : "removed annotation",
+  "description" : "Element no longer annotated with 'jdk.internal.vm.annotation.IntrinsicCandidate'.",
+  "criticality" : "allowed",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "EQUIVALENT"
+  }, {
+    "compatibility" : "SEMANTIC",
+    "severity" : "EQUIVALENT"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "EQUIVALENT"
+  } ],
+  "attachments" : [ {
+    "name" : "annotationType",
+    "value" : "jdk.internal.vm.annotation.IntrinsicCandidate"
+  }, {
+    "name" : "annotation",
+    "value" : "@jdk.internal.vm.annotation.IntrinsicCandidate"
+  }, {
+    "name" : "package",
+    "value" : "org.jsoup.parser"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.jsoup.parser.ParseErrorList"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "ParseErrorList"
+  }, {
+    "name" : "methodName",
+    "value" : "clone"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jsoup-1.11.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "jsoup-1.15.3.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.returnTypeChanged",
+  "old" : "method java.util.List<org.jsoup.parser.ParseError> org.jsoup.parser.Parser::getErrors()",
+  "new" : "method org.jsoup.parser.ParseErrorList org.jsoup.parser.Parser::getErrors()",
+  "name" : "return type changed",
+  "description" : "The return type changed from 'java.util.List<org.jsoup.parser.ParseError>' to  'org.jsoup.parser.ParseErrorList'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "POTENTIALLY_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "java.util.List<org.jsoup.parser.ParseError>"
+  }, {
+    "name" : "newType",
+    "value" : "org.jsoup.parser.ParseErrorList"
+  }, {
+    "name" : "package",
+    "value" : "org.jsoup.parser"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.jsoup.parser.Parser"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "Parser"
+  }, {
+    "name" : "methodName",
+    "value" : "getErrors"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jsoup-1.11.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "jsoup-1.15.3.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method org.jsoup.nodes.Document org.jsoup.parser.Parser::parseBodyFragmentRelaxed(java.lang.String, java.lang.String)",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.jsoup.parser"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.jsoup.parser.Parser"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "Parser"
+  }, {
+    "name" : "methodName",
+    "value" : "parseBodyFragmentRelaxed"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jsoup-1.11.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method boolean org.jsoup.parser.Tag::canContainBlock()",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.jsoup.parser"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.jsoup.parser.Tag"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "Tag"
+  }, {
+    "name" : "methodName",
+    "value" : "canContainBlock"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jsoup-1.11.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.returnTypeChangedCovariantly",
+  "old" : "method java.lang.Object java.lang.Object::clone() throws java.lang.CloneNotSupportedException @ org.jsoup.parser.Tag",
+  "new" : "method org.jsoup.parser.Tag org.jsoup.parser.Tag::clone()",
+  "name" : "return type changed covariantly",
+  "description" : "The return type changed covariantly from 'java.lang.Object' to 'org.jsoup.parser.Tag'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "java.lang.Object"
+  }, {
+    "name" : "newType",
+    "value" : "org.jsoup.parser.Tag"
+  }, {
+    "name" : "package",
+    "value" : "org.jsoup.parser"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.jsoup.parser.Tag"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "Tag"
+  }, {
+    "name" : "methodName",
+    "value" : "clone"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jsoup-1.11.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "jsoup-1.15.3.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.exception.checkedRemoved",
+  "old" : "method java.lang.Object java.lang.Object::clone() throws java.lang.CloneNotSupportedException @ org.jsoup.parser.Tag",
+  "new" : "method org.jsoup.parser.Tag org.jsoup.parser.Tag::clone()",
+  "name" : "Method no longer throws checked exceptions",
+  "description" : "Method no longer throws checked exceptions: java.lang.CloneNotSupportedException.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "exception",
+    "value" : "java.lang.CloneNotSupportedException"
+  }, {
+    "name" : "package",
+    "value" : "org.jsoup.parser"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.jsoup.parser.Tag"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "Tag"
+  }, {
+    "name" : "methodName",
+    "value" : "clone"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jsoup-1.11.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "jsoup-1.15.3.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.inheritedMovedToClass",
+  "old" : "method java.lang.Object java.lang.Object::clone() throws java.lang.CloneNotSupportedException @ org.jsoup.parser.Tag",
+  "new" : "method org.jsoup.parser.Tag org.jsoup.parser.Tag::clone()",
+  "name" : "inherited method moved to class",
+  "description" : "The method was previously declared in superclass 'java.lang.Object' but is now declared in class 'org.jsoup.parser.Tag'.",
+  "criticality" : "allowed",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "EQUIVALENT"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "EQUIVALENT"
+  } ],
+  "attachments" : [ {
+    "name" : "oldClass",
+    "value" : "java.lang.Object"
+  }, {
+    "name" : "newClass",
+    "value" : "org.jsoup.parser.Tag"
+  }, {
+    "name" : "package",
+    "value" : "org.jsoup.parser"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.jsoup.parser.Tag"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "Tag"
+  }, {
+    "name" : "methodName",
+    "value" : "clone"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jsoup-1.11.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "jsoup-1.15.3.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.annotation.removed",
+  "old" : "method java.lang.Object java.lang.Object::clone() throws java.lang.CloneNotSupportedException @ org.jsoup.parser.Tag",
+  "new" : "method org.jsoup.parser.Tag org.jsoup.parser.Tag::clone()",
+  "name" : "removed annotation",
+  "description" : "Element no longer annotated with 'jdk.internal.vm.annotation.IntrinsicCandidate'.",
+  "criticality" : "allowed",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "EQUIVALENT"
+  }, {
+    "compatibility" : "SEMANTIC",
+    "severity" : "EQUIVALENT"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "EQUIVALENT"
+  } ],
+  "attachments" : [ {
+    "name" : "annotationType",
+    "value" : "jdk.internal.vm.annotation.IntrinsicCandidate"
+  }, {
+    "name" : "annotation",
+    "value" : "@jdk.internal.vm.annotation.IntrinsicCandidate"
+  }, {
+    "name" : "package",
+    "value" : "org.jsoup.parser"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.jsoup.parser.Tag"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "Tag"
+  }, {
+    "name" : "methodName",
+    "value" : "clone"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jsoup-1.11.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "jsoup-1.15.3.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method boolean org.jsoup.parser.Tag::isData()",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.jsoup.parser"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.jsoup.parser.Tag"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "Tag"
+  }, {
+    "name" : "methodName",
+    "value" : "isData"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jsoup-1.11.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.nonPublicPartOfAPI",
+  "old" : "class org.jsoup.parser.Token",
+  "new" : "class org.jsoup.parser.Token",
+  "name" : "non-public class in API",
+  "description" : "Class 'org.jsoup.parser.Token' is indirectly included in the API (by the means of method return type for example) but the class is not accessible (neither public nor protected).",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SEMANTIC",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "classSimpleName",
+    "value" : "Token"
+  }, {
+    "name" : "exampleUseChainInNewApi",
+    "value" : "field org.jsoup.parser.TreeBuilder.currentToken @ org.jsoup.parser.XmlTreeBuilder has the type org.jsoup.parser.Token (field org.jsoup.parser.TreeBuilder.currentToken @ org.jsoup.parser.XmlTreeBuilder is part of the API)"
+  }, {
+    "name" : "package",
+    "value" : "org.jsoup.parser"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.jsoup.parser.Token"
+  }, {
+    "name" : "exampleUseChainInOldApi",
+    "value" : "org.jsoup.parser.Token is used as parameter in method boolean org.jsoup.parser.XmlTreeBuilder::process(org.jsoup.parser.Token) (method boolean org.jsoup.parser.XmlTreeBuilder::process(org.jsoup.parser.Token) is part of the API)"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jsoup-1.11.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "jsoup-1.15.3.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.nonPublicPartOfAPI",
+  "old" : null,
+  "new" : "class org.jsoup.parser.Token.EndTag",
+  "name" : "non-public class in API",
+  "description" : "Class 'org.jsoup.parser.Token.EndTag' is indirectly included in the API (by the means of method return type for example) but the class is not accessible (neither public nor protected).",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SEMANTIC",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "classSimpleName",
+    "value" : "EndTag"
+  }, {
+    "name" : "exampleUseChainInNewApi",
+    "value" : "org.jsoup.parser.Token.EndTag is used as parameter in method void org.jsoup.parser.XmlTreeBuilder::popStackToClose(org.jsoup.parser.Token.EndTag) (method void org.jsoup.parser.XmlTreeBuilder::popStackToClose(org.jsoup.parser.Token.EndTag) is part of the API)"
+  }, {
+    "name" : "package",
+    "value" : "org.jsoup.parser"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.jsoup.parser.Token.EndTag"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "newArchive",
+    "value" : "jsoup-1.15.3.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method void org.jsoup.parser.TokenQueue::addFirst(java.lang.Character)",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.jsoup.parser"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.jsoup.parser.TokenQueue"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "TokenQueue"
+  }, {
+    "name" : "methodName",
+    "value" : "addFirst"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jsoup-1.11.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method java.lang.String org.jsoup.parser.TokenQueue::consumeAttributeKey()",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.jsoup.parser"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.jsoup.parser.TokenQueue"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "TokenQueue"
+  }, {
+    "name" : "methodName",
+    "value" : "consumeAttributeKey"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jsoup-1.11.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method java.lang.String org.jsoup.parser.TokenQueue::consumeTagName()",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.jsoup.parser"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.jsoup.parser.TokenQueue"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "TokenQueue"
+  }, {
+    "name" : "methodName",
+    "value" : "consumeTagName"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jsoup-1.11.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method boolean org.jsoup.parser.TokenQueue::matchesCS(java.lang.String)",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.jsoup.parser"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.jsoup.parser.TokenQueue"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "TokenQueue"
+  }, {
+    "name" : "methodName",
+    "value" : "matchesCS"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jsoup-1.11.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method boolean org.jsoup.parser.TokenQueue::matchesStartTag()",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.jsoup.parser"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.jsoup.parser.TokenQueue"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "TokenQueue"
+  }, {
+    "name" : "methodName",
+    "value" : "matchesStartTag"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jsoup-1.11.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method char org.jsoup.parser.TokenQueue::peek()",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.jsoup.parser"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.jsoup.parser.TokenQueue"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "TokenQueue"
+  }, {
+    "name" : "methodName",
+    "value" : "peek"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jsoup-1.11.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.nonPublicPartOfAPI",
+  "old" : "class org.jsoup.parser.TreeBuilder",
+  "new" : "class org.jsoup.parser.TreeBuilder",
+  "name" : "non-public class in API",
+  "description" : "Class 'org.jsoup.parser.TreeBuilder' is indirectly included in the API (by the means of method return type for example) but the class is not accessible (neither public nor protected).",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SEMANTIC",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "classSimpleName",
+    "value" : "TreeBuilder"
+  }, {
+    "name" : "exampleUseChainInNewApi",
+    "value" : "org.jsoup.parser.TreeBuilder is used as parameter in method org.jsoup.parser.Parser org.jsoup.parser.Parser::setTreeBuilder(org.jsoup.parser.TreeBuilder) (method org.jsoup.parser.Parser org.jsoup.parser.Parser::setTreeBuilder(org.jsoup.parser.TreeBuilder) is part of the API)"
+  }, {
+    "name" : "package",
+    "value" : "org.jsoup.parser"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.jsoup.parser.TreeBuilder"
+  }, {
+    "name" : "exampleUseChainInOldApi",
+    "value" : "org.jsoup.parser.TreeBuilder is used as parameter in method void org.jsoup.parser.Parser::<init>(org.jsoup.parser.TreeBuilder) (method void org.jsoup.parser.Parser::<init>(org.jsoup.parser.TreeBuilder) is part of the API)"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jsoup-1.11.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "jsoup-1.15.3.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.numberOfParametersChanged",
+  "old" : "method void org.jsoup.parser.XmlTreeBuilder::initialiseParse(java.io.Reader, java.lang.String, org.jsoup.parser.ParseErrorList, org.jsoup.parser.ParseSettings)",
+  "new" : "method void org.jsoup.parser.XmlTreeBuilder::initialiseParse(java.io.Reader, java.lang.String, org.jsoup.parser.Parser)",
+  "name" : "number of parameters changed",
+  "description" : "The number of parameters of the method have changed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.jsoup.parser"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.jsoup.parser.XmlTreeBuilder"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "XmlTreeBuilder"
+  }, {
+    "name" : "methodName",
+    "value" : "initialiseParse"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jsoup-1.11.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "jsoup-1.15.3.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.annotation.added",
+  "old" : "method void org.jsoup.parser.XmlTreeBuilder::initialiseParse(java.io.Reader, java.lang.String, org.jsoup.parser.ParseErrorList, org.jsoup.parser.ParseSettings)",
+  "new" : "method void org.jsoup.parser.XmlTreeBuilder::initialiseParse(java.io.Reader, java.lang.String, org.jsoup.parser.Parser)",
+  "name" : "new annotation",
+  "description" : "Element newly annotated with 'javax.annotation.ParametersAreNonnullByDefault'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "EQUIVALENT"
+  }, {
+    "compatibility" : "SEMANTIC",
+    "severity" : "POTENTIALLY_BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "EQUIVALENT"
+  } ],
+  "attachments" : [ {
+    "name" : "annotationType",
+    "value" : "javax.annotation.ParametersAreNonnullByDefault"
+  }, {
+    "name" : "annotation",
+    "value" : "@javax.annotation.ParametersAreNonnullByDefault"
+  }, {
+    "name" : "package",
+    "value" : "org.jsoup.parser"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.jsoup.parser.XmlTreeBuilder"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "XmlTreeBuilder"
+  }, {
+    "name" : "methodName",
+    "value" : "initialiseParse"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jsoup-1.11.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "jsoup-1.15.3.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.parameterTypeChanged",
+  "old" : "parameter void org.jsoup.safety.Cleaner::<init>(===org.jsoup.safety.Whitelist===)",
+  "new" : "parameter void org.jsoup.safety.Cleaner::<init>(===org.jsoup.safety.Safelist===)",
+  "name" : "parameter type changed",
+  "description" : "The type of the parameter changed from 'org.jsoup.safety.Whitelist' to 'org.jsoup.safety.Safelist'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "POTENTIALLY_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "org.jsoup.safety.Whitelist"
+  }, {
+    "name" : "newType",
+    "value" : "org.jsoup.safety.Safelist"
+  }, {
+    "name" : "package",
+    "value" : "org.jsoup.safety"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.jsoup.safety.Cleaner"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "Cleaner"
+  }, {
+    "name" : "methodName",
+    "value" : "<init>"
+  }, {
+    "name" : "parameterIndex",
+    "value" : "0"
+  }, {
+    "name" : "elementKind",
+    "value" : "parameter"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jsoup-1.11.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "jsoup-1.15.3.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class org.jsoup.safety.Whitelist",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.jsoup.safety"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.jsoup.safety.Whitelist"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "Whitelist"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jsoup-1.11.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.numberOfParametersChanged",
+  "old" : "method void org.jsoup.select.NodeTraversor::<init>(org.jsoup.select.NodeVisitor)",
+  "new" : "method void org.jsoup.select.NodeTraversor::<init>()",
+  "name" : "number of parameters changed",
+  "description" : "The number of parameters of the method have changed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.jsoup.select"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.jsoup.select.NodeTraversor"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "NodeTraversor"
+  }, {
+    "name" : "methodName",
+    "value" : "<init>"
+  }, {
+    "name" : "elementKind",
+    "value" : "constructor"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jsoup-1.11.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "jsoup-1.15.3.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method void org.jsoup.select.NodeTraversor::traverse(org.jsoup.nodes.Node)",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "org.jsoup.select"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.jsoup.select.NodeTraversor"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "NodeTraversor"
+  }, {
+    "name" : "methodName",
+    "value" : "traverse"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jsoup-1.11.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+} ]

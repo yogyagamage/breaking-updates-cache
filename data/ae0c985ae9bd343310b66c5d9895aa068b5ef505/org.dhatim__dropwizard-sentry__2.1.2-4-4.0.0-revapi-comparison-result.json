@@ -1,0 +1,757 @@
+[ {
+  "code" : "java.class.noLongerInheritsFromClass",
+  "old" : "class org.dhatim.dropwizard.sentry.logging.SentryAppenderFactory",
+  "new" : "class org.dhatim.dropwizard.sentry.logging.SentryAppenderFactory",
+  "name" : "removed super class",
+  "description" : "Class no longer inherits from 'io.dropwizard.logging.AbstractAppenderFactory<ch.qos.logback.classic.spi.ILoggingEvent>'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "superClass",
+    "value" : "io.dropwizard.logging.AbstractAppenderFactory<ch.qos.logback.classic.spi.ILoggingEvent>"
+  }, {
+    "name" : "package",
+    "value" : "org.dhatim.dropwizard.sentry.logging"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.dhatim.dropwizard.sentry.logging.SentryAppenderFactory"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "SentryAppenderFactory"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "dropwizard-sentry-2.1.2-4.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "dropwizard-sentry-4.0.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.nonFinalClassInheritsFromNewClass",
+  "old" : "class org.dhatim.dropwizard.sentry.logging.SentryAppenderFactory",
+  "new" : "class org.dhatim.dropwizard.sentry.logging.SentryAppenderFactory",
+  "name" : "new super class of non-final class",
+  "description" : "Non-final class now inherits from 'io.dropwizard.logging.common.AbstractAppenderFactory<ch.qos.logback.classic.spi.ILoggingEvent>'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "POTENTIALLY_BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "POTENTIALLY_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "superClass",
+    "value" : "io.dropwizard.logging.common.AbstractAppenderFactory<ch.qos.logback.classic.spi.ILoggingEvent>"
+  }, {
+    "name" : "package",
+    "value" : "org.dhatim.dropwizard.sentry.logging"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.dhatim.dropwizard.sentry.logging.SentryAppenderFactory"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "SentryAppenderFactory"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "dropwizard-sentry-2.1.2-4.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "dropwizard-sentry-4.0.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.field.typeChanged",
+  "old" : "field io.dropwizard.logging.AbstractAppenderFactory<E extends ch.qos.logback.core.spi.DeferredProcessingAware>.layout @ org.dhatim.dropwizard.sentry.logging.SentryAppenderFactory",
+  "new" : "field io.dropwizard.logging.common.AbstractAppenderFactory<E extends ch.qos.logback.core.spi.DeferredProcessingAware>.layout @ org.dhatim.dropwizard.sentry.logging.SentryAppenderFactory",
+  "name" : "field type changed",
+  "description" : "The type of the field changed from 'io.dropwizard.logging.layout.DiscoverableLayoutFactory<ch.qos.logback.classic.spi.ILoggingEvent>' to 'io.dropwizard.logging.common.layout.DiscoverableLayoutFactory<ch.qos.logback.classic.spi.ILoggingEvent>'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "io.dropwizard.logging.layout.DiscoverableLayoutFactory<ch.qos.logback.classic.spi.ILoggingEvent>"
+  }, {
+    "name" : "newType",
+    "value" : "io.dropwizard.logging.common.layout.DiscoverableLayoutFactory<ch.qos.logback.classic.spi.ILoggingEvent>"
+  }, {
+    "name" : "package",
+    "value" : "org.dhatim.dropwizard.sentry.logging"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.dhatim.dropwizard.sentry.logging.SentryAppenderFactory"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "SentryAppenderFactory"
+  }, {
+    "name" : "fieldName",
+    "value" : "layout"
+  }, {
+    "name" : "elementKind",
+    "value" : "field"
+  }, {
+    "name" : "oldArchive",
+    "value" : "dropwizard-sentry-2.1.2-4.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "dropwizard-sentry-4.0.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.annotation.removed",
+  "old" : "field io.dropwizard.logging.AbstractAppenderFactory<E extends ch.qos.logback.core.spi.DeferredProcessingAware>.layout @ org.dhatim.dropwizard.sentry.logging.SentryAppenderFactory",
+  "new" : "field io.dropwizard.logging.common.AbstractAppenderFactory<E extends ch.qos.logback.core.spi.DeferredProcessingAware>.layout @ org.dhatim.dropwizard.sentry.logging.SentryAppenderFactory",
+  "name" : "removed annotation",
+  "description" : "Element no longer annotated with 'javax.annotation.Nullable'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "EQUIVALENT"
+  }, {
+    "compatibility" : "SEMANTIC",
+    "severity" : "POTENTIALLY_BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "EQUIVALENT"
+  } ],
+  "attachments" : [ {
+    "name" : "annotationType",
+    "value" : "javax.annotation.Nullable"
+  }, {
+    "name" : "annotation",
+    "value" : "@javax.annotation.Nullable"
+  }, {
+    "name" : "package",
+    "value" : "org.dhatim.dropwizard.sentry.logging"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.dhatim.dropwizard.sentry.logging.SentryAppenderFactory"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "SentryAppenderFactory"
+  }, {
+    "name" : "fieldName",
+    "value" : "layout"
+  }, {
+    "name" : "elementKind",
+    "value" : "field"
+  }, {
+    "name" : "oldArchive",
+    "value" : "dropwizard-sentry-2.1.2-4.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "dropwizard-sentry-4.0.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.parameterTypeChanged",
+  "old" : "parameter ch.qos.logback.core.Appender<ch.qos.logback.classic.spi.ILoggingEvent> org.dhatim.dropwizard.sentry.logging.SentryAppenderFactory::build(ch.qos.logback.classic.LoggerContext, java.lang.String, ===io.dropwizard.logging.layout.LayoutFactory<ch.qos.logback.classic.spi.ILoggingEvent>===, io.dropwizard.logging.filter.LevelFilterFactory<ch.qos.logback.classic.spi.ILoggingEvent>, io.dropwizard.logging.async.AsyncAppenderFactory<ch.qos.logback.classic.spi.ILoggingEvent>)",
+  "new" : "parameter ch.qos.logback.core.Appender<ch.qos.logback.classic.spi.ILoggingEvent> org.dhatim.dropwizard.sentry.logging.SentryAppenderFactory::build(ch.qos.logback.classic.LoggerContext, java.lang.String, ===io.dropwizard.logging.common.layout.LayoutFactory<ch.qos.logback.classic.spi.ILoggingEvent>===, io.dropwizard.logging.common.filter.LevelFilterFactory<ch.qos.logback.classic.spi.ILoggingEvent>, io.dropwizard.logging.common.async.AsyncAppenderFactory<ch.qos.logback.classic.spi.ILoggingEvent>)",
+  "name" : "parameter type changed",
+  "description" : "The type of the parameter changed from 'io.dropwizard.logging.layout.LayoutFactory<ch.qos.logback.classic.spi.ILoggingEvent>' to 'io.dropwizard.logging.common.layout.LayoutFactory<ch.qos.logback.classic.spi.ILoggingEvent>'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "POTENTIALLY_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "io.dropwizard.logging.layout.LayoutFactory<ch.qos.logback.classic.spi.ILoggingEvent>"
+  }, {
+    "name" : "newType",
+    "value" : "io.dropwizard.logging.common.layout.LayoutFactory<ch.qos.logback.classic.spi.ILoggingEvent>"
+  }, {
+    "name" : "package",
+    "value" : "org.dhatim.dropwizard.sentry.logging"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.dhatim.dropwizard.sentry.logging.SentryAppenderFactory"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "SentryAppenderFactory"
+  }, {
+    "name" : "methodName",
+    "value" : "build"
+  }, {
+    "name" : "parameterIndex",
+    "value" : "2"
+  }, {
+    "name" : "elementKind",
+    "value" : "parameter"
+  }, {
+    "name" : "oldArchive",
+    "value" : "dropwizard-sentry-2.1.2-4.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "dropwizard-sentry-4.0.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.parameterTypeChanged",
+  "old" : "parameter ch.qos.logback.core.Appender<ch.qos.logback.classic.spi.ILoggingEvent> org.dhatim.dropwizard.sentry.logging.SentryAppenderFactory::build(ch.qos.logback.classic.LoggerContext, java.lang.String, io.dropwizard.logging.layout.LayoutFactory<ch.qos.logback.classic.spi.ILoggingEvent>, ===io.dropwizard.logging.filter.LevelFilterFactory<ch.qos.logback.classic.spi.ILoggingEvent>===, io.dropwizard.logging.async.AsyncAppenderFactory<ch.qos.logback.classic.spi.ILoggingEvent>)",
+  "new" : "parameter ch.qos.logback.core.Appender<ch.qos.logback.classic.spi.ILoggingEvent> org.dhatim.dropwizard.sentry.logging.SentryAppenderFactory::build(ch.qos.logback.classic.LoggerContext, java.lang.String, io.dropwizard.logging.common.layout.LayoutFactory<ch.qos.logback.classic.spi.ILoggingEvent>, ===io.dropwizard.logging.common.filter.LevelFilterFactory<ch.qos.logback.classic.spi.ILoggingEvent>===, io.dropwizard.logging.common.async.AsyncAppenderFactory<ch.qos.logback.classic.spi.ILoggingEvent>)",
+  "name" : "parameter type changed",
+  "description" : "The type of the parameter changed from 'io.dropwizard.logging.filter.LevelFilterFactory<ch.qos.logback.classic.spi.ILoggingEvent>' to 'io.dropwizard.logging.common.filter.LevelFilterFactory<ch.qos.logback.classic.spi.ILoggingEvent>'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "POTENTIALLY_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "io.dropwizard.logging.filter.LevelFilterFactory<ch.qos.logback.classic.spi.ILoggingEvent>"
+  }, {
+    "name" : "newType",
+    "value" : "io.dropwizard.logging.common.filter.LevelFilterFactory<ch.qos.logback.classic.spi.ILoggingEvent>"
+  }, {
+    "name" : "package",
+    "value" : "org.dhatim.dropwizard.sentry.logging"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.dhatim.dropwizard.sentry.logging.SentryAppenderFactory"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "SentryAppenderFactory"
+  }, {
+    "name" : "methodName",
+    "value" : "build"
+  }, {
+    "name" : "parameterIndex",
+    "value" : "3"
+  }, {
+    "name" : "elementKind",
+    "value" : "parameter"
+  }, {
+    "name" : "oldArchive",
+    "value" : "dropwizard-sentry-2.1.2-4.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "dropwizard-sentry-4.0.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.parameterTypeChanged",
+  "old" : "parameter ch.qos.logback.core.Appender<ch.qos.logback.classic.spi.ILoggingEvent> org.dhatim.dropwizard.sentry.logging.SentryAppenderFactory::build(ch.qos.logback.classic.LoggerContext, java.lang.String, io.dropwizard.logging.layout.LayoutFactory<ch.qos.logback.classic.spi.ILoggingEvent>, io.dropwizard.logging.filter.LevelFilterFactory<ch.qos.logback.classic.spi.ILoggingEvent>, ===io.dropwizard.logging.async.AsyncAppenderFactory<ch.qos.logback.classic.spi.ILoggingEvent>===)",
+  "new" : "parameter ch.qos.logback.core.Appender<ch.qos.logback.classic.spi.ILoggingEvent> org.dhatim.dropwizard.sentry.logging.SentryAppenderFactory::build(ch.qos.logback.classic.LoggerContext, java.lang.String, io.dropwizard.logging.common.layout.LayoutFactory<ch.qos.logback.classic.spi.ILoggingEvent>, io.dropwizard.logging.common.filter.LevelFilterFactory<ch.qos.logback.classic.spi.ILoggingEvent>, ===io.dropwizard.logging.common.async.AsyncAppenderFactory<ch.qos.logback.classic.spi.ILoggingEvent>===)",
+  "name" : "parameter type changed",
+  "description" : "The type of the parameter changed from 'io.dropwizard.logging.async.AsyncAppenderFactory<ch.qos.logback.classic.spi.ILoggingEvent>' to 'io.dropwizard.logging.common.async.AsyncAppenderFactory<ch.qos.logback.classic.spi.ILoggingEvent>'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "POTENTIALLY_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "io.dropwizard.logging.async.AsyncAppenderFactory<ch.qos.logback.classic.spi.ILoggingEvent>"
+  }, {
+    "name" : "newType",
+    "value" : "io.dropwizard.logging.common.async.AsyncAppenderFactory<ch.qos.logback.classic.spi.ILoggingEvent>"
+  }, {
+    "name" : "package",
+    "value" : "org.dhatim.dropwizard.sentry.logging"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.dhatim.dropwizard.sentry.logging.SentryAppenderFactory"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "SentryAppenderFactory"
+  }, {
+    "name" : "methodName",
+    "value" : "build"
+  }, {
+    "name" : "parameterIndex",
+    "value" : "4"
+  }, {
+    "name" : "elementKind",
+    "value" : "parameter"
+  }, {
+    "name" : "oldArchive",
+    "value" : "dropwizard-sentry-2.1.2-4.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "dropwizard-sentry-4.0.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.parameterTypeChanged",
+  "old" : "parameter ch.qos.logback.core.LayoutBase<E> io.dropwizard.logging.AbstractAppenderFactory<E extends ch.qos.logback.core.spi.DeferredProcessingAware>::buildLayout(ch.qos.logback.classic.LoggerContext, ===io.dropwizard.logging.layout.LayoutFactory<E>===) @ org.dhatim.dropwizard.sentry.logging.SentryAppenderFactory",
+  "new" : "parameter ch.qos.logback.core.LayoutBase<E> io.dropwizard.logging.common.AbstractAppenderFactory<E extends ch.qos.logback.core.spi.DeferredProcessingAware>::buildLayout(ch.qos.logback.classic.LoggerContext, ===io.dropwizard.logging.common.layout.LayoutFactory<E>===) @ org.dhatim.dropwizard.sentry.logging.SentryAppenderFactory",
+  "name" : "parameter type changed",
+  "description" : "The type of the parameter changed from 'io.dropwizard.logging.layout.LayoutFactory<ch.qos.logback.classic.spi.ILoggingEvent>' to 'io.dropwizard.logging.common.layout.LayoutFactory<ch.qos.logback.classic.spi.ILoggingEvent>'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "POTENTIALLY_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "io.dropwizard.logging.layout.LayoutFactory<ch.qos.logback.classic.spi.ILoggingEvent>"
+  }, {
+    "name" : "newType",
+    "value" : "io.dropwizard.logging.common.layout.LayoutFactory<ch.qos.logback.classic.spi.ILoggingEvent>"
+  }, {
+    "name" : "package",
+    "value" : "org.dhatim.dropwizard.sentry.logging"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.dhatim.dropwizard.sentry.logging.SentryAppenderFactory"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "SentryAppenderFactory"
+  }, {
+    "name" : "methodName",
+    "value" : "buildLayout"
+  }, {
+    "name" : "parameterIndex",
+    "value" : "1"
+  }, {
+    "name" : "elementKind",
+    "value" : "parameter"
+  }, {
+    "name" : "oldArchive",
+    "value" : "dropwizard-sentry-2.1.2-4.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "dropwizard-sentry-4.0.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.returnTypeTypeParametersChanged",
+  "old" : "method java.util.List<io.dropwizard.logging.filter.FilterFactory<E>> io.dropwizard.logging.AbstractAppenderFactory<E extends ch.qos.logback.core.spi.DeferredProcessingAware>::getFilterFactories() @ org.dhatim.dropwizard.sentry.logging.SentryAppenderFactory",
+  "new" : "method java.util.List<io.dropwizard.logging.common.filter.FilterFactory<E>> io.dropwizard.logging.common.AbstractAppenderFactory<E extends ch.qos.logback.core.spi.DeferredProcessingAware>::getFilterFactories() @ org.dhatim.dropwizard.sentry.logging.SentryAppenderFactory",
+  "name" : "return type changed type parameter",
+  "description" : "The return type changed from 'java.util.List<io.dropwizard.logging.filter.FilterFactory<ch.qos.logback.classic.spi.ILoggingEvent>>' to 'java.util.List<io.dropwizard.logging.common.filter.FilterFactory<ch.qos.logback.classic.spi.ILoggingEvent>>'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "java.util.List<io.dropwizard.logging.filter.FilterFactory<ch.qos.logback.classic.spi.ILoggingEvent>>"
+  }, {
+    "name" : "newType",
+    "value" : "java.util.List<io.dropwizard.logging.common.filter.FilterFactory<ch.qos.logback.classic.spi.ILoggingEvent>>"
+  }, {
+    "name" : "package",
+    "value" : "org.dhatim.dropwizard.sentry.logging"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.dhatim.dropwizard.sentry.logging.SentryAppenderFactory"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "SentryAppenderFactory"
+  }, {
+    "name" : "methodName",
+    "value" : "getFilterFactories"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "dropwizard-sentry-2.1.2-4.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "dropwizard-sentry-4.0.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.returnTypeChanged",
+  "old" : "method io.dropwizard.logging.layout.DiscoverableLayoutFactory<?> io.dropwizard.logging.AbstractAppenderFactory<E extends ch.qos.logback.core.spi.DeferredProcessingAware>::getLayout() @ org.dhatim.dropwizard.sentry.logging.SentryAppenderFactory",
+  "new" : "method io.dropwizard.logging.common.layout.DiscoverableLayoutFactory<?> io.dropwizard.logging.common.AbstractAppenderFactory<E extends ch.qos.logback.core.spi.DeferredProcessingAware>::getLayout() @ org.dhatim.dropwizard.sentry.logging.SentryAppenderFactory",
+  "name" : "return type changed",
+  "description" : "The return type changed from 'io.dropwizard.logging.layout.DiscoverableLayoutFactory<?>' to  'io.dropwizard.logging.common.layout.DiscoverableLayoutFactory<?>'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "POTENTIALLY_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "io.dropwizard.logging.layout.DiscoverableLayoutFactory<?>"
+  }, {
+    "name" : "newType",
+    "value" : "io.dropwizard.logging.common.layout.DiscoverableLayoutFactory<?>"
+  }, {
+    "name" : "package",
+    "value" : "org.dhatim.dropwizard.sentry.logging"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.dhatim.dropwizard.sentry.logging.SentryAppenderFactory"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "SentryAppenderFactory"
+  }, {
+    "name" : "methodName",
+    "value" : "getLayout"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "dropwizard-sentry-2.1.2-4.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "dropwizard-sentry-4.0.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.annotation.removed",
+  "old" : "method io.dropwizard.logging.layout.DiscoverableLayoutFactory<?> io.dropwizard.logging.AbstractAppenderFactory<E extends ch.qos.logback.core.spi.DeferredProcessingAware>::getLayout() @ org.dhatim.dropwizard.sentry.logging.SentryAppenderFactory",
+  "new" : "method io.dropwizard.logging.common.layout.DiscoverableLayoutFactory<?> io.dropwizard.logging.common.AbstractAppenderFactory<E extends ch.qos.logback.core.spi.DeferredProcessingAware>::getLayout() @ org.dhatim.dropwizard.sentry.logging.SentryAppenderFactory",
+  "name" : "removed annotation",
+  "description" : "Element no longer annotated with 'javax.annotation.Nullable'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "EQUIVALENT"
+  }, {
+    "compatibility" : "SEMANTIC",
+    "severity" : "POTENTIALLY_BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "EQUIVALENT"
+  } ],
+  "attachments" : [ {
+    "name" : "annotationType",
+    "value" : "javax.annotation.Nullable"
+  }, {
+    "name" : "annotation",
+    "value" : "@javax.annotation.Nullable"
+  }, {
+    "name" : "package",
+    "value" : "org.dhatim.dropwizard.sentry.logging"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.dhatim.dropwizard.sentry.logging.SentryAppenderFactory"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "SentryAppenderFactory"
+  }, {
+    "name" : "methodName",
+    "value" : "getLayout"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "dropwizard-sentry-2.1.2-4.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "dropwizard-sentry-4.0.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.parameterTypeChanged",
+  "old" : "parameter void io.dropwizard.logging.AbstractAppenderFactory<E extends ch.qos.logback.core.spi.DeferredProcessingAware>::setLayout(===io.dropwizard.logging.layout.DiscoverableLayoutFactory<E>===) @ org.dhatim.dropwizard.sentry.logging.SentryAppenderFactory",
+  "new" : "parameter void io.dropwizard.logging.common.AbstractAppenderFactory<E extends ch.qos.logback.core.spi.DeferredProcessingAware>::setLayout(===io.dropwizard.logging.common.layout.DiscoverableLayoutFactory<E>===) @ org.dhatim.dropwizard.sentry.logging.SentryAppenderFactory",
+  "name" : "parameter type changed",
+  "description" : "The type of the parameter changed from 'io.dropwizard.logging.layout.DiscoverableLayoutFactory<ch.qos.logback.classic.spi.ILoggingEvent>' to 'io.dropwizard.logging.common.layout.DiscoverableLayoutFactory<ch.qos.logback.classic.spi.ILoggingEvent>'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "POTENTIALLY_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "io.dropwizard.logging.layout.DiscoverableLayoutFactory<ch.qos.logback.classic.spi.ILoggingEvent>"
+  }, {
+    "name" : "newType",
+    "value" : "io.dropwizard.logging.common.layout.DiscoverableLayoutFactory<ch.qos.logback.classic.spi.ILoggingEvent>"
+  }, {
+    "name" : "package",
+    "value" : "org.dhatim.dropwizard.sentry.logging"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.dhatim.dropwizard.sentry.logging.SentryAppenderFactory"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "SentryAppenderFactory"
+  }, {
+    "name" : "methodName",
+    "value" : "setLayout"
+  }, {
+    "name" : "parameterIndex",
+    "value" : "0"
+  }, {
+    "name" : "elementKind",
+    "value" : "parameter"
+  }, {
+    "name" : "oldArchive",
+    "value" : "dropwizard-sentry-2.1.2-4.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "dropwizard-sentry-4.0.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.annotation.removed",
+  "old" : "parameter void io.dropwizard.logging.AbstractAppenderFactory<E extends ch.qos.logback.core.spi.DeferredProcessingAware>::setLayout(===io.dropwizard.logging.layout.DiscoverableLayoutFactory<E>===) @ org.dhatim.dropwizard.sentry.logging.SentryAppenderFactory",
+  "new" : "parameter void io.dropwizard.logging.common.AbstractAppenderFactory<E extends ch.qos.logback.core.spi.DeferredProcessingAware>::setLayout(===io.dropwizard.logging.common.layout.DiscoverableLayoutFactory<E>===) @ org.dhatim.dropwizard.sentry.logging.SentryAppenderFactory",
+  "name" : "removed annotation",
+  "description" : "Element no longer annotated with 'javax.annotation.Nullable'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "EQUIVALENT"
+  }, {
+    "compatibility" : "SEMANTIC",
+    "severity" : "POTENTIALLY_BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "EQUIVALENT"
+  } ],
+  "attachments" : [ {
+    "name" : "annotationType",
+    "value" : "javax.annotation.Nullable"
+  }, {
+    "name" : "annotation",
+    "value" : "@javax.annotation.Nullable"
+  }, {
+    "name" : "package",
+    "value" : "org.dhatim.dropwizard.sentry.logging"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.dhatim.dropwizard.sentry.logging.SentryAppenderFactory"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "SentryAppenderFactory"
+  }, {
+    "name" : "methodName",
+    "value" : "setLayout"
+  }, {
+    "name" : "parameterIndex",
+    "value" : "0"
+  }, {
+    "name" : "elementKind",
+    "value" : "parameter"
+  }, {
+    "name" : "oldArchive",
+    "value" : "dropwizard-sentry-2.1.2-4.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "dropwizard-sentry-4.0.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.parameterTypeChanged",
+  "old" : "parameter ch.qos.logback.core.Appender<E> io.dropwizard.logging.AbstractAppenderFactory<E extends ch.qos.logback.core.spi.DeferredProcessingAware>::wrapAsync(ch.qos.logback.core.Appender<E>, ===io.dropwizard.logging.async.AsyncAppenderFactory<E>===) @ org.dhatim.dropwizard.sentry.logging.SentryAppenderFactory",
+  "new" : "parameter ch.qos.logback.core.Appender<E> io.dropwizard.logging.common.AbstractAppenderFactory<E extends ch.qos.logback.core.spi.DeferredProcessingAware>::wrapAsync(ch.qos.logback.core.Appender<E>, ===io.dropwizard.logging.common.async.AsyncAppenderFactory<E>===) @ org.dhatim.dropwizard.sentry.logging.SentryAppenderFactory",
+  "name" : "parameter type changed",
+  "description" : "The type of the parameter changed from 'io.dropwizard.logging.async.AsyncAppenderFactory<ch.qos.logback.classic.spi.ILoggingEvent>' to 'io.dropwizard.logging.common.async.AsyncAppenderFactory<ch.qos.logback.classic.spi.ILoggingEvent>'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "POTENTIALLY_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "io.dropwizard.logging.async.AsyncAppenderFactory<ch.qos.logback.classic.spi.ILoggingEvent>"
+  }, {
+    "name" : "newType",
+    "value" : "io.dropwizard.logging.common.async.AsyncAppenderFactory<ch.qos.logback.classic.spi.ILoggingEvent>"
+  }, {
+    "name" : "package",
+    "value" : "org.dhatim.dropwizard.sentry.logging"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.dhatim.dropwizard.sentry.logging.SentryAppenderFactory"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "SentryAppenderFactory"
+  }, {
+    "name" : "methodName",
+    "value" : "wrapAsync"
+  }, {
+    "name" : "parameterIndex",
+    "value" : "1"
+  }, {
+    "name" : "elementKind",
+    "value" : "parameter"
+  }, {
+    "name" : "oldArchive",
+    "value" : "dropwizard-sentry-2.1.2-4.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "dropwizard-sentry-4.0.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.parameterTypeChanged",
+  "old" : "parameter ch.qos.logback.core.Appender<E> io.dropwizard.logging.AbstractAppenderFactory<E extends ch.qos.logback.core.spi.DeferredProcessingAware>::wrapAsync(ch.qos.logback.core.Appender<E>, ===io.dropwizard.logging.async.AsyncAppenderFactory<E>===, ch.qos.logback.core.Context) @ org.dhatim.dropwizard.sentry.logging.SentryAppenderFactory",
+  "new" : "parameter ch.qos.logback.core.Appender<E> io.dropwizard.logging.common.AbstractAppenderFactory<E extends ch.qos.logback.core.spi.DeferredProcessingAware>::wrapAsync(ch.qos.logback.core.Appender<E>, ===io.dropwizard.logging.common.async.AsyncAppenderFactory<E>===, ch.qos.logback.core.Context) @ org.dhatim.dropwizard.sentry.logging.SentryAppenderFactory",
+  "name" : "parameter type changed",
+  "description" : "The type of the parameter changed from 'io.dropwizard.logging.async.AsyncAppenderFactory<ch.qos.logback.classic.spi.ILoggingEvent>' to 'io.dropwizard.logging.common.async.AsyncAppenderFactory<ch.qos.logback.classic.spi.ILoggingEvent>'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "POTENTIALLY_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "io.dropwizard.logging.async.AsyncAppenderFactory<ch.qos.logback.classic.spi.ILoggingEvent>"
+  }, {
+    "name" : "newType",
+    "value" : "io.dropwizard.logging.common.async.AsyncAppenderFactory<ch.qos.logback.classic.spi.ILoggingEvent>"
+  }, {
+    "name" : "package",
+    "value" : "org.dhatim.dropwizard.sentry.logging"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "org.dhatim.dropwizard.sentry.logging.SentryAppenderFactory"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "SentryAppenderFactory"
+  }, {
+    "name" : "methodName",
+    "value" : "wrapAsync"
+  }, {
+    "name" : "parameterIndex",
+    "value" : "1"
+  }, {
+    "name" : "elementKind",
+    "value" : "parameter"
+  }, {
+    "name" : "oldArchive",
+    "value" : "dropwizard-sentry-2.1.2-4.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "dropwizard-sentry-4.0.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+} ]

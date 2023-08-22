@@ -1,0 +1,84 @@
+[ {
+  "code" : "java.class.removed",
+  "old" : "class ch.qos.logback.classic.joran.ReconfigureOnChangeTaskListener",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "ch.qos.logback.classic.joran"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "ch.qos.logback.classic.joran.ReconfigureOnChangeTaskListener"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "ReconfigureOnChangeTaskListener"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "logback-classic-1.4.5.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.nonPublicPartOfAPI",
+  "old" : "interface ch.qos.logback.classic.net.server.RemoteAppenderClient",
+  "new" : "interface ch.qos.logback.classic.net.server.RemoteAppenderClient",
+  "name" : "non-public class in API",
+  "description" : "Class 'ch.qos.logback.classic.net.server.RemoteAppenderClient' is indirectly included in the API (by the means of method return type for example) but the class is not accessible (neither public nor protected).",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "NON_BREAKING"
+  }, {
+    "compatibility" : "SEMANTIC",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "classSimpleName",
+    "value" : "RemoteAppenderClient"
+  }, {
+    "name" : "exampleUseChainInNewApi",
+    "value" : "ch.qos.logback.classic.net.server.RemoteAppenderClient is used as a type parameter or type variable bound on method ch.qos.logback.core.net.server.ServerListener<ch.qos.logback.classic.net.server.RemoteAppenderClient> ch.qos.logback.classic.net.server.ServerSocketReceiver::createServerListener(java.net.ServerSocket) @ ch.qos.logback.classic.net.server.SSLServerSocketReceiver (method ch.qos.logback.core.net.server.ServerListener<ch.qos.logback.classic.net.server.RemoteAppenderClient> ch.qos.logback.classic.net.server.ServerSocketReceiver::createServerListener(java.net.ServerSocket) @ ch.qos.logback.classic.net.server.SSLServerSocketReceiver is part of the API)"
+  }, {
+    "name" : "package",
+    "value" : "ch.qos.logback.classic.net.server"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "ch.qos.logback.classic.net.server.RemoteAppenderClient"
+  }, {
+    "name" : "exampleUseChainInOldApi",
+    "value" : "ch.qos.logback.classic.net.server.RemoteAppenderClient is used as a type parameter or type variable bound on method ch.qos.logback.core.net.server.ServerRunner ch.qos.logback.classic.net.server.ServerSocketReceiver::createServerRunner(ch.qos.logback.core.net.server.ServerListener<ch.qos.logback.classic.net.server.RemoteAppenderClient>, java.util.concurrent.Executor) @ ch.qos.logback.classic.net.server.SSLServerSocketReceiver (method ch.qos.logback.core.net.server.ServerRunner ch.qos.logback.classic.net.server.ServerSocketReceiver::createServerRunner(ch.qos.logback.core.net.server.ServerListener<ch.qos.logback.classic.net.server.RemoteAppenderClient>, java.util.concurrent.Executor) @ ch.qos.logback.classic.net.server.SSLServerSocketReceiver is part of the API)"
+  }, {
+    "name" : "elementKind",
+    "value" : "interface"
+  }, {
+    "name" : "oldArchive",
+    "value" : "logback-classic-1.4.5.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "logback-classic-1.4.6.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+} ]
