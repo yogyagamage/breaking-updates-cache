@@ -52,6 +52,7 @@ public class CompileErrorExtractor {
     private static final String REGISTRY = "ghcr.io/chains-project/breaking-updates";
     private static final Logger log = LoggerFactory.getLogger(CompileErrorExtractor.class);
     private static DockerClient dockerClient;
+    private static List<String> containers;
 
     public void runAnalyser(Path benchmarkDir, Path logDir) {
         File[] breakingUpdates = benchmarkDir.toFile().listFiles();
@@ -169,6 +170,7 @@ public class CompileErrorExtractor {
 
         String containerId = container.getId();
         dockerClient.startContainerCmd(containerId).exec();
+        containers.add(containerId);
 
         try (InputStream dependencyStream = dockerClient.copyArchiveFromContainerCmd
                 (containerId, "/" + project).exec()) {
@@ -366,10 +368,10 @@ public class CompileErrorExtractor {
     }
 
     private void removeProject(String image, Path projectPath) {
-        List<Container> containers = dockerClient.listContainersCmd().exec();
-        for (Container container : containers) {
-            dockerClient.stopContainerCmd(container.getId()).exec();
-            dockerClient.removeContainerCmd(container.getId()).exec();
+        for (String container : containers) {
+            dockerClient.stopContainerCmd(container).exec();
+            dockerClient.removeContainerCmd(container).exec();
+            containers.remove(container);
         }
         dockerClient.removeImageCmd(image).withForce(true).exec();
         try {
