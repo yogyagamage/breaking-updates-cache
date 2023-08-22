@@ -53,9 +53,7 @@ public class CompileErrorExtractor {
     private static final Logger log = LoggerFactory.getLogger(CompileErrorExtractor.class);
     private static DockerClient dockerClient;
 
-    public static void main(String[] args) throws InterruptedException {
-        Path benchmarkDir = Path.of("\\mnt\\ssd2\\breaking-updates-data-collection\\data\\benchmark");
-        String logDir = "\\mnt\\ssd2\\breaking-updates-data-collection\\reproductionLogs\\successfulReproductionLogs";
+    public void runAnalyser(Path benchmarkDir, Path logDir) {
         File[] breakingUpdates = benchmarkDir.toFile().listFiles();
         createDockerClient();
         MapType jsonType = JsonUtils.getTypeFactory().constructMapType(Map.class, String.class, Object.class);
@@ -115,7 +113,7 @@ public class CompileErrorExtractor {
         JsonUtils.writeToFile(analyserResultsFilePath, analyserResults);
     }
 
-    private static Map<String, Set<Integer>> extractLineNumbersWithPaths(String logFilePath) {
+    private Map<String, Set<Integer>> extractLineNumbersWithPaths(String logFilePath) {
         Map<String, Set<Integer>> lineNumbersWithPaths = new HashMap<>();
         try {
             FileInputStream fileInputStream = new FileInputStream(logFilePath);
@@ -154,7 +152,7 @@ public class CompileErrorExtractor {
         return lineNumbersWithPaths;
     }
 
-    private static Path copyProject(String image, String project) {
+    private Path copyProject(String image, String project) {
         try {
             dockerClient.inspectImageCmd(image).exec();
         } catch (NotFoundException e) {
@@ -199,7 +197,7 @@ public class CompileErrorExtractor {
         }
     }
 
-    private static Map<Set<String>, Set<String>> applySpoon
+    private Map<Set<String>, Set<String>> applySpoon
             (String projectFilePath, Set<Integer> lineNumbers, String depGrpID) {
         Launcher spoon = new Launcher();
         spoon.addInputResource(projectFilePath);
@@ -208,7 +206,7 @@ public class CompileErrorExtractor {
         return getElementFromSourcePosition(spoon.getModel(), lineNumbers, depGrpID);
     }
 
-    private static Map<Set<String>, Set<String>> getElementFromSourcePosition
+    private Map<Set<String>, Set<String>> getElementFromSourcePosition
             (CtModel model, Set<Integer> startLines, String depGrpId) {
         Set<String> elements = new HashSet<>();
         Set<String> elementStrings = new HashSet<>();
@@ -228,7 +226,7 @@ public class CompileErrorExtractor {
         return Map.ofEntries(entry(elementStrings, elements));
     }
 
-    private static String parseProject(CtElement e, String dependencyGrpID) {
+    private String parseProject(CtElement e, String dependencyGrpID) {
         CtElement parent = e.getParent(new TypeFilter<>(CtClass.class));
         while (parent != null) {
             if (String.valueOf(parent).contains(dependencyGrpID)) {
@@ -243,7 +241,7 @@ public class CompileErrorExtractor {
         return null;
     }
 
-    private static Map<String, Set<String>> extractResult(String buCommit, Set<String> spoonedElements, boolean isRevapi) {
+    private Map<String, Set<String>> extractResult(String buCommit, Set<String> spoonedElements, boolean isRevapi) {
         String dataFolder = "data";
         String subfolderPath = dataFolder + File.separator + buCommit;
         ObjectMapper objectMapper = new ObjectMapper();
@@ -254,8 +252,8 @@ public class CompileErrorExtractor {
         }
     }
 
-    private static Map<String, Set<String>> readXMLFilesFromSubfolder(String subfolderPath,
-                                                                      Set<String> spoonedElements) {
+    private Map<String, Set<String>> readXMLFilesFromSubfolder(String subfolderPath,
+                                                               Set<String> spoonedElements) {
         Map<String, Set<String>> japicmpResult = new HashMap<>();
         File subfolder = new File(subfolderPath);
         if (subfolder.exists() && subfolder.isDirectory()) {
@@ -291,7 +289,7 @@ public class CompileErrorExtractor {
         return japicmpResult;
     }
 
-    private static Set<String> searchAndExtractXML(Element root, String searchWord) {
+    private Set<String> searchAndExtractXML(Element root, String searchWord) {
         NodeList classNodes = root.getElementsByTagName("*");
         Set<String> compatibilityChanges = new HashSet<>();
         for (int i = 0; i < classNodes.getLength(); i++) {
@@ -310,8 +308,8 @@ public class CompileErrorExtractor {
         return compatibilityChanges;
     }
 
-    private static Map<String, Set<String>> readJsonFilesFromSubfolder(String subfolderPath, ObjectMapper objectMapper,
-                                                                       Set<String> spoonedElements) {
+    private Map<String, Set<String>> readJsonFilesFromSubfolder(String subfolderPath, ObjectMapper objectMapper,
+                                                                Set<String> spoonedElements) {
         Map<String, Set<String>> revapiResult = new HashMap<>();
         File subfolder = new File(subfolderPath);
         if (subfolder.exists() && subfolder.isDirectory()) {
@@ -336,7 +334,7 @@ public class CompileErrorExtractor {
         return revapiResult;
     }
 
-    private static Set<String> searchAndExtractJson(JsonNode node, String searchWord, JsonNode code) {
+    private Set<String> searchAndExtractJson(JsonNode node, String searchWord, JsonNode code) {
         Set<String> uniqueCodeValues = new HashSet<>();
         if (node.isArray()) {
             for (JsonNode childNode : node) {
@@ -367,10 +365,7 @@ public class CompileErrorExtractor {
         return uniqueCodeValues;
     }
 
-    private static void writeToFile(Map<String, Object> analyserResults) {
-    }
-
-    private static void removeProject(String image, Path projectPath) {
+    private void removeProject(String image, Path projectPath) {
         List<Container> containers = dockerClient.listContainersCmd().exec();
         for (Container container : containers) {
             dockerClient.stopContainerCmd(container.getId()).exec();
@@ -384,7 +379,7 @@ public class CompileErrorExtractor {
         }
     }
 
-    private static void createDockerClient() {
+    private void createDockerClient() {
         DockerClientConfig clientConfig = DefaultDockerClientConfig.createDefaultConfigBuilder()
                 .withRegistryUrl("https://hub.docker.com")
                 .build();

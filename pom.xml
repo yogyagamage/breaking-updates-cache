@@ -60,7 +60,7 @@
                         <configuration>
                             <archive>
                                 <manifest>
-                                    <mainClass>analyser.CompileErrorExtractor</mainClass>
+                                    <mainClass>analyser.Main</mainClass>
                                 </manifest>
                             </archive>
                             <finalName>analyser</finalName>
