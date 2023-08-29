@@ -8,7 +8,6 @@ import com.github.dockerjava.api.command.CreateContainerCmd;
 import com.github.dockerjava.api.command.CreateContainerResponse;
 import com.github.dockerjava.api.command.PullImageResultCallback;
 import com.github.dockerjava.api.exception.NotFoundException;
-import com.github.dockerjava.api.model.Container;
 import com.github.dockerjava.core.DefaultDockerClientConfig;
 import com.github.dockerjava.core.DockerClientConfig;
 import com.github.dockerjava.core.DockerClientImpl;
@@ -44,15 +43,13 @@ import java.util.*;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-import static java.util.Map.entry;
-
 public class CompileErrorExtractor {
 
     private static final String BREAKING_UPDATE_CONTAINER_TAG = "-breaking";
     private static final String REGISTRY = "ghcr.io/chains-project/breaking-updates";
     private static final Logger log = LoggerFactory.getLogger(CompileErrorExtractor.class);
     private static DockerClient dockerClient;
-    private static List<String> containers;
+    private static final List<String> containers = new ArrayList<>();
 
     public void runAnalyser(Path benchmarkDir, Path logDir) {
         File[] breakingUpdates = benchmarkDir.toFile().listFiles();
@@ -77,45 +74,51 @@ public class CompileErrorExtractor {
                 Map<String, Object> compileErrorCauses = new HashMap<>();
                 Map<String, Object> bu = JsonUtils.readFromFile(breakingUpdate.toPath(), jsonType);
                 if (bu.get("failureCategory").equals("COMPILATION_FAILURE") && !analyserResults.containsKey((String) bu.get("breakingCommit"))) {
-                    Map<String, Set<Integer>> lines =
+                    Map<String, Map<Integer, String>> lines =
                             extractLineNumbersWithPaths(logDir + "/" + bu.get("breakingCommit") + ".log");
                     String image = REGISTRY + ":" + bu.get("breakingCommit") + BREAKING_UPDATE_CONTAINER_TAG;
                     Path projectPath = copyProject(image, (String) bu.get("project"));
                     if (projectPath == null)
                         continue;
-                    AbstractMap<Set<String>, Set<String>> spoonedElements = new HashMap<>();
-                    for (Map.Entry<String, Set<Integer>> entry : lines.entrySet()) {
-                        spoonedElements.putAll(applySpoon(projectPath + entry.getKey(), entry.getValue(),
-                                ((Map<String, String>) bu.get("updatedDependency")).get("dependencyGroupID")
-                                        .replace("-", ".")));
-                    }
-                    Map<String, Set<String>> revapiResults = new HashMap<>();
-                    Map<String, Set<String>> japicmpResults = new HashMap<>();
+                    Set<String> spoonedElements = new HashSet<>();
                     Set<String> allCtElements = new HashSet<>();
-                    for (Map.Entry<Set<String>, Set<String>> entry : spoonedElements.entrySet()) {
-                        revapiResults.putAll(extractResult((String) bu.get("breakingCommit"), entry.getKey(), true));
-                        japicmpResults.putAll(extractResult((String) bu.get("breakingCommit"), entry.getKey(), false));
-                        allCtElements.addAll(entry.getValue());
+                    Map<String, String> elementLines = new HashMap<>();
+                    Map<String, String> elementPatterns = new HashMap<>();
+                    for (Map.Entry<String, Map<Integer, String>> entry : lines.entrySet()) {
+                        List<Object> spoonResult = applySpoon(projectPath + entry.getKey(), entry.getValue(),
+                                ((Map<String, String>) bu.get("updatedDependency")).get("dependencyGroupID")
+                                        .replace("-", "."));
+                        spoonedElements.addAll((Collection<? extends String>) spoonResult.get(0));
+                        allCtElements.addAll((Collection<? extends String>) spoonResult.get(1));
+                        elementLines.putAll((Map<? extends String, ? extends String>) spoonResult.get(2));
+                        elementPatterns.putAll((Map<? extends String, ? extends String>) spoonResult.get(3));
                     }
+                    Map<String, Set<String>> revapiResults = new HashMap<>
+                            (extractResult((String) bu.get("breakingCommit"), spoonedElements, true));
+                    Map<String, Set<String>> japicmpResults = new HashMap<>
+                            (extractResult((String) bu.get("breakingCommit"), spoonedElements, false));
+
                     compileErrorCauses.put("revapiResult", revapiResults);
                     compileErrorCauses.put("japicmpResult", japicmpResults);
                     compileErrorCauses.put("allPotentialBreakingElements", allCtElements);
+                    compileErrorCauses.put("elementLines", elementLines);
+                    compileErrorCauses.put("elementPatterns", elementPatterns);
                     analyserResults.put((String) bu.get("breakingCommit"), compileErrorCauses);
                     removeProject(image, projectPath);
                     temp += 1;
                     if (temp > 5) {
                         JsonUtils.writeToFile(analyserResultsFilePath, analyserResults);
+                        System.out.println("written to file");
                         temp = 0;
                     }
                 }
             }
         }
-        log.info("Analysis Results: {}", analyserResults);
         JsonUtils.writeToFile(analyserResultsFilePath, analyserResults);
     }
 
-    private Map<String, Set<Integer>> extractLineNumbersWithPaths(String logFilePath) {
-        Map<String, Set<Integer>> lineNumbersWithPaths = new HashMap<>();
+    private Map<String, Map<Integer, String>> extractLineNumbersWithPaths(String logFilePath) {
+        Map<String, Map<Integer, String>> lineNumbersWithPaths = new HashMap<>();
         try {
             FileInputStream fileInputStream = new FileInputStream(logFilePath);
             InputStreamReader inputStreamReader = new InputStreamReader(fileInputStream, StandardCharsets.ISO_8859_1);
@@ -126,22 +129,22 @@ public class CompileErrorExtractor {
             Pattern pathPattern = Pattern.compile("/[^:/]+(/[^\\[\\]:]+)");
 
             while ((line = reader.readLine()) != null) {
+                Map<Integer, String> lines = new HashMap<>();
                 Matcher matcher = errorPattern.matcher(line);
                 if (matcher.find()) {
                     Integer lineNumber = Integer.valueOf(matcher.group(1));
                     Matcher pathMatcher = pathPattern.matcher(line);
+                    lines.put(lineNumber, line);
                     if (pathMatcher.find()) {
                         currentPath = pathMatcher.group();
                     }
                     if (currentPath != null) {
                         if (lineNumbersWithPaths.containsKey(currentPath))
-                            lineNumbersWithPaths.get(currentPath).add(lineNumber);
+                            lineNumbersWithPaths.get(currentPath).putAll(lines);
                         else {
-                            Set<Integer> lineNumbers = new HashSet<>();
-                            lineNumbers.add(lineNumber);
-                            lineNumbersWithPaths.put(currentPath, lineNumbers);
+                            lineNumbersWithPaths.put(currentPath, lines);
                         }
-                        log.info("Error Line Number: {} path: {}", lineNumber, currentPath);
+                        log.info("Error Line Number: {} path: {}", lines, currentPath);
                     }
                 }
             }
@@ -161,7 +164,7 @@ public class CompileErrorExtractor {
                 dockerClient.pullImageCmd(image)
                         .exec(new PullImageResultCallback())
                         .awaitCompletion();
-            } catch (InterruptedException ex) {
+            } catch (Exception ex) {
                 return null;
             }
         }
@@ -199,8 +202,7 @@ public class CompileErrorExtractor {
         }
     }
 
-    private Map<Set<String>, Set<String>> applySpoon
-            (String projectFilePath, Set<Integer> lineNumbers, String depGrpID) {
+    private List<Object> applySpoon(String projectFilePath, Map<Integer, String> lineNumbers, String depGrpID) {
         Launcher spoon = new Launcher();
         spoon.addInputResource(projectFilePath);
         spoon.buildModel();
@@ -208,24 +210,33 @@ public class CompileErrorExtractor {
         return getElementFromSourcePosition(spoon.getModel(), lineNumbers, depGrpID);
     }
 
-    private Map<Set<String>, Set<String>> getElementFromSourcePosition
-            (CtModel model, Set<Integer> startLines, String depGrpId) {
+    private List<Object> getElementFromSourcePosition(CtModel model, Map<Integer, String> startLines, String depGrpId) {
         Set<String> elements = new HashSet<>();
         Set<String> elementStrings = new HashSet<>();
+        Map<String, String> elementLines = new HashMap<>();
+        Map<String, String> elementPatterns = new HashMap<>();
         CtType<?> clazz = model.getAllTypes().iterator().next();
         for (CtElement e : clazz.getElements(new TypeFilter<>(CtElement.class))) {
-            if (!e.isImplicit() && e.getPosition().isValidPosition() && startLines.contains(e.getPosition().getLine())) {
+            if (!e.isImplicit() && e.getPosition().isValidPosition() && startLines.containsKey(e.getPosition().getLine())) {
                 if (e instanceof CtInvocation<?>) {
                     elements.add(String.valueOf(((CtInvocation<?>) e).getExecutable()));
-                    elementStrings.add(parseProject(((CtInvocation<?>) e).getExecutable(), depGrpId));
+                    String parsedElement = parseProject(((CtInvocation<?>) e).getExecutable(), depGrpId);
+                    elementStrings.add(parsedElement);
+                    elementLines.put(parsedElement, startLines.get(e.getPosition().getLine()));
+                    elementPatterns.put(parsedElement, replacePatterns(startLines.get(e.getPosition().getLine())));
                 }
                 if (e instanceof CtConstructorCall<?>) {
                     elements.add(String.valueOf(((CtConstructorCall<?>) e).getExecutable()));
-                    elementStrings.add(parseProject(((CtConstructorCall<?>) e).getExecutable(), depGrpId));
+                    String parsedElement = parseProject(((CtConstructorCall<?>) e).getExecutable(), depGrpId);
+                    elementStrings.add(parsedElement);
+                    elementLines.put(parsedElement, startLines.get(e.getPosition().getLine()));
+                    elementPatterns.put(parsedElement, replacePatterns(startLines.get(e.getPosition().getLine())));
                 }
             }
         }
-        return Map.ofEntries(entry(elementStrings, elements));
+        // This is not good coding. Just adding the outputs to a list this way to quickly get the results,
+        // without worrying about creating classes.
+        return new ArrayList<>(List.of(elementStrings, elements, elementLines, elementPatterns));
     }
 
     private String parseProject(CtElement e, String dependencyGrpID) {
@@ -367,11 +378,46 @@ public class CompileErrorExtractor {
         return uniqueCodeValues;
     }
 
+    public String replacePatterns(String line) {
+        Map<String, String> patternMap = new HashMap<>();
+        patternMap.put("package \\S+ does not exist", "package does not exist");
+        patternMap.put("cannot access \\S+", "cannot access");
+        patternMap.put("incompatible types: [^\\n]+ cannot be converted to", "incompatible types: cannot be converted to");
+        patternMap.put("incompatible types: [^\\n]+ is not a functional interface", "incompatible types: is not a functional interface");
+        patternMap.put("method [^\\n]+ cannot be applied to given types", "method cannot be applied to given types");
+        patternMap.put("constructor \\S+ in class \\S+ cannot be applied to given types", "constructor in class cannot be applied to given types");
+        patternMap.put("[^\\n]+ has private access in", "has private access in");
+        patternMap.put("no suitable constructor found for", "no suitable constructor found for");
+        patternMap.put("no suitable method found for", "no suitable method found for");
+        patternMap.put("is not abstract and does not override abstract method", "is not abstract and does not override abstract method");
+        patternMap.put("unreported exception \\S+ must be caught or declared to be thrown", "unreported exception must be caught or declared to be thrown");
+        patternMap.put("incompatible types: bad return type in lambda expression", "incompatible types: bad return type in lambda expression");
+        patternMap.put("cannot find symbol", "cannot find symbol");
+        patternMap.put("method does not override or implement a method from a supertype", "method does not override or implement a method from a supertype");
+        patternMap.put("reference to \\S+ is ambiguous", "reference to is ambiguous");
+        patternMap.put("static import only from classes and interfaces", "static import only from classes and interfaces");
+        patternMap.put("exception \\S+ is never thrown in body of corresponding try statement", "exception is never thrown in body of corresponding try statement");
+        patternMap.put("Couldn't retrieve \\S+ annotation", "Couldn't retrieve annotation");
+
+        for (Map.Entry<String, String> entry : patternMap.entrySet()) {
+            String patternToRemove = entry.getKey();
+            String patternToSub = entry.getValue();
+            if (line.matches(".*" + patternToRemove + ".*")) {
+                return patternToSub;
+            }
+        }
+        return line;
+    }
+
     private void removeProject(String image, Path projectPath) {
-        for (String container : containers) {
-            dockerClient.stopContainerCmd(container).exec();
-            dockerClient.removeContainerCmd(container).exec();
-            containers.remove(container);
+        try {
+            for (String container : containers) {
+                dockerClient.stopContainerCmd(container).exec();
+                dockerClient.removeContainerCmd(container).exec();
+            }
+            containers.clear();
+        } catch (Exception e) {
+            e.printStackTrace();
         }
         dockerClient.removeImageCmd(image).withForce(true).exec();
         try {
