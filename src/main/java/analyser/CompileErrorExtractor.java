@@ -144,7 +144,6 @@ public class CompileErrorExtractor {
                         else {
                             lineNumbersWithPaths.put(currentPath, lines);
                         }
-                        log.info("Error Line Number: {} path: {}", lines, currentPath);
                     }
                 }
             }
@@ -221,16 +220,20 @@ public class CompileErrorExtractor {
                 if (e instanceof CtInvocation<?>) {
                     elements.add(String.valueOf(((CtInvocation<?>) e).getExecutable()));
                     String parsedElement = parseProject(((CtInvocation<?>) e).getExecutable(), depGrpId);
-                    elementStrings.add(parsedElement);
-                    elementLines.put(parsedElement, startLines.get(e.getPosition().getLine()));
-                    elementPatterns.put(parsedElement, replacePatterns(startLines.get(e.getPosition().getLine())));
+                    if (parsedElement != null) {
+                        elementStrings.add(parsedElement);
+                        elementLines.put(parsedElement, startLines.get(e.getPosition().getLine()));
+                        elementPatterns.put(parsedElement, replacePatterns(startLines.get(e.getPosition().getLine())));
+                    }
                 }
                 if (e instanceof CtConstructorCall<?>) {
                     elements.add(String.valueOf(((CtConstructorCall<?>) e).getExecutable()));
                     String parsedElement = parseProject(((CtConstructorCall<?>) e).getExecutable(), depGrpId);
-                    elementStrings.add(parsedElement);
-                    elementLines.put(parsedElement, startLines.get(e.getPosition().getLine()));
-                    elementPatterns.put(parsedElement, replacePatterns(startLines.get(e.getPosition().getLine())));
+                    if (parsedElement != null) {
+                        elementStrings.add(parsedElement);
+                        elementLines.put(parsedElement, startLines.get(e.getPosition().getLine()));
+                        elementPatterns.put(parsedElement, replacePatterns(startLines.get(e.getPosition().getLine())));
+                    }
                 }
             }
         }
@@ -412,7 +415,6 @@ public class CompileErrorExtractor {
     private void removeProject(String image, Path projectPath) {
         try {
             for (String container : containers) {
-                dockerClient.stopContainerCmd(container).exec();
                 dockerClient.removeContainerCmd(container).exec();
             }
             containers.clear();
